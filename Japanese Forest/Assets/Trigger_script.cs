@@ -12,7 +12,7 @@ public class Trigger_script : MonoBehaviour {
 	
 	// Update is called once per frame
 	void OnTriggerExit () {
-        print("Be back soon!");
+        print("Come back soon!");
 		
 	}
 }
