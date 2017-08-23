@@ -6,13 +6,13 @@ public class Trigger_script : MonoBehaviour {
 
 	// Use this for initialization
 	void OnTriggerEnter () {
-        print("Welcome!")
+        print("Welcome!");
 		
 	}
 	
 	// Update is called once per frame
 	void OnTriggerExit () {
-        print("Be back soon!")
+        print("Be back soon!");
 		
 	}
 }
