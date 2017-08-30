@@ -12,11 +12,12 @@ public class MoveCharacter : MonoBehaviour {
 
     void Start () {
 		cc = GetComponent<CharacterController>();
-		MoveInput.KeyAction = Move;
+		MoveInput.KeyAction += Move;
 	}
 
 	void Move (float _movement) {
 		tempMove.x = _movement*speed*Time.deltaTime;
+		print("move");
 		cc.Move(tempMove);
 	}
 }
