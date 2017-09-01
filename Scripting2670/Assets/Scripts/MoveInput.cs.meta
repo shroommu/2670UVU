@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 999147c4091903c4b83ae74f1671274a
 timeCreated: 1504122239
 licenseType: Free
+=======
+guid: 68f60d9177b933742b8934d0cdbc5cdc
+timeCreated: 1503947088
+licenseType: Pro
+>>>>>>> parent of f2cdda1... Added Flip and Animate to the KeyAction Action
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []
