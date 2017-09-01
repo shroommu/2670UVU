@@ -14,6 +14,7 @@ public class AnimateCharacter : MonoBehaviour {
 
 	void OnPlay () {
 		MoveInput.KeyAction += Animate;
+		anims.SetTrigger("IsLoaded");
 		PlayButton.Play -= OnPlay;
 	}
 

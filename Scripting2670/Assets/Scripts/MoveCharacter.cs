@@ -9,6 +9,8 @@ public class MoveCharacter : MonoBehaviour {
 	CharacterController cc;
 	Vector3 tempMove;
     public float speed = 5;
+    public float gravity = 1;
+    public float jumpHeight = 0.2f;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
@@ -16,13 +18,18 @@ public class MoveCharacter : MonoBehaviour {
 	}
 
 	void OnPlay () {
+		MoveInput.JumpAction = Jump;
 		MoveInput.KeyAction += Move;
 		PlayButton.Play -= OnPlay;
 	}
 
+	void Jump () {
+		tempMove.y = jumpHeight;
+	}
+
 	void Move (float _movement) {
+		tempMove.y -= gravity*Time.deltaTime;
 		tempMove.x = _movement*speed*Time.deltaTime;
-		print("move");
 		cc.Move(tempMove);
 	}
 }
