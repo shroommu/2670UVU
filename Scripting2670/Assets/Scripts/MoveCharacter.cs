@@ -12,7 +12,12 @@ public class MoveCharacter : MonoBehaviour {
 
     void Start () {
 		cc = GetComponent<CharacterController>();
+		PlayButton.Play += OnPlay;
+	}
+
+	void OnPlay () {
 		MoveInput.KeyAction += Move;
+		PlayButton.Play -= OnPlay;
 	}
 
 	void Move (float _movement) {
