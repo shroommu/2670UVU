@@ -108,7 +108,6 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &33018331
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,18 +477,13 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
 --- !u!1 &114926189
-=======
---- !u!1 &89622624
->>>>>>> parent of ca64577... designed first level for game design assignment
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 114926193}
   - component: {fileID: 114926192}
   - component: {fileID: 114926191}
@@ -609,16 +603,6 @@ Transform:
   m_Father: {fileID: 1764238143}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -59.084003}
-=======
-  m_GameObject: {fileID: 89622624}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of ca64577... designed first level for game design assignment
 --- !u!1 &118967971
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,11 +746,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-<<<<<<< HEAD
   randomSeed: 1522332554
-=======
-  randomSeed: 0
->>>>>>> parent of ca64577... designed first level for game design assignment
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3896,93 +3876,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-<<<<<<< HEAD
 --- !u!1 &181503005
-=======
---- !u!1 &153719783
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 153719787}
-  - component: {fileID: 153719786}
-  - component: {fileID: 153719785}
-  - component: {fileID: 153719784}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &153719784
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 153719783}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &153719785
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 153719783}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &153719786
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 153719783}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &153719787
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 153719783}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14804, y: 0.64, z: 0.14649105}
-  m_LocalScale: {x: 4.9952755, y: 0.1798004, z: 3.981263}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &229831239
->>>>>>> parent of ca64577... designed first level for game design assignment
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100036, guid: ed4b3f4613faf46d58af2eec0104d675, type: 2}
@@ -4504,15 +4398,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1764238143}
   m_RootOrder: 8
-=======
-  m_GameObject: {fileID: 373460914}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9, y: 0, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 910400333}
-  m_RootOrder: 0
->>>>>>> parent of ca64577... designed first level for game design assignment
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &373460916
 MonoBehaviour:
@@ -4582,6 +4467,94 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+--- !u!114 &223468102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 223468101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &223468103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 223468101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &223468104
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 223468101}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &223468105
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 206355108}
+  m_LocalRotation: {x: -0, y: -0, z: -0.13052624, w: 0.9914449}
+  m_LocalPosition: {x: -9.167526, y: -6.0282717, z: -9.797403}
+  m_LocalScale: {x: 3.6966708, y: 5.718208, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1764238143}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -15}
+--- !u!1 &223468101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 223468105}
+  - component: {fileID: 223468104}
+  - component: {fileID: 223468103}
+  - component: {fileID: 223468102}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!114 &223468102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5570,11 +5543,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-<<<<<<< HEAD
   randomSeed: -1620170171
-=======
-  randomSeed: 0
->>>>>>> parent of ca64577... designed first level for game design assignment
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -8780,15 +8749,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1764238143}
   m_RootOrder: 24
-=======
-  m_GameObject: {fileID: 474173304}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.25, y: -0.03, z: 0.14649105}
-  m_LocalScale: {x: 4.9952755, y: 0.1798004, z: 3.981263}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
->>>>>>> parent of ca64577... designed first level for game design assignment
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554343081
 GameObject:
@@ -8890,33 +8850,9 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 25.19}
 --- !u!1 &497946363
 GameObject:
-=======
-  m_RenderMode: 1
-  m_SortMode: 0
-  m_MinParticleSize: 0
-  m_MaxParticleSize: 50
-  m_CameraVelocityScale: 0
-  m_VelocityScale: 0
-  m_LengthScale: 1.94
-  m_SortingFudge: 0
-  m_NormalDirection: 0
-  m_RenderAlignment: 0
-  m_Pivot: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
-  m_VertexStreams: 0001030405
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
-  m_Mesh1: {fileID: 0}
-  m_Mesh2: {fileID: 0}
-  m_Mesh3: {fileID: 0}
-  m_MaskInteraction: 0
---- !u!198 &554343084
-ParticleSystem:
->>>>>>> parent of ca64577... designed first level for game design assignment
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 19850534, guid: ed4b3f4613faf46d58af2eec0104d675,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   serializedVersion: 5
   m_Component:
   - component: {fileID: 497946364}
@@ -9213,11 +9149,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-<<<<<<< HEAD
   randomSeed: -283760544
-=======
-  randomSeed: 0
->>>>>>> parent of ca64577... designed first level for game design assignment
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -14447,18 +14379,9 @@ GameObject:
   m_IsActive: 1
 --- !u!224 &1316480970
 RectTransform:
-=======
-  m_Father: {fileID: 718880037}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -16.479797}
---- !u!212 &564613406
-SpriteRenderer:
->>>>>>> parent of ca64577... designed first level for game design assignment
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 21200032, guid: ed4b3f4613faf46d58af2eec0104d675,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1316480969}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -14906,6 +14829,13 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 0}
 <<<<<<< HEAD
   m_GameObject: {fileID: 1404313579}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1404313583
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404313579}
   m_LocalRotation: {x: -0, y: -0, z: 0.60876137, w: 0.7933534}
   m_LocalPosition: {x: 7.2024746, y: -5.7482715, z: -9.797403}
   m_LocalScale: {x: 9.023092, y: 3.2832434, z: 1}
@@ -15177,38 +15107,23 @@ Transform:
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -60}
 --- !u!1 &1448641926
-=======
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1392692982
->>>>>>> parent of ca64577... designed first level for game design assignment
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100024, guid: ed4b3f4613faf46d58af2eec0104d675, type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 1448641930}
   - component: {fileID: 1448641929}
   - component: {fileID: 1448641928}
   - component: {fileID: 1448641927}
   m_Layer: 0
   m_Name: Cube (56)
-=======
-  - component: {fileID: 1392692983}
-  - component: {fileID: 1392692984}
-  m_Layer: 12
-  m_Name: Abs
->>>>>>> parent of ca64577... designed first level for game design assignment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!65 &1448641927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15217,6 +15132,16 @@ BoxCollider:
   m_GameObject: {fileID: 1448641926}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1448641928
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1448641926}
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -15393,15 +15318,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1764238143}
   m_RootOrder: 5
-=======
-  m_GameObject: {fileID: 1420355575}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.88, y: -0.03, z: 0.14649105}
-  m_LocalScale: {x: 4.9952755, y: 0.1798004, z: 3.981263}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
->>>>>>> parent of ca64577... designed first level for game design assignment
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1510124196
 GameObject:
@@ -15562,11 +15478,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-<<<<<<< HEAD
   randomSeed: 109819151
-=======
-  randomSeed: 0
->>>>>>> parent of ca64577... designed first level for game design assignment
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -18817,9 +18729,6 @@ Transform:
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 85.415}
 --- !u!1 &1588206780
-=======
---- !u!1 &1612666129
->>>>>>> parent of ca64577... designed first level for game design assignment
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -18842,7 +18751,6 @@ Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1588206780}
   m_LocalRotation: {x: -0, y: -0, z: 0.4559568, w: 0.89000195}
   m_LocalPosition: {x: 34.89, y: -8.87, z: -9.797403}
@@ -18853,24 +18761,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 54.253002}
 --- !u!23 &1588206782
 MeshRenderer:
-=======
-  m_GameObject: {fileID: 1612666129}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2011839793}
-  m_Father: {fileID: 341660094}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -117, y: -92}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1612666131
-MonoBehaviour:
->>>>>>> parent of ca64577... designed first level for game design assignment
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -18906,7 +18796,6 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1588206780}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -18921,88 +18810,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1588206780}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-=======
-  m_GameObject: {fileID: 1612666129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1612666133}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1612666131}
-        m_MethodName: PushPlay
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1612666133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1612666129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1612666134
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1612666129}
->>>>>>> parent of ca64577... designed first level for game design assignment
 --- !u!1 &1742574865
 GameObject:
   m_ObjectHideFlags: 0
@@ -19182,19 +18989,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
-  m_SortingOrder: 11
-  m_Sprite: {fileID: 21300028, guid: 123a833d2638d464b99542fe3984638e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
->>>>>>> parent of ca64577... designed first level for game design assignment
 --- !u!1 &1775461896
 GameObject:
   m_ObjectHideFlags: 0
@@ -19357,8 +19151,6 @@ Transform:
   m_Father: {fileID: 1764238143}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.762}
-=======
->>>>>>> parent of ca64577... designed first level for game design assignment
 --- !u!1 &1791437400
 GameObject:
   m_ObjectHideFlags: 0
@@ -19439,7 +19231,6 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1812987710
-<<<<<<< HEAD
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100018, guid: ed4b3f4613faf46d58af2eec0104d675, type: 2}
@@ -19595,8 +19386,6 @@ Transform:
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.0130005}
 --- !u!1 &1823091891
-=======
->>>>>>> parent of ca64577... designed first level for game design assignment
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -19658,7 +19447,6 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-<<<<<<< HEAD
   m_SortingOrder: 0
 --- !u!65 &1823091894
 BoxCollider:
@@ -19680,20 +19468,6 @@ MeshFilter:
   m_GameObject: {fileID: 1823091891}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1842166504
-=======
-  m_SortingOrder: 23
-  m_Sprite: {fileID: 21300010, guid: 123a833d2638d464b99542fe3984638e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!1 &1823481204
->>>>>>> parent of ca64577... designed first level for game design assignment
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -19776,16 +19550,6 @@ Transform:
   m_Father: {fileID: 1764238143}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 75}
-=======
-  m_GameObject: {fileID: 1823481204}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.31, y: 0.71, z: 0.14649105}
-  m_LocalScale: {x: 4.9952755, y: 0.1798004, z: 3.981263}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of ca64577... designed first level for game design assignment
 --- !u!1 &1851903688
 GameObject:
   m_ObjectHideFlags: 0
@@ -19932,7 +19696,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
 --- !u!1 &1959487824
 GameObject:
   m_ObjectHideFlags: 0
@@ -20222,7 +19985,6 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1981003507}
-<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: 0.17364816, z: -0, w: 0.9848078}
   m_LocalPosition: {x: 1.9, y: 0.53999996, z: -9.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -20325,18 +20087,13 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
 --- !u!1 &2012512411
-=======
---- !u!1 &2011839792
->>>>>>> parent of ca64577... designed first level for game design assignment
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 2012512415}
   - component: {fileID: 2012512414}
   - component: {fileID: 2012512413}
@@ -20584,65 +20341,6 @@ Transform:
   m_Father: {fileID: 1764238143}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -85.04}
-=======
---- !u!224 &2011839793
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2011839792}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1612666130}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2011839794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2011839792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Play
---- !u!222 &2011839795
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2011839792}
->>>>>>> parent of ca64577... designed first level for game design assignment
 --- !u!1 &2041684855
 GameObject:
   m_ObjectHideFlags: 0
@@ -20791,7 +20489,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
 --- !u!1 &2106418612
 GameObject:
   m_ObjectHideFlags: 0
