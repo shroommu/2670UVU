@@ -5,6 +5,7 @@ using UnityEngine;
 public class ItemPickup : MonoBehaviour {
 
 	public GameObject pickupObj;
+	private bool triggered;
 
 	// Use this for initialization
 	void Start () {
@@ -19,8 +20,14 @@ public class ItemPickup : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{
 		print("Item Collected");
+		triggered = true;
 		Destroy(pickupObj);
 	}
 		
-	
+	void OnGUI () {
+   		if (triggered = true) {
+        	GUILayout.Label("Text");
+			print("GUI text displayed");
+		}
+	}
 }

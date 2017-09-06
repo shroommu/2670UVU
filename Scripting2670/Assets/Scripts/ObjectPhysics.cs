@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObjectPhysics : MonoBehaviour {
 
 	public float pushPower = 2.0f;
-	public Collider collider;
+	public RigidBody object;
 
 	void OnControllerColliderHit(ControllerColliderHit hit)
 	{
