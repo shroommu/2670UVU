@@ -6,6 +6,7 @@ public class MoveInput : MonoBehaviour {
 
 	public static Action<float> KeyAction;
 	public static Action JumpAction;
+	public static Action InteractAction;
 
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Space) )
@@ -18,5 +19,11 @@ public class MoveInput : MonoBehaviour {
 		{
 			KeyAction(Input.GetAxis("Horizontal"));
 		} 
+
+		if (Input.GetKeyDown(KeyCode.E) )
+		{
+			InteractAction();
+			print("Interacting");
+		}
 	}
 }

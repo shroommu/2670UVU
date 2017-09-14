@@ -6,14 +6,16 @@ public class EnemyPatrolY : MonoBehaviour {
 
 	public Transform enemy;
 	public float enemySpeed;
+	public Collider patrolTrigger;
 
 	void Update(){
 		enemy.transform.position += new Vector3(0, enemySpeed*Time.deltaTime, 0);
 	}
 
 	void OnTriggerEnter () {
-		enemySpeed = -enemySpeed;
-		print("Hit Trigger");
+		if (patrolTrigger.tag == "Enemy"){
+			enemySpeed = -enemySpeed;
+		}
 	}
 
 }

@@ -22,6 +22,13 @@ public class MoveCharacter : MonoBehaviour {
 		if (cc.isGrounded && jumpNum > 0){
 			jumpNum = 0;
 		}
+		if (cc.transform.position.z != 0){
+			Vector3 temp = cc.transform.position;
+ 			temp.z = 0;
+ 			transform.position = temp; 
+		}
+
+		//transform.position.z = 0;
 	}
 	//enables inputs once play button pressed
 	void OnPlay () {

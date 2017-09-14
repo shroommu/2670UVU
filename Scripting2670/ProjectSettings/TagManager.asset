@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - JumpThrough
+  - JumpThroughPlat
+  - Pickup
+  - Dropoff
+  - Enemy
+  - EnemyPatrol
   layers:
   - Default
   - TransparentFX

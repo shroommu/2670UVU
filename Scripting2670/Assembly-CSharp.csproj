@@ -51,13 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FallingTree.cs" />
      <Compile Include="Assets\Scripts\AnimateCharacter.cs" />
      <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Scripts\EnemyPatrolX.cs" />
      <Compile Include="Assets\Scripts\EnemyPatrolY.cs" />
      <Compile Include="Assets\Scripts\FlipCharacter.cs" />
      <Compile Include="Assets\Scripts\ItemDropoff.cs" />
-     <Compile Include="Assets\Scripts\ItemPickup.cs" />
+     <Compile Include="Assets\Scripts\ItemManagement.cs" />
+     <Compile Include="Assets\Scripts\JumpThrough.cs" />
      <Compile Include="Assets\Scripts\MoveCharacter.cs" />
      <Compile Include="Assets\Scripts\MoveInput.cs" />
      <Compile Include="Assets\Scripts\ObjectPhysics.cs" />

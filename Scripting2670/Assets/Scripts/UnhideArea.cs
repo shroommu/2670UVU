@@ -16,17 +16,19 @@ public class UnhideArea : MonoBehaviour {
 		PlayButton.Play -= OnPlay;
 	}
 
-	void OnTriggerEnter(Collider other)
-	{
-		print("Hidden Area Found");
-		//coverObj.SetActive(false);
-		render.enabled = false;
+	void OnTriggerEnter(Collider other){
+		if(other.tag == "Player"){
+			print("Hidden Area Found");
+			//coverObj.SetActive(false);
+			render.enabled = false;
+		}
 	}
 
-	void OnTriggerExit(Collider other)
-	{
-		print("Left Hidden Area");
-		//coverObj.SetActive(true);
-		render.enabled = true;
+	void OnTriggerExit(Collider other){
+		if(other.tag == "Player"){
+			print("Left Hidden Area");
+			//coverObj.SetActive(true);
+			render.enabled = true;
+		}
 	}
 }

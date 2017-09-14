@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: f62aa3fbba2e0264c8217e9f010a8dd4
+  - enabled: 1
+    path: Assets/Scenes/TriggerEvents.unity
+    guid: 368bbff55965c9344a8a7cb412263235
