@@ -5,17 +5,19 @@ using UnityEngine.UI;
 
 public class ItemManagement : MonoBehaviour {
 
-	public GameObject pickupObj;
-	public GameObject dropoffObj;
+	public GameObject[] pickupObjs;
+	//public GameObject dropoffObj;
 	public Text scoreText;
 	public Text messageText;
 	private string message;
-    private int score;
+    public static int score;
 
 	// Use this for initialization
 	void Start () {
 		PlayButton.Play += OnPlay;
 		score = 0;
+		pickupObjs = GameObject.FindGameObjectsWithTag("Pickup");
+		//print(pickupObjs[,]);
 	}
 
 	void OnPlay () {
@@ -25,19 +27,21 @@ public class ItemManagement : MonoBehaviour {
 	// Update is called once per frame
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Pickup"){
-			Destroy(pickupObj);
-			++score;
-			UpdateScore ();
-			message = "Item Collected";
-			DisplayGUIText();
+			print("Picking Up");
+
+			//Destroy(pickupObj);
+			//++score;
+			//UpdateScore ();
+			//message = "Item Collected";
+			//DisplayGUIText();
 		}
-		if (other.tag == "Dropoff" && score > 0){
+		/*if (other.tag == "Dropoff" && score > 0){
 			--score;
 			UpdateScore ();
 			message = "Item Deposited";
 			DisplayGUIText();
 		}
-		/*if (dropoffObj.tag == "Dropoff" && score <= 0){
+		if (other.tag == "Dropoff" && score <= 0){
 			message = "Inventory Empty";
 			DisplayGUIText();
 		}*/
