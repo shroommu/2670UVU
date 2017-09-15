@@ -29,4 +29,10 @@
  <Element Name="BG" ID="6" Folder="BG">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
+ <Element Name="VertTracking" ID="7" Folder="VertTracking">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="HorizTracking" ID="8" Folder="HorizTracking">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
 </SceneVersion>
