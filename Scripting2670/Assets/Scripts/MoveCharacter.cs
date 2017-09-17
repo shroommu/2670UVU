@@ -11,11 +11,10 @@ public class MoveCharacter : MonoBehaviour {
     public float speed = 5;
 	public float climbSpeed = 5;
     public float gravity = 1;
-    public float jumpHeight = 0.2f;
+    private float jumpHeight = 0.2f;
 	public int jumpNum = 0;
-	public bool climbEnabled = false;
 	public bool jumping;
-	public bool isGrounded;
+	public bool climbEnabled = false;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
@@ -27,26 +26,22 @@ public class MoveCharacter : MonoBehaviour {
 		if (cc.isGrounded && jumpNum > 0){
 			jumpNum = 0;
 		}
+
 		if (cc.transform.position.z != 0){
 			Vector3 temp = cc.transform.position;
  			temp.z = 0;
  			transform.position = temp; 
 		}
+
 		if (cc.isGrounded){
 			jumping = false;
-			isGrounded = true;
-			gravity = 0;
 		}
 
-		if (cc.isGrounded == false){
-			isGrounded = false;
-			gravity = 1;
-		}
 		if (cc.isGrounded == false && jumping == false && climbEnabled == false){
 			tempMove.y = -.5f;
 			gravity = .5f;
 		}
-		//print (transform.position.y);
+
 	}
 	//enables inputs once play button pressed
 	void OnPlay () {
