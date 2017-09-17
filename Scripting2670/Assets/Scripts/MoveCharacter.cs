@@ -7,10 +7,15 @@ public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
+	Vector3 tempClimb;
     public float speed = 5;
+	public float climbSpeed = 5;
     public float gravity = 1;
     public float jumpHeight = 0.2f;
 	public int jumpNum = 0;
+	public bool climbEnabled = false;
+	public bool jumping;
+	public bool isGrounded;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
@@ -27,20 +32,34 @@ public class MoveCharacter : MonoBehaviour {
  			temp.z = 0;
  			transform.position = temp; 
 		}
+		if (cc.isGrounded){
+			jumping = false;
+			isGrounded = true;
+			gravity = 0;
+		}
 
-		//transform.position.z = 0;
+		if (cc.isGrounded == false){
+			isGrounded = false;
+			gravity = 1;
+		}
+		if (cc.isGrounded == false && jumping == false && climbEnabled == false){
+			tempMove.y = -.5f;
+			gravity = .5f;
+		}
+		//print (transform.position.y);
 	}
 	//enables inputs once play button pressed
 	void OnPlay () {
 		MoveInput.JumpAction = Jump;
 		MoveInput.KeyAction += Move;
+		MoveInput.VertKeyAction += Climb;
 		PlayButton.Play -= OnPlay;
-		//tempMove.eulerAngles.y = Mathf.Clamp(transform.rotation.y, -30, 30);
 	}
 	
 	void Jump () {
 		//increments jump count var, performs jump
-		if (jumpNum < 2){
+		if (jumpNum < 1){
+			jumping = true;
 			++jumpNum;
 			tempMove.y = jumpHeight;
 		}
@@ -51,6 +70,30 @@ public class MoveCharacter : MonoBehaviour {
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
 	}
+	//moves character vertically
+	void Climb (float _vertmove){
+		if (climbEnabled == true){
+			tempMove.y = _vertmove*climbSpeed*Time.deltaTime;
+		}
+		if (jumpNum != 0 && climbEnabled == true){
+			jumpNum = 0;
+		}
+	}
+	//enables climbing
+	void OnTriggerEnter(Collider other){
+		if (other.tag == "Climb"){
+			climbEnabled = true;
+			gravity = 0;
+		}
+	}
+	//disables climbing
+	void OnTriggerExit(Collider other){
+		if (other.tag == "Climb"){
+			climbEnabled = false;
+			gravity = 1;
+		}
+	}
+
 	//makes speed var accessible to other scripts
 	public float GetSpeed(){
 		return speed;

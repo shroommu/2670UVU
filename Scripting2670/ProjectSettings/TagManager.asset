@@ -10,6 +10,7 @@ TagManager:
   - Dropoff
   - Enemy
   - EnemyPatrol
+  - Climb
   layers:
   - Default
   - TransparentFX

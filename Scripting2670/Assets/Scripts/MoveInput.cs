@@ -5,23 +5,25 @@ using System;
 public class MoveInput : MonoBehaviour {
 
 	public static Action<float> KeyAction;
+	public static Action<float> VertKeyAction;
 	public static Action JumpAction;
 	public static Action InteractAction;
 
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Space) )
-		{
+		if (Input.GetKeyDown(KeyCode.Space) ){
 			JumpAction();
 		}
 
 
-		if (KeyAction != null)
-		{
+		if (KeyAction != null){
 			KeyAction(Input.GetAxis("Horizontal"));
-		} 
+		}
 
-		if (Input.GetKeyDown(KeyCode.E) )
-		{
+		if (VertKeyAction != null){
+			VertKeyAction(Input.GetAxis("Vertical"));
+		}
+
+		if (Input.GetKeyDown(KeyCode.E) ){
 			InteractAction();
 			print("Interacting");
 		}
