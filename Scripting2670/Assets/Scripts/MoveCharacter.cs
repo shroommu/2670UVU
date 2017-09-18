@@ -11,7 +11,7 @@ public class MoveCharacter : MonoBehaviour {
     public float speed = 5;
 	public float climbSpeed = 5;
     public float gravity = 1;
-    private float jumpHeight = 0.2f;
+    public float jumpHeight = 0.2f;
 	public int jumpNum = 0;
 	public bool jumping;
 	public bool climbEnabled = false;
