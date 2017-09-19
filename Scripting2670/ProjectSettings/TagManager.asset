@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - EnemyPatrol
   - Climb
+  - Stick
   layers:
   - Default
   - TransparentFX

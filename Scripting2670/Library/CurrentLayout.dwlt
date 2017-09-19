@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 392}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 1
-  controlID: 22
+  controlID: 122
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 271}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 23
+  controlID: 123
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,8 +179,8 @@ MonoBehaviour:
     y: 0
     width: 244
     height: 519
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -388,23 +388,23 @@ MonoBehaviour:
     height: 498
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7856feff
-    m_LastClickedID: -108936
-    m_ExpandedIDs: fe7df9ff227ef9ff5abcf9ff2627fcff849bffff64e1ffff18fcffff1afcffff00000000
+    m_SelectedIDs: 98faffff
+    m_LastClickedID: -1384
+    m_ExpandedIDs: 4efaffff8cfbffff1afcffff000000003e270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Cube (1)
+      m_OriginalName: Cube (1)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -62792
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -484,19 +484,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Environment
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Environment
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Alexa\Documents\Github\2670UVU\Scripting2670
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a260000
-    m_LastClickedID: 9802
-    m_ExpandedIDs: 000000002e260000b026000000ca9a3bffffff7f
+    m_SelectedIDs: 50260000
+    m_LastClickedID: 9808
+    m_ExpandedIDs: 00000000302600008426000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,7 +524,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e260000b0260000
+    m_ExpandedIDs: 000000003026000084260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,7 +576,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 308}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &18
@@ -682,14 +682,14 @@ MonoBehaviour:
     width: 698
     height: 498
   m_SceneLighting: 1
-  lastFramingTime: 7098.3150027455995
+  lastFramingTime: 4726.769865911524
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 29.7234, y: 4.445318, z: -0.443779}
+    m_Target: {x: 46.81804, y: 20.200678, z: -2.1552277}
     speed: 2
-    m_Value: {x: 29.7234, y: 4.445318, z: -0.443779}
+    m_Value: {x: 46.81804, y: 20.200678, z: -2.1552277}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -712,13 +712,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.075215645, y: -0.026330177, z: 0.0020999839, w: -0.9968946}
+    m_Target: {x: -0.16159643, y: -0.0067701996, z: 0.0014577961, w: -0.9868607}
     speed: 2
-    m_Value: {x: -0.07520986, y: -0.026328152, z: 0.0020998225, w: -0.99681795}
+    m_Value: {x: -0.16159196, y: -0.0067700124, z: 0.0014577558, w: -0.9868334}
   m_Size:
-    m_Target: 62.758766
+    m_Target: 66.38432
     speed: 2
-    m_Value: 62.758766
+    m_Value: 66.38432
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -11,7 +11,7 @@ public class MoveCharacter : MonoBehaviour {
     public float speed = 5;
 	public float climbSpeed = 5;
     public float gravity = 1;
-    public float jumpHeight = 0.2f;
+    public float jumpHeight;
 	public int jumpNum = 0;
 	public bool jumping;
 	public bool climbEnabled = false;
@@ -27,14 +27,15 @@ public class MoveCharacter : MonoBehaviour {
 			jumpNum = 0;
 		}
 
-		if (cc.transform.position.z != 0){
+		if (cc.transform.position.z != -1){
 			Vector3 temp = cc.transform.position;
- 			temp.z = 0;
+ 			temp.z = -1;
  			transform.position = temp; 
 		}
 
 		if (cc.isGrounded){
 			jumping = false;
+			gravity = 1;
 		}
 
 		if (cc.isGrounded == false && jumping == false && climbEnabled == false){
@@ -69,6 +70,7 @@ public class MoveCharacter : MonoBehaviour {
 	void Climb (float _vertmove){
 		if (climbEnabled == true){
 			tempMove.y = _vertmove*climbSpeed*Time.deltaTime;
+			gravity = 0;
 		}
 		if (jumpNum != 0 && climbEnabled == true){
 			jumpNum = 0;

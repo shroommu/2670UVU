@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33290403987405726}
   - component: {fileID: 135115641521913476}
   - component: {fileID: 23737736699732790}
-  - component: {fileID: 114915524058092096}
   m_Layer: 0
   m_Name: Pickup
   m_TagString: Pickup
@@ -37,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1152857054439888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.28, y: 9.09, z: 0}
+  m_LocalPosition: {x: 53.25, y: 7.503, z: -1}
   m_LocalScale: {x: 0.52093893, y: 0.52093893, z: 0.52093893}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,23 +81,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1152857054439888}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114915524058092096
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1152857054439888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31b8685b90810204c8fc1e1d095ddf14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupObj: {fileID: 1152857054439888}
-  dropoffObj: {fileID: 1573425166035540, guid: f9168c24451c40f41b72c3232ccafa1a, type: 2}
-  scoreText: {fileID: 114310366028654176, guid: 896a09cdff99e854cb925ad85c46c516,
-    type: 2}
-  messageText: {fileID: 114061632997900978, guid: 7b48d826631e8d445adc5052e5045af9,
-    type: 2}
 --- !u!135 &135115641521913476
 SphereCollider:
   m_ObjectHideFlags: 1
