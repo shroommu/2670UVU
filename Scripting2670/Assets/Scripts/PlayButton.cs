@@ -15,5 +15,6 @@ public class PlayButton : MonoBehaviour {
 
 	void TurnOffButton () {
 		GetComponent<Button>().interactable = false;
+		gameObject.SetActive(false);
 	}
 }

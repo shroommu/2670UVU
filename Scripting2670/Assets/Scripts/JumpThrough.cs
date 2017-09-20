@@ -18,14 +18,12 @@ public class JumpThrough : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player"){
-			print("Jumping Through!");
 			TurnCollidersOff();
 		}
 	}
 
 	void OnTriggerExit(Collider other){
 		if (other.tag == "Player"){
-			print("Jumped Through!");
 			TurnCollidersOn();
 		}
 	}

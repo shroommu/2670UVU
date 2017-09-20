@@ -12,6 +12,8 @@ TagManager:
   - EnemyPatrol
   - Climb
   - Stick
+  - Berry
+  - Fruit
   layers:
   - Default
   - TransparentFX
