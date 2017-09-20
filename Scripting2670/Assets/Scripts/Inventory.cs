@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour {
 	public Text messageText;
 	private string message;
     public static int score;
+	private int depositNum;
 
 	void OnControllerColliderHit(ControllerColliderHit hit){
 		if(hit.gameObject.tag == "Pickup"){
@@ -21,12 +22,17 @@ public class Inventory : MonoBehaviour {
 		}
 	}
 	void OnTriggerEnter(Collider other){
-		if(other.tag == "Dropoff" && score > 0){
+		if(other.tag == "Dropoff" && score >= depositNum){
 			print("dropoff");
 			message = "Item Deposited";
 			DisplayGUIText();
-			--score;
+			score -= depositNum;
 			UpdateScore();
+		}
+
+		if(other.tag == "Dropoff" && score < depositNum){
+			message = "Not enough";
+			DisplayGUIText();
 		}
 	}
 
