@@ -8,10 +8,14 @@ public class Inventory : MonoBehaviour {
 	public Text berryText;
 	public Text fruitText;
 	public Text messageText;
+	public GameObject feedBearText;
+	public GameObject bear;
+	public GameObject bearDeposit;
 	private string message;
-    public static int berryNumber = 0;
-	public static int fruitNumber = 0;
-	private int depositNum;
+    public int berryNumber = 0;
+	public int fruitNumber = 0;
+	private int berryDepositNum = 7;
+	private int fruitDepositNum = 3;
 
 	void Start(){
 		PlayButton.Play += OnPlay;
@@ -30,28 +34,31 @@ public class Inventory : MonoBehaviour {
 			++berryNumber;
 			UpdateScore ();
 			message = "Got Berry";
-			DisplayGUIText();
+			StartCoroutine("DisplayGUIText");
 		}
 		if(hit.gameObject.tag == "Fruit"){
 			hit.gameObject.SetActive(false);
 			++fruitNumber;
 			UpdateScore ();
 			message = "Got Fruit";
-			DisplayGUIText();
+			StartCoroutine("DisplayGUIText");
 		}
 	}
 	void OnTriggerEnter(Collider other){
-		if(other.tag == "Dropoff"){
+		if(other.tag == "Dropoff" && berryNumber >= berryDepositNum && fruitNumber >= fruitDepositNum){
 			print("dropoff");
-			message = "Item Deposited";
-			DisplayGUIText();
-			berryNumber -= depositNum;
-			fruitNumber -= depositNum;
+			feedBearText.SetActive(false);
+			bear.gameObject.SetActive(false);
+			bearDeposit.gameObject.SetActive(false);
+			message = "Fed the Bear";
+			berryNumber -= berryDepositNum;
+			fruitNumber -= fruitDepositNum;
 			UpdateScore();
+			StartCoroutine("DisplayGUIText");
 		}
 
-		/*if(other.tag == "Dropoff" && score < depositNum){
-			message = "Not enough";
+		/*if(other.tag == "Dropoff" && berryNumber < berryDepositNum || fruitNumber < fruitDepositNum){
+			message = "Not enough food";
 			DisplayGUIText();
 		}*/
 	}
@@ -61,7 +68,9 @@ public class Inventory : MonoBehaviour {
 		fruitText.text = "Fruit Found: " + fruitNumber;
     }
 
-	void DisplayGUIText (){
+	IEnumerator DisplayGUIText (){
 		messageText.text = message;
+		yield return new WaitForSeconds(3);
+		messageText.text = null;
 	}
 }

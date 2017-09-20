@@ -14,6 +14,7 @@ TagManager:
   - Stick
   - Berry
   - Fruit
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

@@ -6,11 +6,6 @@ public class EnemyPatrolX : MonoBehaviour {
 
 	public Transform enemy;
 	public float enemySpeed;
-	//public GameObject[] patrolTrigger;
-
-	void Start (){
-		//patrolTrigger = GameObject.FindGameObjectsWithTag("Enemy");
-	}
 
 	void Update(){
 		enemy.transform.position += new Vector3(enemySpeed*Time.deltaTime, 0, 0);
