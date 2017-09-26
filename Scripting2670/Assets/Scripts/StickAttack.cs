@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class StickAttack : MonoBehaviour {
 
-
+	public static Action StickAttackAction;
 
 	// Use this for initialization
 	void Start () {
@@ -12,8 +13,8 @@ public class StickAttack : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter(Collider other){
-		if(other.tag == "Stick"){
-			print("Attacked Enemy");
+		if(other.tag == "Enemy"){
+			StickAttackAction();
 		}
 	}
 }

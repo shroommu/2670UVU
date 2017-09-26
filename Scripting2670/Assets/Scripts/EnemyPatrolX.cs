@@ -7,6 +7,10 @@ public class EnemyPatrolX : MonoBehaviour {
 	public Transform enemy;
 	public float enemySpeed;
 
+	void Start (){
+		StickAttack.StickAttackAction += Attacked;
+	}
+
 	void Update(){
 		enemy.transform.position += new Vector3(enemySpeed*Time.deltaTime, 0, 0);
 	}
@@ -15,6 +19,10 @@ public class EnemyPatrolX : MonoBehaviour {
 		if (other.tag == "EnemyPatrol"){
 			enemySpeed = -enemySpeed;
 		}
+	}
+
+	void Attacked(){
+		enemySpeed = -enemySpeed;
 	}
 
 }

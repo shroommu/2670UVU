@@ -4,39 +4,32 @@ using UnityEngine;
 
 public class JumpThrough : MonoBehaviour {
 
-	private GameObject[] platform;
-	private Collider[] PlatformColliders;
+	public GameObject platform;
+	private Collider coll;
 
-	
 	void Start(){
-		platform = GameObject.FindGameObjectsWithTag("JumpThroughPlat");
-		PlatformColliders = new Collider[platform.Length];
- 		for(int i = 0; i < platform.Length; i++){
-    		PlatformColliders[i] = platform[i].GetComponent<Collider> ();
-		 }
+		MoveInput.JumpDownAction += JumpDown;
+		coll = platform.GetComponent<Collider>();
 	}
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player"){
-			TurnCollidersOff();
+			coll.enabled = false;
 		}
 	}
 
 	void OnTriggerExit(Collider other){
 		if (other.tag == "Player"){
-			TurnCollidersOn();
+			coll.enabled = true;
 		}
 	}
 
-	void TurnCollidersOff (){
-		foreach (Collider PlatformColliders in PlatformColliders){
-			PlatformColliders.enabled = false;
-		}
+	void JumpDown (){
+		coll.enabled = false;
+		Invoke("ResetCollider", 1);
 	}
 
-		void TurnCollidersOn (){
-		foreach (Collider PlatformColliders in PlatformColliders){
-			PlatformColliders.enabled = true;
-		}
+	void ResetCollider(){
+		coll.enabled = true;
 	}
 }

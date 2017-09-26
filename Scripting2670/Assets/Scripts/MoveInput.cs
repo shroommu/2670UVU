@@ -11,10 +11,9 @@ public class MoveInput : MonoBehaviour {
 	public static Action InteractAction;
 
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Space) ){
+		if (Input.GetKeyDown(KeyCode.Space)){
 			JumpAction();
 		}
-
 
 		if (KeyAction != null){
 			KeyAction(Input.GetAxis("Horizontal"));
@@ -24,13 +23,12 @@ public class MoveInput : MonoBehaviour {
 			VertKeyAction(Input.GetAxis("Vertical"));
 		}
 
-		if (Input.GetKeyDown(KeyCode.E) ){
+		if (Input.GetKeyDown(KeyCode.E)){
 			InteractAction();
 		}
 		
-		/*if (Input.GetAxis("Vertical") && Input.GetKeyDown(KeyCode.Space)){
-			JumpDownAction;
-			print("Jumping Down");
-		}*/
+		if (Input.GetKeyDown(KeyCode.DownArrow)){
+			JumpDownAction();
+		}
 	}
 }

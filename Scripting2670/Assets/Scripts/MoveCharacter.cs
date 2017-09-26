@@ -60,6 +60,7 @@ public class MoveCharacter : MonoBehaviour {
 			tempMove.y = jumpHeight;
 		}
 	}
+
 	//moves character horizontally
 	void Move (float _movement) {
 		tempMove.y -= gravity*Time.deltaTime;
