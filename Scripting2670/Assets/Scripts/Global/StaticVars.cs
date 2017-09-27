@@ -2,8 +2,17 @@
 
 public class StaticVars {
     public static bool weaponsEnabled = true;
+
     public static float speed;
-    public static float waterSpeed;
+    public static float dragSpeed;
+    public static float boostSpeed;
+
     public static float gravity;
-    public static float waterGravity;
+    public static float dragGravity;
+    public static float boostGravity;
+
+    public enum GameSpeed{
+        DRAG,
+        BOOST
+    }
 }

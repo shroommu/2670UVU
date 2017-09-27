@@ -15,11 +15,12 @@ public class AttachToPlayer : MonoBehaviour {
 		attachObject = _transform;
 	}
 
-	void OnTriggerEnter()
-	{
-		transform.parent = attachObject;
-		transform.localPosition = Vector3.zero;
-		transform.localRotation = Quaternion.identity;
-		StaticVars.weaponsEnabled = true;
+	void OnTriggerEnter(Collider other){
+		if (other.tag == "Player"){
+			transform.parent = attachObject;
+			transform.localPosition = Vector3.zero;
+			transform.localRotation = Quaternion.identity;
+			StaticVars.weaponsEnabled = true;
+		}
 	}
 }
