@@ -52,10 +52,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimateCharacter.cs" />
+     <Compile Include="Assets\Scripts\AttachToPlayer.cs" />
+     <Compile Include="Assets\Scripts\ChangeSpeed.cs" />
      <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Scripts\EnemyPatrolX.cs" />
      <Compile Include="Assets\Scripts\EnemyPatrolY.cs" />
      <Compile Include="Assets\Scripts\FlipCharacter.cs" />
+     <Compile Include="Assets\Scripts\GameData.cs" />
      <Compile Include="Assets\Scripts\Interact.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\JumpThrough.cs" />
@@ -64,6 +67,8 @@
      <Compile Include="Assets\Scripts\ObjectPhysics.cs" />
      <Compile Include="Assets\Scripts\PlayButton.cs" />
      <Compile Include="Assets\Scripts\Reset.cs" />
+     <Compile Include="Assets\Scripts\SendWeaponAttach.cs" />
+     <Compile Include="Assets\Scripts\StaticVars.cs" />
      <Compile Include="Assets\Scripts\StickAttack.cs" />
      <Compile Include="Assets\Scripts\UnhideArea.cs" />
      <None Include="Assets\README.txt" />

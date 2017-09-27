@@ -9,26 +9,36 @@ public class MoveInput : MonoBehaviour {
 	public static Action JumpAction;
 	public static Action JumpDownAction;
 	public static Action InteractAction;
+	public bool canPlay = true;
+	public float runTime = 0.01f;
 
-	void Update () {
-		if (Input.GetKeyDown(KeyCode.Space)){
-			JumpAction();
-		}
+	void Start(){
+		StartCoroutine(RunInput());
+	}
 
-		if (KeyAction != null){
-			KeyAction(Input.GetAxis("Horizontal"));
-		}
+	IEnumerator RunInput () {
+		while(canPlay){
+			if (Input.GetKeyDown(KeyCode.Space)){
+				JumpAction();
+			}
 
-		if (VertKeyAction != null){
-			VertKeyAction(Input.GetAxis("Vertical"));
-		}
+			if (KeyAction != null){
+				KeyAction(Input.GetAxis("Horizontal"));
+			}
 
-		if (Input.GetKeyDown(KeyCode.E)){
-			InteractAction();
-		}
-		
-		if (Input.GetKeyDown(KeyCode.DownArrow)){
-			JumpDownAction();
+			if (VertKeyAction != null){
+				VertKeyAction(Input.GetAxis("Vertical"));
+			}
+
+			if (Input.GetKeyDown(KeyCode.E)){
+				InteractAction();
+			}
+			
+			if (Input.GetKeyDown(KeyCode.DownArrow)){
+				JumpDownAction();
+			}
+
+			yield return new WaitForSeconds(runTime);
 		}
 	}
 }
