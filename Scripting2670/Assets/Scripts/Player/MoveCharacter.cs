@@ -8,18 +8,26 @@ public class MoveCharacter : MonoBehaviour {
 	CharacterController cc;
 	Vector3 tempMove;
 	Vector3 tempClimb;
-    public float speed = 5;
-	public float climbSpeed = 5;
-    public float gravity = 1;
-    public float jumpHeight;
-	public int jumpNum = 0;
-	public bool jumping;
-	public bool climbEnabled = false;
+	float speed;
+	float gravity;
+
+    private float jumpHeight = .3f;
+	private int jumpNum = 0;
+	private bool jumping;
+	private bool climbEnabled = false;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
 		PlayButton.Play += OnPlay;
+		ChangeSpeed.SendSpeed = SendSpeedHandler;
+		speed = StaticVars.speed;
+		gravity = StaticVars.gravity;
 	}
+
+    private void SendSpeedHandler(float _speed, float _gravity){
+		speed = _speed;
+		gravity = _gravity;
+    }
 
 	void Update() {
 		//checks for ground and resets jump count to allow another jump
@@ -35,7 +43,6 @@ public class MoveCharacter : MonoBehaviour {
 
 		if (cc.isGrounded){
 			jumping = false;
-			gravity = 1;
 		}
 
 		if (cc.isGrounded == false && jumping == false && climbEnabled == false){
@@ -70,7 +77,7 @@ public class MoveCharacter : MonoBehaviour {
 	//moves character vertically
 	void Climb (float _vertmove){
 		if (climbEnabled == true){
-			tempMove.y = _vertmove*climbSpeed*Time.deltaTime;
+			tempMove.y = _vertmove*speed*Time.deltaTime;
 			gravity = 0;
 		}
 		if (jumpNum != 0 && climbEnabled == true){

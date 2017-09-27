@@ -6,14 +6,16 @@ using UnityEngine;
 
 public class GameData : MonoBehaviour {
 
-	public float speed = 20;
-	public float gravity = 15;
-	public float dragSpeed = 10;
-	public float dragGravity = 5;
-	public float boostSpeed = 40;
-	public float boostGravity = 30;
+	 float speed = 5;
+	 float gravity = 1;
+	 float dragSpeed = 1;
+	 float dragGravity = .5f;
+	 float boostSpeed = 10;
+	 float boostGravity = 2;
+	 float climbSpeed = 10;
+	 float climbGravity = 2;
 
-    public bool weaponsEnabled = false;
+     bool weaponsEnabled = false;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +25,8 @@ public class GameData : MonoBehaviour {
 		StaticVars.dragGravity = dragGravity;
 		StaticVars.boostSpeed = boostSpeed;
 		StaticVars.boostGravity = boostGravity;
+		StaticVars.climbSpeed = climbSpeed;
+		StaticVars.climbGravity = climbGravity;
 
         StaticVars.weaponsEnabled = weaponsEnabled;
 	}
