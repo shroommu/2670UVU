@@ -20,6 +20,10 @@ public class ChangeSpeed : MonoBehaviour {
 			case StaticVars.GameSpeed.BOOST:
 				SendSpeed(StaticVars.boostSpeed, StaticVars.boostGravity);
 				break;
+
+			case StaticVars.GameSpeed.CLIMB:
+				SendSpeed(StaticVars.climbSpeed, StaticVars.climbGravity);
+				break;
 		}
 	}
 

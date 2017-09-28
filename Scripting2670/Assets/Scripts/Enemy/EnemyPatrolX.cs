@@ -15,10 +15,8 @@ public class EnemyPatrolX : MonoBehaviour {
 		enemy.transform.position += new Vector3(enemySpeed*Time.deltaTime, 0, 0);
 	}
 
-	void OnTriggerEnter (Collider other) {
-		if (other.tag == "EnemyPatrol"){
-			enemySpeed = -enemySpeed;
-		}
+	void OnTriggerEnter () {
+		enemySpeed = -enemySpeed;
 	}
 
 	void Attacked(){

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4876240661049738}
   - component: {fileID: 65401003423711424}
   - component: {fileID: 114054294802286436}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PlatformTrigger
   m_TagString: JumpThrough
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 33135987320981118}
   - component: {fileID: 65787296819922020}
   - component: {fileID: 23488849515797442}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Tree Branch
   m_TagString: JumpThroughPlat
   m_Icon: {fileID: 0}

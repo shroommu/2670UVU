@@ -15,6 +15,7 @@ public class StaticVars {
 
     public enum GameSpeed{
         DRAG,
-        BOOST
+        BOOST,
+        CLIMB
     }
 }

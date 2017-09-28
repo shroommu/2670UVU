@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4840082029162500}
   - component: {fileID: 33534768321036884}
   - component: {fileID: 23052678712823536}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Unclimbable Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}

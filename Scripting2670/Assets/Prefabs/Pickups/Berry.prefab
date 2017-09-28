@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33290403987405726}
   - component: {fileID: 135115641521913476}
   - component: {fileID: 23737736699732790}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Berry
   m_TagString: Berry
   m_Icon: {fileID: 0}

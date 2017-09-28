@@ -6,16 +6,16 @@ using UnityEngine;
 
 public class GameData : MonoBehaviour {
 
-	 float speed = 5;
-	 float gravity = 1;
-	 float dragSpeed = 1;
-	 float dragGravity = .5f;
-	 float boostSpeed = 10;
-	 float boostGravity = 2;
-	 float climbSpeed = 10;
-	 float climbGravity = 2;
+	private float speed = 5;
+	private float gravity = 1;
+	private float dragSpeed = 1;
+	private float dragGravity = .5f;
+	private float boostSpeed = 10;
+	private float boostGravity = 2;
+	private float climbSpeed = 5;
+	private float climbGravity = 0;
 
-     bool weaponsEnabled = false;
+    private bool weaponsEnabled = false;
 
 	// Use this for initialization
 	void Start () {

@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114893325265006836}
   - component: {fileID: 114375790156494852}
   - component: {fileID: 54738996248115634}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4061172701454424}
   - component: {fileID: 65271642503063806}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Patrol Trigger
   m_TagString: EnemyPatrol
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -56,7 +56,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4965151740437642}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: X Patrolling Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4038054048924256}
   - component: {fileID: 65586108526580088}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Patrol Trigger
   m_TagString: EnemyPatrol
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}

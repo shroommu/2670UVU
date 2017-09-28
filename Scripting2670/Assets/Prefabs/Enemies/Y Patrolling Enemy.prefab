@@ -25,9 +25,9 @@ GameObject:
   - component: {fileID: 114431528436052418}
   - component: {fileID: 54689153992323694}
   - component: {fileID: 114441656546816204}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4619344488573584}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Y Patrolling Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,9 +56,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4244917506457346}
   - component: {fileID: 65504670750698248}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Empty Trigger (1)
-  m_TagString: EnemyPatrol
+  m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,9 +72,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4561933156616658}
   - component: {fileID: 65832444985524048}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Empty Trigger (2)
-  m_TagString: EnemyPatrol
+  m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,7 +86,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1710152481109466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.4300003, y: 5.4700003, z: 0}
+  m_LocalPosition: {x: -0.4300003, y: 2.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4619344488573584}
@@ -99,8 +99,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1036329830084898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.46135712, y: 0.46964097, z: 0}
-  m_LocalScale: {x: 0.54692876, y: 0.54692876, z: 0.54692876}
+  m_LocalPosition: {x: -0.46135712, y: 1.443, z: 0}
+  m_LocalScale: {x: 0.8169035, y: 1.2666059, z: 0.8169037}
   m_Children: []
   m_Father: {fileID: 4619344488573584}
   m_RootOrder: 2
@@ -112,7 +112,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1888155271170502}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.45999908, y: -3.9299998, z: 0}
+  m_LocalPosition: {x: -0.45999908, y: -5.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4619344488573584}
@@ -125,7 +125,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1131514044911772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 105.4, y: 3.22, z: -1}
+  m_LocalPosition: {x: 102.23, y: 2.13, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4244917506457346}
@@ -247,4 +247,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 4413409997372948}
-  enemySpeed: 2
+  enemySpeed: 6

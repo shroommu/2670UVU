@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33704598253777256}
   - component: {fileID: 135133725501596798}
   - component: {fileID: 23677448013158780}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Fruit
   m_TagString: Fruit
   m_Icon: {fileID: 0}

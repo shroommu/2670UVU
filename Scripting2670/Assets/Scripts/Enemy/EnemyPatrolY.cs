@@ -12,9 +12,7 @@ public class EnemyPatrolY : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider other) {
-		if (other.tag == "EnemyPatrol"){
-			enemySpeed = -enemySpeed;
-		}
+		enemySpeed = -enemySpeed;
 	}
 
 }

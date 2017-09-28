@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33240596141981904}
   - component: {fileID: 65816653567873104}
   - component: {fileID: 23942353504687144}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Unclimbable Branch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
