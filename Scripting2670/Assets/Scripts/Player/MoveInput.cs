@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+
 public class MoveInput : MonoBehaviour {
 
 	public static Action<float> KeyAction;

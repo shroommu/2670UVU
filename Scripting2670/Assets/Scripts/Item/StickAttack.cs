@@ -12,9 +12,10 @@ public class StickAttack : MonoBehaviour {
 
 	}
 	
-	void OnTriggerEnter(Collider other){
-		if(StaticVars.weaponsEnabled && other.tag == "Enemy"){
+	void OnTriggerEnter (Collider other){
+		if(other.tag == "Enemy"){
 			StickAttackAction();
+			print("Attacking");
 		}
 	}
 }
