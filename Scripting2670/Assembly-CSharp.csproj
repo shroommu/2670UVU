@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrolY.cs" />
      <Compile Include="Assets\Scripts\Environmental\ChangeSpeed.cs" />
      <Compile Include="Assets\Scripts\Environmental\JumpThrough.cs" />
+     <Compile Include="Assets\Scripts\Environmental\SinkingLogs.cs" />
      <Compile Include="Assets\Scripts\Environmental\UnhideArea.cs" />
      <Compile Include="Assets\Scripts\Global\GameData.cs" />
      <Compile Include="Assets\Scripts\Global\StaticVars.cs" />
