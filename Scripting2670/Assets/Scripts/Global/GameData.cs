@@ -12,7 +12,7 @@ public class GameData : MonoBehaviour {
 
 	//drag speed var
 	private float dragSpeed = 2.5f;
-	private float dragGravity = 10;
+	private float dragGravity = .001f;
 
 	//boost speed var
 	private float boostSpeed = 10;
@@ -28,8 +28,8 @@ public class GameData : MonoBehaviour {
 	//inventory
     public int berryNumber = 0;
 	public int fruitNumber = 0;
-	public int berryDepositNum;
-	public int fruitDepositNum;
+	public int berryDepositNum = 7;
+	public int fruitDepositNum = 3;
 
 	//GUI
 	public string message;
