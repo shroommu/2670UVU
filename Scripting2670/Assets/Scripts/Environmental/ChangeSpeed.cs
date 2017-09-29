@@ -10,10 +10,9 @@ public class ChangeSpeed : MonoBehaviour {
 	public StaticVars.GameSpeed speedType;
 	
 	void OnTriggerEnter () {
-		SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity);
-
 		switch (speedType){
 			case StaticVars.GameSpeed.DRAG:
+				print("Dragging");
 				SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity);
 				break;
 			

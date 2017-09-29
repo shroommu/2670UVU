@@ -6,11 +6,14 @@ public class EnemyPatrolX : MonoBehaviour {
 
 	public float enemySpeed;
 	private bool canPatrol = true;
-	
+	private Collider enemyCollider;
+	private Renderer enemyRender;
 
 	void Start (){
 		StickAttack.StickAttackAction += Attacked;
 		StartCoroutine("Patrol");
+		enemyCollider = gameObject.GetComponent<Collider>();
+		enemyRender = gameObject.GetComponent<Renderer>();
 	}
 
 	IEnumerator Patrol(){
@@ -33,6 +36,8 @@ public class EnemyPatrolX : MonoBehaviour {
 		canPatrol = false;
 		//gameObject.EndGame.enabled = false;
 		//ChangeSpeed();
+		enemyCollider.enabled = false;
+		enemyRender.enabled = false;
 	}
 
 	void ChangeSpeed(){

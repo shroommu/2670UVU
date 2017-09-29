@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Interact : MonoBehaviour {
 
+	public StaticVars.ItemType itemType;
+
 	void Start () {
 		PlayButton.Play += OnPlay;
 	}
@@ -13,6 +15,15 @@ public class Interact : MonoBehaviour {
 	}
 	
 	void Interacting () {
-		print("Interacting");
+		//SendMessageAction.SendThisMessage();
+		switch (itemType){
+			case StaticVars.ItemType.WEAPON:
+				print("Weapon Item");
+				break;
+
+			case StaticVars.ItemType.PUZZLE:
+				print("Puzzle Item");
+				break;
+		}
 	}
 }

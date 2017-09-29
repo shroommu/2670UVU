@@ -11,16 +11,21 @@ public class Inventory : MonoBehaviour {
 	public GameObject feedBearText;
 	public GameObject bear;
 	public GameObject bearDeposit;
-	private string message;
-    public int berryNumber = 0;
-	public int fruitNumber = 0;
-	private int berryDepositNum = 7;
-	private int fruitDepositNum = 3;
+	string message;
+    int berryNumber;
+	int fruitNumber;
+	int berryDepositNum;
+	int fruitDepositNum;
 
 	void Start(){
 		PlayButton.Play += OnPlay;
 		berryText.gameObject.SetActive(false);
 		fruitText.gameObject.SetActive(false);
+		fruitDepositNum = StaticVars.fruitDepositNum;
+		berryDepositNum = StaticVars.berryDepositNum;
+		fruitNumber = StaticVars.fruitNumber;
+		berryNumber = StaticVars.berryNumber;
+		message = StaticVars.message;
 	}
 
 	void OnPlay(){

@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Actions\SendMessageAction.cs" />
      <Compile Include="Assets\Scripts\Enemy\EndGame.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrolX.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrolY.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\Scripts\Environmental\UnhideArea.cs" />
      <Compile Include="Assets\Scripts\Global\GameData.cs" />
      <Compile Include="Assets\Scripts\Global\StaticVars.cs" />
+     <Compile Include="Assets\Scripts\GUI\DisplayMessage.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayButton.cs" />
      <Compile Include="Assets\Scripts\Item\AttachToPlayer.cs" />
      <Compile Include="Assets\Scripts\Item\ObjectPhysics.cs" />
