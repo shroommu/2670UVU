@@ -1,16 +1,15 @@
-﻿/*using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DisplayMessage : MonoBehaviour {
 
-	public Text messageText;
-	string message;
+	private Text text;
 
 	void Start(){
-		SendMessageAction.SendMessage += DisplayText;
-		message = StaticVars.message;
+		text = GetComponent<Text>();
+		Inventory2.SendMessage = DisplayText;
 	}
 
 	void DisplayText(){
@@ -18,9 +17,9 @@ public class DisplayMessage : MonoBehaviour {
 	}
 
 	IEnumerator DisplayGUIText (){
-		messageText.text = message;
+		text.text = StaticVars.message;
 		yield return new WaitForSeconds(3);
-		messageText.text = null;
+		text.text = null;
 	}
 
-}*/
+}

@@ -15,6 +15,8 @@ public class GameData : MonoBehaviour {
 
     public bool weaponsEnabled = false;
 
+	public string message;
+
 	// Use this for initialization
 	void Start () {
 		StaticVars.speed = speed;
@@ -25,6 +27,8 @@ public class GameData : MonoBehaviour {
 		StaticVars.boostGravity = boostGravity;
 
         StaticVars.weaponsEnabled = weaponsEnabled;
+
+		StaticVars.message = message;
 	}
 
 }

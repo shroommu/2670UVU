@@ -11,8 +11,15 @@ public class StaticVars {
     public static float dragGravity;
     public static float boostGravity;
 
+    public static string message;
+
     public enum GameSpeed{
         DRAG,
         BOOST
     }
+
+    public enum PickupType{
+		BERRY,
+		FRUIT
+	}
 }
