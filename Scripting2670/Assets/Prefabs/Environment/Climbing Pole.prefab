@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33032800095645270}
   - component: {fileID: 65024258403863366}
   - component: {fileID: 23645534956523152}
+  - component: {fileID: 114558551655148180}
   m_Layer: 0
   m_Name: Climbing Pole
   m_TagString: Climb
@@ -36,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1468006860268630}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.9, y: 24.3, z: -1}
-  m_LocalScale: {x: 0.30412206, y: 3.3361692, z: 0.3841901}
+  m_LocalPosition: {x: 8.3, y: 4.5911, z: -1}
+  m_LocalScale: {x: 0.30412206, y: 3.3309867, z: 0.3841901}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -93,3 +94,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.6852145, y: 2.0743008, z: 3.0103168}
   m_Center: {x: -0.094645545, y: 0.006393953, z: -2.0051591}
+--- !u!114 &114558551655148180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1468006860268630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b632bdc0a53e314478264afcebb22d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedType: 2

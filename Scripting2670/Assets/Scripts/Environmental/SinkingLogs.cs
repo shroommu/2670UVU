@@ -16,7 +16,6 @@ public class SinkingLogs : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other){
 		if (other.tag == "Player"){
-			print("hit");
 			sinking = true;
 			StartCoroutine("SinkLog");
 		}

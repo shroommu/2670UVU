@@ -562,6 +562,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 205
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &37498888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 37498889}
+  - component: {fileID: 37498891}
+  - component: {fileID: 37498890}
+  m_Layer: 0
+  m_Name: MudKillzone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &37498889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 37498888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.04, z: 0}
+  m_LocalScale: {x: 1, y: 0.41374502, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1036659172}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &37498890
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 37498888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &37498891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 37498888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8931c18f2f779d42adb434518af7798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &41589052
 Prefab:
   m_ObjectHideFlags: 0
@@ -8545,8 +8598,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.0272602, z: 1}
+  m_Center: {x: 0, y: 0.013629826, z: 0}
 --- !u!33 &1036659171
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8563,7 +8616,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 222.09999, y: 10.799999, z: -1}
   m_LocalScale: {x: 85.329475, y: 7.110685, z: 3.2674966}
-  m_Children: []
+  m_Children:
+  - {fileID: 37498889}
   m_Father: {fileID: 0}
   m_RootOrder: 204
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9175,23 +9229,6 @@ Prefab:
     - target: {fileID: 1468006860268630, guid: 6fc9d87281084e34bae8463c6fc9621e, type: 2}
       propertyPath: m_Name
       value: Vine (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1468006860268630, guid: 6fc9d87281084e34bae8463c6fc9621e, type: 2}
-      propertyPath: m_TagString
-      value: Climb
-      objectReference: {fileID: 0}
-    - target: {fileID: 4420759595550826, guid: 6fc9d87281084e34bae8463c6fc9621e, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3.3309867
-      objectReference: {fileID: 0}
-    - target: {fileID: 23645534956523152, guid: 6fc9d87281084e34bae8463c6fc9621e,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0c4dfc3f90ece0248b856667f52dfac5, type: 2}
-    - target: {fileID: 4420759595550826, guid: 6fc9d87281084e34bae8463c6fc9621e, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.30412206
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6fc9d87281084e34bae8463c6fc9621e, type: 2}
@@ -10041,11 +10078,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4279211929948964, guid: 2e9dfc41fbb103f4c9bff1ebb84b618c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 181.26
+      value: 182.1
       objectReference: {fileID: 0}
     - target: {fileID: 4279211929948964, guid: 2e9dfc41fbb103f4c9bff1ebb84b618c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 16.32
+      value: 16.64
       objectReference: {fileID: 0}
     - target: {fileID: 4279211929948964, guid: 2e9dfc41fbb103f4c9bff1ebb84b618c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -13001,14 +13038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da7eb371edcb2b40bfd97b803bb7d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
-  gravity: 15
-  dragSpeed: 10
-  dragGravity: 5
-  boostSpeed: 40
-  boostGravity: 30
-  weaponsEnabled: 0
-  message: 
 --- !u!4 &1611477781
 Transform:
   m_ObjectHideFlags: 0
