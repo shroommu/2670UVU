@@ -21,6 +21,14 @@ public class MoveCharacter : MonoBehaviour {
 		PlayButton.Play += OnPlay;
 	}
 
+	//enables inputs once play button pressed
+	void OnPlay () {
+		MoveInput.JumpAction = Jump;
+		MoveInput.KeyAction += Move;
+		MoveInput.VertKeyAction += Climb;
+		PlayButton.Play -= OnPlay;
+	}
+
 	void Update() {
 		//checks for ground and resets jump count to allow another jump
 		if (cc.isGrounded && jumpNum > 0){
@@ -44,13 +52,7 @@ public class MoveCharacter : MonoBehaviour {
 		}
 
 	}
-	//enables inputs once play button pressed
-	void OnPlay () {
-		MoveInput.JumpAction = Jump;
-		MoveInput.KeyAction += Move;
-		MoveInput.VertKeyAction += Climb;
-		PlayButton.Play -= OnPlay;
-	}
+
 	
 	void Jump () {
 		//increments jump count var, performs jump

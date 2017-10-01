@@ -45,8 +45,6 @@ GameObject:
   - component: {fileID: 114325792681364070}
   - component: {fileID: 114667101145774702}
   - component: {fileID: 114903979452798454}
-  - component: {fileID: 114074493742268766}
-  - component: {fileID: 114523031179726588}
   - component: {fileID: 114080380340852734}
   m_Layer: 0
   m_Name: Player
@@ -171,17 +169,6 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1276695519330932}
   m_Enabled: 1
---- !u!114 &114074493742268766
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1692811283808354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07cefb9489bd4a34b853e9600a76feaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114080380340852734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -193,8 +180,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cf0c30203e6b2340a768e7b6102740d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  messageText: {fileID: 0}
+  feedBearText: {fileID: 0}
+  bear: {fileID: 0}
+  bearDeposit: {fileID: 0}
 --- !u!114 &114325792681364070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,17 +201,6 @@ MonoBehaviour:
   jumpNum: 0
   jumping: 0
   climbEnabled: 0
---- !u!114 &114523031179726588
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1692811283808354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00ab874f87ac41c449e4ee665859eeab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114667101145774702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -235,6 +212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f60d9177b933742b8934d0cdbc5cdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canPlay: 1
+  runTime: 0.01
 --- !u!114 &114903979452798454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -247,6 +226,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 0}
+  respawns: []
+  messageText: {fileID: 0}
 --- !u!124 &124199986447917366
 Behaviour:
   m_ObjectHideFlags: 1
