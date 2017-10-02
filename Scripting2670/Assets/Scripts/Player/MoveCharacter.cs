@@ -24,6 +24,8 @@ public class MoveCharacter : MonoBehaviour {
 		
 		//Action subscriptions
 		PlayButton.Play += OnPlay;
+		Reset.FreezeControls += FreezeControls;
+		Reset.UnfreezeControls += UnfreezeControls;
 
 		//StaticVars variable declarations
 		speed = StaticVars.speed;
@@ -52,6 +54,23 @@ public class MoveCharacter : MonoBehaviour {
 		speed = _speed;
 		gravity = _gravity;
     }
+
+	void EnableJump (){
+		canJump = true;
+	}
+
+	void DisableJump (){
+		canJump = false;
+	}
+
+	void Jump () {
+		//increments jump count var, performs jump
+		if (jumpNum < 1 && canJump){
+			jumping = true;
+			++jumpNum;
+			tempMove.y = jumpHeight;
+		}
+	}
 
 	IEnumerator MoveCheck() {
 		while(canMove){
@@ -82,24 +101,6 @@ public class MoveCharacter : MonoBehaviour {
 		}
 	}
 
-	void EnableJump (){
-		canJump = true;
-	}
-
-	void DisableJump (){
-		canJump = false;
-	}
-
-	
-	void Jump () {
-		//increments jump count var, performs jump
-		if (jumpNum < 1 && canJump){
-			jumping = true;
-			++jumpNum;
-			tempMove.y = jumpHeight;
-		}
-	}
-
 	//moves character horizontally
 	void Move (float _movement) {
 		tempMove.y -= gravity*Time.deltaTime;
@@ -116,17 +117,29 @@ public class MoveCharacter : MonoBehaviour {
 			jumpNum = 0;
 		}
 	}
-	//enables climbing
+	//enables VertMove
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Climb" || other.tag == "Water"){
 			canVertMove = true;
 		}
 	}
-	//disables climbing
+	//disables VertMove
 	void OnTriggerExit(Collider other){
 		if (other.tag == "Climb" || other.tag == "Water"){
 			canVertMove = false;
 		}
+	}
+
+	void FreezeControls(){
+		MoveInput.JumpAction -= Jump;
+		MoveInput.KeyAction -= Move;
+		MoveInput.VertKeyAction -= VertMove;
+	}
+
+	void UnfreezeControls(){
+		MoveInput.JumpAction = Jump;
+		MoveInput.KeyAction += Move;
+		MoveInput.VertKeyAction += VertMove;
 	}
 
 }

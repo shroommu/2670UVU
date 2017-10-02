@@ -59,7 +59,7 @@ public class Inventory2 : MonoBehaviour {
 		fruitNumber -= StaticVars.fruitDropoffNum;
 		berryNumber -= StaticVars.berryDropoffNum;
 		stoneNumber -= StaticVars.stoneDropoffNum;
-		StaticVars.message = "Deposited";
+		UpdateScore();
 	}
 
 	void UpdateScore (){

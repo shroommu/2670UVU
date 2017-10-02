@@ -2,39 +2,68 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class Reset : MonoBehaviour {
 
+	public static Action FreezeControls;
+	public static Action UnfreezeControls;
+	public static Action SendMessage;
+
+	public GameObject gameOverBlack;
 	public Transform startPoint;
 	private GameObject checkPoint;
-	private Collider checkPointCollider;
+	//private Collider checkPointCollider;
 	public GameObject[] respawns;
-	public Text messageText;
-	private string message;
+
+	private bool resetting = false;
 
 	// Use this for initialization
 	void Start () {
-		EndGame.End += ResetThis;
+		EndGame.End += StartResetThis;
 		respawns = GameObject.FindGameObjectsWithTag("Pickup");
 	}
 
+	//sets Checkpoint
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Checkpoint"){
 			checkPoint = other.gameObject;
 			other.enabled = false;
-			message = "Checkpoint!";
-			StartCoroutine("DisplayGUIText");
+			StaticVars.message = "Checkpoint!";
+			SendMessage();
 		}
 	}
 
-	void ResetThis () {
+	void StartResetThis(){
+		resetting = true;
+		StartCoroutine("ResetThis");
+	}
 
-		if (checkPoint == null){
-			transform.position = startPoint.position;
+	//respawns player
+	IEnumerator ResetThis () {
+		while(resetting){
+			FreezeControls();
+			gameOverBlack.SetActive(true);
+			StaticVars.message = "You Died";
+			SendMessage();
+			yield return new WaitForSeconds(1);
+
+			if (checkPoint == null){
+				transform.position = startPoint.position;
+			}
+
+			else {
+				transform.position = checkPoint.transform.position;
+			}
+
+			//RespawnItems();
+			gameOverBlack.SetActive(false);
+			UnfreezeControls();
+			resetting = false;
 		}
-		else
-			transform.position = checkPoint.transform.position;
+	}
 
+	void RespawnItems(){
 		foreach(GameObject respawn in respawns){
 			if(gameObject.activeSelf == false){
 				print("Respawn");
@@ -42,11 +71,4 @@ public class Reset : MonoBehaviour {
 			}
 		}
 	}
-
-	IEnumerator DisplayGUIText (){
-		messageText.text = message;
-		yield return new WaitForSeconds(3);
-		messageText.text = null;
-	}
-
 }
