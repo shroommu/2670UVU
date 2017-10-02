@@ -24,10 +24,12 @@ public class Dropoff : MonoBehaviour {
 			switch (bossType){
 				case StaticVars.BossType.BEAR:
 					LetPlayerPassBear();
+					print("Cleared bear");
 					break;
 
 				case StaticVars.BossType.ALLIGATOR:
 					LetPlayerPassGator();
+					print("Cleared gator");
 					break;
 			}
 		}

@@ -4,44 +4,72 @@ using UnityEngine;
 
 public class BossClearedBehavior : MonoBehaviour {
 
-	/*public GameObject boss;
+	public GameObject boss;
 	public GameObject bossDeposit;
-	public GameObject bossText;*/
+	public GameObject bossText;
 
-	public GameObject bearBoss;
+	/*public GameObject bearBoss;
 	public GameObject bearBossDeposit;
 	public GameObject bearBossText;
 
 	public GameObject gatorBoss;
 	public GameObject gatorBossDeposit;
-	public GameObject gatorBossText;
+	public GameObject gatorBossText;*/
+
+	public StaticVars.BossType bossType;
 
 	void Start () {
-		Dropoff.LetPlayerPassBear = BearBehavior;
-		Dropoff.LetPlayerPassGator = GatorBehavior;
+		//Dropoff.LetPlayerPass = BossBehavior;
+		//Dropoff.LetPlayerPassGator = BossBehavior;
 	}
 	
-	void BearBehavior(){
+	void BossBehavior(){
+		switch(bossType){
+			case StaticVars.BossType.BEAR:
+				boss.SetActive(false);
+				bossDeposit.SetActive(false);
+				bossText.SetActive(false);
+				break;
+
+			case StaticVars.BossType.ALLIGATOR:
+				boss.SetActive(false);
+				bossDeposit.SetActive(false);
+				bossText.SetActive(false);
+				break;
+		}
+
 		/*boss.SetActive(false);
 		bossDeposit.SetActive(false);
 		bossText.SetActive(false);*/
+
+		/*bearBoss.SetActive(false);
+		bearBossDeposit.SetActive(false);
+		bearBossText.SetActive(false);
+
+		print("Doing Bear Stuff");*/
+	}
+
+	/*void BearBehavior(){
+		boss.SetActive(false);
+		bossDeposit.SetActive(false);
+		bossText.SetActive(false);
 
 		bearBoss.SetActive(false);
 		bearBossDeposit.SetActive(false);
 		bearBossText.SetActive(false);
 
 		print("Doing Bear Stuff");
-	}
+	}*/
 
-	void GatorBehavior(){
-		/*boss.SetActive(false);
+	/*void GatorBehavior(){
+		boss.SetActive(false);
 		bossDeposit.SetActive(false);
-		bossText.SetActive(false);*/
+		bossText.SetActive(false);
 
 		gatorBoss.SetActive(false);
 		gatorBossDeposit.SetActive(false);
 		gatorBossText.SetActive(false);
 
 		print("Doing Gator stuff");
-	}
+	}*/
 }
