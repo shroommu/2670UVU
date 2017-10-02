@@ -11,6 +11,9 @@ public class ChangeSpeed : MonoBehaviour {
 
 	public StaticVars.GameSpeed speedType;
 
+	private bool inWater = false;
+	private int waterCount;
+
 	//private bool handlingSpeed;
 
 	void Start(){
@@ -19,31 +22,46 @@ public class ChangeSpeed : MonoBehaviour {
 	
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player"){
-		switch (speedType){
+			StaticVars.handlingSpeed = true;
+			switch (speedType){
 				case StaticVars.GameSpeed.DRAG:
 					SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity);
 					DisableJump();
-					StaticVars.handlingSpeed = true;
 					break;
 				
 				case StaticVars.GameSpeed.BOOST:
 					SendSpeed(StaticVars.boostSpeed, StaticVars.boostGravity);
-					StaticVars.handlingSpeed = true;
 					break;
 
 				case StaticVars.GameSpeed.CLIMB:
 					SendSpeed(StaticVars.climbSpeed, StaticVars.climbGravity);
-					StaticVars.handlingSpeed = true;
 					break;
+
+				case StaticVars.GameSpeed.SWIM:
+					++waterCount;
+					SendSpeed(StaticVars.swimSpeed, StaticVars.swimGravity);
+					print("swm spd");
+					print(waterCount);
+					//inWater = true;
+					break;
+				
+				/*case StaticVars.GameSpeed.SWIMENTER:
+					SendSpeed(StaticVars.speed, StaticVars.gravity);
+					inWater = false;
+					break;*/
 			}
 		}
 	}
 
-	void OnTriggerExit()
-	{
-		SendSpeed(StaticVars.speed, StaticVars.gravity);
-		StaticVars.handlingSpeed = false;
-		EnableJump();
+	void OnTriggerExit(){
+		if(waterCount < 1){
+			--waterCount;
+			print(waterCount);
+			SendSpeed(StaticVars.speed, StaticVars.gravity);
+			StaticVars.handlingSpeed = false;
+			print("Reg Spd");
+			EnableJump();
+		}
 	}
 	
 }

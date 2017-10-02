@@ -51,11 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Enemy\BossClearedBehavior.cs" />
      <Compile Include="Assets\Scripts\Enemy\EndGame.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyMove.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyMove2.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrolX.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrolY.cs" />
-     <Compile Include="Assets\Scripts\EnemyMove.cs" />
-     <Compile Include="Assets\Scripts\EnemyMove2.cs" />
      <Compile Include="Assets\Scripts\Environmental\ChangeSpeed.cs" />
      <Compile Include="Assets\Scripts\Environmental\JumpThrough.cs" />
      <Compile Include="Assets\Scripts\Environmental\SinkingLogs.cs" />
@@ -73,14 +74,12 @@
      <Compile Include="Assets\Scripts\Player\AnimateCharacter.cs" />
      <Compile Include="Assets\Scripts\Player\FlipCharacter.cs" />
      <Compile Include="Assets\Scripts\Player\Interact.cs" />
-     <Compile Include="Assets\Scripts\Player\Inventory.cs" />
      <Compile Include="Assets\Scripts\Player\MoveCharacter.cs" />
      <Compile Include="Assets\Scripts\Player\MoveInput.cs" />
      <Compile Include="Assets\Scripts\Player\Reset.cs" />
      <Compile Include="Assets\Scripts\Player\RunFromEnemy.cs" />
+     <Compile Include="Assets\Scripts\Player\SendToEnemy.cs" />
      <Compile Include="Assets\Scripts\Player\SendWeaponAttach.cs" />
-     <Compile Include="Assets\Scripts\SendMessageAction.cs" />
-     <Compile Include="Assets\Scripts\SendToEnemy.cs" />
      <None Include="Assets\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

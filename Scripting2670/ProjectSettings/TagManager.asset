@@ -15,6 +15,7 @@ TagManager:
   - Berry
   - Fruit
   - Checkpoint
+  - Water
   layers:
   - Default
   - TransparentFX

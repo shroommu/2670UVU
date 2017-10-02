@@ -10,6 +10,7 @@ public class DisplayMessage : MonoBehaviour {
 	void Start(){
 		text = GetComponent<Text>();
 		Inventory2.SendMessage = DisplayText;
+		Dropoff.SendMessage = DisplayText;
 	}
 
 	void DisplayText(){

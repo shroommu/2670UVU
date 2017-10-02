@@ -7,24 +7,38 @@ public class StaticVars {
     public static float dragSpeed;
     public static float boostSpeed;
     public static float climbSpeed;
+    public static float swimSpeed;
 
     public static float gravity;
     public static float dragGravity;
     public static float boostGravity;
     public static float climbGravity;
+    public static float swimGravity;
 
     public static string message;
 
     public static bool handlingSpeed;
 
+    public static int fruitDropoffNum;
+    public static int berryDropoffNum;
+    public static int stoneDropoffNum;
+
     public enum GameSpeed{
         DRAG,
         BOOST,
-        CLIMB
+        CLIMB,
+        SWIM,
+        SWIMENTER
     }
 
     public enum PickupType{
 		BERRY,
-		FRUIT
+		FRUIT,
+        STONE
 	}
+
+    public enum BossType{
+        BEAR,
+        ALLIGATOR
+    }
 }

@@ -14,6 +14,8 @@ public class GameData : MonoBehaviour {
 	private float boostGravity = 1;
 	private float climbSpeed = 5;
 	private float climbGravity = 0;
+	private float swimSpeed = 5;
+	private float swimGravity = 0.1f;
 
     private bool weaponsEnabled = false;
 
@@ -31,6 +33,8 @@ public class GameData : MonoBehaviour {
 		StaticVars.boostGravity = boostGravity;
 		StaticVars.climbSpeed = climbSpeed;
 		StaticVars.climbGravity = climbGravity;
+		StaticVars.swimSpeed = swimSpeed;
+		StaticVars.swimGravity = swimGravity;
 
         StaticVars.weaponsEnabled = weaponsEnabled;
 

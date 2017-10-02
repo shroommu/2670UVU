@@ -14,7 +14,7 @@ public class MoveCharacter : MonoBehaviour {
     private float jumpHeight = .3f;
 	private int jumpNum = 0;
 	private bool jumping;
-	private bool climbEnabled = false;
+	private bool canVertMove = false;
 	private bool canJump = true;
 	private bool canMove = false;
 	private bool handlingSpeed;
@@ -38,7 +38,7 @@ public class MoveCharacter : MonoBehaviour {
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
 		MoveInput.JumpAction = Jump;
 		MoveInput.KeyAction += Move;
-		MoveInput.VertKeyAction += Climb;
+		MoveInput.VertKeyAction += VertMove;
 		ChangeSpeed.DisableJump = DisableJump;
 		ChangeSpeed.EnableJump = EnableJump;
 		PlayButton.Play -= OnPlay;
@@ -74,7 +74,7 @@ public class MoveCharacter : MonoBehaviour {
 			}
 
 			//makes player fall less quickly
-			if (cc.isGrounded == false && jumping == false && climbEnabled == false && handlingSpeed == false){
+			if (cc.isGrounded == false && jumping == false && canVertMove == false && handlingSpeed == false){
 				tempMove.y = -.3f;
 			}
 
@@ -107,40 +107,26 @@ public class MoveCharacter : MonoBehaviour {
 		cc.Move(tempMove);
 	}
 	//moves character vertically
-	void Climb (float _vertmove){
-		if (climbEnabled == true){
+	void VertMove (float _vertmove){
+		if (canVertMove == true){
 			tempMove.y = _vertmove*speed*Time.deltaTime;
 		}
 
-		if (jumpNum != 0 && climbEnabled == true){
+		if (jumpNum != 0 && canVertMove == true){
 			jumpNum = 0;
 		}
 	}
 	//enables climbing
 	void OnTriggerEnter(Collider other){
-		if (other.tag == "Climb"){
-			climbEnabled = true;
+		if (other.tag == "Climb" || other.tag == "Water"){
+			canVertMove = true;
 		}
 	}
 	//disables climbing
 	void OnTriggerExit(Collider other){
-		if (other.tag == "Climb"){
-			climbEnabled = false;
+		if (other.tag == "Climb" || other.tag == "Water"){
+			canVertMove = false;
 		}
 	}
 
-	//makes speed var accessible to other scripts
-	public float GetSpeed(){
-		return speed;
-	}
-
-	//makes player position accessible to other scripts
-	public float GetPosX(){
-		return tempMove.x;
-	}
-
-	//makes player position accessible to other scripts
-	public float GetPosY(){
-		return tempMove.y;
-	}
 }
