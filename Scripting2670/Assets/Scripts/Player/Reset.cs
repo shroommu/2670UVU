@@ -21,6 +21,7 @@ public class Reset : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		EndGame.End += StartResetThis;
+		BreathMeter.End = StartResetThis;
 		respawns = GameObject.FindGameObjectsWithTag("Pickup");
 	}
 

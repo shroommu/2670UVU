@@ -9,6 +9,9 @@ public class ChangeSpeed : MonoBehaviour {
 	public static Action DisableJump;
 	public static Action EnableJump;
 
+	public static Action HoldBreath;
+	public static Action TakeBreath;
+
 	public StaticVars.GameSpeed speedType;
 
 	private bool inWater = false;
@@ -24,6 +27,11 @@ public class ChangeSpeed : MonoBehaviour {
 		if (other.tag == "Player"){
 			StaticVars.handlingSpeed = true;
 			switch (speedType){
+				case StaticVars.GameSpeed.REG:
+					SendSpeed(StaticVars.speed, StaticVars.gravity);
+					print("Entering Reg Speed");
+					break;
+
 				case StaticVars.GameSpeed.DRAG:
 					SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity);
 					DisableJump();
@@ -38,30 +46,20 @@ public class ChangeSpeed : MonoBehaviour {
 					break;
 
 				case StaticVars.GameSpeed.SWIM:
-					++waterCount;
 					SendSpeed(StaticVars.swimSpeed, StaticVars.swimGravity);
-					print("swm spd");
-					print(waterCount);
-					//inWater = true;
+					HoldBreath();
+					DisableJump();
 					break;
-				
-				/*case StaticVars.GameSpeed.SWIMENTER:
-					SendSpeed(StaticVars.speed, StaticVars.gravity);
-					inWater = false;
-					break;*/
 			}
 		}
 	}
 
 	void OnTriggerExit(){
-		if(waterCount < 1){
-			--waterCount;
-			print(waterCount);
-			SendSpeed(StaticVars.speed, StaticVars.gravity);
-			StaticVars.handlingSpeed = false;
-			print("Reg Spd");
-			EnableJump();
-		}
+		SendSpeed(StaticVars.speed, StaticVars.gravity);
+		//StaticVars.handlingSpeed = false;
+		TakeBreath();
+		print("Reg Spd");
+		EnableJump();
 	}
 	
 }

@@ -60,6 +60,8 @@
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrolX.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrolY.cs" />
      <Compile Include="Assets\Scripts\Enemy\GatorBehavior.cs" />
+     <Compile Include="Assets\Scripts\Environmental\AirPocket.cs" />
+     <Compile Include="Assets\Scripts\Environmental\BreathMeter.cs" />
      <Compile Include="Assets\Scripts\Environmental\ChangeSpeed.cs" />
      <Compile Include="Assets\Scripts\Environmental\JumpThrough.cs" />
      <Compile Include="Assets\Scripts\Environmental\SinkingLogs.cs" />
@@ -83,7 +85,7 @@
      <Compile Include="Assets\Scripts\Player\RunFromEnemy.cs" />
      <Compile Include="Assets\Scripts\Player\SendToEnemy.cs" />
      <Compile Include="Assets\Scripts\Player\SendWeaponAttach.cs" />
-     <None Include="Assets\README.txt" />
+     <None Include="Assets\OBJExport\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

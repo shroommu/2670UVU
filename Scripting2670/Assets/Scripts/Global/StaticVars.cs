@@ -24,6 +24,7 @@ public class StaticVars {
     public static int stoneDropoffNum;
 
     public enum GameSpeed{
+        REG,
         DRAG,
         BOOST,
         CLIMB,

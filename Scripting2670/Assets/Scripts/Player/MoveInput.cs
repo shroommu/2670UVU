@@ -6,6 +6,7 @@ public class MoveInput : MonoBehaviour {
 
 	public static Action<float> KeyAction;
 	public static Action<float> VertKeyAction;
+	public static Action SprintAction;
 	public static Action JumpAction;
 	public static Action JumpDownAction;
 	public static Action InteractAction;
