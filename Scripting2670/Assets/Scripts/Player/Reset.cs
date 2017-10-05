@@ -13,7 +13,6 @@ public class Reset : MonoBehaviour {
 	public GameObject gameOverBlack;
 	public Transform startPoint;
 	private GameObject checkPoint;
-	//private Collider checkPointCollider;
 	public GameObject[] respawns;
 
 	private bool resetting = false;

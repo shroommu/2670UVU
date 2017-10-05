@@ -9,7 +9,7 @@ public class UnhideArea : MonoBehaviour {
 
 	void Start () {
 		PlayButton.Play += OnPlay;
-		render = this.gameObject.GetComponent<MeshRenderer>();
+		render = coverObj.GetComponent<MeshRenderer>();
 	}
 
 	void OnPlay () {

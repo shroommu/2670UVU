@@ -63,8 +63,10 @@
      <Compile Include="Assets\Scripts\Environmental\AirPocket.cs" />
      <Compile Include="Assets\Scripts\Environmental\BreathMeter.cs" />
      <Compile Include="Assets\Scripts\Environmental\ChangeSpeed.cs" />
+     <Compile Include="Assets\Scripts\Environmental\CloseDoor.cs" />
      <Compile Include="Assets\Scripts\Environmental\JumpThrough.cs" />
      <Compile Include="Assets\Scripts\Environmental\SinkingLogs.cs" />
+     <Compile Include="Assets\Scripts\Environmental\Teleport.cs" />
      <Compile Include="Assets\Scripts\Environmental\UnhideArea.cs" />
      <Compile Include="Assets\Scripts\Global\GameData.cs" />
      <Compile Include="Assets\Scripts\Global\Inventory2.cs" />
