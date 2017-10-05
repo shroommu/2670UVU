@@ -18,6 +18,9 @@ public class StaticVars {
     public static string message;
 
     public static bool handlingSpeed;
+    public static bool canWaterfall;
+
+    public static int risingWaterCount;
 
     public static int fruitDropoffNum;
     public static int berryDropoffNum;
@@ -29,17 +32,24 @@ public class StaticVars {
         BOOST,
         CLIMB,
         SWIM,
-        SWIMENTER
+        SWIMWATERFALL
     }
 
     public enum PickupType{
 		BERRY,
 		FRUIT,
-        STONE
+        STONE,
+        BREATHPU,
+        WATERFALLPU
 	}
 
     public enum BossType{
         BEAR,
         ALLIGATOR
     }
+
+    public enum TriggerType{
+		OPEN,
+		CLOSE
+	}
 }

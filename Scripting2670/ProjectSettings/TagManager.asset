@@ -17,6 +17,7 @@ TagManager:
   - Checkpoint
   - Water
   - Head
+  - Waterfall
   layers:
   - Default
   - TransparentFX

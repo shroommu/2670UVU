@@ -17,10 +17,13 @@ public class ChangeSpeed : MonoBehaviour {
 	private bool inWater = false;
 	private int waterCount;
 
+	private bool canWaterfall = false;
+
 	//private bool handlingSpeed;
 
 	void Start(){
 		//StaticVars.handlingSpeed = handlingSpeed;
+		Pickup.WaterfallPU = WaterfallPU;
 	}
 	
 	void OnTriggerEnter (Collider other) {
@@ -50,6 +53,12 @@ public class ChangeSpeed : MonoBehaviour {
 					HoldBreath();
 					DisableJump();
 					break;
+				
+				case StaticVars.GameSpeed.SWIMWATERFALL:
+					if(StaticVars.canWaterfall){
+						SendSpeed(StaticVars.climbSpeed, StaticVars.climbGravity);
+					}
+					break;
 			}
 		}
 	}
@@ -60,6 +69,10 @@ public class ChangeSpeed : MonoBehaviour {
 		TakeBreath();
 		print("Reg Spd");
 		EnableJump();
+	}
+
+	void WaterfallPU(){
+		canWaterfall = true;
 	}
 	
 }

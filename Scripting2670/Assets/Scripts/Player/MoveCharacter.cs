@@ -18,11 +18,17 @@ public class MoveCharacter : MonoBehaviour {
 	private bool canMove = false;
 	private bool handlingSpeed;
 
-	private int sprintCount = 3;
 	private int jumpNum = 0;
+
+	public Transform sprintMeter;
+	private TextMesh sprintText;
+	private int sprintCounter;
+	private int sprintCounterDef = 3;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
+		sprintText = sprintMeter.GetComponent<TextMesh>();
+		sprintCounter = sprintCounterDef;
 		
 		//Action subscriptions
 		PlayButton.Play += OnPlay;
@@ -128,15 +134,16 @@ public class MoveCharacter : MonoBehaviour {
 		}
 	}
 
-	//changes speed to sprinting, counts down sprintCount, then deactivates sprinting
+	//changes speed to sprinting, counts down sprintCounter, then deactivates sprinting
 	IEnumerator Sprint() {
-		while(sprintCount > 0){
+		while(sprintCounter > 0){
+			DisplaySprint();
 			speed = StaticVars.boostSpeed;
 			yield return new WaitForSeconds(1);
-			--sprintCount;
-			print(sprintCount);
-
-			if(sprintCount == 0){
+			--sprintCounter;
+			
+			if(sprintCounter == 0){
+				DisplaySprint();
 				speed = StaticVars.speed;
 				StopCoroutine("Sprint");
 			}
@@ -145,11 +152,23 @@ public class MoveCharacter : MonoBehaviour {
 
 	//restores sprinting ability
 	IEnumerator RestoreSprint(){
-		while(sprintCount < 5){
+		while(sprintCounter < sprintCounterDef){
 			yield return new WaitForSeconds(2);
-			++sprintCount;
-			print(sprintCount);
+			++sprintCounter;
+			DisplaySprint();
 		}
+	}
+
+	void DisplaySprint(){
+		sprintText.text = "Sprint: " + sprintCounter;
+		if(sprintCounter == sprintCounterDef){
+			StartCoroutine("ClearDisplaySprint");
+		}
+	}
+
+	IEnumerator ClearDisplaySprint(){
+		yield return new WaitForSeconds(1);
+		sprintText.text = null;
 	}
 
 	//moves character vertically
@@ -168,11 +187,16 @@ public class MoveCharacter : MonoBehaviour {
 		if (other.tag == "Climb" || other.tag == "Water"){
 			canVertMove = true;
 		}
+
+		if (other.tag == "Waterfall" && StaticVars.canWaterfall){
+			print("Waterfall climb");
+			canVertMove = true;
+		}
 	}
 
 	//disables VertMove
 	void OnTriggerExit(Collider other){
-		if (other.tag == "Climb" || other.tag == "Water"){
+		if (other.tag == "Climb" || other.tag == "Water" || other.tag == "Waterfall"){
 			canVertMove = false;
 		}
 	}

@@ -1,4 +1,5 @@
 WebGL
+e72ab98389e74e65543bd837ed6c69d8 Assembly-CSharp.dll:.Teleport
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9f07aaefd0255462bb6e4f9e5da6b2d4 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -109,6 +110,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayButton
 266ff08742cd3c3c50d75c85fbc0acd9 Assembly-CSharp.dll:.JumpThrough
+88185bb6b219da25d28caf1501cc2b1a Assembly-CSharp.dll:.BearBehavior
 f4125b435b7733e022f6e27424ce2127 Assembly-CSharp.dll:.UnhideArea
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -117,11 +119,14 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 3b9808c88f345b9aa44526f910e88692 Assembly-CSharp.dll:.Inventory2
 b2c84168d4d348e67fbc1a139faaea51 Assembly-CSharp.dll:.EnemyPatrolX
+306612f31facfbe755ca7a1ba4bd8b53 Assembly-CSharp.dll:.BreathMeter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameData
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MoveCharacter
+e40df695737d82f82ed43f9d71a58038 Assembly-CSharp.dll:.MoveCharacter
+7444970f3eb93a9e4fd8d110c28ad42b Assembly-CSharp.dll:.CloseDoor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EndGame
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SendWeaponAttach
-d90cb7945bc7c0821a4a49b14158073f Assembly-CSharp.dll:.Reset
+c75a2f3aac9ae6a108164b16e6e4efb9 Assembly-CSharp.dll:.BossClearedBehavior
+9a9fbb62addd364bbac45b9806afae47 Assembly-CSharp.dll:.Reset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnemyMove2
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Interact
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -151,9 +156,12 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 effa1a14b5659fe79b52c947f76ddbdb Assembly-CSharp.dll:.EnemyMove
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DisplayMessage
 361f8b486ca1609670103fea240071f6 Assembly-CSharp.dll:.ObjectPhysics
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AirPocket
+7e458ba39cd46926e664c92b8e4d922c Assembly-CSharp.dll:.GatorBehavior
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RunFromEnemy
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FlipCharacter
 b2c84168d4d348e67fbc1a139faaea51 Assembly-CSharp.dll:.EnemyPatrolY
+6f18d576e8b7096df0959de0596513d7 Assembly-CSharp.dll:.OBJExporter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AnimateCharacter
 c4390ee55585344546a89e272484ed0c Assembly-CSharp.dll:.Pickup
-8459e485fba0fa79a87e90e2b5f91a94 Assembly-CSharp.dll:.BossClearedBehavior
+608c8afd6899f8b5e1820097e4a28c9b Assembly-CSharp.dll:.RisingWater

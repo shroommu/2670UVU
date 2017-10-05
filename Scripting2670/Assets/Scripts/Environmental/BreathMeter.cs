@@ -8,10 +8,18 @@ public class BreathMeter : MonoBehaviour {
 	public static Action End;
 
 	private bool holdingBreath;
-	private int breathCounter = 10;
+	private int breathCounter;
+	private int breathCounterDef = 10;
+
+	public Transform breathText;
+	private TextMesh text;
 
 
 	void Start () {
+
+		text = breathText.GetComponent<TextMesh>();
+
+		Pickup.BreathPU = DoubleBreathCounter;
 
 		AirPocket.HoldBreath = StartHoldBreath;
 		ChangeSpeed.HoldBreath = StartHoldBreath;
@@ -20,27 +28,52 @@ public class BreathMeter : MonoBehaviour {
 	}
 	
 	void StartHoldBreath(){
-		print("Holding Breath");
+		breathCounter = breathCounterDef;
 		holdingBreath = true;
 		StartCoroutine("HoldBreath");
 	}
 
 	IEnumerator HoldBreath(){
 		while(holdingBreath){
+			DisplayBreath();
 			yield return new WaitForSeconds(1);
 			--breathCounter;
-			print(breathCounter);
 
 			if(breathCounter == 0){
 				holdingBreath = false;
-				print("Drowned");
 				End();
+				breathCounter = breathCounterDef;
+				DisplayBreath();
 			}
 		}
 	}
 
 	void TakeBreath(){
 		StopAllCoroutines();
-		breathCounter = 10;
+		breathCounter = breathCounterDef;
+		DisplayBreath();
+	}
+
+	void DoubleBreathCounter(){
+		breathCounterDef = 20;
+	}
+
+	/*void HoldBreathForever(){
+		AirPocket.HoldBreath -= StartHoldBreath;
+		ChangeSpeed.HoldBreath -= StartHoldBreath;
+		AirPocket.TakeBreath -= TakeBreath;
+		ChangeSpeed.TakeBreath -= TakeBreath;
+	}*/
+
+	void DisplayBreath(){
+		text.text = "Breath: " + breathCounter;
+		if(breathCounter == breathCounterDef){
+			StartCoroutine("ClearDisplayBreath");
+		}
+	}
+
+	IEnumerator ClearDisplayBreath(){
+		yield return new WaitForSeconds(1);
+		text.text = null;
 	}
 }

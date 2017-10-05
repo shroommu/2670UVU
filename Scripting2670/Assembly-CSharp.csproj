@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\Environmental\ChangeSpeed.cs" />
      <Compile Include="Assets\Scripts\Environmental\CloseDoor.cs" />
      <Compile Include="Assets\Scripts\Environmental\JumpThrough.cs" />
+     <Compile Include="Assets\Scripts\Environmental\RisingWater.cs" />
      <Compile Include="Assets\Scripts\Environmental\SinkingLogs.cs" />
      <Compile Include="Assets\Scripts\Environmental\Teleport.cs" />
      <Compile Include="Assets\Scripts\Environmental\UnhideArea.cs" />
