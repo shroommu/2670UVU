@@ -52,4 +52,15 @@ public class StaticVars {
 		OPEN,
 		CLOSE
 	}
+
+    public enum InteractType{
+        LEVER,
+        PUSH,
+        PICKUP
+    }
+
+    public enum LeverType{
+        ONETIME,
+        MULTI
+    }
 }

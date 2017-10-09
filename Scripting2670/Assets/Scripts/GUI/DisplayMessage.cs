@@ -16,6 +16,7 @@ public class DisplayMessage : MonoBehaviour {
 		GatorBehavior.SendMessage = DisplayText;
 		Reset.SendMessage = DisplayText;
 		Pickup.SendMessage = DisplayText;
+		Interact.SendMessage = DisplayText;
 	}
 
 	void DisplayText(){
