@@ -25,7 +25,7 @@ public class Interact : MonoBehaviour {
 	}
 
 	void Interacting () {
-		if(SetIntObj.intObj != null){
+		if(SetIntObj.intObj.transform.position == gameObject.transform.position){
 			switch(interactType){
 				case StaticVars.InteractType.LEVER:
 					switch(leverType){

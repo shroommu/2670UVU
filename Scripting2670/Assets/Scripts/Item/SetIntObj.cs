@@ -5,16 +5,19 @@ using UnityEngine;
 public class SetIntObj : MonoBehaviour {
 
 	public static Transform intObj;
+	public TextMesh intText;
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player"){
 			intObj = gameObject.transform.parent;
+			intText.text = "E";
 		}
 	}
 
 	void OnTriggerExit(Collider other){
-		if (Interact.isInteract == false){
+		if (other.tag == "Player"){
 			intObj = null;
+			intText.text = null;
 		}
 	}
 

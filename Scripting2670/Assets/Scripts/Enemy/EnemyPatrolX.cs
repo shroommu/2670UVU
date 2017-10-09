@@ -1,28 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class EnemyPatrolX : MonoBehaviour {
 
-	public Transform enemy;
-	public float enemySpeed;
+	public static Action SendPatrolDestination;
 
-	void Start (){
-		StickAttack.StickAttackAction += Attacked;
-	}
-
-	void Update(){
-		enemy.transform.position += new Vector3(enemySpeed*Time.deltaTime, 0, 0);
-	}
-
-	void OnTriggerEnter (Collider other) {
-		if (other.tag == "EnemyPatrol"){
-			enemySpeed = -enemySpeed;
+	void OnTriggerEnter(Collider other){
+		if (other.tag == "Enemy"){
+			print("Sending destination");
+			SendPatrolDestination();
 		}
-	}
-
-	void Attacked(){
-		enemySpeed = -enemySpeed;
 	}
 
 }
