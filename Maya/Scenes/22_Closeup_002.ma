@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: 22_Closeup_001.ma
-//Last modified: Mon, Oct 09, 2017 01:19:08 PM
+//Name: 22_Closeup_002.ma
+//Last modified: Mon, Oct 09, 2017 01:32:54 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -35241,7 +35241,7 @@ createNode parentConstraint -n "Bear_Rig_Scale_Hips:joint_head_parentConstraint1
 	setAttr ".tg[0].tot" -type "double3" -2.3504519447797434e-031 -1.5389403529297851e-008 
 		2.5828303718000711e-008 ;
 	setAttr ".tg[0].tor" -type "double3" 3.1805546814635353e-015 0 1.4124500153760508e-030 ;
-	setAttr ".lr" -type "double3" -0.71006436009876617 2.4003985658041748e-013 -3.9654810245760526e-014 ;
+	setAttr ".lr" -type "double3" -22.356155124866248 2.5314986514402685e-013 -4.2729741778904926e-014 ;
 	setAttr ".rst" -type "double3" 0.34027245184975052 2.2204460492503131e-016 -7.5555662137849717e-017 ;
 	setAttr ".rsrr" -type "double3" -1.5902773407317584e-015 1.1034765745125397e-032 
 		7.9513867036587919e-016 ;
@@ -36264,7 +36264,7 @@ createNode parentConstraint -n "Bear_Rig_Scale_Hips:joint_neck_parentConstraint1
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 0 -1.3256707731557071e-008 -2.055362768871305e-008 ;
 	setAttr ".tg[0].tor" -type "double3" -89.999999999999844 80.837652954278312 -89.999999999999929 ;
-	setAttr ".lr" -type "double3" 2.6096928926621556 -9.2999731554178897 -28.585861135213179 ;
+	setAttr ".lr" -type "double3" -2.9576869404477883 -9.196054693255725 5.0808372823375176 ;
 	setAttr ".rst" -type "double3" 0 1.0668207274430601 -0.67941375642017432 ;
 	setAttr ".rsrr" -type "double3" 0 0 -7.9513867036587919e-016 ;
 	setAttr -k on ".w0";
@@ -36555,7 +36555,7 @@ createNode parentConstraint -n "Bear_Rig_Scale_Hips:joint_jaw_parentConstraint1"
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 0 -2.1787490589453284e-008 2.0567654690495374e-008 ;
 	setAttr ".tg[0].tor" -type "double3" -90 66.2179695767787 -90 ;
-	setAttr ".lr" -type "double3" 8.1937118909900821 -5.1266625608774552 -56.392373231201702 ;
+	setAttr ".lr" -type "double3" 5.3242685813856898 -8.0672126865257923 -31.803008515319856 ;
 	setAttr ".rst" -type "double3" 0 0.85009107795158412 -1.1489946636517057 ;
 	setAttr ".rsrr" -type "double3" 6.3611093629270335e-015 -1.1927080055488187e-014 
 		3.180554681463516e-015 ;
@@ -61020,8 +61020,8 @@ createNode animCurveTL -n "perspShape_centerOfInterest";
 	setAttr ".tan" 18;
 	setAttr -s 2 ".ktv[0:1]"  146 12.177084459138582 147 12.177084459138582;
 select -ne :time1;
-	setAttr ".o" 280;
-	setAttr ".unw" 280;
+	setAttr ".o" 375;
+	setAttr ".unw" 375;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -61046,10 +61046,15 @@ select -ne :initialShadingGroup;
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :defaultResolution;
+	setAttr ".w" 1920;
+	setAttr ".h" 1080;
 	setAttr ".pa" 1;
+	setAttr ".dar" 1.7777777910232544;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
+select -ne :ikSystem;
+	setAttr -s 4 ".sol";
 connectAttr "persp_translateX.o" ":persp.tx";
 connectAttr "persp_translateY.o" ":persp.ty";
 connectAttr "persp_translateZ.o" ":persp.tz";
@@ -64949,4 +64954,4 @@ connectAttr "Bear_Rig_Scale_Hips:geo_backShape.iog" ":initialShadingGroup.dsm" -
 connectAttr "Bear_Rig_Scale_Hips:geo_hipsShape.iog" ":initialShadingGroup.dsm" -na
 		;
 connectAttr "groupId20.msg" ":initialShadingGroup.gn" -na;
-// End of 22_Closeup_001.ma
+// End of 22_Closeup_002.ma
