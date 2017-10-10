@@ -4,23 +4,26 @@ using UnityEngine;
 
 public class AttachToPlayer : MonoBehaviour {
 
-	Transform attachObject;
+	private Transform attachObject;
+	public Transform player;
+	public GameObject intTrig;
+	private Collider intTrigColl;
+	public GameObject intText;
 
 	void Start()
 	{
-		SendWeaponAttach.SendAttachPoint += AttachPointHandler;
+		Interact.AttachWeapon = AttachPointHandler;
 	}
 
-	void AttachPointHandler (Transform _transform) {
-		attachObject = _transform;
+	void AttachPointHandler () {
+		attachObject = SetIntObj.intObj;
+		intTrigColl = intTrig.GetComponent<Collider>();
+		attachObject.transform.parent = player;
+		attachObject.transform.position = transform.position;
+		attachObject.transform.rotation = transform.rotation;
+		intTrigColl.enabled = false;
+		intText.SetActive(false);
+		SetIntObj.intObj = null;
 	}
 
-	void OnTriggerEnter(Collider other){
-		if (other.tag == "Player"){
-			transform.parent = attachObject;
-			transform.localPosition = Vector3.zero;
-			transform.localRotation = Quaternion.identity;
-			StaticVars.weaponsEnabled = true;
-		}
-	}
 }

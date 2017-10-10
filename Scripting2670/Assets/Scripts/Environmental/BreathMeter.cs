@@ -8,7 +8,7 @@ public class BreathMeter : MonoBehaviour {
 	public static Action End;
 
 	private bool holdingBreath;
-	private int breathCounter;
+	public static int breathCounter;
 	private int breathCounterDef = 10;
 
 	public Transform breathText;
@@ -25,10 +25,10 @@ public class BreathMeter : MonoBehaviour {
 		ChangeSpeed.HoldBreath = StartHoldBreath;
 		AirPocket.TakeBreath = TakeBreath;
 		ChangeSpeed.TakeBreath = TakeBreath;
+		breathCounter = breathCounterDef;
 	}
 	
 	void StartHoldBreath(){
-		breathCounter = breathCounterDef;
 		holdingBreath = true;
 		StartCoroutine("HoldBreath");
 	}

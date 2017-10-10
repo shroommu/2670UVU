@@ -88,7 +88,6 @@
      <Compile Include="Assets\Scripts\Player\Reset.cs" />
      <Compile Include="Assets\Scripts\Player\RunFromEnemy.cs" />
      <Compile Include="Assets\Scripts\Player\SendToEnemy.cs" />
-     <Compile Include="Assets\Scripts\Player\SendWeaponAttach.cs" />
      <None Include="Assets\OBJExport\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

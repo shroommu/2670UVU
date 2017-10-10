@@ -6,6 +6,7 @@ using System;
 public class Interact : MonoBehaviour {
 
 	public static Action SendMessage;
+	public static Action AttachWeapon;
 
 	public StaticVars.InteractType interactType;
 	public StaticVars.LeverType leverType;
@@ -25,7 +26,7 @@ public class Interact : MonoBehaviour {
 	}
 
 	void Interacting () {
-		if(SetIntObj.intObj.transform.position == gameObject.transform.position){
+		if(SetIntObj.intObj != null && SetIntObj.intObj.transform.position == gameObject.transform.position){
 			switch(interactType){
 				case StaticVars.InteractType.LEVER:
 					switch(leverType){
@@ -65,7 +66,8 @@ public class Interact : MonoBehaviour {
 					break;
 
 				case StaticVars.InteractType.PICKUP:
-					print("Pickup");
+					print("doing stuff with weapon");
+					AttachWeapon();
 					break;
 			}
 		}

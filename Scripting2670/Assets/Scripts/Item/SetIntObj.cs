@@ -9,7 +9,7 @@ public class SetIntObj : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player"){
-			intObj = gameObject.transform.parent;
+			intObj = transform.parent;
 			intText.text = "E";
 		}
 	}

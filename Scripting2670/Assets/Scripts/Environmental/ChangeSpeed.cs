@@ -66,8 +66,9 @@ public class ChangeSpeed : MonoBehaviour {
 	void OnTriggerExit(){
 		SendSpeed(StaticVars.speed, StaticVars.gravity);
 		//StaticVars.handlingSpeed = false;
-		TakeBreath();
-		print("Reg Spd");
+		if(BreathMeter.breathCounter < 10){
+			TakeBreath();
+		}
 		EnableJump();
 	}
 

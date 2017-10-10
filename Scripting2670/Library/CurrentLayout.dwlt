@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 392}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 1
-  controlID: 22
+  controlID: 10
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 271}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 23
+  controlID: 11
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -414,24 +414,24 @@ MonoBehaviour:
     width: 200
     height: 554
   m_TreeViewState:
-    scrollPos: {x: 0, y: 6064}
-    m_SelectedIDs: b22bf9ff
-    m_LastClickedID: -447566
-    m_ExpandedIDs: b22bf9ffb42bf9ff564fffff92e1ffff9ae1ffff9ce1ffffeefbffff00000000f02b0000142d0000e82d00009c320000543300009640000048440000
+    scrollPos: {x: 0, y: 4816}
+    m_SelectedIDs: 3ad8f4ff
+    m_LastClickedID: -731078
+    m_ExpandedIDs: 304ffdff2ab7feffe66fffff1afcffff00000000222b00005e2c000040320000fe320000e23a00000a410000144500002e4a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: AttachPoint
+      m_OriginalName: AttachPoint
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -184434
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -466,7 +466,7 @@ MonoBehaviour:
     y: 92
     width: 275
     height: 554
-  m_ScrollPosition: {x: 0, y: 240}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
@@ -511,19 +511,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Enemy
+    - Assets/Prefabs/Environment
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Enemy
+  - Assets/Prefabs/Environment
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Alexa\Documents\Github\2670UVU\Scripting2670
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 26290000
-    m_LastClickedID: 10534
-    m_ExpandedIDs: 00000000a02700006c28000078280000e6280000222900002629000000ca9a3bffffff7f
+    m_SelectedIDs: 32270000
+    m_LastClickedID: 10034
+    m_ExpandedIDs: 000000005a26000026270000322700009e270000da270000de27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -551,7 +551,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a02700006c28000078280000e62800002229000026290000
+    m_ExpandedIDs: 000000005a26000026270000322700009e270000da270000de270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -709,14 +709,14 @@ MonoBehaviour:
     width: 819
     height: 554
   m_SceneLighting: 1
-  lastFramingTime: 2987.3735028279443
+  lastFramingTime: 21402.167931163367
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.486543, y: -21.612774, z: 21.463558}
+    m_Target: {x: 446.35306, y: -44.56714, z: -44.38675}
     speed: 2
-    m_Value: {x: -4.486543, y: -21.612774, z: 21.463558}
+    m_Value: {x: 446.35306, y: -44.56714, z: -44.38675}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -739,13 +739,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.051001247, y: 0.042505912, z: -0.00790662, w: 0.99793667}
+    m_Target: {x: 0.17782176, y: 0.008652922, z: -0.0076065077, w: 0.984196}
     speed: 2
-    m_Value: {x: 0.050992377, y: 0.04249852, z: -0.007905246, w: 0.99776316}
+    m_Value: {x: 0.17778663, y: 0.008651213, z: -0.0076050055, w: 0.98400164}
   m_Size:
-    m_Target: 84.262314
+    m_Target: 315.98874
     speed: 2
-    m_Value: 84.262314
+    m_Value: 315.98874
   m_Ortho:
     m_Target: 0
     speed: 2
