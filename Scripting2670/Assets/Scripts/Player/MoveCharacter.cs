@@ -77,7 +77,7 @@ public class MoveCharacter : MonoBehaviour {
 	//jumps
 	void Jump () {
 		//increments jump count var, performs jump
-		if (jumpNum < 1 && canJump){
+		if (jumpNum < 1 && canJump){	
 			jumping = true;
 			++jumpNum;
 			tempMove.y = jumpHeight;

@@ -10,11 +10,10 @@ public class EnemyMove2 : MonoBehaviour {
 
 	private NavMeshAgent agent;
 
-	private Vector3 startPos;
-
 	private Transform player;
 	private bool following;
 
+	public GameObject startPos;
 	public GameObject patrolTrig1;
 	public GameObject patrolTrig2;
 	public static bool moveToTrig1 = true;
@@ -28,16 +27,21 @@ public class EnemyMove2 : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		if(other.tag == "Player"){
+		if(other.tag == "Player" && !following){
 			following = true;
 			StartCoroutine("Follow");
 			print("Following");
 		}
 	}
 
-	void OnTriggerExit(){
-		following = false;
-		StopCoroutine("Follow");
+	void OnTriggerExit(Collider other){
+		if(other.tag == "Player"){
+			following = false;
+			StopCoroutine("Follow");
+			print("stopping coroutine");
+			agent.destination = startPos.transform.position;
+			print(agent.destination);
+		}
 	}
 
     private void SendTransformHandler(Transform _transform){

@@ -7,7 +7,7 @@ public class BreathMeter : MonoBehaviour {
 
 	public static Action End;
 
-	private bool holdingBreath;
+	private bool holdingBreath = false;
 	public static int breathCounter;
 	private int breathCounterDef = 10;
 

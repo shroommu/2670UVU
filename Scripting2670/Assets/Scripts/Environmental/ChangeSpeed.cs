@@ -12,23 +12,31 @@ public class ChangeSpeed : MonoBehaviour {
 	public static Action HoldBreath;
 	public static Action TakeBreath;
 
+	private GameObject thisCollider;
+
 	public StaticVars.GameSpeed speedType;
 
 	private bool inWater = false;
 	private int waterCount;
 
+	//allows OnTriggerExit method to run if value is 1.
+	public int allowExit = 1;
+
 	private bool canWaterfall = false;
 
-	//private bool handlingSpeed;
+	private bool handlingSpeed;
 
 	void Start(){
-		//StaticVars.handlingSpeed = handlingSpeed;
+		StaticVars.handlingSpeed = handlingSpeed;
 		Pickup.WaterfallPU = WaterfallPU;
 	}
 	
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player"){
+			thisCollider = gameObject;
+			print(thisCollider.name);
 			StaticVars.handlingSpeed = true;
+
 			switch (speedType){
 				case StaticVars.GameSpeed.REG:
 					SendSpeed(StaticVars.speed, StaticVars.gravity);
@@ -38,14 +46,17 @@ public class ChangeSpeed : MonoBehaviour {
 				case StaticVars.GameSpeed.DRAG:
 					SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity);
 					DisableJump();
+					print("DragSpeed");
 					break;
 				
 				case StaticVars.GameSpeed.BOOST:
 					SendSpeed(StaticVars.boostSpeed, StaticVars.boostGravity);
+					print("BoostSpeed");
 					break;
 
 				case StaticVars.GameSpeed.CLIMB:
 					SendSpeed(StaticVars.climbSpeed, StaticVars.climbGravity);
+					print("ClimbSpeed");
 					break;
 
 				case StaticVars.GameSpeed.SWIM:
@@ -58,6 +69,7 @@ public class ChangeSpeed : MonoBehaviour {
 				case StaticVars.GameSpeed.SWIMWATERFALL:
 					if(StaticVars.canWaterfall){
 						SendSpeed(StaticVars.climbSpeed, StaticVars.climbGravity);
+						print("Waterfall");
 					}
 					break;
 			}
@@ -65,16 +77,19 @@ public class ChangeSpeed : MonoBehaviour {
 	}
 
 	void OnTriggerExit(){
-		SendSpeed(StaticVars.speed, StaticVars.gravity);
-		//StaticVars.handlingSpeed = false;
-		if(BreathMeter.breathCounter < 10){
-			TakeBreath();
+		if(allowExit == 1){
+			SendSpeed(StaticVars.speed, StaticVars.gravity);
+			print("RegularSpeed");
+			handlingSpeed = false;
+			EnableJump();
+
+			if(BreathMeter.breathCounter < 10){
+				TakeBreath();
+			}
 		}
-		EnableJump();
 	}
 
 	void WaterfallPU(){
 		canWaterfall = true;
 	}
-	
 }
