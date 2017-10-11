@@ -67,6 +67,8 @@ public class Interact : MonoBehaviour {
 
 				case StaticVars.InteractType.PICKUP:
 					print("doing stuff with weapon");
+					StaticVars.message = "Got Spear";
+					SendMessage();
 					AttachWeapon();
 					break;
 			}

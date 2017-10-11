@@ -9,28 +9,35 @@ using UnityEngine.AI;
 public class EnemyMove2 : MonoBehaviour {
 
 	private NavMeshAgent agent;
+
+	private Vector3 startPos;
+
 	private Transform player;
+	private bool following;
 
 	public GameObject patrolTrig1;
 	public GameObject patrolTrig2;
-	private bool moveToTrig1 = true;
+	public static bool moveToTrig1 = true;
+
+	public bool canPatrol;
 
 	void Awake () {
 		agent = GetComponent<NavMeshAgent>();
 		SendToEnemy.SendTransform += SendTransformHandler;
-		EnemyPatrolX.SendPatrolDestination = Patrol;
-		agent.destination = patrolTrig1.transform.position;
 		agent.updateRotation = false;
 	}
 
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Player"){
+			following = true;
 			StartCoroutine("Follow");
+			print("Following");
 		}
 	}
 
 	void OnTriggerExit(){
-		StopAllCoroutines();
+		following = false;
+		StopCoroutine("Follow");
 	}
 
     private void SendTransformHandler(Transform _transform){
@@ -38,22 +45,9 @@ public class EnemyMove2 : MonoBehaviour {
     }
 
 	IEnumerator Follow () {
-		while (true){
+		while (following){
 			yield return new WaitForFixedUpdate();
 			agent.destination = player.position;
-		}
-	}
-
-	void Patrol(){
-		moveToTrig1 = !moveToTrig1;
-		if (moveToTrig1 == true){
-			agent.destination = patrolTrig1.transform.position;
-			print("trig one");
-		}
-
-		else{
-			agent.destination = patrolTrig2.transform.position;
-			print("trig two");
 		}
 	}
 }

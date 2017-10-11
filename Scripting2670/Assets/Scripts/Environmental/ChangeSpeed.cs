@@ -50,6 +50,7 @@ public class ChangeSpeed : MonoBehaviour {
 
 				case StaticVars.GameSpeed.SWIM:
 					SendSpeed(StaticVars.swimSpeed, StaticVars.swimGravity);
+					print("Swimming");
 					HoldBreath();
 					DisableJump();
 					break;

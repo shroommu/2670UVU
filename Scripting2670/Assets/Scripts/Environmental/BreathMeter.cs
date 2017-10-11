@@ -14,6 +14,7 @@ public class BreathMeter : MonoBehaviour {
 	public Transform breathText;
 	private TextMesh text;
 
+	private bool isRunning = false;
 
 	void Start () {
 
@@ -29,12 +30,15 @@ public class BreathMeter : MonoBehaviour {
 	}
 	
 	void StartHoldBreath(){
-		holdingBreath = true;
-		StartCoroutine("HoldBreath");
+		if(!isRunning){
+			holdingBreath = true;
+			StartCoroutine("HoldBreath");
+		}
 	}
 
 	IEnumerator HoldBreath(){
 		while(holdingBreath){
+			isRunning = true;
 			DisplayBreath();
 			yield return new WaitForSeconds(1);
 			--breathCounter;
@@ -44,6 +48,7 @@ public class BreathMeter : MonoBehaviour {
 				End();
 				breathCounter = breathCounterDef;
 				DisplayBreath();
+				isRunning = false;
 			}
 		}
 	}
@@ -52,6 +57,7 @@ public class BreathMeter : MonoBehaviour {
 		StopAllCoroutines();
 		breathCounter = breathCounterDef;
 		DisplayBreath();
+		isRunning = false;
 	}
 
 	void DoubleBreathCounter(){

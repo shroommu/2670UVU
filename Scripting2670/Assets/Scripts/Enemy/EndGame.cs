@@ -9,6 +9,7 @@ public class EndGame : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Player"){
+			print("ending");
 			End();
 		}
 	}

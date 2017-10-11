@@ -16,6 +16,7 @@ public class Reset : MonoBehaviour {
 	public GameObject[] respawns;
 
 	private bool resetting = false;
+	private bool isRunning = false;
 
 	// Use this for initialization
 	void Start () {
@@ -28,25 +29,27 @@ public class Reset : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Checkpoint"){
 			checkPoint = other.gameObject;
-			other.enabled = false;
 			StaticVars.message = "Checkpoint!";
 			SendMessage();
 		}
 	}
 
 	void StartResetThis(){
-		resetting = true;
-		StartCoroutine("ResetThis");
+		if(!isRunning){
+			resetting = true;
+			StartCoroutine("ResetThis");
+		}
 	}
 
 	//respawns player
 	IEnumerator ResetThis () {
 		while(resetting){
+			isRunning = true;
+			print("Resetting");
 			FreezeControls();
 			gameOverBlack.SetActive(true);
 			StaticVars.message = "You Died";
 			SendMessage();
-			yield return new WaitForSeconds(1);
 
 			if (checkPoint == null){
 				transform.position = startPoint.position;
@@ -56,9 +59,11 @@ public class Reset : MonoBehaviour {
 				transform.position = checkPoint.transform.position;
 			}
 
+			yield return new WaitForSeconds(1);
 			//RespawnItems();
 			gameOverBlack.SetActive(false);
 			UnfreezeControls();
+			isRunning = false;
 			resetting = false;
 		}
 	}

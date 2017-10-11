@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class GameData : MonoBehaviour {
 
-	private float speed = 5;
+	private float speed = 7;
 	private float gravity = 1;
 	private float dragSpeed = 0.1f;
 	private float dragGravity = 0f;

@@ -5,7 +5,7 @@ using System;
 
 public class StickAttack : MonoBehaviour {
 
-	public static Action StickAttackAction;
+	private GameObject enemy;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +14,8 @@ public class StickAttack : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Enemy"){
-			StickAttackAction();
+			enemy = other.gameObject;
+			enemy.SetActive(false);
 		}
 	}
 }
