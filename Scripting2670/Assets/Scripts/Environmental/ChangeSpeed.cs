@@ -77,11 +77,12 @@ public class ChangeSpeed : MonoBehaviour {
 	}
 
 	void OnTriggerExit(){
-		if(allowExit == 1){
+		if(allowExit == 1 && gameObject == thisCollider){
 			SendSpeed(StaticVars.speed, StaticVars.gravity);
 			print("RegularSpeed");
 			handlingSpeed = false;
 			EnableJump();
+			thisCollider = null;
 
 			if(BreathMeter.breathCounter < 10){
 				TakeBreath();

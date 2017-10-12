@@ -32,8 +32,10 @@ public class MoveCharacter : MonoBehaviour {
 		
 		//Action subscriptions
 		PlayButton.Play += OnPlay;
+		
 		Reset.FreezeControls += FreezeControls;
 		Teleport.FreezeControls += FreezeControls;
+
 		Reset.UnfreezeControls += UnfreezeControls;
 		Teleport.UnfreezeControls += UnfreezeControls;
 

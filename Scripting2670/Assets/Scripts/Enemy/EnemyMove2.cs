@@ -24,13 +24,13 @@ public class EnemyMove2 : MonoBehaviour {
 		agent = GetComponent<NavMeshAgent>();
 		SendToEnemy.SendTransform += SendTransformHandler;
 		agent.updateRotation = false;
+		EnemyHealth.AttackKnockback += AttackKnockback;
 	}
 
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Player" && !following){
 			following = true;
 			StartCoroutine("Follow");
-			print("Following");
 		}
 	}
 
@@ -38,15 +38,22 @@ public class EnemyMove2 : MonoBehaviour {
 		if(other.tag == "Player"){
 			following = false;
 			StopCoroutine("Follow");
-			print("stopping coroutine");
-			agent.destination = startPos.transform.position;
-			print(agent.destination);
+			//agent.destination = startPos.transform.position;
 		}
 	}
 
     private void SendTransformHandler(Transform _transform){
         player = _transform;
     }
+
+	void AttackKnockback(bool knockedBack){
+		if (!knockedBack){
+			StartCoroutine("Follow");
+		}
+		else{
+			agent.destination = startPos.transform.position;
+		}
+	}
 
 	IEnumerator Follow () {
 		while (following){

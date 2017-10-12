@@ -10,11 +10,18 @@ public class MoveInput : MonoBehaviour {
 	public static Action JumpAction;
 	public static Action JumpDownAction;
 	public static Action InteractAction;
+
+	public static Action ClickAction;
+
 	public bool canPlay = true;
 	public float runTime = 0.01f;
 
 	void Start(){
-		StartCoroutine(RunInput());
+		PlayButton.Play += OnPlay;
+	}
+
+	void OnPlay(){
+		StartCoroutine("RunInput");
 	}
 
 	IEnumerator RunInput () {
@@ -39,7 +46,11 @@ public class MoveInput : MonoBehaviour {
 				JumpDownAction();
 			}
 
-			yield return new WaitForSeconds(runTime);
+			if (Input.GetMouseButtonDown(0)){
+				ClickAction();
+			}
+
+			yield return new WaitForFixedUpdate();
 		}
 	}
 }

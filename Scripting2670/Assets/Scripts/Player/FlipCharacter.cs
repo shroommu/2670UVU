@@ -7,7 +7,9 @@ public class FlipCharacter : MonoBehaviour {
 
 	Quaternion myRotate;
 	Vector3 rotValue;
-	// Use this for initialization
+
+	public static bool faceRight;
+
 	void Start () {
 		PlayButton.Play += OnPlay;
 	}
@@ -21,9 +23,13 @@ public class FlipCharacter : MonoBehaviour {
     {
 		if(obj > 0 )
 			rotValue.y = 0;
+			//faceRight = true;
+			//print("faceRight");
 
 		if(obj < 0)
 			rotValue.y = 180;
+			//faceRight = false;
+			//print(faceRight);
 
 		myRotate.eulerAngles = rotValue;
         transform.rotation = myRotate; 
