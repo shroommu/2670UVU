@@ -9,8 +9,8 @@ public class ChangeSpeed : MonoBehaviour {
 	public static Action DisableJump;
 	public static Action EnableJump;
 
-	public static Action HoldBreath;
-	public static Action TakeBreath;
+	//public static Action HoldBreath;
+	//public static Action TakeBreath;
 
 	private GameObject thisCollider;
 
@@ -62,7 +62,7 @@ public class ChangeSpeed : MonoBehaviour {
 				case StaticVars.GameSpeed.SWIM:
 					SendSpeed(StaticVars.swimSpeed, StaticVars.swimGravity);
 					print("Swimming");
-					HoldBreath();
+					//HoldBreath();
 					DisableJump();
 					break;
 				
@@ -84,9 +84,9 @@ public class ChangeSpeed : MonoBehaviour {
 			EnableJump();
 			thisCollider = null;
 
-			if(BreathMeter.breathCounter < 10){
+			/*if(BreathMeter.breathCounter < 10){
 				TakeBreath();
-			}
+			}*/
 		}
 	}
 

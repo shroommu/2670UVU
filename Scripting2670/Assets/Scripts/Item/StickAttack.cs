@@ -7,10 +7,12 @@ public class StickAttack : MonoBehaviour {
 
 	private GameObject enemy;
 	public static Action<GameObject> SetEnemy;
-	private float strikeSpeed = 1;
-	private Vector3 strikeDistance;
-	private Vector3 strikeOriginPoint;
-	private float strikeTime = 1;
+	private float strikeSpeed = 2;
+	public GameObject strikePos;
+	private Vector3 strikePosV;
+	public GameObject originPos;
+	private Vector3 originPosV;
+	private float strikeTime = .5f;
 
 	void Start () {
 		PlayButton.Play += OnPlay;
@@ -22,27 +24,29 @@ public class StickAttack : MonoBehaviour {
 
 	void StartAttack (){
 		print("Clicked");
+		strikeTime += strikeSpeed * Time.deltaTime;
+		strikePosV = strikePos.transform.localPosition;
+		originPosV = originPos.transform.localPosition;
 		StartCoroutine("SpearStrike");
 	}
 
 	IEnumerator SpearStrike(){
-		strikeTime = .5f;
-		strikeOriginPoint = gameObject.transform.localPosition;
-		strikeDistance = gameObject.transform.localPosition + new Vector3(1, 0, 0);
 		print("striking");
 		while(strikeTime < 1){
 			strikeTime += strikeSpeed * Time.deltaTime;
-			gameObject.transform.localPosition = Vector3.Lerp(strikeOriginPoint, strikeDistance, strikeTime);
+			print("striking");
+			print(strikeTime);
+			gameObject.transform.localPosition = Vector3.Lerp(gameObject.transform.localPosition, strikePosV, strikeTime);
 			yield return null;
 		}
-
-		strikeTime = .5f;
+		strikeTime = .7f;
 		print("returning");
 		while(strikeTime < 1){
 			strikeTime += strikeSpeed * Time.deltaTime;
-			gameObject.transform.localPosition = Vector3.Lerp(gameObject.transform.localPosition, strikeOriginPoint, strikeTime);
+			gameObject.transform.localPosition = Vector3.Lerp(gameObject.transform.localPosition, originPosV, strikeTime);
 			yield return null;
 		}
+		strikeTime = .5f;
 	}
 	
 	void OnTriggerEnter(Collider other){

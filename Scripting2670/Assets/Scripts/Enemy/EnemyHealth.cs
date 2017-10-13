@@ -5,7 +5,12 @@ using System;
 
 public class EnemyHealth : MonoBehaviour {
 
-	private int enemyHealth = 10;
+	private float enemyHealth = 1;
+	public int enemyHits;
+	private float enemyHealthSub = 1;
+	public GameObject enemyHealthBar;
+	private Vector3 enemyHealthBarScale;
+
 	private GameObject thisEnemy;
 	public float knockBackSpeed;
 	private float knockBackTime;
@@ -16,16 +21,26 @@ public class EnemyHealth : MonoBehaviour {
 
 	void Start(){
 		StickAttack.SetEnemy += SetEnemy;
+		enemyHealthSub /= enemyHits;
+		enemyHealthBarScale = enemyHealthBar.transform.localScale;
+		print(enemyHealthSub);
 	}
 
 	void SetEnemy(GameObject enemy){
 		if(enemy == gameObject){
 			thisEnemy = enemy;
 			print("I've been attacked!");
-			--enemyHealth;
+			enemyHealth -= enemyHealthSub;
+			enemyHealthBarScale = new Vector3(enemyHealth, .6f, 1);
+			enemyHealthBar.transform.localScale = enemyHealthBarScale;
 			print(enemyHealth);
+
 			AttackKnockback(true);
+
 			StartCoroutine("EnemyKnockback");
+			if(enemyHealth == 0){
+				KillEnemy();
+			}
 		}
 	}
 
@@ -40,5 +55,9 @@ public class EnemyHealth : MonoBehaviour {
 		if(knockBackTime == 1){
 			AttackKnockback(false);
 		}
+	}
+
+	void KillEnemy(){
+		thisEnemy.SetActive(false);
 	}
 }
