@@ -23,11 +23,13 @@ public class StickAttack : MonoBehaviour {
 	}
 
 	void StartAttack (){
-		print("Clicked");
-		strikeTime += strikeSpeed * Time.deltaTime;
-		strikePosV = strikePos.transform.localPosition;
-		originPosV = originPos.transform.localPosition;
-		StartCoroutine("SpearStrike");
+		if(StaticVars.weaponsEnabled){
+			print("Clicked");
+			strikeTime += strikeSpeed * Time.deltaTime;
+			strikePosV = strikePos.transform.localPosition;
+			originPosV = originPos.transform.localPosition;
+			StartCoroutine("SpearStrike");
+		}
 	}
 
 	IEnumerator SpearStrike(){

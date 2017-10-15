@@ -8,11 +8,11 @@ public class GameData : MonoBehaviour {
 
 	private float speed = 7;
 	private float gravity = 1;
-	private float dragSpeed = 0.1f;
-	private float dragGravity = 0f;
-	private float boostSpeed = 10;
+	private float dragSpeed = 1;
+	private float dragGravity = 0;
+	private float boostSpeed = 12;
 	private float boostGravity = 1;
-	private float climbSpeed = 5;
+	private float climbSpeed = 7;
 	private float climbGravity = 0;
 	private float swimSpeed = 5;
 	private float swimGravity = 0.1f;

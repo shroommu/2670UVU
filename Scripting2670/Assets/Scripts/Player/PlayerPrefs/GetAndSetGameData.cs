@@ -10,7 +10,7 @@ public class GetAndSetGameData : MonoBehaviour {
     public static Action<int> UpdateGold;
 
     void Awake(){
-        ForPurchase.PurchaseAction += PurchaseHandler;
+        //ForPurchase.PurchaseAction += PurchaseHandler;
     }
 
 	void Start(){

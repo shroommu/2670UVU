@@ -9,6 +9,7 @@ public class FlipCharacter : MonoBehaviour {
 	Vector3 rotValue;
 
 	public static bool faceRight;
+	
 
 	void Start () {
 		PlayButton.Play += OnPlay;
@@ -21,17 +22,19 @@ public class FlipCharacter : MonoBehaviour {
 
     private void Flip(float obj)
     {
-		if(obj > 0 )
-			rotValue.y = 0;
-			//faceRight = true;
-			//print("faceRight");
+		if(Interact.canFlip){
+			if(obj > 0 )
+				rotValue.y = 0;
+				//faceRight = true;
+				//print("faceRight");
 
-		if(obj < 0)
-			rotValue.y = 180;
-			//faceRight = false;
-			//print(faceRight);
+			if(obj < 0)
+				rotValue.y = 180;
+				//faceRight = false;
+				//print(faceRight);
 
-		myRotate.eulerAngles = rotValue;
-        transform.rotation = myRotate; 
+			myRotate.eulerAngles = rotValue;
+			transform.rotation = myRotate; 
+		}
     }
 }

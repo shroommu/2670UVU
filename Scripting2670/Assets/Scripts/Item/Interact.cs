@@ -14,6 +14,7 @@ public class Interact : MonoBehaviour {
 	private GameObject player;
 
 	public static bool isInteract = false;
+	public static bool canFlip = true;
 	private bool leverPulled = false;
 
 	void Start () {
@@ -55,12 +56,14 @@ public class Interact : MonoBehaviour {
 							SetIntObj.intObj.transform.parent = player.transform;
 							isInteract = true;
 							print("parenting");
+							canFlip = false;
 							break;
 
 						case true:
 							SetIntObj.intObj.transform.parent = null;
 							isInteract = false;
 							print("unparenting");
+							canFlip = true;
 							break;
 					}
 					break;
@@ -68,6 +71,7 @@ public class Interact : MonoBehaviour {
 				case StaticVars.InteractType.PICKUP:
 					print("doing stuff with weapon");
 					StaticVars.message = "Got Spear";
+					StaticVars.weaponsEnabled = true;
 					SendMessage();
 					AttachWeapon();
 					break;

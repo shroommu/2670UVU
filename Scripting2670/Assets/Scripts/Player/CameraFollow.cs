@@ -11,7 +11,7 @@ public class CameraFollow : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		PlayButton.Play += OnPlay;
-		gameObject.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -15);
+		gameObject.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -20);
 	}
 
 	void OnPlay(){
