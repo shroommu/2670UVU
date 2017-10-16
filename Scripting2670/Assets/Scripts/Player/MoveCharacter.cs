@@ -12,11 +12,13 @@ public class MoveCharacter : MonoBehaviour {
 
     private float jumpHeight = .3f;
 
-	private bool jumping;
+	private bool jumping= false;
 	private bool canVertMove = false;
 	private bool canJump = true;
 	private bool canMove = false;
-	private bool handlingSpeed;
+
+	private bool sprintRunning = false;
+	private bool restoreSprintRunning = false;
 
 	private int jumpNum = 0;
 
@@ -24,6 +26,7 @@ public class MoveCharacter : MonoBehaviour {
 	private TextMesh sprintText;
 	private int sprintCounter;
 	private int sprintCounterDef = 3;
+	
 
     void Start () {
 		cc = GetComponent<CharacterController>();
@@ -42,7 +45,6 @@ public class MoveCharacter : MonoBehaviour {
 		//StaticVars variable declarations
 		speed = StaticVars.speed;
 		gravity = StaticVars.gravity;
-		handlingSpeed = StaticVars.handlingSpeed;
 	}
 
 	//enables inputs once play button pressed
@@ -108,7 +110,7 @@ public class MoveCharacter : MonoBehaviour {
 			}
 
 			//makes player fall less quickly
-			if (cc.isGrounded == false && jumping == false && canVertMove == false && handlingSpeed == false){
+			if (cc.isGrounded == false && !jumping && !canVertMove){
 				tempMove.y = -.3f;
 			}
 
@@ -122,14 +124,25 @@ public class MoveCharacter : MonoBehaviour {
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
 
-		//starts sprint
-		if(Input.GetKeyDown(KeyCode.LeftShift)){
+		//starts sprint (left shift)
+		if(Input.GetKeyDown(KeyCode.LeftShift) && !sprintRunning){
 			StartCoroutine("Sprint");
 			StopCoroutine("RestoreSprint");
 		}
 
-		//stops sprint
-		if(Input.GetKeyUp(KeyCode.LeftShift)){
+		//stops sprint (left shift)
+		if(Input.GetKeyUp(KeyCode.LeftShift) && !restoreSprintRunning){
+			StopCoroutine("Sprint");
+			StartCoroutine("RestoreSprint");
+			speed = StaticVars.speed;
+		}
+		//starts sprint (right shift)
+		if(Input.GetKeyDown(KeyCode.RightShift) && !sprintRunning){
+			StartCoroutine("Sprint");
+			StopCoroutine("RestoreSprint");
+		}
+		//starts sprint (right shift)
+		if(Input.GetKeyUp(KeyCode.RightShift) && !restoreSprintRunning){
 			StopCoroutine("Sprint");
 			StartCoroutine("RestoreSprint");
 			speed = StaticVars.speed;
@@ -139,6 +152,7 @@ public class MoveCharacter : MonoBehaviour {
 	//changes speed to sprinting, counts down sprintCounter, then deactivates sprinting
 	IEnumerator Sprint() {
 		while(sprintCounter > 0){
+			sprintRunning = true;
 			DisplaySprint();
 			speed = StaticVars.boostSpeed;
 			yield return new WaitForSeconds(1);
@@ -150,15 +164,18 @@ public class MoveCharacter : MonoBehaviour {
 				StopCoroutine("Sprint");
 			}
 		}
+		sprintRunning = false;
 	}
 
 	//restores sprinting ability
 	IEnumerator RestoreSprint(){
 		while(sprintCounter < sprintCounterDef){
+			restoreSprintRunning = true;
 			yield return new WaitForSeconds(2);
 			++sprintCounter;
 			DisplaySprint();
 		}
+		restoreSprintRunning = false;
 	}
 
 	void DisplaySprint(){

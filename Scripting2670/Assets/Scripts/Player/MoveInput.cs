@@ -46,7 +46,11 @@ public class MoveInput : MonoBehaviour {
 				JumpDownAction();
 			}
 
-			if (Input.GetMouseButtonDown(0)){
+			if (Input.GetKeyDown(KeyCode.S)){
+				JumpDownAction();
+			}
+
+			if (Input.GetKeyDown(KeyCode.Q)){
 				ClickAction();
 			}
 

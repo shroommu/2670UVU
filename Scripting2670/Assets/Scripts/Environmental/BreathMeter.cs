@@ -21,21 +21,23 @@ public class BreathMeter : MonoBehaviour {
 		text = breathText.GetComponent<TextMesh>();
 
 		Pickup.BreathPU = DoubleBreathCounter;
+		AirPocket.HoldBreath = StartHoldBreath;
+		AirPocket.TakeBreath = TakeBreath;
 
-		//AirPocket.HoldBreath = StartHoldBreath;
-		//ChangeSpeed.HoldBreath = StartHoldBreath;
-		//AirPocket.TakeBreath = TakeBreath;
-		//ChangeSpeed.TakeBreath = TakeBreath;
 		breathCounter = breathCounterDef;
 	}
 	
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Water"){
 			print("WaterEntered");
-			if(!isRunning){
-				holdingBreath = true;
-				StartCoroutine("HoldBreath");
-			}
+			StartHoldBreath();
+		}
+	}
+
+	void StartHoldBreath(){
+		if(!isRunning){
+			holdingBreath = true;
+			StartCoroutine("HoldBreath");
 		}
 	}
 
@@ -58,11 +60,15 @@ public class BreathMeter : MonoBehaviour {
 
 	void OnTriggerExit(Collider other){
 		if (other.tag == "Water"){
-			StopAllCoroutines();
-			breathCounter = breathCounterDef;
-			DisplayBreath();
-			isRunning = false;
+			TakeBreath();
 		}
+	}
+
+	void TakeBreath(){
+		StopCoroutine("HoldBreath");
+		breathCounter = breathCounterDef;
+		DisplayBreath();
+		isRunning = false;
 	}
 
 	void DoubleBreathCounter(){
