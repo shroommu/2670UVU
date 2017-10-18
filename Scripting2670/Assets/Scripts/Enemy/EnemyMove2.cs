@@ -13,18 +13,21 @@ public class EnemyMove2 : MonoBehaviour {
 	private Transform player;
 	private bool following;
 
-	public GameObject startPos;
-	public GameObject patrolTrig1;
-	public GameObject patrolTrig2;
-	public static bool moveToTrig1 = true;
+	public GameObject leftPatrolTrig;
+	public GameObject rightPatrolTrig;
 
-	public bool canPatrol;
+	private EnemyFlip enemyFlip;
 
 	void Awake () {
 		agent = GetComponent<NavMeshAgent>();
+		enemyFlip = GetComponent<EnemyFlip>();
+
 		SendToEnemy.SendTransform += SendTransformHandler;
+		//EnemyHealth.AttackKnockback += AttackKnockback;
+
 		agent.updateRotation = false;
-		EnemyHealth.AttackKnockback += AttackKnockback;
+		agent.destination = leftPatrolTrig.transform.position;
+
 	}
 
 	void OnTriggerEnter(Collider other){
@@ -36,9 +39,10 @@ public class EnemyMove2 : MonoBehaviour {
 
 	void OnTriggerExit(Collider other){
 		if(other.tag == "Player"){
+			print("not following");
 			following = false;
 			StopCoroutine("Follow");
-			//agent.destination = startPos.transform.position;
+			agent.destination = leftPatrolTrig.transform.position;
 		}
 	}
 
@@ -50,15 +54,18 @@ public class EnemyMove2 : MonoBehaviour {
 		if (!knockedBack){
 			StartCoroutine("Follow");
 		}
+
 		else{
-			agent.destination = startPos.transform.position;
+			agent.destination = leftPatrolTrig.transform.position;
 		}
 	}
 
 	IEnumerator Follow () {
 		while (following){
-			yield return new WaitForFixedUpdate();
 			agent.destination = player.position;
+
+			yield return new WaitForFixedUpdate();
 		}
+
 	}
 }

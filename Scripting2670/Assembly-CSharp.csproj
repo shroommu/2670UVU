@@ -55,9 +55,12 @@
      <Compile Include="Assets\Scripts\Enemy\BearBehavior.cs" />
      <Compile Include="Assets\Scripts\Enemy\BossClearedBehavior.cs" />
      <Compile Include="Assets\Scripts\Enemy\EndGame.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyFlip.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyKnockBack.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMove2.cs" />
-     <Compile Include="Assets\Scripts\Enemy\EnemyPatrolY.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyPatrol.cs" />
+     <Compile Include="Assets\Scripts\Enemy\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Enemy\GatorBehavior.cs" />
      <Compile Include="Assets\Scripts\Environmental\AirPocket.cs" />
      <Compile Include="Assets\Scripts\Environmental\BreathMeter.cs" />
@@ -79,6 +82,7 @@
      <Compile Include="Assets\Scripts\Item\ObjectPhysics.cs" />
      <Compile Include="Assets\Scripts\Item\Pickup.cs" />
      <Compile Include="Assets\Scripts\Item\SetIntObj.cs" />
+     <Compile Include="Assets\Scripts\Item\SnapInPlace.cs" />
      <Compile Include="Assets\Scripts\Item\StickAttack.cs" />
      <Compile Include="Assets\Scripts\Player\AnimateCharacter.cs" />
      <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />

@@ -25,13 +25,9 @@ public class FlipCharacter : MonoBehaviour {
 		if(Interact.canFlip){
 			if(obj > 0 )
 				rotValue.y = 0;
-				//faceRight = true;
-				//print("faceRight");
 
 			if(obj < 0)
 				rotValue.y = 180;
-				//faceRight = false;
-				//print(faceRight);
 
 			myRotate.eulerAngles = rotValue;
 			transform.rotation = myRotate; 

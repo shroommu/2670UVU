@@ -5,14 +5,16 @@ using System;
 
 public class StickAttack : MonoBehaviour {
 
-	private GameObject enemy;
 	public static Action<GameObject> SetEnemy;
+
+	private GameObject enemy;
 	private float strikeSpeed = 2;
+	private float strikeTime = .5f;
+
 	public GameObject strikePos;
 	private Vector3 strikePosV;
 	public GameObject originPos;
 	private Vector3 originPosV;
-	private float strikeTime = .5f;
 
 	void Start () {
 		PlayButton.Play += OnPlay;
@@ -33,16 +35,13 @@ public class StickAttack : MonoBehaviour {
 	}
 
 	IEnumerator SpearStrike(){
-		print("striking");
 		while(strikeTime < 1){
 			strikeTime += strikeSpeed * Time.deltaTime;
-			print("striking");
 			print(strikeTime);
 			gameObject.transform.localPosition = Vector3.Lerp(gameObject.transform.localPosition, strikePosV, strikeTime);
 			yield return null;
 		}
 		strikeTime = .7f;
-		print("returning");
 		while(strikeTime < 1){
 			strikeTime += strikeSpeed * Time.deltaTime;
 			gameObject.transform.localPosition = Vector3.Lerp(gameObject.transform.localPosition, originPosV, strikeTime);
@@ -53,7 +52,7 @@ public class StickAttack : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Enemy"){
-			enemy = other.transform.parent.gameObject;
+			enemy = other.gameObject;
 			SetEnemy(enemy);
 		}
 	}

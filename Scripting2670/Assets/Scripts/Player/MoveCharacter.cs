@@ -10,7 +10,7 @@ public class MoveCharacter : MonoBehaviour {
 	float speed;
 	float gravity;
 
-    private float jumpHeight = .3f;
+    private float jumpHeight = .4f;
 
 	private bool jumping= false;
 	private bool canVertMove = false;
