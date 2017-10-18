@@ -34,7 +34,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1172731874567372
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,6 +43,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4463344184135982}
+  - component: {fileID: 114455543476626500}
   m_Layer: 0
   m_Name: Enemy(Non-Patrolling)
   m_TagString: Untagged
@@ -81,7 +82,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1396626188139642
 GameObject:
   m_ObjectHideFlags: 1
@@ -395,7 +396,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   knockBackSpeed: 1
-  knockBackDirectionDef: 2
+  knockBackDirectionDef: 10
+--- !u!114 &114455543476626500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172731874567372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb73652c19b89fb40aa1dda7daa42892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114601713638711788
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\OBJExport\OBJExporter.cs" />
+     <Compile Include="Assets\Scripts\Enemy\ActivateEnemiesTrigger.cs" />
+     <Compile Include="Assets\Scripts\Enemy\ActivateEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemy\BearBehavior.cs" />
      <Compile Include="Assets\Scripts\Enemy\BossClearedBehavior.cs" />
      <Compile Include="Assets\Scripts\Enemy\EndGame.cs" />

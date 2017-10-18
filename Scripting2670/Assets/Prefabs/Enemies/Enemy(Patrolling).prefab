@@ -76,6 +76,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4432394452295862}
+  - component: {fileID: 114366238553016128}
   m_Layer: 0
   m_Name: Enemy(Patrolling)
   m_TagString: Untagged
@@ -441,6 +442,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newPatrolDest: {fileID: 1559431046726382}
   enemy: {fileID: 1237010208250960}
+--- !u!114 &114366238553016128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311013528340548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb73652c19b89fb40aa1dda7daa42892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114398469532835996
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -513,7 +525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3861ed200b664949b84b32e2c15063a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHits: 4
+  enemyHits: 2
   enemyHealthBar: {fileID: 1302932179475428}
   isActive: 1
 --- !u!195 &195996009013810046

@@ -19,6 +19,8 @@ public class MoveCharacter : MonoBehaviour {
 
 	private bool sprintRunning = false;
 	private bool restoreSprintRunning = false;
+	private bool sprinting = false;
+	private bool canRestoreSprint = false;
 
 	private int jumpNum = 0;
 
@@ -125,33 +127,31 @@ public class MoveCharacter : MonoBehaviour {
 		cc.Move(tempMove);
 
 		//starts sprint (left shift)
-		if(Input.GetKeyDown(KeyCode.LeftShift) && !sprintRunning){
-			StartCoroutine("Sprint");
-			StopCoroutine("RestoreSprint");
+		if(Input.GetKeyDown(KeyCode.LeftShift)){
+			print("Left Shift pressed");
+			if(!sprintRunning){
+				sprinting = true;
+				canRestoreSprint = false;
+				StartCoroutine("Sprint");
+			}
 		}
 
 		//stops sprint (left shift)
-		if(Input.GetKeyUp(KeyCode.LeftShift) && !restoreSprintRunning){
-			StopCoroutine("Sprint");
-			StartCoroutine("RestoreSprint");
+		if(Input.GetKeyUp(KeyCode.LeftShift)){
+			sprinting = false;
+			canRestoreSprint = true;
+			print("Left Shift released");
 			speed = StaticVars.speed;
-		}
-		//starts sprint (right shift)
-		if(Input.GetKeyDown(KeyCode.RightShift) && !sprintRunning){
-			StartCoroutine("Sprint");
-			StopCoroutine("RestoreSprint");
-		}
-		//starts sprint (right shift)
-		if(Input.GetKeyUp(KeyCode.RightShift) && !restoreSprintRunning){
-			StopCoroutine("Sprint");
-			StartCoroutine("RestoreSprint");
-			speed = StaticVars.speed;
+			if(!restoreSprintRunning){
+				StartCoroutine("RestoreSprint");
+			}
 		}
 	}
 
 	//changes speed to sprinting, counts down sprintCounter, then deactivates sprinting
 	IEnumerator Sprint() {
-		while(sprintCounter > 0){
+		while(sprintCounter > 0 && sprinting){
+			print("sprint is running");
 			sprintRunning = true;
 			DisplaySprint();
 			speed = StaticVars.boostSpeed;
@@ -159,22 +159,26 @@ public class MoveCharacter : MonoBehaviour {
 			--sprintCounter;
 			
 			if(sprintCounter == 0){
+				print("stopped sprinting");
 				DisplaySprint();
 				speed = StaticVars.speed;
 				StopCoroutine("Sprint");
 			}
 		}
 		sprintRunning = false;
+		print("sprint is not running");
 	}
 
 	//restores sprinting ability
 	IEnumerator RestoreSprint(){
-		while(sprintCounter < sprintCounterDef){
+		while(sprintCounter < sprintCounterDef && canRestoreSprint){
+			print("restoring sprint");
 			restoreSprintRunning = true;
 			yield return new WaitForSeconds(2);
 			++sprintCounter;
 			DisplaySprint();
 		}
+		print("sprint restored");
 		restoreSprintRunning = false;
 	}
 
