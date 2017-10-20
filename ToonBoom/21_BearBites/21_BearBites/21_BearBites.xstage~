@@ -29,6 +29,15 @@
     <dwg name="24" scaleFactor="1"/>
     <dwg name="25" scaleFactor="1"/>
     <dwg name="26" scaleFactor="1"/>
+    <dwg name="27" scaleFactor="1"/>
+    <dwg name="28" scaleFactor="1"/>
+    <dwg name="29" scaleFactor="1"/>
+    <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
+    <dwg name="32" scaleFactor="1"/>
+    <dwg name="33" scaleFactor="1"/>
+    <dwg name="34" scaleFactor="1"/>
+    <dwg name="35" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="2" elementName="21_BearBites_" elementFolder="21_BearBites_" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -128,9 +137,13 @@
     <dwg name="93" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="5" elementName="Locaters" elementFolder="Locaters" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="5" elementName="Multiples" elementFolder="Multiples" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
+    <dwg name="5" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="9" elementName="21_BearBites_Locaters" elementFolder="21_BearBites_Locaters" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -249,7 +262,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="08d4da6ae76003cf" nbframes="44">
+  <scene name="Top" id="08d4da6ae76003cf" nbframes="60">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-2" val="1" id="1"/>
@@ -277,7 +290,16 @@
      <elementSeq exposures="37-38" val="23" id="1"/>
      <elementSeq exposures="39-40" val="24" id="1"/>
      <elementSeq exposures="41-42" val="25" id="1"/>
-     <elementSeq exposures="43-44" val="26" id="1"/>
+     <elementSeq exposures="43" val="26" id="1"/>
+     <elementSeq exposures="44" val="35" id="1"/>
+     <elementSeq exposures="45-46" val="27" id="1"/>
+     <elementSeq exposures="47-48" val="28" id="1"/>
+     <elementSeq exposures="49-50" val="29" id="1"/>
+     <elementSeq exposures="51-52" val="30" id="1"/>
+     <elementSeq exposures="53-54" val="31" id="1"/>
+     <elementSeq exposures="55-56" val="32" id="1"/>
+     <elementSeq exposures="57-58" val="33" id="1"/>
+     <elementSeq exposures="59-60" val="34" id="1"/>
     </column>
     <column type="0" name="ATV-08D4DA6AE76009EC" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
@@ -423,7 +445,12 @@
       <pt constSeg="false" x="93" yLocal="0" y="0"/>
      </points>
     </column>
-    <column type="0" name="ATV-08D4DA6AE764442A" displayOrder="0" width="100" anonymous="true" id="5"/>
+    <column type="0" name="Multiples" displayOrder="0" width="100" anonymous="true" id="5">
+     <elementSeq exposures="19" val="4" id="5"/>
+     <elementSeq exposures="20" val="5" id="5"/>
+     <elementSeq exposures="25" val="2" id="5"/>
+     <elementSeq exposures="26" val="3" id="5"/>
+    </column>
     <column type="3" name="ATV-08D4DA6AE76462A1" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
      <noFrames/>
@@ -522,7 +549,7 @@
       <pt constSeg="false" x="93" yLocal="0" y="0"/>
      </points>
     </column>
-    <column type="0" name="ATV-08D4DA6AE7648F88" display="false" displayOrder="0" width="100" anonymous="true" id="9">
+    <column type="0" name="ATV-08D4DA6AE7648F88" displayOrder="0" width="100" anonymous="true" id="9">
      <elementSeq exposures="1" val="1" id="9"/>
      <elementSeq exposures="2" val="2" id="9"/>
      <elementSeq exposures="3" val="3" id="9"/>
@@ -667,7 +694,7 @@
      </points>
     </column>
     <column type="0" name="ATV-08D50A599D734BB8" displayOrder="0" width="100" anonymous="true" id="10">
-     <elementSeq exposures="1-44" val="1" id="10"/>
+     <elementSeq exposures="1-93" val="1" id="10"/>
     </column>
    </columns>
    <options>
@@ -938,7 +965,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Locaters" pos="0,0,0" publishUnderTab="Locaters">
+     <module type="READ" name="Multiples" pos="0,0,0" publishUnderTab="Locaters">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -998,7 +1025,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-08D4DA6AE764442A">
+        <element col="Multiples">
          <layer/>
         </element>
         <customName>
@@ -1044,7 +1071,6 @@
      </module>
      <module type="READ" name="21_BearBites_Locaters" pos="0,0,0" publishUnderTab="21_BearBites_Locaters">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1257,7 +1283,7 @@
      <link out="Composite" in="Write"/>
      <link out="Drawing" in="Composite" inport="3"/>
      <link out="21_BearBites_" in="Composite" inport="2"/>
-     <link out="Locaters" in="Composite" inport="4"/>
+     <link out="Multiples" in="Composite" inport="4"/>
      <link out="21_BearBites_Locaters" in="Composite" inport="1"/>
      <link out="WhiteBG" in="Composite" inport="0"/>
     </linkedlist>

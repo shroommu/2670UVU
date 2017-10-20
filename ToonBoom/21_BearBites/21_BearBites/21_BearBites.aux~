@@ -27,6 +27,15 @@
   <Drawing Key="" Name="24" Version="1"/>
   <Drawing Key="" Name="25" Version="1"/>
   <Drawing Key="" Name="26" Version="1"/>
+  <Drawing Key="" Name="27" Version="1"/>
+  <Drawing Key="" Name="28" Version="1"/>
+  <Drawing Key="" Name="29" Version="1"/>
+  <Drawing Key="" Name="30" Version="1"/>
+  <Drawing Key="" Name="31" Version="1"/>
+  <Drawing Key="" Name="32" Version="1"/>
+  <Drawing Key="" Name="33" Version="1"/>
+  <Drawing Key="" Name="34" Version="1"/>
+  <Drawing Key="" Name="35" Version="1"/>
  </Element>
  <Element Name="21_BearBites_" ID="2" Folder="21_BearBites_">
   <Drawing Key="" Name="1" Version="1"/>
@@ -123,8 +132,12 @@
   <Drawing Key="" Name="92" Version="1"/>
   <Drawing Key="" Name="93" Version="1"/>
  </Element>
- <Element Name="Locaters" ID="5" Folder="Locaters">
+ <Element Name="Multiples" ID="5" Folder="Multiples">
   <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
  </Element>
  <Element Name="21_BearBites_Locaters" ID="9" Folder="21_BearBites_Locaters">
   <Drawing Key="" Name="1" Version="1"/>
