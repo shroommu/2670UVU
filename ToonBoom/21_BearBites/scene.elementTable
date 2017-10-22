@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Harmony Essentials (HarmonyEssentials.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461">
+ <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="2" elementName="21_BearBites_" elementFolder="21_BearBites_" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
+ <element id="5" elementName="Multiples" elementFolder="Multiples" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="9" elementName="21_BearBites_Locaters" elementFolder="21_BearBites_Locaters" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
+ <element id="10" elementName="WhiteBG" elementFolder="WhiteBG" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+</elements>
