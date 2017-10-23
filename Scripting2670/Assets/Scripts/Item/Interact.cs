@@ -14,7 +14,6 @@ public class Interact : MonoBehaviour {
 	private GameObject player;
 
 	public static bool isInteract = false;
-	public static bool canFlip = true;
 	private bool leverPulled = false;
 
 	void Start () {
@@ -27,7 +26,7 @@ public class Interact : MonoBehaviour {
 	}
 
 	void Interacting () {
-		if(SetIntObj.intObj != null && SetIntObj.intObj.transform.position == gameObject.transform.position){
+		if(SetIntObj.intObj != null && SetIntObj.intObj == gameObject){
 			switch(interactType){
 				case StaticVars.InteractType.LEVER:
 					switch(leverType){
@@ -46,24 +45,6 @@ public class Interact : MonoBehaviour {
 
 						case StaticVars.LeverType.MULTI:
 							print("Pulling lever");
-							break;
-					}
-					break;
-					
-				case StaticVars.InteractType.PUSH:
-					switch(isInteract){
-						case false:
-							SetIntObj.intObj.transform.parent = player.transform;
-							isInteract = true;
-							print("parenting");
-							canFlip = false;
-							break;
-
-						case true:
-							SetIntObj.intObj.transform.parent = null;
-							isInteract = false;
-							print("unparenting");
-							canFlip = true;
 							break;
 					}
 					break;

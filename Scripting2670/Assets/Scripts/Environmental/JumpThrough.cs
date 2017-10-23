@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class JumpThrough : MonoBehaviour {
 
-	public GameObject platform;
+	private GameObject platform;
 	private Collider coll;
 
 	void Start(){
 		MoveInput.JumpDownAction += JumpDown;
+		platform = transform.parent.gameObject;
 		coll = platform.GetComponent<Collider>();
 	}
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player"){
+			print("i'm working");
 			coll.enabled = false;
 		}
 	}

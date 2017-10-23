@@ -10,6 +10,8 @@ public class MoveInput : MonoBehaviour {
 	public static Action JumpAction;
 	public static Action JumpDownAction;
 	public static Action InteractAction;
+	public static Action HoldInteractAction;
+	public static Action ReleaseInteractAction;
 
 	public static Action ClickAction;
 
@@ -41,6 +43,16 @@ public class MoveInput : MonoBehaviour {
 			if (Input.GetKeyDown(KeyCode.E)){
 				InteractAction();
 			}
+
+			if (Input.GetKey(KeyCode.E)){
+				print("holding E");
+				HoldInteractAction();
+			}
+
+			if (Input.GetKeyUp(KeyCode.E)){
+				print("releasing E");
+				ReleaseInteractAction();
+			}
 			
 			if (Input.GetKeyDown(KeyCode.DownArrow)){
 				JumpDownAction();
@@ -50,11 +62,11 @@ public class MoveInput : MonoBehaviour {
 				JumpDownAction();
 			}
 
-			if (Input.GetKeyDown(KeyCode.Q)){
+			if (Input.GetMouseButton(0)){
 				ClickAction();
 			}
 
-			yield return new WaitForFixedUpdate();
+			yield return null;
 		}
 	}
 }

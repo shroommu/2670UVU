@@ -5,7 +5,7 @@ using UnityEngine;
 public class SnapInPlace : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
-		other.gameObject.transform.position = gameObject.transform.position;
-		other.gameObject.transform.parent = null;
+		other.transform.parent = null;
+		other.transform.position = gameObject.transform.position;
 	}
 }

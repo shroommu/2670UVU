@@ -24,17 +24,13 @@ public class ChangeSpeed : MonoBehaviour {
 
 	private bool canWaterfall = false;
 
-	private bool handlingSpeed;
-
 	void Start(){
-		StaticVars.handlingSpeed = handlingSpeed;
 		Pickup.WaterfallPU = WaterfallPU;
 	}
 	
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player"){
 			thisCollider = gameObject;
-			print(thisCollider.name);
 			StaticVars.handlingSpeed = true;
 
 			switch (speedType){
@@ -80,7 +76,7 @@ public class ChangeSpeed : MonoBehaviour {
 		if(allowExit == 1 && gameObject == thisCollider){
 			SendSpeed(StaticVars.speed, StaticVars.gravity);
 			print("RegularSpeed");
-			handlingSpeed = false;
+			StaticVars.handlingSpeed = false;
 			EnableJump();
 			thisCollider = null;
 

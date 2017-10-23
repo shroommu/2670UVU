@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\Environmental\UnhideArea.cs" />
      <Compile Include="Assets\Scripts\Global\GameData.cs" />
      <Compile Include="Assets\Scripts\Global\Inventory2.cs" />
+     <Compile Include="Assets\Scripts\Global\StartCanvas.cs" />
      <Compile Include="Assets\Scripts\Global\StaticVars.cs" />
      <Compile Include="Assets\Scripts\GUI\DisplayMessage.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayButton.cs" />
@@ -83,6 +84,7 @@
      <Compile Include="Assets\Scripts\Item\Interact.cs" />
      <Compile Include="Assets\Scripts\Item\ObjectPhysics.cs" />
      <Compile Include="Assets\Scripts\Item\Pickup.cs" />
+     <Compile Include="Assets\Scripts\Item\PushPull.cs" />
      <Compile Include="Assets\Scripts\Item\SetIntObj.cs" />
      <Compile Include="Assets\Scripts\Item\SnapInPlace.cs" />
      <Compile Include="Assets\Scripts\Item\StickAttack.cs" />

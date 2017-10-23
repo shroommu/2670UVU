@@ -14,7 +14,7 @@ public class CloseDoor : MonoBehaviour {
 
 	public StaticVars.TriggerType triggerType;
 
-	void OnTriggerExit(Collider other){
+	void OnTriggerEnter(Collider other){
 		if(other.tag == "Player"){
 			gameObject.SetActive(false);
 			switch(triggerType){

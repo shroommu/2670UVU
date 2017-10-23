@@ -22,7 +22,7 @@ public class FlipCharacter : MonoBehaviour {
 
     private void Flip(float obj)
     {
-		if(Interact.canFlip){
+		if(PushPull.canFlip){
 			if(obj > 0 )
 				rotValue.y = 0;
 
