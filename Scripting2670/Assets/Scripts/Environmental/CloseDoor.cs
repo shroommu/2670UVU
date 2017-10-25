@@ -12,20 +12,20 @@ public class CloseDoor : MonoBehaviour {
 	public Transform doorCloseLever;
 	public Transform doorCloseLeverPulledPos;
 
-	public StaticVars.TriggerType triggerType;
+	public Data.TriggerType triggerType;
 
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Player"){
 			gameObject.SetActive(false);
 			switch(triggerType){
-				case StaticVars.TriggerType.CLOSE:
+				case Data.TriggerType.CLOSE:
 					door.transform.position = doorClosePos.position;
 					door.transform.rotation = doorClosePos.transform.rotation;
 					doorCloseLever.rotation = doorCloseLeverPulledPos.rotation;
 					print("Closing");
 					break;
 				
-				case StaticVars.TriggerType.OPEN:
+				case Data.TriggerType.OPEN:
 					door.transform.position = doorOpenPos.position;
 					door.transform.rotation = doorOpenPos.transform.rotation;
 					doorOpenLever.rotation = doorOpenLeverPulledPos.rotation;

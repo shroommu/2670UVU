@@ -14,21 +14,21 @@ public class Dropoff : MonoBehaviour {
 	public int fruitDropoffNum;
 	public int stoneDropoffNum;
 
-	public StaticVars.BossType bossType;
+	public Data.BossType bossType;
 
 	void OnTriggerEnter (Collider other){
 		if (other.tag == "Player" && Inventory2.berryNumber >= berryDropoffNum && Inventory2.fruitNumber >= fruitDropoffNum && Inventory2.stoneNumber >= stoneDropoffNum){
-			StaticVars.berryDropoffNum = berryDropoffNum;
-			StaticVars.fruitDropoffNum = fruitDropoffNum;
-			StaticVars.stoneDropoffNum = stoneDropoffNum;
+			Data.berryDropoffNum = berryDropoffNum;
+			Data.fruitDropoffNum = fruitDropoffNum;
+			Data.stoneDropoffNum = stoneDropoffNum;
 			SubtractFromScore();
 			switch (bossType){
-				case StaticVars.BossType.BEAR:
+				case Data.BossType.BEAR:
 					LetPlayerPassBear();
 					print("Cleared bear");
 					break;
 
-				case StaticVars.BossType.ALLIGATOR:
+				case Data.BossType.ALLIGATOR:
 					LetPlayerPassGator();
 					print("Cleared gator");
 					break;
@@ -36,7 +36,7 @@ public class Dropoff : MonoBehaviour {
 		}
 
 		else {
-			StaticVars.message = "Not enough berries";
+			Data.message = "Not enough berries";
 			SendMessage();
 		}
 	}

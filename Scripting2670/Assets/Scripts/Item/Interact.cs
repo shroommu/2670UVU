@@ -8,8 +8,8 @@ public class Interact : MonoBehaviour {
 	public static Action SendMessage;
 	public static Action AttachWeapon;
 
-	public StaticVars.InteractType interactType;
-	public StaticVars.LeverType leverType;
+	public Data.InteractType interactType;
+	public Data.LeverType leverType;
 
 	private GameObject player;
 
@@ -28,31 +28,31 @@ public class Interact : MonoBehaviour {
 	void Interacting () {
 		if(SetIntObj.intObj != null && SetIntObj.intObj == gameObject){
 			switch(interactType){
-				case StaticVars.InteractType.LEVER:
+				case Data.InteractType.LEVER:
 					switch(leverType){
-						case StaticVars.LeverType.ONETIME:
+						case Data.LeverType.ONETIME:
 							switch(leverPulled){
 								case false:
 									print("Pulling lever");
 									break;
 
 								case true:
-									StaticVars.message = "The lever is stuck.";
+									Data.message = "The lever is stuck.";
 									SendMessage();
 									break;
 							}
 							break;
 
-						case StaticVars.LeverType.MULTI:
+						case Data.LeverType.MULTI:
 							print("Pulling lever");
 							break;
 					}
 					break;
 
-				case StaticVars.InteractType.PICKUP:
+				case Data.InteractType.PICKUP:
 					print("doing stuff with weapon");
-					StaticVars.message = "Got Spear";
-					StaticVars.weaponsEnabled = true;
+					Data.message = "Got Spear";
+					Data.weaponsEnabled = true;
 					SendMessage();
 					AttachWeapon();
 					break;

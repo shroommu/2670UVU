@@ -14,7 +14,7 @@ public class ChangeSpeed : MonoBehaviour {
 
 	private GameObject thisCollider;
 
-	public StaticVars.GameSpeed speedType;
+	public Data.GameSpeed speedType;
 
 	private bool inWater = false;
 	private int waterCount;
@@ -31,40 +31,40 @@ public class ChangeSpeed : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player"){
 			thisCollider = gameObject;
-			StaticVars.handlingSpeed = true;
+			Data.handlingSpeed = true;
 
 			switch (speedType){
-				case StaticVars.GameSpeed.REG:
-					SendSpeed(StaticVars.speed, StaticVars.gravity);
+				case Data.GameSpeed.REG:
+					SendSpeed(Data.speed, Data.gravity);
 					print("Entering Reg Speed");
 					break;
 
-				case StaticVars.GameSpeed.DRAG:
-					SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity);
+				case Data.GameSpeed.DRAG:
+					SendSpeed(Data.dragSpeed, Data.dragGravity);
 					DisableJump();
 					print("DragSpeed");
 					break;
 				
-				case StaticVars.GameSpeed.BOOST:
-					SendSpeed(StaticVars.boostSpeed, StaticVars.boostGravity);
+				case Data.GameSpeed.BOOST:
+					SendSpeed(Data.boostSpeed, Data.boostGravity);
 					print("BoostSpeed");
 					break;
 
-				case StaticVars.GameSpeed.CLIMB:
-					SendSpeed(StaticVars.climbSpeed, StaticVars.climbGravity);
+				case Data.GameSpeed.CLIMB:
+					SendSpeed(Data.climbSpeed, Data.climbGravity);
 					print("ClimbSpeed");
 					break;
 
-				case StaticVars.GameSpeed.SWIM:
-					SendSpeed(StaticVars.swimSpeed, StaticVars.swimGravity);
+				case Data.GameSpeed.SWIM:
+					SendSpeed(Data.swimSpeed, Data.swimGravity);
 					print("Swimming");
 					//HoldBreath();
 					DisableJump();
 					break;
 				
-				case StaticVars.GameSpeed.SWIMWATERFALL:
-					if(StaticVars.canWaterfall){
-						SendSpeed(StaticVars.climbSpeed, StaticVars.climbGravity);
+				case Data.GameSpeed.SWIMWATERFALL:
+					if(Data.canWaterfall){
+						SendSpeed(Data.climbSpeed, Data.climbGravity);
 						print("Waterfall");
 					}
 					break;
@@ -74,9 +74,9 @@ public class ChangeSpeed : MonoBehaviour {
 
 	void OnTriggerExit(){
 		if(allowExit == 1 && gameObject == thisCollider){
-			SendSpeed(StaticVars.speed, StaticVars.gravity);
+			SendSpeed(Data.speed, Data.gravity);
 			print("RegularSpeed");
-			StaticVars.handlingSpeed = false;
+			Data.handlingSpeed = false;
 			EnableJump();
 			thisCollider = null;
 

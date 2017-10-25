@@ -16,7 +16,7 @@ public class BossClearedBehavior : MonoBehaviour {
 	public GameObject gatorBossDeposit;
 	public GameObject gatorBossText;*/
 
-	public StaticVars.BossType bossType;
+	public Data.BossType bossType;
 
 	void Start () {
 		//Dropoff.LetPlayerPass = BossBehavior;
@@ -25,13 +25,13 @@ public class BossClearedBehavior : MonoBehaviour {
 	
 	void BossBehavior(){
 		switch(bossType){
-			case StaticVars.BossType.BEAR:
+			case Data.BossType.BEAR:
 				boss.SetActive(false);
 				bossDeposit.SetActive(false);
 				bossText.SetActive(false);
 				break;
 
-			case StaticVars.BossType.ALLIGATOR:
+			case Data.BossType.ALLIGATOR:
 				boss.SetActive(false);
 				bossDeposit.SetActive(false);
 				bossText.SetActive(false);

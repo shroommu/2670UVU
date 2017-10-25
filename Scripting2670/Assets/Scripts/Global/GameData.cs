@@ -1,4 +1,4 @@
-﻿//this script assigns the variables created in the staticvars script.
+﻿/*this script assigns the variables created in the staticvars script.
 
 using System.Collections;
 using System.Collections.Generic;
@@ -43,4 +43,4 @@ public class GameData : MonoBehaviour {
 		//StaticVars.handlingSpeed = handlingSpeed;
 	}
 
-}
+}*/

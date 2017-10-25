@@ -24,7 +24,7 @@ public class DisplayMessage : MonoBehaviour {
 	}
 
 	IEnumerator DisplayGUIText (){
-		text.text = StaticVars.message;
+		text.text = Data.message;
 		yield return new WaitForSeconds(3);
 		text.text = null;
 	}

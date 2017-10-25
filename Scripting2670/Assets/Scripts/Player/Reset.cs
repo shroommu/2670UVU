@@ -29,7 +29,7 @@ public class Reset : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Checkpoint"){
 			checkPoint = other.gameObject;
-			StaticVars.message = "Checkpoint!";
+			Data.message = "Checkpoint!";
 			SendMessage();
 		}
 	}
@@ -48,7 +48,7 @@ public class Reset : MonoBehaviour {
 			print("Resetting");
 			FreezeControls();
 			gameOverBlack.SetActive(true);
-			StaticVars.message = "You Died";
+			Data.message = "You Died";
 			SendMessage();
 
 			if (checkPoint == null){

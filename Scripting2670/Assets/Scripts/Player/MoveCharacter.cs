@@ -44,9 +44,9 @@ public class MoveCharacter : MonoBehaviour {
 		Reset.UnfreezeControls += UnfreezeControls;
 		Teleport.UnfreezeControls += UnfreezeControls;
 
-		//StaticVars variable declarations
-		speed = StaticVars.speed;
-		gravity = StaticVars.gravity;
+		//Data variable declarations
+		speed = Data.speed;
+		gravity = Data.gravity;
 	}
 
 	//enables inputs once play button pressed
@@ -141,7 +141,7 @@ public class MoveCharacter : MonoBehaviour {
 			sprinting = false;
 			canRestoreSprint = true;
 			print("Left Shift released");
-			speed = StaticVars.speed;
+			speed = Data.speed;
 			if(!restoreSprintRunning){
 				StartCoroutine("RestoreSprint");
 			}
@@ -154,14 +154,14 @@ public class MoveCharacter : MonoBehaviour {
 			print("sprint is running");
 			sprintRunning = true;
 			DisplaySprint();
-			speed = StaticVars.boostSpeed;
+			speed = Data.boostSpeed;
 			yield return new WaitForSeconds(1);
 			--sprintCounter;
 			
 			if(sprintCounter == 0){
 				print("stopped sprinting");
 				DisplaySprint();
-				speed = StaticVars.speed;
+				speed = Data.speed;
 				StopCoroutine("Sprint");
 			}
 		}
@@ -211,7 +211,7 @@ public class MoveCharacter : MonoBehaviour {
 			canVertMove = true;
 		}
 
-		if (other.tag == "Waterfall" && StaticVars.canWaterfall){
+		if (other.tag == "Waterfall" && Data.canWaterfall){
 			print("Waterfall climb");
 			canVertMove = true;
 		}

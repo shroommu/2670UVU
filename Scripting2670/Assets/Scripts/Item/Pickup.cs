@@ -14,35 +14,35 @@ public class Pickup : MonoBehaviour {
 
 	public static Action SendMessage;
 
-	public StaticVars.PickupType pickupType;
+	public Data.PickupType pickupType;
 
 	void OnTriggerEnter (Collider other){
 		if (other.tag == "Player"){
 			gameObject.SetActive(false);
 			switch(pickupType){
-				case StaticVars.PickupType.BERRY:
+				case Data.PickupType.BERRY:
 					
 					AddToBerryScore();
 					break;
 					
-				case StaticVars.PickupType.FRUIT:
+				case Data.PickupType.FRUIT:
 					AddToFruitScore();
 					break;
 
-				case StaticVars.PickupType.STONE:
+				case Data.PickupType.STONE:
 					AddToStoneScore();
 					break;
 
-				case StaticVars.PickupType.BREATHPU:
-					StaticVars.message = "You can now hold your breath for twice as long!";
+				case Data.PickupType.BREATHPU:
+					Data.message = "You can now hold your breath for twice as long!";
 					SendMessage();
 					BreathPU();
 					break;
 
-				case StaticVars.PickupType.WATERFALLPU:
-					StaticVars.message = "You can now swim up waterfalls!";
+				case Data.PickupType.WATERFALLPU:
+					Data.message = "You can now swim up waterfalls!";
 					SendMessage();
-					StaticVars.canWaterfall = true;
+					Data.canWaterfall = true;
 					WaterfallPU();
 					break;
 			}
