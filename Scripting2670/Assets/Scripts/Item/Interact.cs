@@ -37,7 +37,7 @@ public class Interact : MonoBehaviour {
 									break;
 
 								case true:
-									Data.message = "The lever is stuck.";
+									Data.Instance.message = "The lever is stuck.";
 									SendMessage();
 									break;
 							}
@@ -51,8 +51,8 @@ public class Interact : MonoBehaviour {
 
 				case Data.InteractType.PICKUP:
 					print("doing stuff with weapon");
-					Data.message = "Got Spear";
-					Data.weaponsEnabled = true;
+					Data.Instance.message = "Got Spear";
+					Data.Instance.weaponsEnabled = true;
 					SendMessage();
 					AttachWeapon();
 					break;

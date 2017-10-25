@@ -25,7 +25,7 @@ public class StickAttack : MonoBehaviour {
 	}
 
 	void StartAttack (){
-		if(Data.weaponsEnabled){
+		if(Data.Instance.weaponsEnabled){
 			print("Clicked");
 			strikeTime += strikeSpeed * Time.deltaTime;
 			strikePosV = strikePos.transform.localPosition;

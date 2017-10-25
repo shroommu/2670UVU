@@ -4,9 +4,12 @@ using UnityEngine;
 
 [System.Serializable]
 public class Data {
-	Data (){
+	protected Data (){
 
 	}
+
+	protected static string dataName = "Data";
+
 	public float speed = 7;
 	public float gravity = 1;
 
@@ -78,29 +81,23 @@ public class Data {
 
 	public static Data Instance{
         get{
-            if (_Instance != null){
-                _Instance = Data.GetData();
-
-        	if (_Instance == null) {
-				Debug.Log(_Instance);
-        		_Instance = new Data();
-        		SetData();
-        		}
+            if (_Instance == null){
+                GetData();
         	}
             return _Instance;
-        	}
-    	}
+		}
+	}
 
-	public static Data GetData(){
-		Debug.Log("<<<" + PlayerPrefs.GetString("GameData")+ ">>> GetData");
-		return JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
+	public static void GetData(){
+		if (string.IsNullOrEmpty(PlayerPrefs.GetString(dataName))){
+			_Instance = new Data();
+		}
+		else{
+			_Instance = JsonUtility.FromJson<Data>(PlayerPrefs.GetString(dataName));
+		}
 	}
 
 	public static void SetData(){
-		Debug.Log("<<<" + PlayerPrefs.GetString("GameData", JsonUtility.ToJson(_Instance))+ ">>> SetData");
-		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(_Instance));
+		PlayerPrefs.SetString(dataName, JsonUtility.ToJson(_Instance));
 	}
-
 }
-
-

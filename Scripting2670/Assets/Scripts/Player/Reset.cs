@@ -10,7 +10,6 @@ public class Reset : MonoBehaviour {
 	public static Action UnfreezeControls;
 	public static Action SendMessage;
 
-	public GameObject gameOverBlack;
 	public Transform startPoint;
 	private GameObject checkPoint;
 	public GameObject[] respawns;
@@ -29,7 +28,7 @@ public class Reset : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Checkpoint"){
 			checkPoint = other.gameObject;
-			Data.message = "Checkpoint!";
+			Data.Instance.message = "Checkpoint!";
 			SendMessage();
 		}
 	}
@@ -47,8 +46,6 @@ public class Reset : MonoBehaviour {
 			isRunning = true;
 			print("Resetting");
 			FreezeControls();
-			gameOverBlack.SetActive(true);
-			Data.message = "You Died";
 			SendMessage();
 
 			if (checkPoint == null){
@@ -61,7 +58,6 @@ public class Reset : MonoBehaviour {
 
 			yield return new WaitForSeconds(1);
 			//RespawnItems();
-			gameOverBlack.SetActive(false);
 			UnfreezeControls();
 			isRunning = false;
 			resetting = false;

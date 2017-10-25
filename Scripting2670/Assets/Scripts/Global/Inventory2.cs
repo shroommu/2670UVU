@@ -37,28 +37,28 @@ public class Inventory2 : MonoBehaviour {
 	void BerryScore(){
 		++berryNumber;
 		UpdateScore();
-		Data.message =  "Got berry";
+		Data.Instance.message =  "Got berry";
 		SendMessage();
 	}
 
 	void FruitScore(){
 		++fruitNumber;
 		UpdateScore();
-		Data.message = "Got fruit";
+		Data.Instance.message = "Got fruit";
 		SendMessage();
 	}
 
 	void StoneScore(){
 		++stoneNumber;
 		UpdateScore();
-		Data.message = "Got stone";
+		Data.Instance.message = "Got stone";
 		SendMessage();
 	}
 
 	void SubtractFromScore(){
-		fruitNumber -= Data.fruitDropoffNum;
-		berryNumber -= Data.berryDropoffNum;
-		stoneNumber -= Data.stoneDropoffNum;
+		fruitNumber -= Data.Instance.fruitDropoffNum;
+		berryNumber -= Data.Instance.berryDropoffNum;
+		stoneNumber -= Data.Instance.stoneDropoffNum;
 		UpdateScore();
 	}
 

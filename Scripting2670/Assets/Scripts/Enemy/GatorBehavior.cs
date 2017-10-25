@@ -21,7 +21,7 @@ public class GatorBehavior : MonoBehaviour {
 		boss.transform.position = bossMove.transform.position;
 		bossDeposit.SetActive(false);
 		bossText.SetActive(false);
-		Data.message = "Fed the Gator";
+		Data.Instance.message = "Fed the Gator";
 		SendMessage();
 	}
 

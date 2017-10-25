@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 114325792681364070}
   - component: {fileID: 114667101145774702}
   - component: {fileID: 114903979452798454}
-  - component: {fileID: 114080380340852734}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -169,20 +168,6 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1276695519330932}
   m_Enabled: 1
---- !u!114 &114080380340852734
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1692811283808354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cf0c30203e6b2340a768e7b6102740d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  feedBearText: {fileID: 0}
-  bear: {fileID: 0}
-  bearDeposit: {fileID: 0}
 --- !u!114 &114325792681364070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -194,13 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df14d5870cd2854438ca9d8a878c2692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  climbSpeed: 5
-  gravity: 1
-  jumpHeight: 0.3
-  jumpNum: 0
-  jumping: 0
-  climbEnabled: 0
+  sprintMeter: {fileID: 0}
 --- !u!114 &114667101145774702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -225,9 +204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74752788784f4fe46a83204a016e2d44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverBlack: {fileID: 0}
   startPoint: {fileID: 0}
   respawns: []
-  messageText: {fileID: 0}
 --- !u!124 &124199986447917366
 Behaviour:
   m_ObjectHideFlags: 1

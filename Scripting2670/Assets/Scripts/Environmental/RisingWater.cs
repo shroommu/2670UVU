@@ -12,15 +12,15 @@ public class RisingWater : MonoBehaviour {
 	public Transform risingWaterPos4;
 
 	void Start(){
-		Data.risingWaterCount = 1;
+		Data.Instance.risingWaterCount = 1;
 	}
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Player"){
-			++Data.risingWaterCount;
-			print(Data.risingWaterCount);
+			++Data.Instance.risingWaterCount;
+			print(Data.Instance.risingWaterCount);
 			gameObject.SetActive(false);
-			switch(Data.risingWaterCount){
+			switch(Data.Instance.risingWaterCount){
 				/*case 1:
 					risingWater.transform.position = risingWaterPos1.transform.position;
 					break;*/

@@ -19,7 +19,7 @@ public class BearBehavior : MonoBehaviour {
 		boss.SetActive(false);
 		bossDeposit.SetActive(false);
 		bossText.SetActive(false);
-		Data.message = "Fed the Bear";
+		Data.Instance.message = "Fed the Bear";
 		SendMessage();
 	}
 

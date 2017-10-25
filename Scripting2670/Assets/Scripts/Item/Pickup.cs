@@ -34,15 +34,15 @@ public class Pickup : MonoBehaviour {
 					break;
 
 				case Data.PickupType.BREATHPU:
-					Data.message = "You can now hold your breath for twice as long!";
+					Data.Instance.message = "You can now hold your breath for twice as long!";
 					SendMessage();
 					BreathPU();
 					break;
 
 				case Data.PickupType.WATERFALLPU:
-					Data.message = "You can now swim up waterfalls!";
+					Data.Instance.message = "You can now swim up waterfalls!";
 					SendMessage();
-					Data.canWaterfall = true;
+					Data.Instance.canWaterfall = true;
 					WaterfallPU();
 					break;
 			}

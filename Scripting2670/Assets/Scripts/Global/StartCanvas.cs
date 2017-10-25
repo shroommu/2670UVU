@@ -6,7 +6,7 @@ public class StartCanvas : MonoBehaviour {
 
 	public GameObject canvas;
 
-	void Start () {
+	void Awake () {
 		canvas.SetActive(true);
 	}
 }

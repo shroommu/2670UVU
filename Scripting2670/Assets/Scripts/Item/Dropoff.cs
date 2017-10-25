@@ -18,9 +18,9 @@ public class Dropoff : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other){
 		if (other.tag == "Player" && Inventory2.berryNumber >= berryDropoffNum && Inventory2.fruitNumber >= fruitDropoffNum && Inventory2.stoneNumber >= stoneDropoffNum){
-			Data.berryDropoffNum = berryDropoffNum;
-			Data.fruitDropoffNum = fruitDropoffNum;
-			Data.stoneDropoffNum = stoneDropoffNum;
+			Data.Instance.berryDropoffNum = berryDropoffNum;
+			Data.Instance.fruitDropoffNum = fruitDropoffNum;
+			Data.Instance.stoneDropoffNum = stoneDropoffNum;
 			SubtractFromScore();
 			switch (bossType){
 				case Data.BossType.BEAR:
@@ -36,7 +36,7 @@ public class Dropoff : MonoBehaviour {
 		}
 
 		else {
-			Data.message = "Not enough berries";
+			Data.Instance.message = "Not enough berries";
 			SendMessage();
 		}
 	}

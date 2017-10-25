@@ -31,40 +31,40 @@ public class ChangeSpeed : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player"){
 			thisCollider = gameObject;
-			Data.handlingSpeed = true;
+			Data.Instance.handlingSpeed = true;
 
 			switch (speedType){
 				case Data.GameSpeed.REG:
-					SendSpeed(Data.speed, Data.gravity);
+					SendSpeed(Data.Instance.speed, Data.Instance.gravity);
 					print("Entering Reg Speed");
 					break;
 
 				case Data.GameSpeed.DRAG:
-					SendSpeed(Data.dragSpeed, Data.dragGravity);
+					SendSpeed(Data.Instance.dragSpeed, Data.Instance.dragGravity);
 					DisableJump();
 					print("DragSpeed");
 					break;
 				
 				case Data.GameSpeed.BOOST:
-					SendSpeed(Data.boostSpeed, Data.boostGravity);
+					SendSpeed(Data.Instance.boostSpeed, Data.Instance.boostGravity);
 					print("BoostSpeed");
 					break;
 
 				case Data.GameSpeed.CLIMB:
-					SendSpeed(Data.climbSpeed, Data.climbGravity);
+					SendSpeed(Data.Instance.climbSpeed, Data.Instance.climbGravity);
 					print("ClimbSpeed");
 					break;
 
 				case Data.GameSpeed.SWIM:
-					SendSpeed(Data.swimSpeed, Data.swimGravity);
+					SendSpeed(Data.Instance.swimSpeed, Data.Instance.swimGravity);
 					print("Swimming");
 					//HoldBreath();
 					DisableJump();
 					break;
 				
 				case Data.GameSpeed.SWIMWATERFALL:
-					if(Data.canWaterfall){
-						SendSpeed(Data.climbSpeed, Data.climbGravity);
+					if(Data.Instance.canWaterfall){
+						SendSpeed(Data.Instance.climbSpeed, Data.Instance.climbGravity);
 						print("Waterfall");
 					}
 					break;
@@ -74,9 +74,9 @@ public class ChangeSpeed : MonoBehaviour {
 
 	void OnTriggerExit(){
 		if(allowExit == 1 && gameObject == thisCollider){
-			SendSpeed(Data.speed, Data.gravity);
+			SendSpeed(Data.Instance.speed, Data.Instance.gravity);
 			print("RegularSpeed");
-			Data.handlingSpeed = false;
+			Data.Instance.handlingSpeed = false;
 			EnableJump();
 			thisCollider = null;
 
