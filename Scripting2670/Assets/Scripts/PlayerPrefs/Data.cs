@@ -39,6 +39,9 @@ public class Data {
     public int berryDropoffNum;
     public int stoneDropoffNum;
 
+	public Transform checkPoint;
+	public bool hasCheckpoint = false;
+
     public enum GameSpeed{
         REG,
         DRAG,

@@ -44,6 +44,9 @@ public class MoveCharacter : MonoBehaviour {
 		Reset.UnfreezeControls += UnfreezeControls;
 		Teleport.UnfreezeControls += UnfreezeControls;
 
+		PauseActions.Pause += FreezeControls;
+		PauseActions.Unpause += UnfreezeControls;
+
 		//Data.Instance variable declarations
 		speed = Data.Instance.speed;
 		gravity = Data.Instance.gravity;
@@ -61,9 +64,13 @@ public class MoveCharacter : MonoBehaviour {
 		ChangeSpeed.EnableJump = EnableJump;
 		PlayButton.Play -= OnPlay;
 
+		print("subscribing");
+
+
 		//start movement
 		canMove = true;
 		StartCoroutine("MoveCheck");
+		print("starting move check");
 	}
 
 	//changes speed based on values sent by SendSpeed script
@@ -116,7 +123,7 @@ public class MoveCharacter : MonoBehaviour {
 				tempMove.y = -.3f;
 			}
 
-			yield return new WaitForFixedUpdate();
+			yield return null;
 		}
 	}
 
@@ -226,6 +233,7 @@ public class MoveCharacter : MonoBehaviour {
 
 	//unsubscribes from MoveInput
 	void FreezeControls(){
+		print("freezing controls");
 		MoveInput.JumpAction -= Jump;
 		MoveInput.KeyAction -= Move;
 		MoveInput.VertKeyAction -= VertMove;

@@ -10,11 +10,5 @@ public class PlayButton : MonoBehaviour {
 
 	public void PushPlay () {
 		Play();
-		Invoke("TurnOffButton", 0.5f);
-	}
-
-	void TurnOffButton () {
-		GetComponent<Button>().interactable = false;
-		gameObject.SetActive(false);
 	}
 }
