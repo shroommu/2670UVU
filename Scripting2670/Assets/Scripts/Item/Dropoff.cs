@@ -35,26 +35,26 @@ public class Dropoff : MonoBehaviour {
 	}*/
 
 	void OnTriggerEnter (){
-		/*if(requiresBerry){
+		if(requiresBerry && Data.Instance.berryNumber >= berryDropoffNum){
 			pickupNum = 0;
-			//SubtractFromScore(pickupNum, berryDropoffNum);
+			SubtractFromScore(pickupNum, berryDropoffNum);
 		}
 
-		if(requiresFruit){
+		if(requiresFruit && Data.Instance.fruitNumber >= fruitDropoffNum){
 			pickupNum = 1;
-			//SubtractFromScore(pickupNum, fruitDropoffNum);
+			SubtractFromScore(pickupNum, fruitDropoffNum);
 		}
 
-		if(requiresStone){
+		if(requiresStone && Data.Instance.stoneNumber >= stoneDropoffNum){
 			pickupNum = 2;
-			//SubtractFromScore(pickupNum, stoneDropoffNum);
-			//print("i'm working");
+			SubtractFromScore(pickupNum, stoneDropoffNum);
+			print("i'm working");
 		}
 
 		else{
-			//Data.Instance.message = "Not enough berries";
-			//SendMessage1();
-		}*/
+			Data.Instance.message = "Not enough";
+			SendMessage1();
+		}
 
 		
 

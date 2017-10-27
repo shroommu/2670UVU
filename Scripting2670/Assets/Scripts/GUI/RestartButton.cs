@@ -5,7 +5,7 @@ using System;
 
 public class RestartButton : MonoBehaviour {
 
-	public static Action<bool> Restart;
+	public static Action<bool> Restart; //<restart> true = playerstartpos; false = last checkpoint;
 
 	public void ContinueFromCheckPoint(){
 		Restart(false);

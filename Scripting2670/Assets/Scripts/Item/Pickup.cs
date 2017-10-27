@@ -5,7 +5,7 @@ using System;
 
 public class Pickup : MonoBehaviour {
 
-	public static Action<Data.PickupType> AddToScore; //<scoreType>
+	public static Action<int> AddToScore; //<scoreType>
 	//public static Action AddToFruitScore;
 	//public static Action AddToStoneScore;
 
@@ -16,40 +16,38 @@ public class Pickup : MonoBehaviour {
 
 	public Data.PickupType pickupType;
 
-	void Start(){
-		pickupType = new Data.PickupType();
-	}
+	private int scoreType;
 
-	void OnTriggerEnter (Collider other){
-		if (other.tag == "Player"){
-			gameObject.SetActive(false);
-			switch(pickupType){
-				case Data.PickupType.BERRY:
-					AddToScore(Data.PickupType.BERRY);
-					break;
-					
-				case Data.PickupType.FRUIT:
-					AddToScore(Data.PickupType.FRUIT);
-					break;
+	void OnTriggerEnter (){
+		gameObject.SetActive(false);
+		switch(pickupType){
+			case Data.PickupType.BERRY:
+				scoreType = 0;
+				AddToScore(scoreType);
+				break;
+				
+			case Data.PickupType.FRUIT:
+				scoreType = 1;
+				AddToScore(scoreType);
+				break;
 
-				case Data.PickupType.STONE:
-					AddToScore(Data.PickupType.STONE);
-					break;
+			case Data.PickupType.STONE:
+				scoreType = 2;
+				AddToScore(scoreType);
+				break;
 
-				case Data.PickupType.BREATHPU:
-					Data.Instance.message = "You can now hold your breath for twice as long!";
-					SendMessage5();
-					BreathPU();
-					break;
+			case Data.PickupType.BREATHPU:
+				Data.Instance.message = "You can now hold your breath for twice as long!";
+				SendMessage5();
+				BreathPU();
+				break;
 
-				case Data.PickupType.WATERFALLPU:
-					Data.Instance.message = "You can now swim up waterfalls!";
-					SendMessage5();
-					Data.Instance.canWaterfall = true;
-					WaterfallPU();
-					break;
-			}
+			case Data.PickupType.WATERFALLPU:
+				Data.Instance.message = "You can now swim up waterfalls!";
+				SendMessage5();
+				Data.Instance.canWaterfall = true;
+				WaterfallPU();
+				break;
 		}
 	}
-
 }

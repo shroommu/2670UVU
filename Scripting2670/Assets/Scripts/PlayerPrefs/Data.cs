@@ -46,7 +46,8 @@ public class Data {
         BOOST,
         CLIMB,
         SWIM,
-        SWIMWATERFALL
+        SWIMWATERFALL,
+		DISABLEJUMP
     }
 
     public enum PickupType{
@@ -100,6 +101,10 @@ public class Data {
 
 	public static void SetData(){
 		PlayerPrefs.SetString(dataName, JsonUtility.ToJson(_Instance));
+	}
+
+	public void SaveDataFromInstance(){
+		PlayerPrefs.SetString(dataName, JsonUtility.ToJson(this));
 	}
 
 	public static void ResetToDefault(){

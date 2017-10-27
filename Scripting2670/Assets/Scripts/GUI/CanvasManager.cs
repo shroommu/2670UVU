@@ -88,5 +88,4 @@ public class CanvasManager : MonoBehaviour {
 			startingUp = false;
 		}
 	}
-	
 }

@@ -34,11 +34,6 @@ public class ChangeSpeed : MonoBehaviour {
 			Data.Instance.handlingSpeed = true;
 
 			switch (speedType){
-				/*case Data.GameSpeed.REG:
-					SendSpeed(Data.Instance.speed, Data.Instance.gravity);
-					print("Entering Reg Speed");
-					break;*/
-
 				case Data.GameSpeed.DRAG:
 					SendSpeed(Data.Instance.dragSpeed, Data.Instance.dragGravity);
 					DisableJump();
@@ -58,7 +53,6 @@ public class ChangeSpeed : MonoBehaviour {
 				case Data.GameSpeed.SWIM:
 					SendSpeed(Data.Instance.swimSpeed, Data.Instance.swimGravity);
 					print("Swimming");
-					//HoldBreath();
 					DisableJump();
 					break;
 				
@@ -67,6 +61,10 @@ public class ChangeSpeed : MonoBehaviour {
 						SendSpeed(Data.Instance.climbSpeed, Data.Instance.climbGravity);
 						print("Waterfall");
 					}
+					break;
+
+				case Data.GameSpeed.DISABLEJUMP:
+					DisableJump();
 					break;
 			}
 		}

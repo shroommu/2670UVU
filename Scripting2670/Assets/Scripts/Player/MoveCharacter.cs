@@ -38,10 +38,10 @@ public class MoveCharacter : MonoBehaviour {
 		//Action subscriptions
 		PlayButton.Play += OnPlay;
 		
-		Reset.FreezeControls += FreezeControls;
+		SetPlayerPosition.FreezeControls += FreezeControls;
 		Teleport.FreezeControls += FreezeControls;
 
-		Reset.UnfreezeControls += UnfreezeControls;
+		SetPlayerPosition.UnfreezeControls += UnfreezeControls;
 		Teleport.UnfreezeControls += UnfreezeControls;
 
 		PauseActions.Pause += FreezeControls;
@@ -64,13 +64,9 @@ public class MoveCharacter : MonoBehaviour {
 		ChangeSpeed.EnableJump = EnableJump;
 		PlayButton.Play -= OnPlay;
 
-		print("subscribing");
-
-
 		//start movement
 		canMove = true;
-		StartCoroutine("MoveCheck");
-		print("starting move check");
+		StartCoroutine(MoveCheck());
 	}
 
 	//changes speed based on values sent by SendSpeed script

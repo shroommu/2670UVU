@@ -24,27 +24,24 @@ public class Reset : MonoBehaviour {
 	private Button continueCheckpointButton;
 	private Button newGameButton;
 
+	private bool startPos;
+
 	// Use this for initialization
 	void Start () {
 		transform.position = startPoint.position;
 		RestartButton.Restart += StartResetThis;
+		PlayButton.Play += OnPlay;
+		ClearPlayerPrefs.PlayerPrefsCleared += PlayContinueButton;
 
 		continueCheckpointButton = continueCheckpoint.GetComponent<Button>();
 		continueGameButton = continueGame.GetComponent<Button>();
 		newGameButton = newGame.GetComponent<Button>();
 
-		if(Data.Instance.hasCheckpoint == false){
-			continueGameButton.interactable = false;
-			continueCheckpointButton.interactable = false;
-			newGameButton.interactable = true;
-			print("starting from beginning");
-		}
-		else{
-			continueGameButton.interactable = true;
-			continueCheckpointButton.interactable = true;
-			newGameButton.interactable = false;
-			print("can start from checkpoint");
-		}
+		PlayContinueButton();
+	}
+
+	void OnPlay(){
+		StartResetThis(startPos);
 	}
 
 	void StartResetThis(bool restart){
@@ -85,6 +82,23 @@ public class Reset : MonoBehaviour {
 				print("Respawn");
 				gameObject.SetActive(true);
 			}
+		}
+	}
+
+	void PlayContinueButton(){
+		if(Data.Instance.hasCheckpoint == false){
+			continueGameButton.interactable = false;
+			continueCheckpointButton.interactable = false;
+			newGameButton.interactable = true;
+			print("starting from beginning");
+			startPos = true;
+		}
+		else{
+			continueGameButton.interactable = true;
+			continueCheckpointButton.interactable = true;
+			newGameButton.interactable = false;
+			print("can start from checkpoint");
+			startPos = false;
 		}
 	}
 }

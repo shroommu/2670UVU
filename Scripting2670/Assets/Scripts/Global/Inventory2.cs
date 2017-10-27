@@ -11,47 +11,66 @@ public class Inventory2 : MonoBehaviour {
 	public Text berryText;
 	public Text fruitText;
 	public Text stoneText;
-	private string message;
-
+	//private string message;
 
 	void Start () {
-		Pickup.AddToScore = Score;
+		Pickup.AddToScore = AddScore;
 		PlayButton.Play += OnPlay;
+		Dropoff.SubtractFromScore += SubScore;
 
-		berryText.gameObject.SetActive(false);
+		/*berryText.gameObject.SetActive(false);
 		fruitText.gameObject.SetActive(false);
-		stoneText.gameObject.SetActive(false);
+		stoneText.gameObject.SetActive(false);*/
 	}
 
 	void OnPlay(){
-		berryText.gameObject.SetActive(true);
+		/*berryText.gameObject.SetActive(true);
 		fruitText.gameObject.SetActive(true);
-		stoneText.gameObject.SetActive(true);
+		stoneText.gameObject.SetActive(true);*/
 	}
 
-	void Score(Data.PickupType pickupType){
+	void AddScore(int pickupType){
 		switch(pickupType){
-			case Data.PickupType.BERRY:
+			case 0:
 				++Data.Instance.berryNumber;
 				Data.Instance.message =  "Got berry";
+				berryText.text = "Berries Found: " + Data.Instance.berryNumber;
 				break;
 
-			case Data.PickupType.FRUIT:
+			case 1:
 				++Data.Instance.fruitNumber;
 				Data.Instance.message =  "Got fruit";
+				fruitText.text = "Fruit Found: " + Data.Instance.fruitNumber;
 				break;
 
-			case Data.PickupType.STONE:
+			case 2:
 				++Data.Instance.stoneNumber;
 				Data.Instance.message =  "Got stone";
+				stoneText.text = "Stones Found: " + Data.Instance.stoneNumber;
 				break;
 		}
-		UpdateScore(pickupType);
 		SendMessage0();
 	}
 
-	void SubScore(){
+	void SubScore(int pickupType, int dropoffNum){
+		switch(pickupType){
+			case 0:
+				Data.Instance.berryNumber -= dropoffNum;
+				berryText.text = "Berries Found: " + Data.Instance.berryNumber;
+				break;
 
+			case 1:
+				Data.Instance.fruitNumber -= dropoffNum;
+				fruitText.text = "Fruit Found: " + Data.Instance.fruitNumber;
+				break;
+
+			case 2:
+				Data.Instance.stoneNumber -= dropoffNum;
+				Data.Instance.message =  "Got stone";
+				stoneText.text = "Stones Found: " + Data.Instance.stoneNumber;
+				break;
+		}
+		SendMessage0();
 	}
 
 
@@ -77,26 +96,10 @@ public class Inventory2 : MonoBehaviour {
 	}
 
 	void SubtractFromScore(){
-		Data.Instance.fruitNumber -= Dropoff.fruitDropoffNum;
+		
 		Data.Instance.berryNumber -= Dropoff.berryDropoffNum;
-		Data.Instance.stoneNumber -= Dropoff.stoneDropoffNum;
+		
 		UpdateScore();
 	}*/
-
-	void UpdateScore (Data.PickupType pickupType){
-		switch(pickupType){
-			case Data.PickupType.BERRY:
-        		berryText.text = "Berries Found: " + Data.Instance.berryNumber;
-				break;
-
-			case Data.PickupType.FRUIT:
-				fruitText.text = "Fruit Found: " + Data.Instance.fruitNumber;
-				break;
-
-			case Data.PickupType.STONE:
-				stoneText.text = "Stones Found: " + Data.Instance.stoneNumber;
-				break;
-		}
-    }
 
 }
