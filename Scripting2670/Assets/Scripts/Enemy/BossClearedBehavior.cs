@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class BossClearedBehavior : MonoBehaviour {
 
+	public Data.BossType bossType;
+	private int thisBossNum;
+
 	public GameObject boss;
 	public GameObject bossDeposit;
 	public GameObject bossText;
+
+	public GameObject bossMove;
 
 	/*public GameObject bearBoss;
 	public GameObject bearBossDeposit;
@@ -16,27 +21,45 @@ public class BossClearedBehavior : MonoBehaviour {
 	public GameObject gatorBossDeposit;
 	public GameObject gatorBossText;*/
 
-	public Data.BossType bossType;
+	/*public enum BossType{
+        BEAR,
+        ALLIGATOR
+    }*/
+
+
 
 	void Start () {
-		//Dropoff.LetPlayerPass = BossBehavior;
-		//Dropoff.LetPlayerPassGator = BossBehavior;
+		Dropoff.LetPlayerPass = BossBehavior;
 	}
 	
-	void BossBehavior(){
+	void BossBehavior(int bossNum){
 		switch(bossType){
 			case Data.BossType.BEAR:
-				boss.SetActive(false);
-				bossDeposit.SetActive(false);
-				bossText.SetActive(false);
+				thisBossNum = 0;
 				break;
-
+			
 			case Data.BossType.ALLIGATOR:
-				boss.SetActive(false);
-				bossDeposit.SetActive(false);
-				bossText.SetActive(false);
+				thisBossNum = 1;
 				break;
 		}
+		if(thisBossNum == bossNum){
+			print("i'm working");
+			switch(bossType){
+				case Data.BossType.BEAR:
+					boss.SetActive(false);
+					bossDeposit.SetActive(false);
+					bossText.SetActive(false);
+					break;
+
+				case Data.BossType.ALLIGATOR:
+					boss.transform.position = bossMove.transform.position;
+					bossDeposit.SetActive(false);
+					bossText.SetActive(false);
+					break;
+			}
+		}
+	}
+		
 
 		/*boss.SetActive(false);
 		bossDeposit.SetActive(false);
@@ -47,7 +70,7 @@ public class BossClearedBehavior : MonoBehaviour {
 		bearBossText.SetActive(false);
 
 		print("Doing Bear Stuff");*/
-	}
+	
 
 	/*void BearBehavior(){
 		boss.SetActive(false);

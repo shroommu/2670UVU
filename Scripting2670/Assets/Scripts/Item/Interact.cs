@@ -5,20 +5,20 @@ using System;
 
 public class Interact : MonoBehaviour {
 
-	public static Action SendMessage;
+	public static Action SendMessage6;
 	public static Action AttachWeapon;
 
 	public Data.InteractType interactType;
 	public Data.LeverType leverType;
 
-	private GameObject player;
+	//private GameObject player;
 
 	public static bool isInteract = false;
 	private bool leverPulled = false;
 
 	void Start () {
 		PlayButton.Play += OnPlay;
-		player = GameObject.FindWithTag("Player");
+		//player = GameObject.FindWithTag("Player");
 	}
 
 	void OnPlay(){
@@ -38,7 +38,7 @@ public class Interact : MonoBehaviour {
 
 								case true:
 									Data.Instance.message = "The lever is stuck.";
-									SendMessage();
+									SendMessage6();
 									break;
 							}
 							break;
@@ -53,7 +53,7 @@ public class Interact : MonoBehaviour {
 					print("doing stuff with weapon");
 					Data.Instance.message = "Got Spear";
 					Data.Instance.weaponsEnabled = true;
-					SendMessage();
+					SendMessage6();
 					AttachWeapon();
 					break;
 			}

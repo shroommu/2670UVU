@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -13,7 +13,7 @@ public class GatorBehavior : MonoBehaviour {
 	public static Action SendMessage;
 
 	void Start () {
-		Dropoff.LetPlayerPassGator = Gator;
+		//Dropoff.LetPlayerPassGator = Gator;
 	}
 	
 	void Gator(){
@@ -25,4 +25,4 @@ public class GatorBehavior : MonoBehaviour {
 		SendMessage();
 	}
 
-}
+}*/

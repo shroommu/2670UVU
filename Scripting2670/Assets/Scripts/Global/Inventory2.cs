@@ -6,23 +6,18 @@ using System;
 
 public class Inventory2 : MonoBehaviour {
 
-	public static Action SendMessage;
+	public static Action SendMessage0;
 
-	public static int berryNumber = 0;
-	public static int fruitNumber = 0;
-	public static int stoneNumber = 0;
 	public Text berryText;
 	public Text fruitText;
 	public Text stoneText;
 	private string message;
 
-	// Use this for initialization
+
 	void Start () {
-		Pickup.AddToBerryScore = BerryScore;
-		Pickup.AddToFruitScore = FruitScore;
-		Pickup.AddToStoneScore = StoneScore;
-		Dropoff.SubtractFromScore = SubtractFromScore;	
+		Pickup.AddToScore = Score;
 		PlayButton.Play += OnPlay;
+
 		berryText.gameObject.SetActive(false);
 		fruitText.gameObject.SetActive(false);
 		stoneText.gameObject.SetActive(false);
@@ -34,38 +29,74 @@ public class Inventory2 : MonoBehaviour {
 		stoneText.gameObject.SetActive(true);
 	}
 
-	void BerryScore(){
-		++berryNumber;
+	void Score(Data.PickupType pickupType){
+		switch(pickupType){
+			case Data.PickupType.BERRY:
+				++Data.Instance.berryNumber;
+				Data.Instance.message =  "Got berry";
+				break;
+
+			case Data.PickupType.FRUIT:
+				++Data.Instance.fruitNumber;
+				Data.Instance.message =  "Got fruit";
+				break;
+
+			case Data.PickupType.STONE:
+				++Data.Instance.stoneNumber;
+				Data.Instance.message =  "Got stone";
+				break;
+		}
+		UpdateScore(pickupType);
+		SendMessage0();
+	}
+
+	void SubScore(){
+
+	}
+
+
+	/*void BerryScore(){
+		++Data.Instance.berryNumber;
 		UpdateScore();
 		Data.Instance.message =  "Got berry";
-		SendMessage();
+		SendMessage0();
 	}
 
 	void FruitScore(){
-		++fruitNumber;
+		++Data.Instance.fruitNumber;
 		UpdateScore();
 		Data.Instance.message = "Got fruit";
-		SendMessage();
+		SendMessage0();
 	}
 
 	void StoneScore(){
-		++stoneNumber;
+		++Data.Instance.stoneNumber;
 		UpdateScore();
 		Data.Instance.message = "Got stone";
-		SendMessage();
+		
 	}
 
 	void SubtractFromScore(){
-		fruitNumber -= Data.Instance.fruitDropoffNum;
-		berryNumber -= Data.Instance.berryDropoffNum;
-		stoneNumber -= Data.Instance.stoneDropoffNum;
+		Data.Instance.fruitNumber -= Dropoff.fruitDropoffNum;
+		Data.Instance.berryNumber -= Dropoff.berryDropoffNum;
+		Data.Instance.stoneNumber -= Dropoff.stoneDropoffNum;
 		UpdateScore();
-	}
+	}*/
 
-	void UpdateScore (){
-        berryText.text = "Berries Found: " + berryNumber;
-		fruitText.text = "Fruit Found: " + fruitNumber;
-		stoneText.text = "Stones Found: " + stoneNumber;
+	void UpdateScore (Data.PickupType pickupType){
+		switch(pickupType){
+			case Data.PickupType.BERRY:
+        		berryText.text = "Berries Found: " + Data.Instance.berryNumber;
+				break;
+
+			case Data.PickupType.FRUIT:
+				fruitText.text = "Fruit Found: " + Data.Instance.fruitNumber;
+				break;
+
+			case Data.PickupType.STONE:
+				stoneText.text = "Stones Found: " + Data.Instance.stoneNumber;
+				break;
+		}
     }
 
 }

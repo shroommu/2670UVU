@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class FlipCharacter : MonoBehaviour {
 
+	#pragma warning disable 0649
+
 	Quaternion myRotate;
 	Vector3 rotValue;
 

@@ -25,21 +25,19 @@ public class Data {
 	public float swimSpeed = 5;
 	public float swimGravity = 0.1f;
 
+	public string message = null;
+
     public bool weaponsEnabled = false;
-
-	public string message;
-
 	public bool handlingSpeed = false;
+	public bool canWaterfall = false;
 
-	public int risingWaterCount;
+	public int risingWaterCount = 1;
 
-	public bool canWaterfall;
+	public int berryNumber = 0;
+	public int fruitNumber = 0;
+	public int stoneNumber = 0;
 
-    public int fruitDropoffNum;
-    public int berryDropoffNum;
-    public int stoneDropoffNum;
-
-	public Transform checkPoint;
+	public Transform checkPoint = null;
 	public bool hasCheckpoint = false;
 
     public enum GameSpeed{
@@ -59,11 +57,6 @@ public class Data {
         WATERFALLPU
 	}
 
-    public enum BossType{
-        BEAR,
-        ALLIGATOR
-    }
-
     public enum TriggerType{
 		OPEN,
 		CLOSE
@@ -78,6 +71,11 @@ public class Data {
     public enum LeverType{
         ONETIME,
         MULTI
+    }
+
+	public enum BossType{
+        BEAR,
+        ALLIGATOR
     }
 
 	private static Data _Instance;
@@ -102,5 +100,20 @@ public class Data {
 
 	public static void SetData(){
 		PlayerPrefs.SetString(dataName, JsonUtility.ToJson(_Instance));
+	}
+
+	public static void ResetToDefault(){
+		Instance.weaponsEnabled = false;
+		Instance.handlingSpeed = false;
+		Instance.canWaterfall = false;
+
+		Instance.risingWaterCount = 1;
+
+		Instance.berryNumber = 0;
+		Instance.fruitNumber = 0;
+		Instance.stoneNumber = 0;
+
+		Instance.checkPoint = null;
+		Instance.hasCheckpoint = false;
 	}
 }

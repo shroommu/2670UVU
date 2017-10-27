@@ -12,32 +12,32 @@ public class ChangeSpeed : MonoBehaviour {
 	//public static Action HoldBreath;
 	//public static Action TakeBreath;
 
-	private GameObject thisCollider;
+	//private GameObject thisCollider;
 
 	public Data.GameSpeed speedType;
 
-	private bool inWater = false;
+	//private bool inWater = false;
 	private int waterCount;
 
 	//allows OnTriggerExit method to run if value is 1.
-	public int allowExit = 1;
+	//public int allowExit = 1;
 
-	private bool canWaterfall = false;
+	//private bool canWaterfall = false;
 
 	void Start(){
-		Pickup.WaterfallPU = WaterfallPU;
+		//Pickup.WaterfallPU = WaterfallPU;
 	}
 	
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player"){
-			thisCollider = gameObject;
+			//thisCollider = gameObject;
 			Data.Instance.handlingSpeed = true;
 
 			switch (speedType){
-				case Data.GameSpeed.REG:
+				/*case Data.GameSpeed.REG:
 					SendSpeed(Data.Instance.speed, Data.Instance.gravity);
 					print("Entering Reg Speed");
-					break;
+					break;*/
 
 				case Data.GameSpeed.DRAG:
 					SendSpeed(Data.Instance.dragSpeed, Data.Instance.dragGravity);
@@ -73,20 +73,14 @@ public class ChangeSpeed : MonoBehaviour {
 	}
 
 	void OnTriggerExit(){
-		if(allowExit == 1 && gameObject == thisCollider){
-			SendSpeed(Data.Instance.speed, Data.Instance.gravity);
-			print("RegularSpeed");
-			Data.Instance.handlingSpeed = false;
-			EnableJump();
-			thisCollider = null;
-
-			/*if(BreathMeter.breathCounter < 10){
-				TakeBreath();
-			}*/
-		}
+		SendSpeed(Data.Instance.speed, Data.Instance.gravity);
+		print("RegularSpeed");
+		Data.Instance.handlingSpeed = false;
+		EnableJump();
+		//thisCollider = null;
 	}
 
-	void WaterfallPU(){
+	/*void WaterfallPU(){
 		canWaterfall = true;
-	}
+	}*/
 }

@@ -16,13 +16,13 @@ public class DisplayMessage : MonoBehaviour {
 
 		image.enabled = false;
 
-		Inventory2.SendMessage = DisplayText;
-		Dropoff.SendMessage = DisplayText;
-		BearBehavior.SendMessage = DisplayText;
-		GatorBehavior.SendMessage = DisplayText;
-		SetCheckpoint.SendMessage = DisplayText;
-		Pickup.SendMessage = DisplayText;
-		Interact.SendMessage = DisplayText;
+		Inventory2.SendMessage0 = DisplayText;
+		Dropoff.SendMessage1 = DisplayText;
+		//BearBehavior.SendMessage2 = DisplayText;
+		//GatorBehavior.SendMessage3 = DisplayText;
+		SetCheckpoint.SendMessage4 = DisplayText;
+		Pickup.SendMessage5 = DisplayText;
+		Interact.SendMessage6 = DisplayText;
 	}
 
 	void DisplayText(){

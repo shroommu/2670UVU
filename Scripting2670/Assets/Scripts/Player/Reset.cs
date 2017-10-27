@@ -33,7 +33,7 @@ public class Reset : MonoBehaviour {
 		continueGameButton = continueGame.GetComponent<Button>();
 		newGameButton = newGame.GetComponent<Button>();
 
-		if(!Data.Instance.hasCheckpoint){
+		if(Data.Instance.hasCheckpoint == false){
 			continueGameButton.interactable = false;
 			continueCheckpointButton.interactable = false;
 			newGameButton.interactable = true;
@@ -61,7 +61,7 @@ public class Reset : MonoBehaviour {
 			print("Resetting");
 			FreezeControls();
 
-			if(restart || !Data.Instance.hasCheckpoint){
+			if(restart || Data.Instance.hasCheckpoint == false){
 				transform.position = startPoint.position;
 				print("returning to start");
 			}

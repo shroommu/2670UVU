@@ -5,40 +5,70 @@ using System;
 
 public class Dropoff : MonoBehaviour {
 
-	public static Action SubtractFromScore;
-	public static Action SendMessage;
-	public static Action LetPlayerPassBear;
-	public static Action LetPlayerPassGator;
+	public Data.BossType bossType;
+	//private Data.PickupType pickupType;
+
+	public static Action<int, int> SubtractFromScore; //<pickupNum, dropoffNum>
+	public static Action SendMessage1;
+	public static Action<int> LetPlayerPass; //<bossNum>
 
 	public int berryDropoffNum;
 	public int fruitDropoffNum;
 	public int stoneDropoffNum;
 
-	public Data.BossType bossType;
+	public bool requiresBerry;
+	public bool requiresFruit;
+	public bool requiresStone;
 
-	void OnTriggerEnter (Collider other){
-		if (other.tag == "Player" && Inventory2.berryNumber >= berryDropoffNum && Inventory2.fruitNumber >= fruitDropoffNum && Inventory2.stoneNumber >= stoneDropoffNum){
-			Data.Instance.berryDropoffNum = berryDropoffNum;
-			Data.Instance.fruitDropoffNum = fruitDropoffNum;
-			Data.Instance.stoneDropoffNum = stoneDropoffNum;
-			SubtractFromScore();
-			switch (bossType){
-				case Data.BossType.BEAR:
-					LetPlayerPassBear();
-					print("Cleared bear");
-					break;
+	private int bossNum;
+	private int pickupNum;
 
-				case Data.BossType.ALLIGATOR:
-					LetPlayerPassGator();
-					print("Cleared gator");
-					break;
-			}
+	/*public enum BossType{
+        BEAR,
+        ALLIGATOR
+    }*/
+
+	/*void Start(){
+		switch(bossType){
+			case Data.Instance.
+		}
+	}*/
+
+	void OnTriggerEnter (){
+		/*if(requiresBerry){
+			pickupNum = 0;
+			//SubtractFromScore(pickupNum, berryDropoffNum);
 		}
 
-		else {
-			Data.Instance.message = "Not enough berries";
-			SendMessage();
+		if(requiresFruit){
+			pickupNum = 1;
+			//SubtractFromScore(pickupNum, fruitDropoffNum);
 		}
+
+		if(requiresStone){
+			pickupNum = 2;
+			//SubtractFromScore(pickupNum, stoneDropoffNum);
+			//print("i'm working");
+		}
+
+		else{
+			//Data.Instance.message = "Not enough berries";
+			//SendMessage1();
+		}*/
+
+		
+
+		switch (bossType){
+			case Data.BossType.BEAR:
+				bossNum = 0;
+				break;
+
+			case Data.BossType.ALLIGATOR:
+				bossNum = 1;
+				break;
+		}
+
+		LetPlayerPass(bossNum);
+		print("dropping off");
 	}
-
 }

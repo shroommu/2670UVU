@@ -9,10 +9,10 @@ public class EnemyPatrol : MonoBehaviour {
 	public GameObject enemy;
 	private NavMeshAgent agent;
 
-	private EnemyFlip enemyFlip;
+	//private EnemyFlip enemyFlip;
 
 	void Start(){
-		enemyFlip = enemy.GetComponent<EnemyFlip>();
+		//enemyFlip = enemy.GetComponent<EnemyFlip>();
 		agent = enemy.GetComponent<NavMeshAgent>();
 	}
 

@@ -11,8 +11,6 @@ public class CameraFollow : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		PlayButton.Play += OnPlay;
-		
-		print("moving to player");
 	}
 
 	void OnPlay(){

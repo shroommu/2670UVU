@@ -20,6 +20,9 @@ using System.Collections.Generic;
 
 public class OBJExporter : ScriptableWizard
 {
+    #pragma warning disable 0618
+    #pragma warning disable 0168
+
     public bool onlySelectedObjects = false;
     public bool applyPosition = true;
     public bool applyRotation = true;

@@ -16,11 +16,11 @@ public class EnemyMove2 : MonoBehaviour {
 	public GameObject leftPatrolTrig;
 	public GameObject rightPatrolTrig;
 
-	private EnemyFlip enemyFlip;
+	//private EnemyFlip enemyFlip;
 
 	void Awake () {
 		agent = GetComponent<NavMeshAgent>();
-		enemyFlip = GetComponent<EnemyFlip>();
+		//enemyFlip = GetComponent<EnemyFlip>();
 
 		SendToEnemy.SendTransform += SendTransformHandler;
 		//EnemyHealth.AttackKnockback += AttackKnockback;

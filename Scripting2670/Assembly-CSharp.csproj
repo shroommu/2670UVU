@@ -51,15 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BackButton.cs" />
-     <Compile Include="Assets\CanvasInput.cs" />
-     <Compile Include="Assets\ClearPlayerPrefs.cs" />
-     <Compile Include="Assets\MainMenuButton.cs" />
      <Compile Include="Assets\OBJExport\OBJExporter.cs" />
-     <Compile Include="Assets\OptionsButton.cs" />
-     <Compile Include="Assets\PauseActions.cs" />
-     <Compile Include="Assets\QuitButton.cs" />
-     <Compile Include="Assets\RestartButton.cs" />
      <Compile Include="Assets\Scripts\Enemy\ActivateEnemiesTrigger.cs" />
      <Compile Include="Assets\Scripts\Enemy\ActivateEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemy\BearBehavior.cs" />
@@ -78,16 +70,23 @@
      <Compile Include="Assets\Scripts\Environmental\CloseDoor.cs" />
      <Compile Include="Assets\Scripts\Environmental\JumpThrough.cs" />
      <Compile Include="Assets\Scripts\Environmental\RisingWater.cs" />
+     <Compile Include="Assets\Scripts\Environmental\SetCheckpoint.cs" />
      <Compile Include="Assets\Scripts\Environmental\SinkingLogs.cs" />
      <Compile Include="Assets\Scripts\Environmental\Teleport.cs" />
      <Compile Include="Assets\Scripts\Environmental\UnhideArea.cs" />
+     <Compile Include="Assets\Scripts\Global\DevTools.cs" />
      <Compile Include="Assets\Scripts\Global\GameData.cs" />
      <Compile Include="Assets\Scripts\Global\Inventory2.cs" />
-     <Compile Include="Assets\Scripts\Global\StartCanvas.cs" />
      <Compile Include="Assets\Scripts\Global\StaticVars.cs" />
+     <Compile Include="Assets\Scripts\GUI\BackButton.cs" />
      <Compile Include="Assets\Scripts\GUI\CanvasManager.cs" />
      <Compile Include="Assets\Scripts\GUI\DisplayMessage.cs" />
+     <Compile Include="Assets\Scripts\GUI\MainMenuButton.cs" />
+     <Compile Include="Assets\Scripts\GUI\OptionsButton.cs" />
+     <Compile Include="Assets\Scripts\GUI\PauseActions.cs" />
      <Compile Include="Assets\Scripts\GUI\PlayButton.cs" />
+     <Compile Include="Assets\Scripts\GUI\QuitButton.cs" />
+     <Compile Include="Assets\Scripts\GUI\RestartButton.cs" />
      <Compile Include="Assets\Scripts\Item\AttachToPlayer.cs" />
      <Compile Include="Assets\Scripts\Item\Dropoff.cs" />
      <Compile Include="Assets\Scripts\Item\Interact.cs" />
@@ -106,12 +105,12 @@
      <Compile Include="Assets\Scripts\Player\Reset.cs" />
      <Compile Include="Assets\Scripts\Player\RunFromEnemy.cs" />
      <Compile Include="Assets\Scripts\Player\SendToEnemy.cs" />
+     <Compile Include="Assets\Scripts\PlayerPrefs\ClearPlayerPrefs.cs" />
      <Compile Include="Assets\Scripts\PlayerPrefs\Data.cs" />
      <Compile Include="Assets\Scripts\PlayerPrefs\GetAndSetGameData.cs" />
+     <Compile Include="Assets\Scripts\PlayerPrefs\SetData.cs" />
      <Compile Include="Assets\Scripts\Store\ForPurchase.cs" />
      <Compile Include="Assets\Scripts\Store\UpdateGold.cs" />
-     <Compile Include="Assets\SetCheckpoint.cs" />
-     <Compile Include="Assets\SetData.cs" />
      <None Include="Assets\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
