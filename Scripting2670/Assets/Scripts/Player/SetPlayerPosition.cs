@@ -15,27 +15,30 @@ public class SetPlayerPosition : MonoBehaviour {
 
 
 	void Start () {
-		transform.position = startPoint.position;
-		RestartButton.Restart += StartSetPlayerPos;
-		PlayButton.Play += OnPlay;
+		//transform.position = startPoint.position;
+		SetPlayerPosActions.SetPlayerPos += StartSetPlayerPos;
+		SetPlayerPosActions.Play += OnPlay;
 	}
 
 	void OnPlay(){
 		StartSetPlayerPos(Data.Instance.hasCheckpoint);
+		//print(Data.Instance.hasCheckpoint);
 	}
 
 	void StartSetPlayerPos(bool hasCheckpoint){
 		if(!isRunning){
 			resetting = true;
 			StartCoroutine(SetPlayerPos(hasCheckpoint));
+			//print(hasCheckpoint);
 		}
 	}
 
 	//respawns player
 	IEnumerator SetPlayerPos (bool hasCheckpoint) {
+		//print(hasCheckpoint);
 		while(resetting){
 			isRunning = true;
-			print("Resetting");
+			//print("Resetting");
 			FreezeControls();
 
 			if(!hasCheckpoint){

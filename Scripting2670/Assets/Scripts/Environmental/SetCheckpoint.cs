@@ -6,11 +6,13 @@ using System;
 public class SetCheckpoint : MonoBehaviour {
 
 	public static Action SendMessage4;
+	public static Action CheckPointSet;
 
 	void OnTriggerEnter(){
 		Data.Instance.checkPoint = transform;
 		Data.Instance.message = "Checkpoint!";
 		Data.Instance.hasCheckpoint = true;
 		SendMessage4();
+		CheckPointSet();
 	}
 }

@@ -10,12 +10,10 @@ public class MoveCharacter : MonoBehaviour {
 	float speed;
 	float gravity;
 
-    private float jumpHeight = .4f;
-
 	private bool jumping= false;
 	private bool canVertMove = false;
 	private bool canJump = true;
-	private bool canMove = false;
+	//private bool canMove = false;
 
 	private bool sprintRunning = false;
 	private bool restoreSprintRunning = false;
@@ -36,7 +34,7 @@ public class MoveCharacter : MonoBehaviour {
 		sprintCounter = sprintCounterDef;
 		
 		//Action subscriptions
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 		
 		SetPlayerPosition.FreezeControls += FreezeControls;
 		Teleport.FreezeControls += FreezeControls;
@@ -62,10 +60,10 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.VertKeyAction += VertMove;
 		ChangeSpeed.DisableJump = DisableJump;
 		ChangeSpeed.EnableJump = EnableJump;
-		PlayButton.Play -= OnPlay;
+		//SetPlayerPosActions.Play -= OnPlay;
 
 		//start movement
-		canMove = true;
+		//canMove = true;
 		StartCoroutine(MoveCheck());
 	}
 
@@ -89,13 +87,13 @@ public class MoveCharacter : MonoBehaviour {
 		if (jumpNum < 1 && canJump){	
 			jumping = true;
 			++jumpNum;
-			tempMove.y = jumpHeight;
+			tempMove.y = Data.Instance.jumpHeight;
 		}
 	}
 
 	//checks for ground, enables/disables jumping based on jumpNum, locks z position
 	IEnumerator MoveCheck() {
-		while(canMove){
+		while(Data.Instance.canPlay){
 			
 			//checks for ground and resets jump count to allow another jump
 			if (cc.isGrounded && jumpNum > 0){

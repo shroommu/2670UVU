@@ -29,8 +29,8 @@ public class Reset : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		transform.position = startPoint.position;
-		RestartButton.Restart += StartResetThis;
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.SetPlayerPos += StartResetThis;
+		SetPlayerPosActions.Play += OnPlay;
 		ClearPlayerPrefs.PlayerPrefsCleared += PlayContinueButton;
 
 		continueCheckpointButton = continueCheckpoint.GetComponent<Button>();

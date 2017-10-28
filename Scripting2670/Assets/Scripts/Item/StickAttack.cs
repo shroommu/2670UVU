@@ -17,7 +17,7 @@ public class StickAttack : MonoBehaviour {
 	private Vector3 originPosV;
 
 	void Start () {
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 	}
 
 	void OnPlay(){

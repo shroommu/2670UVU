@@ -10,19 +10,21 @@ public class Data {
 
 	protected static string dataName = "Data";
 
-	public float speed = 7;
-	public float gravity = 1;
+	public float speed = 5;
+	public float gravity = .75f;
+
+	public float jumpHeight = .3f;
 
 	public float dragSpeed = 1;
 	public float dragGravity = 0;
 
-	public float boostSpeed = 12;
-	public float boostGravity = 1;
+	public float boostSpeed = 10;
+	public float boostGravity = .75f;
 
-	public float climbSpeed = 7;
+	public float climbSpeed = 5;
 	public float climbGravity = 0;
 
-	public float swimSpeed = 5;
+	public float swimSpeed = 4;
 	public float swimGravity = 0.1f;
 
 	public string message = null;
@@ -39,6 +41,9 @@ public class Data {
 
 	public Transform checkPoint = null;
 	public bool hasCheckpoint = false;
+
+	public bool canPlay;
+	public bool canPause;
 
     public enum GameSpeed{
         REG,

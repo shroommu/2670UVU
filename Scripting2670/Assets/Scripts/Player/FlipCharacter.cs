@@ -14,12 +14,12 @@ public class FlipCharacter : MonoBehaviour {
 	
 
 	void Start () {
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 	}
 
 	void OnPlay () {
 		MoveInput.KeyAction += Flip;
-		PlayButton.Play -= OnPlay;
+		//SetPlayerPosActions.Play -= OnPlay;
 	}
 
     private void Flip(float obj)

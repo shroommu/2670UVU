@@ -10,15 +10,15 @@ public class CameraFollow : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 	}
 
 	void OnPlay(){
 		canPlay = true;
 		gameObject.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -20);
 		cameraOffset = transform.position - player.transform.position;
-		PlayButton.Play -= OnPlay;
-		StartCoroutine("FollowPlayer");
+		//SetPlayerPosActions.Play -= OnPlay;
+		StartCoroutine(FollowPlayer());
 	}
 	
 	IEnumerator FollowPlayer (){

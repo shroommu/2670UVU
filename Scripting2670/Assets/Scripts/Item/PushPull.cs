@@ -8,7 +8,7 @@ public class PushPull : MonoBehaviour {
 	public static bool canFlip;
 
 	void Start () {
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 		player = GameObject.FindWithTag("Player");
 	}
 

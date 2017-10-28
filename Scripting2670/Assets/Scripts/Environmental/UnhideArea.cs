@@ -8,12 +8,12 @@ public class UnhideArea : MonoBehaviour {
 	MeshRenderer render;
 
 	void Start () {
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 		render = coverObj.GetComponent<MeshRenderer>();
 	}
 
 	void OnPlay () {
-		PlayButton.Play -= OnPlay;
+		//SetPlayerPosActions.Play -= OnPlay;
 	}
 
 	void OnTriggerEnter(Collider other){

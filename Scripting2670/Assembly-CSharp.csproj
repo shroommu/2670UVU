@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\GUI\PlayButton.cs" />
      <Compile Include="Assets\Scripts\GUI\QuitButton.cs" />
      <Compile Include="Assets\Scripts\GUI\RestartButton.cs" />
+     <Compile Include="Assets\Scripts\GUI\SetPlayerPosActions.cs" />
      <Compile Include="Assets\Scripts\Item\AttachToPlayer.cs" />
      <Compile Include="Assets\Scripts\Item\Dropoff.cs" />
      <Compile Include="Assets\Scripts\Item\Interact.cs" />
@@ -96,7 +97,6 @@
      <Compile Include="Assets\Scripts\Item\StickAttack.cs" />
      <Compile Include="Assets\Scripts\Player\AnimateCharacter.cs" />
      <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\Player\ClickInput.cs" />
      <Compile Include="Assets\Scripts\Player\FlipCharacter.cs" />
      <Compile Include="Assets\Scripts\Player\MoveCharacter.cs" />
      <Compile Include="Assets\Scripts\Player\MoveInput.cs" />

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CanvasManager : MonoBehaviour {
 
@@ -12,31 +13,52 @@ public class CanvasManager : MonoBehaviour {
 	public GameObject logoPanel;
 	public GameObject pausePanel;
 
+	public GameObject continueGame;
+	public GameObject continueCheckpoint;
+	public GameObject newGame;
+
+	private Button continueGameButton;
+	private Button continueCheckpointButton;
+	private Button newGameButton;
+
 	private bool startingUp = true;
 
 	// Use this for initialization
 	void Start () {
 
 		EndGame.End += ActivateEndPanel;
-		PlayButton.Play += ActivateHUD;
+		SetPlayerPosActions.Play += ActivateHUD;
 		MainMenuButton.MainMenu += ActivateStart;
 		BackButton.Back += ActivateStart;
 		OptionsButton.Options += ActivateOptions;
 		
-		RestartButton.Restart += Restart;
+		SetPlayerPosActions.SetPlayerPos += Restart;
 
 		PauseActions.Unpause += DeactivatePause;
 		PauseActions.Pause += ActivatePause;
 
-		StartCoroutine("StartupSequence");
+		ClearPlayerPrefs.PlayerPrefsCleared += PlayContinueButton;
+		SetCheckpoint.CheckPointSet += PlayContinueButton;
+		SetPlayerPosActions.RestartedLevel += PlayContinueButton;
+
+		continueCheckpointButton = continueCheckpoint.GetComponent<Button>();
+		continueGameButton = continueGame.GetComponent<Button>();
+		newGameButton = newGame.GetComponent<Button>();
+
+		StartCoroutine(StartupSequence());
+		PlayContinueButton();
 	}
 
 	void ActivateEndPanel(){
+		Data.Instance.canPause = false;
+
 		hudPanel.SetActive(false);
 		endPanel.SetActive(true);
 	}
 
 	void ActivateHUD(){
+		Data.Instance.canPause = true;	
+
 		startPanel.SetActive(false);
 		hudPanel.SetActive(true);
 		endPanel.SetActive(false);
@@ -44,6 +66,8 @@ public class CanvasManager : MonoBehaviour {
 	}
 
 	void ActivateStart(){
+		Data.Instance.canPause = false;
+
 		startPanel.SetActive(true);
 		hudPanel.SetActive(false);
 		endPanel.SetActive(false);
@@ -54,11 +78,15 @@ public class CanvasManager : MonoBehaviour {
 	}
 
 	void ActivateOptions(){
+		Data.Instance.canPause = false;
+
 		startSubPanel.SetActive(false);
 		optionsPanel.SetActive(true);
 	}
 
 	void ActivateLogo(){
+		Data.Instance.canPause = false;
+
 		startPanel.SetActive(false);
 		hudPanel.SetActive(false);
 		endPanel.SetActive(false);
@@ -75,9 +103,12 @@ public class CanvasManager : MonoBehaviour {
 	}
 
 	void Restart(bool restart){
+		Data.Instance.canPause = true;
+
 		startPanel.SetActive(false);
 		pausePanel.SetActive(false);
 		hudPanel.SetActive(true);
+		endPanel.SetActive(false);
 	}
 
 	IEnumerator StartupSequence(){
@@ -86,6 +117,23 @@ public class CanvasManager : MonoBehaviour {
 			yield return new WaitForSeconds(3);
 			ActivateStart();
 			startingUp = false;
+		}
+	}
+
+	void PlayContinueButton(){
+		if(Data.Instance.hasCheckpoint == false){
+			continueGameButton.interactable = false;
+			continueCheckpointButton.interactable = false;
+			newGameButton.interactable = true;
+			print("starting from beginning");
+			//startPos = true;
+		}
+		else{
+			continueGameButton.interactable = true;
+			continueCheckpointButton.interactable = true;
+			newGameButton.interactable = false;
+			print("can start from checkpoint");
+			//startPos = false;
 		}
 	}
 }

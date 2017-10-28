@@ -15,7 +15,7 @@ public class Inventory2 : MonoBehaviour {
 
 	void Start () {
 		Pickup.AddToScore = AddScore;
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 		Dropoff.SubtractFromScore += SubScore;
 
 		/*berryText.gameObject.SetActive(false);

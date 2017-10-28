@@ -9,13 +9,13 @@ public class AnimateCharacter : MonoBehaviour {
 
 	void Start () {
 		anims = GetComponent<Animator>();
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 	}
 
 	void OnPlay () {
 		MoveInput.KeyAction += Animate;
 		anims.SetTrigger("IsLoaded");
-		PlayButton.Play -= OnPlay;
+		//SetPlayerPosActions.Play -= OnPlay;
 	}
 
     private void Animate(float obj)

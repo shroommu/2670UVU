@@ -9,18 +9,22 @@ public class PauseActions : MonoBehaviour {
     public static Action Unpause;
 
 	public bool canPlay = true;
+	private bool isRunning = false;
 
 	void Start(){
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 	}
 
 	public void OnPlay(){
-		StartCoroutine(PauseMenu());
+		//SetPlayerPosActions.Play = null;
+		if(!isRunning){
+			StartCoroutine(PauseMenu());
+		}
 	}
 
 	IEnumerator PauseMenu () {
-		while(canPlay){
-
+		while(Data.Instance.canPause){
+			isRunning = true;
 			if(Input.GetKeyDown(KeyCode.Escape)){
 				Pause();
 				print("pausing");
@@ -29,10 +33,11 @@ public class PauseActions : MonoBehaviour {
 			yield return null;
 
 		}
+		isRunning = false;
 	}
 
     public void Continue(){
-        Unpause();
 		print("unpausing");
+        Unpause();
     }
 }

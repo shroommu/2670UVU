@@ -17,7 +17,7 @@ public class Interact : MonoBehaviour {
 	private bool leverPulled = false;
 
 	void Start () {
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 		//player = GameObject.FindWithTag("Player");
 	}
 

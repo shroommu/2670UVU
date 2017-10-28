@@ -15,22 +15,23 @@ public class MoveInput : MonoBehaviour {
 
 	public static Action ClickAction;
 
-	private bool canPlay = true;
+	//private bool canPlay = true;
 	public float runTime = 0.01f;
 	private bool isRunning = false;
 
 	void Start(){
-		PlayButton.Play += OnPlay;
+		SetPlayerPosActions.Play += OnPlay;
 	}
 
 	void OnPlay(){
 		if(!isRunning){
+			print("getting input");
 			StartCoroutine(RunInput());
 		}
 	}
 
 	IEnumerator RunInput () {
-		while(canPlay){
+		while(Data.Instance.canPlay){
 			isRunning = true;
 			if (Input.GetKeyDown(KeyCode.Space)){
 				JumpAction();
@@ -72,5 +73,6 @@ public class MoveInput : MonoBehaviour {
 
 			yield return null;
 		}
+		isRunning = false;
 	}
 }
