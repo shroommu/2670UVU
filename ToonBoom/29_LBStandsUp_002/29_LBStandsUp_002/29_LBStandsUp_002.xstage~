@@ -57,33 +57,6 @@
     <dwg name="52" scaleFactor="1"/>
     <dwg name="53" scaleFactor="1"/>
     <dwg name="54" scaleFactor="1"/>
-    <dwg name="55" scaleFactor="1"/>
-    <dwg name="56" scaleFactor="1"/>
-    <dwg name="57" scaleFactor="1"/>
-    <dwg name="58" scaleFactor="1"/>
-    <dwg name="59" scaleFactor="1"/>
-    <dwg name="60" scaleFactor="1"/>
-    <dwg name="61" scaleFactor="1"/>
-    <dwg name="62" scaleFactor="1"/>
-    <dwg name="63" scaleFactor="1"/>
-    <dwg name="64" scaleFactor="1"/>
-    <dwg name="65" scaleFactor="1"/>
-    <dwg name="66" scaleFactor="1"/>
-    <dwg name="67" scaleFactor="1"/>
-    <dwg name="68" scaleFactor="1"/>
-    <dwg name="69" scaleFactor="1"/>
-    <dwg name="70" scaleFactor="1"/>
-    <dwg name="71" scaleFactor="1"/>
-    <dwg name="72" scaleFactor="1"/>
-    <dwg name="73" scaleFactor="1"/>
-    <dwg name="74" scaleFactor="1"/>
-    <dwg name="75" scaleFactor="1"/>
-    <dwg name="76" scaleFactor="1"/>
-    <dwg name="77" scaleFactor="1"/>
-    <dwg name="78" scaleFactor="1"/>
-    <dwg name="79" scaleFactor="1"/>
-    <dwg name="80" scaleFactor="1"/>
-    <dwg name="81" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="2" elementName="29_LBStandsUp" elementFolder="29_LBStandsUp" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -307,7 +280,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="08d74b05f3b00c98" nbframes="196">
+  <scene name="Top" id="08d74b05f3b00c98" nbframes="197">
    <columns>
     <column type="0" name="OB" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-38" val="1" id="1"/>
@@ -363,35 +336,9 @@
      <elementSeq exposures="137-138" val="51" id="1"/>
      <elementSeq exposures="139-140" val="52" id="1"/>
      <elementSeq exposures="141-142" val="53" id="1"/>
-     <elementSeq exposures="143-144" val="54" id="1"/>
-     <elementSeq exposures="145-146" val="55" id="1"/>
-     <elementSeq exposures="147-148" val="56" id="1"/>
-     <elementSeq exposures="149-150" val="57" id="1"/>
-     <elementSeq exposures="151-152" val="58" id="1"/>
-     <elementSeq exposures="153-154" val="59" id="1"/>
-     <elementSeq exposures="155-156" val="60" id="1"/>
-     <elementSeq exposures="157-158" val="61" id="1"/>
-     <elementSeq exposures="159-160" val="62" id="1"/>
-     <elementSeq exposures="161-162" val="63" id="1"/>
-     <elementSeq exposures="163-164" val="64" id="1"/>
-     <elementSeq exposures="165-166" val="65" id="1"/>
-     <elementSeq exposures="167-168" val="66" id="1"/>
-     <elementSeq exposures="169-170" val="67" id="1"/>
-     <elementSeq exposures="171-172" val="68" id="1"/>
-     <elementSeq exposures="173-174" val="69" id="1"/>
-     <elementSeq exposures="175-176" val="70" id="1"/>
-     <elementSeq exposures="177-178" val="71" id="1"/>
-     <elementSeq exposures="179-180" val="72" id="1"/>
-     <elementSeq exposures="181-182" val="73" id="1"/>
-     <elementSeq exposures="183-184" val="74" id="1"/>
-     <elementSeq exposures="185-186" val="76" id="1"/>
-     <elementSeq exposures="187-188" val="77" id="1"/>
-     <elementSeq exposures="189-190" val="78" id="1"/>
-     <elementSeq exposures="191-192" val="79" id="1"/>
-     <elementSeq exposures="193-194" val="80" id="1"/>
-     <elementSeq exposures="195-196" val="81" id="1"/>
+     <elementSeq exposures="143" val="54" id="1"/>
     </column>
-    <column type="0" name="ATV-08D74B05F3B01290" display="false" displayOrder="0" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D74B05F3B01290" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -760,7 +707,6 @@
      </module>
      <module type="READ" name="29_LBStandsUp" pos="0,0,0" publishUnderTab="29_LBStandsUp">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
