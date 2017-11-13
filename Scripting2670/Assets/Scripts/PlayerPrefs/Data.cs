@@ -35,6 +35,8 @@ public class Data {
 
 	public int risingWaterCount = 1;
 
+	public int jumpLimit = 1;
+
 	public int berryNumber = 0;
 	public int fruitNumber = 0;
 	public int stoneNumber = 0;
@@ -44,6 +46,7 @@ public class Data {
 
 	public bool canPlay;
 	public bool canPause;
+	public bool canDoubleJump = false;
 
     public enum GameSpeed{
         REG,
@@ -118,6 +121,7 @@ public class Data {
 		Instance.canWaterfall = false;
 
 		Instance.risingWaterCount = 1;
+		Instance.jumpLimit = 1;
 
 		Instance.berryNumber = 0;
 		Instance.fruitNumber = 0;
