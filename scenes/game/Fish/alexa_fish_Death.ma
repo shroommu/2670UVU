@@ -1,12 +1,13 @@
 //Maya ASCII 2017 scene
 //Name: alexa_fish_Death.ma
-//Last modified: Thu, Nov 16, 2017 07:05:06 PM
+//Last modified: Sat, Nov 18, 2017 11:01:20 AM
 //Codeset: 1252
 file -rdi 1 -ns "alexa_fish_finished_002" -rfn "alexa_fish_finished_002RN" -op
-		 "v=0;" -typ "mayaAscii" "C:/Users/Alexa/Documents/Github/2670UVU/Maya//small_assets/alexa_fish_finished_002.ma";
+		 "v=0;" -typ "mayaAscii" "C:/Users/Alexa/Documents/Github/2670UVU//Maya//small_assets/alexa_fish_finished_002.ma";
 file -r -ns "alexa_fish_finished_002" -dr 1 -rfn "alexa_fish_finished_002RN" -op
-		 "v=0;" -typ "mayaAscii" "C:/Users/Alexa/Documents/Github/2670UVU/Maya//small_assets/alexa_fish_finished_002.ma";
+		 "v=0;" -typ "mayaAscii" "C:/Users/Alexa/Documents/Github/2670UVU//Maya//small_assets/alexa_fish_finished_002.ma";
 requires maya "2017";
+requires "stereoCamera" "10.0";
 requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
@@ -80,19 +81,19 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".dr" yes;
 	setAttr ".o" yes;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "79391EED-461B-2FBE-6197-A1B40DFEB42F";
-	setAttr -s 9 ".lnk";
-	setAttr -s 9 ".slnk";
+	rename -uid "B6D72E7C-4700-EB99-09FD-DFB290EB0033";
+	setAttr -s 16 ".lnk";
+	setAttr -s 16 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "C405865D-4636-738E-5E44-07982F0C0F51";
+	rename -uid "0F66EF1D-4E45-9560-5795-4599D4B1DF56";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "27C7DBAF-42BF-34D5-8017-199E64B5DFFC";
+	rename -uid "B0B4D528-4516-ED4E-4550-79AEFCA697A0";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "6727B7F2-4851-3A15-38DB-19B413C12F8A";
+	rename -uid "5095FBBA-4E2B-13AD-843A-618BAF38BB63";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "A5DD4D61-41C9-5AFB-2B62-EEBAA8EB6034";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "F4077874-4350-91F6-43F4-30A9BE9E1BA2";
+	rename -uid "853F9230-4374-1B7C-EED1-D48188B39010";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "81C0BAE1-4927-DA84-77D8-FBBA90709A4F";
 	setAttr ".g" yes;
@@ -204,12 +205,12 @@ createNode reference -n "alexa_fish_finished_002RN";
 		"alexa_fish_finished_002RN" 0
 		"alexa_fish_finished_002RN" 198
 		2 "|alexa_fish_finished_002:fishRootHead" "visibility" " -av 1"
-		2 "|alexa_fish_finished_002:fishRootHead" "translate" " -type \"double3\" 0 0.78519315397426948 -0.24724816193848642"
+		2 "|alexa_fish_finished_002:fishRootHead" "translate" " -type \"double3\" 0 -0.019580640229586485 -0.24724816193848642"
 		
 		2 "|alexa_fish_finished_002:fishRootHead" "translateX" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead" "translateY" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead" "translateZ" " -av"
-		2 "|alexa_fish_finished_002:fishRootHead" "rotate" " -type \"double3\" 193.40316884243458 0.0001628242845002588 0"
+		2 "|alexa_fish_finished_002:fishRootHead" "rotate" " -type \"double3\" 0 -8.4056833699196645 0"
 		
 		2 "|alexa_fish_finished_002:fishRootHead" "rotateX" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead" "rotateY" " -av"
@@ -229,7 +230,7 @@ createNode reference -n "alexa_fish_finished_002RN";
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1" 
 		"translateZ" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1" 
-		"rotate" " -type \"double3\" -24.174860739441048 4.3939824578028448 0"
+		"rotate" " -type \"double3\" 0 -17.467481696657082 0"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1" 
 		"rotateX" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1" 
@@ -245,7 +246,7 @@ createNode reference -n "alexa_fish_finished_002RN";
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2" 
 		"translateZ" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2" 
-		"rotate" " -type \"double3\" -14.73371775697521 4.3944442047281456 0"
+		"rotate" " -type \"double3\" 0 -17.894558661505449 0"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2" 
 		"rotateX" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2" 
@@ -263,7 +264,7 @@ createNode reference -n "alexa_fish_finished_002RN";
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3" 
 		"translateZ" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3" 
-		"rotate" " -type \"double3\" -11.806351275775839 -4.1529155764656354 0"
+		"rotate" " -type \"double3\" 0 -16.715478001509013 0"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3" 
 		"rotateX" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3" 
@@ -287,7 +288,7 @@ createNode reference -n "alexa_fish_finished_002RN";
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase" 
 		"translateZ" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase" 
-		"rotate" " -type \"double3\" -15.879308146273749 23.481413530588657 0"
+		"rotate" " -type \"double3\" 0 10.838729431353347 0"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase" 
 		"rotateX" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase" 
@@ -303,7 +304,7 @@ createNode reference -n "alexa_fish_finished_002RN";
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail" 
 		"translateZ" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail" 
-		"rotate" " -type \"double3\" -15.283622652849346 22.659413530588655 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail" 
 		"rotateX" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail" 
@@ -319,7 +320,7 @@ createNode reference -n "alexa_fish_finished_002RN";
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd" 
 		"translateZ" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd" 
-		"rotate" " -type \"double3\" 1.0371844842396087 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd" 
 		"rotateX" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd" 
@@ -375,7 +376,7 @@ createNode reference -n "alexa_fish_finished_002RN";
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:lowerJaw" 
 		"translateZ" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:lowerJaw" 
-		"rotate" " -type \"double3\" -39.468488155617507 0 0"
+		"rotate" " -type \"double3\" 0 0 0"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:lowerJaw" 
 		"rotateX" " -av"
 		2 "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:lowerJaw" 
@@ -416,19 +417,19 @@ createNode reference -n "alexa_fish_finished_002RN";
 		"alexa_fish_finished_002RN.placeHolderList[12]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.scaleZ" 
 		"alexa_fish_finished_002RN.placeHolderList[13]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.rotateX" 
-		"alexa_fish_finished_002RN.placeHolderList[14]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.rotateY" 
-		"alexa_fish_finished_002RN.placeHolderList[15]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.rotateZ" 
-		"alexa_fish_finished_002RN.placeHolderList[16]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.visibility" 
-		"alexa_fish_finished_002RN.placeHolderList[17]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.translateX" 
-		"alexa_fish_finished_002RN.placeHolderList[18]" ""
+		"alexa_fish_finished_002RN.placeHolderList[14]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.translateY" 
-		"alexa_fish_finished_002RN.placeHolderList[19]" ""
+		"alexa_fish_finished_002RN.placeHolderList[15]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.translateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[16]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.rotateX" 
+		"alexa_fish_finished_002RN.placeHolderList[17]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.rotateY" 
+		"alexa_fish_finished_002RN.placeHolderList[18]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.rotateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[19]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1.visibility" 
 		"alexa_fish_finished_002RN.placeHolderList[20]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.scaleX" 
 		"alexa_fish_finished_002RN.placeHolderList[21]" ""
@@ -436,19 +437,19 @@ createNode reference -n "alexa_fish_finished_002RN";
 		"alexa_fish_finished_002RN.placeHolderList[22]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.scaleZ" 
 		"alexa_fish_finished_002RN.placeHolderList[23]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.rotateX" 
-		"alexa_fish_finished_002RN.placeHolderList[24]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.rotateY" 
-		"alexa_fish_finished_002RN.placeHolderList[25]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.rotateZ" 
-		"alexa_fish_finished_002RN.placeHolderList[26]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.visibility" 
-		"alexa_fish_finished_002RN.placeHolderList[27]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.translateX" 
-		"alexa_fish_finished_002RN.placeHolderList[28]" ""
+		"alexa_fish_finished_002RN.placeHolderList[24]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.translateY" 
-		"alexa_fish_finished_002RN.placeHolderList[29]" ""
+		"alexa_fish_finished_002RN.placeHolderList[25]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.translateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[26]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.rotateX" 
+		"alexa_fish_finished_002RN.placeHolderList[27]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.rotateY" 
+		"alexa_fish_finished_002RN.placeHolderList[28]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.rotateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[29]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2.visibility" 
 		"alexa_fish_finished_002RN.placeHolderList[30]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3.scaleX" 
 		"alexa_fish_finished_002RN.placeHolderList[31]" ""
@@ -476,19 +477,19 @@ createNode reference -n "alexa_fish_finished_002RN";
 		"alexa_fish_finished_002RN.placeHolderList[42]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.scaleZ" 
 		"alexa_fish_finished_002RN.placeHolderList[43]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.rotateX" 
-		"alexa_fish_finished_002RN.placeHolderList[44]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.rotateY" 
-		"alexa_fish_finished_002RN.placeHolderList[45]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.rotateZ" 
-		"alexa_fish_finished_002RN.placeHolderList[46]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.visibility" 
-		"alexa_fish_finished_002RN.placeHolderList[47]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.translateX" 
-		"alexa_fish_finished_002RN.placeHolderList[48]" ""
+		"alexa_fish_finished_002RN.placeHolderList[44]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.translateY" 
-		"alexa_fish_finished_002RN.placeHolderList[49]" ""
+		"alexa_fish_finished_002RN.placeHolderList[45]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.translateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[46]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.rotateX" 
+		"alexa_fish_finished_002RN.placeHolderList[47]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.rotateY" 
+		"alexa_fish_finished_002RN.placeHolderList[48]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.rotateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[49]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase.visibility" 
 		"alexa_fish_finished_002RN.placeHolderList[50]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.scaleX" 
 		"alexa_fish_finished_002RN.placeHolderList[51]" ""
@@ -496,33 +497,33 @@ createNode reference -n "alexa_fish_finished_002RN";
 		"alexa_fish_finished_002RN.placeHolderList[52]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.scaleZ" 
 		"alexa_fish_finished_002RN.placeHolderList[53]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.rotateX" 
-		"alexa_fish_finished_002RN.placeHolderList[54]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.rotateY" 
-		"alexa_fish_finished_002RN.placeHolderList[55]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.rotateZ" 
-		"alexa_fish_finished_002RN.placeHolderList[56]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.visibility" 
-		"alexa_fish_finished_002RN.placeHolderList[57]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.translateX" 
-		"alexa_fish_finished_002RN.placeHolderList[58]" ""
+		"alexa_fish_finished_002RN.placeHolderList[54]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.translateY" 
-		"alexa_fish_finished_002RN.placeHolderList[59]" ""
+		"alexa_fish_finished_002RN.placeHolderList[55]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.translateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[56]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.rotateX" 
+		"alexa_fish_finished_002RN.placeHolderList[57]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.rotateY" 
+		"alexa_fish_finished_002RN.placeHolderList[58]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.rotateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[59]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail.visibility" 
 		"alexa_fish_finished_002RN.placeHolderList[60]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.rotateX" 
-		"alexa_fish_finished_002RN.placeHolderList[61]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.rotateY" 
-		"alexa_fish_finished_002RN.placeHolderList[62]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.rotateZ" 
-		"alexa_fish_finished_002RN.placeHolderList[63]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.visibility" 
-		"alexa_fish_finished_002RN.placeHolderList[64]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.translateX" 
-		"alexa_fish_finished_002RN.placeHolderList[65]" ""
+		"alexa_fish_finished_002RN.placeHolderList[61]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.translateY" 
-		"alexa_fish_finished_002RN.placeHolderList[66]" ""
+		"alexa_fish_finished_002RN.placeHolderList[62]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.translateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[63]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.rotateX" 
+		"alexa_fish_finished_002RN.placeHolderList[64]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.rotateY" 
+		"alexa_fish_finished_002RN.placeHolderList[65]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.rotateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[66]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.visibility" 
 		"alexa_fish_finished_002RN.placeHolderList[67]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.scaleX" 
 		"alexa_fish_finished_002RN.placeHolderList[68]" ""
@@ -530,19 +531,19 @@ createNode reference -n "alexa_fish_finished_002RN";
 		"alexa_fish_finished_002RN.placeHolderList[69]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:spine2|alexa_fish_finished_002:spine3|alexa_fish_finished_002:tailBase|alexa_fish_finished_002:tail|alexa_fish_finished_002:tailEnd.scaleZ" 
 		"alexa_fish_finished_002RN.placeHolderList[70]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.rotateX" 
-		"alexa_fish_finished_002RN.placeHolderList[71]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.rotateY" 
-		"alexa_fish_finished_002RN.placeHolderList[72]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.rotateZ" 
-		"alexa_fish_finished_002RN.placeHolderList[73]" ""
-		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.visibility" 
-		"alexa_fish_finished_002RN.placeHolderList[74]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.translateX" 
-		"alexa_fish_finished_002RN.placeHolderList[75]" ""
+		"alexa_fish_finished_002RN.placeHolderList[71]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.translateY" 
-		"alexa_fish_finished_002RN.placeHolderList[76]" ""
+		"alexa_fish_finished_002RN.placeHolderList[72]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.translateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[73]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.rotateX" 
+		"alexa_fish_finished_002RN.placeHolderList[74]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.rotateY" 
+		"alexa_fish_finished_002RN.placeHolderList[75]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.rotateZ" 
+		"alexa_fish_finished_002RN.placeHolderList[76]" ""
+		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.visibility" 
 		"alexa_fish_finished_002RN.placeHolderList[77]" ""
 		5 4 "alexa_fish_finished_002RN" "|alexa_fish_finished_002:fishRootHead|alexa_fish_finished_002:spine1|alexa_fish_finished_002:finR.scaleX" 
 		"alexa_fish_finished_002RN.placeHolderList[78]" ""
@@ -925,7 +926,7 @@ createNode animCurveTA -n "tailBase_rotateY";
 	setAttr -s 21 ".ktv[0:20]"  1 10.838729431353347 3 -29.213271636628168
 		 5 10.838729431353347 7 29.213000000000019 9 10.838729431353347 13 -29.213271636628168
 		 17 10.838729431353347 21 29.213 29 10.838729431353347 37 -29.213271636628168 45 10.838729431353347
-		 53 23.481413530588657 61 3.1966141388048905 69 -4.7585027004731266 77 4.7250371973145944
+		 53 23.481413530588657 61 3.1966141388048905 69 -4.7585027004731266 77 4.7250371973145953
 		 85 7.818374730477581 93 3.1966141388048905 101 -2.4745980771984901 109 1.7885883959614881
 		 117 2.9242933948890757 125 0.93717341757073247;
 createNode animCurveTA -n "tailBase_rotateZ";
@@ -988,7 +989,7 @@ createNode animCurveTA -n "tail_rotateY";
 	setAttr -s 21 ".ktv[0:20]"  1 0 3 -28.391219992734481 5 11.351049320451473
 		 7 28.39100000000002 9 0 13 -28.391219992734481 17 11.351049320451473 21 28.391 29 0
 		 37 -28.391219992734481 45 11.351049320451473 53 22.659413530588655 61 0 69 -10.814354819873037
-		 77 5.2373570864127172 85 6.9930771808643355 93 0 101 -3.8538835870360542 109 2.3009082850596125
+		 77 5.2373570864127181 85 6.9930771808643355 93 0 101 -3.8538835870360542 109 2.3009082850596125
 		 117 1.8658788330072968 125 0;
 createNode animCurveTA -n "tail_rotateZ";
 	rename -uid "9D81201E-494C-822F-1863-75AE21F32D5F";
@@ -1047,7 +1048,7 @@ createNode animCurveTA -n "tailEnd_rotateY";
 	rename -uid "E8BD49F4-4C8C-EF64-A706-05B843EA8D50";
 	setAttr ".tan" 18;
 	setAttr -s 21 ".ktv[0:20]"  1 0 3 0 5 6.6016467691813441 7 0 9 0 13 0
-		 17 6.6016467691813441 21 0 29 0 37 0 45 6.6016467691813441 53 0 61 0 69 0 77 2.0163775936522814
+		 17 6.6016467691813441 21 0 29 0 37 0 45 6.6016467691813441 53 0 61 0 69 0 77 2.0163775936522819
 		 85 0 93 0 101 0 109 0.6025318744822683 117 0 125 0;
 createNode animCurveTA -n "tailEnd_rotateZ";
 	rename -uid "64A9134F-48F5-80EA-099F-F5B33C5C72C4";
@@ -1194,9 +1195,9 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\t\t$editorName = $panelName;\n            modelEditor -e \n                -camera \"side\" \n                -useInteractiveMode 0\n                -displayLights \"default\" \n                -displayAppearance \"smoothShaded\" \n                -activeOnly 0\n                -ignorePanZoom 0\n                -wireframeOnShaded 0\n                -headsUpDisplay 1\n                -holdOuts 1\n                -selectionHiliteDisplay 1\n                -useDefaultMaterial 0\n                -bufferMode \"double\" \n                -twoSidedLighting 0\n                -backfaceCulling 0\n                -xray 0\n                -jointXray 1\n                -activeComponentsXray 0\n                -displayTextures 0\n                -smoothWireframe 0\n                -lineWidth 1\n                -textureAnisotropic 0\n                -textureHilight 1\n                -textureSampling 2\n                -textureDisplay \"modulate\" \n                -textureMaxSize 16384\n                -fogging 0\n                -fogSource \"fragment\" \n                -fogMode \"linear\" \n"
 		+ "                -fogStart 0\n                -fogEnd 100\n                -fogDensity 0.1\n                -fogColor 0.5 0.5 0.5 1 \n                -depthOfFieldPreview 1\n                -maxConstantTransparency 1\n                -rendererName \"vp2Renderer\" \n                -objectFilterShowInHUD 1\n                -isFiltered 0\n                -colorResolution 256 256 \n                -bumpResolution 512 512 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 1\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 0\n"
 		+ "                -nurbsSurfaces 0\n                -polymeshes 1\n                -subdivSurfaces 0\n                -planes 0\n                -lights 0\n                -cameras 0\n                -controlVertices 0\n                -hulls 0\n                -grid 0\n                -imagePlane 0\n                -joints 0\n                -ikHandles 0\n                -deformers 0\n                -dynamics 0\n                -particleInstancers 0\n                -fluids 0\n                -hairSystems 0\n                -follicles 0\n                -nCloths 0\n                -nParticles 0\n                -nRigids 0\n                -dynamicConstraints 0\n                -locators 0\n                -manipulators 1\n                -pluginShapes 0\n                -dimensions 0\n                -handles 0\n                -pivots 0\n                -textures 0\n                -strokes 0\n                -motionTrails 0\n                -clipGhosts 0\n                -greasePencils 0\n                -shadows 0\n                -captureSequenceNumber -1\n"
-		+ "                -width 1273\n                -height 626\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n"
+		+ "                -width 860\n                -height 470\n                -sceneRenderFilter 0\n                $editorName;\n            modelEditor -e -viewSelected 0 $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n"
 		+ "            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n"
-		+ "            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 0\n            -nurbsSurfaces 0\n            -polymeshes 1\n            -subdivSurfaces 0\n            -planes 0\n            -lights 0\n            -cameras 0\n            -controlVertices 0\n            -hulls 0\n            -grid 0\n            -imagePlane 0\n            -joints 0\n            -ikHandles 0\n            -deformers 0\n            -dynamics 0\n            -particleInstancers 0\n            -fluids 0\n            -hairSystems 0\n            -follicles 0\n            -nCloths 0\n            -nParticles 0\n            -nRigids 0\n            -dynamicConstraints 0\n            -locators 0\n            -manipulators 1\n            -pluginShapes 0\n            -dimensions 0\n            -handles 0\n            -pivots 0\n            -textures 0\n            -strokes 0\n            -motionTrails 0\n            -clipGhosts 0\n            -greasePencils 0\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1273\n            -height 626\n"
+		+ "            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 0\n            -nurbsSurfaces 0\n            -polymeshes 1\n            -subdivSurfaces 0\n            -planes 0\n            -lights 0\n            -cameras 0\n            -controlVertices 0\n            -hulls 0\n            -grid 0\n            -imagePlane 0\n            -joints 0\n            -ikHandles 0\n            -deformers 0\n            -dynamics 0\n            -particleInstancers 0\n            -fluids 0\n            -hairSystems 0\n            -follicles 0\n            -nCloths 0\n            -nParticles 0\n            -nRigids 0\n            -dynamicConstraints 0\n            -locators 0\n            -manipulators 1\n            -pluginShapes 0\n            -dimensions 0\n            -handles 0\n            -pivots 0\n            -textures 0\n            -strokes 0\n            -motionTrails 0\n            -clipGhosts 0\n            -greasePencils 0\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 860\n            -height 470\n"
 		+ "            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" == $panelName) {\n\t\tif ($useSceneConfig) {\n\t\t\t$panelName = `outlinerPanel -unParent -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels `;\n\t\t\t$editorName = $panelName;\n            outlinerEditor -e \n                -showShapes 0\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 0\n                -showConnected 0\n                -showAnimCurvesOnly 0\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 1\n                -showAssets 1\n"
 		+ "                -showContainedOnly 1\n                -showPublishedAsConnected 0\n                -showContainerContents 1\n                -ignoreDagHierarchy 0\n                -expandConnections 0\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 0\n                -highlightActive 1\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"defaultSetFilter\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -isSet 0\n                -isSetMember 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n"
 		+ "                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 0\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                -renderFilterIndex 0\n                -selectionOrder \"chronological\" \n                -expandAttribute 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n"
@@ -1244,17 +1245,29 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\t\t}\n\t} else {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n"
 		+ "            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n"
 		+ "            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"side\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 0\\n    -polymeshes 1\\n    -subdivSurfaces 0\\n    -planes 0\\n    -lights 0\\n    -cameras 0\\n    -controlVertices 0\\n    -hulls 0\\n    -grid 0\\n    -imagePlane 0\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 0\\n    -particleInstancers 0\\n    -fluids 0\\n    -hairSystems 0\\n    -follicles 0\\n    -nCloths 0\\n    -nParticles 0\\n    -nRigids 0\\n    -dynamicConstraints 0\\n    -locators 0\\n    -manipulators 1\\n    -pluginShapes 0\\n    -dimensions 0\\n    -handles 0\\n    -pivots 0\\n    -textures 0\\n    -strokes 0\\n    -motionTrails 0\\n    -clipGhosts 0\\n    -greasePencils 0\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1273\\n    -height 626\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"side\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 0\\n    -polymeshes 1\\n    -subdivSurfaces 0\\n    -planes 0\\n    -lights 0\\n    -cameras 0\\n    -controlVertices 0\\n    -hulls 0\\n    -grid 0\\n    -imagePlane 0\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 0\\n    -particleInstancers 0\\n    -fluids 0\\n    -hairSystems 0\\n    -follicles 0\\n    -nCloths 0\\n    -nParticles 0\\n    -nRigids 0\\n    -dynamicConstraints 0\\n    -locators 0\\n    -manipulators 1\\n    -pluginShapes 0\\n    -dimensions 0\\n    -handles 0\\n    -pivots 0\\n    -textures 0\\n    -strokes 0\\n    -motionTrails 0\\n    -clipGhosts 0\\n    -greasePencils 0\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1273\\n    -height 626\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"side\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 0\\n    -polymeshes 1\\n    -subdivSurfaces 0\\n    -planes 0\\n    -lights 0\\n    -cameras 0\\n    -controlVertices 0\\n    -hulls 0\\n    -grid 0\\n    -imagePlane 0\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 0\\n    -particleInstancers 0\\n    -fluids 0\\n    -hairSystems 0\\n    -follicles 0\\n    -nCloths 0\\n    -nParticles 0\\n    -nRigids 0\\n    -dynamicConstraints 0\\n    -locators 0\\n    -manipulators 1\\n    -pluginShapes 0\\n    -dimensions 0\\n    -handles 0\\n    -pivots 0\\n    -textures 0\\n    -strokes 0\\n    -motionTrails 0\\n    -clipGhosts 0\\n    -greasePencils 0\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 860\\n    -height 470\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"side\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 0\\n    -polymeshes 1\\n    -subdivSurfaces 0\\n    -planes 0\\n    -lights 0\\n    -cameras 0\\n    -controlVertices 0\\n    -hulls 0\\n    -grid 0\\n    -imagePlane 0\\n    -joints 0\\n    -ikHandles 0\\n    -deformers 0\\n    -dynamics 0\\n    -particleInstancers 0\\n    -fluids 0\\n    -hairSystems 0\\n    -follicles 0\\n    -nCloths 0\\n    -nParticles 0\\n    -nRigids 0\\n    -dynamicConstraints 0\\n    -locators 0\\n    -manipulators 1\\n    -pluginShapes 0\\n    -dimensions 0\\n    -handles 0\\n    -pivots 0\\n    -textures 0\\n    -strokes 0\\n    -motionTrails 0\\n    -clipGhosts 0\\n    -greasePencils 0\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 860\\n    -height 470\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        setFocus `paneLayout -q -p1 $gMainPane`;\n        sceneUIReplacement -deleteRemaining;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "A4E5407D-4F88-3B34-5FEA-94B15643BB8A";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 125 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
+createNode objectSet -s -n "lightEditorRoot";
+	rename -uid "84559B0C-4013-47E7-2B48-49B1273EA14D";
+	addAttr -ci true -sn "isolate" -ln "isolate" -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
+	addAttr -ci true -sn "lightGroup" -ln "lightGroup" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "visibility" -ln "visibility" -dv 1 -min 0 -max 1 -at "bool";
+lockNode -l 1 ;
+createNode reference -n "sharedReferenceNode";
+	rename -uid "3E36FD85-4119-5998-6187-6C8EF0E7A1C7";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"sharedReferenceNode";
 select -ne :time1;
-	setAttr ".o" 53;
-	setAttr ".unw" 53;
+	setAttr ".o" 1;
+	setAttr ".unw" 1;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -1271,9 +1284,7 @@ select -ne :postProcessList1;
 select -ne :defaultRenderingList1;
 	setAttr -s 2 ".r";
 select -ne :initialShadingGroup;
-	setAttr -s 24 ".dsm";
 	setAttr ".ro" yes;
-	setAttr -s 24 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :defaultResolution;
@@ -1281,6 +1292,8 @@ select -ne :defaultResolution;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
+select -ne :ikSystem;
+	setAttr -s 4 ".sol";
 connectAttr "fishRootHead_scaleX.o" "alexa_fish_finished_002RN.phl[1]";
 connectAttr "fishRootHead_scaleY.o" "alexa_fish_finished_002RN.phl[2]";
 connectAttr "fishRootHead_scaleZ.o" "alexa_fish_finished_002RN.phl[3]";
@@ -1294,23 +1307,23 @@ connectAttr "fishRootHead_rotateZ.o" "alexa_fish_finished_002RN.phl[10]";
 connectAttr "spine1_scaleX.o" "alexa_fish_finished_002RN.phl[11]";
 connectAttr "spine1_scaleY.o" "alexa_fish_finished_002RN.phl[12]";
 connectAttr "spine1_scaleZ.o" "alexa_fish_finished_002RN.phl[13]";
-connectAttr "spine1_rotateX.o" "alexa_fish_finished_002RN.phl[14]";
-connectAttr "spine1_rotateY.o" "alexa_fish_finished_002RN.phl[15]";
-connectAttr "spine1_rotateZ.o" "alexa_fish_finished_002RN.phl[16]";
-connectAttr "spine1_visibility.o" "alexa_fish_finished_002RN.phl[17]";
-connectAttr "spine1_translateX.o" "alexa_fish_finished_002RN.phl[18]";
-connectAttr "spine1_translateY.o" "alexa_fish_finished_002RN.phl[19]";
-connectAttr "spine1_translateZ.o" "alexa_fish_finished_002RN.phl[20]";
+connectAttr "spine1_translateX.o" "alexa_fish_finished_002RN.phl[14]";
+connectAttr "spine1_translateY.o" "alexa_fish_finished_002RN.phl[15]";
+connectAttr "spine1_translateZ.o" "alexa_fish_finished_002RN.phl[16]";
+connectAttr "spine1_rotateX.o" "alexa_fish_finished_002RN.phl[17]";
+connectAttr "spine1_rotateY.o" "alexa_fish_finished_002RN.phl[18]";
+connectAttr "spine1_rotateZ.o" "alexa_fish_finished_002RN.phl[19]";
+connectAttr "spine1_visibility.o" "alexa_fish_finished_002RN.phl[20]";
 connectAttr "spine2_scaleX.o" "alexa_fish_finished_002RN.phl[21]";
 connectAttr "spine2_scaleY.o" "alexa_fish_finished_002RN.phl[22]";
 connectAttr "spine2_scaleZ.o" "alexa_fish_finished_002RN.phl[23]";
-connectAttr "spine2_rotateX.o" "alexa_fish_finished_002RN.phl[24]";
-connectAttr "spine2_rotateY.o" "alexa_fish_finished_002RN.phl[25]";
-connectAttr "spine2_rotateZ.o" "alexa_fish_finished_002RN.phl[26]";
-connectAttr "spine2_visibility.o" "alexa_fish_finished_002RN.phl[27]";
-connectAttr "spine2_translateX.o" "alexa_fish_finished_002RN.phl[28]";
-connectAttr "spine2_translateY.o" "alexa_fish_finished_002RN.phl[29]";
-connectAttr "spine2_translateZ.o" "alexa_fish_finished_002RN.phl[30]";
+connectAttr "spine2_translateX.o" "alexa_fish_finished_002RN.phl[24]";
+connectAttr "spine2_translateY.o" "alexa_fish_finished_002RN.phl[25]";
+connectAttr "spine2_translateZ.o" "alexa_fish_finished_002RN.phl[26]";
+connectAttr "spine2_rotateX.o" "alexa_fish_finished_002RN.phl[27]";
+connectAttr "spine2_rotateY.o" "alexa_fish_finished_002RN.phl[28]";
+connectAttr "spine2_rotateZ.o" "alexa_fish_finished_002RN.phl[29]";
+connectAttr "spine2_visibility.o" "alexa_fish_finished_002RN.phl[30]";
 connectAttr "spine3_scaleX.o" "alexa_fish_finished_002RN.phl[31]";
 connectAttr "spine3_scaleY.o" "alexa_fish_finished_002RN.phl[32]";
 connectAttr "spine3_scaleZ.o" "alexa_fish_finished_002RN.phl[33]";
@@ -1324,40 +1337,40 @@ connectAttr "spine3_rotateZ.o" "alexa_fish_finished_002RN.phl[40]";
 connectAttr "tailBase_scaleX.o" "alexa_fish_finished_002RN.phl[41]";
 connectAttr "tailBase_scaleY.o" "alexa_fish_finished_002RN.phl[42]";
 connectAttr "tailBase_scaleZ.o" "alexa_fish_finished_002RN.phl[43]";
-connectAttr "tailBase_rotateX.o" "alexa_fish_finished_002RN.phl[44]";
-connectAttr "tailBase_rotateY.o" "alexa_fish_finished_002RN.phl[45]";
-connectAttr "tailBase_rotateZ.o" "alexa_fish_finished_002RN.phl[46]";
-connectAttr "tailBase_visibility.o" "alexa_fish_finished_002RN.phl[47]";
-connectAttr "tailBase_translateX.o" "alexa_fish_finished_002RN.phl[48]";
-connectAttr "tailBase_translateY.o" "alexa_fish_finished_002RN.phl[49]";
-connectAttr "tailBase_translateZ.o" "alexa_fish_finished_002RN.phl[50]";
+connectAttr "tailBase_translateX.o" "alexa_fish_finished_002RN.phl[44]";
+connectAttr "tailBase_translateY.o" "alexa_fish_finished_002RN.phl[45]";
+connectAttr "tailBase_translateZ.o" "alexa_fish_finished_002RN.phl[46]";
+connectAttr "tailBase_rotateX.o" "alexa_fish_finished_002RN.phl[47]";
+connectAttr "tailBase_rotateY.o" "alexa_fish_finished_002RN.phl[48]";
+connectAttr "tailBase_rotateZ.o" "alexa_fish_finished_002RN.phl[49]";
+connectAttr "tailBase_visibility.o" "alexa_fish_finished_002RN.phl[50]";
 connectAttr "tail_scaleX.o" "alexa_fish_finished_002RN.phl[51]";
 connectAttr "tail_scaleY.o" "alexa_fish_finished_002RN.phl[52]";
 connectAttr "tail_scaleZ.o" "alexa_fish_finished_002RN.phl[53]";
-connectAttr "tail_rotateX.o" "alexa_fish_finished_002RN.phl[54]";
-connectAttr "tail_rotateY.o" "alexa_fish_finished_002RN.phl[55]";
-connectAttr "tail_rotateZ.o" "alexa_fish_finished_002RN.phl[56]";
-connectAttr "tail_visibility.o" "alexa_fish_finished_002RN.phl[57]";
-connectAttr "tail_translateX.o" "alexa_fish_finished_002RN.phl[58]";
-connectAttr "tail_translateY.o" "alexa_fish_finished_002RN.phl[59]";
-connectAttr "tail_translateZ.o" "alexa_fish_finished_002RN.phl[60]";
-connectAttr "tailEnd_rotateX.o" "alexa_fish_finished_002RN.phl[61]";
-connectAttr "tailEnd_rotateY.o" "alexa_fish_finished_002RN.phl[62]";
-connectAttr "tailEnd_rotateZ.o" "alexa_fish_finished_002RN.phl[63]";
-connectAttr "tailEnd_visibility.o" "alexa_fish_finished_002RN.phl[64]";
-connectAttr "tailEnd_translateX.o" "alexa_fish_finished_002RN.phl[65]";
-connectAttr "tailEnd_translateY.o" "alexa_fish_finished_002RN.phl[66]";
-connectAttr "tailEnd_translateZ.o" "alexa_fish_finished_002RN.phl[67]";
+connectAttr "tail_translateX.o" "alexa_fish_finished_002RN.phl[54]";
+connectAttr "tail_translateY.o" "alexa_fish_finished_002RN.phl[55]";
+connectAttr "tail_translateZ.o" "alexa_fish_finished_002RN.phl[56]";
+connectAttr "tail_rotateX.o" "alexa_fish_finished_002RN.phl[57]";
+connectAttr "tail_rotateY.o" "alexa_fish_finished_002RN.phl[58]";
+connectAttr "tail_rotateZ.o" "alexa_fish_finished_002RN.phl[59]";
+connectAttr "tail_visibility.o" "alexa_fish_finished_002RN.phl[60]";
+connectAttr "tailEnd_translateX.o" "alexa_fish_finished_002RN.phl[61]";
+connectAttr "tailEnd_translateY.o" "alexa_fish_finished_002RN.phl[62]";
+connectAttr "tailEnd_translateZ.o" "alexa_fish_finished_002RN.phl[63]";
+connectAttr "tailEnd_rotateX.o" "alexa_fish_finished_002RN.phl[64]";
+connectAttr "tailEnd_rotateY.o" "alexa_fish_finished_002RN.phl[65]";
+connectAttr "tailEnd_rotateZ.o" "alexa_fish_finished_002RN.phl[66]";
+connectAttr "tailEnd_visibility.o" "alexa_fish_finished_002RN.phl[67]";
 connectAttr "tailEnd_scaleX.o" "alexa_fish_finished_002RN.phl[68]";
 connectAttr "tailEnd_scaleY.o" "alexa_fish_finished_002RN.phl[69]";
 connectAttr "tailEnd_scaleZ.o" "alexa_fish_finished_002RN.phl[70]";
-connectAttr "finR_rotateX.o" "alexa_fish_finished_002RN.phl[71]";
-connectAttr "finR_rotateY.o" "alexa_fish_finished_002RN.phl[72]";
-connectAttr "finR_rotateZ.o" "alexa_fish_finished_002RN.phl[73]";
-connectAttr "finR_visibility.o" "alexa_fish_finished_002RN.phl[74]";
-connectAttr "finR_translateX.o" "alexa_fish_finished_002RN.phl[75]";
-connectAttr "finR_translateY.o" "alexa_fish_finished_002RN.phl[76]";
-connectAttr "finR_translateZ.o" "alexa_fish_finished_002RN.phl[77]";
+connectAttr "finR_translateX.o" "alexa_fish_finished_002RN.phl[71]";
+connectAttr "finR_translateY.o" "alexa_fish_finished_002RN.phl[72]";
+connectAttr "finR_translateZ.o" "alexa_fish_finished_002RN.phl[73]";
+connectAttr "finR_rotateX.o" "alexa_fish_finished_002RN.phl[74]";
+connectAttr "finR_rotateY.o" "alexa_fish_finished_002RN.phl[75]";
+connectAttr "finR_rotateZ.o" "alexa_fish_finished_002RN.phl[76]";
+connectAttr "finR_visibility.o" "alexa_fish_finished_002RN.phl[77]";
 connectAttr "finR_scaleX.o" "alexa_fish_finished_002RN.phl[78]";
 connectAttr "finR_scaleY.o" "alexa_fish_finished_002RN.phl[79]";
 connectAttr "finR_scaleZ.o" "alexa_fish_finished_002RN.phl[80]";
@@ -1387,5 +1400,6 @@ relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defau
 relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
+connectAttr "sharedReferenceNode.sr" "alexa_fish_finished_002RN.sr";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 // End of alexa_fish_Death.ma
