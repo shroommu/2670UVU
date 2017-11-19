@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 442}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 442}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 392}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 1
-  controlID: 22
+  controlID: 70
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 271}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 23
+  controlID: 71
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -373,9 +373,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -75.21588, y: -173.9125, z: -248.97461}
+    m_Target: {x: 180.64673, y: 0.080646515, z: 7.4894104}
     speed: 2
-    m_Value: {x: -75.21588, y: -173.9125, z: -248.97461}
+    m_Value: {x: 180.64673, y: 0.080646515, z: 7.4894104}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -398,13 +398,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.21061416, y: 0.6882818, z: -0.20984647, w: -0.6617888}
+    m_Target: {x: -0.0751107, y: 0.17959185, z: -0.007516667, w: -0.9808969}
     speed: 2
-    m_Value: {x: -0.21060467, y: 0.6882508, z: -0.209837, w: -0.661759}
+    m_Value: {x: -0.075106576, y: 0.17958198, z: -0.0075162537, w: -0.980843}
   m_Size:
-    m_Target: 1073.0253
+    m_Target: 255.54338
     speed: 2
-    m_Value: 1073.0253
+    m_Value: 255.54338
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -512,10 +512,10 @@ MonoBehaviour:
     width: 202
     height: 547
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a20ffff
-    m_LastClickedID: -57206
-    m_ExpandedIDs: e2fbffff00000000983a0000a44c0000
+    scrollPos: {x: 0, y: 2720}
+    m_SelectedIDs: f6290000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0094ffffe2fbffff00000000d030000028330000b03b0000fe4400004c480000d0490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,19 +576,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Maya
+    - Assets/Meshes/Terrain
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Maya
+  - Assets/Meshes/Terrain
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Alexa\Documents\Github\2670UVU\Scripting2670
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 62530000
-    m_LastClickedID: 21346
-    m_ExpandedIDs: 000000004a290000ae290000022a0000902a0000a02a0000122c00007c2c0000862c00006253000000ca9a3bffffff7f
+    m_SelectedIDs: 38560000
+    m_LastClickedID: 22072
+    m_ExpandedIDs: 0000000064290000d62900002c2a0000542b0000502c0000c62c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,7 +616,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004a290000ae290000022a0000902a0000a02a0000122c00007c2c0000862c0000
+    m_ExpandedIDs: 0000000064290000d62900002c2a0000ba2a0000ca2a0000dc2a0000502c0000bc2c0000c62c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
