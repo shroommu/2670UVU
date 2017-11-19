@@ -111,6 +111,7 @@
      <Compile Include="Assets\Scripts\PlayerPrefs\ViewGetSetData.cs" />
      <Compile Include="Assets\Scripts\Store\ForPurchase.cs" />
      <Compile Include="Assets\Scripts\Store\UpdateGold.cs" />
+     <None Include="Assets\Animations\Player (Little Boy)\Walk Run Jump Fall Swim\gameanimationssequence.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

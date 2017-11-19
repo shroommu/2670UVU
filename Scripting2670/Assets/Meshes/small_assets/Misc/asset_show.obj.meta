@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 342d498ed58507b4fac3dcf3225ce975
+timeCreated: 1511112969
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: berry:berry
+    100004: Fallen_Log:pCube1
+    100006: fish:pPlane19
+    100008: fish:pSphere3
+    100010: fruit:fruit
+    100012: Hanuman_Statue1:Hanuman
+    100014: Hanuman_Statue1:Headdress
+    100016: Hanuman_Statue1:OfferingPlate
+    100018: lever_001:pCube3
+    100020: pCube4
+    100022: pCube5
+    100024: Powerup_Pedestal:pCube24
+    100026: Pushable_Rock:pCube1
+    100028: spear:spear
+    400000: //RootNode
+    400002: berry:berry
+    400004: Fallen_Log:pCube1
+    400006: fish:pPlane19
+    400008: fish:pSphere3
+    400010: fruit:fruit
+    400012: Hanuman_Statue1:Hanuman
+    400014: Hanuman_Statue1:Headdress
+    400016: Hanuman_Statue1:OfferingPlate
+    400018: lever_001:pCube3
+    400020: pCube4
+    400022: pCube5
+    400024: Powerup_Pedestal:pCube24
+    400026: Pushable_Rock:pCube1
+    400028: spear:spear
+    2300000: berry:berry
+    2300002: Fallen_Log:pCube1
+    2300004: fish:pPlane19
+    2300006: fish:pSphere3
+    2300008: fruit:fruit
+    2300010: Hanuman_Statue1:Hanuman
+    2300012: Hanuman_Statue1:Headdress
+    2300014: Hanuman_Statue1:OfferingPlate
+    2300016: lever_001:pCube3
+    2300018: pCube4
+    2300020: pCube5
+    2300022: Powerup_Pedestal:pCube24
+    2300024: Pushable_Rock:pCube1
+    2300026: spear:spear
+    3300000: berry:berry
+    3300002: Fallen_Log:pCube1
+    3300004: fish:pPlane19
+    3300006: fish:pSphere3
+    3300008: fruit:fruit
+    3300010: Hanuman_Statue1:Hanuman
+    3300012: Hanuman_Statue1:Headdress
+    3300014: Hanuman_Statue1:OfferingPlate
+    3300016: lever_001:pCube3
+    3300018: pCube4
+    3300020: pCube5
+    3300022: Powerup_Pedestal:pCube24
+    3300024: Pushable_Rock:pCube1
+    3300026: spear:spear
+    4300000: berry:berry
+    4300002: Fallen_Log:pCube1
+    4300004: fish:pPlane19
+    4300006: fish:pSphere3
+    4300008: fruit:fruit
+    4300010: Hanuman_Statue1:Hanuman
+    4300012: Hanuman_Statue1:Headdress
+    4300014: Hanuman_Statue1:OfferingPlate
+    4300016: lever_001:pCube3
+    4300018: pCube4
+    4300020: pCube5
+    4300022: Powerup_Pedestal:pCube24
+    4300024: Pushable_Rock:pCube1
+    4300026: spear:spear
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
