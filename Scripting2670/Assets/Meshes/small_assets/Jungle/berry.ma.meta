@@ -30,7 +30,9 @@ ModelImporter:
     400020: transform4
     400022: transform5
     2300000: berry
+    2300002: //RootNode
     3300000: berry
+    3300002: //RootNode
     4300000: berry
     9500000: //RootNode
   materials:

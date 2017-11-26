@@ -27,6 +27,7 @@ ModelImporter:
     100038: transform7
     100040: transform8
     100042: transform9
+    100044: roundedBlock
     400000: pCube1
     400002: pCube2
     400004: pCube3
@@ -49,9 +50,13 @@ ModelImporter:
     400038: transform7
     400040: transform8
     400042: transform9
+    400044: roundedBlock
     2300000: pCube9
+    2300002: roundedBlock
     3300000: pCube9
+    3300002: roundedBlock
     4300000: pCube9
+    4300002: roundedBlock
     9500000: //RootNode
   materials:
     importMaterials: 1

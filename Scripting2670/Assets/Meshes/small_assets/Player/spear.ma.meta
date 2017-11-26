@@ -34,7 +34,9 @@ ModelImporter:
     400024: transform5
     400026: transform6
     2300000: spear
+    2300002: //RootNode
     3300000: spear
+    3300002: //RootNode
     4300000: spear
     9500000: //RootNode
   materials:
