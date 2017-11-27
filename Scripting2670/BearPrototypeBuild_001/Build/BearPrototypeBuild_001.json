@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "BearPrototypeBuild_001.data.unityweb",
+"asmCodeUrl": "BearPrototypeBuild_001.asm.code.unityweb",
+"asmMemoryUrl": "BearPrototypeBuild_001.asm.memory.unityweb",
+"asmFrameworkUrl": "BearPrototypeBuild_001.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
