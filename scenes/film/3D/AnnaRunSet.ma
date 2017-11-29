@@ -1,281 +1,285 @@
 //Maya ASCII 2017ff05 scene
 //Name: AnnaRunSet.ma
-//Last modified: Wed, Nov 29, 2017 04:33:21 PM
+//Last modified: Wed, Nov 29, 2017 04:56:10 PM
 //Codeset: 1252
-file -rdi 1 -ns "Bamboo_DE" -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE1" -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE2" -rfn "Bamboo_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE3" -rfn "Bamboo_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE4" -rfn "Bamboo_DE3RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE5" -rfn "Bamboo_DERN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE6" -rfn "Bamboo_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE7" -rfn "Bamboo_DE2RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE8" -rfn "Bamboo_DE4RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE9" -rfn "Bamboo_DE8RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE10" -rfn "Bamboo_DE7RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE11" -rfn "Bamboo_DE6RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE12" -rfn "Bamboo_DE5RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE13" -rfn "Bamboo_DE4RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE14" -rfn "Bamboo_DE3RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE15" -rfn "Bamboo_DE2RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE16" -rfn "Bamboo_DERN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE17" -rfn "Bamboo_DE1RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Fern_DE" -rfn "Fern_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE1" -rfn "Fern_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Bamboo_DE18" -rfn "Bamboo_DE16RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE19" -rfn "Bamboo_DE11RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE20" -rfn "Bamboo_DE13RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE21" -rfn "Bamboo_DE12RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE22" -rfn "Bamboo_DE4RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE23" -rfn "Bamboo_DE3RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE24" -rfn "Bamboo_DE8RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE25" -rfn "Bamboo_DE7RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE26" -rfn "Bamboo_DE6RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE27" -rfn "Bamboo_DE5RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE28" -rfn "Bamboo_DE2RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE29" -rfn "Bamboo_DE1RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE30" -rfn "Bamboo_DERN5" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE31" -rfn "Bamboo_DE29RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE32" -rfn "Bamboo_DE28RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE33" -rfn "Bamboo_DE27RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE34" -rfn "Bamboo_DE26RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE35" -rfn "Bamboo_DE22RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE36" -rfn "Bamboo_DE21RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE37" -rfn "Bamboo_DE20RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE38" -rfn "Bamboo_DE24RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE39" -rfn "Bamboo_DE23RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE40" -rfn "Bamboo_DE19RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Fern_DE2" -rfn "Fern_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE3" -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Bamboo_DE41" -rfn "Bamboo_DE38RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE42" -rfn "Bamboo_DE37RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE43" -rfn "Bamboo_DE36RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE44" -rfn "Bamboo_DE40RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE45" -rfn "Bamboo_DE39RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE46" -rfn "Bamboo_DE35RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE47" -rfn "Bamboo_DE34RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE48" -rfn "Bamboo_DE33RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE49" -rfn "Bamboo_DE32RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE50" -rfn "Bamboo_DE28RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE51" -rfn "Bamboo_DE27RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE52" -rfn "Bamboo_DE26RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE53" -rfn "Bamboo_DE31RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE54" -rfn "Bamboo_DE30RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE55" -rfn "Bamboo_DE29RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE56" -rfn "Bamboo_DE25RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE57" -rfn "Bamboo_DE24RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE58" -rfn "Bamboo_DE23RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE59" -rfn "Bamboo_DE22RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE60" -rfn "Bamboo_DE21RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE61" -rfn "Bamboo_DE20RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE62" -rfn "Bamboo_DE17RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE63" -rfn "Bamboo_DE16RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE64" -rfn "Bamboo_DE19RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE65" -rfn "Bamboo_DE18RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE66" -rfn "Bamboo_DE15RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE67" -rfn "Bamboo_DE14RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE68" -rfn "Bamboo_DE13RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE69" -rfn "Bamboo_DE12RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE70" -rfn "Bamboo_DE9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE71" -rfn "Bamboo_DE5RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE72" -rfn "Bamboo_DE4RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE73" -rfn "Bamboo_DE8RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE74" -rfn "Bamboo_DE7RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE75" -rfn "Bamboo_DE6RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE76" -rfn "Bamboo_DE2RN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE77" -rfn "Bamboo_DE1RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE78" -rfn "Bamboo_DERN6" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE79" -rfn "Bamboo_DE67RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE80" -rfn "Bamboo_DE62RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE81" -rfn "Bamboo_DE57RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE82" -rfn "Bamboo_DE61RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE83" -rfn "Bamboo_DE59RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE84" -rfn "Bamboo_DE50RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE85" -rfn "Bamboo_DE53RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE86" -rfn "Bamboo_DE47RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE87" -rfn "Bamboo_DE67RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE88" -rfn "Bamboo_DE57RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE89" -rfn "Bamboo_DE61RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE90" -rfn "Bamboo_DE59RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE91" -rfn "Bamboo_DE50RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE92" -rfn "Bamboo_DE53RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE93" -rfn "Bamboo_DE79RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE94" -rfn "Bamboo_DE84RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE95" -rfn "Bamboo_DE83RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE96" -rfn "Bamboo_DE82RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE97" -rfn "Bamboo_DE86RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE98" -rfn "Bamboo_DE85RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE99" -rfn "Bamboo_DE81RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Bamboo_DE100" -rfn "Bamboo_DE80RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -rdi 1 -ns "Fern_DE4" -rfn "Fern_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "Bamboo_DE" -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE1" -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE2" -rfn "Bamboo_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE3" -rfn "Bamboo_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE4" -rfn "Bamboo_DE3RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE5" -rfn "Bamboo_DERN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE6" -rfn "Bamboo_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE7" -rfn "Bamboo_DE2RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE8" -rfn "Bamboo_DE4RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE9" -rfn "Bamboo_DE8RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE10" -rfn "Bamboo_DE7RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE11" -rfn "Bamboo_DE6RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE12" -rfn "Bamboo_DE5RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE13" -rfn "Bamboo_DE4RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE14" -rfn "Bamboo_DE3RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE15" -rfn "Bamboo_DE2RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE16" -rfn "Bamboo_DERN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE17" -rfn "Bamboo_DE1RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Fern_DE" -rfn "Fern_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "Fern_DE1" -rfn "Fern_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "Bamboo_DE18" -rfn "Bamboo_DE16RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE19" -rfn "Bamboo_DE11RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE20" -rfn "Bamboo_DE13RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE21" -rfn "Bamboo_DE12RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE22" -rfn "Bamboo_DE4RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE23" -rfn "Bamboo_DE3RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE24" -rfn "Bamboo_DE8RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE25" -rfn "Bamboo_DE7RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE26" -rfn "Bamboo_DE6RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE27" -rfn "Bamboo_DE5RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE28" -rfn "Bamboo_DE2RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE29" -rfn "Bamboo_DE1RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE30" -rfn "Bamboo_DERN5" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE31" -rfn "Bamboo_DE29RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE32" -rfn "Bamboo_DE28RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE33" -rfn "Bamboo_DE27RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE34" -rfn "Bamboo_DE26RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE35" -rfn "Bamboo_DE22RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE36" -rfn "Bamboo_DE21RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE37" -rfn "Bamboo_DE20RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE38" -rfn "Bamboo_DE24RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE39" -rfn "Bamboo_DE23RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE40" -rfn "Bamboo_DE19RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Fern_DE2" -rfn "Fern_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "Fern_DE3" -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "Bamboo_DE41" -rfn "Bamboo_DE38RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE42" -rfn "Bamboo_DE37RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE43" -rfn "Bamboo_DE36RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE44" -rfn "Bamboo_DE40RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE45" -rfn "Bamboo_DE39RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE46" -rfn "Bamboo_DE35RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE47" -rfn "Bamboo_DE34RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE48" -rfn "Bamboo_DE33RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE49" -rfn "Bamboo_DE32RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE50" -rfn "Bamboo_DE28RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE51" -rfn "Bamboo_DE27RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE52" -rfn "Bamboo_DE26RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE53" -rfn "Bamboo_DE31RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE54" -rfn "Bamboo_DE30RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE55" -rfn "Bamboo_DE29RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE56" -rfn "Bamboo_DE25RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE57" -rfn "Bamboo_DE24RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE58" -rfn "Bamboo_DE23RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE59" -rfn "Bamboo_DE22RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE60" -rfn "Bamboo_DE21RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE61" -rfn "Bamboo_DE20RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE62" -rfn "Bamboo_DE17RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE63" -rfn "Bamboo_DE16RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE64" -rfn "Bamboo_DE19RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE65" -rfn "Bamboo_DE18RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE66" -rfn "Bamboo_DE15RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE67" -rfn "Bamboo_DE14RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE68" -rfn "Bamboo_DE13RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE69" -rfn "Bamboo_DE12RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE70" -rfn "Bamboo_DE9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE71" -rfn "Bamboo_DE5RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE72" -rfn "Bamboo_DE4RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE73" -rfn "Bamboo_DE8RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE74" -rfn "Bamboo_DE7RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE75" -rfn "Bamboo_DE6RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE76" -rfn "Bamboo_DE2RN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE77" -rfn "Bamboo_DE1RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE78" -rfn "Bamboo_DERN6" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE79" -rfn "Bamboo_DE67RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE80" -rfn "Bamboo_DE62RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE81" -rfn "Bamboo_DE57RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE82" -rfn "Bamboo_DE61RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE83" -rfn "Bamboo_DE59RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE84" -rfn "Bamboo_DE50RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE85" -rfn "Bamboo_DE53RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE86" -rfn "Bamboo_DE47RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE87" -rfn "Bamboo_DE67RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE88" -rfn "Bamboo_DE57RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE89" -rfn "Bamboo_DE61RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE90" -rfn "Bamboo_DE59RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE91" -rfn "Bamboo_DE50RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE92" -rfn "Bamboo_DE53RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE93" -rfn "Bamboo_DE79RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE94" -rfn "Bamboo_DE84RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE95" -rfn "Bamboo_DE83RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE96" -rfn "Bamboo_DE82RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE97" -rfn "Bamboo_DE86RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE98" -rfn "Bamboo_DE85RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE99" -rfn "Bamboo_DE81RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE100" -rfn "Bamboo_DE80RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Fern_DE4" -rfn "Fern_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -rdi 1 -ns "boulder2_model_JonathanFranklin" -rfn "boulder2_model_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/boulder2_model_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/boulder2_model_JonathanFranklin.ma";
 file -rdi 1 -ns "Rock_JonathanFranklin" -rfn "Rock_JonathanFranklinRN" -op "v=0;"
-		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/Rock_JonathanFranklin.ma";
+		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/Rock_JonathanFranklin.ma";
 file -rdi 1 -ns "boulder1_model_JonathanFranklin" -rfn "boulder1_model_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/boulder1_model_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/boulder1_model_JonathanFranklin.ma";
 file -rdi 1 -ns "FallenTrunk_DE" -rfn "FallenTrunk_DERN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
 file -rdi 1 -ns "MushroomBunch1" -rfn "MushroomBunch1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Mon, Nov 06, 2017 05:28:46 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
-file -rdi 1 -ns "Grass_DE" -rfn "Grass_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
+file -rdi 1 -ns "Grass_DE" -rfn "Grass_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
 file -rdi 1 -ns "BigFallenLog_JonathanFranklin" -rfn "BigFallenLog_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
 file -rdi 1 -ns "SwampTallTreeNoLeaves_JonathanFranklin" -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
 file -rdi 1 -ns "SwampTallTreeNoLeaves_JonathanFranklin1" -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN1"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
 file -rdi 1 -ns "BananaTree_SC" -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
 file -rdi 1 -ns "AnotherRock_JonathanFranklin" -rfn "AnotherRock_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -rdi 1 -ns "Mushroom" -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -rdi 1 -ns "Mushroom" -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
 file -rdi 1 -ns "Mushroom1" -rfn "Mushroom1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:34 PM|ICON|undef|INFO|undef|OBJN|165|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
 file -rdi 1 -ns "Mushroom2" -rfn "Mushroom2RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:30 PM|ICON|undef|INFO|undef|OBJN|173|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
-file -rdi 1 -ns "Mushroom3" -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
+file -rdi 1 -ns "Mushroom3" -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
 file -rdi 1 -ns "AddisonM_Rock2" -rfn "AddisonM_Rock2RN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -rdi 1 -ns "AnotherRock_JonathanFranklin1" -rfn "AnotherRock_JonathanFranklinRN1"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -r -ns "Bamboo_DE" -dr 1 -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE1" -dr 1 -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE2" -dr 1 -rfn "Bamboo_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE3" -dr 1 -rfn "Bamboo_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE4" -dr 1 -rfn "Bamboo_DE3RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE5" -dr 1 -rfn "Bamboo_DERN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE6" -dr 1 -rfn "Bamboo_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE7" -dr 1 -rfn "Bamboo_DE2RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE8" -dr 1 -rfn "Bamboo_DE4RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE9" -dr 1 -rfn "Bamboo_DE8RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE10" -dr 1 -rfn "Bamboo_DE7RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE11" -dr 1 -rfn "Bamboo_DE6RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE12" -dr 1 -rfn "Bamboo_DE5RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE13" -dr 1 -rfn "Bamboo_DE4RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE14" -dr 1 -rfn "Bamboo_DE3RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE15" -dr 1 -rfn "Bamboo_DE2RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE16" -dr 1 -rfn "Bamboo_DERN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE17" -dr 1 -rfn "Bamboo_DE1RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Fern_DE" -dr 1 -rfn "Fern_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE1" -dr 1 -rfn "Fern_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Bamboo_DE18" -dr 1 -rfn "Bamboo_DE16RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE19" -dr 1 -rfn "Bamboo_DE11RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE20" -dr 1 -rfn "Bamboo_DE13RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE21" -dr 1 -rfn "Bamboo_DE12RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE22" -dr 1 -rfn "Bamboo_DE4RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE23" -dr 1 -rfn "Bamboo_DE3RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE24" -dr 1 -rfn "Bamboo_DE8RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE25" -dr 1 -rfn "Bamboo_DE7RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE26" -dr 1 -rfn "Bamboo_DE6RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE27" -dr 1 -rfn "Bamboo_DE5RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE28" -dr 1 -rfn "Bamboo_DE2RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE29" -dr 1 -rfn "Bamboo_DE1RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE30" -dr 1 -rfn "Bamboo_DERN5" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE31" -dr 1 -rfn "Bamboo_DE29RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE32" -dr 1 -rfn "Bamboo_DE28RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE33" -dr 1 -rfn "Bamboo_DE27RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE34" -dr 1 -rfn "Bamboo_DE26RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE35" -dr 1 -rfn "Bamboo_DE22RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE36" -dr 1 -rfn "Bamboo_DE21RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE37" -dr 1 -rfn "Bamboo_DE20RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE38" -dr 1 -rfn "Bamboo_DE24RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE39" -dr 1 -rfn "Bamboo_DE23RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE40" -dr 1 -rfn "Bamboo_DE19RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Fern_DE2" -dr 1 -rfn "Fern_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE3" -dr 1 -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Bamboo_DE41" -dr 1 -rfn "Bamboo_DE38RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE42" -dr 1 -rfn "Bamboo_DE37RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE43" -dr 1 -rfn "Bamboo_DE36RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE44" -dr 1 -rfn "Bamboo_DE40RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE45" -dr 1 -rfn "Bamboo_DE39RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE46" -dr 1 -rfn "Bamboo_DE35RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE47" -dr 1 -rfn "Bamboo_DE34RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE48" -dr 1 -rfn "Bamboo_DE33RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE49" -dr 1 -rfn "Bamboo_DE32RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE50" -dr 1 -rfn "Bamboo_DE28RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE51" -dr 1 -rfn "Bamboo_DE27RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE52" -dr 1 -rfn "Bamboo_DE26RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE53" -dr 1 -rfn "Bamboo_DE31RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE54" -dr 1 -rfn "Bamboo_DE30RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE55" -dr 1 -rfn "Bamboo_DE29RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE56" -dr 1 -rfn "Bamboo_DE25RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE57" -dr 1 -rfn "Bamboo_DE24RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE58" -dr 1 -rfn "Bamboo_DE23RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE59" -dr 1 -rfn "Bamboo_DE22RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE60" -dr 1 -rfn "Bamboo_DE21RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE61" -dr 1 -rfn "Bamboo_DE20RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE62" -dr 1 -rfn "Bamboo_DE17RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE63" -dr 1 -rfn "Bamboo_DE16RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE64" -dr 1 -rfn "Bamboo_DE19RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE65" -dr 1 -rfn "Bamboo_DE18RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE66" -dr 1 -rfn "Bamboo_DE15RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE67" -dr 1 -rfn "Bamboo_DE14RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE68" -dr 1 -rfn "Bamboo_DE13RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE69" -dr 1 -rfn "Bamboo_DE12RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE70" -dr 1 -rfn "Bamboo_DE9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE71" -dr 1 -rfn "Bamboo_DE5RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE72" -dr 1 -rfn "Bamboo_DE4RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE73" -dr 1 -rfn "Bamboo_DE8RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE74" -dr 1 -rfn "Bamboo_DE7RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE75" -dr 1 -rfn "Bamboo_DE6RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE76" -dr 1 -rfn "Bamboo_DE2RN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE77" -dr 1 -rfn "Bamboo_DE1RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE78" -dr 1 -rfn "Bamboo_DERN6" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE79" -dr 1 -rfn "Bamboo_DE67RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE80" -dr 1 -rfn "Bamboo_DE62RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE81" -dr 1 -rfn "Bamboo_DE57RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE82" -dr 1 -rfn "Bamboo_DE61RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE83" -dr 1 -rfn "Bamboo_DE59RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE84" -dr 1 -rfn "Bamboo_DE50RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE85" -dr 1 -rfn "Bamboo_DE53RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE86" -dr 1 -rfn "Bamboo_DE47RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE87" -dr 1 -rfn "Bamboo_DE67RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE88" -dr 1 -rfn "Bamboo_DE57RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE89" -dr 1 -rfn "Bamboo_DE61RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE90" -dr 1 -rfn "Bamboo_DE59RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE91" -dr 1 -rfn "Bamboo_DE50RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE92" -dr 1 -rfn "Bamboo_DE53RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE93" -dr 1 -rfn "Bamboo_DE79RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE94" -dr 1 -rfn "Bamboo_DE84RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE95" -dr 1 -rfn "Bamboo_DE83RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE96" -dr 1 -rfn "Bamboo_DE82RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE97" -dr 1 -rfn "Bamboo_DE86RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE98" -dr 1 -rfn "Bamboo_DE85RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE99" -dr 1 -rfn "Bamboo_DE81RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Bamboo_DE100" -dr 1 -rfn "Bamboo_DE80RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
-file -r -ns "Fern_DE4" -dr 1 -rfn "Fern_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -rdi 1 -ns "ImageProjectionRig" -rfn "ImageProjectionRigRN" -op "v=0;"
+		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//scenes/ImageProjectionRig.ma";
+file -r -ns "Bamboo_DE" -dr 1 -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE1" -dr 1 -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE2" -dr 1 -rfn "Bamboo_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE3" -dr 1 -rfn "Bamboo_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE4" -dr 1 -rfn "Bamboo_DE3RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE5" -dr 1 -rfn "Bamboo_DERN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE6" -dr 1 -rfn "Bamboo_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE7" -dr 1 -rfn "Bamboo_DE2RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE8" -dr 1 -rfn "Bamboo_DE4RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE9" -dr 1 -rfn "Bamboo_DE8RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE10" -dr 1 -rfn "Bamboo_DE7RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE11" -dr 1 -rfn "Bamboo_DE6RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE12" -dr 1 -rfn "Bamboo_DE5RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE13" -dr 1 -rfn "Bamboo_DE4RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE14" -dr 1 -rfn "Bamboo_DE3RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE15" -dr 1 -rfn "Bamboo_DE2RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE16" -dr 1 -rfn "Bamboo_DERN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE17" -dr 1 -rfn "Bamboo_DE1RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Fern_DE" -dr 1 -rfn "Fern_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "Fern_DE1" -dr 1 -rfn "Fern_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "Bamboo_DE18" -dr 1 -rfn "Bamboo_DE16RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE19" -dr 1 -rfn "Bamboo_DE11RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE20" -dr 1 -rfn "Bamboo_DE13RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE21" -dr 1 -rfn "Bamboo_DE12RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE22" -dr 1 -rfn "Bamboo_DE4RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE23" -dr 1 -rfn "Bamboo_DE3RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE24" -dr 1 -rfn "Bamboo_DE8RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE25" -dr 1 -rfn "Bamboo_DE7RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE26" -dr 1 -rfn "Bamboo_DE6RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE27" -dr 1 -rfn "Bamboo_DE5RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE28" -dr 1 -rfn "Bamboo_DE2RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE29" -dr 1 -rfn "Bamboo_DE1RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE30" -dr 1 -rfn "Bamboo_DERN5" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE31" -dr 1 -rfn "Bamboo_DE29RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE32" -dr 1 -rfn "Bamboo_DE28RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE33" -dr 1 -rfn "Bamboo_DE27RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE34" -dr 1 -rfn "Bamboo_DE26RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE35" -dr 1 -rfn "Bamboo_DE22RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE36" -dr 1 -rfn "Bamboo_DE21RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE37" -dr 1 -rfn "Bamboo_DE20RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE38" -dr 1 -rfn "Bamboo_DE24RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE39" -dr 1 -rfn "Bamboo_DE23RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE40" -dr 1 -rfn "Bamboo_DE19RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Fern_DE2" -dr 1 -rfn "Fern_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "Fern_DE3" -dr 1 -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "Bamboo_DE41" -dr 1 -rfn "Bamboo_DE38RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE42" -dr 1 -rfn "Bamboo_DE37RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE43" -dr 1 -rfn "Bamboo_DE36RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE44" -dr 1 -rfn "Bamboo_DE40RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE45" -dr 1 -rfn "Bamboo_DE39RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE46" -dr 1 -rfn "Bamboo_DE35RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE47" -dr 1 -rfn "Bamboo_DE34RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE48" -dr 1 -rfn "Bamboo_DE33RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE49" -dr 1 -rfn "Bamboo_DE32RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE50" -dr 1 -rfn "Bamboo_DE28RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE51" -dr 1 -rfn "Bamboo_DE27RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE52" -dr 1 -rfn "Bamboo_DE26RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE53" -dr 1 -rfn "Bamboo_DE31RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE54" -dr 1 -rfn "Bamboo_DE30RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE55" -dr 1 -rfn "Bamboo_DE29RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE56" -dr 1 -rfn "Bamboo_DE25RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE57" -dr 1 -rfn "Bamboo_DE24RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE58" -dr 1 -rfn "Bamboo_DE23RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE59" -dr 1 -rfn "Bamboo_DE22RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE60" -dr 1 -rfn "Bamboo_DE21RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE61" -dr 1 -rfn "Bamboo_DE20RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE62" -dr 1 -rfn "Bamboo_DE17RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE63" -dr 1 -rfn "Bamboo_DE16RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE64" -dr 1 -rfn "Bamboo_DE19RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE65" -dr 1 -rfn "Bamboo_DE18RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE66" -dr 1 -rfn "Bamboo_DE15RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE67" -dr 1 -rfn "Bamboo_DE14RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE68" -dr 1 -rfn "Bamboo_DE13RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE69" -dr 1 -rfn "Bamboo_DE12RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE70" -dr 1 -rfn "Bamboo_DE9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE71" -dr 1 -rfn "Bamboo_DE5RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE72" -dr 1 -rfn "Bamboo_DE4RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE73" -dr 1 -rfn "Bamboo_DE8RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE74" -dr 1 -rfn "Bamboo_DE7RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE75" -dr 1 -rfn "Bamboo_DE6RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE76" -dr 1 -rfn "Bamboo_DE2RN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE77" -dr 1 -rfn "Bamboo_DE1RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE78" -dr 1 -rfn "Bamboo_DERN6" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE79" -dr 1 -rfn "Bamboo_DE67RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE80" -dr 1 -rfn "Bamboo_DE62RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE81" -dr 1 -rfn "Bamboo_DE57RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE82" -dr 1 -rfn "Bamboo_DE61RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE83" -dr 1 -rfn "Bamboo_DE59RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE84" -dr 1 -rfn "Bamboo_DE50RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE85" -dr 1 -rfn "Bamboo_DE53RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE86" -dr 1 -rfn "Bamboo_DE47RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE87" -dr 1 -rfn "Bamboo_DE67RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE88" -dr 1 -rfn "Bamboo_DE57RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE89" -dr 1 -rfn "Bamboo_DE61RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE90" -dr 1 -rfn "Bamboo_DE59RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE91" -dr 1 -rfn "Bamboo_DE50RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE92" -dr 1 -rfn "Bamboo_DE53RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE93" -dr 1 -rfn "Bamboo_DE79RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE94" -dr 1 -rfn "Bamboo_DE84RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE95" -dr 1 -rfn "Bamboo_DE83RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE96" -dr 1 -rfn "Bamboo_DE82RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE97" -dr 1 -rfn "Bamboo_DE86RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE98" -dr 1 -rfn "Bamboo_DE85RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE99" -dr 1 -rfn "Bamboo_DE81RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE100" -dr 1 -rfn "Bamboo_DE80RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Fern_DE4" -dr 1 -rfn "Fern_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -r -ns "boulder2_model_JonathanFranklin" -dr 1 -rfn "boulder2_model_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/boulder2_model_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/boulder2_model_JonathanFranklin.ma";
 file -r -ns "Rock_JonathanFranklin" -dr 1 -rfn "Rock_JonathanFranklinRN" -op "v=0;"
-		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/Rock_JonathanFranklin.ma";
+		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/Rock_JonathanFranklin.ma";
 file -r -ns "boulder1_model_JonathanFranklin" -dr 1 -rfn "boulder1_model_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/boulder1_model_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/boulder1_model_JonathanFranklin.ma";
 file -r -ns "FallenTrunk_DE" -dr 1 -rfn "FallenTrunk_DERN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
 file -r -ns "MushroomBunch1" -dr 1 -rfn "MushroomBunch1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Mon, Nov 06, 2017 05:28:46 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
-file -r -ns "Grass_DE" -dr 1 -rfn "Grass_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
+file -r -ns "Grass_DE" -dr 1 -rfn "Grass_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
 file -r -ns "BigFallenLog_JonathanFranklin" -dr 1 -rfn "BigFallenLog_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
 file -r -ns "SwampTallTreeNoLeaves_JonathanFranklin" -dr 1 -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
 file -r -ns "SwampTallTreeNoLeaves_JonathanFranklin1" -dr 1 -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN1"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
 file -r -ns "BananaTree_SC" -dr 1 -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
 file -r -ns "AnotherRock_JonathanFranklin" -dr 1 -rfn "AnotherRock_JonathanFranklinRN"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -r -ns "Mushroom" -dr 1 -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -r -ns "Mushroom" -dr 1 -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
 file -r -ns "Mushroom1" -dr 1 -rfn "Mushroom1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:34 PM|ICON|undef|INFO|undef|OBJN|165|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
 file -r -ns "Mushroom2" -dr 1 -rfn "Mushroom2RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:30 PM|ICON|undef|INFO|undef|OBJN|173|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
-file -r -ns "Mushroom3" -dr 1 -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
+file -r -ns "Mushroom3" -dr 1 -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
 file -r -ns "AddisonM_Rock2" -dr 1 -rfn "AddisonM_Rock2RN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -r -ns "AnotherRock_JonathanFranklin1" -dr 1 -rfn "AnotherRock_JonathanFranklinRN1"
-		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -r -ns "ImageProjectionRig" -dr 1 -rfn "ImageProjectionRigRN" -op "v=0;" -typ
+		 "mayaAscii" "C:/Users/10734984/Documents/2670UVU//scenes/ImageProjectionRig.ma";
 requires maya "2017ff05";
 requires -nodeType "houdiniAsset" "houdiniEngine" "3.0 (API: 60)";
 requires "stereoCamera" "10.0";
@@ -289,13 +293,21 @@ fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
+	setAttr ".t" -type "double3" 99.180767829561873 72.046296097267799 65.650811443479711 ;
+	setAttr -av ".tx";
+	setAttr -av ".ty";
+	setAttr -av ".tz";
+	setAttr ".r" -type "double3" 336.26164203326795 5844.9999999957254 1.8246386173082881e-014 ;
+	setAttr -av ".rx";
+	setAttr -av ".ry";
+	setAttr -av ".rz";
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 1.7849976010464665e-016 7.0344876724068756e-018 -1.2679258421052118e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E27FED8-4A03-85C0-4E37-7C837D701059";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 166.67295584867406;
+	setAttr ".coi" 200.92837891057616;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -350,6 +362,7 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".o" yes;
 createNode transform -n "Location_References";
 	rename -uid "A08C8DAD-42B6-AF50-631A-09A52D254B81";
+	setAttr ".v" no;
 createNode transform -n "pCube5" -p "Location_References";
 	rename -uid "947FA821-425F-F720-ED16-02AC99AA74D4";
 	setAttr ".t" -type "double3" 0 0 -6.8473659533165794 ;
@@ -526,7 +539,7 @@ createNode houdiniAsset -n "Palm_Tree1";
 	setAttr ".t" -type "double3" -19.645858350888517 0 30.726959404958386 ;
 	setAttr ".r" -type "double3" 0 -37.368967492188453 0 ;
 	setAttr ".s" -type "double3" 1.7148775538328429 1.7148775538328429 1.7148775538328429 ;
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Palm_Tree";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -750,7 +763,7 @@ createNode houdiniAsset -n "Tree_Anna1";
 		-p "houdiniAssetParm_stdswitcher4_2__folder";
 	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
 		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Tree_Anna.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Tree_Anna.hdanc";
 	setAttr ".assetName" -type "string" "Object/Tree.Anna";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -875,7 +888,7 @@ createNode houdiniAsset -n "Small_Bush1";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -981,7 +994,7 @@ createNode houdiniAsset -n "Small_Bush2";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -1088,7 +1101,7 @@ createNode houdiniAsset -n "Small_Bush3";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -1196,7 +1209,7 @@ createNode houdiniAsset -n "Small_Bush4";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -1303,7 +1316,7 @@ createNode houdiniAsset -n "Small_Bush5";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -1521,7 +1534,7 @@ createNode houdiniAsset -n "shaun_bush_fern1";
 		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
 	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
 		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
 	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -1654,7 +1667,7 @@ createNode houdiniAsset -n "Small_Bush6";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -1761,7 +1774,7 @@ createNode houdiniAsset -n "Small_Bush7";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -1872,7 +1885,7 @@ createNode houdiniAsset -n "Palm_Tree2";
 	setAttr ".t" -type "double3" -26.575818710054229 0 66.555127675104401 ;
 	setAttr ".r" -type "double3" 0 140.76771314997984 0 ;
 	setAttr ".s" -type "double3" 1.8278237961431583 1.8278237961431583 1.8278237961431583 ;
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Palm_Tree";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -1996,7 +2009,7 @@ createNode houdiniAsset -n "Short_Palm1";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Short_Palm_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Short_Palm_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Short_Palm";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -2102,7 +2115,7 @@ createNode houdiniAsset -n "Small_Bush8";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -2151,7 +2164,7 @@ createNode mesh -n "GroundShape" -p "Ground";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 20 ".pt";
+	setAttr -s 18 ".pt";
 	setAttr ".pt[28]" -type "float3" 0 0.4390215 0 ;
 	setAttr ".pt[29]" -type "float3" 0 0.4390215 0 ;
 	setAttr ".pt[35]" -type "float3" 0 1.4293445 0 ;
@@ -2244,7 +2257,7 @@ createNode houdiniAsset -n "Small_Bush9";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -2351,7 +2364,7 @@ createNode houdiniAsset -n "Small_Bush10";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -2569,7 +2582,7 @@ createNode houdiniAsset -n "shaun_bush_fern2";
 		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
 	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
 		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
 	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -2811,7 +2824,7 @@ createNode houdiniAsset -n "shaun_bush_fern3";
 		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
 	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
 		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
 	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -2949,7 +2962,7 @@ createNode houdiniAsset -n "Palm_Tree3";
 	setAttr ".t" -type "double3" 38.8633861583046 0 15.801753089846507 ;
 	setAttr ".r" -type "double3" 0 84.629912380130634 0 ;
 	setAttr ".s" -type "double3" 1.9166873696562587 1.9166873696562587 1.9166873696562587 ;
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Palm_Tree";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -3077,7 +3090,7 @@ createNode houdiniAsset -n "Small_Bush11";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -3283,7 +3296,7 @@ createNode houdiniAsset -n "Tree_Anna2";
 		-p "houdiniAssetParm_stdswitcher4_2__folder";
 	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
 		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Tree_Anna.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Tree_Anna.hdanc";
 	setAttr ".assetName" -type "string" "Object/Tree.Anna";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -3388,7 +3401,7 @@ createNode houdiniAsset -n "Short_Palm2";
 		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
 		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
 		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
 		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
@@ -3407,7 +3420,7 @@ createNode houdiniAsset -n "Short_Palm2";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Short_Palm_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Short_Palm_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Short_Palm";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -3494,7 +3507,7 @@ createNode houdiniAsset -n "Short_Palm3";
 		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
 		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
 		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
 		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
@@ -3513,7 +3526,7 @@ createNode houdiniAsset -n "Short_Palm3";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Short_Palm_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Short_Palm_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Short_Palm";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -3600,12 +3613,12 @@ createNode houdiniAsset -n "shaun_bush_fern4";
 		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
 		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
 		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
 		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -s false -dcb 1 -sn "houdiniAssetParm_shop_materialpath__node" -ln "houdiniAssetParm_shop_materialpath__node" 
-		-nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
+		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
 		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
@@ -3663,8 +3676,9 @@ createNode houdiniAsset -n "shaun_bush_fern4";
 		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
 	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
 		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -s false -dcb 1 -sn "houdiniAssetParm_shop_geometrypath__node" -ln "houdiniAssetParm_shop_geometrypath__node" 
-		-nn "Procedural Shader" -dv -1 -at "long" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
+		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
+		-p "houdiniAssetParm_folder0_3__folder";
 	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
 		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
 	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
@@ -3728,7 +3742,7 @@ createNode houdiniAsset -n "shaun_bush_fern4";
 		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
 	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
 		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
 	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -3842,7 +3856,7 @@ createNode houdiniAsset -n "Small_Bush12";
 		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
 		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
 		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
 		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
@@ -3861,7 +3875,7 @@ createNode houdiniAsset -n "Small_Bush12";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -3949,7 +3963,7 @@ createNode houdiniAsset -n "Small_Bush13";
 		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
 		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
 		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
 		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
@@ -3968,7 +3982,7 @@ createNode houdiniAsset -n "Small_Bush13";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -4057,7 +4071,7 @@ createNode houdiniAsset -n "Small_Bush14";
 		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
 		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
 		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
 	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
 		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
@@ -4076,7 +4090,7 @@ createNode houdiniAsset -n "Small_Bush14";
 		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
 	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
 		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
 	setAttr ".assetName" -type "string" "Object/Small_Bush";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
@@ -4109,24 +4123,28 @@ createNode mesh -n "color1_0Shape" -p "|Small_Bush14|line_object1|color1_0";
 	setAttr ".clst[0].clsn" -type "string" "Cd";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "group1";
+	rename -uid "3B1F20A0-46DB-4D90-BC6B-60AE08D16146";
+	setAttr ".t" -type "double3" 5.7637895813917108 0 32.087363803417396 ;
+	setAttr ".r" -type "double3" 0 87.061086074424935 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "0CC0595A-4B46-9BCA-1D15-148234C8EE3E";
-	setAttr -s 543 ".lnk";
-	setAttr -s 543 ".slnk";
+	rename -uid "6FE7E9D7-462F-5D6B-D69E-FF97DC4B382B";
+	setAttr -s 559 ".lnk";
+	setAttr -s 559 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "33490283-4B30-0D87-0CBE-50AB10B1A3A1";
+	rename -uid "0EAF2BD6-4ADC-3779-39B9-E183B0299ED6";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "D89BF061-4992-A2C6-16DE-8A84C12C620B";
+	rename -uid "66C06145-4152-6A21-2150-D38FF78CD3D4";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "C4DA4FD4-4B10-047E-E548-5BB82694D60A";
+	rename -uid "85BC21B1-4019-2218-BFE3-93B5EC378A92";
 	setAttr ".cdl" 5;
 	setAttr -s 8 ".dli[1:7]"  6 1 8 4 5 2 7;
 	setAttr -s 7 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "7EEFA473-4D48-8C73-89BC-47BEC5AA502D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "E3281726-4ED2-20FB-56E2-7A98FCCAFC7C";
+	rename -uid "2385532D-4E0B-564A-BF4B-4BA5341C7199";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "A049D010-441C-07BA-D3C9-199A61794303";
 	setAttr ".g" yes;
@@ -4153,7 +4171,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n"
 		+ "\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n"
 		+ "            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n"
-		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1283\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
+		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1280\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n"
 		+ "            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 1\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
 		+ "            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n"
@@ -4179,8 +4197,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1283\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1283\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1280\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1280\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 200 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -7571,6 +7589,19 @@ createNode reference -n "AnotherRock_JonathanFranklinRN1";
 		2 "|AnotherRock_JonathanFranklin1:anotherRock:Mesh" "scale" " -type \"double3\" 1.7504658866564469 1.3292594390659065 1.4586793489678838";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
+createNode reference -n "ImageProjectionRigRN";
+	rename -uid "72F2EE3A-40F4-F632-100D-23875B91F3B3";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"ImageProjectionRigRN"
+		"ImageProjectionRigRN" 0
+		"ImageProjectionRigRN" 5
+		0 "|ImageProjectionRig:group1" "|group1" "-s -r "
+		0 "|ImageProjectionRig:YB_Projection_Rig" "|group1" "-s -r "
+		0 "|ImageProjectionRig:OB_Projection_Rig1" "|group1" "-s -r "
+		0 "|ImageProjectionRig:Bear_Projection_Rig" "|group1" "-s -r "
+		2 "|group1|ImageProjectionRig:group1" "translate" " -type \"double3\" 0 0 1.9372587115937403";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
 select -ne :time1;
 	setAttr ".o" 39;
 	setAttr ".unw" 39;
@@ -7581,18 +7612,18 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 543 ".st";
+	setAttr -s 559 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 25 ".s";
+	setAttr -s 41 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
-	setAttr -s 5 ".u";
+	setAttr -s 16 ".u";
 select -ne :defaultRenderingList1;
-	setAttr -s 231 ".r";
+	setAttr -s 232 ".r";
 select -ne :defaultTextureList1;
-	setAttr -s 5 ".tx";
+	setAttr -s 16 ".tx";
 select -ne :initialShadingGroup;
 	setAttr -s 165 ".dsm";
 	setAttr ".ro" yes;
@@ -7610,8 +7641,6 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 select -ne :defaultHideFaceDataSet;
-select -ne :ikSystem;
-	setAttr -s 4 ".sol";
 connectAttr "persp_translateX.o" ":persp.tx";
 connectAttr "persp_translateY.o" ":persp.ty";
 connectAttr "persp_translateZ.o" ":persp.tz";
