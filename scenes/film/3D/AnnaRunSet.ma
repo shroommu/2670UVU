@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: AnnaRunSet.ma
-//Last modified: Mon, Nov 27, 2017 03:43:37 PM
+//Last modified: Wed, Nov 29, 2017 04:33:21 PM
 //Codeset: 1252
 file -rdi 1 -ns "Bamboo_DE" -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE1" -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -47,6 +47,98 @@ file -rdi 1 -ns "Bamboo_DE39" -rfn "Bamboo_DE23RN" -typ "mayaAscii" "C:/Users/10
 file -rdi 1 -ns "Bamboo_DE40" -rfn "Bamboo_DE19RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Fern_DE2" -rfn "Fern_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -rdi 1 -ns "Fern_DE3" -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "Bamboo_DE41" -rfn "Bamboo_DE38RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE42" -rfn "Bamboo_DE37RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE43" -rfn "Bamboo_DE36RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE44" -rfn "Bamboo_DE40RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE45" -rfn "Bamboo_DE39RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE46" -rfn "Bamboo_DE35RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE47" -rfn "Bamboo_DE34RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE48" -rfn "Bamboo_DE33RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE49" -rfn "Bamboo_DE32RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE50" -rfn "Bamboo_DE28RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE51" -rfn "Bamboo_DE27RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE52" -rfn "Bamboo_DE26RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE53" -rfn "Bamboo_DE31RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE54" -rfn "Bamboo_DE30RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE55" -rfn "Bamboo_DE29RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE56" -rfn "Bamboo_DE25RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE57" -rfn "Bamboo_DE24RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE58" -rfn "Bamboo_DE23RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE59" -rfn "Bamboo_DE22RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE60" -rfn "Bamboo_DE21RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE61" -rfn "Bamboo_DE20RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE62" -rfn "Bamboo_DE17RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE63" -rfn "Bamboo_DE16RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE64" -rfn "Bamboo_DE19RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE65" -rfn "Bamboo_DE18RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE66" -rfn "Bamboo_DE15RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE67" -rfn "Bamboo_DE14RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE68" -rfn "Bamboo_DE13RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE69" -rfn "Bamboo_DE12RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE70" -rfn "Bamboo_DE9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE71" -rfn "Bamboo_DE5RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE72" -rfn "Bamboo_DE4RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE73" -rfn "Bamboo_DE8RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE74" -rfn "Bamboo_DE7RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE75" -rfn "Bamboo_DE6RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE76" -rfn "Bamboo_DE2RN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE77" -rfn "Bamboo_DE1RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE78" -rfn "Bamboo_DERN6" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE79" -rfn "Bamboo_DE67RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE80" -rfn "Bamboo_DE62RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE81" -rfn "Bamboo_DE57RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE82" -rfn "Bamboo_DE61RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE83" -rfn "Bamboo_DE59RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE84" -rfn "Bamboo_DE50RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE85" -rfn "Bamboo_DE53RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE86" -rfn "Bamboo_DE47RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE87" -rfn "Bamboo_DE67RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE88" -rfn "Bamboo_DE57RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE89" -rfn "Bamboo_DE61RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE90" -rfn "Bamboo_DE59RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE91" -rfn "Bamboo_DE50RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE92" -rfn "Bamboo_DE53RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE93" -rfn "Bamboo_DE79RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE94" -rfn "Bamboo_DE84RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE95" -rfn "Bamboo_DE83RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE96" -rfn "Bamboo_DE82RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE97" -rfn "Bamboo_DE86RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE98" -rfn "Bamboo_DE85RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE99" -rfn "Bamboo_DE81RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Bamboo_DE100" -rfn "Bamboo_DE80RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "Fern_DE4" -rfn "Fern_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "boulder2_model_JonathanFranklin" -rfn "boulder2_model_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/boulder2_model_JonathanFranklin.ma";
+file -rdi 1 -ns "Rock_JonathanFranklin" -rfn "Rock_JonathanFranklinRN" -op "v=0;"
+		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/Rock_JonathanFranklin.ma";
+file -rdi 1 -ns "boulder1_model_JonathanFranklin" -rfn "boulder1_model_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/boulder1_model_JonathanFranklin.ma";
+file -rdi 1 -ns "FallenTrunk_DE" -rfn "FallenTrunk_DERN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
+file -rdi 1 -ns "MushroomBunch1" -rfn "MushroomBunch1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Mon, Nov 06, 2017 05:28:46 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
+file -rdi 1 -ns "Grass_DE" -rfn "Grass_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
+file -rdi 1 -ns "BigFallenLog_JonathanFranklin" -rfn "BigFallenLog_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
+file -rdi 1 -ns "SwampTallTreeNoLeaves_JonathanFranklin" -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+file -rdi 1 -ns "SwampTallTreeNoLeaves_JonathanFranklin1" -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN1"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+file -rdi 1 -ns "BananaTree_SC" -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+file -rdi 1 -ns "AnotherRock_JonathanFranklin" -rfn "AnotherRock_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -rdi 1 -ns "Mushroom" -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+file -rdi 1 -ns "Mushroom1" -rfn "Mushroom1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:34 PM|ICON|undef|INFO|undef|OBJN|165|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
+file -rdi 1 -ns "Mushroom2" -rfn "Mushroom2RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:30 PM|ICON|undef|INFO|undef|OBJN|173|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
+file -rdi 1 -ns "Mushroom3" -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+file -rdi 1 -ns "AddisonM_Rock2" -rfn "AddisonM_Rock2RN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
+file -rdi 1 -ns "AnotherRock_JonathanFranklin1" -rfn "AnotherRock_JonathanFranklinRN1"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
 file -r -ns "Bamboo_DE" -dr 1 -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE1" -dr 1 -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE2" -dr 1 -rfn "Bamboo_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -92,6 +184,98 @@ file -r -ns "Bamboo_DE39" -dr 1 -rfn "Bamboo_DE23RN" -typ "mayaAscii" "C:/Users/
 file -r -ns "Bamboo_DE40" -dr 1 -rfn "Bamboo_DE19RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Fern_DE2" -dr 1 -rfn "Fern_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -r -ns "Fern_DE3" -dr 1 -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "Bamboo_DE41" -dr 1 -rfn "Bamboo_DE38RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE42" -dr 1 -rfn "Bamboo_DE37RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE43" -dr 1 -rfn "Bamboo_DE36RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE44" -dr 1 -rfn "Bamboo_DE40RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE45" -dr 1 -rfn "Bamboo_DE39RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE46" -dr 1 -rfn "Bamboo_DE35RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE47" -dr 1 -rfn "Bamboo_DE34RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE48" -dr 1 -rfn "Bamboo_DE33RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE49" -dr 1 -rfn "Bamboo_DE32RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE50" -dr 1 -rfn "Bamboo_DE28RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE51" -dr 1 -rfn "Bamboo_DE27RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE52" -dr 1 -rfn "Bamboo_DE26RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE53" -dr 1 -rfn "Bamboo_DE31RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE54" -dr 1 -rfn "Bamboo_DE30RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE55" -dr 1 -rfn "Bamboo_DE29RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE56" -dr 1 -rfn "Bamboo_DE25RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE57" -dr 1 -rfn "Bamboo_DE24RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE58" -dr 1 -rfn "Bamboo_DE23RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE59" -dr 1 -rfn "Bamboo_DE22RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE60" -dr 1 -rfn "Bamboo_DE21RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE61" -dr 1 -rfn "Bamboo_DE20RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE62" -dr 1 -rfn "Bamboo_DE17RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE63" -dr 1 -rfn "Bamboo_DE16RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE64" -dr 1 -rfn "Bamboo_DE19RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE65" -dr 1 -rfn "Bamboo_DE18RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE66" -dr 1 -rfn "Bamboo_DE15RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE67" -dr 1 -rfn "Bamboo_DE14RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE68" -dr 1 -rfn "Bamboo_DE13RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE69" -dr 1 -rfn "Bamboo_DE12RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE70" -dr 1 -rfn "Bamboo_DE9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE71" -dr 1 -rfn "Bamboo_DE5RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE72" -dr 1 -rfn "Bamboo_DE4RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE73" -dr 1 -rfn "Bamboo_DE8RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE74" -dr 1 -rfn "Bamboo_DE7RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE75" -dr 1 -rfn "Bamboo_DE6RN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE76" -dr 1 -rfn "Bamboo_DE2RN4" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE77" -dr 1 -rfn "Bamboo_DE1RN3" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE78" -dr 1 -rfn "Bamboo_DERN6" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE79" -dr 1 -rfn "Bamboo_DE67RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE80" -dr 1 -rfn "Bamboo_DE62RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE81" -dr 1 -rfn "Bamboo_DE57RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE82" -dr 1 -rfn "Bamboo_DE61RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE83" -dr 1 -rfn "Bamboo_DE59RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE84" -dr 1 -rfn "Bamboo_DE50RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE85" -dr 1 -rfn "Bamboo_DE53RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE86" -dr 1 -rfn "Bamboo_DE47RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE87" -dr 1 -rfn "Bamboo_DE67RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE88" -dr 1 -rfn "Bamboo_DE57RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE89" -dr 1 -rfn "Bamboo_DE61RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE90" -dr 1 -rfn "Bamboo_DE59RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE91" -dr 1 -rfn "Bamboo_DE50RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE92" -dr 1 -rfn "Bamboo_DE53RN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE93" -dr 1 -rfn "Bamboo_DE79RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE94" -dr 1 -rfn "Bamboo_DE84RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE95" -dr 1 -rfn "Bamboo_DE83RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE96" -dr 1 -rfn "Bamboo_DE82RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE97" -dr 1 -rfn "Bamboo_DE86RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE98" -dr 1 -rfn "Bamboo_DE85RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE99" -dr 1 -rfn "Bamboo_DE81RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Bamboo_DE100" -dr 1 -rfn "Bamboo_DE80RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "Fern_DE4" -dr 1 -rfn "Fern_DE2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "boulder2_model_JonathanFranklin" -dr 1 -rfn "boulder2_model_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/boulder2_model_JonathanFranklin.ma";
+file -r -ns "Rock_JonathanFranklin" -dr 1 -rfn "Rock_JonathanFranklinRN" -op "v=0;"
+		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/Rock_JonathanFranklin.ma";
+file -r -ns "boulder1_model_JonathanFranklin" -dr 1 -rfn "boulder1_model_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/boulder1_model_JonathanFranklin.ma";
+file -r -ns "FallenTrunk_DE" -dr 1 -rfn "FallenTrunk_DERN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
+file -r -ns "MushroomBunch1" -dr 1 -rfn "MushroomBunch1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Mon, Nov 06, 2017 05:28:46 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
+file -r -ns "Grass_DE" -dr 1 -rfn "Grass_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
+file -r -ns "BigFallenLog_JonathanFranklin" -dr 1 -rfn "BigFallenLog_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
+file -r -ns "SwampTallTreeNoLeaves_JonathanFranklin" -dr 1 -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+file -r -ns "SwampTallTreeNoLeaves_JonathanFranklin1" -dr 1 -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN1"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
+file -r -ns "BananaTree_SC" -dr 1 -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+file -r -ns "AnotherRock_JonathanFranklin" -dr 1 -rfn "AnotherRock_JonathanFranklinRN"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -r -ns "Mushroom" -dr 1 -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+file -r -ns "Mushroom1" -dr 1 -rfn "Mushroom1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:34 PM|ICON|undef|INFO|undef|OBJN|165|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
+file -r -ns "Mushroom2" -dr 1 -rfn "Mushroom2RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:30 PM|ICON|undef|INFO|undef|OBJN|173|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
+file -r -ns "Mushroom3" -dr 1 -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+file -r -ns "AddisonM_Rock2" -dr 1 -rfn "AddisonM_Rock2RN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
+file -r -ns "AnotherRock_JonathanFranklin1" -dr 1 -rfn "AnotherRock_JonathanFranklinRN1"
+		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU/assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
 requires maya "2017ff05";
 requires -nodeType "houdiniAsset" "houdiniEngine" "3.0 (API: 60)";
 requires "stereoCamera" "10.0";
@@ -105,21 +289,13 @@ fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
-	setAttr ".t" -type "double3" 38.366985775018044 23.649095659313719 47.123260283567227 ;
-	setAttr -av ".tx";
-	setAttr -av ".ty";
-	setAttr -av ".tz";
-	setAttr ".r" -type "double3" 341.66164203382795 5850.9999999951733 0 ;
-	setAttr -av ".rx";
-	setAttr -av ".ry";
-	setAttr -av ".rz";
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 1.7849976010464665e-016 7.0344876724068756e-018 -1.2679258421052118e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E27FED8-4A03-85C0-4E37-7C837D701059";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 51.437147697141924;
+	setAttr ".coi" 166.67295584867406;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -172,9 +348,9 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".tp" -type "double3" 1.2743638103378272 5.7971943300862385 -0.24464002249500538 ;
 	setAttr ".hc" -type "string" "viewSet -s %camera";
 	setAttr ".o" yes;
-createNode transform -n "group1";
+createNode transform -n "Location_References";
 	rename -uid "A08C8DAD-42B6-AF50-631A-09A52D254B81";
-createNode transform -n "pCube5" -p "group1";
+createNode transform -n "pCube5" -p "Location_References";
 	rename -uid "947FA821-425F-F720-ED16-02AC99AA74D4";
 	setAttr ".t" -type "double3" 0 0 -6.8473659533165794 ;
 createNode mesh -n "pCubeShape5" -p "pCube5";
@@ -187,7 +363,7 @@ createNode mesh -n "pCubeShape5" -p "pCube5";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "pCube6" -p "group1";
+createNode transform -n "pCube6" -p "Location_References";
 	rename -uid "2890A832-40AE-321B-1C74-6EBF237DF1BE";
 	setAttr ".t" -type "double3" 0 0 103.1723533714357 ;
 createNode mesh -n "pCubeShape6" -p "pCube6";
@@ -224,13 +400,24 @@ createNode mesh -n "pCubeShape6" -p "pCube6";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "pCube7" -p "group1";
+createNode transform -n "pCube7" -p "Location_References";
 	rename -uid "BD19A558-42DD-71D6-6920-5DA9C7E69055";
 	setAttr ".t" -type "double3" -1.5134323480095455 4.9399137527001011 48.957380126993755 ;
 	setAttr ".s" -type "double3" 1 10.022044096530115 6.5848355586248637 ;
 createNode mesh -n "pCubeShape7" -p "pCube7";
 	rename -uid "54B2C125-4619-1B15-9C1D-38B5BB9C5D95";
 	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode mesh -n "polySurfaceShape1" -p "pCube7";
+	rename -uid "18AED267-451A-5D5D-A5CB-64A83B742A1C";
+	setAttr -k off ".v";
+	setAttr ".io" yes;
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
@@ -595,10 +782,10 @@ createNode transform -n "Tree_Anna1" -p "|Tree_Anna1";
 	rename -uid "19098B49-482B-0C93-0EE3-639766095E06";
 createNode transform -n "merge1_0" -p "|Tree_Anna1|Tree_Anna1";
 	rename -uid "AD3E2253-4BB2-E6AB-CE17-4FA8456BE30D";
-	setAttr ".t" -type "double3" -34.066637918371782 0 23.348880548553471 ;
+	setAttr ".t" -type "double3" -34.066637918371782 0 19.095215866821075 ;
 	setAttr ".r" -type "double3" 0 -76.072467328254135 0 ;
-	setAttr ".s" -type "double3" 7.2267699660459179 7.2267699660459179 7.2267699660459179 ;
-createNode mesh -n "merge1_0Shape" -p "merge1_0";
+	setAttr ".s" -type "double3" 8.1203229677539799 8.1203229677539799 8.1203229677539799 ;
+createNode mesh -n "merge1_0Shape" -p "|Tree_Anna1|Tree_Anna1|merge1_0";
 	rename -uid "C1F4AEF6-43AA-7AE5-6C60-6AAC30577920";
 	setAttr -k off ".v";
 	setAttr -s 2 ".iog[0].og";
@@ -1025,7 +1212,7 @@ createNode transform -n "line_object1" -p "Small_Bush4";
 	rename -uid "24D4F58A-49D3-1323-C055-E9AE3F8B40B8";
 createNode transform -n "color1_0" -p "|Small_Bush4|line_object1";
 	rename -uid "698A3805-46B5-EA0F-CC73-CAB731DDB218";
-	setAttr ".t" -type "double3" 46.980996654191948 0 42.052943607128675 ;
+	setAttr ".t" -type "double3" 46.980996654191948 0 76.18621307929412 ;
 	setAttr ".s" -type "double3" 1.4904004251314287 1.4904004251314287 1.4904004251314287 ;
 createNode mesh -n "color1_0Shape" -p "|Small_Bush4|line_object1|color1_0";
 	rename -uid "7C28E57E-43E2-9332-F361-FE9042419685";
@@ -1371,10 +1558,10 @@ createNode transform -n "shaun_bush_fern1" -p "|shaun_bush_fern1";
 	rename -uid "5E4B58C2-440D-A8C8-8ECC-AAABEC323EA8";
 createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern1|shaun_bush_fern1";
 	rename -uid "1DF0C76E-48EC-53B8-60A3-139D9285ED6C";
-	setAttr ".t" -type "double3" -8.8737160557872521 0 34.659484368143566 ;
+	setAttr ".t" -type "double3" -10.780522520972111 0 34.659484368143566 ;
 	setAttr ".r" -type "double3" 0 51.201256440185979 0 ;
 	setAttr ".s" -type "double3" 1.9947279212087274 1.9947279212087274 1.9947279212087274 ;
-createNode mesh -n "foreach_end2_0Shape" -p "foreach_end2_0";
+createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0";
 	rename -uid "0A1D3245-4C81-F623-F6B4-CA989E036C12";
 	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
 	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
@@ -1823,7 +2010,7 @@ createNode houdiniAsset -n "Short_Palm1";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "grid1" -p "Short_Palm1";
 	rename -uid "BD7D0CC2-4396-C24C-BDAB-55B9DFC0BEEB";
-createNode transform -n "merge3_0" -p "grid1";
+createNode transform -n "merge3_0" -p "|Short_Palm1|grid1";
 	rename -uid "67BA6456-49AC-8DB9-91C0-A38F5988CDCA";
 	setAttr ".t" -type "double3" -25.20396248711133 0 58.682582721935532 ;
 	setAttr ".s" -type "double3" 0.28271459132196891 0.28271459132196891 0.28271459132196891 ;
@@ -1949,24 +2136,1997 @@ createNode mesh -n "color1_0Shape" -p "|Small_Bush8|line_object1|color1_0";
 	setAttr ".clst[0].clsn" -type "string" "Cd";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "Ground";
+	rename -uid "99345922-4857-BFC7-849E-FDA96FC6A822";
+	setAttr ".t" -type "double3" 0 0 50.935358093604052 ;
+	setAttr ".s" -type "double3" 97.264999344777564 1 162.13229819129819 ;
+createNode mesh -n "GroundShape" -p "Ground";
+	rename -uid "D585DFC6-48A8-F78F-C636-56BFA01ACAE3";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.80000001192092896 0.60000002384185791 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 20 ".pt";
+	setAttr ".pt[28]" -type "float3" 0 0.4390215 0 ;
+	setAttr ".pt[29]" -type "float3" 0 0.4390215 0 ;
+	setAttr ".pt[35]" -type "float3" 0 1.4293445 0 ;
+	setAttr ".pt[37]" -type "float3" 0 0.65963411 0 ;
+	setAttr ".pt[41]" -type "float3" 0 0.4390215 0 ;
+	setAttr ".pt[43]" -type "float3" 0 1.1056577 0 ;
+	setAttr ".pt[51]" -type "float3" 0 0.37804309 0 ;
+	setAttr ".pt[58]" -type "float3" 0 0.56413865 0 ;
+	setAttr ".pt[63]" -type "float3" 0 0.37804309 0 ;
+	setAttr ".pt[65]" -type "float3" 0 0.48309782 0 ;
+	setAttr ".pt[68]" -type "float3" 0 1.581233 0 ;
+	setAttr ".pt[72]" -type "float3" 0 0.15167896 0 ;
+	setAttr ".pt[73]" -type "float3" 0 0.15167896 0 ;
+	setAttr ".pt[74]" -type "float3" 0 -0.12524872 0 ;
+	setAttr ".pt[81]" -type "float3" 0 0.36556625 0 ;
+	setAttr ".pt[83]" -type "float3" 0 0.15167896 0 ;
+	setAttr ".pt[85]" -type "float3" 0 0.6959064 0 ;
+	setAttr ".pt[90]" -type "float3" 0 0.98193681 0 ;
+createNode houdiniAsset -n "Small_Bush9";
+	rename -uid "D873FEA2-4F0D-5EBE-E1AF-CEA8A073490F";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		2;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
+		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
+		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
+		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".assetName" -type "string" "Object/Small_Bush";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_outputobj" 1;
+	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+createNode transform -n "line_object1" -p "Small_Bush9";
+	rename -uid "B42DF054-41B3-46A8-4BE2-6E92FF3DADC9";
+createNode transform -n "color1_0" -p "|Small_Bush9|line_object1";
+	rename -uid "C66EE5BD-4F97-E06F-9B4A-A7936F6A6447";
+	setAttr ".t" -type "double3" 43.165046197181837 0 16.111135630218243 ;
+	setAttr ".s" -type "double3" 1.5939489400286848 1.5939489400286848 1.5939489400286848 ;
+createNode mesh -n "color1_0Shape" -p "|Small_Bush9|line_object1|color1_0";
+	rename -uid "29E98D99-47EB-CC65-EB00-3E9C3847CFC8";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "Small_Bush10";
+	rename -uid "64EA8EB8-4AF3-263F-4D9E-548CDBA55BB0";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		2;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
+		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
+		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
+		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".assetName" -type "string" "Object/Small_Bush";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_outputobj" 1;
+	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+createNode transform -n "line_object1" -p "Small_Bush10";
+	rename -uid "E5E15D0F-4D17-0DC6-8601-799126DB636B";
+createNode transform -n "color1_0" -p "|Small_Bush10|line_object1";
+	rename -uid "3B3BC52D-4083-258F-B781-E9938166BA18";
+	setAttr ".t" -type "double3" 39.231100321266986 0 18.6028301034988 ;
+	setAttr ".r" -type "double3" 0 -95.654766264067916 0 ;
+	setAttr ".s" -type "double3" 1.4731457657855342 1.4731457657855342 1.4731457657855342 ;
+createNode mesh -n "color1_0Shape" -p "|Small_Bush10|line_object1|color1_0";
+	rename -uid "8A87E243-4FFA-3E69-1BD2-3DB1A896B16D";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "shaun_bush_fern2";
+	rename -uid "B0E5886E-4D05-0AB4-0005-BB9E67A86D98";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		9;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
+		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
+		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
+		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
+		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
+		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
+		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
+		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
+		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
+	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
+		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
+		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
+		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
+		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
+		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
+		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
+		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
+		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
+		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
+		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
+		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
+	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
+		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
+		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
+	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
+		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
+		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
+		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
+		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
+		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
+		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
+	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
+		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
+		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
+		-p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
+		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
+		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
+		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
+		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
+		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
+		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
+		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
+		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
+		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
+		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
+		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
+		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
+		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
+		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
+		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
+		3;
+	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
+		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
+		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
+		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
+		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
+		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
+		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
+		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
+		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
+	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
+	setAttr ".houdiniAssetParm_categories" -type "string" "";
+	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
+	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
+	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
+	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
+	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
+	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
+	setAttr ".houdiniAssetParm_vm_pointscale" 1;
+	setAttr ".houdiniAssetParm_vm_coving" 1;
+	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
+	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
+	setAttr ".houdiniAssetParm_use_dcolor" yes;
+	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+	setAttr ".houdiniAssetParm_renderable" yes;
+	setAttr ".houdiniAssetParm_Branches" 10;
+	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
+	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
+	setAttr ".houdiniAssetParm_Size" 0.5;
+	setAttr ".houdiniAssetParm_Leaf" 7.5;
+createNode transform -n "shaun_bush_fern2" -p "|shaun_bush_fern2";
+	rename -uid "CA80CA8F-41DF-DCDC-BA01-329B0533F6AD";
+createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern2|shaun_bush_fern2";
+	rename -uid "9A73599E-4209-91A7-4C99-CE8A6891223B";
+	setAttr ".t" -type "double3" -9.6714491287223829 0 20.381196228584834 ;
+	setAttr ".s" -type "double3" 2.1752096174732021 2.1752096174732021 2.1752096174732021 ;
+createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0";
+	rename -uid "CCE8A5A3-4230-9DE0-B9F5-F7B2D6AE0AF7";
+	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
+	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
+	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
+	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
+	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
+	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "shaun_bush_fern3";
+	rename -uid "AA1F6DBE-4725-65C2-A07B-E7AC70243ED6";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		9;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
+		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
+		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
+		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
+		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
+		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
+		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
+		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
+		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
+	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
+		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
+		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
+		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
+		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
+		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
+		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
+		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
+		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
+		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
+		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
+		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
+	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
+		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
+		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
+	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
+		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
+		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
+		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
+		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
+		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
+		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
+	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
+		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
+		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
+		-p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
+		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
+		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
+		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
+		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
+		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
+		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
+		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
+		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
+		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
+		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
+		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
+		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
+		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
+		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
+		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
+		3;
+	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
+		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
+		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
+		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
+		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
+		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
+		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
+		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
+		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
+	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
+	setAttr ".houdiniAssetParm_categories" -type "string" "";
+	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
+	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
+	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
+	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
+	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
+	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
+	setAttr ".houdiniAssetParm_vm_pointscale" 1;
+	setAttr ".houdiniAssetParm_vm_coving" 1;
+	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
+	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
+	setAttr ".houdiniAssetParm_use_dcolor" yes;
+	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+	setAttr ".houdiniAssetParm_renderable" yes;
+	setAttr ".houdiniAssetParm_Branches" 10;
+	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
+	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
+	setAttr ".houdiniAssetParm_Size" 0.5;
+	setAttr ".houdiniAssetParm_Leaf" 7.5;
+createNode transform -n "shaun_bush_fern3" -p "|shaun_bush_fern3";
+	rename -uid "37644118-4E3F-DAFD-8080-AE9574D95971";
+createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern3|shaun_bush_fern3";
+	rename -uid "4AA9435E-49FE-9673-A26F-048E71E52ADC";
+	setAttr ".t" -type "double3" 35.606300737219073 0 32.735056826410279 ;
+	setAttr ".r" -type "double3" 0 -100.73467277214586 0 ;
+	setAttr ".s" -type "double3" 2.1184883610963081 2.1184883610963081 2.1184883610963081 ;
+createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0";
+	rename -uid "6A486B03-405E-1DD2-AD83-28AC2737E71F";
+	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
+	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
+	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
+	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
+	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
+	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "Bamboo";
+	rename -uid "7F903D66-4733-BFF4-C5B0-5CAEC7062924";
+createNode houdiniAsset -n "Palm_Tree3";
+	rename -uid "551E1CE2-428D-9010-6A8F-48B8BC8FE9D7";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		2;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
+		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
+		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
+		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	setAttr ".t" -type "double3" 38.8633861583046 0 15.801753089846507 ;
+	setAttr ".r" -type "double3" 0 84.629912380130634 0 ;
+	setAttr ".s" -type "double3" 1.9166873696562587 1.9166873696562587 1.9166873696562587 ;
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
+	setAttr ".assetName" -type "string" "Object/Palm_Tree";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_outputobj" 1;
+	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+createNode transform -n "line_object1" -p "Palm_Tree3";
+	rename -uid "CB260631-4B13-E79B-5798-26B4AF4916AA";
+createNode transform -n "merge3_0" -p "|Palm_Tree3|line_object1";
+	rename -uid "1314AE8E-402E-2068-B772-38A52DA41363";
+createNode mesh -n "merge3_0Shape" -p "|Palm_Tree3|line_object1|merge3_0";
+	rename -uid "790E5F96-43E2-6165-D200-EC8608DB529D";
+	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "merge3_1" -p "|Palm_Tree3|line_object1";
+	rename -uid "158DDBBD-4A71-1F46-1054-E6B32F75C1DA";
+createNode mesh -n "merge3_1Shape" -p "|Palm_Tree3|line_object1|merge3_1";
+	rename -uid "C48712A6-4404-9027-5790-34AB40EC3FB5";
+	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "Mushroom_Bunch";
+	rename -uid "49CEEC9C-4D20-027B-2FD5-2695E0D24022";
+	setAttr ".t" -type "double3" -18.47508591810027 0 23.365105604845951 ;
+	setAttr ".s" -type "double3" 0.24672586066026383 0.24672586066026383 0.24672586066026383 ;
+createNode houdiniAsset -n "Small_Bush11";
+	rename -uid "F379B809-47EA-13F5-3FF3-81B51DC41A9A";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		2;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
+		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
+		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
+		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".assetName" -type "string" "Object/Small_Bush";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_outputobj" 1;
+	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+createNode transform -n "line_object1" -p "Small_Bush11";
+	rename -uid "8D268770-42BB-1F57-2136-30BF02DA15A6";
+createNode transform -n "color1_0" -p "|Small_Bush11|line_object1";
+	rename -uid "779B37F1-42D7-6B08-C715-A79922C83AAC";
+	setAttr ".t" -type "double3" 45.998925480410328 0 67.95482947663362 ;
+createNode mesh -n "color1_0Shape" -p "|Small_Bush11|line_object1|color1_0";
+	rename -uid "A37553DB-4B75-413C-565C-6FAB26C84C3E";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "Tree_Anna2";
+	rename -uid "496F0081-40CF-5D8F-1DBB-4595112E210B";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		4;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
+		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
+		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
+		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
+		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
+		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
+		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
+		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
+		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
+	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
+		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
+		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
+		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
+		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
+		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
+		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
+		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
+		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
+		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
+		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
+		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
+	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
+		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
+		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
+	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
+		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
+		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
+		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
+		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
+		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
+		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
+	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
+		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
+		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
+		-p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
+		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
+		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
+		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
+		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
+		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
+		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
+		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
+		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
+		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
+		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
+		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
+		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
+		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
+		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
+		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
+		3;
+	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
+		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
+		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
+		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Tree_Anna.hdanc";
+	setAttr ".assetName" -type "string" "Object/Tree.Anna";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
+	setAttr ".houdiniAssetParm_categories" -type "string" "";
+	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
+	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
+	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
+	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
+	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
+	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
+	setAttr ".houdiniAssetParm_vm_pointscale" 1;
+	setAttr ".houdiniAssetParm_vm_coving" 1;
+	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
+	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
+	setAttr ".houdiniAssetParm_use_dcolor" yes;
+	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+	setAttr ".houdiniAssetParm_renderable" yes;
+createNode transform -n "Tree_Anna2" -p "|Tree_Anna2";
+	rename -uid "BCE5C123-420F-6BF7-007D-F38E80A546C1";
+createNode transform -n "merge1_0" -p "|Tree_Anna2|Tree_Anna2";
+	rename -uid "FFF4F86A-4CE5-494B-8EEC-03BD56596575";
+	setAttr ".t" -type "double3" -30.501160570539298 0 0 ;
+	setAttr ".s" -type "double3" 10.38849559061603 10.38849559061603 10.38849559061603 ;
+createNode mesh -n "merge1_0Shape" -p "|Tree_Anna2|Tree_Anna2|merge1_0";
+	rename -uid "1F1E3768-4A99-E5D8-3A02-2C96935AC321";
+	setAttr -k off ".v";
+	setAttr -s 2 ".iog[0].og";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "Short_Palm2";
+	rename -uid "4226460A-4633-D6E4-3F28-499DE2C70CE7";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		2;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
+		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
+		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:grid1" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
+		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Short_Palm_SC.hdanc";
+	setAttr ".assetName" -type "string" "Object/Short_Palm";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_outputobj" 1;
+	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+createNode transform -n "grid1" -p "Short_Palm2";
+	rename -uid "65430B32-4237-C35F-409B-01A7F7A48C37";
+createNode transform -n "merge3_0" -p "|Short_Palm2|grid1";
+	rename -uid "657D85A2-4AAA-DCC5-F65A-B88526AEFF5C";
+	setAttr ".t" -type "double3" -11.763929159710385 -3.5937799872124661 0 ;
+	setAttr ".s" -type "double3" 0.18796407121948838 0.18796407121948838 0.18796407121948838 ;
+createNode mesh -n "merge3_0Shape" -p "|Short_Palm2|grid1|merge3_0";
+	rename -uid "47CD3377-42F8-8D9E-7FB0-E69F86883D26";
+	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "Short_Palm3";
+	rename -uid "B32CD96F-4DAA-2E33-89E7-A9981018451D";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		2;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
+		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
+		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:grid1" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
+		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/trees/Short_Palm_SC.hdanc";
+	setAttr ".assetName" -type "string" "Object/Short_Palm";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_outputobj" 1;
+	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+createNode transform -n "grid1" -p "Short_Palm3";
+	rename -uid "5F7DEFE7-4DC6-213B-ADA6-2FA0A0C43B41";
+createNode transform -n "merge3_0" -p "|Short_Palm3|grid1";
+	rename -uid "A884AFDB-46F3-BEB1-3CA6-27A6965B2E16";
+	setAttr ".t" -type "double3" 49.154782657962386 -1.7361813639874102 57.65731121185204 ;
+	setAttr ".s" -type "double3" 0.20366006048317306 0.20366006048317306 0.20366006048317306 ;
+createNode mesh -n "merge3_0Shape" -p "|Short_Palm3|grid1|merge3_0";
+	rename -uid "65E19A76-4D17-8621-01B1-9DA33E49B9AA";
+	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "shaun_bush_fern4";
+	rename -uid "C31490E5-4076-6370-B3EA-239C3F2663AB";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		9;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
+		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_shop_materialpath__node" -ln "houdiniAssetParm_shop_materialpath__node" 
+		-nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
+		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
+		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
+		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
+		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
+		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
+		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
+	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
+		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
+		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
+		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
+		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
+		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
+		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
+		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
+		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
+		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
+		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
+		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
+	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
+		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
+		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
+	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
+		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
+		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
+		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
+		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
+		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
+		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
+	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
+		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_shop_geometrypath__node" -ln "houdiniAssetParm_shop_geometrypath__node" 
+		-nn "Procedural Shader" -dv -1 -at "long" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
+		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
+		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
+		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
+		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
+		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
+		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
+		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
+		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
+		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
+		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
+		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
+		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
+		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
+		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
+		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
+		3;
+	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
+		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
+		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
+		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
+		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
+		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
+		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
+		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
+	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
+		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
+	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
+	setAttr ".houdiniAssetParm_categories" -type "string" "";
+	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
+	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
+	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
+	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
+	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
+	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
+	setAttr ".houdiniAssetParm_vm_pointscale" 1;
+	setAttr ".houdiniAssetParm_vm_coving" 1;
+	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
+	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
+	setAttr ".houdiniAssetParm_use_dcolor" yes;
+	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+	setAttr ".houdiniAssetParm_renderable" yes;
+	setAttr ".houdiniAssetParm_Branches" 10;
+	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
+	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
+	setAttr ".houdiniAssetParm_Size" 0.5;
+	setAttr ".houdiniAssetParm_Leaf" 7.5;
+createNode transform -n "shaun_bush_fern4" -p "|shaun_bush_fern4";
+	rename -uid "43F884B3-4A44-B448-EBE7-BAA2224714F7";
+createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern4|shaun_bush_fern4";
+	rename -uid "3431DF79-400F-803B-A3D0-C9A22EC66FE1";
+	setAttr ".t" -type "double3" 42.679902331460688 0 53.462297306380016 ;
+	setAttr ".r" -type "double3" 0 63.540847916170364 0 ;
+	setAttr ".s" -type "double3" 2.1041948087960467 2.1041948087960467 2.1041948087960467 ;
+createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0";
+	rename -uid "E3FCD51F-4C5A-D06E-D3E4-E79E74E9003E";
+	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
+	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
+	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
+	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
+	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
+	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "Small_Bush12";
+	rename -uid "929F638A-4EC8-4420-B5E7-ED906073EE61";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		2;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
+		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
+		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
+		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".assetName" -type "string" "Object/Small_Bush";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_outputobj" 1;
+	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+createNode transform -n "line_object1" -p "Small_Bush12";
+	rename -uid "517A6F6E-4407-4A46-3C86-BA81A863F77F";
+createNode transform -n "color1_0" -p "|Small_Bush12|line_object1";
+	rename -uid "AE6613DA-4506-2425-C0CD-4EB2A0A7CECA";
+	setAttr ".t" -type "double3" 44.338465538029524 0 45.242026305116383 ;
+	setAttr ".s" -type "double3" 0.66955608253369425 0.66955608253369425 0.66955608253369425 ;
+createNode mesh -n "color1_0Shape" -p "|Small_Bush12|line_object1|color1_0";
+	rename -uid "C6CD107E-4850-E612-C1D9-F5B0CB49A49E";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "Small_Bush13";
+	rename -uid "FBECC337-40E9-0D08-95E9-BF9FC421141C";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		2;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
+		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
+		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
+		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".assetName" -type "string" "Object/Small_Bush";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_outputobj" 1;
+	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+createNode transform -n "line_object1" -p "Small_Bush13";
+	rename -uid "FE24DE1F-417A-FEB8-0F59-5B86D78A6441";
+createNode transform -n "color1_0" -p "|Small_Bush13|line_object1";
+	rename -uid "FF507D97-4B4F-E3EE-C8C5-D089AD9A4078";
+	setAttr ".t" -type "double3" -7.0431845664187263 0 86.245822563493832 ;
+	setAttr ".r" -type "double3" 0 -61.538916506485016 0 ;
+	setAttr ".s" -type "double3" 1.4505001300490985 1.4505001300490985 1.4505001300490985 ;
+createNode mesh -n "color1_0Shape" -p "|Small_Bush13|line_object1|color1_0";
+	rename -uid "7F406031-4EF4-5A46-2E85-C4B8DF38FB60";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode houdiniAsset -n "Small_Bush14";
+	rename -uid "FB63FBCD-4FD3-178F-FD7A-40A8EC714D12";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		2;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
+		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
+		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
+		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU/assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
+	setAttr ".assetName" -type "string" "Object/Small_Bush";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_outputobj" 1;
+	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+createNode transform -n "line_object1" -p "Small_Bush14";
+	rename -uid "9666E64D-48C3-EB86-7572-D09424D7F5E4";
+createNode transform -n "color1_0" -p "|Small_Bush14|line_object1";
+	rename -uid "5CCA9A82-484F-F347-3F89-64AE98035D1C";
+	setAttr ".t" -type "double3" -6.934993946817464 0 83.63090063813253 ;
+	setAttr ".s" -type "double3" 0.71762023028460509 0.71762023028460509 0.71762023028460509 ;
+createNode mesh -n "color1_0Shape" -p "|Small_Bush14|line_object1|color1_0";
+	rename -uid "28BB7FD4-4BCC-71BC-ECD6-CA80FFC699FA";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "8F036B99-43E9-E20D-469B-A59EE6F037AF";
-	setAttr -s 227 ".lnk";
-	setAttr -s 227 ".slnk";
+	rename -uid "0CC0595A-4B46-9BCA-1D15-148234C8EE3E";
+	setAttr -s 543 ".lnk";
+	setAttr -s 543 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "10404223-4F3F-455E-536A-3AA579AFD95A";
+	rename -uid "33490283-4B30-0D87-0CBE-50AB10B1A3A1";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "A3CEE006-4A99-8815-94A0-F98F6B7490E2";
+	rename -uid "D89BF061-4992-A2C6-16DE-8A84C12C620B";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "45C411DA-4D59-B4A9-778F-BF9CB8278ADC";
+	rename -uid "C4DA4FD4-4B10-047E-E548-5BB82694D60A";
 	setAttr ".cdl" 5;
 	setAttr -s 8 ".dli[1:7]"  6 1 8 4 5 2 7;
 	setAttr -s 7 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "7EEFA473-4D48-8C73-89BC-47BEC5AA502D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "90F2245F-4D96-98CB-D015-9B9292FF1BEE";
+	rename -uid "E3281726-4ED2-20FB-56E2-7A98FCCAFC7C";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "A049D010-441C-07BA-D3C9-199A61794303";
 	setAttr ".g" yes;
@@ -1993,9 +4153,9 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n"
 		+ "\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n"
 		+ "            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n"
-		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1284\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
+		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1283\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n"
-		+ "            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
+		+ "            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 1\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
 		+ "            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n"
 		+ "            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n"
 		+ "            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"graphEditor\" (localizedPanelLabel(\"Graph Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Graph Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"OutlineEd\");\n            outlinerEditor -e \n                -showShapes 1\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n"
@@ -2019,8 +4179,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1284\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1284\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1283\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1283\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 200 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -3785,12 +5945,13 @@ createNode reference -n "Bamboo_DERN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN"
 		"Bamboo_DERN" 0
-		"Bamboo_DERN" 3
-		2 "|Bamboo_DE:Bamboo" "translate" " -type \"double3\" -15.933368718556899 3.4114862990668966 44.662252240958516"
+		"Bamboo_DERN" 4
+		0 "|Bamboo_DE:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE:Bamboo" "translate" " -type \"double3\" -15.933368718556899 3.4114862990668966 44.662252240958516"
 		
-		2 "|Bamboo_DE:Bamboo" "rotate" " -type \"double3\" 0 65.072579363345326 0"
+		2 "|Bamboo|Bamboo_DE:Bamboo" "rotate" " -type \"double3\" 0 65.072579363345326 0"
 		
-		2 "|Bamboo_DE:Bamboo" "scale" " -type \"double3\" 1.5642496547548981 1.5642496547548981 1.5642496547548981";
+		2 "|Bamboo|Bamboo_DE:Bamboo" "scale" " -type \"double3\" 1.5642496547548981 1.5642496547548981 1.5642496547548981";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN1";
@@ -3798,94 +5959,104 @@ createNode reference -n "Bamboo_DERN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN1"
 		"Bamboo_DERN1" 0
-		"Bamboo_DERN1" 2
-		2 "|Bamboo_DE1:Bamboo" "translate" " -type \"double3\" -13.648071458345079 5.9350770861963991 42.969471527869096"
+		"Bamboo_DERN1" 3
+		0 "|Bamboo_DE1:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE1:Bamboo" "translate" " -type \"double3\" -13.648071458345079 5.9350770861963991 42.969471527869096"
 		
-		2 "|Bamboo_DE1:Bamboo" "scale" " -type \"double3\" 1.9215495562790614 1.9215495562790614 1.9215495562790614";
+		2 "|Bamboo|Bamboo_DE1:Bamboo" "scale" " -type \"double3\" 1.9215495562790614 1.9215495562790614 1.9215495562790614";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN2";
 	rename -uid "7EFD7C5B-45DC-24D1-9BE1-9AB80E1C5374";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN2"
 		"Bamboo_DERN2" 0
-		"Bamboo_DERN2" 2
-		2 "|Bamboo_DE2:Bamboo" "translate" " -type \"double3\" -17.081759647622604 2.9509287939256108 39.21794333106628"
+		"Bamboo_DERN2" 3
+		0 "|Bamboo_DE2:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE2:Bamboo" "translate" " -type \"double3\" -17.081759647622604 2.9509287939256108 39.21794333106628"
 		
-		2 "|Bamboo_DE2:Bamboo" "scale" " -type \"double3\" 1.5744000037348016 1.5744000037348016 1.5744000037348016";
+		2 "|Bamboo|Bamboo_DE2:Bamboo" "scale" " -type \"double3\" 1.5744000037348016 1.5744000037348016 1.5744000037348016";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN";
 	rename -uid "E34DED77-442C-856F-5E87-0DBC59243F26";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN"
 		"Bamboo_DE2RN" 0
-		"Bamboo_DE2RN" 3
-		2 "|Bamboo_DE3:Bamboo" "translate" " -type \"double3\" -27.757295419992502 8.6674686817066657 37.465596768388103"
+		"Bamboo_DE2RN" 4
+		0 "|Bamboo_DE3:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE3:Bamboo" "translate" " -type \"double3\" -27.757295419992502 8.6674686817066657 37.465596768388103"
 		
-		2 "|Bamboo_DE3:Bamboo" "rotate" " -type \"double3\" 0 -44.516240935929822 0"
+		2 "|Bamboo|Bamboo_DE3:Bamboo" "rotate" " -type \"double3\" 0 -44.516240935929822 0"
 		
-		2 "|Bamboo_DE3:Bamboo" "scale" " -type \"double3\" 2.56735085359256 2.56735085359256 2.56735085359256";
+		2 "|Bamboo|Bamboo_DE3:Bamboo" "scale" " -type \"double3\" 2.56735085359256 2.56735085359256 2.56735085359256";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN";
 	rename -uid "79EF3477-4A53-A803-3506-EA97F97D5187";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN"
 		"Bamboo_DE3RN" 0
-		"Bamboo_DE3RN" 3
-		2 "|Bamboo_DE4:Bamboo" "translate" " -type \"double3\" -15.423966988559616 3.7944327618671547 36.05667473848311"
+		"Bamboo_DE3RN" 4
+		0 "|Bamboo_DE4:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE4:Bamboo" "translate" " -type \"double3\" -15.423966988559616 3.7944327618671547 36.05667473848311"
 		
-		2 "|Bamboo_DE4:Bamboo" "rotate" " -type \"double3\" 0 141.10191052326576 0"
+		2 "|Bamboo|Bamboo_DE4:Bamboo" "rotate" " -type \"double3\" 0 141.10191052326576 0"
 		
-		2 "|Bamboo_DE4:Bamboo" "scale" " -type \"double3\" 1.6640402872179401 1.6640402872179401 1.6640402872179401";
+		2 "|Bamboo|Bamboo_DE4:Bamboo" "scale" " -type \"double3\" 1.6640402872179401 1.6640402872179401 1.6640402872179401";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN3";
 	rename -uid "956610F7-416D-C306-0B82-CC94D3A3F49B";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN3"
 		"Bamboo_DERN3" 0
-		"Bamboo_DERN3" 3
-		2 "|Bamboo_DE5:Bamboo" "translate" " -type \"double3\" -25.379423255599811 6.7849612377280186 41.012410864227945"
+		"Bamboo_DERN3" 4
+		0 "|Bamboo_DE5:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE5:Bamboo" "translate" " -type \"double3\" -25.379423255599811 6.7849612377280186 41.012410864227945"
 		
-		2 "|Bamboo_DE5:Bamboo" "rotate" " -type \"double3\" 0 54.367459057697467 0"
+		2 "|Bamboo|Bamboo_DE5:Bamboo" "rotate" " -type \"double3\" 0 54.367459057697467 0"
 		
-		2 "|Bamboo_DE5:Bamboo" "scale" " -type \"double3\" 2.0418969278441454 2.0418969278441454 2.0418969278441454";
+		2 "|Bamboo|Bamboo_DE5:Bamboo" "scale" " -type \"double3\" 2.0418969278441454 2.0418969278441454 2.0418969278441454";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN";
 	rename -uid "50A8DDB7-47D1-7D80-3BB1-729DC0959F6A";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN"
 		"Bamboo_DE1RN" 0
-		"Bamboo_DE1RN" 3
-		2 "|Bamboo_DE6:Bamboo" "translate" " -type \"double3\" -20.008588233299239 2.7753875082215371 47.262421318874786"
+		"Bamboo_DE1RN" 4
+		0 "|Bamboo_DE6:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE6:Bamboo" "translate" " -type \"double3\" -20.008588233299239 2.7753875082215371 47.262421318874786"
 		
-		2 "|Bamboo_DE6:Bamboo" "rotate" " -type \"double3\" 0 -39.205040588945096 0"
+		2 "|Bamboo|Bamboo_DE6:Bamboo" "rotate" " -type \"double3\" 0 -39.205040588945096 0"
 		
-		2 "|Bamboo_DE6:Bamboo" "scale" " -type \"double3\" 1.4903339759747249 1.4903339759747249 1.4903339759747249";
+		2 "|Bamboo|Bamboo_DE6:Bamboo" "scale" " -type \"double3\" 1.4903339759747249 1.4903339759747249 1.4903339759747249";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN1";
 	rename -uid "08680CA3-449A-52CE-DDBF-CBA4600A4609";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN1"
 		"Bamboo_DE2RN1" 0
-		"Bamboo_DE2RN1" 3
-		2 "|Bamboo_DE7:Bamboo" "translate" " -type \"double3\" -13.481889680801769 2.4426708418407044 32.009042896454162"
+		"Bamboo_DE2RN1" 4
+		0 "|Bamboo_DE7:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE7:Bamboo" "translate" " -type \"double3\" -13.481889680801769 2.4426708418407044 32.009042896454162"
 		
-		2 "|Bamboo_DE7:Bamboo" "rotate" " -type \"double3\" 0 -33.261234992944416 0"
+		2 "|Bamboo|Bamboo_DE7:Bamboo" "rotate" " -type \"double3\" 0 -33.261234992944416 0"
 		
-		2 "|Bamboo_DE7:Bamboo" "scale" " -type \"double3\" 1.422925772231393 1.422925772231393 1.422925772231393";
+		2 "|Bamboo|Bamboo_DE7:Bamboo" "scale" " -type \"double3\" 1.422925772231393 1.422925772231393 1.422925772231393";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN";
 	rename -uid "0D3E7484-4320-D5D8-A9BC-B6B766519E70";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN"
 		"Bamboo_DE4RN" 0
-		"Bamboo_DE4RN" 2
-		2 "|Bamboo_DE8:Bamboo" "translate" " -type \"double3\" -21.969709353873242 1.4107477690125734 33.496172642977413"
+		"Bamboo_DE4RN" 3
+		0 "|Bamboo_DE8:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE8:Bamboo" "translate" " -type \"double3\" -21.969709353873242 1.4107477690125734 33.496172642977413"
 		
-		2 "|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 1.4446392039734799 1.4446392039734799 1.4446392039734799";
+		2 "|Bamboo|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 1.4446392039734799 1.4446392039734799 1.4446392039734799";
 lockNode -l 1 ;
 createNode objectSet -n "leaf";
 	rename -uid "BB4E174A-48D9-18B8-5E1F-10AF16A7F8C2";
 	setAttr ".ihi" 0;
+	setAttr -s 2 ".dsm";
+	setAttr -s 2 ".gn";
 createNode groupId -n "groupId1";
 	rename -uid "D0495E31-4742-4D13-D3FC-669825A578D2";
 	setAttr ".ihi" 0;
@@ -3898,100 +6069,109 @@ createNode reference -n "Bamboo_DE8RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE8RN"
 		"Bamboo_DE8RN" 0
-		"Bamboo_DE8RN" 3
-		2 "|Bamboo_DE9:Bamboo" "translate" " -type \"double3\" -14.739511946902518 3.7213903383031299 20.519509495284652"
+		"Bamboo_DE8RN" 4
+		0 "|Bamboo_DE9:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE9:Bamboo" "translate" " -type \"double3\" -14.739511946902518 3.7213903383031299 20.519509495284652"
 		
-		2 "|Bamboo_DE9:Bamboo" "rotate" " -type \"double3\" 0 -106.8765379821419 0"
+		2 "|Bamboo|Bamboo_DE9:Bamboo" "rotate" " -type \"double3\" 0 -106.8765379821419 0"
 		
-		2 "|Bamboo_DE9:Bamboo" "scale" " -type \"double3\" 1.6640307929896136 1.6640307929896136 1.6640307929896136";
+		2 "|Bamboo|Bamboo_DE9:Bamboo" "scale" " -type \"double3\" 1.6640307929896136 1.6640307929896136 1.6640307929896136";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE7RN";
 	rename -uid "B04CDB65-4C4B-51A1-63AA-F5BD3E461EE7";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN"
 		"Bamboo_DE7RN" 0
-		"Bamboo_DE7RN" 2
-		2 "|Bamboo_DE10:Bamboo" "translate" " -type \"double3\" -32.657494878774962 5.6312459524737282 24.352692511873531"
+		"Bamboo_DE7RN" 3
+		0 "|Bamboo_DE10:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE10:Bamboo" "translate" " -type \"double3\" -32.657494878774962 5.6312459524737282 24.352692511873531"
 		
-		2 "|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 2.4526006665181801 2.4526006665181801 2.4526006665181801";
+		2 "|Bamboo|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 2.4526006665181801 2.4526006665181801 2.4526006665181801";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE6RN";
 	rename -uid "4B6FB194-4660-497E-B365-42B80FD00047";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN"
 		"Bamboo_DE6RN" 0
-		"Bamboo_DE6RN" 3
-		2 "|Bamboo_DE11:Bamboo" "translate" " -type \"double3\" -26.034138194246452 8.6930658740897577 35.699503626778473"
+		"Bamboo_DE6RN" 4
+		0 "|Bamboo_DE11:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE11:Bamboo" "translate" " -type \"double3\" -23.99562874577445 8.6930658740897577 35.699503626778473"
 		
-		2 "|Bamboo_DE11:Bamboo" "rotate" " -type \"double3\" 0 164.83108100556439 0"
+		2 "|Bamboo|Bamboo_DE11:Bamboo" "rotate" " -type \"double3\" 0 164.83108100556439 0"
 		
-		2 "|Bamboo_DE11:Bamboo" "scale" " -type \"double3\" 2.3591667985050115 2.3591667985050115 2.3591667985050115";
+		2 "|Bamboo|Bamboo_DE11:Bamboo" "scale" " -type \"double3\" 2.3591667985050115 2.3591667985050115 2.3591667985050115";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE5RN";
 	rename -uid "567FEFB3-4D95-FEDD-F579-23906DBFCE02";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE5RN"
 		"Bamboo_DE5RN" 0
-		"Bamboo_DE5RN" 2
-		2 "|Bamboo_DE12:Bamboo" "translate" " -type \"double3\" -23.513505716057182 9.2687126389738346 47.010958288039028"
+		"Bamboo_DE5RN" 3
+		0 "|Bamboo_DE12:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE12:Bamboo" "translate" " -type \"double3\" -23.513505716057182 9.2687126389738346 47.010958288039028"
 		
-		2 "|Bamboo_DE12:Bamboo" "scale" " -type \"double3\" 2.4350391953486716 2.4350391953486716 2.4350391953486716";
+		2 "|Bamboo|Bamboo_DE12:Bamboo" "scale" " -type \"double3\" 2.4350391953486716 2.4350391953486716 2.4350391953486716";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN1";
 	rename -uid "A30B4FAE-4645-EDF1-ED62-7CA1CCDBE910";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN1"
 		"Bamboo_DE4RN1" 0
-		"Bamboo_DE4RN1" 3
-		2 "|Bamboo_DE13:Bamboo" "translate" " -type \"double3\" -15.509469408378859 7.2726481806632659 49.411013825082058"
+		"Bamboo_DE4RN1" 4
+		0 "|Bamboo_DE13:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE13:Bamboo" "translate" " -type \"double3\" -15.509469408378859 7.2726481806632659 49.411013825082058"
 		
-		2 "|Bamboo_DE13:Bamboo" "rotate" " -type \"double3\" 0 -33.413848253967039 0"
+		2 "|Bamboo|Bamboo_DE13:Bamboo" "rotate" " -type \"double3\" 0 -33.413848253967039 0"
 		
-		2 "|Bamboo_DE13:Bamboo" "scale" " -type \"double3\" 2.2729156069898839 2.2729156069898839 2.2729156069898839";
+		2 "|Bamboo|Bamboo_DE13:Bamboo" "scale" " -type \"double3\" 2.2729156069898839 2.2729156069898839 2.2729156069898839";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN1";
 	rename -uid "4057DB31-4B37-E661-F4FC-26BB7C8DF468";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN1"
 		"Bamboo_DE3RN1" 0
-		"Bamboo_DE3RN1" 2
-		2 "|Bamboo_DE14:Bamboo" "translate" " -type \"double3\" -12.069747405367528 5.818232883487684 27.19447806962274"
+		"Bamboo_DE3RN1" 3
+		0 "|Bamboo_DE14:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE14:Bamboo" "translate" " -type \"double3\" -12.069747405367528 5.818232883487684 27.19447806962274"
 		
-		2 "|Bamboo_DE14:Bamboo" "scale" " -type \"double3\" 1.921550392625154 1.921550392625154 1.921550392625154";
+		2 "|Bamboo|Bamboo_DE14:Bamboo" "scale" " -type \"double3\" 1.921550392625154 1.921550392625154 1.921550392625154";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN2";
 	rename -uid "45C1D42C-4976-76BA-03F7-18B431FB1107";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN2"
 		"Bamboo_DE2RN2" 0
-		"Bamboo_DE2RN2" 3
-		2 "|Bamboo_DE15:Bamboo" "translate" " -type \"double3\" -18.876374338188342 8.4938821657540444 17.478574415610016"
+		"Bamboo_DE2RN2" 4
+		0 "|Bamboo_DE15:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE15:Bamboo" "translate" " -type \"double3\" -18.876374338188342 8.4938821657540444 18.74680709630551"
 		
-		2 "|Bamboo_DE15:Bamboo" "rotate" " -type \"double3\" 0 52.658387336419324 0"
+		2 "|Bamboo|Bamboo_DE15:Bamboo" "rotate" " -type \"double3\" 0 52.658387336419324 0"
 		
-		2 "|Bamboo_DE15:Bamboo" "scale" " -type \"double3\" 2.4833534504570447 2.4833534504570447 2.4833534504570447";
+		2 "|Bamboo|Bamboo_DE15:Bamboo" "scale" " -type \"double3\" 2.4833534504570447 2.4833534504570447 2.4833534504570447";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN4";
 	rename -uid "84AE1592-484B-C903-FA57-AA8A4116AF03";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN4"
 		"Bamboo_DERN4" 0
-		"Bamboo_DERN4" 2
-		2 "|Bamboo_DE16:Bamboo" "translate" " -type \"double3\" -12.814294727723681 4.8783367452575446 40.466951796848981"
+		"Bamboo_DERN4" 3
+		0 "|Bamboo_DE16:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE16:Bamboo" "translate" " -type \"double3\" -12.814294727723681 4.8783367452575446 40.466951796848981"
 		
-		2 "|Bamboo_DE16:Bamboo" "scale" " -type \"double3\" 1.8426172591524983 1.8426172591524983 1.8426172591524983";
+		2 "|Bamboo|Bamboo_DE16:Bamboo" "scale" " -type \"double3\" 1.8426172591524983 1.8426172591524983 1.8426172591524983";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN1";
 	rename -uid "5AC08FFC-4BC6-C825-01CF-13967440E474";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN1"
 		"Bamboo_DE1RN1" 0
-		"Bamboo_DE1RN1" 3
-		2 "|Bamboo_DE17:Bamboo" "translate" " -type \"double3\" -21.795156702860616 8.2568938735343167 28.505245141530093"
+		"Bamboo_DE1RN1" 4
+		0 "|Bamboo_DE17:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE17:Bamboo" "translate" " -type \"double3\" -21.795156702860616 8.2568938735343167 28.505245141530093"
 		
-		2 "|Bamboo_DE17:Bamboo" "rotate" " -type \"double3\" 0 -64.293186429056462 0"
+		2 "|Bamboo|Bamboo_DE17:Bamboo" "rotate" " -type \"double3\" 0 -64.293186429056462 0"
 		
-		2 "|Bamboo_DE17:Bamboo" "scale" " -type \"double3\" 2.3610121993638842 2.3610121993638842 2.3610121993638842";
+		2 "|Bamboo|Bamboo_DE17:Bamboo" "scale" " -type \"double3\" 2.3610121993638842 2.3610121993638842 2.3610121993638842";
 lockNode -l 1 ;
 createNode reference -n "Fern_DERN";
 	rename -uid "EED2DEF5-4390-AE88-12C1-40BD9806ABA6";
@@ -3999,7 +6179,7 @@ createNode reference -n "Fern_DERN";
 		"Fern_DERN"
 		"Fern_DERN" 0
 		"Fern_DERN" 1
-		2 "|Fern_DE:Bush" "translate" " -type \"double3\" -8.9275734161389799 0 41.513734228333277";
+		2 "|Fern_DE:Bush" "translate" " -type \"double3\" -10.641192479952176 0 41.513734228333277";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Fern_DERN1";
@@ -4017,266 +6197,291 @@ createNode reference -n "Bamboo_DE16RN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE16RN"
 		"Bamboo_DE16RN" 0
-		"Bamboo_DE16RN" 3
-		2 "|Bamboo_DE18:Bamboo" "translate" " -type \"double3\" -15.186481519495544 6.7646684660005967 61.233300209843051"
+		"Bamboo_DE16RN" 4
+		0 "|Bamboo_DE18:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE18:Bamboo" "translate" " -type \"double3\" -15.186481519495544 6.7646684660005967 61.233300209843051"
 		
-		2 "|Bamboo_DE18:Bamboo" "rotate" " -type \"double3\" 0 -119.28184722390597 0"
+		2 "|Bamboo|Bamboo_DE18:Bamboo" "rotate" " -type \"double3\" 0 -119.28184722390597 0"
 		
-		2 "|Bamboo_DE18:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE18:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE11RN";
 	rename -uid "7FD03B65-49AF-ED89-C21D-34A8802047C3";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE11RN"
 		"Bamboo_DE11RN" 0
-		"Bamboo_DE11RN" 2
-		2 "|Bamboo_DE19:Bamboo" "translate" " -type \"double3\" -22.491737992756377 6.7646684660005967 77.70911598173447"
+		"Bamboo_DE11RN" 3
+		0 "|Bamboo_DE19:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE19:Bamboo" "translate" " -type \"double3\" -24.884559613664308 6.7646684660005967 77.70911598173447"
 		
-		2 "|Bamboo_DE19:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE19:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE13RN";
 	rename -uid "156CDC9F-4985-2191-111F-83AD5A72693C";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE13RN"
 		"Bamboo_DE13RN" 0
-		"Bamboo_DE13RN" 3
-		2 "|Bamboo_DE20:Bamboo" "translate" " -type \"double3\" -12.113893683807831 6.7646684660005967 64.829372464771268"
+		"Bamboo_DE13RN" 4
+		0 "|Bamboo_DE20:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE20:Bamboo" "translate" " -type \"double3\" -12.113893683807831 6.7646684660005967 64.829372464771268"
 		
-		2 "|Bamboo_DE20:Bamboo" "rotate" " -type \"double3\" 0 -181.00940839049812 0"
+		2 "|Bamboo|Bamboo_DE20:Bamboo" "rotate" " -type \"double3\" 0 -181.00940839049812 0"
 		
-		2 "|Bamboo_DE20:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE20:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE12RN";
 	rename -uid "D828F204-4995-DE79-8861-A5ADF4581F06";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE12RN"
 		"Bamboo_DE12RN" 0
-		"Bamboo_DE12RN" 2
-		2 "|Bamboo_DE21:Bamboo" "translate" " -type \"double3\" -22.491737992756377 6.7646684660005967 77.70911598173447"
+		"Bamboo_DE12RN" 4
+		0 "|Bamboo_DE21:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE21:Bamboo" "translate" " -type \"double3\" -23.205876655520765 6.7646684660005967 74.131962567033128"
 		
-		2 "|Bamboo_DE21:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE21:Bamboo" "rotate" " -type \"double3\" 0 -208.59892637726585 0"
+		
+		2 "|Bamboo|Bamboo_DE21:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN2";
 	rename -uid "B7A68217-4039-F187-5229-C4ABDBE5D747";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN2"
 		"Bamboo_DE4RN2" 0
-		"Bamboo_DE4RN2" 3
-		2 "|Bamboo_DE22:Bamboo" "translate" " -type \"double3\" -12.817723372371466 6.7646684660005967 77.70911598173447"
+		"Bamboo_DE4RN2" 4
+		0 "|Bamboo_DE22:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE22:Bamboo" "translate" " -type \"double3\" -12.817723372371466 6.7646684660005967 77.70911598173447"
 		
-		2 "|Bamboo_DE22:Bamboo" "rotate" " -type \"double3\" 0 83.50936848880697 0"
+		2 "|Bamboo|Bamboo_DE22:Bamboo" "rotate" " -type \"double3\" 0 83.50936848880697 0"
 		
-		2 "|Bamboo_DE22:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE22:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN2";
 	rename -uid "88A206E3-4F75-B858-3DA6-80BFE880E375";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN2"
 		"Bamboo_DE3RN2" 0
-		"Bamboo_DE3RN2" 3
-		2 "|Bamboo_DE23:Bamboo" "translate" " -type \"double3\" -18.766147691378514 6.7646684660005967 85.513942749377861"
+		"Bamboo_DE3RN2" 4
+		0 "|Bamboo_DE23:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE23:Bamboo" "translate" " -type \"double3\" -23.479062373359042 6.7646684660005967 85.513942749377861"
 		
-		2 "|Bamboo_DE23:Bamboo" "rotate" " -type \"double3\" 0 135.51659624736675 0"
+		2 "|Bamboo|Bamboo_DE23:Bamboo" "rotate" " -type \"double3\" 0 135.51659624736675 0"
 		
-		2 "|Bamboo_DE23:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE23:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE8RN1";
 	rename -uid "71B3F381-4B7B-6798-1237-DDAEAF7D2E82";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE8RN1"
 		"Bamboo_DE8RN1" 0
-		"Bamboo_DE8RN1" 3
-		2 "|Bamboo_DE24:Bamboo" "translate" " -type \"double3\" -16.056608648935828 6.7646684660005967 68.085433729838243"
+		"Bamboo_DE8RN1" 4
+		0 "|Bamboo_DE24:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE24:Bamboo" "translate" " -type \"double3\" -16.056608648935828 6.7646684660005967 68.085433729838243"
 		
-		2 "|Bamboo_DE24:Bamboo" "rotate" " -type \"double3\" 0 -52.664162969178385 0"
+		2 "|Bamboo|Bamboo_DE24:Bamboo" "rotate" " -type \"double3\" 0 -52.664162969178385 0"
 		
-		2 "|Bamboo_DE24:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE24:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE7RN1";
 	rename -uid "79FCB732-4D0B-E662-F1F2-6AA100B097B0";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN1"
 		"Bamboo_DE7RN1" 0
-		"Bamboo_DE7RN1" 2
-		2 "|Bamboo_DE25:Bamboo" "translate" " -type \"double3\" -19.011900345930975 8.1986593167364674 57.109874546118604"
+		"Bamboo_DE7RN1" 3
+		0 "|Bamboo_DE25:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE25:Bamboo" "translate" " -type \"double3\" -19.011900345930975 8.1986593167364674 57.109874546118604"
 		
-		2 "|Bamboo_DE25:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE25:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE6RN1";
 	rename -uid "E88B546B-4A7D-C492-C390-EBAAFF110767";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN1"
 		"Bamboo_DE6RN1" 0
-		"Bamboo_DE6RN1" 3
-		2 "|Bamboo_DE26:Bamboo" "translate" " -type \"double3\" -14.159911557438091 8.1986593167364674 73.752626622362413"
+		"Bamboo_DE6RN1" 4
+		0 "|Bamboo_DE26:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE26:Bamboo" "translate" " -type \"double3\" -14.159911557438091 8.1986593167364674 73.752626622362413"
 		
-		2 "|Bamboo_DE26:Bamboo" "rotate" " -type \"double3\" 0 150.18571137253517 0"
+		2 "|Bamboo|Bamboo_DE26:Bamboo" "rotate" " -type \"double3\" 0 150.18571137253517 0"
 		
-		2 "|Bamboo_DE26:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE26:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE5RN1";
 	rename -uid "12F89A41-4CE1-5788-B2C4-DF9A9FC0DACE";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE5RN1"
 		"Bamboo_DE5RN1" 0
-		"Bamboo_DE5RN1" 2
-		2 "|Bamboo_DE27:Bamboo" "translate" " -type \"double3\" -22.491737992756377 8.1986593167364674 63.642823390283525"
+		"Bamboo_DE5RN1" 3
+		0 "|Bamboo_DE27:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE27:Bamboo" "translate" " -type \"double3\" -22.491737992756377 8.1986593167364674 63.642823390283525"
 		
-		2 "|Bamboo_DE27:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE27:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN3";
 	rename -uid "BA91EA1E-4809-7ECF-5520-1DB6DD4E4685";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN3"
 		"Bamboo_DE2RN3" 0
-		"Bamboo_DE2RN3" 3
-		2 "|Bamboo_DE28:Bamboo" "translate" " -type \"double3\" -14.317114316059751 8.1986593167364674 83.114124909889014"
+		"Bamboo_DE2RN3" 4
+		0 "|Bamboo_DE28:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE28:Bamboo" "translate" " -type \"double3\" -14.317114316059751 8.1986593167364674 83.114124909889014"
 		
-		2 "|Bamboo_DE28:Bamboo" "rotate" " -type \"double3\" 0 -36.057969074512712 0"
+		2 "|Bamboo|Bamboo_DE28:Bamboo" "rotate" " -type \"double3\" 0 -36.057969074512712 0"
 		
-		2 "|Bamboo_DE28:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE28:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN2";
 	rename -uid "41D02257-46E7-3276-02B3-AB8993D77A22";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN2"
 		"Bamboo_DE1RN2" 0
-		"Bamboo_DE1RN2" 3
-		2 "|Bamboo_DE29:Bamboo" "translate" " -type \"double3\" -21.158463576800195 8.1986593167364674 70.219029570278195"
+		"Bamboo_DE1RN2" 4
+		0 "|Bamboo_DE29:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE29:Bamboo" "translate" " -type \"double3\" -21.158463576800195 8.1986593167364674 70.219029570278195"
 		
-		2 "|Bamboo_DE29:Bamboo" "rotate" " -type \"double3\" 0 64.072072239873989 0"
+		2 "|Bamboo|Bamboo_DE29:Bamboo" "rotate" " -type \"double3\" 0 64.072072239873989 0"
 		
-		2 "|Bamboo_DE29:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE29:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN5";
 	rename -uid "90DCF551-41AB-1C6C-7785-89AE2AFE2759";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN5"
 		"Bamboo_DERN5" 0
-		"Bamboo_DERN5" 3
-		2 "|Bamboo_DE30:Bamboo" "translate" " -type \"double3\" -25.992958032263143 8.1986593167364674 52.350879449120036"
+		"Bamboo_DERN5" 4
+		0 "|Bamboo_DE30:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE30:Bamboo" "translate" " -type \"double3\" -25.992958032263143 8.1986593167364674 52.350879449120036"
 		
-		2 "|Bamboo_DE30:Bamboo" "rotate" " -type \"double3\" 0 47.867237200988932 0"
+		2 "|Bamboo|Bamboo_DE30:Bamboo" "rotate" " -type \"double3\" 0 47.867237200988932 0"
 		
-		2 "|Bamboo_DE30:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE30:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE29RN";
 	rename -uid "7EE1E7BD-4D79-2E75-60A1-00BCD61B95D8";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE29RN"
 		"Bamboo_DE29RN" 0
-		"Bamboo_DE29RN" 2
-		2 "|Bamboo_DE31:Bamboo" "translate" " -type \"double3\" -14.255379335447152 8.2007846034004537 92.093936540364339"
+		"Bamboo_DE29RN" 3
+		0 "|Bamboo_DE31:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE31:Bamboo" "translate" " -type \"double3\" -22.338104212597525 8.2007846034004537 92.093936540364339"
 		
-		2 "|Bamboo_DE31:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE31:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE28RN";
 	rename -uid "C756C020-409E-18FD-03AB-EFA0025CC3BB";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE28RN"
 		"Bamboo_DE28RN" 0
-		"Bamboo_DE28RN" 3
-		2 "|Bamboo_DE32:Bamboo" "translate" " -type \"double3\" -24.590290997349761 8.2007846034004537 82.49423367821943"
+		"Bamboo_DE28RN" 4
+		0 "|Bamboo_DE32:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE32:Bamboo" "translate" " -type \"double3\" -24.590290997349761 8.2007846034004537 82.49423367821943"
 		
-		2 "|Bamboo_DE32:Bamboo" "rotate" " -type \"double3\" 0 86.458926064222581 0"
+		2 "|Bamboo|Bamboo_DE32:Bamboo" "rotate" " -type \"double3\" 0 86.458926064222581 0"
 		
-		2 "|Bamboo_DE32:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE32:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE27RN";
 	rename -uid "AA6CEF58-45BD-6E7D-4923-3E9765B8A7B9";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE27RN"
 		"Bamboo_DE27RN" 0
-		"Bamboo_DE27RN" 3
-		2 "|Bamboo_DE33:Bamboo" "translate" " -type \"double3\" -17.889146142054557 8.2007846034004537 96.925526580501838"
+		"Bamboo_DE27RN" 4
+		0 "|Bamboo_DE33:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE33:Bamboo" "translate" " -type \"double3\" -17.889146142054557 8.2007846034004537 96.925526580501838"
 		
-		2 "|Bamboo_DE33:Bamboo" "rotate" " -type \"double3\" 0 67.744770942962035 0"
+		2 "|Bamboo|Bamboo_DE33:Bamboo" "rotate" " -type \"double3\" 0 67.744770942962035 0"
 		
-		2 "|Bamboo_DE33:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE33:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE26RN";
 	rename -uid "23A3594A-43F7-BDAB-3815-91BA1DA33BCD";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE26RN"
 		"Bamboo_DE26RN" 0
-		"Bamboo_DE26RN" 3
-		2 "|Bamboo_DE34:Bamboo" "translate" " -type \"double3\" -19.183819837506498 8.2007846034004537 89.668327689729594"
+		"Bamboo_DE26RN" 4
+		0 "|Bamboo_DE34:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE34:Bamboo" "translate" " -type \"double3\" -19.183819837506498 8.2007846034004537 89.668327689729594"
 		
-		2 "|Bamboo_DE34:Bamboo" "rotate" " -type \"double3\" 0 -62.67565640280516 0"
+		2 "|Bamboo|Bamboo_DE34:Bamboo" "rotate" " -type \"double3\" 0 -62.67565640280516 0"
 		
-		2 "|Bamboo_DE34:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE34:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE22RN";
 	rename -uid "22492F02-4137-3ECA-95E2-E287AC3F842E";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE22RN"
 		"Bamboo_DE22RN" 0
-		"Bamboo_DE22RN" 3
-		2 "|Bamboo_DE35:Bamboo" "translate" " -type \"double3\" -11.534889961020099 8.2007846034004537 98.154718048882387"
+		"Bamboo_DE22RN" 4
+		0 "|Bamboo_DE35:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE35:Bamboo" "translate" " -type \"double3\" -19.796102372153602 8.2007846034004537 100.0942518494507"
 		
-		2 "|Bamboo_DE35:Bamboo" "rotate" " -type \"double3\" 0 -198.57035714225964 0"
+		2 "|Bamboo|Bamboo_DE35:Bamboo" "rotate" " -type \"double3\" 0 -198.57035714225964 0"
 		
-		2 "|Bamboo_DE35:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE35:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE21RN";
 	rename -uid "0C3CEC15-4B9A-6A24-F93C-7BA03803B51E";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE21RN"
 		"Bamboo_DE21RN" 0
-		"Bamboo_DE21RN" 3
-		2 "|Bamboo_DE36:Bamboo" "translate" " -type \"double3\" -8.8651707028871556 3.1201218477353079 68.636271776891476"
+		"Bamboo_DE21RN" 4
+		0 "|Bamboo_DE36:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE36:Bamboo" "translate" " -type \"double3\" -8.8651707028871556 3.1201218477353079 68.636271776891476"
 		
-		2 "|Bamboo_DE36:Bamboo" "rotate" " -type \"double3\" 0 49.35416084340288 0"
+		2 "|Bamboo|Bamboo_DE36:Bamboo" "rotate" " -type \"double3\" 0 49.35416084340288 0"
 		
-		2 "|Bamboo_DE36:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE36:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE20RN";
 	rename -uid "24759A52-4854-B8BE-2C31-69B01A1129F3";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE20RN"
 		"Bamboo_DE20RN" 0
-		"Bamboo_DE20RN" 3
-		2 "|Bamboo_DE37:Bamboo" "translate" " -type \"double3\" -11.006916006918022 3.1201218477353079 81.271097294578155"
+		"Bamboo_DE20RN" 4
+		0 "|Bamboo_DE37:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE37:Bamboo" "translate" " -type \"double3\" -11.006916006918022 3.1201218477353079 81.271097294578155"
 		
-		2 "|Bamboo_DE37:Bamboo" "rotate" " -type \"double3\" 0 57.989104934585953 0"
+		2 "|Bamboo|Bamboo_DE37:Bamboo" "rotate" " -type \"double3\" 0 57.989104934585953 0"
 		
-		2 "|Bamboo_DE37:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE37:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE24RN";
 	rename -uid "A7F9E22E-4322-0C96-2840-4787E7233C76";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE24RN"
 		"Bamboo_DE24RN" 0
-		"Bamboo_DE24RN" 3
-		2 "|Bamboo_DE38:Bamboo" "translate" " -type \"double3\" -9.6158917156133867 3.1201218477353079 74.367508594782947"
+		"Bamboo_DE24RN" 4
+		0 "|Bamboo_DE38:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE38:Bamboo" "translate" " -type \"double3\" -9.6158917156133867 3.1201218477353079 74.367508594782947"
 		
-		2 "|Bamboo_DE38:Bamboo" "rotate" " -type \"double3\" 0 119.31657957467004 0"
+		2 "|Bamboo|Bamboo_DE38:Bamboo" "rotate" " -type \"double3\" 0 119.31657957467004 0"
 		
-		2 "|Bamboo_DE38:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE38:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE23RN";
 	rename -uid "5CDF53DE-49AC-2811-6F16-3CBAD51AAD5F";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE23RN"
 		"Bamboo_DE23RN" 0
-		"Bamboo_DE23RN" 3
-		2 "|Bamboo_DE39:Bamboo" "translate" " -type \"double3\" -7.3946735099492784 3.1201218477353079 88.732604281857007"
+		"Bamboo_DE23RN" 4
+		0 "|Bamboo_DE39:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE39:Bamboo" "translate" " -type \"double3\" -7.3946735099492784 3.1201218477353079 88.732604281857007"
 		
-		2 "|Bamboo_DE39:Bamboo" "rotate" " -type \"double3\" 0 -42.209198971167403 0"
+		2 "|Bamboo|Bamboo_DE39:Bamboo" "rotate" " -type \"double3\" 0 -42.209198971167403 0"
 		
-		2 "|Bamboo_DE39:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE39:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE19RN";
 	rename -uid "763CE621-4B2A-8DA6-FB0B-F09B5ADF27BF";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE19RN"
 		"Bamboo_DE19RN" 0
-		"Bamboo_DE19RN" 3
-		2 "|Bamboo_DE40:Bamboo" "translate" " -type \"double3\" -13.462901185424057 3.1201218477353079 56.534289515764065"
+		"Bamboo_DE19RN" 4
+		0 "|Bamboo_DE40:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE40:Bamboo" "translate" " -type \"double3\" -13.462901185424057 3.1201218477353079 56.534289515764065"
 		
-		2 "|Bamboo_DE40:Bamboo" "rotate" " -type \"double3\" 0 -115.42938584598987 0"
+		2 "|Bamboo|Bamboo_DE40:Bamboo" "rotate" " -type \"double3\" 0 -115.42938584598987 0"
 		
-		2 "|Bamboo_DE40:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE40:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
 lockNode -l 1 ;
 createNode reference -n "Fern_DERN2";
 	rename -uid "25689A2A-4223-EC75-174C-9B943F838093";
@@ -4286,7 +6491,7 @@ createNode reference -n "Fern_DERN2";
 		"Fern_DERN2" 2
 		2 "|Fern_DE2:Bush" "translate" " -type \"double3\" -8.5718877023777544 0 77.647109598774293"
 		
-		2 "|Fern_DE2:Bush" "rotate" " -type \"double3\" 0 -48.498105560321527 0";
+		2 "|Fern_DE2:Bush" "rotate" " -type \"double3\" 0 -28.338105269377891 0";
 lockNode -l 1 ;
 createNode reference -n "Fern_DE1RN";
 	rename -uid "31930EF7-4779-B4E6-D202-599EE9A8020F";
@@ -4298,9 +6503,1077 @@ createNode reference -n "Fern_DE1RN";
 		
 		2 "|Fern_DE3:Bush" "rotate" " -type \"double3\" 0 -99.619214134203844 0";
 lockNode -l 1 ;
+createNode reference -n "Bamboo_DE38RN";
+	rename -uid "DDA4ADB0-4C4D-D156-F9AA-EB977879AB48";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE38RN"
+		"Bamboo_DE38RN" 0
+		"Bamboo_DE38RN" 4
+		0 "|Bamboo_DE41:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE41:Bamboo" "translate" " -type \"double3\" -23.317574418868798 5.0167859483393817 23.107080992053412"
+		
+		2 "|Bamboo|Bamboo_DE41:Bamboo" "rotate" " -type \"double3\" 0 -16.321553143084671 0"
+		
+		2 "|Bamboo|Bamboo_DE41:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE37RN";
+	rename -uid "BD1E7589-4327-CDE1-5B56-24BC0D0174AF";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE37RN"
+		"Bamboo_DE37RN" 0
+		"Bamboo_DE37RN" 4
+		0 "|Bamboo_DE42:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE42:Bamboo" "translate" " -type \"double3\" -26.753182141196284 5.0167859483393817 80.205018615575412"
+		
+		2 "|Bamboo|Bamboo_DE42:Bamboo" "rotate" " -type \"double3\" 0 -141.05388030979969 0"
+		
+		2 "|Bamboo|Bamboo_DE42:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE36RN";
+	rename -uid "016929DB-4416-CE18-8BF5-0A95E18F681D";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE36RN"
+		"Bamboo_DE36RN" 0
+		"Bamboo_DE36RN" 3
+		0 "|Bamboo_DE43:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE43:Bamboo" "translate" " -type \"double3\" -14.494576907444792 5.0167859483393817 11.752013084616298"
+		
+		2 "|Bamboo|Bamboo_DE43:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE40RN";
+	rename -uid "4DCC8E89-4603-1056-2B56-A384C1238D24";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE40RN"
+		"Bamboo_DE40RN" 0
+		"Bamboo_DE40RN" 4
+		0 "|Bamboo_DE44:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE44:Bamboo" "translate" " -type \"double3\" -19.531582401909624 5.0167859483393817 93.117851247138404"
+		
+		2 "|Bamboo|Bamboo_DE44:Bamboo" "rotate" " -type \"double3\" 0 -53.947621815622718 0"
+		
+		2 "|Bamboo|Bamboo_DE44:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE39RN";
+	rename -uid "5FECD868-4641-2BB7-5CB4-42AF13029D13";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE39RN"
+		"Bamboo_DE39RN" 0
+		"Bamboo_DE39RN" 4
+		0 "|Bamboo_DE45:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE45:Bamboo" "translate" " -type \"double3\" -13.793539049797349 5.0167859483393817 107.4690714331397"
+		
+		2 "|Bamboo|Bamboo_DE45:Bamboo" "rotate" " -type \"double3\" 0 150.55522682514336 0"
+		
+		2 "|Bamboo|Bamboo_DE45:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE35RN";
+	rename -uid "058EB39C-4D77-9FD1-BC42-7687535C7D4A";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE35RN"
+		"Bamboo_DE35RN" 0
+		"Bamboo_DE35RN" 3
+		0 "|Bamboo_DE46:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE46:Bamboo" "translate" " -type \"double3\" -14.251938732712478 5.0167859483393817 101.55113558222936"
+		
+		2 "|Bamboo|Bamboo_DE46:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE34RN";
+	rename -uid "A56EDB79-4DA9-9B8E-5970-FE82D57F2C31";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE34RN"
+		"Bamboo_DE34RN" 0
+		"Bamboo_DE34RN" 3
+		0 "|Bamboo_DE47:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE47:Bamboo" "translate" " -type \"double3\" -20.325451861586671 7.9170133799621132 8.9848979953458468"
+		
+		2 "|Bamboo|Bamboo_DE47:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE33RN";
+	rename -uid "5A0FB346-4992-2737-4020-0888877A395A";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE33RN"
+		"Bamboo_DE33RN" 0
+		"Bamboo_DE33RN" 4
+		0 "|Bamboo_DE48:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE48:Bamboo" "translate" " -type \"double3\" -10.915715314743689 5.0167859483393817 86.72513643743136"
+		
+		2 "|Bamboo|Bamboo_DE48:Bamboo" "rotate" " -type \"double3\" 0 -14.57778904868894 0"
+		
+		2 "|Bamboo|Bamboo_DE48:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE32RN";
+	rename -uid "C0ED2115-493F-5A28-8BFC-54B287B4FCD4";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE32RN"
+		"Bamboo_DE32RN" 0
+		"Bamboo_DE32RN" 3
+		0 "|Bamboo_DE49:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE49:Bamboo" "translate" " -type \"double3\" -23.825496346217882 8.166391482803661 104.26250994532285"
+		
+		2 "|Bamboo|Bamboo_DE49:Bamboo" "scale" " -type \"double3\" 2.2661972546041298 2.2661972546041298 2.2661972546041298";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE28RN1";
+	rename -uid "DBE8EE0B-4D5E-94BB-A6EB-93BF1C6C5F4E";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE28RN1"
+		"Bamboo_DE28RN1" 0
+		"Bamboo_DE28RN1" 4
+		0 "|Bamboo_DE50:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE50:Bamboo" "translate" " -type \"double3\" -22.4785532695448 7.9170133799621132 -0.72268522018242454"
+		
+		2 "|Bamboo|Bamboo_DE50:Bamboo" "rotate" " -type \"double3\" 0 -166.0617036442039 0"
+		
+		2 "|Bamboo|Bamboo_DE50:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE27RN1";
+	rename -uid "166D14AF-4CD6-AAB3-6AA2-61BAAC8A9636";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE27RN1"
+		"Bamboo_DE27RN1" 0
+		"Bamboo_DE27RN1" 4
+		0 "|Bamboo_DE51:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE51:Bamboo" "translate" " -type \"double3\" -10.057247027069216 5.0167859483393817 84.953687213463596"
+		
+		2 "|Bamboo|Bamboo_DE51:Bamboo" "rotate" " -type \"double3\" 0 -20.372331762367544 0"
+		
+		2 "|Bamboo|Bamboo_DE51:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE26RN1";
+	rename -uid "F6AE0364-4E97-E19F-AE29-3FAECC23E001";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE26RN1"
+		"Bamboo_DE26RN1" 0
+		"Bamboo_DE26RN1" 4
+		0 "|Bamboo_DE52:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE52:Bamboo" "translate" " -type \"double3\" -19.641595204655324 5.0167859483393817 54.93894336154473"
+		
+		2 "|Bamboo|Bamboo_DE52:Bamboo" "rotate" " -type \"double3\" 0 61.035485289293703 0"
+		
+		2 "|Bamboo|Bamboo_DE52:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE31RN";
+	rename -uid "FA0881A8-4266-2B83-355B-CBA994E4691C";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE31RN"
+		"Bamboo_DE31RN" 0
+		"Bamboo_DE31RN" 3
+		0 "|Bamboo_DE53:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE53:Bamboo" "translate" " -type \"double3\" -20.482350402059499 7.9170133799621132 -15.459898224782275"
+		
+		2 "|Bamboo|Bamboo_DE53:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE30RN";
+	rename -uid "D5A5D189-474C-BE73-C0E1-3A991030D555";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE30RN"
+		"Bamboo_DE30RN" 0
+		"Bamboo_DE30RN" 3
+		0 "|Bamboo_DE54:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE54:Bamboo" "translate" " -type \"double3\" -23.167661769359469 5.0167859483393817 17.497854152138018"
+		
+		2 "|Bamboo|Bamboo_DE54:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE29RN1";
+	rename -uid "15F359F5-4383-D2DE-A2EF-90934B0AC3A8";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE29RN1"
+		"Bamboo_DE29RN1" 0
+		"Bamboo_DE29RN1" 3
+		0 "|Bamboo_DE55:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE55:Bamboo" "translate" " -type \"double3\" -10.653719070445163 5.0167859483393817 53.294256351548313"
+		
+		2 "|Bamboo|Bamboo_DE55:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE25RN";
+	rename -uid "239F8BB0-47DF-DDC1-2E3F-41BC4D067C42";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE25RN"
+		"Bamboo_DE25RN" 0
+		"Bamboo_DE25RN" 3
+		0 "|Bamboo_DE56:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE56:Bamboo" "translate" " -type \"double3\" -12.192989035869328 5.0167859483393817 47.802143923462658"
+		
+		2 "|Bamboo|Bamboo_DE56:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE24RN1";
+	rename -uid "14203292-4F45-385F-FC34-F284EF727ACF";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE24RN1"
+		"Bamboo_DE24RN1" 0
+		"Bamboo_DE24RN1" 4
+		0 "|Bamboo_DE57:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE57:Bamboo" "translate" " -type \"double3\" -23.501232811184522 5.0167859483393817 3.80909828257386"
+		
+		2 "|Bamboo|Bamboo_DE57:Bamboo" "rotate" " -type \"double3\" 0 132.31067828719389 0"
+		
+		2 "|Bamboo|Bamboo_DE57:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE23RN1";
+	rename -uid "F7E7B343-4817-200E-53C1-6CB635575FEE";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE23RN1"
+		"Bamboo_DE23RN1" 0
+		"Bamboo_DE23RN1" 4
+		0 "|Bamboo_DE58:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE58:Bamboo" "translate" " -type \"double3\" -9.087466071370125 5.0167859483393817 91.936577293160383"
+		
+		2 "|Bamboo|Bamboo_DE58:Bamboo" "rotate" " -type \"double3\" 0 -17.025181117366905 0"
+		
+		2 "|Bamboo|Bamboo_DE58:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE22RN1";
+	rename -uid "FAB992DB-44AA-3F50-F232-BD9D63E3C81E";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE22RN1"
+		"Bamboo_DE22RN1" 0
+		"Bamboo_DE22RN1" 4
+		0 "|Bamboo_DE59:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE59:Bamboo" "translate" " -type \"double3\" -14.455986679642319 7.9170133799621132 2.3047033496031197"
+		
+		2 "|Bamboo|Bamboo_DE59:Bamboo" "rotate" " -type \"double3\" 0 -118.70415382630763 0"
+		
+		2 "|Bamboo|Bamboo_DE59:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE21RN1";
+	rename -uid "81192A64-4FB8-01A5-648D-749740EDD553";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE21RN1"
+		"Bamboo_DE21RN1" 0
+		"Bamboo_DE21RN1" 4
+		0 "|Bamboo_DE60:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE60:Bamboo" "translate" " -type \"double3\" -12.193975227330405 5.0167859483393817 104.37098739490671"
+		
+		2 "|Bamboo|Bamboo_DE60:Bamboo" "rotate" " -type \"double3\" 0 74.299196288786987 0"
+		
+		2 "|Bamboo|Bamboo_DE60:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE20RN1";
+	rename -uid "8B647F8B-4C9E-600B-27ED-109C07C6D96B";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE20RN1"
+		"Bamboo_DE20RN1" 0
+		"Bamboo_DE20RN1" 4
+		0 "|Bamboo_DE61:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE61:Bamboo" "translate" " -type \"double3\" -16.45192248497407 7.9170133799621132 -1.0913472327856404"
+		
+		2 "|Bamboo|Bamboo_DE61:Bamboo" "rotate" " -type \"double3\" 0 134.65046374919541 0"
+		
+		2 "|Bamboo|Bamboo_DE61:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE17RN";
+	rename -uid "BF6D32A2-4922-4767-9B77-849356F29729";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE17RN"
+		"Bamboo_DE17RN" 0
+		"Bamboo_DE17RN" 4
+		0 "|Bamboo_DE62:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE62:Bamboo" "translate" " -type \"double3\" -23.666958271238137 5.0167859483393817 10.252357292860374"
+		
+		2 "|Bamboo|Bamboo_DE62:Bamboo" "rotate" " -type \"double3\" 0 -126.8184191039128 0"
+		
+		2 "|Bamboo|Bamboo_DE62:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE16RN1";
+	rename -uid "F19B3F79-4201-FE42-4343-FE8FE5CBE157";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE16RN1"
+		"Bamboo_DE16RN1" 0
+		"Bamboo_DE16RN1" 4
+		0 "|Bamboo_DE63:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE63:Bamboo" "translate" " -type \"double3\" -19.468473121746865 5.0167859483393817 38.251035182842507"
+		
+		2 "|Bamboo|Bamboo_DE63:Bamboo" "rotate" " -type \"double3\" 0 -12.928509094985175 0"
+		
+		2 "|Bamboo|Bamboo_DE63:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE19RN1";
+	rename -uid "2BED98AB-4B93-20CF-2662-8281EC937E61";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE19RN1"
+		"Bamboo_DE19RN1" 0
+		"Bamboo_DE19RN1" 4
+		0 "|Bamboo_DE64:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE64:Bamboo" "translate" " -type \"double3\" -26.387191474855811 5.0167859483393817 18.822287735639033"
+		
+		2 "|Bamboo|Bamboo_DE64:Bamboo" "rotate" " -type \"double3\" 0 12.651803323884643 0"
+		
+		2 "|Bamboo|Bamboo_DE64:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE18RN";
+	rename -uid "E03F9D25-4E90-AD83-B79B-DD9695683860";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE18RN"
+		"Bamboo_DE18RN" 0
+		"Bamboo_DE18RN" 4
+		0 "|Bamboo_DE65:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE65:Bamboo" "translate" " -type \"double3\" -1.3008646133957606 5.0167859483393817 101.59831930175341"
+		
+		2 "|Bamboo|Bamboo_DE65:Bamboo" "rotate" " -type \"double3\" 0 -60.384494369107408 0"
+		
+		2 "|Bamboo|Bamboo_DE65:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE15RN";
+	rename -uid "8B6FB1DC-46E7-680C-EC77-BC8E1884A3E3";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE15RN"
+		"Bamboo_DE15RN" 0
+		"Bamboo_DE15RN" 4
+		0 "|Bamboo_DE66:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE66:Bamboo" "translate" " -type \"double3\" -14.119967201884254 5.0167859483393817 59.047630740449087"
+		
+		2 "|Bamboo|Bamboo_DE66:Bamboo" "rotate" " -type \"double3\" 0 34.263566930663302 0"
+		
+		2 "|Bamboo|Bamboo_DE66:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE14RN";
+	rename -uid "FA018692-4CA3-87F1-05B6-A1B47F399AC1";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE14RN"
+		"Bamboo_DE14RN" 0
+		"Bamboo_DE14RN" 4
+		0 "|Bamboo_DE67:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE67:Bamboo" "translate" " -type \"double3\" -16.993087161434381 7.9170133799621132 6.4665150640828823"
+		
+		2 "|Bamboo|Bamboo_DE67:Bamboo" "rotate" " -type \"double3\" 0 -27.691249668838452 0"
+		
+		2 "|Bamboo|Bamboo_DE67:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE13RN1";
+	rename -uid "97A02AD1-4FB0-A67F-B776-4494D6856909";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE13RN1"
+		"Bamboo_DE13RN1" 0
+		"Bamboo_DE13RN1" 4
+		0 "|Bamboo_DE68:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE68:Bamboo" "translate" " -type \"double3\" -23.022290071534172 7.9170133799621132 14.073384949595713"
+		
+		2 "|Bamboo|Bamboo_DE68:Bamboo" "rotate" " -type \"double3\" 0 -87.98702161711617 0"
+		
+		2 "|Bamboo|Bamboo_DE68:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE12RN1";
+	rename -uid "EDD31B91-49F7-73F4-AB12-47B9DD1C47E0";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE12RN1"
+		"Bamboo_DE12RN1" 0
+		"Bamboo_DE12RN1" 4
+		0 "|Bamboo_DE69:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE69:Bamboo" "translate" " -type \"double3\" -18.705423460331389 5.0167859483393817 76.093676766973275"
+		
+		2 "|Bamboo|Bamboo_DE69:Bamboo" "rotate" " -type \"double3\" 0 152.56269308480793 0"
+		
+		2 "|Bamboo|Bamboo_DE69:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE9RN";
+	rename -uid "8F62F18D-415C-A9F2-9D0B-D4BB42A86371";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE9RN"
+		"Bamboo_DE9RN" 0
+		"Bamboo_DE9RN" 3
+		0 "|Bamboo_DE70:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE70:Bamboo" "translate" " -type \"double3\" -17.352141355828039 5.0167859483393817 65.341305142391263"
+		
+		2 "|Bamboo|Bamboo_DE70:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE5RN2";
+	rename -uid "F9FF183F-4A0C-D274-5F41-D9AE5EEFA3DB";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE5RN2"
+		"Bamboo_DE5RN2" 0
+		"Bamboo_DE5RN2" 3
+		0 "|Bamboo_DE71:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE71:Bamboo" "translate" " -type \"double3\" -15.540893856456394 5.0167859483393817 71.657828413046801"
+		
+		2 "|Bamboo|Bamboo_DE71:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE4RN3";
+	rename -uid "04D201E9-47E8-DD31-B62F-1491B05CE79D";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE4RN3"
+		"Bamboo_DE4RN3" 0
+		"Bamboo_DE4RN3" 3
+		0 "|Bamboo_DE72:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE72:Bamboo" "translate" " -type \"double3\" -21.88349189854371 5.0167859483393817 97.585777589803939"
+		
+		2 "|Bamboo|Bamboo_DE72:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE8RN2";
+	rename -uid "B46F1304-4E9B-5683-6480-4E9AE6C640AF";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE8RN2"
+		"Bamboo_DE8RN2" 0
+		"Bamboo_DE8RN2" 3
+		0 "|Bamboo_DE73:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE73:Bamboo" "translate" " -type \"double3\" -15.800615421030608 5.0167859483393817 51.711291960329973"
+		
+		2 "|Bamboo|Bamboo_DE73:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE7RN2";
+	rename -uid "82C26BB0-421B-A63B-6834-E8AFA1AB98F3";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE7RN2"
+		"Bamboo_DE7RN2" 0
+		"Bamboo_DE7RN2" 3
+		0 "|Bamboo_DE74:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE74:Bamboo" "translate" " -type \"double3\" -15.785655577100417 5.0167859483393817 108.7523789604405"
+		
+		2 "|Bamboo|Bamboo_DE74:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE6RN2";
+	rename -uid "F7EF462E-4269-7739-70C8-EE9F2D6FBFD8";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE6RN2"
+		"Bamboo_DE6RN2" 0
+		"Bamboo_DE6RN2" 4
+		0 "|Bamboo_DE75:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE75:Bamboo" "translate" " -type \"double3\" -5.4985952627132466 5.0167859483393817 95.45001262699725"
+		
+		2 "|Bamboo|Bamboo_DE75:Bamboo" "rotate" " -type \"double3\" 0 -16.644911050601785 0"
+		
+		2 "|Bamboo|Bamboo_DE75:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE2RN4";
+	rename -uid "3932C813-463B-0518-A334-859E7AFA7FF8";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE2RN4"
+		"Bamboo_DE2RN4" 0
+		"Bamboo_DE2RN4" 4
+		0 "|Bamboo_DE76:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE76:Bamboo" "translate" " -type \"double3\" -20.071848215168295 6.7929253108422065 105.94753706585868"
+		
+		2 "|Bamboo|Bamboo_DE76:Bamboo" "rotate" " -type \"double3\" 0 -42.106084719708242 0"
+		
+		2 "|Bamboo|Bamboo_DE76:Bamboo" "scale" " -type \"double3\" 2.1019925907140014 2.1019925907140014 2.1019925907140014";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE1RN3";
+	rename -uid "2139E022-47F1-F205-D1F6-C3B41DAAD9BC";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE1RN3"
+		"Bamboo_DE1RN3" 0
+		"Bamboo_DE1RN3" 3
+		0 "|Bamboo_DE77:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE77:Bamboo" "translate" " -type \"double3\" -26.122685559396331 5.0167859483393817 86.650024919420048"
+		
+		2 "|Bamboo|Bamboo_DE77:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DERN6";
+	rename -uid "5B224518-401A-5431-307B-3FB3AD9EC935";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DERN6"
+		"Bamboo_DERN6" 0
+		"Bamboo_DERN6" 3
+		0 "|Bamboo_DE78:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE78:Bamboo" "translate" " -type \"double3\" -25.622469868235832 5.0167859483393817 30.610620258654333"
+		
+		2 "|Bamboo|Bamboo_DE78:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE67RN";
+	rename -uid "02AEC530-4459-6482-965D-3EA205ADD966";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE67RN"
+		"Bamboo_DE67RN" 0
+		"Bamboo_DE67RN" 4
+		0 "|Bamboo_DE79:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE79:Bamboo" "translate" " -type \"double3\" -13.618500791910325 2.2503651649910053 -5.0645481729057371"
+		
+		2 "|Bamboo|Bamboo_DE79:Bamboo" "rotate" " -type \"double3\" 0 -27.782370266722854 0"
+		
+		2 "|Bamboo|Bamboo_DE79:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE62RN";
+	rename -uid "ACD1F3A1-4631-70C4-7F74-BDA60D020837";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE62RN"
+		"Bamboo_DE62RN" 0
+		"Bamboo_DE62RN" 4
+		0 "|Bamboo_DE80:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE80:Bamboo" "translate" " -type \"double3\" -22.323455780489443 2.2503651649910053 -6.9832589741847881"
+		
+		2 "|Bamboo|Bamboo_DE80:Bamboo" "rotate" " -type \"double3\" 0 52.655162978739639 0"
+		
+		2 "|Bamboo|Bamboo_DE80:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE57RN";
+	rename -uid "51BEC5BB-4B5D-1B73-3B5E-F1851035E0AE";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE57RN"
+		"Bamboo_DE57RN" 0
+		"Bamboo_DE57RN" 3
+		0 "|Bamboo_DE81:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE81:Bamboo" "translate" " -type \"double3\" -14.453312200425863 2.2503651649910053 -13.751706171871081"
+		
+		2 "|Bamboo|Bamboo_DE81:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE61RN";
+	rename -uid "2E2F7389-48E3-2DDC-DA85-FBB33473E816";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE61RN"
+		"Bamboo_DE61RN" 0
+		"Bamboo_DE61RN" 4
+		0 "|Bamboo_DE82:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE82:Bamboo" "translate" " -type \"double3\" -19.910499986152214 2.2503651649910053 -11.448678424708582"
+		
+		2 "|Bamboo|Bamboo_DE82:Bamboo" "rotate" " -type \"double3\" 0 66.581797950645893 0"
+		
+		2 "|Bamboo|Bamboo_DE82:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE59RN";
+	rename -uid "30AC7039-4522-555A-793F-DB8E01739F53";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE59RN"
+		"Bamboo_DE59RN" 0
+		"Bamboo_DE59RN" 4
+		0 "|Bamboo_DE83:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE83:Bamboo" "translate" " -type \"double3\" -19.33963626340276 4.8199011908308931 -8.5801586598666848"
+		
+		2 "|Bamboo|Bamboo_DE83:Bamboo" "rotate" " -type \"double3\" 0 -215.78978315668098 0"
+		
+		2 "|Bamboo|Bamboo_DE83:Bamboo" "scale" " -type \"double3\" 1.9004445217669812 1.9004445217669812 1.9004445217669812";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE50RN";
+	rename -uid "EEFA82B6-4E75-43E3-88B2-D8826C80CD7F";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE50RN"
+		"Bamboo_DE50RN" 0
+		"Bamboo_DE50RN" 4
+		0 "|Bamboo_DE84:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE84:Bamboo" "translate" " -type \"double3\" -16.437602824520063 2.2503651649910053 -7.655083018630112"
+		
+		2 "|Bamboo|Bamboo_DE84:Bamboo" "rotate" " -type \"double3\" 0 -148.07881325110301 0"
+		
+		2 "|Bamboo|Bamboo_DE84:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE53RN";
+	rename -uid "4E88907F-4642-16F5-9E93-FDAEEE7FD72F";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE53RN"
+		"Bamboo_DE53RN" 0
+		"Bamboo_DE53RN" 4
+		0 "|Bamboo_DE85:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE85:Bamboo" "translate" " -type \"double3\" -12.455118686322216 2.2503651649910053 -9.8990083955307888"
+		
+		2 "|Bamboo|Bamboo_DE85:Bamboo" "rotate" " -type \"double3\" 0 -31.143045127399958 0"
+		
+		2 "|Bamboo|Bamboo_DE85:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE47RN";
+	rename -uid "9426982E-4DA0-11C5-C8C6-F784879C3A81";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE47RN"
+		"Bamboo_DE47RN" 0
+		"Bamboo_DE47RN" 4
+		0 "|Bamboo_DE86:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE86:Bamboo" "translate" " -type \"double3\" -23.588245219445874 2.2503651649910053 -11.622691183817491"
+		
+		2 "|Bamboo|Bamboo_DE86:Bamboo" "rotate" " -type \"double3\" 0 -138.72459053178594 0"
+		
+		2 "|Bamboo|Bamboo_DE86:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE67RN1";
+	rename -uid "A5B5E7E2-441C-BF6E-3C09-4E8838977EF6";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE67RN1"
+		"Bamboo_DE67RN1" 0
+		"Bamboo_DE67RN1" 4
+		0 "|Bamboo_DE87:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE87:Bamboo" "translate" " -type \"double3\" -27.265070200968381 5.7178197787152412 -12.411794892063694"
+		
+		2 "|Bamboo|Bamboo_DE87:Bamboo" "rotate" " -type \"double3\" 0 116.04172467296621 0"
+		
+		2 "|Bamboo|Bamboo_DE87:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE57RN1";
+	rename -uid "C1FDD5CD-4060-34EC-E1F1-938BBCC5D3F3";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE57RN1"
+		"Bamboo_DE57RN1" 0
+		"Bamboo_DE57RN1" 3
+		0 "|Bamboo_DE88:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE88:Bamboo" "translate" " -type \"double3\" -16.446385316865626 0 0"
+		
+		2 "|Bamboo|Bamboo_DE88:Bamboo" "scale" " -type \"double3\" 1.1841015069077698 1.1841015069077698 1.1841015069077698";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE61RN1";
+	rename -uid "7768E615-499A-6BD2-37A1-A59827567C5A";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE61RN1"
+		"Bamboo_DE61RN1" 0
+		"Bamboo_DE61RN1" 4
+		0 "|Bamboo_DE89:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE89:Bamboo" "translate" " -type \"double3\" -13.413221605887303 5.7178197787152412 4.8239788146492479"
+		
+		2 "|Bamboo|Bamboo_DE89:Bamboo" "rotate" " -type \"double3\" 0 -62.405660984103719 0"
+		
+		2 "|Bamboo|Bamboo_DE89:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE59RN1";
+	rename -uid "C1502FD9-4B62-8C41-24A3-8585EFBE6125";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE59RN1"
+		"Bamboo_DE59RN1" 0
+		"Bamboo_DE59RN1" 4
+		0 "|Bamboo_DE90:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE90:Bamboo" "translate" " -type \"double3\" -21.727997974279724 5.7178197787152412 15.096220405052007"
+		
+		2 "|Bamboo|Bamboo_DE90:Bamboo" "rotate" " -type \"double3\" 0 -194.04824470745245 0"
+		
+		2 "|Bamboo|Bamboo_DE90:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE50RN1";
+	rename -uid "1A567FE0-49DD-E59B-29F4-2C9EBE9C491F";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE50RN1"
+		"Bamboo_DE50RN1" 0
+		"Bamboo_DE50RN1" 4
+		0 "|Bamboo_DE91:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE91:Bamboo" "translate" " -type \"double3\" -25.680104317444457 5.7178197787152412 -6.1782305800149482"
+		
+		2 "|Bamboo|Bamboo_DE91:Bamboo" "rotate" " -type \"double3\" 0 116.55427717471154 0"
+		
+		2 "|Bamboo|Bamboo_DE91:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE53RN1";
+	rename -uid "141E45F1-46B6-8038-7078-A98998132E81";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE53RN1"
+		"Bamboo_DE53RN1" 0
+		"Bamboo_DE53RN1" 4
+		0 "|Bamboo_DE92:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE92:Bamboo" "translate" " -type \"double3\" -20.817970691440586 5.7178197787152412 21.249751149034125"
+		
+		2 "|Bamboo|Bamboo_DE92:Bamboo" "rotate" " -type \"double3\" 0 132.77801977453666 0"
+		
+		2 "|Bamboo|Bamboo_DE92:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE79RN";
+	rename -uid "CE2FB57A-4601-D313-1865-1093B13FF08B";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE79RN"
+		"Bamboo_DE79RN" 0
+		"Bamboo_DE79RN" 3
+		0 "|Bamboo_DE93:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE93:Bamboo" "translate" " -type \"double3\" -22.616608719828253 5.7178197787152412 5.9930351568368865"
+		
+		2 "|Bamboo|Bamboo_DE93:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE84RN";
+	rename -uid "81DA5EA0-4A0A-AD7D-CFE3-548B5850B91B";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE84RN"
+		"Bamboo_DE84RN" 0
+		"Bamboo_DE84RN" 4
+		0 "|Bamboo_DE94:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE94:Bamboo" "translate" " -type \"double3\" -23.140365468897578 5.7178197787152412 -14.261910016691061"
+		
+		2 "|Bamboo|Bamboo_DE94:Bamboo" "rotate" " -type \"double3\" 0 62.812073132895598 0"
+		
+		2 "|Bamboo|Bamboo_DE94:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE83RN";
+	rename -uid "DC279E90-44C1-D98F-E74A-7DBDA2F1185F";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE83RN"
+		"Bamboo_DE83RN" 0
+		"Bamboo_DE83RN" 4
+		0 "|Bamboo_DE95:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE95:Bamboo" "translate" " -type \"double3\" -15.713861016824611 5.7178197787152412 8.1725455544566348"
+		
+		2 "|Bamboo|Bamboo_DE95:Bamboo" "rotate" " -type \"double3\" 0 -121.88254842680736 0"
+		
+		2 "|Bamboo|Bamboo_DE95:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE82RN";
+	rename -uid "981B28D7-43A4-EDDF-EACE-D9B48C610246";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE82RN"
+		"Bamboo_DE82RN" 0
+		"Bamboo_DE82RN" 4
+		0 "|Bamboo_DE96:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE96:Bamboo" "translate" " -type \"double3\" -26.343108713129034 5.7178197787152412 -13.468354126963803"
+		
+		2 "|Bamboo|Bamboo_DE96:Bamboo" "rotate" " -type \"double3\" 0 -93.575085725051608 0"
+		
+		2 "|Bamboo|Bamboo_DE96:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE86RN";
+	rename -uid "721757A3-4041-F39A-98F4-2798AC593E02";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE86RN"
+		"Bamboo_DE86RN" 0
+		"Bamboo_DE86RN" 3
+		0 "|Bamboo_DE97:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE97:Bamboo" "translate" " -type \"double3\" -17.986647030536542 5.7178197787152412 -4.5266127765722501"
+		
+		2 "|Bamboo|Bamboo_DE97:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE85RN";
+	rename -uid "DF61358E-4DE3-11FF-D67C-6CA4AAC7A36D";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE85RN"
+		"Bamboo_DE85RN" 0
+		"Bamboo_DE85RN" 3
+		0 "|Bamboo_DE98:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE98:Bamboo" "translate" " -type \"double3\" -23.171174080542812 5.7178197787152412 42.430774803049466"
+		
+		2 "|Bamboo|Bamboo_DE98:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE81RN";
+	rename -uid "8C4DE2D4-4B80-57AF-57D7-69AC9B6D633B";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE81RN"
+		"Bamboo_DE81RN" 0
+		"Bamboo_DE81RN" 4
+		0 "|Bamboo_DE99:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE99:Bamboo" "translate" " -type \"double3\" -20.73152885268032 5.7178197787152412 24.720696516941253"
+		
+		2 "|Bamboo|Bamboo_DE99:Bamboo" "rotate" " -type \"double3\" 0 76.601882003566516 0"
+		
+		2 "|Bamboo|Bamboo_DE99:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+lockNode -l 1 ;
+createNode reference -n "Bamboo_DE80RN";
+	rename -uid "A5442D43-4180-01D2-1161-F6AA0BD8DBCB";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Bamboo_DE80RN"
+		"Bamboo_DE80RN" 0
+		"Bamboo_DE80RN" 4
+		0 "|Bamboo_DE100:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE100:Bamboo" "translate" " -type \"double3\" -24.63740205877702 6.6398846046408533 -3.8812245859526877"
+		
+		2 "|Bamboo|Bamboo_DE100:Bamboo" "rotate" " -type \"double3\" 0 -28.78580051044905 0"
+		
+		2 "|Bamboo|Bamboo_DE100:Bamboo" "scale" " -type \"double3\" 2.0644432000128505 2.0644432000128505 2.0644432000128505";
+lockNode -l 1 ;
+createNode polyPlane -n "polyPlane1";
+	rename -uid "DF429719-4D5B-24E1-9A1C-848C42F380D4";
+	setAttr ".cuv" 2;
+createNode reference -n "Fern_DE2RN";
+	rename -uid "103CD994-476D-CAA0-00E5-46BD168FF2BC";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Fern_DE2RN"
+		"Fern_DE2RN" 0
+		"Fern_DE2RN" 2
+		2 "|Fern_DE4:Bush" "translate" " -type \"double3\" 34.46323011593104 0 42.361299111657559"
+		
+		2 "|Fern_DE4:Bush" "rotate" " -type \"double3\" 0 -90.405560222499489 0";
+lockNode -l 1 ;
+createNode reference -n "boulder2_model_JonathanFranklinRN";
+	rename -uid "C707E1A7-4936-D9E6-8016-AEAAE99277F9";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"boulder2_model_JonathanFranklinRN"
+		"boulder2_model_JonathanFranklinRN" 0
+		"boulder2_model_JonathanFranklinRN" 1
+		2 "|boulder2_model_JonathanFranklin:pCube1" "translate" " -type \"double3\" 41.158310476079414 1.3215403054309807 49.39581320492389";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "Rock_JonathanFranklinRN";
+	rename -uid "12D759BB-4F98-023C-8FAA-FA80F1F1EBA7";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Rock_JonathanFranklinRN"
+		"Rock_JonathanFranklinRN" 0
+		"Rock_JonathanFranklinRN" 2
+		2 "|Rock_JonathanFranklin:pCube1" "translate" " -type \"double3\" -8.108410206769161 0 38.644733680664068"
+		
+		2 "|Rock_JonathanFranklin:pCube1" "scale" " -type \"double3\" 2.5384309503363727 2.5384309503363727 2.5384309503363727";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "boulder1_model_JonathanFranklinRN";
+	rename -uid "197DAC88-4296-9B28-5313-E883F6264A8A";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"boulder1_model_JonathanFranklinRN"
+		"boulder1_model_JonathanFranklinRN" 0
+		"boulder1_model_JonathanFranklinRN" 2
+		2 "|boulder1_model_JonathanFranklin:pCube1" "translate" " -type \"double3\" -17.807657568656495 0.31319351092186043 14.526415424691571"
+		
+		2 "|boulder1_model_JonathanFranklin:pCube1" "rotate" " -type \"double3\" 0 -101.53212900842487 13.687976915441329";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "FallenTrunk_DERN";
+	rename -uid "26E6321C-4DC8-29D1-7DAD-6EA5386A7A18";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"FallenTrunk_DERN"
+		"FallenTrunk_DERN" 0
+		"FallenTrunk_DERN" 3
+		2 "|FallenTrunk_DE:FallenTrunk" "translate" " -type \"double3\" 39.888178333843612 0 64.916040012660972"
+		
+		2 "|FallenTrunk_DE:FallenTrunk" "rotate" " -type \"double3\" 0 -52.883994626150695 0"
+		
+		2 "|FallenTrunk_DE:FallenTrunk" "scale" " -type \"double3\" 1.7452850747690081 1.7452850747690081 1.7452850747690081";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "MushroomBunch1RN";
+	rename -uid "EF159BA4-48FA-02DD-A851-C299E3ECF499";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"MushroomBunch1RN"
+		"MushroomBunch1RN" 0
+		"MushroomBunch1RN" 39
+		0 "|MushroomBunch1:pCylinder1" "|Mushroom_Bunch" "-s -r "
+		0 "|MushroomBunch1:pCylinder2" "|Mushroom_Bunch" "-s -r "
+		0 "|MushroomBunch1:pCylinder3" "|Mushroom_Bunch" "-s -r "
+		0 "|MushroomBunch1:pCylinder4" "|Mushroom_Bunch" "-s -r "
+		0 "|MushroomBunch1:pCylinder5" "|Mushroom_Bunch" "-s -r "
+		0 "|MushroomBunch1:pCylinder6" "|Mushroom_Bunch" "-s -r "
+		0 "|MushroomBunch1:pCylinder7" "|Mushroom_Bunch" "-s -r "
+		0 "|MushroomBunch1:pCylinder8" "|Mushroom_Bunch" "-s -r "
+		0 "|MushroomBunch1:pCylinder9" "|Mushroom_Bunch" "-s -r "
+		0 "|MushroomBunch1:pCylinder10" "|Mushroom_Bunch" "-s -r "
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder1" "translate" " -type \"double3\" 36.200754942715847 3.2277362335545741 60.211460742524601"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder1" "scale" " -type \"double3\" 0.21151028177245107 1.4261378854867486 0.21151028177245107"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder2" "translate" " -type \"double3\" 36.200754942715847 2.602777850661198 61.46734178851284"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder2" "rotate" " -type \"double3\" 9.5440325948557323 0 0"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder2" "scale" " -type \"double3\" 0.18336073962231419 1.2363356300928214 0.18336073962231419"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder3" "translate" " -type \"double3\" 35.002000775299948 1.5797106098912357 60.717618901566489"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder3" "rotate" " -type \"double3\" -13.500925736077958 4.3146667580410583 17.398372269406266"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder3" "scale" " -type \"double3\" 0.095297825529994426 0.98408087501176966 0.095297825529994426"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder4" "translate" " -type \"double3\" 37.106127888045876 1.643545898374799 59.471117754327096"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder4" "rotate" " -type \"double3\" -9.6733994916036927 -20.154500949848174 -11.83687656214475"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder4" "scale" " -type \"double3\" 0.095297825529994426 0.98408087501176966 0.095297825529994426"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder5" "translate" " -type \"double3\" 36.476327637900908 0.61631025140525564 58.900433068324105"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder5" "rotate" " -type \"double3\" -16.41507476336804 -2.5216627851759377 -2.7950493888315782"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder5" "scale" " -type \"double3\" 0.064894725771494216 0.67012713213231523 0.064894725771494216"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder6" "translate" " -type \"double3\" 35.681309506926596 0.69979770170001521 56.672146487571041"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder6" "rotate" " -type \"double3\" -166.753588432984 62.553403709194569 -161.56060746667012"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder6" "scale" " -type \"double3\" 0.064894725771494216 0.67012713213231523 0.064894725771494216"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder7" "translate" " -type \"double3\" 36.115573241455365 -0.023281239077248106 57.365949349105932"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder7" "rotate" " -type \"double3\" -189.12933460746177 8.7005747352755627 -178.30349944667941"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder7" "scale" " -type \"double3\" 0.042909735475764849 0.4431019259744145 0.042909735475764849"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder8" "translate" " -type \"double3\" 36.806225009027457 0.75283127065928346 63.313201423839473"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder8" "rotate" " -type \"double3\" 2.6614752872041505 -29.005095533105699 -16.295172380791097"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder8" "scale" " -type \"double3\" 0.06756800645695675 0.69773242513319278 0.06756800645695675"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder9" "translate" " -type \"double3\" 35.989966920250154 0.27666830017472099 65.159287875584155"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder9" "rotate" " -type \"double3\" -17.281716963206957 61.384391662155693 -0.44667851575930917"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder9" "scale" " -type \"double3\" 0.052366145055168303 0.54075233679559354 0.052366145055168303"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder10" "translate" " -type \"double3\" 36.11998161313538 1.2747930331059454 56.369598425504591"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder10" "rotate" " -type \"double3\" 11.395184316716616 -77.245433916273242 -16.157977237588085"
+		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder10" "scale" " -type \"double3\" 0.082178067032329855 0.84860135750419285 0.082178067032329855";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "Grass_DERN";
+	rename -uid "85A12240-4C57-F206-28B5-31BED538FC37";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Grass_DERN"
+		"Grass_DERN" 0
+		"Grass_DERN" 2
+		2 "|Grass_DE:Grass" "translate" " -type \"double3\" -11.387599885864443 0 58.435230825099282"
+		
+		2 "|Grass_DE:Grass" "rotate" " -type \"double3\" 0 138.13400079294854 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "BigFallenLog_JonathanFranklinRN";
+	rename -uid "54FA9E3B-4856-534A-DB3C-AE90CD5C5F92";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"BigFallenLog_JonathanFranklinRN"
+		"BigFallenLog_JonathanFranklinRN" 0
+		"BigFallenLog_JonathanFranklinRN" 3
+		2 "|BigFallenLog_JonathanFranklin:pPipe1" "translate" " -type \"double3\" -15.584268902372033 0 87.279392129021787"
+		
+		2 "|BigFallenLog_JonathanFranklin:pPipe1" "rotate" " -type \"double3\" 90 26.500807351692533 0"
+		
+		2 "|BigFallenLog_JonathanFranklin:pPipe1" "scale" " -type \"double3\" 1.7606708240068933 4.2246661930490887 1.7606708240068933";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "SwampTallTreeNoLeaves_JonathanFranklinRN";
+	rename -uid "CFCA7BE8-4682-1A82-A048-A0BBB1C8A7E3";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SwampTallTreeNoLeaves_JonathanFranklinRN"
+		"SwampTallTreeNoLeaves_JonathanFranklinRN" 0
+		"SwampTallTreeNoLeaves_JonathanFranklinRN" 2
+		2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" "translate" " -type \"double3\" -22.065384779940672 15.982143803352383 51.400676783830662"
+		
+		2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" "scale" " -type \"double3\" 1.4227515033645441 16.155239395806788 1.4227515033645441";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode polySplitRing -n "polySplitRing1";
+	rename -uid "05D250CD-49F0-F241-6681-B3A7DFD574AC";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 2 "e[6:7]" "e[10:11]";
+	setAttr ".ix" -type "matrix" 1 0 0 0 0 10.022044096530115 0 0 0 0 6.5848355586248637 0
+		 -1.5134323480095455 4.9399137527001011 48.957380126993755 1;
+	setAttr ".wt" 0.10460547357797623;
+	setAttr ".re" 7;
+	setAttr ".sma" 29.999999999999996;
+	setAttr ".p[0]"  0 0 1;
+	setAttr ".fq" yes;
+createNode polySplitRing -n "polySplitRing2";
+	rename -uid "08BDE77E-488E-E62B-AC87-1C99F57D12FF";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 1 "e[10:13]";
+	setAttr ".ix" -type "matrix" 1 0 0 0 0 10.022044096530115 0 0 0 0 6.5848355586248637 0
+		 -1.5134323480095455 4.9399137527001011 48.957380126993755 1;
+	setAttr ".wt" 0.83295202255249023;
+	setAttr ".dr" no;
+	setAttr ".re" 12;
+	setAttr ".sma" 29.999999999999996;
+	setAttr ".p[0]"  0 0 1;
+	setAttr ".fq" yes;
+createNode polySplitRing -n "polySplitRing3";
+	rename -uid "DD1C012A-4957-8DA5-537C-E19B8BB4F0F3";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 6 "e[4:5]" "e[8:9]" "e[16]" "e[19]" "e[24]" "e[27]";
+	setAttr ".ix" -type "matrix" 1 0 0 0 0 10.022044096530115 0 0 0 0 6.5848355586248637 0
+		 -1.5134323480095455 4.9399137527001011 48.957380126993755 1;
+	setAttr ".wt" 0.92543333768844604;
+	setAttr ".dr" no;
+	setAttr ".re" 5;
+	setAttr ".sma" 29.999999999999996;
+	setAttr ".p[0]"  0 0 1;
+	setAttr ".fq" yes;
+createNode polySplitRing -n "polySplitRing4";
+	rename -uid "EF239A21-423C-8A93-65EF-E7A3E37DD896";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 7 "e[4:5]" "e[19]" "e[27]" "e[31]" "e[33]" "e[35]" "e[37]";
+	setAttr ".ix" -type "matrix" 1 0 0 0 0 10.022044096530115 0 0 0 0 6.5848355586248637 0
+		 -1.5134323480095455 4.9399137527001011 48.957380126993755 1;
+	setAttr ".wt" 0.069648288190364838;
+	setAttr ".re" 5;
+	setAttr ".sma" 29.999999999999996;
+	setAttr ".p[0]"  0 0 1;
+	setAttr ".fq" yes;
+createNode deleteComponent -n "deleteComponent1";
+	rename -uid "89078EBE-4036-FFAC-C35C-DEA7432583DD";
+	setAttr ".dc" -type "componentList" 1 "f[28]";
+createNode deleteComponent -n "deleteComponent2";
+	rename -uid "71E57F6B-44A4-D37D-90FA-8F8AC0503506";
+	setAttr ".dc" -type "componentList" 1 "f[24]";
+createNode reference -n "SwampTallTreeNoLeaves_JonathanFranklinRN1";
+	rename -uid "17513E38-4B89-8BB4-C660-4E9BCF3EB95E";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SwampTallTreeNoLeaves_JonathanFranklinRN1"
+		"SwampTallTreeNoLeaves_JonathanFranklinRN1" 0
+		"SwampTallTreeNoLeaves_JonathanFranklinRN1" 1
+		2 "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1" "translate" " -type \"double3\" 44.282788738996544 11.246859072099889 70.928387920291456";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode groupId -n "groupId2";
+	rename -uid "7C302475-47C9-0B72-85E6-64ABA72B8105";
+	setAttr ".ihi" 0;
+createNode groupParts -n "groupParts2";
+	rename -uid "06725C0F-4BBA-05B6-333D-C49307DD3353";
+	setAttr ".ihi" 0;
+	setAttr ".ic" -type "componentList" 32 "vtx[648:707]" "vtx[1248:1307]" "vtx[1848:1907]" "vtx[2448:2507]" "vtx[3078:3137]" "vtx[3678:3737]" "vtx[4278:4337]" "vtx[4878:4937]" "vtx[5508:5567]" "vtx[6108:6167]" "vtx[6708:6767]" "vtx[7308:7367]" "vtx[7938:7997]" "vtx[8538:8597]" "vtx[9138:9197]" "vtx[9738:9797]" "vtx[10368:10427]" "vtx[10968:11027]" "vtx[11568:11627]" "vtx[12168:12227]" "vtx[12798:12857]" "vtx[13398:13457]" "vtx[13998:14057]" "vtx[14598:14657]" "vtx[15228:15287]" "vtx[15828:15887]" "vtx[16428:16487]" "vtx[17028:17087]" "vtx[17658:17717]" "vtx[18258:18317]" "vtx[18858:18917]" "vtx[19458:19517]";
+createNode reference -n "BananaTree_SCRN";
+	rename -uid "5EED6CEA-459C-1891-6F3A-64A39EECD69C";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"BananaTree_SCRN"
+		"BananaTree_SCRN" 0
+		"BananaTree_SCRN" 3
+		2 "|BananaTree_SC:BananaTree" "translate" " -type \"double3\" -28.929047670857194 0 30.218985736961493"
+		
+		2 "|BananaTree_SC:BananaTree" "scale" " -type \"double3\" 6.8363487069010409 6.8363487069010409 6.8363487069010409"
+		
+		2 "|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeavesReversed" "scale" 
+		" -type \"double3\" 1 1 1";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "AnotherRock_JonathanFranklinRN";
+	rename -uid "C924D3A2-480B-4EB9-DEE2-CD8B27958454";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"AnotherRock_JonathanFranklinRN"
+		"AnotherRock_JonathanFranklinRN" 0
+		"AnotherRock_JonathanFranklinRN" 1
+		2 "|AnotherRock_JonathanFranklin:anotherRock:Mesh" "translate" " -type \"double3\" 33.549425704135317 0 19.915705118181812";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "MushroomRN";
+	rename -uid "3E978B04-4A42-F785-8729-D9B0513B6C76";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"MushroomRN"
+		"MushroomRN" 0
+		"MushroomRN" 3
+		2 "|Mushroom:pCube1" "translate" " -type \"double3\" 43.422278815293467 0.77680022861590192 63.882165522981666"
+		
+		2 "|Mushroom:pCube1" "rotate" " -type \"double3\" 0 148.14851337895709 0"
+		
+		2 "|Mushroom:pCube1" "scale" " -type \"double3\" 0.37697688709234956 0.22235852846475626 0.22235852846475626";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "Mushroom1RN";
+	rename -uid "D0D704CB-46D6-BFE5-6E42-529A754753B1";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Mushroom1RN"
+		"Mushroom1RN" 0
+		"Mushroom1RN" 2
+		2 "|Mushroom1:pCylinder1" "translate" " -type \"double3\" 45.902822998775811 0.1374530243213421 64.057068853517521"
+		
+		2 "|Mushroom1:pCylinder1" "scale" " -type \"double3\" 0.11226193359598834 0.46694647767389375 0.11226193359598834";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "Mushroom2RN";
+	rename -uid "42BFC144-4B44-36BD-13BF-B8B27DA799C6";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Mushroom2RN"
+		"Mushroom2RN" 0
+		"Mushroom2RN" 2
+		2 "|Mushroom2:pCylinder1" "translate" " -type \"double3\" 46.351297279132119 0.060858175060925168 63.348395543016494"
+		
+		2 "|Mushroom2:pCylinder1" "scale" " -type \"double3\" 0.045549757825112946 0.1894613632068726 0.045549757825112946";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "MushroomRN1";
+	rename -uid "4C8C9521-48FC-CE94-F0B3-638DC74E8455";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"MushroomRN1"
+		"MushroomRN1" 0
+		"MushroomRN1" 3
+		2 "|Mushroom3:pCube1" "translate" " -type \"double3\" 44.266934183584112 0.63466566300991278 63.408113356696305"
+		
+		2 "|Mushroom3:pCube1" "rotate" " -type \"double3\" 0 158.29927494849213 0"
+		
+		2 "|Mushroom3:pCube1" "scale" " -type \"double3\" 0.25578950187614813 0.15087656347477865 0.15087656347477865";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "AddisonM_Rock2RN";
+	rename -uid "6838E36D-4ABE-720D-496F-F7AE97BD9D72";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"AddisonM_Rock2RN"
+		"AddisonM_Rock2RN" 0
+		"AddisonM_Rock2RN" 2
+		2 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2" "translate" " -type \"double3\" 5.8083097242856088 2.8952453463352228 -37.976268837552695"
+		
+		2 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2" "scale" " -type \"double3\" 9.3207305545157215 6.6848819739118026 5.9291777176824327";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "AnotherRock_JonathanFranklinRN1";
+	rename -uid "30D80263-4815-9FAA-F860-70BEB707CDC7";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"AnotherRock_JonathanFranklinRN1"
+		"AnotherRock_JonathanFranklinRN1" 0
+		"AnotherRock_JonathanFranklinRN1" 2
+		2 "|AnotherRock_JonathanFranklin1:anotherRock:Mesh" "translate" " -type \"double3\" 32.833934841430164 0 56.347986065421821"
+		
+		2 "|AnotherRock_JonathanFranklin1:anotherRock:Mesh" "scale" " -type \"double3\" 1.7504658866564469 1.3292594390659065 1.4586793489678838";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
 select -ne :time1;
-	setAttr ".o" 11;
-	setAttr ".unw" 11;
+	setAttr ".o" 39;
+	setAttr ".unw" 39;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -4308,22 +7581,26 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 227 ".st";
+	setAttr -s 543 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 19 ".s";
+	setAttr -s 25 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
+select -ne :defaultRenderUtilityList1;
+	setAttr -s 5 ".u";
 select -ne :defaultRenderingList1;
-	setAttr -s 91 ".r";
-select -ne :lambert1;
-	setAttr ".c" -type "float3" 0.78399998 0.78399998 0.78399998 ;
+	setAttr -s 231 ".r";
+select -ne :defaultTextureList1;
+	setAttr -s 5 ".tx";
 select -ne :initialShadingGroup;
-	setAttr -s 63 ".dsm";
+	setAttr -s 165 ".dsm";
 	setAttr ".ro" yes;
-	setAttr -s 45 ".gn";
+	setAttr -s 107 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
+select -ne :initialMaterialInfo;
+	setAttr -s 2 ".t";
 select -ne :defaultResolution;
 	setAttr ".w" 1920;
 	setAttr ".h" 1080;
@@ -4332,6 +7609,9 @@ select -ne :defaultResolution;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
+select -ne :defaultHideFaceDataSet;
+select -ne :ikSystem;
+	setAttr -s 4 ".sol";
 connectAttr "persp_translateX.o" ":persp.tx";
 connectAttr "persp_translateY.o" ":persp.ty";
 connectAttr "persp_translateZ.o" ":persp.tz";
@@ -4343,6 +7623,7 @@ connectAttr "persp_scaleX.o" ":persp.sx";
 connectAttr "persp_scaleY.o" ":persp.sy";
 connectAttr "persp_scaleZ.o" ":persp.sz";
 connectAttr "polyCube3.out" "pCubeShape5.i";
+connectAttr "deleteComponent2.og" "pCubeShape7.i";
 connectAttr ":time1.o" "Palm_Tree1.inTime";
 connectAttr "Palm_Tree1.outputObjects[0].outputObjectTranslate" "|Palm_Tree1|line_object1.t"
 		;
@@ -4365,9 +7646,11 @@ connectAttr "|Tree_Anna1.outputObjects[0].outputObjectRotate" "|Tree_Anna1|Tree_
 		;
 connectAttr "|Tree_Anna1.outputObjects[0].outputObjectScale" "|Tree_Anna1|Tree_Anna1.s"
 		;
-connectAttr "groupId1.id" "merge1_0Shape.iog.og[0].gid";
-connectAttr "leaf.mwc" "merge1_0Shape.iog.og[0].gco";
-connectAttr "groupParts1.og" "merge1_0Shape.i";
+connectAttr "groupId1.id" "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog.og[0].gid"
+		;
+connectAttr "leaf.mwc" "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog.og[0].gco"
+		;
+connectAttr "groupParts1.og" "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.i";
 connectAttr ":time1.o" "Small_Bush1.inTime";
 connectAttr "Small_Bush1.outputObjects[0].outputObjectTranslate" "|Small_Bush1|line_object1.t"
 		;
@@ -4420,19 +7703,19 @@ connectAttr "|shaun_bush_fern1.outputObjects[0].outputObjectRotate" "|shaun_bush
 		;
 connectAttr "|shaun_bush_fern1.outputObjects[0].outputObjectScale" "|shaun_bush_fern1|shaun_bush_fern1.s"
 		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "foreach_end2_0Shape.i"
+connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.i"
 		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "foreach_end2_0Shape.branchbend"
+connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.branchbend"
 		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "foreach_end2_0Shape.leafsize"
+connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.leafsize"
 		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "foreach_end2_0Shape.branchangle"
+connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.branchangle"
 		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "foreach_end2_0Shape.branchsize"
+connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.branchsize"
 		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "foreach_end2_0Shape.rotation"
+connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.rotation"
 		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "foreach_end2_0Shape.leafjitter"
+connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.leafjitter"
 		;
 connectAttr ":time1.o" "Small_Bush6.inTime";
 connectAttr "Small_Bush6.outputObjects[0].outputObjectTranslate" "|Small_Bush6|line_object1.t"
@@ -4468,9 +7751,12 @@ connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[1].outputPart
 connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[1].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree2|line_object1|merge3_1|merge3_1Shape.rest"
 		;
 connectAttr ":time1.o" "Short_Palm1.inTime";
-connectAttr "Short_Palm1.outputObjects[0].outputObjectTranslate" "grid1.t";
-connectAttr "Short_Palm1.outputObjects[0].outputObjectRotate" "grid1.r";
-connectAttr "Short_Palm1.outputObjects[0].outputObjectScale" "grid1.s";
+connectAttr "Short_Palm1.outputObjects[0].outputObjectTranslate" "|Short_Palm1|grid1.t"
+		;
+connectAttr "Short_Palm1.outputObjects[0].outputObjectRotate" "|Short_Palm1|grid1.r"
+		;
+connectAttr "Short_Palm1.outputObjects[0].outputObjectScale" "|Short_Palm1|grid1.s"
+		;
 connectAttr "Short_Palm1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Short_Palm1|grid1|merge3_0|merge3_0Shape.i"
 		;
 connectAttr "Short_Palm1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Short_Palm1|grid1|merge3_0|merge3_0Shape.rest"
@@ -4483,6 +7769,173 @@ connectAttr "Small_Bush8.outputObjects[0].outputObjectRotate" "|Small_Bush8|line
 connectAttr "Small_Bush8.outputObjects[0].outputObjectScale" "|Small_Bush8|line_object1.s"
 		;
 connectAttr "Small_Bush8.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush8|line_object1|color1_0|color1_0Shape.i"
+		;
+connectAttr "polyPlane1.out" "GroundShape.i";
+connectAttr ":time1.o" "Small_Bush9.inTime";
+connectAttr "Small_Bush9.outputObjects[0].outputObjectTranslate" "|Small_Bush9|line_object1.t"
+		;
+connectAttr "Small_Bush9.outputObjects[0].outputObjectRotate" "|Small_Bush9|line_object1.r"
+		;
+connectAttr "Small_Bush9.outputObjects[0].outputObjectScale" "|Small_Bush9|line_object1.s"
+		;
+connectAttr "Small_Bush9.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush9|line_object1|color1_0|color1_0Shape.i"
+		;
+connectAttr ":time1.o" "Small_Bush10.inTime";
+connectAttr "Small_Bush10.outputObjects[0].outputObjectTranslate" "|Small_Bush10|line_object1.t"
+		;
+connectAttr "Small_Bush10.outputObjects[0].outputObjectRotate" "|Small_Bush10|line_object1.r"
+		;
+connectAttr "Small_Bush10.outputObjects[0].outputObjectScale" "|Small_Bush10|line_object1.s"
+		;
+connectAttr "Small_Bush10.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush10|line_object1|color1_0|color1_0Shape.i"
+		;
+connectAttr ":time1.o" "|shaun_bush_fern2.inTime";
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern2|shaun_bush_fern2.t"
+		;
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputObjectRotate" "|shaun_bush_fern2|shaun_bush_fern2.r"
+		;
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputObjectScale" "|shaun_bush_fern2|shaun_bush_fern2.s"
+		;
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.i"
+		;
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.branchbend"
+		;
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.leafsize"
+		;
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.branchangle"
+		;
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.branchsize"
+		;
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.rotation"
+		;
+connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.leafjitter"
+		;
+connectAttr ":time1.o" "|shaun_bush_fern3.inTime";
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern3|shaun_bush_fern3.t"
+		;
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputObjectRotate" "|shaun_bush_fern3|shaun_bush_fern3.r"
+		;
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputObjectScale" "|shaun_bush_fern3|shaun_bush_fern3.s"
+		;
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.i"
+		;
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.branchbend"
+		;
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.leafsize"
+		;
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.branchangle"
+		;
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.branchsize"
+		;
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.rotation"
+		;
+connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.leafjitter"
+		;
+connectAttr ":time1.o" "Palm_Tree3.inTime";
+connectAttr "Palm_Tree3.outputObjects[0].outputObjectTranslate" "|Palm_Tree3|line_object1.t"
+		;
+connectAttr "Palm_Tree3.outputObjects[0].outputObjectRotate" "|Palm_Tree3|line_object1.r"
+		;
+connectAttr "Palm_Tree3.outputObjects[0].outputObjectScale" "|Palm_Tree3|line_object1.s"
+		;
+connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.i"
+		;
+connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.rest"
+		;
+connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[1].outputPartMeshData" "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.i"
+		;
+connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[1].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.rest"
+		;
+connectAttr ":time1.o" "Small_Bush11.inTime";
+connectAttr "Small_Bush11.outputObjects[0].outputObjectTranslate" "|Small_Bush11|line_object1.t"
+		;
+connectAttr "Small_Bush11.outputObjects[0].outputObjectRotate" "|Small_Bush11|line_object1.r"
+		;
+connectAttr "Small_Bush11.outputObjects[0].outputObjectScale" "|Small_Bush11|line_object1.s"
+		;
+connectAttr "Small_Bush11.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush11|line_object1|color1_0|color1_0Shape.i"
+		;
+connectAttr ":time1.o" "|Tree_Anna2.inTime";
+connectAttr "|Tree_Anna2.outputObjects[0].outputObjectTranslate" "|Tree_Anna2|Tree_Anna2.t"
+		;
+connectAttr "|Tree_Anna2.outputObjects[0].outputObjectRotate" "|Tree_Anna2|Tree_Anna2.r"
+		;
+connectAttr "|Tree_Anna2.outputObjects[0].outputObjectScale" "|Tree_Anna2|Tree_Anna2.s"
+		;
+connectAttr "groupId2.id" "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog.og[0].gid"
+		;
+connectAttr "leaf.mwc" "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog.og[0].gco"
+		;
+connectAttr "groupParts2.og" "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.i";
+connectAttr ":time1.o" "Short_Palm2.inTime";
+connectAttr "Short_Palm2.outputObjects[0].outputObjectTranslate" "|Short_Palm2|grid1.t"
+		;
+connectAttr "Short_Palm2.outputObjects[0].outputObjectRotate" "|Short_Palm2|grid1.r"
+		;
+connectAttr "Short_Palm2.outputObjects[0].outputObjectScale" "|Short_Palm2|grid1.s"
+		;
+connectAttr "Short_Palm2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Short_Palm2|grid1|merge3_0|merge3_0Shape.i"
+		;
+connectAttr "Short_Palm2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Short_Palm2|grid1|merge3_0|merge3_0Shape.rest"
+		;
+connectAttr ":time1.o" "Short_Palm3.inTime";
+connectAttr "Short_Palm3.outputObjects[0].outputObjectTranslate" "|Short_Palm3|grid1.t"
+		;
+connectAttr "Short_Palm3.outputObjects[0].outputObjectRotate" "|Short_Palm3|grid1.r"
+		;
+connectAttr "Short_Palm3.outputObjects[0].outputObjectScale" "|Short_Palm3|grid1.s"
+		;
+connectAttr "Short_Palm3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Short_Palm3|grid1|merge3_0|merge3_0Shape.i"
+		;
+connectAttr "Short_Palm3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Short_Palm3|grid1|merge3_0|merge3_0Shape.rest"
+		;
+connectAttr ":time1.o" "|shaun_bush_fern4.inTime";
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern4|shaun_bush_fern4.t"
+		;
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputObjectRotate" "|shaun_bush_fern4|shaun_bush_fern4.r"
+		;
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputObjectScale" "|shaun_bush_fern4|shaun_bush_fern4.s"
+		;
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.i"
+		;
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.branchbend"
+		;
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.leafsize"
+		;
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.branchangle"
+		;
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.branchsize"
+		;
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.rotation"
+		;
+connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.leafjitter"
+		;
+connectAttr ":time1.o" "Small_Bush12.inTime";
+connectAttr "Small_Bush12.outputObjects[0].outputObjectTranslate" "|Small_Bush12|line_object1.t"
+		;
+connectAttr "Small_Bush12.outputObjects[0].outputObjectRotate" "|Small_Bush12|line_object1.r"
+		;
+connectAttr "Small_Bush12.outputObjects[0].outputObjectScale" "|Small_Bush12|line_object1.s"
+		;
+connectAttr "Small_Bush12.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush12|line_object1|color1_0|color1_0Shape.i"
+		;
+connectAttr ":time1.o" "Small_Bush13.inTime";
+connectAttr "Small_Bush13.outputObjects[0].outputObjectTranslate" "|Small_Bush13|line_object1.t"
+		;
+connectAttr "Small_Bush13.outputObjects[0].outputObjectRotate" "|Small_Bush13|line_object1.r"
+		;
+connectAttr "Small_Bush13.outputObjects[0].outputObjectScale" "|Small_Bush13|line_object1.s"
+		;
+connectAttr "Small_Bush13.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush13|line_object1|color1_0|color1_0Shape.i"
+		;
+connectAttr ":time1.o" "Small_Bush14.inTime";
+connectAttr "Small_Bush14.outputObjects[0].outputObjectTranslate" "|Small_Bush14|line_object1.t"
+		;
+connectAttr "Small_Bush14.outputObjects[0].outputObjectRotate" "|Small_Bush14|line_object1.r"
+		;
+connectAttr "Small_Bush14.outputObjects[0].outputObjectScale" "|Small_Bush14|line_object1.s"
+		;
+connectAttr "Small_Bush14.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush14|line_object1|color1_0|color1_0Shape.i"
 		;
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
@@ -4501,10 +7954,27 @@ connectAttr "layerManager.dli[7]" "OB_ctrl_TOUCH_ME.id";
 connectAttr "layerManager.dli[1]" "pasted__LB_geo_TOUCH_GENTLY.id";
 connectAttr "layerManager.dli[3]" "pasted__LB_geo_TOUCH_GENTLY1.id";
 connectAttr "groupId1.msg" "leaf.gn" -na;
-connectAttr "merge1_0Shape.iog.og[0]" "leaf.dsm" -na;
+connectAttr "groupId2.msg" "leaf.gn" -na;
+connectAttr "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog.og[0]" "leaf.dsm"
+		 -na;
+connectAttr "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog.og[0]" "leaf.dsm"
+		 -na;
 connectAttr "|Tree_Anna1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "groupParts1.ig"
 		;
 connectAttr "groupId1.id" "groupParts1.gi";
+connectAttr "polySurfaceShape1.o" "polySplitRing1.ip";
+connectAttr "pCubeShape7.wm" "polySplitRing1.mp";
+connectAttr "polySplitRing1.out" "polySplitRing2.ip";
+connectAttr "pCubeShape7.wm" "polySplitRing2.mp";
+connectAttr "polySplitRing2.out" "polySplitRing3.ip";
+connectAttr "pCubeShape7.wm" "polySplitRing3.mp";
+connectAttr "polySplitRing3.out" "polySplitRing4.ip";
+connectAttr "pCubeShape7.wm" "polySplitRing4.mp";
+connectAttr "polySplitRing4.out" "deleteComponent1.ig";
+connectAttr "deleteComponent1.og" "deleteComponent2.ig";
+connectAttr "|Tree_Anna2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "groupParts2.ig"
+		;
+connectAttr "groupId2.id" "groupParts2.gi";
 connectAttr "lambert2.msg" ":defaultShaderList1.s" -na;
 connectAttr "Black.msg" ":defaultShaderList1.s" -na;
 connectAttr "REd.msg" ":defaultShaderList1.s" -na;
@@ -4528,7 +7998,8 @@ connectAttr "|Palm_Tree1|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadi
 		 -na;
 connectAttr "|Palm_Tree1|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
-connectAttr "merge1_0Shape.iog" ":initialShadingGroup.dsm" -na;
+connectAttr "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
 connectAttr "|Small_Bush1|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 connectAttr "|Small_Bush2|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
@@ -4539,7 +8010,8 @@ connectAttr "|Small_Bush4|line_object1|color1_0|color1_0Shape.iog" ":initialShad
 		 -na;
 connectAttr "|Small_Bush5|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
-connectAttr "foreach_end2_0Shape.iog" ":initialShadingGroup.dsm" -na;
+connectAttr "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
 connectAttr "|Small_Bush6|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 connectAttr "|Small_Bush7|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
@@ -4551,5 +8023,34 @@ connectAttr "|Palm_Tree2|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadi
 connectAttr "|Short_Palm1|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 connectAttr "|Small_Bush8|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "GroundShape.iog" ":initialShadingGroup.dsm" -na;
+connectAttr "|Small_Bush9|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Small_Bush10|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Small_Bush11|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Short_Palm2|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Short_Palm3|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Small_Bush12|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Small_Bush13|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
+		 -na;
+connectAttr "|Small_Bush14|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 // End of AnnaRunSet.ma
