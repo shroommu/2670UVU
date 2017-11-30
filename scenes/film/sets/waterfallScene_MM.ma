@@ -1,37 +1,11 @@
 //Maya ASCII 2017ff05 scene
 //Name: waterfallScene_MM.ma
-//Last modified: Thu, Nov 30, 2017 10:33:56 AM
+//Last modified: Thu, Nov 30, 2017 11:45:43 AM
 //Codeset: 1252
-file -rdi 1 -ns "Fern_DE" -rfn "Fern_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE1" -rfn "Fern_DERN1" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE2" -rfn "Fern_DERN2" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE3" -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE4" -rfn "Fern_DE3RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE5" -rfn "Fern_DE4RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE6" -rfn "Fern_DE5RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE7" -rfn "Fern_DE6RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE8" -rfn "Fern_DE7RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE9" -rfn "Fern_DE8RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE10" -rfn "Fern_DE9RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE11" -rfn "Fern_DE10RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE12" -rfn "Fern_DE11RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE13" -rfn "Fern_DE12RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE14" -rfn "Fern_DE13RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE15" -rfn "Fern_DE14RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE16" -rfn "Fern_DE15RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE17" -rfn "Fern_DE9RN1" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE18" -rfn "Fern_DE17RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE19" -rfn "Fern_DE18RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE20" -rfn "Fern_DE19RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE21" -rfn "Fern_DE20RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE22" -rfn "Fern_DE21RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -rdi 1 -ns "PalmTree_SC" -rfn "PalmTree_SCRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
 file -rdi 1 -ns "PalmTree_SC1" -rfn "PalmTree_SCRN1" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
-file -rdi 1 -ns "Fern_DE23" -rfn "Fern_DE9RN2" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE24" -rfn "Fern_DE11RN1" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -rdi 1 -ns "Fern_DE25" -rfn "Fern_DE24RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -rdi 1 -ns "PalmTree_SC2" -rfn "PalmTree_SCRN2" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
 file -rdi 1 -ns "PalmTree_SC3" -rfn "PalmTree_SCRN3" -op "v=0;" -typ "mayaAscii"
@@ -40,36 +14,36 @@ file -rdi 1 -ns "PalmTree_SC4" -rfn "PalmTree_SCRN4" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
 file -rdi 1 -ns "PalmTree_SC5" -rfn "PalmTree_SCRN5" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
-file -r -ns "Fern_DE" -dr 1 -rfn "Fern_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE1" -dr 1 -rfn "Fern_DERN1" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE2" -dr 1 -rfn "Fern_DERN2" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE3" -dr 1 -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE4" -dr 1 -rfn "Fern_DE3RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE5" -dr 1 -rfn "Fern_DE4RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE6" -dr 1 -rfn "Fern_DE5RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE7" -dr 1 -rfn "Fern_DE6RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE8" -dr 1 -rfn "Fern_DE7RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE9" -dr 1 -rfn "Fern_DE8RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE10" -dr 1 -rfn "Fern_DE9RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE11" -dr 1 -rfn "Fern_DE10RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE12" -dr 1 -rfn "Fern_DE11RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE13" -dr 1 -rfn "Fern_DE12RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE14" -dr 1 -rfn "Fern_DE13RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE15" -dr 1 -rfn "Fern_DE14RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE16" -dr 1 -rfn "Fern_DE15RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE17" -dr 1 -rfn "Fern_DE9RN1" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE18" -dr 1 -rfn "Fern_DE17RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE19" -dr 1 -rfn "Fern_DE18RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE20" -dr 1 -rfn "Fern_DE19RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE21" -dr 1 -rfn "Fern_DE20RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE22" -dr 1 -rfn "Fern_DE21RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "PalmTree_SC6" -rfn "PalmTree_SCRN6" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC7" -rfn "PalmTree_SCRN7" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC8" -rfn "PalmTree_SCRN8" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC9" -rfn "PalmTree_SCRN9" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC10" -rfn "PalmTree_SCRN10" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC11" -rfn "PalmTree_SCRN11" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC12" -rfn "PalmTree_SCRN12" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC13" -rfn "PalmTree_SCRN13" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC14" -rfn "PalmTree_SCRN14" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC15" -rfn "PalmTree_SCRN15" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC16" -rfn "PalmTree_SCRN16" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC17" -rfn "PalmTree_SCRN17" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC18" -rfn "PalmTree_SCRN18" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
 file -r -ns "PalmTree_SC" -dr 1 -rfn "PalmTree_SCRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
 file -r -ns "PalmTree_SC1" -dr 1 -rfn "PalmTree_SCRN1" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
-file -r -ns "Fern_DE23" -dr 1 -rfn "Fern_DE9RN2" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE24" -dr 1 -rfn "Fern_DE11RN1" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
-file -r -ns "Fern_DE25" -dr 1 -rfn "Fern_DE24RN" -typ "mayaAscii" "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -r -ns "PalmTree_SC2" -dr 1 -rfn "PalmTree_SCRN2" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
 file -r -ns "PalmTree_SC3" -dr 1 -rfn "PalmTree_SCRN3" -op "v=0;" -typ "mayaAscii"
@@ -78,9 +52,36 @@ file -r -ns "PalmTree_SC4" -dr 1 -rfn "PalmTree_SCRN4" -op "v=0;" -typ "mayaAsci
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
 file -r -ns "PalmTree_SC5" -dr 1 -rfn "PalmTree_SCRN5" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC6" -dr 1 -rfn "PalmTree_SCRN6" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC7" -dr 1 -rfn "PalmTree_SCRN7" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC8" -dr 1 -rfn "PalmTree_SCRN8" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC9" -dr 1 -rfn "PalmTree_SCRN9" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC10" -dr 1 -rfn "PalmTree_SCRN10" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC11" -dr 1 -rfn "PalmTree_SCRN11" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC12" -dr 1 -rfn "PalmTree_SCRN12" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC13" -dr 1 -rfn "PalmTree_SCRN13" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC14" -dr 1 -rfn "PalmTree_SCRN14" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC15" -dr 1 -rfn "PalmTree_SCRN15" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC16" -dr 1 -rfn "PalmTree_SCRN16" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC17" -dr 1 -rfn "PalmTree_SCRN17" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC18" -dr 1 -rfn "PalmTree_SCRN18" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10796568/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "1.4.2.3";
+requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2017";
@@ -90,11 +91,11 @@ fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "5CFF8F2C-40BE-A36F-C43A-A8B81E577AE3";
-	setAttr ".t" -type "double3" -157.80899342882466 310.08424207246838 27.978960244938726 ;
+	setAttr ".t" -type "double3" 338.63021366818055 210.65890087896298 -54.894347891089147 ;
 	setAttr -av ".tx";
 	setAttr -av ".ty";
 	setAttr -av ".tz";
-	setAttr ".r" -type "double3" -20.138352849640011 -1173.3999999972866 2.5444437451708134e-014 ;
+	setAttr ".r" -type "double3" -0.33835284949875366 -1191.7999999970568 0 ;
 	setAttr -av ".rx";
 	setAttr -av ".ry";
 	setAttr -av ".rz";
@@ -102,11 +103,11 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0C2C56D7-4C87-5656-4FB0-BEA133C4B14B";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 250.75689784025332;
+	setAttr ".coi" 255.84592962644098;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -0.31472539901733398 6.1655929088592529 1.324333667755127 ;
+	setAttr ".tp" -type "double3" 576.17539113105079 209.14804446134926 40.116944508480785 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "AD435BF6-4ADA-E8AF-467F-D19DFF77AF8B";
@@ -3414,15 +3415,15 @@ createNode mesh -n "BridgeScene:shot15_7:shot15:pCubeShape19" -p "BridgeScene:sh
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "783465F8-4CD4-7263-9052-E9995D3D2A34";
-	setAttr -s 240 ".lnk";
-	setAttr -s 240 ".slnk";
+	rename -uid "707865EE-4DA8-B252-5511-2AB3A2D584B3";
+	setAttr -s 280 ".lnk";
+	setAttr -s 280 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "BF390A20-4A6F-E08F-F915-03A06F67FA25";
+	rename -uid "5CED241A-41E1-1096-36CA-009A581C5722";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "73FCBAA0-4B52-7E13-6BFD-16A7A20A9942";
+	rename -uid "545676A5-4AC4-F156-C071-98903F297558";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "F5EE4BF0-4339-1A51-39FE-76ABF81EFEA5";
+	rename -uid "199959DB-44F9-4145-8F12-59B6C009EDD1";
 	setAttr ".cdl" 2;
 	setAttr -s 23 ".dli[1:22]"  1 2 3 4 6 5 7 8 
 		9 10 11 12 13 14 15 16 17 18 19 20 21 22;
@@ -3430,7 +3431,7 @@ createNode displayLayerManager -n "layerManager";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "451D7319-4E30-0C85-A2B1-998A2749B245";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "5EEA02BD-4BD1-C0D1-9153-449C9FC50854";
+	rename -uid "1F396D94-4FCA-D9C2-1522-D8AE4F7C04BF";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "F3EB2E0F-48A9-579E-CE7F-939ED236D507";
 	setAttr ".g" yes;
@@ -3487,7 +3488,7 @@ createNode script -n "shot15_7:uiConfigurationScriptNode";
 		+ "            -grid 0\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n"
 		+ "\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n"
 		+ "            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"base_OpenGL_Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n"
-		+ "            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 0\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1051\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n"
+		+ "            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 0\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1050\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n"
 		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n"
 		+ "            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n"
 		+ "            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n"
@@ -3513,8 +3514,8 @@ createNode script -n "shot15_7:uiConfigurationScriptNode";
 		+ "                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"base_OpenGL_Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 0\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1051\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"base_OpenGL_Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 0\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1051\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"base_OpenGL_Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 0\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1050\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"base_OpenGL_Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 0\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1050\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "shot15_7:sceneConfigurationScriptNode";
@@ -7015,31 +7016,6 @@ createNode file -n "LittleboyrunSeperate:file2";
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "LittleboyrunSeperate:place2dTexture2";
 	rename -uid "A085E9C0-4D6E-631D-004C-80BF12CC89E4";
-createNode reference -n "Fern_DERN";
-	rename -uid "7580BC2F-4EE2-5D2B-6999-AD954665CF34";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DERN"
-		"Fern_DERN" 0
-		"Fern_DERN" 3
-		2 "|Fern_DE:Bush" "translate" " -type \"double3\" 430.32139664113697 69.776688437301459 145.68474160147304"
-		
-		2 "|Fern_DE:Bush" "rotate" " -type \"double3\" -148.67989969460606 77.093890017557015 -124.52660988160318"
-		
-		2 "|Fern_DE:Bush" "scale" " -type \"double3\" 1.4483914312436479 1.4483914312436479 1.4483914312436479";
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
-createNode reference -n "Fern_DERN1";
-	rename -uid "39452575-4882-CA0E-9A97-CF800E226654";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DERN1"
-		"Fern_DERN1" 0
-		"Fern_DERN1" 3
-		2 "|Fern_DE1:Bush" "translate" " -type \"double3\" 431.00069154967355 101.8881885322913 -112.60501608389498"
-		
-		2 "|Fern_DE1:Bush" "rotate" " -type \"double3\" 2.6131203340424891 -61.884085288787574 32.34017199533708"
-		
-		2 "|Fern_DE1:Bush" "scale" " -type \"double3\" 1.3653616110370776 1.3653616110370776 1.3653616110370776";
-lockNode -l 1 ;
 createNode animCurveTU -n "persp_scaleX";
 	rename -uid "0AA0C267-437B-9AB4-1B32-BF89C7A5FC10";
 	setAttr ".tan" 3;
@@ -7090,222 +7066,12 @@ createNode animCurveTA -n "persp_rotateZ";
 	setAttr ".tan" 3;
 	setAttr ".ktv[0]"  1 -4.6015243851398411e-016;
 	setAttr ".kot[0]"  5;
-createNode reference -n "Fern_DERN2";
-	rename -uid "A78FF693-43D1-D9CE-3D0D-89B660CD436E";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DERN2"
-		"Fern_DERN2" 0
-		"Fern_DERN2" 2
-		2 "|Fern_DE2:Bush" "translate" " -type \"double3\" 425.67676874082213 93.090936742973298 -117.11464578441795"
-		
-		2 "|Fern_DE2:Bush" "rotate" " -type \"double3\" -15.534719799210375 0 59.881957935064392";
-lockNode -l 1 ;
 createNode groupId -n "groupId1";
 	rename -uid "468F12C8-4A9E-C119-055C-65BFED7E013F";
 	setAttr ".ihi" 0;
 createNode groupId -n "groupId2";
 	rename -uid "C05EB6AA-4887-8B9D-2147-1AB2C0E89867";
 	setAttr ".ihi" 0;
-createNode reference -n "Fern_DE1RN";
-	rename -uid "07265552-454E-3FC7-B5DA-5F854607FD4C";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE1RN"
-		"Fern_DE1RN" 0
-		"Fern_DE1RN" 2
-		2 "|Fern_DE3:Bush" "translate" " -type \"double3\" 368.41700891978098 33.765550376391666 -47.618342924455348"
-		
-		2 "|Fern_DE3:Bush" "rotate" " -type \"double3\" 0 0 18.421687974007209";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE3RN";
-	rename -uid "387EC97B-4A7E-7BBF-E3D4-E0A8586BE9C7";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE3RN"
-		"Fern_DE3RN" 0
-		"Fern_DE3RN" 2
-		2 "|Fern_DE4:Bush" "translate" " -type \"double3\" 364.50630553694612 26.221861655019126 -54.771725044837751"
-		
-		2 "|Fern_DE4:Bush" "rotate" " -type \"double3\" 0 0 48.37894375415955";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE4RN";
-	rename -uid "BE401555-42A7-169F-256D-44890B751181";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE4RN"
-		"Fern_DE4RN" 0
-		"Fern_DE4RN" 2
-		2 "|Fern_DE5:Bush" "translate" " -type \"double3\" 362.08308203331359 19.69430337330639 -40.225418655132806"
-		
-		2 "|Fern_DE5:Bush" "rotate" " -type \"double3\" 46.214742840233754 0 35.802625872734289";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE5RN";
-	rename -uid "D521D537-4BFF-B49A-1CAB-589D254C2E41";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE5RN"
-		"Fern_DE5RN" 0
-		"Fern_DE5RN" 2
-		2 "|Fern_DE6:Bush" "translate" " -type \"double3\" 404.56421143549551 52.935409397777399 132.71467462772239"
-		
-		2 "|Fern_DE6:Bush" "rotate" " -type \"double3\" 0 0 33.65471999750536";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE6RN";
-	rename -uid "794EDBBA-453E-48CD-AF29-DDB5FED5960C";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE6RN"
-		"Fern_DE6RN" 0
-		"Fern_DE6RN" 2
-		2 "|Fern_DE7:Bush" "translate" " -type \"double3\" 422.48685689928743 47.134684001397432 129.92343171098463"
-		
-		2 "|Fern_DE7:Bush" "rotate" " -type \"double3\" -49.236723118866223 10.249021895676639 13.332521827900697";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE7RN";
-	rename -uid "86D20B51-4308-04A6-CE98-2D8B083340FE";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE7RN"
-		"Fern_DE7RN" 0
-		"Fern_DE7RN" 2
-		2 "|Fern_DE8:Bush" "translate" " -type \"double3\" 458.72846624120507 81.274942678856178 155.1655559391628"
-		
-		2 "|Fern_DE8:Bush" "rotate" " -type \"double3\" -44.126238201788645 8.1091480577875537 8.2744362597644567";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE8RN";
-	rename -uid "C05181F0-46F8-2395-87C6-53B001BAE89B";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE8RN"
-		"Fern_DE8RN" 0
-		"Fern_DE8RN" 2
-		2 "|Fern_DE9:Bush" "translate" " -type \"double3\" 449.39109770179539 77.239607318399152 165.21962173730097"
-		
-		2 "|Fern_DE9:Bush" "rotate" " -type \"double3\" 10.690477794971986 0 34.58945800739145";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE9RN";
-	rename -uid "CA35521B-43DC-6C54-F40F-658ADC506D00";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE9RN"
-		"Fern_DE9RN" 0
-		"Fern_DE9RN" 2
-		2 "|Fern_DE10:Bush" "translate" " -type \"double3\" 412.35029390331329 56.276396627772741 141.49254869728045"
-		
-		2 "|Fern_DE10:Bush" "rotate" " -type \"double3\" 8.7966981446356289 -2.0881160616829693 40.970544977086334";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE10RN";
-	rename -uid "7558996B-418F-269D-06FA-2EAC269DC325";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE10RN"
-		"Fern_DE10RN" 0
-		"Fern_DE10RN" 2
-		2 "|Fern_DE11:Bush" "translate" " -type \"double3\" 372.59681367431438 29.490794172337715 159.72329221714915"
-		
-		2 "|Fern_DE11:Bush" "rotate" " -type \"double3\" -5.8209528690727925 23.128986165815029 40.788896143390595";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE11RN";
-	rename -uid "AB0ED1E3-4982-23F5-9E6A-A5B492DE87EA";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE11RN"
-		"Fern_DE11RN" 0
-		"Fern_DE11RN" 2
-		2 "|Fern_DE12:Bush" "translate" " -type \"double3\" 382.07792124827029 14.707474903388338 153.38581278230117"
-		
-		2 "|Fern_DE12:Bush" "rotate" " -type \"double3\" -57.168905601742502 7.1288673201989061 6.7742243930287724";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE12RN";
-	rename -uid "8D01A626-4F21-C227-F3B2-B4805AC79956";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE12RN"
-		"Fern_DE12RN" 0
-		"Fern_DE12RN" 2
-		2 "|Fern_DE13:Bush" "translate" " -type \"double3\" 364.23468787352408 13.494124170281808 154.17492939251343"
-		
-		2 "|Fern_DE13:Bush" "rotate" " -type \"double3\" -11.448654972798145 -1.0437256799497678 63.520435904875562";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE13RN";
-	rename -uid "B9071C12-477F-1FF9-690C-7193D7A87456";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE13RN"
-		"Fern_DE13RN" 0
-		"Fern_DE13RN" 2
-		2 "|Fern_DE14:Bush" "translate" " -type \"double3\" 358.73263612196126 0 139.32906279911475"
-		
-		2 "|Fern_DE14:Bush" "rotate" " -type \"double3\" -60.261660022742944 -15.536145064442458 36.133687978251849";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE14RN";
-	rename -uid "8951B2FF-48F4-ADF7-CFED-D0A2BB4E03FD";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE14RN"
-		"Fern_DE14RN" 0
-		"Fern_DE14RN" 2
-		2 "|Fern_DE15:Bush" "translate" " -type \"double3\" 404.95570655095185 58.031715157424536 -78.059224885016107"
-		
-		2 "|Fern_DE15:Bush" "rotate" " -type \"double3\" 0 0 64.664345300481173";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE15RN";
-	rename -uid "BD650AB5-44F4-2163-8C04-FE9C59C6763F";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE15RN"
-		"Fern_DE15RN" 0
-		"Fern_DE15RN" 2
-		2 "|Fern_DE16:Bush" "translate" " -type \"double3\" 414.54131708330362 75.207216286195191 -82.640961990459346"
-		
-		2 "|Fern_DE16:Bush" "rotate" " -type \"double3\" 17.917942968380711 20.60172906534682 46.205872652262236";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE9RN1";
-	rename -uid "797009DB-49D5-97C5-157E-F6B681E82B7A";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE9RN1"
-		"Fern_DE9RN1" 0
-		"Fern_DE9RN1" 2
-		2 "|Fern_DE17:Bush" "translate" " -type \"double3\" 315.63247681186238 -2.0293376572465673 169.40223200356797"
-		
-		2 "|Fern_DE17:Bush" "rotate" " -type \"double3\" -26.372308035769972 9.6964640163851108 7.4607275625607175";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE17RN";
-	rename -uid "8735B605-4481-253F-1297-5C960B2869C7";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE17RN"
-		"Fern_DE17RN" 0
-		"Fern_DE17RN" 2
-		2 "|Fern_DE18:Bush" "translate" " -type \"double3\" 334.73897551077368 0.11555637975826194 164.7824522561354"
-		
-		2 "|Fern_DE18:Bush" "rotate" " -type \"double3\" -108.94859162553571 -59.276393488459135 143.03338939804345";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE18RN";
-	rename -uid "58D1AFB8-4848-5576-A828-C9ABF7778140";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE18RN"
-		"Fern_DE18RN" 0
-		"Fern_DE18RN" 2
-		2 "|Fern_DE19:Bush" "translate" " -type \"double3\" 338.86744730024918 5.1118224583352756 175.63338447721446"
-		
-		2 "|Fern_DE19:Bush" "rotate" " -type \"double3\" -19.264339614738716 3.0002498656196552 8.5172722415434112";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE19RN";
-	rename -uid "A34AC42C-41A0-7307-30EF-9AA3C169E42C";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE19RN"
-		"Fern_DE19RN" 0
-		"Fern_DE19RN" 2
-		2 "|Fern_DE20:Bush" "translate" " -type \"double3\" 446.35452526483743 50.089135107426486 -42.598311210924791"
-		
-		2 "|Fern_DE20:Bush" "rotate" " -type \"double3\" 12.051112666916419 -6.5517155286140278 23.671252223379412";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE20RN";
-	rename -uid "DFB1FA49-40C8-777E-2C95-EB88E30F5202";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE20RN"
-		"Fern_DE20RN" 0
-		"Fern_DE20RN" 2
-		2 "|Fern_DE21:Bush" "translate" " -type \"double3\" 439.11753366959783 54.987576634954181 -63.762100629899194"
-		
-		2 "|Fern_DE21:Bush" "rotate" " -type \"double3\" 7.2472796908458603 -5.9268502520822235 24.986931714292488";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE21RN";
-	rename -uid "70BB9AB5-4523-F813-552F-0DB8C8A280AF";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE21RN"
-		"Fern_DE21RN" 0
-		"Fern_DE21RN" 2
-		2 "|Fern_DE22:Bush" "translate" " -type \"double3\" 455.78082829004609 55.391409327651331 -57.800445491028654"
-		
-		2 "|Fern_DE22:Bush" "rotate" " -type \"double3\" 12.364869966887358 -2.8175000188063728 19.3278778003714";
-lockNode -l 1 ;
 createNode reference -n "PalmTree_SCRN";
 	rename -uid "69CC6456-45F5-2970-EF2D-1CB32138BE17";
 	setAttr ".ed" -type "dataReferenceEdits" 
@@ -7329,36 +7095,6 @@ createNode reference -n "PalmTree_SCRN1";
 		
 		2 "|PalmTree_SC1:SC_PalmTree" "rotate" " -type \"double3\" 0 130.53731415336577 0";
 	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE9RN2";
-	rename -uid "913BF2C1-4E52-959F-63D6-F5893AB6273C";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE9RN2"
-		"Fern_DE9RN2" 0
-		"Fern_DE9RN2" 2
-		2 "|Fern_DE23:Bush" "translate" " -type \"double3\" 403.97040338978081 59.099954684195552 184.27846298143345"
-		
-		2 "|Fern_DE23:Bush" "rotate" " -type \"double3\" -44.956287089591513 13.579300274479946 4.3629054502365285";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE11RN1";
-	rename -uid "A512666F-4B2E-31A3-6DBD-62BDF7410FC5";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE11RN1"
-		"Fern_DE11RN1" 0
-		"Fern_DE11RN1" 2
-		2 "|Fern_DE24:Bush" "translate" " -type \"double3\" 364.05491120842208 67.315365349972794 222.38002080503045"
-		
-		2 "|Fern_DE24:Bush" "rotate" " -type \"double3\" -33.809450121769757 -34.803850392613377 76.581229889241328";
-lockNode -l 1 ;
-createNode reference -n "Fern_DE24RN";
-	rename -uid "65FA2219-4FD7-4CAB-2546-96A3664D5A12";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Fern_DE24RN"
-		"Fern_DE24RN" 0
-		"Fern_DE24RN" 2
-		2 "|Fern_DE25:Bush" "translate" " -type \"double3\" 383.77677028001881 57.624678293977141 201.89958403042985"
-		
-		2 "|Fern_DE25:Bush" "rotate" " -type \"double3\" -48.494301335012352 34.821353083864011 25.471949937324439";
 lockNode -l 1 ;
 createNode reference -n "PalmTree_SCRN2";
 	rename -uid "EDD7EBAD-4D7F-3C71-96EE-AD8D6C31552F";
@@ -7398,12 +7134,167 @@ createNode reference -n "PalmTree_SCRN5";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"PalmTree_SCRN5"
 		"PalmTree_SCRN5" 0
-		"PalmTree_SCRN5" 3
+		"PalmTree_SCRN5" 4
 		2 "|PalmTree_SC5:SC_PalmTree" "translate" " -type \"double3\" 459.74830396586327 85.879187570349544 162.50713204131199"
+		
+		2 "|PalmTree_SC5:SC_PalmTree" "rotate" " -type \"double3\" 0 53.784782602063736 0"
 		
 		2 "|PalmTree_SC5:SC_PalmTree" "scale" " -type \"double3\" 1.6920279335070558 1.6920279335070558 1.6920279335070558"
 		
 		2 "|PalmTree_SC5:SC_PalmTree|PalmTree_SC5:Trunk" "translate" " -type \"double3\" 0 0 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN6";
+	rename -uid "1291141D-4D64-8430-5ABE-5A96C4664DEA";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN6"
+		"PalmTree_SCRN6" 0
+		"PalmTree_SCRN6" 2
+		2 "|PalmTree_SC6:SC_PalmTree" "translate" " -type \"double3\" 460.67885380335014 87.720842583472731 165.95843485975689"
+		
+		2 "|PalmTree_SC6:SC_PalmTree" "rotate" " -type \"double3\" 0 106.1720595616962 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN7";
+	rename -uid "626B8690-459F-1A34-B935-08BCA8A1C4A2";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN7"
+		"PalmTree_SCRN7" 0
+		"PalmTree_SCRN7" 2
+		2 "|PalmTree_SC7:SC_PalmTree" "translate" " -type \"double3\" 526.63562164799816 160.69560122414066 176.77078430866808"
+		
+		2 "|PalmTree_SC7:SC_PalmTree" "rotate" " -type \"double3\" 0 79.898362719657555 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN8";
+	rename -uid "02670AF8-46A2-9B6A-F3EA-2BB8B194362E";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN8"
+		"PalmTree_SCRN8" 0
+		"PalmTree_SCRN8" 3
+		2 "|PalmTree_SC8:SC_PalmTree" "translate" " -type \"double3\" 526.00035558185618 161.75035480869266 167.62216738927992"
+		
+		2 "|PalmTree_SC8:SC_PalmTree" "rotate" " -type \"double3\" 0 -129.26848340420665 0"
+		
+		2 "|PalmTree_SC8:SC_PalmTree" "scale" " -type \"double3\" 0.69370714771993103 0.69370714771993103 0.69370714771993103";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN9";
+	rename -uid "9ABBFC70-495F-5704-9730-E2AD974261E5";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN9"
+		"PalmTree_SCRN9" 0
+		"PalmTree_SCRN9" 3
+		2 "|PalmTree_SC9:SC_PalmTree" "translate" " -type \"double3\" 533.77604639451442 162.79680155901823 165.00850876274748"
+		
+		2 "|PalmTree_SC9:SC_PalmTree" "rotate" " -type \"double3\" 0 90.007930538114238 0"
+		
+		2 "|PalmTree_SC9:SC_PalmTree" "scale" " -type \"double3\" 1.1139087239351919 1.1139087239351919 1.1139087239351919";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN10";
+	rename -uid "4D0C4C57-443D-FCD1-1E2F-62B54D1F6025";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN10"
+		"PalmTree_SCRN10" 0
+		"PalmTree_SCRN10" 1
+		2 "|PalmTree_SC10:SC_PalmTree" "translate" " -type \"double3\" 525.13612346361219 162.30709703847384 162.59234655308325";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN11";
+	rename -uid "33B0991B-4371-D65F-5B7A-2CBE8F32422C";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN11"
+		"PalmTree_SCRN11" 0
+		"PalmTree_SCRN11" 2
+		2 "|PalmTree_SC11:SC_PalmTree" "translate" " -type \"double3\" 539.55835812628527 162.2559592965946 156.58203402324452"
+		
+		2 "|PalmTree_SC11:SC_PalmTree" "rotate" " -type \"double3\" 0 60.743590294781811 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN12";
+	rename -uid "A562EC60-454E-06D8-0794-1B92F12253D8";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN12"
+		"PalmTree_SCRN12" 0
+		"PalmTree_SCRN12" 3
+		2 "|PalmTree_SC12:SC_PalmTree" "translate" " -type \"double3\" 528.84729498475201 163.68551605720913 146.4042854252354"
+		
+		2 "|PalmTree_SC12:SC_PalmTree" "rotate" " -type \"double3\" 0 82.782870443286498 0"
+		
+		2 "|PalmTree_SC12:SC_PalmTree" "scale" " -type \"double3\" 1.3095352660766817 1.3095352660766817 1.3095352660766817";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN13";
+	rename -uid "B86C36B2-44B2-8939-3D3B-44A7B23E5406";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN13"
+		"PalmTree_SCRN13" 0
+		"PalmTree_SCRN13" 2
+		2 "|PalmTree_SC13:SC_PalmTree" "translate" " -type \"double3\" 526.37428205682158 165.14518476966975 130.97652883708344"
+		
+		2 "|PalmTree_SC13:SC_PalmTree" "rotate" " -type \"double3\" 0 120.88117746585692 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN14";
+	rename -uid "E6E0F980-4D2B-C6C3-DE6F-8CA37C2199FA";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN14"
+		"PalmTree_SCRN14" 0
+		"PalmTree_SCRN14" 2
+		2 "|PalmTree_SC14:SC_PalmTree" "translate" " -type \"double3\" 552.74965212556344 162.13872564565742 145.58108285958832"
+		
+		2 "|PalmTree_SC14:SC_PalmTree" "scale" " -type \"double3\" 1.1456607661723546 1.1456607661723546 1.1456607661723546";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN15";
+	rename -uid "8D8397FA-46BA-E6FF-808B-5088A0850DD2";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN15"
+		"PalmTree_SCRN15" 0
+		"PalmTree_SCRN15" 3
+		2 "|PalmTree_SC15:SC_PalmTree" "translate" " -type \"double3\" 527.17439039882629 166.82656898634141 111.46664411373995"
+		
+		2 "|PalmTree_SC15:SC_PalmTree" "rotate" " -type \"double3\" 0 68.567313672214382 0"
+		
+		2 "|PalmTree_SC15:SC_PalmTree" "scale" " -type \"double3\" 1.4000298873272823 1.4000298873272823 1.4000298873272823";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN16";
+	rename -uid "9FE70139-4CCD-417B-C0E1-D4B49F80AB15";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN16"
+		"PalmTree_SCRN16" 0
+		"PalmTree_SCRN16" 3
+		2 "|PalmTree_SC16:SC_PalmTree" "translate" " -type \"double3\" 526.41864230320505 166.92458423418708 114.65988383408332"
+		
+		2 "|PalmTree_SC16:SC_PalmTree" "rotate" " -type \"double3\" 0 103.98790703711285 0"
+		
+		2 "|PalmTree_SC16:SC_PalmTree" "scale" " -type \"double3\" 0.84098112129474001 0.84098112129474001 0.84098112129474001";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN17";
+	rename -uid "2C1242A8-4E28-AD41-38C0-078B26A65FCF";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN17"
+		"PalmTree_SCRN17" 0
+		"PalmTree_SCRN17" 3
+		2 "|PalmTree_SC17:SC_PalmTree" "translate" " -type \"double3\" 576.06748028894663 190.36465322853385 35.310210339830391"
+		
+		2 "|PalmTree_SC17:SC_PalmTree" "rotate" " -type \"double3\" 0 42.449741755557369 0"
+		
+		2 "|PalmTree_SC17:SC_PalmTree" "scale" " -type \"double3\" 1.1602715317264873 1.1602715317264873 1.1602715317264873";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN18";
+	rename -uid "CCD31740-4931-F6F3-B1EC-C1A9DB9AD88E";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN18"
+		"PalmTree_SCRN18" 0
+		"PalmTree_SCRN18" 2
+		2 "|PalmTree_SC18:SC_PalmTree" "translate" " -type \"double3\" 577.36646814631581 187.41581333398747 37.502212277673124"
+		
+		2 "|PalmTree_SC18:SC_PalmTree" "rotate" " -type \"double3\" 0 222.04100849232688 0";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 select -ne :time1;
@@ -7415,22 +7306,22 @@ select -ne :hardwareRenderingGlobals;
 		 1 1 1 0 0 0 0 0 0 0 0 0
 		 0 0 0 0 ;
 select -ne :renderPartition;
-	setAttr -s 228 ".st";
+	setAttr -s 150 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 94 ".s";
+	setAttr -s 133 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
 	setAttr -s 9 ".u";
 select -ne :defaultRenderingList1;
-	setAttr -s 66 ".r";
+	setAttr -s 27 ".r";
 select -ne :defaultTextureList1;
 	setAttr -s 9 ".tx";
 select -ne :initialShadingGroup;
-	setAttr -s 52 ".dsm";
+	setAttr -s 39 ".dsm";
 	setAttr ".ro" yes;
-	setAttr -s 34 ".gn";
+	setAttr -s 21 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :defaultRenderGlobals;
@@ -7446,16 +7337,16 @@ select -ne :defaultColorMgtGlobals;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-connectAttr "persp_scaleX.o" ":persp.sx";
-connectAttr "persp_scaleY.o" ":persp.sy";
-connectAttr "persp_scaleZ.o" ":persp.sz";
-connectAttr "persp_visibility.o" ":persp.v";
 connectAttr "persp_translateX.o" ":persp.tx";
 connectAttr "persp_translateY.o" ":persp.ty";
 connectAttr "persp_translateZ.o" ":persp.tz";
 connectAttr "persp_rotateX.o" ":persp.rx";
 connectAttr "persp_rotateY.o" ":persp.ry";
 connectAttr "persp_rotateZ.o" ":persp.rz";
+connectAttr "persp_scaleX.o" ":persp.sx";
+connectAttr "persp_scaleY.o" ":persp.sy";
+connectAttr "persp_scaleZ.o" ":persp.sz";
+connectAttr "persp_visibility.o" ":persp.v";
 connectAttr "groupId1.id" "BridgeScene:shot15_7:shot15:polySurfaceShape1.iog.og[0].gid"
 		;
 connectAttr ":initialShadingGroup.mwc" "BridgeScene:shot15_7:shot15:polySurfaceShape1.iog.og[0].gco"
