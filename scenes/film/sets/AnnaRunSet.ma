@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: AnnaRunSet.ma
-//Last modified: Fri, Dec 01, 2017 05:00:05 PM
+//Last modified: Fri, Dec 01, 2017 05:20:48 PM
 //Codeset: 1252
 file -rdi 1 -ns "Bamboo_DE" -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE1" -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -289,13 +289,21 @@ fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
+	setAttr ".t" -type "double3" 93.719826937444509 42.90747691554126 43.243424542112038 ;
+	setAttr -av ".tx";
+	setAttr -av ".ty";
+	setAttr -av ".tz";
+	setAttr ".r" -type "double3" 327.26164202934405 5851.3999999991902 1.2722218725854067e-013 ;
+	setAttr -av ".rx";
+	setAttr -av ".ry";
+	setAttr -av ".rz";
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 1.7849976010464665e-016 7.0344876724068756e-018 -1.2679258421052118e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E27FED8-4A03-85C0-4E37-7C837D701059";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 113.0920757001514;
+	setAttr ".coi" 75.142733485000718;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -4577,16 +4585,16 @@ createNode mesh -n "ImageProjectionRig:Bear_SuperBack1Shape" -p "ImageProjection
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "7E2F85FF-4C7B-5E91-D6D0-80B3FA19FC27";
-	setAttr -s 566 ".lnk";
-	setAttr -s 566 ".slnk";
+	rename -uid "E816E24F-4F63-89DA-C8F2-8889B0E9609E";
+	setAttr -s 573 ".lnk";
+	setAttr -s 573 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "99551351-4E4F-A500-0E61-5AB70BE7EEA3";
+	rename -uid "B063236E-4A8D-E8AC-CCEA-43A7DA4B0366";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "3E755559-4079-FA13-E243-8C9CA137DE44";
+	rename -uid "48C253BD-4A21-1801-6A03-73B51D83A7CF";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "8042126E-4508-6CCB-02FE-A58D593CC02B";
+	rename -uid "EC5D5B82-4B0C-A05F-7AE7-74850B18137D";
 	setAttr ".cdl" 5;
 	setAttr -s 10 ".dli[1:9]"  6 1 8 3 5 2 7 4 
 		9;
@@ -4594,7 +4602,7 @@ createNode displayLayerManager -n "layerManager";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "7EEFA473-4D48-8C73-89BC-47BEC5AA502D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "A02D568E-458F-F897-7AF3-EAAD1FFFF2A7";
+	rename -uid "8268EE10-4822-2A23-A85D-BB9D15368993";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "A049D010-441C-07BA-D3C9-199A61794303";
 	setAttr ".g" yes;
@@ -4623,7 +4631,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n"
 		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1117\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n"
-		+ "            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 1\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
+		+ "            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
 		+ "            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n"
 		+ "            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n"
 		+ "            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"graphEditor\" (localizedPanelLabel(\"Graph Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Graph Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"OutlineEd\");\n            outlinerEditor -e \n                -showShapes 1\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n"
@@ -6410,115 +6418,214 @@ createNode polyCube -n "polyCube3";
 	setAttr ".cuv" 4;
 createNode reference -n "Bamboo_DERN";
 	rename -uid "1BF14ACA-4307-5644-C54B-A49CB1267F68";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN"
 		"Bamboo_DERN" 0
-		"Bamboo_DERN" 4
+		"Bamboo_DERN" 9
 		0 "|Bamboo_DE:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE:Bamboo" "translate" " -type \"double3\" -15.933368718556899 3.4114862990668966 44.662252240958516"
 		
 		2 "|Bamboo|Bamboo_DE:Bamboo" "rotate" " -type \"double3\" 0 65.072579363345326 0"
 		
-		2 "|Bamboo|Bamboo_DE:Bamboo" "scale" " -type \"double3\" 1.5642496547548981 1.5642496547548981 1.5642496547548981";
+		2 "|Bamboo|Bamboo_DE:Bamboo" "scale" " -type \"double3\" 1.5642496547548981 1.5642496547548981 1.5642496547548981"
+		
+		3 "Bamboo_DE:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE:groupId1.groupId" "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DERN" "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups" 
+		"Bamboo_DERN.placeHolderList[1]" "";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN1";
 	rename -uid "C3B93432-49A2-B9C0-601F-CEB82B5574D9";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN1"
 		"Bamboo_DERN1" 0
-		"Bamboo_DERN1" 3
+		"Bamboo_DERN1" 8
 		0 "|Bamboo_DE1:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE1:Bamboo" "translate" " -type \"double3\" -13.648071458345079 5.9350770861963991 42.969471527869096"
 		
-		2 "|Bamboo|Bamboo_DE1:Bamboo" "scale" " -type \"double3\" 1.9215495562790614 1.9215495562790614 1.9215495562790614";
+		2 "|Bamboo|Bamboo_DE1:Bamboo" "scale" " -type \"double3\" 1.9215495562790614 1.9215495562790614 1.9215495562790614"
+		
+		3 "Bamboo_DE1:groupId1.groupId" "|Bamboo|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE1:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DERN1" "|Bamboo|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups" 
+		"Bamboo_DERN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN2";
 	rename -uid "7EFD7C5B-45DC-24D1-9BE1-9AB80E1C5374";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN2"
 		"Bamboo_DERN2" 0
-		"Bamboo_DERN2" 3
+		"Bamboo_DERN2" 8
 		0 "|Bamboo_DE2:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE2:Bamboo" "translate" " -type \"double3\" -17.081759647622604 2.9509287939256108 39.21794333106628"
 		
-		2 "|Bamboo|Bamboo_DE2:Bamboo" "scale" " -type \"double3\" 1.5744000037348016 1.5744000037348016 1.5744000037348016";
+		2 "|Bamboo|Bamboo_DE2:Bamboo" "scale" " -type \"double3\" 1.5744000037348016 1.5744000037348016 1.5744000037348016"
+		
+		3 "Bamboo_DE2:groupId1.groupId" "|Bamboo|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE2:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DERN2" "|Bamboo|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups" 
+		"Bamboo_DERN2.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN";
 	rename -uid "E34DED77-442C-856F-5E87-0DBC59243F26";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN"
 		"Bamboo_DE2RN" 0
-		"Bamboo_DE2RN" 4
+		"Bamboo_DE2RN" 9
 		0 "|Bamboo_DE3:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE3:Bamboo" "translate" " -type \"double3\" -27.757295419992502 8.6674686817066657 37.465596768388103"
 		
 		2 "|Bamboo|Bamboo_DE3:Bamboo" "rotate" " -type \"double3\" 0 -44.516240935929822 0"
 		
-		2 "|Bamboo|Bamboo_DE3:Bamboo" "scale" " -type \"double3\" 2.56735085359256 2.56735085359256 2.56735085359256";
+		2 "|Bamboo|Bamboo_DE3:Bamboo" "scale" " -type \"double3\" 2.56735085359256 2.56735085359256 2.56735085359256"
+		
+		3 "Bamboo_DE3:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE3:groupId1.groupId" "|Bamboo|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE2RN" "|Bamboo|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN";
 	rename -uid "79EF3477-4A53-A803-3506-EA97F97D5187";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN"
 		"Bamboo_DE3RN" 0
-		"Bamboo_DE3RN" 4
+		"Bamboo_DE3RN" 9
 		0 "|Bamboo_DE4:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE4:Bamboo" "translate" " -type \"double3\" -15.423966988559616 3.7944327618671547 36.05667473848311"
 		
 		2 "|Bamboo|Bamboo_DE4:Bamboo" "rotate" " -type \"double3\" 0 141.10191052326576 0"
 		
-		2 "|Bamboo|Bamboo_DE4:Bamboo" "scale" " -type \"double3\" 1.6640402872179401 1.6640402872179401 1.6640402872179401";
+		2 "|Bamboo|Bamboo_DE4:Bamboo" "scale" " -type \"double3\" 1.6640402872179401 1.6640402872179401 1.6640402872179401"
+		
+		3 "Bamboo_DE4:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE4:groupId1.groupId" "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE3RN" "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups" 
+		"Bamboo_DE3RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN3";
 	rename -uid "956610F7-416D-C306-0B82-CC94D3A3F49B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN3"
 		"Bamboo_DERN3" 0
-		"Bamboo_DERN3" 4
+		"Bamboo_DERN3" 9
 		0 "|Bamboo_DE5:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE5:Bamboo" "translate" " -type \"double3\" -25.379423255599811 6.7849612377280186 41.012410864227945"
 		
 		2 "|Bamboo|Bamboo_DE5:Bamboo" "rotate" " -type \"double3\" 0 54.367459057697467 0"
 		
-		2 "|Bamboo|Bamboo_DE5:Bamboo" "scale" " -type \"double3\" 2.0418969278441454 2.0418969278441454 2.0418969278441454";
+		2 "|Bamboo|Bamboo_DE5:Bamboo" "scale" " -type \"double3\" 2.0418969278441454 2.0418969278441454 2.0418969278441454"
+		
+		3 "Bamboo_DE5:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE5:groupId1.groupId" "|Bamboo|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DERN3" "|Bamboo|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape.instObjGroups" 
+		"Bamboo_DERN3.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN";
 	rename -uid "50A8DDB7-47D1-7D80-3BB1-729DC0959F6A";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN"
 		"Bamboo_DE1RN" 0
-		"Bamboo_DE1RN" 4
+		"Bamboo_DE1RN" 9
 		0 "|Bamboo_DE6:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE6:Bamboo" "translate" " -type \"double3\" -20.008588233299239 2.7753875082215371 47.262421318874786"
 		
 		2 "|Bamboo|Bamboo_DE6:Bamboo" "rotate" " -type \"double3\" 0 -39.205040588945096 0"
 		
-		2 "|Bamboo|Bamboo_DE6:Bamboo" "scale" " -type \"double3\" 1.4903339759747249 1.4903339759747249 1.4903339759747249";
+		2 "|Bamboo|Bamboo_DE6:Bamboo" "scale" " -type \"double3\" 1.4903339759747249 1.4903339759747249 1.4903339759747249"
+		
+		3 "Bamboo_DE6:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE6:groupId1.groupId" "|Bamboo|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE1RN" "|Bamboo|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape.instObjGroups" 
+		"Bamboo_DE1RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN1";
 	rename -uid "08680CA3-449A-52CE-DDBF-CBA4600A4609";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN1"
 		"Bamboo_DE2RN1" 0
-		"Bamboo_DE2RN1" 4
+		"Bamboo_DE2RN1" 9
 		0 "|Bamboo_DE7:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE7:Bamboo" "translate" " -type \"double3\" -13.481889680801769 2.4426708418407044 32.009042896454162"
 		
 		2 "|Bamboo|Bamboo_DE7:Bamboo" "rotate" " -type \"double3\" 0 -33.261234992944416 0"
 		
-		2 "|Bamboo|Bamboo_DE7:Bamboo" "scale" " -type \"double3\" 1.422925772231393 1.422925772231393 1.422925772231393";
+		2 "|Bamboo|Bamboo_DE7:Bamboo" "scale" " -type \"double3\" 1.422925772231393 1.422925772231393 1.422925772231393"
+		
+		3 "Bamboo_DE7:groupId1.groupId" "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE7:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE2RN1" "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN";
 	rename -uid "0D3E7484-4320-D5D8-A9BC-B6B766519E70";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN"
 		"Bamboo_DE4RN" 0
-		"Bamboo_DE4RN" 3
+		"Bamboo_DE4RN" 8
 		0 "|Bamboo_DE8:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE8:Bamboo" "translate" " -type \"double3\" -21.969709353873242 1.4107477690125734 33.496172642977413"
 		
-		2 "|Bamboo|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 1.4446392039734799 1.4446392039734799 1.4446392039734799";
+		2 "|Bamboo|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 1.4446392039734799 1.4446392039734799 1.4446392039734799"
+		
+		3 "Bamboo_DE8:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE8:groupId1.groupId" "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE4RN" "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups" 
+		"Bamboo_DE4RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode objectSet -n "leaf";
 	rename -uid "BB4E174A-48D9-18B8-5E1F-10AF16A7F8C2";
@@ -6534,1195 +6641,2260 @@ createNode groupParts -n "groupParts1";
 	setAttr ".ic" -type "componentList" 32 "vtx[648:707]" "vtx[1248:1307]" "vtx[1848:1907]" "vtx[2448:2507]" "vtx[3078:3137]" "vtx[3678:3737]" "vtx[4278:4337]" "vtx[4878:4937]" "vtx[5508:5567]" "vtx[6108:6167]" "vtx[6708:6767]" "vtx[7308:7367]" "vtx[7938:7997]" "vtx[8538:8597]" "vtx[9138:9197]" "vtx[9738:9797]" "vtx[10368:10427]" "vtx[10968:11027]" "vtx[11568:11627]" "vtx[12168:12227]" "vtx[12798:12857]" "vtx[13398:13457]" "vtx[13998:14057]" "vtx[14598:14657]" "vtx[15228:15287]" "vtx[15828:15887]" "vtx[16428:16487]" "vtx[17028:17087]" "vtx[17658:17717]" "vtx[18258:18317]" "vtx[18858:18917]" "vtx[19458:19517]";
 createNode reference -n "Bamboo_DE8RN";
 	rename -uid "574FEA2F-4EAD-1006-0A2C-279C99240F52";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE8RN"
 		"Bamboo_DE8RN" 0
-		"Bamboo_DE8RN" 4
+		"Bamboo_DE8RN" 9
 		0 "|Bamboo_DE9:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE9:Bamboo" "translate" " -type \"double3\" -14.739511946902518 3.7213903383031299 20.519509495284652"
 		
 		2 "|Bamboo|Bamboo_DE9:Bamboo" "rotate" " -type \"double3\" 0 -106.8765379821419 0"
 		
-		2 "|Bamboo|Bamboo_DE9:Bamboo" "scale" " -type \"double3\" 1.6640307929896136 1.6640307929896136 1.6640307929896136";
+		2 "|Bamboo|Bamboo_DE9:Bamboo" "scale" " -type \"double3\" 1.6640307929896136 1.6640307929896136 1.6640307929896136"
+		
+		3 "Bamboo_DE9:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE9:groupId1.groupId" "|Bamboo|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE8RN" "|Bamboo|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape.instObjGroups" 
+		"Bamboo_DE8RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE7RN";
 	rename -uid "B04CDB65-4C4B-51A1-63AA-F5BD3E461EE7";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN"
 		"Bamboo_DE7RN" 0
-		"Bamboo_DE7RN" 3
+		"Bamboo_DE7RN" 8
 		0 "|Bamboo_DE10:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE10:Bamboo" "translate" " -type \"double3\" -32.657494878774962 5.6312459524737282 24.352692511873531"
 		
-		2 "|Bamboo|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 2.4526006665181801 2.4526006665181801 2.4526006665181801";
+		2 "|Bamboo|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 2.4526006665181801 2.4526006665181801 2.4526006665181801"
+		
+		3 "Bamboo_DE10:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE10:groupId1.groupId" "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE7RN" "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups" 
+		"Bamboo_DE7RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE6RN";
 	rename -uid "4B6FB194-4660-497E-B365-42B80FD00047";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN"
 		"Bamboo_DE6RN" 0
-		"Bamboo_DE6RN" 4
+		"Bamboo_DE6RN" 9
 		0 "|Bamboo_DE11:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE11:Bamboo" "translate" " -type \"double3\" -23.99562874577445 8.6930658740897577 35.699503626778473"
 		
 		2 "|Bamboo|Bamboo_DE11:Bamboo" "rotate" " -type \"double3\" 0 164.83108100556439 0"
 		
-		2 "|Bamboo|Bamboo_DE11:Bamboo" "scale" " -type \"double3\" 2.3591667985050115 2.3591667985050115 2.3591667985050115";
+		2 "|Bamboo|Bamboo_DE11:Bamboo" "scale" " -type \"double3\" 2.3591667985050115 2.3591667985050115 2.3591667985050115"
+		
+		3 "Bamboo_DE11:groupId1.groupId" "|Bamboo|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE11:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE6RN" "|Bamboo|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape.instObjGroups" 
+		"Bamboo_DE6RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE5RN";
 	rename -uid "567FEFB3-4D95-FEDD-F579-23906DBFCE02";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE5RN"
 		"Bamboo_DE5RN" 0
-		"Bamboo_DE5RN" 3
+		"Bamboo_DE5RN" 8
 		0 "|Bamboo_DE12:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE12:Bamboo" "translate" " -type \"double3\" -23.513505716057182 9.2687126389738346 47.010958288039028"
 		
-		2 "|Bamboo|Bamboo_DE12:Bamboo" "scale" " -type \"double3\" 2.4350391953486716 2.4350391953486716 2.4350391953486716";
+		2 "|Bamboo|Bamboo_DE12:Bamboo" "scale" " -type \"double3\" 2.4350391953486716 2.4350391953486716 2.4350391953486716"
+		
+		3 "Bamboo_DE12:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE12:groupId1.groupId" "|Bamboo|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE5RN" "|Bamboo|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups" 
+		"Bamboo_DE5RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN1";
 	rename -uid "A30B4FAE-4645-EDF1-ED62-7CA1CCDBE910";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN1"
 		"Bamboo_DE4RN1" 0
-		"Bamboo_DE4RN1" 4
+		"Bamboo_DE4RN1" 9
 		0 "|Bamboo_DE13:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE13:Bamboo" "translate" " -type \"double3\" -15.509469408378859 7.2726481806632659 49.411013825082058"
 		
 		2 "|Bamboo|Bamboo_DE13:Bamboo" "rotate" " -type \"double3\" 0 -33.413848253967039 0"
 		
-		2 "|Bamboo|Bamboo_DE13:Bamboo" "scale" " -type \"double3\" 2.2729156069898839 2.2729156069898839 2.2729156069898839";
+		2 "|Bamboo|Bamboo_DE13:Bamboo" "scale" " -type \"double3\" 2.2729156069898839 2.2729156069898839 2.2729156069898839"
+		
+		3 "Bamboo_DE13:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE13:groupId1.groupId" "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE4RN1" "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups" 
+		"Bamboo_DE4RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN1";
 	rename -uid "4057DB31-4B37-E661-F4FC-26BB7C8DF468";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN1"
 		"Bamboo_DE3RN1" 0
-		"Bamboo_DE3RN1" 3
+		"Bamboo_DE3RN1" 8
 		0 "|Bamboo_DE14:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE14:Bamboo" "translate" " -type \"double3\" -12.069747405367528 5.818232883487684 27.19447806962274"
 		
-		2 "|Bamboo|Bamboo_DE14:Bamboo" "scale" " -type \"double3\" 1.921550392625154 1.921550392625154 1.921550392625154";
+		2 "|Bamboo|Bamboo_DE14:Bamboo" "scale" " -type \"double3\" 1.921550392625154 1.921550392625154 1.921550392625154"
+		
+		3 "Bamboo_DE14:groupId1.groupId" "|Bamboo|Bamboo_DE14:Bamboo|Bamboo_DE14:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE14:Bamboo|Bamboo_DE14:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE14:Bamboo|Bamboo_DE14:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE14:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE3RN1" "|Bamboo|Bamboo_DE14:Bamboo|Bamboo_DE14:BambooShape.instObjGroups" 
+		"Bamboo_DE3RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN2";
 	rename -uid "45C1D42C-4976-76BA-03F7-18B431FB1107";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN2"
 		"Bamboo_DE2RN2" 0
-		"Bamboo_DE2RN2" 4
+		"Bamboo_DE2RN2" 9
 		0 "|Bamboo_DE15:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE15:Bamboo" "translate" " -type \"double3\" -18.876374338188342 8.4938821657540444 18.74680709630551"
 		
 		2 "|Bamboo|Bamboo_DE15:Bamboo" "rotate" " -type \"double3\" 0 52.658387336419324 0"
 		
-		2 "|Bamboo|Bamboo_DE15:Bamboo" "scale" " -type \"double3\" 2.4833534504570447 2.4833534504570447 2.4833534504570447";
+		2 "|Bamboo|Bamboo_DE15:Bamboo" "scale" " -type \"double3\" 2.4833534504570447 2.4833534504570447 2.4833534504570447"
+		
+		3 "Bamboo_DE15:groupId1.groupId" "|Bamboo|Bamboo_DE15:Bamboo|Bamboo_DE15:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE15:Bamboo|Bamboo_DE15:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE15:Bamboo|Bamboo_DE15:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE15:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE2RN2" "|Bamboo|Bamboo_DE15:Bamboo|Bamboo_DE15:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN4";
 	rename -uid "84AE1592-484B-C903-FA57-AA8A4116AF03";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN4"
 		"Bamboo_DERN4" 0
-		"Bamboo_DERN4" 3
+		"Bamboo_DERN4" 8
 		0 "|Bamboo_DE16:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE16:Bamboo" "translate" " -type \"double3\" -12.814294727723681 4.8783367452575446 40.466951796848981"
 		
-		2 "|Bamboo|Bamboo_DE16:Bamboo" "scale" " -type \"double3\" 1.8426172591524983 1.8426172591524983 1.8426172591524983";
+		2 "|Bamboo|Bamboo_DE16:Bamboo" "scale" " -type \"double3\" 1.8426172591524983 1.8426172591524983 1.8426172591524983"
+		
+		3 "Bamboo_DE16:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE16:groupId1.groupId" "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DERN4" "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups" 
+		"Bamboo_DERN4.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN1";
 	rename -uid "5AC08FFC-4BC6-C825-01CF-13967440E474";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN1"
 		"Bamboo_DE1RN1" 0
-		"Bamboo_DE1RN1" 4
+		"Bamboo_DE1RN1" 9
 		0 "|Bamboo_DE17:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE17:Bamboo" "translate" " -type \"double3\" -21.795156702860616 8.2568938735343167 28.505245141530093"
 		
 		2 "|Bamboo|Bamboo_DE17:Bamboo" "rotate" " -type \"double3\" 0 -64.293186429056462 0"
 		
-		2 "|Bamboo|Bamboo_DE17:Bamboo" "scale" " -type \"double3\" 2.3610121993638842 2.3610121993638842 2.3610121993638842";
+		2 "|Bamboo|Bamboo_DE17:Bamboo" "scale" " -type \"double3\" 2.3610121993638842 2.3610121993638842 2.3610121993638842"
+		
+		3 "Bamboo_DE17:groupId1.groupId" "|Bamboo|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE17:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE1RN1" "|Bamboo|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups" 
+		"Bamboo_DE1RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Fern_DERN";
 	rename -uid "EED2DEF5-4390-AE88-12C1-40BD9806ABA6";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DERN"
 		"Fern_DERN" 0
-		"Fern_DERN" 1
-		2 "|Fern_DE:Bush" "translate" " -type \"double3\" -10.641192479952176 0 41.513734228333277";
+		"Fern_DERN" 6
+		2 "|Fern_DE:Bush" "translate" " -type \"double3\" -10.641192479952176 0 41.513734228333277"
+		
+		3 "Fern_DE:groupId2.groupId" "|Fern_DE:Bush|Fern_DE:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE:Bush|Fern_DE:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE:Bush|Fern_DE:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		3 "Fern_DE:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Fern_DERN" "|Fern_DE:Bush|Fern_DE:BushShape.instObjGroups" "Fern_DERN.placeHolderList[1]" 
+		"";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Fern_DERN1";
 	rename -uid "74E14991-4021-8A75-055F-C494BEA7CA0F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DERN1"
 		"Fern_DERN1" 0
-		"Fern_DERN1" 2
+		"Fern_DERN1" 7
 		2 "|Fern_DE1:Bush" "translate" " -type \"double3\" 52.018364210784327 0 34.810098313288229"
 		
-		2 "|Fern_DE1:Bush" "scale" " -type \"double3\" 2.3865179098697182 2.3865179098697182 2.3865179098697182";
+		2 "|Fern_DE1:Bush" "scale" " -type \"double3\" 2.3865179098697182 2.3865179098697182 2.3865179098697182"
+		
+		3 "Fern_DE1:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Fern_DE1:groupId2.groupId" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		5 3 "Fern_DERN1" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups" "Fern_DERN1.placeHolderList[1]" 
+		"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE16RN";
 	rename -uid "2E1CF8EA-45C8-4BA1-7660-19BF9F7AB6B9";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE16RN"
 		"Bamboo_DE16RN" 0
-		"Bamboo_DE16RN" 4
+		"Bamboo_DE16RN" 9
 		0 "|Bamboo_DE18:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE18:Bamboo" "translate" " -type \"double3\" -15.186481519495544 6.7646684660005967 61.233300209843051"
 		
 		2 "|Bamboo|Bamboo_DE18:Bamboo" "rotate" " -type \"double3\" 0 -119.28184722390597 0"
 		
-		2 "|Bamboo|Bamboo_DE18:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE18:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE18:groupId1.groupId" "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE18:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE16RN" "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups" 
+		"Bamboo_DE16RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE11RN";
 	rename -uid "7FD03B65-49AF-ED89-C21D-34A8802047C3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE11RN"
 		"Bamboo_DE11RN" 0
-		"Bamboo_DE11RN" 3
+		"Bamboo_DE11RN" 8
 		0 "|Bamboo_DE19:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE19:Bamboo" "translate" " -type \"double3\" -24.884559613664308 6.7646684660005967 77.70911598173447"
 		
-		2 "|Bamboo|Bamboo_DE19:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE19:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE19:groupId1.groupId" "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE19:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE11RN" "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups" 
+		"Bamboo_DE11RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE13RN";
 	rename -uid "156CDC9F-4985-2191-111F-83AD5A72693C";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE13RN"
 		"Bamboo_DE13RN" 0
-		"Bamboo_DE13RN" 4
+		"Bamboo_DE13RN" 9
 		0 "|Bamboo_DE20:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE20:Bamboo" "translate" " -type \"double3\" -12.113893683807831 6.7646684660005967 64.829372464771268"
 		
 		2 "|Bamboo|Bamboo_DE20:Bamboo" "rotate" " -type \"double3\" 0 -181.00940839049812 0"
 		
-		2 "|Bamboo|Bamboo_DE20:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE20:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE20:groupId1.groupId" "|Bamboo|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE20:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE13RN" "|Bamboo|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups" 
+		"Bamboo_DE13RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE12RN";
 	rename -uid "D828F204-4995-DE79-8861-A5ADF4581F06";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE12RN"
 		"Bamboo_DE12RN" 0
-		"Bamboo_DE12RN" 4
+		"Bamboo_DE12RN" 9
 		0 "|Bamboo_DE21:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE21:Bamboo" "translate" " -type \"double3\" -23.205876655520765 6.7646684660005967 74.131962567033128"
 		
 		2 "|Bamboo|Bamboo_DE21:Bamboo" "rotate" " -type \"double3\" 0 -208.59892637726585 0"
 		
-		2 "|Bamboo|Bamboo_DE21:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE21:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE21:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE21:groupId1.groupId" "|Bamboo|Bamboo_DE21:Bamboo|Bamboo_DE21:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE21:Bamboo|Bamboo_DE21:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE21:Bamboo|Bamboo_DE21:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE12RN" "|Bamboo|Bamboo_DE21:Bamboo|Bamboo_DE21:BambooShape.instObjGroups" 
+		"Bamboo_DE12RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN2";
 	rename -uid "B7A68217-4039-F187-5229-C4ABDBE5D747";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN2"
 		"Bamboo_DE4RN2" 0
-		"Bamboo_DE4RN2" 4
+		"Bamboo_DE4RN2" 9
 		0 "|Bamboo_DE22:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE22:Bamboo" "translate" " -type \"double3\" -12.817723372371466 6.7646684660005967 77.70911598173447"
 		
 		2 "|Bamboo|Bamboo_DE22:Bamboo" "rotate" " -type \"double3\" 0 83.50936848880697 0"
 		
-		2 "|Bamboo|Bamboo_DE22:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE22:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE22:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE22:groupId1.groupId" "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE4RN2" "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups" 
+		"Bamboo_DE4RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN2";
 	rename -uid "88A206E3-4F75-B858-3DA6-80BFE880E375";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN2"
 		"Bamboo_DE3RN2" 0
-		"Bamboo_DE3RN2" 4
+		"Bamboo_DE3RN2" 9
 		0 "|Bamboo_DE23:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE23:Bamboo" "translate" " -type \"double3\" -23.479062373359042 6.7646684660005967 85.513942749377861"
 		
 		2 "|Bamboo|Bamboo_DE23:Bamboo" "rotate" " -type \"double3\" 0 135.51659624736675 0"
 		
-		2 "|Bamboo|Bamboo_DE23:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE23:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE23:groupId1.groupId" "|Bamboo|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE23:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE3RN2" "|Bamboo|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups" 
+		"Bamboo_DE3RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE8RN1";
 	rename -uid "71B3F381-4B7B-6798-1237-DDAEAF7D2E82";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE8RN1"
 		"Bamboo_DE8RN1" 0
-		"Bamboo_DE8RN1" 4
+		"Bamboo_DE8RN1" 9
 		0 "|Bamboo_DE24:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE24:Bamboo" "translate" " -type \"double3\" -16.056608648935828 6.7646684660005967 68.085433729838243"
 		
 		2 "|Bamboo|Bamboo_DE24:Bamboo" "rotate" " -type \"double3\" 0 -52.664162969178385 0"
 		
-		2 "|Bamboo|Bamboo_DE24:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE24:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE24:groupId1.groupId" "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE24:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE8RN1" "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups" 
+		"Bamboo_DE8RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE7RN1";
 	rename -uid "79FCB732-4D0B-E662-F1F2-6AA100B097B0";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN1"
 		"Bamboo_DE7RN1" 0
-		"Bamboo_DE7RN1" 3
+		"Bamboo_DE7RN1" 8
 		0 "|Bamboo_DE25:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE25:Bamboo" "translate" " -type \"double3\" -19.011900345930975 8.1986593167364674 57.109874546118604"
 		
-		2 "|Bamboo|Bamboo_DE25:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE25:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE25:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE25:groupId1.groupId" "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE7RN1" "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups" 
+		"Bamboo_DE7RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE6RN1";
 	rename -uid "E88B546B-4A7D-C492-C390-EBAAFF110767";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN1"
 		"Bamboo_DE6RN1" 0
-		"Bamboo_DE6RN1" 4
+		"Bamboo_DE6RN1" 9
 		0 "|Bamboo_DE26:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE26:Bamboo" "translate" " -type \"double3\" -14.159911557438091 8.1986593167364674 73.752626622362413"
 		
 		2 "|Bamboo|Bamboo_DE26:Bamboo" "rotate" " -type \"double3\" 0 150.18571137253517 0"
 		
-		2 "|Bamboo|Bamboo_DE26:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE26:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE26:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE26:groupId1.groupId" "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE6RN1" "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups" 
+		"Bamboo_DE6RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE5RN1";
 	rename -uid "12F89A41-4CE1-5788-B2C4-DF9A9FC0DACE";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE5RN1"
 		"Bamboo_DE5RN1" 0
-		"Bamboo_DE5RN1" 3
+		"Bamboo_DE5RN1" 8
 		0 "|Bamboo_DE27:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE27:Bamboo" "translate" " -type \"double3\" -22.491737992756377 8.1986593167364674 63.642823390283525"
 		
-		2 "|Bamboo|Bamboo_DE27:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE27:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE27:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE27:groupId1.groupId" "|Bamboo|Bamboo_DE27:Bamboo|Bamboo_DE27:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE27:Bamboo|Bamboo_DE27:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE27:Bamboo|Bamboo_DE27:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE5RN1" "|Bamboo|Bamboo_DE27:Bamboo|Bamboo_DE27:BambooShape.instObjGroups" 
+		"Bamboo_DE5RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN3";
 	rename -uid "BA91EA1E-4809-7ECF-5520-1DB6DD4E4685";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN3"
 		"Bamboo_DE2RN3" 0
-		"Bamboo_DE2RN3" 4
+		"Bamboo_DE2RN3" 9
 		0 "|Bamboo_DE28:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE28:Bamboo" "translate" " -type \"double3\" -14.317114316059751 8.1986593167364674 83.114124909889014"
 		
 		2 "|Bamboo|Bamboo_DE28:Bamboo" "rotate" " -type \"double3\" 0 -36.057969074512712 0"
 		
-		2 "|Bamboo|Bamboo_DE28:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE28:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE28:groupId1.groupId" "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE28:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE2RN3" "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN3.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN2";
 	rename -uid "41D02257-46E7-3276-02B3-AB8993D77A22";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN2"
 		"Bamboo_DE1RN2" 0
-		"Bamboo_DE1RN2" 4
+		"Bamboo_DE1RN2" 9
 		0 "|Bamboo_DE29:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE29:Bamboo" "translate" " -type \"double3\" -21.158463576800195 8.1986593167364674 70.219029570278195"
 		
 		2 "|Bamboo|Bamboo_DE29:Bamboo" "rotate" " -type \"double3\" 0 64.072072239873989 0"
 		
-		2 "|Bamboo|Bamboo_DE29:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE29:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE29:groupId1.groupId" "|Bamboo|Bamboo_DE29:Bamboo|Bamboo_DE29:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE29:Bamboo|Bamboo_DE29:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE29:Bamboo|Bamboo_DE29:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE29:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE1RN2" "|Bamboo|Bamboo_DE29:Bamboo|Bamboo_DE29:BambooShape.instObjGroups" 
+		"Bamboo_DE1RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN5";
 	rename -uid "90DCF551-41AB-1C6C-7785-89AE2AFE2759";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN5"
 		"Bamboo_DERN5" 0
-		"Bamboo_DERN5" 4
+		"Bamboo_DERN5" 9
 		0 "|Bamboo_DE30:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE30:Bamboo" "translate" " -type \"double3\" -25.992958032263143 8.1986593167364674 52.350879449120036"
 		
 		2 "|Bamboo|Bamboo_DE30:Bamboo" "rotate" " -type \"double3\" 0 47.867237200988932 0"
 		
-		2 "|Bamboo|Bamboo_DE30:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE30:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE30:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE30:groupId1.groupId" "|Bamboo|Bamboo_DE30:Bamboo|Bamboo_DE30:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE30:Bamboo|Bamboo_DE30:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE30:Bamboo|Bamboo_DE30:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DERN5" "|Bamboo|Bamboo_DE30:Bamboo|Bamboo_DE30:BambooShape.instObjGroups" 
+		"Bamboo_DERN5.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE29RN";
 	rename -uid "7EE1E7BD-4D79-2E75-60A1-00BCD61B95D8";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE29RN"
 		"Bamboo_DE29RN" 0
-		"Bamboo_DE29RN" 3
+		"Bamboo_DE29RN" 8
 		0 "|Bamboo_DE31:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE31:Bamboo" "translate" " -type \"double3\" -22.338104212597525 8.2007846034004537 92.093936540364339"
 		
-		2 "|Bamboo|Bamboo_DE31:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE31:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE31:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE31:groupId1.groupId" "|Bamboo|Bamboo_DE31:Bamboo|Bamboo_DE31:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE31:Bamboo|Bamboo_DE31:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE31:Bamboo|Bamboo_DE31:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE29RN" "|Bamboo|Bamboo_DE31:Bamboo|Bamboo_DE31:BambooShape.instObjGroups" 
+		"Bamboo_DE29RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE28RN";
 	rename -uid "C756C020-409E-18FD-03AB-EFA0025CC3BB";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE28RN"
 		"Bamboo_DE28RN" 0
-		"Bamboo_DE28RN" 4
+		"Bamboo_DE28RN" 9
 		0 "|Bamboo_DE32:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE32:Bamboo" "translate" " -type \"double3\" -24.590290997349761 8.2007846034004537 82.49423367821943"
 		
 		2 "|Bamboo|Bamboo_DE32:Bamboo" "rotate" " -type \"double3\" 0 86.458926064222581 0"
 		
-		2 "|Bamboo|Bamboo_DE32:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE32:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE32:groupId1.groupId" "|Bamboo|Bamboo_DE32:Bamboo|Bamboo_DE32:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE32:Bamboo|Bamboo_DE32:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE32:Bamboo|Bamboo_DE32:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE32:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE28RN" "|Bamboo|Bamboo_DE32:Bamboo|Bamboo_DE32:BambooShape.instObjGroups" 
+		"Bamboo_DE28RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE27RN";
 	rename -uid "AA6CEF58-45BD-6E7D-4923-3E9765B8A7B9";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE27RN"
 		"Bamboo_DE27RN" 0
-		"Bamboo_DE27RN" 4
+		"Bamboo_DE27RN" 9
 		0 "|Bamboo_DE33:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE33:Bamboo" "translate" " -type \"double3\" -17.889146142054557 8.2007846034004537 96.925526580501838"
 		
 		2 "|Bamboo|Bamboo_DE33:Bamboo" "rotate" " -type \"double3\" 0 67.744770942962035 0"
 		
-		2 "|Bamboo|Bamboo_DE33:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE33:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE33:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE33:groupId1.groupId" "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE27RN" "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups" 
+		"Bamboo_DE27RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE26RN";
 	rename -uid "23A3594A-43F7-BDAB-3815-91BA1DA33BCD";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE26RN"
 		"Bamboo_DE26RN" 0
-		"Bamboo_DE26RN" 4
+		"Bamboo_DE26RN" 9
 		0 "|Bamboo_DE34:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE34:Bamboo" "translate" " -type \"double3\" -19.183819837506498 8.2007846034004537 89.668327689729594"
 		
 		2 "|Bamboo|Bamboo_DE34:Bamboo" "rotate" " -type \"double3\" 0 -62.67565640280516 0"
 		
-		2 "|Bamboo|Bamboo_DE34:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE34:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE34:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE34:groupId1.groupId" "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE26RN" "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups" 
+		"Bamboo_DE26RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE22RN";
 	rename -uid "22492F02-4137-3ECA-95E2-E287AC3F842E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE22RN"
 		"Bamboo_DE22RN" 0
-		"Bamboo_DE22RN" 4
+		"Bamboo_DE22RN" 9
 		0 "|Bamboo_DE35:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE35:Bamboo" "translate" " -type \"double3\" -19.796102372153602 8.2007846034004537 100.0942518494507"
 		
 		2 "|Bamboo|Bamboo_DE35:Bamboo" "rotate" " -type \"double3\" 0 -198.57035714225964 0"
 		
-		2 "|Bamboo|Bamboo_DE35:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE35:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE35:groupId1.groupId" "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE35:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE22RN" "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups" 
+		"Bamboo_DE22RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE21RN";
 	rename -uid "0C3CEC15-4B9A-6A24-F93C-7BA03803B51E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE21RN"
 		"Bamboo_DE21RN" 0
-		"Bamboo_DE21RN" 4
+		"Bamboo_DE21RN" 9
 		0 "|Bamboo_DE36:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE36:Bamboo" "translate" " -type \"double3\" -8.8651707028871556 3.1201218477353079 68.636271776891476"
 		
 		2 "|Bamboo|Bamboo_DE36:Bamboo" "rotate" " -type \"double3\" 0 49.35416084340288 0"
 		
-		2 "|Bamboo|Bamboo_DE36:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE36:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE36:groupId1.groupId" "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE36:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE21RN" "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups" 
+		"Bamboo_DE21RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE20RN";
 	rename -uid "24759A52-4854-B8BE-2C31-69B01A1129F3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE20RN"
 		"Bamboo_DE20RN" 0
-		"Bamboo_DE20RN" 4
+		"Bamboo_DE20RN" 9
 		0 "|Bamboo_DE37:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE37:Bamboo" "translate" " -type \"double3\" -11.006916006918022 3.1201218477353079 81.271097294578155"
 		
 		2 "|Bamboo|Bamboo_DE37:Bamboo" "rotate" " -type \"double3\" 0 57.989104934585953 0"
 		
-		2 "|Bamboo|Bamboo_DE37:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE37:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE37:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE37:groupId1.groupId" "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE20RN" "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups" 
+		"Bamboo_DE20RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE24RN";
 	rename -uid "A7F9E22E-4322-0C96-2840-4787E7233C76";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE24RN"
 		"Bamboo_DE24RN" 0
-		"Bamboo_DE24RN" 4
+		"Bamboo_DE24RN" 9
 		0 "|Bamboo_DE38:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE38:Bamboo" "translate" " -type \"double3\" -9.6158917156133867 3.1201218477353079 74.367508594782947"
 		
 		2 "|Bamboo|Bamboo_DE38:Bamboo" "rotate" " -type \"double3\" 0 119.31657957467004 0"
 		
-		2 "|Bamboo|Bamboo_DE38:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE38:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE38:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE38:groupId1.groupId" "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE24RN" "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups" 
+		"Bamboo_DE24RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE23RN";
 	rename -uid "5CDF53DE-49AC-2811-6F16-3CBAD51AAD5F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE23RN"
 		"Bamboo_DE23RN" 0
-		"Bamboo_DE23RN" 4
+		"Bamboo_DE23RN" 9
 		0 "|Bamboo_DE39:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE39:Bamboo" "translate" " -type \"double3\" -7.3946735099492784 3.1201218477353079 88.732604281857007"
 		
 		2 "|Bamboo|Bamboo_DE39:Bamboo" "rotate" " -type \"double3\" 0 -42.209198971167403 0"
 		
-		2 "|Bamboo|Bamboo_DE39:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE39:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE39:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE39:groupId1.groupId" "|Bamboo|Bamboo_DE39:Bamboo|Bamboo_DE39:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE39:Bamboo|Bamboo_DE39:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE39:Bamboo|Bamboo_DE39:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE23RN" "|Bamboo|Bamboo_DE39:Bamboo|Bamboo_DE39:BambooShape.instObjGroups" 
+		"Bamboo_DE23RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE19RN";
 	rename -uid "763CE621-4B2A-8DA6-FB0B-F09B5ADF27BF";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE19RN"
 		"Bamboo_DE19RN" 0
-		"Bamboo_DE19RN" 4
+		"Bamboo_DE19RN" 9
 		0 "|Bamboo_DE40:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE40:Bamboo" "translate" " -type \"double3\" -13.462901185424057 3.1201218477353079 56.534289515764065"
 		
 		2 "|Bamboo|Bamboo_DE40:Bamboo" "rotate" " -type \"double3\" 0 -115.42938584598987 0"
 		
-		2 "|Bamboo|Bamboo_DE40:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE40:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE40:groupId1.groupId" "|Bamboo|Bamboo_DE40:Bamboo|Bamboo_DE40:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE40:Bamboo|Bamboo_DE40:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE40:Bamboo|Bamboo_DE40:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE40:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE19RN" "|Bamboo|Bamboo_DE40:Bamboo|Bamboo_DE40:BambooShape.instObjGroups" 
+		"Bamboo_DE19RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Fern_DERN2";
 	rename -uid "25689A2A-4223-EC75-174C-9B943F838093";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DERN2"
 		"Fern_DERN2" 0
-		"Fern_DERN2" 2
+		"Fern_DERN2" 7
 		2 "|Fern_DE2:Bush" "translate" " -type \"double3\" -8.5718877023777544 0 77.647109598774293"
 		
-		2 "|Fern_DE2:Bush" "rotate" " -type \"double3\" 0 -28.338105269377891 0";
+		2 "|Fern_DE2:Bush" "rotate" " -type \"double3\" 0 -28.338105269377891 0"
+		3 "Fern_DE2:groupId2.groupId" "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		3 "Fern_DE2:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Fern_DERN2" "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups" "Fern_DERN2.placeHolderList[1]" 
+		"";
 lockNode -l 1 ;
 createNode reference -n "Fern_DE1RN";
 	rename -uid "31930EF7-4779-B4E6-D202-599EE9A8020F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DE1RN"
 		"Fern_DE1RN" 0
-		"Fern_DE1RN" 2
+		"Fern_DE1RN" 7
 		2 "|Fern_DE3:Bush" "translate" " -type \"double3\" -9.9882114577035281 0 60.912507918818491"
 		
-		2 "|Fern_DE3:Bush" "rotate" " -type \"double3\" 0 -99.619214134203844 0";
+		2 "|Fern_DE3:Bush" "rotate" " -type \"double3\" 0 -99.619214134203844 0"
+		3 "Fern_DE3:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Fern_DE3:groupId2.groupId" "|Fern_DE3:Bush|Fern_DE3:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE3:Bush|Fern_DE3:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE3:Bush|Fern_DE3:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		5 3 "Fern_DE1RN" "|Fern_DE3:Bush|Fern_DE3:BushShape.instObjGroups" "Fern_DE1RN.placeHolderList[1]" 
+		"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE38RN";
 	rename -uid "DDA4ADB0-4C4D-D156-F9AA-EB977879AB48";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE38RN"
 		"Bamboo_DE38RN" 0
-		"Bamboo_DE38RN" 4
+		"Bamboo_DE38RN" 9
 		0 "|Bamboo_DE41:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE41:Bamboo" "translate" " -type \"double3\" -23.317574418868798 5.0167859483393817 23.107080992053412"
 		
 		2 "|Bamboo|Bamboo_DE41:Bamboo" "rotate" " -type \"double3\" 0 -16.321553143084671 0"
 		
-		2 "|Bamboo|Bamboo_DE41:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE41:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE41:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE41:groupId1.groupId" "|Bamboo|Bamboo_DE41:Bamboo|Bamboo_DE41:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE41:Bamboo|Bamboo_DE41:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE41:Bamboo|Bamboo_DE41:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE38RN" "|Bamboo|Bamboo_DE41:Bamboo|Bamboo_DE41:BambooShape.instObjGroups" 
+		"Bamboo_DE38RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE37RN";
 	rename -uid "BD1E7589-4327-CDE1-5B56-24BC0D0174AF";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE37RN"
 		"Bamboo_DE37RN" 0
-		"Bamboo_DE37RN" 4
+		"Bamboo_DE37RN" 9
 		0 "|Bamboo_DE42:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE42:Bamboo" "translate" " -type \"double3\" -26.753182141196284 5.0167859483393817 80.205018615575412"
 		
 		2 "|Bamboo|Bamboo_DE42:Bamboo" "rotate" " -type \"double3\" 0 -141.05388030979969 0"
 		
-		2 "|Bamboo|Bamboo_DE42:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE42:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE42:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE42:groupId1.groupId" "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE37RN" "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups" 
+		"Bamboo_DE37RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE36RN";
 	rename -uid "016929DB-4416-CE18-8BF5-0A95E18F681D";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE36RN"
 		"Bamboo_DE36RN" 0
-		"Bamboo_DE36RN" 3
+		"Bamboo_DE36RN" 8
 		0 "|Bamboo_DE43:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE43:Bamboo" "translate" " -type \"double3\" -14.494576907444792 5.0167859483393817 11.752013084616298"
 		
-		2 "|Bamboo|Bamboo_DE43:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE43:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE43:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE43:groupId1.groupId" "|Bamboo|Bamboo_DE43:Bamboo|Bamboo_DE43:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE43:Bamboo|Bamboo_DE43:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE43:Bamboo|Bamboo_DE43:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE36RN" "|Bamboo|Bamboo_DE43:Bamboo|Bamboo_DE43:BambooShape.instObjGroups" 
+		"Bamboo_DE36RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE40RN";
 	rename -uid "4DCC8E89-4603-1056-2B56-A384C1238D24";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE40RN"
 		"Bamboo_DE40RN" 0
-		"Bamboo_DE40RN" 4
+		"Bamboo_DE40RN" 9
 		0 "|Bamboo_DE44:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE44:Bamboo" "translate" " -type \"double3\" -19.531582401909624 5.0167859483393817 93.117851247138404"
 		
 		2 "|Bamboo|Bamboo_DE44:Bamboo" "rotate" " -type \"double3\" 0 -53.947621815622718 0"
 		
-		2 "|Bamboo|Bamboo_DE44:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE44:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE44:groupId1.groupId" "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE44:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE40RN" "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups" 
+		"Bamboo_DE40RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE39RN";
 	rename -uid "5FECD868-4641-2BB7-5CB4-42AF13029D13";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE39RN"
 		"Bamboo_DE39RN" 0
-		"Bamboo_DE39RN" 4
+		"Bamboo_DE39RN" 9
 		0 "|Bamboo_DE45:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE45:Bamboo" "translate" " -type \"double3\" -13.793539049797349 5.0167859483393817 107.4690714331397"
 		
 		2 "|Bamboo|Bamboo_DE45:Bamboo" "rotate" " -type \"double3\" 0 150.55522682514336 0"
 		
-		2 "|Bamboo|Bamboo_DE45:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE45:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE45:groupId1.groupId" "|Bamboo|Bamboo_DE45:Bamboo|Bamboo_DE45:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE45:Bamboo|Bamboo_DE45:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE45:Bamboo|Bamboo_DE45:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE45:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE39RN" "|Bamboo|Bamboo_DE45:Bamboo|Bamboo_DE45:BambooShape.instObjGroups" 
+		"Bamboo_DE39RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE35RN";
 	rename -uid "058EB39C-4D77-9FD1-BC42-7687535C7D4A";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE35RN"
 		"Bamboo_DE35RN" 0
-		"Bamboo_DE35RN" 3
+		"Bamboo_DE35RN" 8
 		0 "|Bamboo_DE46:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE46:Bamboo" "translate" " -type \"double3\" -14.251938732712478 5.0167859483393817 101.55113558222936"
 		
-		2 "|Bamboo|Bamboo_DE46:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE46:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE46:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE46:groupId1.groupId" "|Bamboo|Bamboo_DE46:Bamboo|Bamboo_DE46:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE46:Bamboo|Bamboo_DE46:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE46:Bamboo|Bamboo_DE46:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE35RN" "|Bamboo|Bamboo_DE46:Bamboo|Bamboo_DE46:BambooShape.instObjGroups" 
+		"Bamboo_DE35RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE34RN";
 	rename -uid "A56EDB79-4DA9-9B8E-5970-FE82D57F2C31";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE34RN"
 		"Bamboo_DE34RN" 0
-		"Bamboo_DE34RN" 3
+		"Bamboo_DE34RN" 8
 		0 "|Bamboo_DE47:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE47:Bamboo" "translate" " -type \"double3\" -20.325451861586671 7.9170133799621132 8.9848979953458468"
 		
-		2 "|Bamboo|Bamboo_DE47:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE47:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE47:groupId1.groupId" "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE47:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE34RN" "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups" 
+		"Bamboo_DE34RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE33RN";
 	rename -uid "5A0FB346-4992-2737-4020-0888877A395A";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE33RN"
 		"Bamboo_DE33RN" 0
-		"Bamboo_DE33RN" 4
+		"Bamboo_DE33RN" 9
 		0 "|Bamboo_DE48:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE48:Bamboo" "translate" " -type \"double3\" -10.915715314743689 5.0167859483393817 86.72513643743136"
 		
 		2 "|Bamboo|Bamboo_DE48:Bamboo" "rotate" " -type \"double3\" 0 -14.57778904868894 0"
 		
-		2 "|Bamboo|Bamboo_DE48:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE48:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE48:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE48:groupId1.groupId" "|Bamboo|Bamboo_DE48:Bamboo|Bamboo_DE48:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE48:Bamboo|Bamboo_DE48:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE48:Bamboo|Bamboo_DE48:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE33RN" "|Bamboo|Bamboo_DE48:Bamboo|Bamboo_DE48:BambooShape.instObjGroups" 
+		"Bamboo_DE33RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE32RN";
 	rename -uid "C0ED2115-493F-5A28-8BFC-54B287B4FCD4";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE32RN"
 		"Bamboo_DE32RN" 0
-		"Bamboo_DE32RN" 3
+		"Bamboo_DE32RN" 8
 		0 "|Bamboo_DE49:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE49:Bamboo" "translate" " -type \"double3\" -23.825496346217882 8.166391482803661 104.26250994532285"
 		
-		2 "|Bamboo|Bamboo_DE49:Bamboo" "scale" " -type \"double3\" 2.2661972546041298 2.2661972546041298 2.2661972546041298";
+		2 "|Bamboo|Bamboo_DE49:Bamboo" "scale" " -type \"double3\" 2.2661972546041298 2.2661972546041298 2.2661972546041298"
+		
+		3 "Bamboo_DE49:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE49:groupId1.groupId" "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE32RN" "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups" 
+		"Bamboo_DE32RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE28RN1";
 	rename -uid "DBE8EE0B-4D5E-94BB-A6EB-93BF1C6C5F4E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE28RN1"
 		"Bamboo_DE28RN1" 0
-		"Bamboo_DE28RN1" 4
+		"Bamboo_DE28RN1" 9
 		0 "|Bamboo_DE50:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE50:Bamboo" "translate" " -type \"double3\" -22.4785532695448 7.9170133799621132 -0.72268522018242454"
 		
 		2 "|Bamboo|Bamboo_DE50:Bamboo" "rotate" " -type \"double3\" 0 -166.0617036442039 0"
 		
-		2 "|Bamboo|Bamboo_DE50:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE50:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE50:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE50:groupId1.groupId" "|Bamboo|Bamboo_DE50:Bamboo|Bamboo_DE50:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE50:Bamboo|Bamboo_DE50:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE50:Bamboo|Bamboo_DE50:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE28RN1" "|Bamboo|Bamboo_DE50:Bamboo|Bamboo_DE50:BambooShape.instObjGroups" 
+		"Bamboo_DE28RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE27RN1";
 	rename -uid "166D14AF-4CD6-AAB3-6AA2-61BAAC8A9636";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE27RN1"
 		"Bamboo_DE27RN1" 0
-		"Bamboo_DE27RN1" 4
+		"Bamboo_DE27RN1" 9
 		0 "|Bamboo_DE51:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE51:Bamboo" "translate" " -type \"double3\" -10.057247027069216 5.0167859483393817 84.953687213463596"
 		
 		2 "|Bamboo|Bamboo_DE51:Bamboo" "rotate" " -type \"double3\" 0 -20.372331762367544 0"
 		
-		2 "|Bamboo|Bamboo_DE51:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE51:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE51:groupId1.groupId" "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE51:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE27RN1" "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups" 
+		"Bamboo_DE27RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE26RN1";
 	rename -uid "F6AE0364-4E97-E19F-AE29-3FAECC23E001";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE26RN1"
 		"Bamboo_DE26RN1" 0
-		"Bamboo_DE26RN1" 4
+		"Bamboo_DE26RN1" 9
 		0 "|Bamboo_DE52:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE52:Bamboo" "translate" " -type \"double3\" -19.641595204655324 5.0167859483393817 54.93894336154473"
 		
 		2 "|Bamboo|Bamboo_DE52:Bamboo" "rotate" " -type \"double3\" 0 61.035485289293703 0"
 		
-		2 "|Bamboo|Bamboo_DE52:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE52:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE52:groupId1.groupId" "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE52:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE26RN1" "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups" 
+		"Bamboo_DE26RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE31RN";
 	rename -uid "FA0881A8-4266-2B83-355B-CBA994E4691C";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE31RN"
 		"Bamboo_DE31RN" 0
-		"Bamboo_DE31RN" 3
+		"Bamboo_DE31RN" 8
 		0 "|Bamboo_DE53:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE53:Bamboo" "translate" " -type \"double3\" -20.482350402059499 7.9170133799621132 -15.459898224782275"
 		
-		2 "|Bamboo|Bamboo_DE53:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE53:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE53:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE53:groupId1.groupId" "|Bamboo|Bamboo_DE53:Bamboo|Bamboo_DE53:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE53:Bamboo|Bamboo_DE53:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE53:Bamboo|Bamboo_DE53:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE31RN" "|Bamboo|Bamboo_DE53:Bamboo|Bamboo_DE53:BambooShape.instObjGroups" 
+		"Bamboo_DE31RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE30RN";
 	rename -uid "D5A5D189-474C-BE73-C0E1-3A991030D555";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE30RN"
 		"Bamboo_DE30RN" 0
-		"Bamboo_DE30RN" 3
+		"Bamboo_DE30RN" 8
 		0 "|Bamboo_DE54:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE54:Bamboo" "translate" " -type \"double3\" -23.167661769359469 5.0167859483393817 17.497854152138018"
 		
-		2 "|Bamboo|Bamboo_DE54:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE54:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE54:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE54:groupId1.groupId" "|Bamboo|Bamboo_DE54:Bamboo|Bamboo_DE54:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE54:Bamboo|Bamboo_DE54:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE54:Bamboo|Bamboo_DE54:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE30RN" "|Bamboo|Bamboo_DE54:Bamboo|Bamboo_DE54:BambooShape.instObjGroups" 
+		"Bamboo_DE30RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE29RN1";
 	rename -uid "15F359F5-4383-D2DE-A2EF-90934B0AC3A8";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE29RN1"
 		"Bamboo_DE29RN1" 0
-		"Bamboo_DE29RN1" 3
+		"Bamboo_DE29RN1" 8
 		0 "|Bamboo_DE55:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE55:Bamboo" "translate" " -type \"double3\" -10.653719070445163 5.0167859483393817 53.294256351548313"
 		
-		2 "|Bamboo|Bamboo_DE55:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE55:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE55:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE55:groupId1.groupId" "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE29RN1" "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups" 
+		"Bamboo_DE29RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE25RN";
 	rename -uid "239F8BB0-47DF-DDC1-2E3F-41BC4D067C42";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE25RN"
 		"Bamboo_DE25RN" 0
-		"Bamboo_DE25RN" 3
+		"Bamboo_DE25RN" 8
 		0 "|Bamboo_DE56:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE56:Bamboo" "translate" " -type \"double3\" -12.192989035869328 5.0167859483393817 47.802143923462658"
 		
-		2 "|Bamboo|Bamboo_DE56:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE56:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE56:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE56:groupId1.groupId" "|Bamboo|Bamboo_DE56:Bamboo|Bamboo_DE56:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE56:Bamboo|Bamboo_DE56:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE56:Bamboo|Bamboo_DE56:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE25RN" "|Bamboo|Bamboo_DE56:Bamboo|Bamboo_DE56:BambooShape.instObjGroups" 
+		"Bamboo_DE25RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE24RN1";
 	rename -uid "14203292-4F45-385F-FC34-F284EF727ACF";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE24RN1"
 		"Bamboo_DE24RN1" 0
-		"Bamboo_DE24RN1" 4
+		"Bamboo_DE24RN1" 9
 		0 "|Bamboo_DE57:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE57:Bamboo" "translate" " -type \"double3\" -23.501232811184522 5.0167859483393817 3.80909828257386"
 		
 		2 "|Bamboo|Bamboo_DE57:Bamboo" "rotate" " -type \"double3\" 0 132.31067828719389 0"
 		
-		2 "|Bamboo|Bamboo_DE57:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE57:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE57:groupId1.groupId" "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE57:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE24RN1" "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups" 
+		"Bamboo_DE24RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE23RN1";
 	rename -uid "F7E7B343-4817-200E-53C1-6CB635575FEE";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE23RN1"
 		"Bamboo_DE23RN1" 0
-		"Bamboo_DE23RN1" 4
+		"Bamboo_DE23RN1" 9
 		0 "|Bamboo_DE58:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE58:Bamboo" "translate" " -type \"double3\" -9.087466071370125 5.0167859483393817 91.936577293160383"
 		
 		2 "|Bamboo|Bamboo_DE58:Bamboo" "rotate" " -type \"double3\" 0 -17.025181117366905 0"
 		
-		2 "|Bamboo|Bamboo_DE58:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE58:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE58:groupId1.groupId" "|Bamboo|Bamboo_DE58:Bamboo|Bamboo_DE58:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE58:Bamboo|Bamboo_DE58:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE58:Bamboo|Bamboo_DE58:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE58:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE23RN1" "|Bamboo|Bamboo_DE58:Bamboo|Bamboo_DE58:BambooShape.instObjGroups" 
+		"Bamboo_DE23RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE22RN1";
 	rename -uid "FAB992DB-44AA-3F50-F232-BD9D63E3C81E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE22RN1"
 		"Bamboo_DE22RN1" 0
-		"Bamboo_DE22RN1" 4
+		"Bamboo_DE22RN1" 9
 		0 "|Bamboo_DE59:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE59:Bamboo" "translate" " -type \"double3\" -14.455986679642319 7.9170133799621132 2.3047033496031197"
 		
 		2 "|Bamboo|Bamboo_DE59:Bamboo" "rotate" " -type \"double3\" 0 -118.70415382630763 0"
 		
-		2 "|Bamboo|Bamboo_DE59:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE59:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE59:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE59:groupId1.groupId" "|Bamboo|Bamboo_DE59:Bamboo|Bamboo_DE59:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE59:Bamboo|Bamboo_DE59:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE59:Bamboo|Bamboo_DE59:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE22RN1" "|Bamboo|Bamboo_DE59:Bamboo|Bamboo_DE59:BambooShape.instObjGroups" 
+		"Bamboo_DE22RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE21RN1";
 	rename -uid "81192A64-4FB8-01A5-648D-749740EDD553";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE21RN1"
 		"Bamboo_DE21RN1" 0
-		"Bamboo_DE21RN1" 4
+		"Bamboo_DE21RN1" 9
 		0 "|Bamboo_DE60:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE60:Bamboo" "translate" " -type \"double3\" -12.193975227330405 5.0167859483393817 104.37098739490671"
 		
 		2 "|Bamboo|Bamboo_DE60:Bamboo" "rotate" " -type \"double3\" 0 74.299196288786987 0"
 		
-		2 "|Bamboo|Bamboo_DE60:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE60:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE60:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE60:groupId1.groupId" "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE21RN1" "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups" 
+		"Bamboo_DE21RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE20RN1";
 	rename -uid "8B647F8B-4C9E-600B-27ED-109C07C6D96B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE20RN1"
 		"Bamboo_DE20RN1" 0
-		"Bamboo_DE20RN1" 4
+		"Bamboo_DE20RN1" 9
 		0 "|Bamboo_DE61:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE61:Bamboo" "translate" " -type \"double3\" -16.45192248497407 7.9170133799621132 -1.0913472327856404"
 		
 		2 "|Bamboo|Bamboo_DE61:Bamboo" "rotate" " -type \"double3\" 0 134.65046374919541 0"
 		
-		2 "|Bamboo|Bamboo_DE61:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE61:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE61:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE61:groupId1.groupId" "|Bamboo|Bamboo_DE61:Bamboo|Bamboo_DE61:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE61:Bamboo|Bamboo_DE61:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE61:Bamboo|Bamboo_DE61:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE20RN1" "|Bamboo|Bamboo_DE61:Bamboo|Bamboo_DE61:BambooShape.instObjGroups" 
+		"Bamboo_DE20RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE17RN";
 	rename -uid "BF6D32A2-4922-4767-9B77-849356F29729";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE17RN"
 		"Bamboo_DE17RN" 0
-		"Bamboo_DE17RN" 4
+		"Bamboo_DE17RN" 9
 		0 "|Bamboo_DE62:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE62:Bamboo" "translate" " -type \"double3\" -23.666958271238137 5.0167859483393817 10.252357292860374"
 		
 		2 "|Bamboo|Bamboo_DE62:Bamboo" "rotate" " -type \"double3\" 0 -126.8184191039128 0"
 		
-		2 "|Bamboo|Bamboo_DE62:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE62:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE62:groupId1.groupId" "|Bamboo|Bamboo_DE62:Bamboo|Bamboo_DE62:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE62:Bamboo|Bamboo_DE62:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE62:Bamboo|Bamboo_DE62:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE62:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE17RN" "|Bamboo|Bamboo_DE62:Bamboo|Bamboo_DE62:BambooShape.instObjGroups" 
+		"Bamboo_DE17RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE16RN1";
 	rename -uid "F19B3F79-4201-FE42-4343-FE8FE5CBE157";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE16RN1"
 		"Bamboo_DE16RN1" 0
-		"Bamboo_DE16RN1" 4
+		"Bamboo_DE16RN1" 9
 		0 "|Bamboo_DE63:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE63:Bamboo" "translate" " -type \"double3\" -19.468473121746865 5.0167859483393817 38.251035182842507"
 		
 		2 "|Bamboo|Bamboo_DE63:Bamboo" "rotate" " -type \"double3\" 0 -12.928509094985175 0"
 		
-		2 "|Bamboo|Bamboo_DE63:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE63:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE63:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE63:groupId1.groupId" "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE16RN1" "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups" 
+		"Bamboo_DE16RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE19RN1";
 	rename -uid "2BED98AB-4B93-20CF-2662-8281EC937E61";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE19RN1"
 		"Bamboo_DE19RN1" 0
-		"Bamboo_DE19RN1" 4
+		"Bamboo_DE19RN1" 9
 		0 "|Bamboo_DE64:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE64:Bamboo" "translate" " -type \"double3\" -26.387191474855811 5.0167859483393817 18.822287735639033"
 		
 		2 "|Bamboo|Bamboo_DE64:Bamboo" "rotate" " -type \"double3\" 0 12.651803323884643 0"
 		
-		2 "|Bamboo|Bamboo_DE64:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE64:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE64:groupId1.groupId" "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE64:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE19RN1" "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups" 
+		"Bamboo_DE19RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE18RN";
 	rename -uid "E03F9D25-4E90-AD83-B79B-DD9695683860";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE18RN"
 		"Bamboo_DE18RN" 0
-		"Bamboo_DE18RN" 4
+		"Bamboo_DE18RN" 9
 		0 "|Bamboo_DE65:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE65:Bamboo" "translate" " -type \"double3\" -1.3008646133957606 5.0167859483393817 101.59831930175341"
 		
 		2 "|Bamboo|Bamboo_DE65:Bamboo" "rotate" " -type \"double3\" 0 -60.384494369107408 0"
 		
-		2 "|Bamboo|Bamboo_DE65:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE65:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE65:groupId1.groupId" "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE65:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE18RN" "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups" 
+		"Bamboo_DE18RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE15RN";
 	rename -uid "8B6FB1DC-46E7-680C-EC77-BC8E1884A3E3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE15RN"
 		"Bamboo_DE15RN" 0
-		"Bamboo_DE15RN" 4
+		"Bamboo_DE15RN" 9
 		0 "|Bamboo_DE66:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE66:Bamboo" "translate" " -type \"double3\" -14.119967201884254 5.0167859483393817 59.047630740449087"
 		
 		2 "|Bamboo|Bamboo_DE66:Bamboo" "rotate" " -type \"double3\" 0 34.263566930663302 0"
 		
-		2 "|Bamboo|Bamboo_DE66:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE66:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE66:groupId1.groupId" "|Bamboo|Bamboo_DE66:Bamboo|Bamboo_DE66:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE66:Bamboo|Bamboo_DE66:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE66:Bamboo|Bamboo_DE66:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE66:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE15RN" "|Bamboo|Bamboo_DE66:Bamboo|Bamboo_DE66:BambooShape.instObjGroups" 
+		"Bamboo_DE15RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE14RN";
 	rename -uid "FA018692-4CA3-87F1-05B6-A1B47F399AC1";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE14RN"
 		"Bamboo_DE14RN" 0
-		"Bamboo_DE14RN" 4
+		"Bamboo_DE14RN" 9
 		0 "|Bamboo_DE67:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE67:Bamboo" "translate" " -type \"double3\" -16.993087161434381 7.9170133799621132 6.4665150640828823"
 		
 		2 "|Bamboo|Bamboo_DE67:Bamboo" "rotate" " -type \"double3\" 0 -27.691249668838452 0"
 		
-		2 "|Bamboo|Bamboo_DE67:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE67:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE67:groupId1.groupId" "|Bamboo|Bamboo_DE67:Bamboo|Bamboo_DE67:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE67:Bamboo|Bamboo_DE67:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE67:Bamboo|Bamboo_DE67:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE67:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE14RN" "|Bamboo|Bamboo_DE67:Bamboo|Bamboo_DE67:BambooShape.instObjGroups" 
+		"Bamboo_DE14RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE13RN1";
 	rename -uid "97A02AD1-4FB0-A67F-B776-4494D6856909";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE13RN1"
 		"Bamboo_DE13RN1" 0
-		"Bamboo_DE13RN1" 4
+		"Bamboo_DE13RN1" 9
 		0 "|Bamboo_DE68:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE68:Bamboo" "translate" " -type \"double3\" -23.022290071534172 7.9170133799621132 14.073384949595713"
 		
 		2 "|Bamboo|Bamboo_DE68:Bamboo" "rotate" " -type \"double3\" 0 -87.98702161711617 0"
 		
-		2 "|Bamboo|Bamboo_DE68:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE68:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE68:groupId1.groupId" "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE68:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE13RN1" "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups" 
+		"Bamboo_DE13RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE12RN1";
 	rename -uid "EDD31B91-49F7-73F4-AB12-47B9DD1C47E0";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE12RN1"
 		"Bamboo_DE12RN1" 0
-		"Bamboo_DE12RN1" 4
+		"Bamboo_DE12RN1" 9
 		0 "|Bamboo_DE69:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE69:Bamboo" "translate" " -type \"double3\" -18.705423460331389 5.0167859483393817 76.093676766973275"
 		
 		2 "|Bamboo|Bamboo_DE69:Bamboo" "rotate" " -type \"double3\" 0 152.56269308480793 0"
 		
-		2 "|Bamboo|Bamboo_DE69:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE69:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE69:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE69:groupId1.groupId" "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE12RN1" "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups" 
+		"Bamboo_DE12RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE9RN";
 	rename -uid "8F62F18D-415C-A9F2-9D0B-D4BB42A86371";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE9RN"
 		"Bamboo_DE9RN" 0
-		"Bamboo_DE9RN" 3
+		"Bamboo_DE9RN" 8
 		0 "|Bamboo_DE70:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE70:Bamboo" "translate" " -type \"double3\" -17.352141355828039 5.0167859483393817 65.341305142391263"
 		
-		2 "|Bamboo|Bamboo_DE70:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE70:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE70:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE70:groupId1.groupId" "|Bamboo|Bamboo_DE70:Bamboo|Bamboo_DE70:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE70:Bamboo|Bamboo_DE70:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE70:Bamboo|Bamboo_DE70:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE9RN" "|Bamboo|Bamboo_DE70:Bamboo|Bamboo_DE70:BambooShape.instObjGroups" 
+		"Bamboo_DE9RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE5RN2";
 	rename -uid "F9FF183F-4A0C-D274-5F41-D9AE5EEFA3DB";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE5RN2"
 		"Bamboo_DE5RN2" 0
-		"Bamboo_DE5RN2" 3
+		"Bamboo_DE5RN2" 8
 		0 "|Bamboo_DE71:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE71:Bamboo" "translate" " -type \"double3\" -15.540893856456394 5.0167859483393817 71.657828413046801"
 		
-		2 "|Bamboo|Bamboo_DE71:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE71:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE71:groupId1.groupId" "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE71:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE5RN2" "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups" 
+		"Bamboo_DE5RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN3";
 	rename -uid "04D201E9-47E8-DD31-B62F-1491B05CE79D";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN3"
 		"Bamboo_DE4RN3" 0
-		"Bamboo_DE4RN3" 3
+		"Bamboo_DE4RN3" 8
 		0 "|Bamboo_DE72:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE72:Bamboo" "translate" " -type \"double3\" -21.88349189854371 5.0167859483393817 97.585777589803939"
 		
-		2 "|Bamboo|Bamboo_DE72:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE72:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE72:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE72:groupId1.groupId" "|Bamboo|Bamboo_DE72:Bamboo|Bamboo_DE72:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE72:Bamboo|Bamboo_DE72:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE72:Bamboo|Bamboo_DE72:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE4RN3" "|Bamboo|Bamboo_DE72:Bamboo|Bamboo_DE72:BambooShape.instObjGroups" 
+		"Bamboo_DE4RN3.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE8RN2";
 	rename -uid "B46F1304-4E9B-5683-6480-4E9AE6C640AF";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE8RN2"
 		"Bamboo_DE8RN2" 0
-		"Bamboo_DE8RN2" 3
+		"Bamboo_DE8RN2" 8
 		0 "|Bamboo_DE73:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE73:Bamboo" "translate" " -type \"double3\" -15.800615421030608 5.0167859483393817 51.711291960329973"
 		
-		2 "|Bamboo|Bamboo_DE73:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE73:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE73:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE73:groupId1.groupId" "|Bamboo|Bamboo_DE73:Bamboo|Bamboo_DE73:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE73:Bamboo|Bamboo_DE73:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE73:Bamboo|Bamboo_DE73:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE8RN2" "|Bamboo|Bamboo_DE73:Bamboo|Bamboo_DE73:BambooShape.instObjGroups" 
+		"Bamboo_DE8RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE7RN2";
 	rename -uid "82C26BB0-421B-A63B-6834-E8AFA1AB98F3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN2"
 		"Bamboo_DE7RN2" 0
-		"Bamboo_DE7RN2" 3
+		"Bamboo_DE7RN2" 8
 		0 "|Bamboo_DE74:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE74:Bamboo" "translate" " -type \"double3\" -15.785655577100417 5.0167859483393817 108.7523789604405"
 		
-		2 "|Bamboo|Bamboo_DE74:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE74:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE74:groupId1.groupId" "|Bamboo|Bamboo_DE74:Bamboo|Bamboo_DE74:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE74:Bamboo|Bamboo_DE74:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE74:Bamboo|Bamboo_DE74:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE74:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE7RN2" "|Bamboo|Bamboo_DE74:Bamboo|Bamboo_DE74:BambooShape.instObjGroups" 
+		"Bamboo_DE7RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE6RN2";
 	rename -uid "F7EF462E-4269-7739-70C8-EE9F2D6FBFD8";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN2"
 		"Bamboo_DE6RN2" 0
-		"Bamboo_DE6RN2" 4
+		"Bamboo_DE6RN2" 9
 		0 "|Bamboo_DE75:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE75:Bamboo" "translate" " -type \"double3\" -5.4985952627132466 5.0167859483393817 95.45001262699725"
 		
 		2 "|Bamboo|Bamboo_DE75:Bamboo" "rotate" " -type \"double3\" 0 -16.644911050601785 0"
 		
-		2 "|Bamboo|Bamboo_DE75:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE75:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE75:groupId1.groupId" "|Bamboo|Bamboo_DE75:Bamboo|Bamboo_DE75:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE75:Bamboo|Bamboo_DE75:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE75:Bamboo|Bamboo_DE75:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE75:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE6RN2" "|Bamboo|Bamboo_DE75:Bamboo|Bamboo_DE75:BambooShape.instObjGroups" 
+		"Bamboo_DE6RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN4";
 	rename -uid "3932C813-463B-0518-A334-859E7AFA7FF8";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN4"
 		"Bamboo_DE2RN4" 0
-		"Bamboo_DE2RN4" 4
+		"Bamboo_DE2RN4" 9
 		0 "|Bamboo_DE76:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE76:Bamboo" "translate" " -type \"double3\" -20.071848215168295 6.7929253108422065 105.94753706585868"
 		
 		2 "|Bamboo|Bamboo_DE76:Bamboo" "rotate" " -type \"double3\" 0 -42.106084719708242 0"
 		
-		2 "|Bamboo|Bamboo_DE76:Bamboo" "scale" " -type \"double3\" 2.1019925907140014 2.1019925907140014 2.1019925907140014";
+		2 "|Bamboo|Bamboo_DE76:Bamboo" "scale" " -type \"double3\" 2.1019925907140014 2.1019925907140014 2.1019925907140014"
+		
+		3 "Bamboo_DE76:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE76:groupId1.groupId" "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE2RN4" "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN4.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN3";
 	rename -uid "2139E022-47F1-F205-D1F6-C3B41DAAD9BC";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN3"
 		"Bamboo_DE1RN3" 0
-		"Bamboo_DE1RN3" 3
+		"Bamboo_DE1RN3" 8
 		0 "|Bamboo_DE77:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE77:Bamboo" "translate" " -type \"double3\" -26.122685559396331 5.0167859483393817 86.650024919420048"
 		
-		2 "|Bamboo|Bamboo_DE77:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE77:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE77:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE77:groupId1.groupId" "|Bamboo|Bamboo_DE77:Bamboo|Bamboo_DE77:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE77:Bamboo|Bamboo_DE77:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE77:Bamboo|Bamboo_DE77:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE1RN3" "|Bamboo|Bamboo_DE77:Bamboo|Bamboo_DE77:BambooShape.instObjGroups" 
+		"Bamboo_DE1RN3.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN6";
 	rename -uid "5B224518-401A-5431-307B-3FB3AD9EC935";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN6"
 		"Bamboo_DERN6" 0
-		"Bamboo_DERN6" 3
+		"Bamboo_DERN6" 8
 		0 "|Bamboo_DE78:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE78:Bamboo" "translate" " -type \"double3\" -25.622469868235832 5.0167859483393817 30.610620258654333"
 		
-		2 "|Bamboo|Bamboo_DE78:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE78:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE78:groupId1.groupId" "|Bamboo|Bamboo_DE78:Bamboo|Bamboo_DE78:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE78:Bamboo|Bamboo_DE78:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE78:Bamboo|Bamboo_DE78:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE78:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DERN6" "|Bamboo|Bamboo_DE78:Bamboo|Bamboo_DE78:BambooShape.instObjGroups" 
+		"Bamboo_DERN6.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE67RN";
 	rename -uid "02AEC530-4459-6482-965D-3EA205ADD966";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE67RN"
 		"Bamboo_DE67RN" 0
-		"Bamboo_DE67RN" 4
+		"Bamboo_DE67RN" 9
 		0 "|Bamboo_DE79:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE79:Bamboo" "translate" " -type \"double3\" -13.618500791910325 2.2503651649910053 -5.0645481729057371"
 		
 		2 "|Bamboo|Bamboo_DE79:Bamboo" "rotate" " -type \"double3\" 0 -27.782370266722854 0"
 		
-		2 "|Bamboo|Bamboo_DE79:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE79:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE79:groupId1.groupId" "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE79:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE67RN" "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups" 
+		"Bamboo_DE67RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE62RN";
 	rename -uid "ACD1F3A1-4631-70C4-7F74-BDA60D020837";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE62RN"
 		"Bamboo_DE62RN" 0
-		"Bamboo_DE62RN" 4
+		"Bamboo_DE62RN" 9
 		0 "|Bamboo_DE80:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE80:Bamboo" "translate" " -type \"double3\" -22.323455780489443 2.2503651649910053 -6.9832589741847881"
 		
 		2 "|Bamboo|Bamboo_DE80:Bamboo" "rotate" " -type \"double3\" 0 52.655162978739639 0"
 		
-		2 "|Bamboo|Bamboo_DE80:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE80:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE80:groupId1.groupId" "|Bamboo|Bamboo_DE80:Bamboo|Bamboo_DE80:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE80:Bamboo|Bamboo_DE80:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE80:Bamboo|Bamboo_DE80:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE80:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE62RN" "|Bamboo|Bamboo_DE80:Bamboo|Bamboo_DE80:BambooShape.instObjGroups" 
+		"Bamboo_DE62RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE57RN";
 	rename -uid "51BEC5BB-4B5D-1B73-3B5E-F1851035E0AE";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE57RN"
 		"Bamboo_DE57RN" 0
-		"Bamboo_DE57RN" 3
+		"Bamboo_DE57RN" 8
 		0 "|Bamboo_DE81:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE81:Bamboo" "translate" " -type \"double3\" -14.453312200425863 2.2503651649910053 -13.751706171871081"
 		
-		2 "|Bamboo|Bamboo_DE81:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE81:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE81:groupId1.groupId" "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE81:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE57RN" "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups" 
+		"Bamboo_DE57RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE61RN";
 	rename -uid "2E2F7389-48E3-2DDC-DA85-FBB33473E816";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE61RN"
 		"Bamboo_DE61RN" 0
-		"Bamboo_DE61RN" 4
+		"Bamboo_DE61RN" 9
 		0 "|Bamboo_DE82:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE82:Bamboo" "translate" " -type \"double3\" -19.910499986152214 2.2503651649910053 -11.448678424708582"
 		
 		2 "|Bamboo|Bamboo_DE82:Bamboo" "rotate" " -type \"double3\" 0 66.581797950645893 0"
 		
-		2 "|Bamboo|Bamboo_DE82:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE82:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE82:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE82:groupId1.groupId" "|Bamboo|Bamboo_DE82:Bamboo|Bamboo_DE82:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE82:Bamboo|Bamboo_DE82:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE82:Bamboo|Bamboo_DE82:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE61RN" "|Bamboo|Bamboo_DE82:Bamboo|Bamboo_DE82:BambooShape.instObjGroups" 
+		"Bamboo_DE61RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE59RN";
 	rename -uid "30AC7039-4522-555A-793F-DB8E01739F53";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE59RN"
 		"Bamboo_DE59RN" 0
-		"Bamboo_DE59RN" 4
+		"Bamboo_DE59RN" 9
 		0 "|Bamboo_DE83:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE83:Bamboo" "translate" " -type \"double3\" -19.33963626340276 4.8199011908308931 -8.5801586598666848"
 		
 		2 "|Bamboo|Bamboo_DE83:Bamboo" "rotate" " -type \"double3\" 0 -215.78978315668098 0"
 		
-		2 "|Bamboo|Bamboo_DE83:Bamboo" "scale" " -type \"double3\" 1.9004445217669812 1.9004445217669812 1.9004445217669812";
+		2 "|Bamboo|Bamboo_DE83:Bamboo" "scale" " -type \"double3\" 1.9004445217669812 1.9004445217669812 1.9004445217669812"
+		
+		3 "Bamboo_DE83:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE83:groupId1.groupId" "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE59RN" "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups" 
+		"Bamboo_DE59RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE50RN";
 	rename -uid "EEFA82B6-4E75-43E3-88B2-D8826C80CD7F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE50RN"
 		"Bamboo_DE50RN" 0
-		"Bamboo_DE50RN" 4
+		"Bamboo_DE50RN" 9
 		0 "|Bamboo_DE84:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE84:Bamboo" "translate" " -type \"double3\" -16.437602824520063 2.2503651649910053 -7.655083018630112"
 		
 		2 "|Bamboo|Bamboo_DE84:Bamboo" "rotate" " -type \"double3\" 0 -148.07881325110301 0"
 		
-		2 "|Bamboo|Bamboo_DE84:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE84:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE84:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE84:groupId1.groupId" "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE50RN" "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups" 
+		"Bamboo_DE50RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE53RN";
 	rename -uid "4E88907F-4642-16F5-9E93-FDAEEE7FD72F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE53RN"
 		"Bamboo_DE53RN" 0
-		"Bamboo_DE53RN" 4
+		"Bamboo_DE53RN" 9
 		0 "|Bamboo_DE85:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE85:Bamboo" "translate" " -type \"double3\" -12.455118686322216 2.2503651649910053 -9.8990083955307888"
 		
 		2 "|Bamboo|Bamboo_DE85:Bamboo" "rotate" " -type \"double3\" 0 -31.143045127399958 0"
 		
-		2 "|Bamboo|Bamboo_DE85:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE85:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE85:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE85:groupId1.groupId" "|Bamboo|Bamboo_DE85:Bamboo|Bamboo_DE85:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE85:Bamboo|Bamboo_DE85:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE85:Bamboo|Bamboo_DE85:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE53RN" "|Bamboo|Bamboo_DE85:Bamboo|Bamboo_DE85:BambooShape.instObjGroups" 
+		"Bamboo_DE53RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE47RN";
 	rename -uid "9426982E-4DA0-11C5-C8C6-F784879C3A81";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE47RN"
 		"Bamboo_DE47RN" 0
-		"Bamboo_DE47RN" 4
+		"Bamboo_DE47RN" 9
 		0 "|Bamboo_DE86:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE86:Bamboo" "translate" " -type \"double3\" -23.588245219445874 2.2503651649910053 -11.622691183817491"
 		
 		2 "|Bamboo|Bamboo_DE86:Bamboo" "rotate" " -type \"double3\" 0 -138.72459053178594 0"
 		
-		2 "|Bamboo|Bamboo_DE86:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE86:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE86:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE86:groupId1.groupId" "|Bamboo|Bamboo_DE86:Bamboo|Bamboo_DE86:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE86:Bamboo|Bamboo_DE86:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE86:Bamboo|Bamboo_DE86:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE47RN" "|Bamboo|Bamboo_DE86:Bamboo|Bamboo_DE86:BambooShape.instObjGroups" 
+		"Bamboo_DE47RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE67RN1";
 	rename -uid "A5B5E7E2-441C-BF6E-3C09-4E8838977EF6";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE67RN1"
 		"Bamboo_DE67RN1" 0
-		"Bamboo_DE67RN1" 4
+		"Bamboo_DE67RN1" 9
 		0 "|Bamboo_DE87:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE87:Bamboo" "translate" " -type \"double3\" -27.265070200968381 5.7178197787152412 -12.411794892063694"
 		
 		2 "|Bamboo|Bamboo_DE87:Bamboo" "rotate" " -type \"double3\" 0 116.04172467296621 0"
 		
-		2 "|Bamboo|Bamboo_DE87:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE87:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE87:groupId1.groupId" "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE87:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE67RN1" "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups" 
+		"Bamboo_DE67RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE57RN1";
 	rename -uid "C1FDD5CD-4060-34EC-E1F1-938BBCC5D3F3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE57RN1"
 		"Bamboo_DE57RN1" 0
-		"Bamboo_DE57RN1" 3
+		"Bamboo_DE57RN1" 8
 		0 "|Bamboo_DE88:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE88:Bamboo" "translate" " -type \"double3\" -16.446385316865626 0 0"
 		
-		2 "|Bamboo|Bamboo_DE88:Bamboo" "scale" " -type \"double3\" 1.1841015069077698 1.1841015069077698 1.1841015069077698";
+		2 "|Bamboo|Bamboo_DE88:Bamboo" "scale" " -type \"double3\" 1.1841015069077698 1.1841015069077698 1.1841015069077698"
+		
+		3 "Bamboo_DE88:groupId1.groupId" "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE88:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE57RN1" "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups" 
+		"Bamboo_DE57RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE61RN1";
 	rename -uid "7768E615-499A-6BD2-37A1-A59827567C5A";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE61RN1"
 		"Bamboo_DE61RN1" 0
-		"Bamboo_DE61RN1" 4
+		"Bamboo_DE61RN1" 9
 		0 "|Bamboo_DE89:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE89:Bamboo" "translate" " -type \"double3\" -13.413221605887303 5.7178197787152412 4.8239788146492479"
 		
 		2 "|Bamboo|Bamboo_DE89:Bamboo" "rotate" " -type \"double3\" 0 -62.405660984103719 0"
 		
-		2 "|Bamboo|Bamboo_DE89:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE89:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE89:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE89:groupId1.groupId" "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE61RN1" "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups" 
+		"Bamboo_DE61RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE59RN1";
 	rename -uid "C1502FD9-4B62-8C41-24A3-8585EFBE6125";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE59RN1"
 		"Bamboo_DE59RN1" 0
-		"Bamboo_DE59RN1" 4
+		"Bamboo_DE59RN1" 9
 		0 "|Bamboo_DE90:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE90:Bamboo" "translate" " -type \"double3\" -21.727997974279724 5.7178197787152412 15.096220405052007"
 		
 		2 "|Bamboo|Bamboo_DE90:Bamboo" "rotate" " -type \"double3\" 0 -194.04824470745245 0"
 		
-		2 "|Bamboo|Bamboo_DE90:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE90:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE90:groupId1.groupId" "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE90:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE59RN1" "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups" 
+		"Bamboo_DE59RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE50RN1";
 	rename -uid "1A567FE0-49DD-E59B-29F4-2C9EBE9C491F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE50RN1"
 		"Bamboo_DE50RN1" 0
-		"Bamboo_DE50RN1" 4
+		"Bamboo_DE50RN1" 9
 		0 "|Bamboo_DE91:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE91:Bamboo" "translate" " -type \"double3\" -25.680104317444457 5.7178197787152412 -6.1782305800149482"
 		
 		2 "|Bamboo|Bamboo_DE91:Bamboo" "rotate" " -type \"double3\" 0 116.55427717471154 0"
 		
-		2 "|Bamboo|Bamboo_DE91:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE91:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE91:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE91:groupId1.groupId" "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE50RN1" "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups" 
+		"Bamboo_DE50RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE53RN1";
 	rename -uid "141E45F1-46B6-8038-7078-A98998132E81";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE53RN1"
 		"Bamboo_DE53RN1" 0
-		"Bamboo_DE53RN1" 4
+		"Bamboo_DE53RN1" 9
 		0 "|Bamboo_DE92:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE92:Bamboo" "translate" " -type \"double3\" -20.817970691440586 5.7178197787152412 21.249751149034125"
 		
 		2 "|Bamboo|Bamboo_DE92:Bamboo" "rotate" " -type \"double3\" 0 132.77801977453666 0"
 		
-		2 "|Bamboo|Bamboo_DE92:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE92:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE92:groupId1.groupId" "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE92:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE53RN1" "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups" 
+		"Bamboo_DE53RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE79RN";
 	rename -uid "CE2FB57A-4601-D313-1865-1093B13FF08B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE79RN"
 		"Bamboo_DE79RN" 0
-		"Bamboo_DE79RN" 3
+		"Bamboo_DE79RN" 8
 		0 "|Bamboo_DE93:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE93:Bamboo" "translate" " -type \"double3\" -22.616608719828253 5.7178197787152412 5.9930351568368865"
 		
-		2 "|Bamboo|Bamboo_DE93:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE93:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE93:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE93:groupId1.groupId" "|Bamboo|Bamboo_DE93:Bamboo|Bamboo_DE93:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE93:Bamboo|Bamboo_DE93:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE93:Bamboo|Bamboo_DE93:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE79RN" "|Bamboo|Bamboo_DE93:Bamboo|Bamboo_DE93:BambooShape.instObjGroups" 
+		"Bamboo_DE79RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE84RN";
 	rename -uid "81DA5EA0-4A0A-AD7D-CFE3-548B5850B91B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE84RN"
 		"Bamboo_DE84RN" 0
-		"Bamboo_DE84RN" 4
+		"Bamboo_DE84RN" 9
 		0 "|Bamboo_DE94:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE94:Bamboo" "translate" " -type \"double3\" -23.140365468897578 5.7178197787152412 -14.261910016691061"
 		
 		2 "|Bamboo|Bamboo_DE94:Bamboo" "rotate" " -type \"double3\" 0 62.812073132895598 0"
 		
-		2 "|Bamboo|Bamboo_DE94:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE94:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE94:groupId1.groupId" "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE94:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE84RN" "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups" 
+		"Bamboo_DE84RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE83RN";
 	rename -uid "DC279E90-44C1-D98F-E74A-7DBDA2F1185F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE83RN"
 		"Bamboo_DE83RN" 0
-		"Bamboo_DE83RN" 4
+		"Bamboo_DE83RN" 9
 		0 "|Bamboo_DE95:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE95:Bamboo" "translate" " -type \"double3\" -15.713861016824611 5.7178197787152412 8.1725455544566348"
 		
 		2 "|Bamboo|Bamboo_DE95:Bamboo" "rotate" " -type \"double3\" 0 -121.88254842680736 0"
 		
-		2 "|Bamboo|Bamboo_DE95:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE95:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE95:groupId1.groupId" "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE95:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE83RN" "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups" 
+		"Bamboo_DE83RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE82RN";
 	rename -uid "981B28D7-43A4-EDDF-EACE-D9B48C610246";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE82RN"
 		"Bamboo_DE82RN" 0
-		"Bamboo_DE82RN" 4
+		"Bamboo_DE82RN" 9
 		0 "|Bamboo_DE96:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE96:Bamboo" "translate" " -type \"double3\" -26.343108713129034 5.7178197787152412 -13.468354126963803"
 		
 		2 "|Bamboo|Bamboo_DE96:Bamboo" "rotate" " -type \"double3\" 0 -93.575085725051608 0"
 		
-		2 "|Bamboo|Bamboo_DE96:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE96:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE96:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE96:groupId1.groupId" "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE82RN" "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups" 
+		"Bamboo_DE82RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE86RN";
 	rename -uid "721757A3-4041-F39A-98F4-2798AC593E02";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE86RN"
 		"Bamboo_DE86RN" 0
-		"Bamboo_DE86RN" 3
+		"Bamboo_DE86RN" 8
 		0 "|Bamboo_DE97:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE97:Bamboo" "translate" " -type \"double3\" -17.986647030536542 5.7178197787152412 -4.5266127765722501"
 		
-		2 "|Bamboo|Bamboo_DE97:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE97:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE97:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE97:groupId1.groupId" "|Bamboo|Bamboo_DE97:Bamboo|Bamboo_DE97:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE97:Bamboo|Bamboo_DE97:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE97:Bamboo|Bamboo_DE97:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE86RN" "|Bamboo|Bamboo_DE97:Bamboo|Bamboo_DE97:BambooShape.instObjGroups" 
+		"Bamboo_DE86RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE85RN";
 	rename -uid "DF61358E-4DE3-11FF-D67C-6CA4AAC7A36D";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE85RN"
 		"Bamboo_DE85RN" 0
-		"Bamboo_DE85RN" 3
+		"Bamboo_DE85RN" 8
 		0 "|Bamboo_DE98:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE98:Bamboo" "translate" " -type \"double3\" -23.171174080542812 5.7178197787152412 42.430774803049466"
 		
-		2 "|Bamboo|Bamboo_DE98:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE98:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE98:groupId1.groupId" "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE98:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE85RN" "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups" 
+		"Bamboo_DE85RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE81RN";
 	rename -uid "8C4DE2D4-4B80-57AF-57D7-69AC9B6D633B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE81RN"
 		"Bamboo_DE81RN" 0
-		"Bamboo_DE81RN" 4
+		"Bamboo_DE81RN" 9
 		0 "|Bamboo_DE99:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE99:Bamboo" "translate" " -type \"double3\" -20.73152885268032 5.7178197787152412 24.720696516941253"
 		
 		2 "|Bamboo|Bamboo_DE99:Bamboo" "rotate" " -type \"double3\" 0 76.601882003566516 0"
 		
-		2 "|Bamboo|Bamboo_DE99:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE99:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE99:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE99:groupId1.groupId" "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE81RN" "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups" 
+		"Bamboo_DE81RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE80RN";
 	rename -uid "A5442D43-4180-01D2-1161-F6AA0BD8DBCB";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE80RN"
 		"Bamboo_DE80RN" 0
-		"Bamboo_DE80RN" 4
+		"Bamboo_DE80RN" 9
 		0 "|Bamboo_DE100:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE100:Bamboo" "translate" " -type \"double3\" -24.63740205877702 6.6398846046408533 -3.8812245859526877"
 		
 		2 "|Bamboo|Bamboo_DE100:Bamboo" "rotate" " -type \"double3\" 0 -28.78580051044905 0"
 		
-		2 "|Bamboo|Bamboo_DE100:Bamboo" "scale" " -type \"double3\" 2.0644432000128505 2.0644432000128505 2.0644432000128505";
+		2 "|Bamboo|Bamboo_DE100:Bamboo" "scale" " -type \"double3\" 2.0644432000128505 2.0644432000128505 2.0644432000128505"
+		
+		3 "Bamboo_DE100:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		
+		3 "Bamboo_DE100:groupId1.groupId" "|Bamboo|Bamboo_DE100:Bamboo|Bamboo_DE100:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE100:Bamboo|Bamboo_DE100:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE100:Bamboo|Bamboo_DE100:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE80RN" "|Bamboo|Bamboo_DE100:Bamboo|Bamboo_DE100:BambooShape.instObjGroups" 
+		"Bamboo_DE80RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode polyPlane -n "polyPlane1";
 	rename -uid "DF429719-4D5B-24E1-9A1C-848C42F380D4";
 	setAttr ".cuv" 2;
 createNode reference -n "Fern_DE2RN";
 	rename -uid "103CD994-476D-CAA0-00E5-46BD168FF2BC";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DE2RN"
 		"Fern_DE2RN" 0
-		"Fern_DE2RN" 2
+		"Fern_DE2RN" 7
 		2 "|Fern_DE4:Bush" "translate" " -type \"double3\" 34.46323011593104 0 42.361299111657559"
 		
-		2 "|Fern_DE4:Bush" "rotate" " -type \"double3\" 0 -90.405560222499489 0";
+		2 "|Fern_DE4:Bush" "rotate" " -type \"double3\" 0 -90.405560222499489 0"
+		3 "Fern_DE4:groupId2.groupId" "|Fern_DE4:Bush|Fern_DE4:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE4:Bush|Fern_DE4:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE4:Bush|Fern_DE4:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		3 "Fern_DE4:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Fern_DE2RN" "|Fern_DE4:Bush|Fern_DE4:BushShape.instObjGroups" "Fern_DE2RN.placeHolderList[1]" 
+		"";
 lockNode -l 1 ;
 createNode reference -n "boulder2_model_JonathanFranklinRN";
 	rename -uid "C707E1A7-4936-D9E6-8016-AEAAE99277F9";
@@ -7757,15 +8929,21 @@ createNode reference -n "boulder1_model_JonathanFranklinRN";
 lockNode -l 1 ;
 createNode reference -n "FallenTrunk_DERN";
 	rename -uid "26E6321C-4DC8-29D1-7DAD-6EA5386A7A18";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"FallenTrunk_DERN"
 		"FallenTrunk_DERN" 0
-		"FallenTrunk_DERN" 3
+		"FallenTrunk_DERN" 5
 		2 "|FallenTrunk_DE:FallenTrunk" "translate" " -type \"double3\" 39.888178333843612 0 64.916040012660972"
 		
 		2 "|FallenTrunk_DE:FallenTrunk" "rotate" " -type \"double3\" 0 -52.883994626150695 0"
 		
-		2 "|FallenTrunk_DE:FallenTrunk" "scale" " -type \"double3\" 1.7452850747690081 1.7452850747690081 1.7452850747690081";
+		2 "|FallenTrunk_DE:FallenTrunk" "scale" " -type \"double3\" 1.7452850747690081 1.7452850747690081 1.7452850747690081"
+		
+		3 "|FallenTrunk_DE:FallenTrunk|FallenTrunk_DE:FallenTrunkShape.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "FallenTrunk_DERN" "|FallenTrunk_DE:FallenTrunk|FallenTrunk_DE:FallenTrunkShape.instObjGroups" 
+		"FallenTrunk_DERN.placeHolderList[1]" ":initialShadingGroup.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "MushroomBunch1RN";
@@ -7856,26 +9034,38 @@ createNode reference -n "Grass_DERN";
 lockNode -l 1 ;
 createNode reference -n "BigFallenLog_JonathanFranklinRN";
 	rename -uid "54FA9E3B-4856-534A-DB3C-AE90CD5C5F92";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"BigFallenLog_JonathanFranklinRN"
 		"BigFallenLog_JonathanFranklinRN" 0
-		"BigFallenLog_JonathanFranklinRN" 3
+		"BigFallenLog_JonathanFranklinRN" 5
 		2 "|BigFallenLog_JonathanFranklin:pPipe1" "translate" " -type \"double3\" -15.584268902372033 0 87.279392129021787"
 		
 		2 "|BigFallenLog_JonathanFranklin:pPipe1" "rotate" " -type \"double3\" 90 26.500807351692533 0"
 		
-		2 "|BigFallenLog_JonathanFranklin:pPipe1" "scale" " -type \"double3\" 1.7606708240068933 4.2246661930490887 1.7606708240068933";
+		2 "|BigFallenLog_JonathanFranklin:pPipe1" "scale" " -type \"double3\" 1.7606708240068933 4.2246661930490887 1.7606708240068933"
+		
+		3 "|BigFallenLog_JonathanFranklin:pPipe1|BigFallenLog_JonathanFranklin:pPipeShape1.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "BigFallenLog_JonathanFranklinRN" "|BigFallenLog_JonathanFranklin:pPipe1|BigFallenLog_JonathanFranklin:pPipeShape1.instObjGroups" 
+		"BigFallenLog_JonathanFranklinRN.placeHolderList[1]" ":initialShadingGroup.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "SwampTallTreeNoLeaves_JonathanFranklinRN";
 	rename -uid "CFCA7BE8-4682-1A82-A048-A0BBB1C8A7E3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SwampTallTreeNoLeaves_JonathanFranklinRN"
 		"SwampTallTreeNoLeaves_JonathanFranklinRN" 0
-		"SwampTallTreeNoLeaves_JonathanFranklinRN" 2
+		"SwampTallTreeNoLeaves_JonathanFranklinRN" 4
 		2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" "translate" " -type \"double3\" -22.065384779940672 15.982143803352383 51.400676783830662"
 		
-		2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" "scale" " -type \"double3\" 1.4227515033645441 16.155239395806788 1.4227515033645441";
+		2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" "scale" " -type \"double3\" 1.4227515033645441 16.155239395806788 1.4227515033645441"
+		
+		3 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1|SwampTallTreeNoLeaves_JonathanFranklin:pCylinderShape1.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "SwampTallTreeNoLeaves_JonathanFranklinRN" "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1|SwampTallTreeNoLeaves_JonathanFranklin:pCylinderShape1.instObjGroups" 
+		"SwampTallTreeNoLeaves_JonathanFranklinRN.placeHolderList[1]" ":initialShadingGroup.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode polySplitRing -n "polySplitRing1";
@@ -7932,11 +9122,17 @@ createNode deleteComponent -n "deleteComponent2";
 	setAttr ".dc" -type "componentList" 1 "f[24]";
 createNode reference -n "SwampTallTreeNoLeaves_JonathanFranklinRN1";
 	rename -uid "17513E38-4B89-8BB4-C660-4E9BCF3EB95E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SwampTallTreeNoLeaves_JonathanFranklinRN1"
 		"SwampTallTreeNoLeaves_JonathanFranklinRN1" 0
-		"SwampTallTreeNoLeaves_JonathanFranklinRN1" 1
-		2 "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1" "translate" " -type \"double3\" 44.282788738996544 11.246859072099889 70.928387920291456";
+		"SwampTallTreeNoLeaves_JonathanFranklinRN1" 3
+		2 "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1" "translate" " -type \"double3\" 44.282788738996544 11.246859072099889 70.928387920291456"
+		
+		3 "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinderShape1.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "SwampTallTreeNoLeaves_JonathanFranklinRN1" "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinderShape1.instObjGroups" 
+		"SwampTallTreeNoLeaves_JonathanFranklinRN1.placeHolderList[1]" ":initialShadingGroup.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode groupId -n "groupId2";
@@ -8019,13 +9215,19 @@ createNode reference -n "MushroomRN1";
 lockNode -l 1 ;
 createNode reference -n "AddisonM_Rock2RN";
 	rename -uid "6838E36D-4ABE-720D-496F-F7AE97BD9D72";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AddisonM_Rock2RN"
 		"AddisonM_Rock2RN" 0
-		"AddisonM_Rock2RN" 2
+		"AddisonM_Rock2RN" 4
 		2 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2" "translate" " -type \"double3\" 5.8083097242856088 2.8952453463352228 -37.976268837552695"
 		
-		2 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2" "scale" " -type \"double3\" 9.3207305545157215 6.6848819739118026 5.9291777176824327";
+		2 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2" "scale" " -type \"double3\" 9.3207305545157215 6.6848819739118026 5.9291777176824327"
+		
+		3 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2|AddisonM_Rock2:pasted__pCubeShape2.instObjGroups" 
+		"AddisonM_Rock2:pasted__lambert3SG.dagSetMembers" "-na"
+		5 3 "AddisonM_Rock2RN" "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2|AddisonM_Rock2:pasted__pCubeShape2.instObjGroups" 
+		"AddisonM_Rock2RN.placeHolderList[1]" "AddisonM_Rock2:pasted__lambert3SG.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "AnotherRock_JonathanFranklinRN1";
@@ -8343,9 +9545,300 @@ createNode displayLayer -n "ImageProjectionRig:Bear_lyr";
 	rename -uid "968CC45E-49D8-1B53-5952-519F8AF838A9";
 	setAttr ".v" no;
 	setAttr ".do" 3;
+createNode rampShader -n "threeToneBrightnessShader";
+	rename -uid "AF4962E4-4DFC-773E-919A-2D98C0407216";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.066304475 0.16500001 0.0084150005 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.66956520080566406;
+	setAttr ".clr[1].clrc" -type "float3" 0.10072114 0.208 0.025584007 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.947826087474823;
+	setAttr ".clr[2].clrc" -type "float3" 0.22539164 0.40400001 0.08120399 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader1SG";
+	rename -uid "9E12B0C1-41FB-3B6F-E7B4-D8BF0CDD4895";
+	setAttr ".ihi" 0;
+	setAttr -s 101 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo1";
+	rename -uid "E40FA8E5-4C40-9D02-05EF-E2B2445B2AB7";
+createNode rampShader -n "threeToneBrightnessShader1";
+	rename -uid "91AD9247-4A35-35E7-BEBC-9C935DEDD79E";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.052299999 0.0184 0.0154 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.66956520080566406;
+	setAttr ".clr[1].clrc" -type "float3" 0.075000003 0.035735171 0.032850005 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.93043476343154907;
+	setAttr ".clr[2].clrc" -type "float3" 0.121 0.070363618 0.065702997 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader2SG";
+	rename -uid "A316FD9B-42FD-C938-B80E-96AF281FA270";
+	setAttr ".ihi" 0;
+	setAttr -s 2 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo2";
+	rename -uid "BCEDD2B9-463E-BDF3-70B2-A081B78AD67C";
+createNode rampShader -n "threeToneBrightnessShader2";
+	rename -uid "0C8B6D64-44F4-D2C0-1934-5DAFC6CBF1F3";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.050980393 0.015686275 0.011764706 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.074509807 0.035294119 0.031372551 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.11764706 0.06666667 0.062745102 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader3SG";
+	rename -uid "7BDC4485-479F-55BF-2048-94A371E59180";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo3";
+	rename -uid "8C04E20E-42F2-2C46-2A72-489F2B059E04";
+createNode rampShader -n "threeToneBrightnessShader3";
+	rename -uid "DD863AE0-4B58-E27F-88B1-31B41FD1B260";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.050980393 0.015686275 0.011764706 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.074509807 0.035294119 0.031372551 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.11764706 0.06666667 0.062745102 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader4SG";
+	rename -uid "BC20D67C-400F-E58E-FCC4-C593DFA4C38B";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo4";
+	rename -uid "FA195D6F-46DE-44FF-E80E-BFB989C157DF";
+createNode rampShader -n "threeToneBrightnessShader4";
+	rename -uid "1993E090-4D6B-CE3D-908A-FBBD599E8714";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.15294118 0.15294118 0.15294118 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.53043478727340698;
+	setAttr ".clr[1].clrc" -type "float3" 0.33333334 0.33333334 0.33333334 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.947826087474823;
+	setAttr ".clr[2].clrc" -type "float3" 0.50196081 0.50196081 0.50196081 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader5SG";
+	rename -uid "03A28132-4242-9DBC-CEFF-77B007DA9C62";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo5";
+	rename -uid "BF991994-4E5E-B842-9FEB-529631155BDE";
+createNode rampShader -n "threeToneBrightnessShader5";
+	rename -uid "EF4843E3-4202-DF36-CDB8-0A9678E679AE";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.01105434 0.071999997 0.0059759999 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.74782609939575195;
+	setAttr ".clr[1].clrc" -type "float3" 0.018329998 0.093999997 0.050344713 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.93043476343154907;
+	setAttr ".clr[2].clrc" -type "float3" 0.038571 0.12899999 0.11161051 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader6SG";
+	rename -uid "ACB329C4-477F-F051-BA2F-A7B50BBAF0B9";
+	setAttr ".ihi" 0;
+	setAttr -s 14 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo6";
+	rename -uid "5B1DF590-4673-A31B-A021-9F8FECED5753";
+createNode rampShader -n "threeToneBrightnessShader6";
+	rename -uid "0DC0C3B5-4750-E8AD-1C56-31865685FFF1";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.20832311 0.41299999 0.058232985 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.31021482 0.61500001 0.086714983 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.40454027 0.80199999 0.11308198 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader7SG";
+	rename -uid "0E221DE4-49CF-5C97-BBD6-59B502AC5661";
+	setAttr ".ihi" 0;
+	setAttr -s 5 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo7";
+	rename -uid "510494D2-493A-D5B8-0884-568920BECD3F";
 select -ne :time1;
-	setAttr ".o" 1;
-	setAttr ".unw" 1;
+	setAttr ".o" 19;
+	setAttr ".unw" 19;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -8353,10 +9846,10 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 566 ".st";
+	setAttr -s 573 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 48 ".s";
+	setAttr -s 55 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
@@ -8367,9 +9860,8 @@ select -ne :defaultTextureList1;
 	setAttr -s 17 ".tx";
 select -ne :lambert1;
 select -ne :initialShadingGroup;
-	setAttr -s 158 ".dsm";
+	setAttr -s 34 ".dsm";
 	setAttr ".ro" yes;
-	setAttr -s 107 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :initialMaterialInfo;
@@ -8383,6 +9875,119 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 select -ne :defaultHideFaceDataSet;
+connectAttr "Bamboo_DERN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE3RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN3.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE1RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE4RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE8RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE7RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE6RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE5RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE4RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE3RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN4.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE1RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Fern_DERN.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "Fern_DERN1.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "Bamboo_DE16RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE11RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE13RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE12RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE4RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE3RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE8RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE7RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE6RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE5RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN3.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE1RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN5.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE29RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE28RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE27RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE26RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE22RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE21RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE20RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE24RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE23RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE19RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Fern_DERN2.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "Fern_DE1RN.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "Bamboo_DE38RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE37RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE36RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE40RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE39RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE35RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE34RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE33RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE32RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE28RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE27RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE26RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE31RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE30RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE29RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE25RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE24RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE23RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE22RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE21RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE20RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE17RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE16RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE19RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE18RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE15RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE14RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE13RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE12RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE9RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE5RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE4RN3.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE8RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE7RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE6RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN4.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE1RN3.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN6.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE67RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE62RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE57RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE61RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE59RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE50RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE53RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE47RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE67RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE57RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE61RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE59RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE50RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE53RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE79RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE84RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE83RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE82RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE86RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE85RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE81RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE80RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Fern_DE2RN.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "FallenTrunk_DERN.phl[1]" "rampShader4SG.dsm" -na;
+connectAttr "BigFallenLog_JonathanFranklinRN.phl[1]" "rampShader3SG.dsm" -na;
+connectAttr "SwampTallTreeNoLeaves_JonathanFranklinRN.phl[1]" "rampShader2SG.dsm"
+		 -na;
+connectAttr "SwampTallTreeNoLeaves_JonathanFranklinRN1.phl[1]" "rampShader2SG.dsm"
+		 -na;
+connectAttr "AddisonM_Rock2RN.phl[1]" "rampShader5SG.dsm" -na;
 connectAttr "persp_translateX.o" ":persp.tx";
 connectAttr "persp_translateY.o" ":persp.ty";
 connectAttr "persp_translateZ.o" ":persp.tz";
@@ -8738,6 +10343,13 @@ relationship "link" ":lightLinker1" "ImageProjectionRig:lambert14SG.message" ":d
 relationship "link" ":lightLinker1" "ImageProjectionRig:lambert15SG.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "ImageProjectionRig:lambert16SG.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "ImageProjectionRig:lambert17SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader1SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader2SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader3SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader4SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader5SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader6SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader7SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert2SG.message" ":defaultLightSet.message";
@@ -8756,6 +10368,13 @@ relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert14SG.messag
 relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert15SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert16SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert17SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader1SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader2SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader3SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader4SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader5SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader6SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader7SG.message" ":defaultLightSet.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "Skin.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
@@ -9438,6 +11057,62 @@ connectAttr "ImageProjectionRig:Bear_SuperBack_Mat.msg" "ImageProjectionRig:mate
 connectAttr "layerManager.dli[4]" "ImageProjectionRig:YB_lyr.id";
 connectAttr "layerManager.dli[8]" "ImageProjectionRig:OB_lyr.id";
 connectAttr "layerManager.dli[9]" "ImageProjectionRig:Bear_lyr.id";
+connectAttr "threeToneBrightnessShader.oc" "rampShader1SG.ss";
+connectAttr "rampShader1SG.msg" "materialInfo1.sg";
+connectAttr "threeToneBrightnessShader.msg" "materialInfo1.m";
+connectAttr "threeToneBrightnessShader.msg" "materialInfo1.t" -na;
+connectAttr "threeToneBrightnessShader1.oc" "rampShader2SG.ss";
+connectAttr "rampShader2SG.msg" "materialInfo2.sg";
+connectAttr "threeToneBrightnessShader1.msg" "materialInfo2.m";
+connectAttr "threeToneBrightnessShader1.msg" "materialInfo2.t" -na;
+connectAttr "threeToneBrightnessShader2.oc" "rampShader3SG.ss";
+connectAttr "rampShader3SG.msg" "materialInfo3.sg";
+connectAttr "threeToneBrightnessShader2.msg" "materialInfo3.m";
+connectAttr "threeToneBrightnessShader2.msg" "materialInfo3.t" -na;
+connectAttr "threeToneBrightnessShader3.oc" "rampShader4SG.ss";
+connectAttr "rampShader4SG.msg" "materialInfo4.sg";
+connectAttr "threeToneBrightnessShader3.msg" "materialInfo4.m";
+connectAttr "threeToneBrightnessShader3.msg" "materialInfo4.t" -na;
+connectAttr "threeToneBrightnessShader4.oc" "rampShader5SG.ss";
+connectAttr "rampShader5SG.msg" "materialInfo5.sg";
+connectAttr "threeToneBrightnessShader4.msg" "materialInfo5.m";
+connectAttr "threeToneBrightnessShader4.msg" "materialInfo5.t" -na;
+connectAttr "threeToneBrightnessShader5.oc" "rampShader6SG.ss";
+connectAttr "|Small_Bush14|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush13|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush12|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush11|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush10|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush9|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush8|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush7|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush6|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush5|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush4|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush3|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush2|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "|Small_Bush1|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
+		 -na;
+connectAttr "rampShader6SG.msg" "materialInfo6.sg";
+connectAttr "threeToneBrightnessShader5.msg" "materialInfo6.m";
+connectAttr "threeToneBrightnessShader5.msg" "materialInfo6.t" -na;
+connectAttr "threeToneBrightnessShader6.oc" "rampShader7SG.ss";
+connectAttr "rampShader7SG.msg" "materialInfo7.sg";
+connectAttr "threeToneBrightnessShader6.msg" "materialInfo7.m";
+connectAttr "threeToneBrightnessShader6.msg" "materialInfo7.t" -na;
 connectAttr "ImageProjectionRig:lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "ImageProjectionRig:lambert3SG.pa" ":renderPartition.st" -na;
 connectAttr "ImageProjectionRig:lambert4SG.pa" ":renderPartition.st" -na;
@@ -9454,6 +11129,13 @@ connectAttr "ImageProjectionRig:lambert14SG.pa" ":renderPartition.st" -na;
 connectAttr "ImageProjectionRig:lambert15SG.pa" ":renderPartition.st" -na;
 connectAttr "ImageProjectionRig:lambert16SG.pa" ":renderPartition.st" -na;
 connectAttr "ImageProjectionRig:lambert17SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader1SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader2SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader3SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader4SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader5SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader6SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader7SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert2.msg" ":defaultShaderList1.s" -na;
 connectAttr "Black.msg" ":defaultShaderList1.s" -na;
 connectAttr "REd.msg" ":defaultShaderList1.s" -na;
@@ -9492,6 +11174,13 @@ connectAttr "ImageProjectionRig:Bear_Mid_Mat.msg" ":defaultShaderList1.s" -na;
 connectAttr "ImageProjectionRig:Bear_Back_Mat.msg" ":defaultShaderList1.s" -na;
 connectAttr "ImageProjectionRig:Bear_SuperBack_Mat.msg" ":defaultShaderList1.s" 
 		-na;
+connectAttr "threeToneBrightnessShader.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader1.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader2.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader3.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader4.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader5.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader6.msg" ":defaultShaderList1.s" -na;
 connectAttr "ImageProjectionRig:place2dTexture1.msg" ":defaultRenderUtilityList1.u"
 		 -na;
 connectAttr "ImageProjectionRig:place2dTexture2.msg" ":defaultRenderUtilityList1.u"
@@ -9538,21 +11227,7 @@ connectAttr "|Palm_Tree1|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadi
 		 -na;
 connectAttr "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
-connectAttr "|Small_Bush1|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush2|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush3|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush4|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush5|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
 connectAttr "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush6|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush7|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 connectAttr "|Palm_Tree2|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
@@ -9560,13 +11235,7 @@ connectAttr "|Palm_Tree2|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadi
 		 -na;
 connectAttr "|Short_Palm1|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
-connectAttr "|Small_Bush8|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
 connectAttr "GroundShape.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "|Small_Bush9|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush10|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
 connectAttr "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 connectAttr "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
@@ -9575,8 +11244,6 @@ connectAttr "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadi
 		 -na;
 connectAttr "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
-connectAttr "|Small_Bush11|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
 connectAttr "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 connectAttr "|Short_Palm2|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
@@ -9584,11 +11251,5 @@ connectAttr "|Short_Palm2|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGrou
 connectAttr "|Short_Palm3|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 connectAttr "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush12|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush13|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush14|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 // End of AnnaRunSet.ma
