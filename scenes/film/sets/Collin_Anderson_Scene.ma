@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: Collin_Anderson_Scene.ma
-//Last modified: Wed, Nov 29, 2017 04:28:46 PM
+//Last modified: Fri, Dec 01, 2017 04:17:15 PM
 //Codeset: 1252
 file -rdi 1 -ns "Bamboo_DE" -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE1" -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -15,6 +15,12 @@ file -rdi 1 -ns "Bamboo_DE9" -rfn "Bamboo_DE8RN" -typ "mayaAscii" "C:/Users/1078
 file -rdi 1 -ns "Bamboo_DE10" -rfn "Bamboo_DE9RN" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE11" -rfn "Bamboo_DE10RN" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE12" -rfn "Bamboo_DE11RN" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -rdi 1 -ns "BananaTree_SC" -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "D:/GIT//2670UVU/assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+file -rdi 1 -ns "Fern_DE" -rfn "Fern_DERN" -op "v=0;" -typ "mayaAscii" "D:/GIT//2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "Fern_DE1" -rfn "Fern_DERN1" -typ "mayaAscii" "D:/GIT//2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "SmallBush_SC" -rfn "SmallBush_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "D:/GIT//2670UVU/assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
 file -r -ns "Bamboo_DE" -dr 1 -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE1" -dr 1 -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE2" -dr 1 -rfn "Bamboo_DE1RN" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -28,7 +34,15 @@ file -r -ns "Bamboo_DE9" -dr 1 -rfn "Bamboo_DE8RN" -typ "mayaAscii" "C:/Users/10
 file -r -ns "Bamboo_DE10" -dr 1 -rfn "Bamboo_DE9RN" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE11" -dr 1 -rfn "Bamboo_DE10RN" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE12" -dr 1 -rfn "Bamboo_DE11RN" -typ "mayaAscii" "C:/Users/10787097/Documents/GIT/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
+file -r -ns "BananaTree_SC" -dr 1 -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "D:/GIT//2670UVU/assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+file -r -ns "Fern_DE" -dr 1 -rfn "Fern_DERN" -op "v=0;" -typ "mayaAscii" "D:/GIT//2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "Fern_DE1" -dr 1 -rfn "Fern_DERN1" -typ "mayaAscii" "D:/GIT//2670UVU/assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "SmallBush_SC" -dr 1 -rfn "SmallBush_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "D:/GIT//2670UVU/assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
 requires maya "2017ff05";
+requires -nodeType "simpleSelector" -nodeType "renderSetupLayer" -nodeType "renderSetup"
+		 -nodeType "collection" "renderSetup.py" "1.0";
 requires "stereoCamera" "10.0";
 requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
@@ -41,17 +55,17 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "1E6663E3-4FBA-C229-CBCF-31B7F3642C80";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 49.117335062110257 -2.7724428939477264 -20.624975429715096 ;
-	setAttr ".r" -type "double3" -50.738352723998432 -50.999999999999311 -1.5161854247997471e-014 ;
+	setAttr ".t" -type "double3" 63.949017449357136 -11.235759414540572 -11.128410667832803 ;
+	setAttr ".r" -type "double3" -21.93835272406255 -1.8000000000018086 1.0441347223107217e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2D6B5C72-4B6D-9980-F9C9-55B46F66D49F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 36.473831910494319;
+	setAttr ".coi" 32.205304092978189;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 56.907165817945 -21.041176724738584 -40.119737770202136 ;
+	setAttr ".tp" -type "double3" 77.876411437988281 -29.11457633972168 -52.6859130859375 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "7634D913-45FA-86AE-3BC3-FFAB0FD98C9B";
@@ -124,8 +138,8 @@ createNode mesh -n "pPlaneShape1" -p "transform3";
 	setAttr ".dsm" 2;
 createNode transform -n "camera1";
 	rename -uid "63B2F2BA-4091-EE43-9630-66B346E9C39A";
-	setAttr ".t" -type "double3" 59.274328450704047 -20.834110171005353 -29.490866952403387 ;
-	setAttr ".r" -type "double3" -7.811820263324222 0 1.5626365703481786 ;
+	setAttr ".t" -type "double3" 67.230921436699163 -20.963605906508885 -28.652040481930733 ;
+	setAttr ".r" -type "double3" 0 -6.2120208622334312e-018 0 ;
 createNode camera -n "cameraShape1" -p "camera1";
 	rename -uid "CB57916A-4BEB-80CC-9EB9-2083705A767A";
 	setAttr -k off ".v";
@@ -134,12 +148,270 @@ createNode camera -n "cameraShape1" -p "camera1";
 	setAttr ".ff" 0;
 	setAttr ".ovr" 1.3;
 	setAttr ".fl" 25.706649797412076;
-	setAttr ".coi" 20.997596774669585;
+	setAttr ".coi" 21.836423245142228;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "camera1";
 	setAttr ".den" -type "string" "camera1_depth";
 	setAttr ".man" -type "string" "camera1_mask";
 	setAttr ".dr" yes;
+createNode transform -n "OB_Proj_Rig" -p "camera1";
+	rename -uid "75EAB268-491D-CD0A-E591-EC823199A6C0";
+	setAttr ".t" -type "double3" -0.12129742941255871 -6.2543131642539134 -11.629611761493635 ;
+	setAttr ".s" -type "double3" 1.063509747065871 1.063509747065871 0.26922163993043496 ;
+createNode nurbsCurve -n "OB_Proj_Rig" -p "|camera1|OB_Proj_Rig";
+	rename -uid "EC919916-458D-6BA2-A8A0-F98168702748";
+	setAttr -k off ".v";
+	setAttr ".tw" yes;
+createNode transform -n "ImageProjectionRig:YB_Front2" -p "|camera1|OB_Proj_Rig";
+	rename -uid "96F36377-4660-44FF-988A-D49C0F08EDDF";
+createNode mesh -n "ImageProjectionRig:YB_FrontShape2" -p "ImageProjectionRig:YB_Front2";
+	rename -uid "75152DE5-4EF0-5E03-92F1-C0B79EF3D0F4";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -4.3024354 0 
+		0.14876397 -4.3024354 0 10.948764 6.4975648 0 10.948764 6.4975648;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:YB_Back" -p "|camera1|OB_Proj_Rig";
+	rename -uid "72961830-4A1F-C9FC-7632-3BBD38FE9209";
+createNode mesh -n "ImageProjectionRig:YB_BackShape" -p "ImageProjectionRig:YB_Back";
+	rename -uid "DA914A86-4CF9-41F1-5ECD-5B96FACEDC24";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -6.4387169 0 
+		0.14876397 -6.4387169 0 10.948764 4.3612833 0 10.948764 4.3612833;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:YB_Mid1" -p "|camera1|OB_Proj_Rig";
+	rename -uid "3D7F0E95-4A27-1698-5CC8-48A4257790EB";
+createNode mesh -n "ImageProjectionRig:YB_MidShape1" -p "ImageProjectionRig:YB_Mid1";
+	rename -uid "8C64C64C-49D6-C5D4-4355-60810B918B00";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -5.4187255 0 
+		0.14876397 -5.4187255 0 10.948764 5.3812747 0 10.948764 5.3812747;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:YB_SuperFront1" -p "|camera1|OB_Proj_Rig";
+	rename -uid "B1A544BE-41BB-91DA-1F86-20B7153F0B76";
+createNode mesh -n "ImageProjectionRig:YB_SuperFrontShape1" -p "ImageProjectionRig:YB_SuperFront1";
+	rename -uid "9CE7A052-4756-D154-7327-E88D522A27A2";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "ImageProjectionRig:YB_SuperBack1" -p "|camera1|OB_Proj_Rig";
+	rename -uid "FF85F95D-4E4F-1593-BC59-5E9CD45E613E";
+createNode mesh -n "ImageProjectionRig:YB_SuperBack1Shape" -p "ImageProjectionRig:YB_SuperBack1";
+	rename -uid "07C53409-4000-B25A-EF77-5C9EE1B3DECA";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -7.4322867 0 
+		0.14876397 -7.4322867 0 10.948764 3.3677137 0 10.948764 3.3677137;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "YB_Proj_Rig" -p "camera1";
+	rename -uid "F0EDAD32-4C14-A137-A55C-6DAB4838A37C";
+	setAttr ".t" -type "double3" -0.121 -6.254 -11.63 ;
+	setAttr ".s" -type "double3" 1.064 1.064 0.269 ;
+createNode nurbsCurve -n "YB_Proj_RigShape" -p "YB_Proj_Rig";
+	rename -uid "D6C697AB-4D42-3D91-4C55-12B2574C4365";
+	setAttr -k off ".v";
+	setAttr ".tw" yes;
+createNode transform -n "ImageProjectionRig1:YB_Front2" -p "YB_Proj_Rig";
+	rename -uid "9EDADB02-424C-9083-8E7B-C89A57CCB03D";
+createNode mesh -n "ImageProjectionRig1:YB_FrontShape2" -p "ImageProjectionRig1:YB_Front2";
+	rename -uid "84589BB6-4A79-B366-0A58-1B826B6FC8FB";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -4.3024354 0 
+		0.14876397 -4.3024354 0 10.948764 6.4975648 0 10.948764 6.4975648;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig1:YB_Back" -p "YB_Proj_Rig";
+	rename -uid "C0887D17-4B4F-4E94-19A0-6085A71CA0F2";
+createNode mesh -n "ImageProjectionRig1:YB_BackShape" -p "ImageProjectionRig1:YB_Back";
+	rename -uid "69B06E2E-4CE3-57EB-2CE2-66BAF9E1F8A9";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -6.4387169 0 
+		0.14876397 -6.4387169 0 10.948764 4.3612833 0 10.948764 4.3612833;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig1:YB_Mid1" -p "YB_Proj_Rig";
+	rename -uid "6D0073DB-44C7-6AC9-9291-98937555668E";
+createNode mesh -n "ImageProjectionRig1:YB_MidShape1" -p "ImageProjectionRig1:YB_Mid1";
+	rename -uid "8622248A-4952-C58A-CCAB-E1B857C8DA65";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -5.4187255 0 
+		0.14876397 -5.4187255 0 10.948764 5.3812747 0 10.948764 5.3812747;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig1:YB_SuperFront1" -p "YB_Proj_Rig";
+	rename -uid "00D3D146-4078-809B-586F-4F946F38291B";
+createNode mesh -n "ImageProjectionRig1:YB_SuperFrontShape1" -p "ImageProjectionRig1:YB_SuperFront1";
+	rename -uid "3ECBEE35-4837-1BB8-3A35-7495F1FB65B8";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "ImageProjectionRig1:YB_SuperBack1" -p "YB_Proj_Rig";
+	rename -uid "7D0F9231-4AD8-C57F-5C2B-B7896E2B5DCB";
+createNode mesh -n "ImageProjectionRig1:YB_SuperBack1Shape" -p "ImageProjectionRig1:YB_SuperBack1";
+	rename -uid "788A5FB0-4280-6FCC-4D32-D09944E3CBB0";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -7.4322867 0 
+		0.14876397 -7.4322867 0 10.948764 3.3677137 0 10.948764 3.3677137;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "pPlane2";
 	rename -uid "F160BF20-47BE-400B-AF92-F1945ADA2081";
 	setAttr ".rp" -type "double3" -20.99332758343612 0 -149.83885096406419 ;
@@ -600,20 +872,96 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".pt[9]" -type "float3" 1.9577465 -1.2248027 0 ;
 	setAttr ".pt[10]" -type "float3" 0.12316696 2.3557911 0 ;
 	setAttr ".pt[11]" -type "float3" 0.12316696 2.3557911 0 ;
+createNode transform -n "ambientLight1";
+	rename -uid "291D71CA-4F71-90C2-5267-A68B06EFDFB5";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+createNode ambientLight -n "ambientLightShape1" -p "ambientLight1";
+	rename -uid "7C7509B6-486F-3EA8-1206-A7B6F0452291";
+	addAttr -ci true -sn "isolate" -ln "isolate" -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
+	setAttr -k off ".v";
+	setAttr -s 2 ".rlio";
+	setAttr -s 2 ".rlio";
+	setAttr ".in" 0.10000000149011612;
+	setAttr ".urs" no;
+	setAttr ".childIndex" 0;
+createNode transform -n "directionalLight1";
+	rename -uid "E0787047-4D8C-F22F-CA02-C0AE4797A2AA";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+	setAttr ".t" -type "double3" 7.2630336198780228 0 0 ;
+	setAttr ".r" -type "double3" -30.337863612770359 -10.245628693274631 0.32266688478626288 ;
+createNode directionalLight -n "directionalLightShape1" -p "directionalLight1";
+	rename -uid "176D25FB-4EB2-7DFE-53A2-9098D2075A46";
+	addAttr -ci true -sn "isolate" -ln "isolate" -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
+	setAttr -k off ".v";
+	setAttr -s 2 ".rlio";
+	setAttr -s 2 ".rlio";
+	setAttr ".in" 0.60000002384185791;
+	setAttr ".childIndex" 1;
+createNode transform -n "directionalLight2";
+	rename -uid "688343C6-4562-D939-5B9A-54BCC1696FCA";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+	setAttr ".t" -type "double3" 12.497269185577789 0 0 ;
+	setAttr ".r" -type "double3" -217.24307987730177 30.61786429980911 -199.6104844788735 ;
+createNode directionalLight -n "directionalLightShape2" -p "directionalLight2";
+	rename -uid "4BE0A45A-4D93-95A4-E28C-909F8EBF44E6";
+	addAttr -ci true -sn "isolate" -ln "isolate" -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
+	setAttr -k off ".v";
+	setAttr -s 2 ".rlio";
+	setAttr -s 2 ".rlio";
+	setAttr ".in" 0.10000000149011612;
+	setAttr ".childIndex" 2;
+createNode camera -n "cameraShape2" -p "directionalLight2";
+	rename -uid "01FC718C-42AE-A307-B965-7E96A92C7B57";
+	setAttr -k off ".v" no;
+	setAttr ".rnd" no;
+	setAttr ".fl" 12.000000000000002;
+	setAttr ".ncp" -1000;
+	setAttr ".fcp" 1000;
+	setAttr ".o" yes;
+createNode transform -n "ImageProjectionRig:group1";
+	rename -uid "B82DD798-4E2C-7CA1-8CF3-CBAFC25E5BBD";
+	setAttr ".t" -type "double3" 0 0 1.9372587115937403 ;
+createNode transform -n "front1";
+	rename -uid "DAFE8DD9-4A1F-CA15-C901-E2937D309444";
+	setAttr ".t" -type "double3" 0 0 1000.1 ;
+createNode camera -n "front1Shape" -p "front1";
+	rename -uid "03E76D6A-41E2-3CF2-01B1-04B001F7B303";
+	setAttr -k off ".v";
+	setAttr ".rnd" no;
+	setAttr ".coi" 1000.1;
+	setAttr ".ow" 30;
+	setAttr ".imn" -type "string" "front";
+	setAttr ".den" -type "string" "front_depth";
+	setAttr ".man" -type "string" "front_mask";
+	setAttr ".hc" -type "string" "viewSet -f %camera";
+	setAttr ".o" yes;
+createNode transform -n "ImageProjectionRig1:group1";
+	rename -uid "E4448C56-4381-0CFE-B861-D79BD943DA58";
+	setAttr ".t" -type "double3" 0 0 1.9372587115937403 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "E3135D7B-459F-47DC-8056-A99200211580";
-	setAttr -s 72 ".lnk";
-	setAttr -s 72 ".slnk";
+	rename -uid "658E0D2C-4B74-0656-5AD2-6592B61C76EA";
+	setAttr -s 116 ".lnk";
+	setAttr -s 116 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "9B67B6E8-4F71-24BE-EEC7-4C9357EB1B77";
+	rename -uid "674268C5-4D2A-0EE9-F2B9-FBA54F39C493";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "40BBC2EF-4272-C765-0BB4-6D90E0A0DB7D";
+	rename -uid "3376ADB6-4B67-5DBD-6C19-BCA4AEF0A9EC";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "AF1433C2-4DC1-69F1-A887-EEB429628A8B";
+	rename -uid "A4AAC1D0-469C-D588-5210-53A66802440F";
+	setAttr -s 6 ".dli[1:6]"  1 2 3 4 5 6;
+	setAttr -s 7 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "E5350F2B-4AC6-DD7A-9877-DB95F6FC3425";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "6B6F1D2C-40DE-8973-F972-C9AB87B4BB10";
+	rename -uid "5FDAED21-4BBD-42AE-B61A-83B3262A0270";
+	setAttr -s 3 ".rlmi[1:2]"  1 2;
+	setAttr -s 3 ".rlmi";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "DCFE41B1-40DE-72B0-1C04-20A1A3CC0263";
 	setAttr ".g" yes;
@@ -633,13 +981,13 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
 		+ "            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n"
 		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n"
-		+ "\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"camera1\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n"
+		+ "\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"cameraShape1\" \n            -useInteractiveMode 0\n            -displayLights \"all\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n"
 		+ "            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n"
-		+ "            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 866\n            -height 708\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n"
+		+ "            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 291\n            -height 445\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n"
 		+ "        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n"
-		+ "            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n"
+		+ "            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n"
 		+ "            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 0\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n"
-		+ "            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 708\n            -height 708\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n"
+		+ "            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 392\n            -height 445\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n"
 		+ "            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n"
 		+ "            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n"
 		+ "            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n"
@@ -663,17 +1011,23 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -lowQualityLighting 0\n                -maximumNumHardwareLights 0\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n"
 		+ "                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n"
 		+ "\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n"
-		+ "                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"vertical2\\\" -ps 1 55 100 -ps 2 45 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Front View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Front View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 866\\n    -height 708\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Front View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 866\\n    -height 708\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab 0\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n"
+		+ "            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n"
+		+ "            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"lightEditorLookThroughModelPanelLabel\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"lightEditorLookThroughModelPanelLabel\")) -mbv $menusOkayInPanels  $panelName;\n"
+		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"cameraShape2\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 1\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
+		+ "            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n"
+		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 180\n            -height 181\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n"
+		+ "        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"vertical2\\\" -ps 1 43 100 -ps 2 57 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Front View\")) \n\t\t\t\t\t\"modelPanel\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Front View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"cameraShape1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"all\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 291\\n    -height 445\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Front View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"cameraShape1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"all\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 291\\n    -height 445\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 708\\n    -height 708\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 708\\n    -height 708\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 392\\n    -height 445\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 0\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 392\\n    -height 445\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "73911303-4B75-E6F0-A905-B0BB79078AEC";
-	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";
+	setAttr ".b" -type "string" "playbackOptions -min 1 -max 460 -ast 1 -aet 460 ";
 	setAttr ".st" 6;
 createNode polySoftEdge -n "polySoftEdge1";
 	rename -uid "12A14844-4720-FDF8-7D6A-1BB129591095";
@@ -17593,14 +17947,17 @@ createNode reference -n "Bamboo_DERN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN"
 		"Bamboo_DERN" 0
-		"Bamboo_DERN" 4
+		"Bamboo_DERN" 5
 		2 "|Bamboo_DE:Bamboo" "translate" " -type \"double3\" 57.589197570093575 -27.741253140873422 -31.201424393050392"
 		
 		2 "|Bamboo_DE:Bamboo" "rotate" " -type \"double3\" 0.24863916774401884 3.1458478208328589 4.521396686506411"
 		
 		2 "|Bamboo_DE:Bamboo" "rotatePivot" " -type \"double3\" -0.082590329628743575 0.11020577653894481 -0.076079837853683996"
 		
-		2 "|Bamboo_DE:Bamboo" "scalePivot" " -type \"double3\" -0.082590329628743575 0.11020577653894481 -0.076079837853683996";
+		2 "|Bamboo_DE:Bamboo" "scalePivot" " -type \"double3\" -0.082590329628743575 0.11020577653894481 -0.076079837853683996"
+		
+		2 "|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN1";
@@ -17608,130 +17965,1415 @@ createNode reference -n "Bamboo_DERN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN1"
 		"Bamboo_DERN1" 0
-		"Bamboo_DERN1" 2
+		"Bamboo_DERN1" 3
 		2 "|Bamboo_DE1:Bamboo" "translate" " -type \"double3\" 62.603452043204996 -25.02407570099983 -57.440870522318519"
 		
-		2 "|Bamboo_DE1:Bamboo" "scale" " -type \"double3\" 1.4001917241555717 1.4001917241555717 1.4001917241555717";
+		2 "|Bamboo_DE1:Bamboo" "scale" " -type \"double3\" 1.4001917241555717 1.4001917241555717 1.4001917241555717"
+		
+		2 "|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN";
 	rename -uid "5F27FFBA-4D43-22CC-EC5C-018461666EAD";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN"
 		"Bamboo_DE1RN" 0
-		"Bamboo_DE1RN" 2
-		2 "|Bamboo_DE2:Bamboo" "translate" " -type \"double3\" 62.183359523154394 -28.302851136721216 -40.283925725763034"
+		"Bamboo_DE1RN" 3
+		2 "|Bamboo_DE2:Bamboo" "translate" " -type \"double3\" 62.183359523154394 -28.302851136721216 -43.380890755323499"
 		
-		2 "|Bamboo_DE2:Bamboo" "rotate" " -type \"double3\" 0 5.0708076543950042 0";
+		2 "|Bamboo_DE2:Bamboo" "rotate" " -type \"double3\" 0 5.0708076543950042 0"
+		
+		2 "|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN";
 	rename -uid "7C44C93E-4A98-07E4-51A7-789C4045201D";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN"
 		"Bamboo_DE2RN" 0
-		"Bamboo_DE2RN" 3
+		"Bamboo_DE2RN" 4
 		2 "|Bamboo_DE3:Bamboo" "translate" " -type \"double3\" 50.899588027827697 -27.4021054853797 -54.660549466492668"
 		
 		2 "|Bamboo_DE3:Bamboo" "rotate" " -type \"double3\" 0 -8.3090686700771172 0"
 		
-		2 "|Bamboo_DE3:Bamboo" "scale" " -type \"double3\" 1.096091795029019 1.096091795029019 1.096091795029019";
+		2 "|Bamboo_DE3:Bamboo" "scale" " -type \"double3\" 1.096091795029019 1.096091795029019 1.096091795029019"
+		
+		2 "|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN";
 	rename -uid "D6623153-4278-E7B4-9545-B8B9F2861CB8";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN"
 		"Bamboo_DE3RN" 0
-		"Bamboo_DE3RN" 2
+		"Bamboo_DE3RN" 3
 		2 "|Bamboo_DE4:Bamboo" "translate" " -type \"double3\" 58.553923319538754 -28.189129371198263 -51.802979000036942"
 		
-		2 "|Bamboo_DE4:Bamboo" "rotate" " -type \"double3\" 0 7.9582258106562715 0";
+		2 "|Bamboo_DE4:Bamboo" "rotate" " -type \"double3\" 0 7.9582258106562715 0"
+		
+		2 "|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN";
 	rename -uid "2D3D5894-461C-2002-9DFB-4C827183C7E8";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN"
 		"Bamboo_DE4RN" 0
-		"Bamboo_DE4RN" 4
+		"Bamboo_DE4RN" 5
 		2 "|Bamboo_DE5:Bamboo" "translate" " -type \"double3\" 56.104596570264022 -28.580717440783893 -55.540924295493518"
 		
 		2 "|Bamboo_DE5:Bamboo" "scale" " -type \"double3\" 1.1619525908760688 1.1619525908760688 1.1619525908760688"
 		
 		2 "|Bamboo_DE5:Bamboo" "rotatePivot" " -type \"double3\" -0.082590329628743575 0.23733980765752793 -0.076079837853683996"
 		
-		2 "|Bamboo_DE5:Bamboo" "scalePivot" " -type \"double3\" -0.082590329628743575 0.23733980765752793 -0.076079837853683996";
+		2 "|Bamboo_DE5:Bamboo" "scalePivot" " -type \"double3\" -0.082590329628743575 0.23733980765752793 -0.076079837853683996"
+		
+		2 "|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE5RN";
 	rename -uid "37307060-433E-14F6-F36D-B58B3092E174";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE5RN"
 		"Bamboo_DE5RN" 0
-		"Bamboo_DE5RN" 2
+		"Bamboo_DE5RN" 3
 		2 "|Bamboo_DE6:Bamboo" "translate" " -type \"double3\" 72.957489458705055 -28.253057211711301 -36.013408063168654"
 		
-		2 "|Bamboo_DE6:Bamboo" "rotate" " -type \"double3\" 0 8.0767663689599392 0";
+		2 "|Bamboo_DE6:Bamboo" "rotate" " -type \"double3\" 0 8.0767663689599392 0"
+		
+		2 "|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE6RN";
 	rename -uid "079D66A6-4A18-1ABA-E371-3E9FA9D65433";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN"
 		"Bamboo_DE6RN" 0
-		"Bamboo_DE6RN" 1
-		2 "|Bamboo_DE7:Bamboo" "translate" " -type \"double3\" 76.654932596235355 -28.812577430143268 -39.708473689978348";
+		"Bamboo_DE6RN" 2
+		2 "|Bamboo_DE7:Bamboo" "translate" " -type \"double3\" 76.654932596235355 -28.812577430143268 -39.708473689978348"
+		
+		2 "|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE7RN";
 	rename -uid "3BCE4353-47A7-66D1-7586-BC802A0E2C61";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN"
 		"Bamboo_DE7RN" 0
-		"Bamboo_DE7RN" 3
+		"Bamboo_DE7RN" 4
 		2 "|Bamboo_DE8:Bamboo" "translate" " -type \"double3\" 76.713956319018692 -25.535563824275787 -52.727364659751984"
 		
 		2 "|Bamboo_DE8:Bamboo" "rotate" " -type \"double3\" 0 0 4.8219238845169636"
 		
-		2 "|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 1.5448508979405315 1.5448508979405315 1.5448508979405315";
+		2 "|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 1.5448508979405315 1.5448508979405315 1.5448508979405315"
+		
+		2 "|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE8RN";
 	rename -uid "C88A126D-4E18-7294-40D6-478F8722B817";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE8RN"
 		"Bamboo_DE8RN" 0
-		"Bamboo_DE8RN" 2
+		"Bamboo_DE8RN" 3
 		2 "|Bamboo_DE9:Bamboo" "translate" " -type \"double3\" 64.561805158950207 -29.635244615840129 -32.376946736409174"
 		
-		2 "|Bamboo_DE9:Bamboo" "scale" " -type \"double3\" 0.89453218067114415 0.89453218067114415 0.89453218067114415";
+		2 "|Bamboo_DE9:Bamboo" "scale" " -type \"double3\" 0.89453218067114415 0.89453218067114415 0.89453218067114415"
+		
+		2 "|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE9RN";
 	rename -uid "C5B408D6-4A18-55D3-6EDE-7586CC772B4D";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE9RN"
 		"Bamboo_DE9RN" 0
-		"Bamboo_DE9RN" 3
+		"Bamboo_DE9RN" 4
 		2 "|Bamboo_DE10:Bamboo" "translate" " -type \"double3\" 72.124431782891975 -28.675837670752717 -54.173819134225688"
 		
 		2 "|Bamboo_DE10:Bamboo" "rotate" " -type \"double3\" 0 15.357216166892579 0"
 		
-		2 "|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 1.2423874615924915 1.2423874615924915 1.2423874615924915";
+		2 "|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 1.2423874615924915 1.2423874615924915 1.2423874615924915"
+		
+		2 "|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE10RN";
 	rename -uid "BD7FB5D6-4BD6-E33A-8AF2-8D89E9344F79";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE10RN"
 		"Bamboo_DE10RN" 0
-		"Bamboo_DE10RN" 1
-		2 "|Bamboo_DE11:Bamboo" "translate" " -type \"double3\" 54.547271465290862 -28.029786360300236 -40.05598879617952";
+		"Bamboo_DE10RN" 2
+		2 "|Bamboo_DE11:Bamboo" "translate" " -type \"double3\" 54.547271465290862 -28.029786360300236 -39.050019514890742"
+		
+		2 "|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE11RN";
 	rename -uid "DF49694D-4B26-116E-218B-798797F1AF8C";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE11RN"
 		"Bamboo_DE11RN" 0
-		"Bamboo_DE11RN" 2
-		2 "|Bamboo_DE12:Bamboo" "translate" " -type \"double3\" 58.457481132387656 -28.052960974853235 -38.532528407995926"
+		"Bamboo_DE11RN" 3
+		2 "|Bamboo_DE12:Bamboo" "translate" " -type \"double3\" 58.457481132387656 -28.052960974853235 -37.526559126707149"
 		
-		2 "|Bamboo_DE12:Bamboo" "scale" " -type \"double3\" 1.0763760278565475 1.0763760278565475 1.0763760278565475";
+		2 "|Bamboo_DE12:Bamboo" "scale" " -type \"double3\" 1.0763760278565475 1.0763760278565475 1.0763760278565475"
+		
+		2 "|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:479]\"";
 lockNode -l 1 ;
+createNode reference -n "BananaTree_SCRN";
+	rename -uid "51E3F782-4F42-6AC7-E072-16827065940A";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"BananaTree_SCRN"
+		"BananaTree_SCRN" 0
+		"BananaTree_SCRN" 3
+		2 "|BananaTree_SC:BananaTree" "translate" " -type \"double3\" 68.176241601450556 -27.567819595336914 -57.172804970799234"
+		
+		2 "|BananaTree_SC:BananaTree" "rotate" " -type \"double3\" 0 -117.17724300690196 0"
+		
+		2 "|BananaTree_SC:BananaTree" "scale" " -type \"double3\" 3.8114754738772909 3.8114754738772909 3.8114754738772909";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "Fern_DERN";
+	rename -uid "7F077729-4E37-58F0-BAD8-A696B224C456";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Fern_DERN"
+		"Fern_DERN" 0
+		"Fern_DERN" 2
+		2 "|Fern_DE:Bush" "translate" " -type \"double3\" 61.478455412028552 -27.70246328599751 -50.577923115117621"
+		
+		2 "|Fern_DE:Bush|Fern_DE:BushShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:2255]\"";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "Fern_DERN1";
+	rename -uid "6671FB74-4F69-46B2-4C77-F29A51D10DD7";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"Fern_DERN1"
+		"Fern_DERN1" 0
+		"Fern_DERN1" 4
+		2 "|Fern_DE1:Bush" "translate" " -type \"double3\" 70.46049005358455 -27.707595021500104 -44.284724241709213"
+		
+		2 "|Fern_DE1:Bush" "rotate" " -type \"double3\" 0 -47.624813492736969 0"
+		2 "|Fern_DE1:Bush" "scale" " -type \"double3\" 1.0816536111578776 1.0816536111578776 1.0816536111578776"
+		
+		2 "|Fern_DE1:Bush|Fern_DE1:BushShape" "instObjGroups.objectGroups[0].objectGrpCompList" 
+		" -type \"componentList\" 1 \"f[0:2255]\"";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SCRN";
+	rename -uid "C18348F9-4411-5939-DFD0-9390642528C0";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SCRN"
+		"SmallBush_SCRN" 0
+		"SmallBush_SCRN" 1
+		2 "|SmallBush_SC:SmallBush" "translate" " -type \"double3\" 75.207799916717875 -27.593761881605218 -57.543126652917373";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
+	rename -uid "EC962E53-487B-BDC2-0D55-38B396CD3426";
+	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
+	setAttr ".tgi[0].vl" -type "double2" -330.95236780151544 -323.80951094248991 ;
+	setAttr ".tgi[0].vh" -type "double2" 317.85713022663526 338.09522466054096 ;
+createNode volumeFog -n "cubeFog";
+	rename -uid "2774F556-4CB2-130B-CD40-1DB84430462B";
+	setAttr -s 4 ".crm";
+	setAttr ".crm[0].crmp" 0;
+	setAttr ".crm[0].crmc" -type "float3" 1 0 0 ;
+	setAttr ".crm[0].crmi" 1;
+	setAttr ".crm[1].crmp" 0.33000001311302185;
+	setAttr ".crm[1].crmc" -type "float3" 1 1 0 ;
+	setAttr ".crm[1].crmi" 1;
+	setAttr ".crm[2].crmp" 0.6600000262260437;
+	setAttr ".crm[2].crmc" -type "float3" 0 1 0 ;
+	setAttr ".crm[2].crmi" 1;
+	setAttr ".crm[3].crmp" 1;
+	setAttr ".crm[3].crmc" -type "float3" 0 0 1 ;
+	setAttr ".crm[3].crmi" 1;
+	setAttr ".dos" 2;
+createNode shadingEngine -n "cubeFogSG";
+	rename -uid "2051ADED-47C4-1B73-C485-0B84E26A020E";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo2";
+	rename -uid "61E6CCA1-4F00-59C6-C40E-0E960CC82270";
+createNode objectSet -s -n "lightEditorRoot";
+	rename -uid "9DDB4710-42DB-2370-51B5-8B8DDF842161";
+	addAttr -ci true -sn "isolate" -ln "isolate" -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
+	addAttr -ci true -sn "lightGroup" -ln "lightGroup" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "visibility" -ln "visibility" -dv 1 -min 0 -max 1 -at "bool";
+	setAttr -s 3 ".dsm";
+lockNode -l 1 ;
+createNode renderSetup -n "renderSetup";
+	rename -uid "20CCAE7B-4996-EA53-5E40-FCADCCC8E160";
+createNode renderSetupLayer -n "Foreground";
+	rename -uid "8AC2EB1F-4D37-45BE-33AF-E483C935F53C";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+	setAttr ".expandedState" yes;
+createNode renderLayer -n "rs_Foreground";
+	rename -uid "F15B9EC7-4B79-AFDA-7102-1E999FD111B3";
+	setAttr ".do" 1;
+createNode collection -n "Foreground1";
+	rename -uid "5966C07D-4EC5-F2D0-581D-1E969CF29EA8";
+createNode simpleSelector -n "collection1Selector";
+	rename -uid "6FB25A8D-4270-620D-1687-218CD0CE06D4";
+	setAttr ".ssl" -type "string" "|Bamboo_DE:Bamboo\n|Bamboo_DE9:Bamboo\n|Bamboo_DE6:Bamboo\n|Bamboo_DE11:Bamboo\n|Bamboo_DE12:Bamboo";
+createNode renderSetupLayer -n "Background";
+	rename -uid "0A06DF9D-4C49-CF6A-7351-0FB5D7A08DA9";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+	setAttr ".expandedState" yes;
+createNode renderLayer -n "rs_Background";
+	rename -uid "013F57E4-44F6-5C64-3526-3E99E31C8AE4";
+	setAttr ".do" 2;
+createNode collection -n "Background1";
+	rename -uid "7CDAF1ED-4C0B-ACAB-A735-4591E7EFA719";
+createNode simpleSelector -n "collection2Selector";
+	rename -uid "DFACD6A4-4C38-CFC6-70E3-73BA0C315C72";
+	setAttr ".ssl" -type "string" "|BananaTree_SC:BananaTree|BananaTree_SC:Trunk\n|SmallBush_SC:SmallBush|SmallBush_SC:Leaves\n|Bamboo_DE10:Bamboo\n|Bamboo_DE8:Bamboo\n|Bamboo_DE1:Bamboo\n|Bamboo_DE4:Bamboo\n|Bamboo_DE5:Bamboo\n|Bamboo_DE3:Bamboo\n|Fern_DE:Bush\n|Fern_DE1:Bush\n|Bamboo_DE2:Bamboo";
+createNode renderLayerManager -n "ImageProjectionRig:renderLayerManager";
+	rename -uid "D5CF9DD5-4910-D542-AAE1-09BD27BE1326";
+createNode renderLayer -n "ImageProjectionRig:defaultRenderLayer";
+	rename -uid "DFDC5673-47AD-9D93-2D59-3CB04433AED0";
+	setAttr ".g" yes;
+createNode lambert -n "ImageProjectionRig:YB___SuperFront";
+	rename -uid "D6278010-4F22-FED1-0055-62A44AADE097";
+createNode shadingEngine -n "ImageProjectionRig:lambert2SG";
+	rename -uid "D7FBF656-4BC0-5E4B-C41D-D584AFC0FBC7";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo1";
+	rename -uid "7EFEB1FB-47EA-36B2-4D2A-A089E8BDB94C";
+createNode file -n "ImageProjectionRig:file1";
+	rename -uid "DA1761E4-405B-C646-B283-0D8B98DBF800";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/YoungBoy/1 - SuperFront/SuperFront1.png";
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture1";
+	rename -uid "378E9100-4169-93BC-FD91-98A074075DAB";
+createNode polyPlane -n "ImageProjectionRig:polyPlane1";
+	rename -uid "3A4ABE53-4DB4-2F17-B90E-448369502E22";
+	setAttr ".w" 19.2;
+	setAttr ".h" 10.8;
+	setAttr ".sw" 1;
+	setAttr ".sh" 1;
+	setAttr ".cuv" 2;
+createNode lambert -n "ImageProjectionRig:YB_SuperFront2_Mat";
+	rename -uid "5E8633A3-45F6-4987-5E03-78B768F774AA";
+createNode shadingEngine -n "ImageProjectionRig:lambert3SG";
+	rename -uid "BFB6A9CC-4277-428D-3A5B-B5958BE0023D";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo2";
+	rename -uid "A2B2E5C8-4D83-4FA7-AE2B-9BA655878140";
+createNode file -n "ImageProjectionRig:YB_SuperFront";
+	rename -uid "BBB05BC8-4C79-2816-9AFF-C9AC17F071FD";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/OB/1OB Top/ObTop1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture2";
+	rename -uid "3F5A3319-4B27-3511-6490-7BB802CBC42C";
+createNode expression -n "ImageProjectionRig:expression1";
+	rename -uid "AF2C575B-4C0F-4391-27EB-E9A38BD97931";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode polyTweakUV -n "ImageProjectionRig:polyTweakUV1";
+	rename -uid "576301C1-468E-A54B-1F8F-9A8E55830D16";
+	setAttr ".uopa" yes;
+	setAttr -s 3 ".uvtk";
+	setAttr ".uvtk[2]" -type "float2" 0 0.43665284 ;
+	setAttr ".uvtk[3]" -type "float2" 0 0.43665284 ;
+createNode nodeGraphEditorInfo -n "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo";
+	rename -uid "E7C22DDD-47AF-49D4-9296-D198D61FB6B6";
+	setAttr ".pee" yes;
+	setAttr ".def" no;
+	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
+	setAttr ".tgi[0].vl" -type "double2" -398.85103619981021 -326.19046322883167 ;
+	setAttr ".tgi[0].vh" -type "double2" 551.23198252568784 338.09522466054091 ;
+	setAttr -s 4 ".tgi[0].ni";
+	setAttr ".tgi[0].ni[0].x" -257.14285278320312;
+	setAttr ".tgi[0].ni[0].y" 150;
+	setAttr ".tgi[0].ni[0].nvs" 1923;
+	setAttr ".tgi[0].ni[1].x" -564.28570556640625;
+	setAttr ".tgi[0].ni[1].y" 127.14286041259766;
+	setAttr ".tgi[0].ni[1].nvs" 1923;
+	setAttr ".tgi[0].ni[2].x" 50;
+	setAttr ".tgi[0].ni[2].y" 150;
+	setAttr ".tgi[0].ni[2].nvs" 1923;
+	setAttr ".tgi[0].ni[3].x" 357.14285278320312;
+	setAttr ".tgi[0].ni[3].y" 127.14286041259766;
+	setAttr ".tgi[0].ni[3].nvs" 1923;
+createNode lambert -n "ImageProjectionRig:YB_Front_Mat";
+	rename -uid "CB17CD24-4494-CD7C-A845-19B27D4F28D4";
+createNode shadingEngine -n "ImageProjectionRig:lambert4SG";
+	rename -uid "1267AD2C-4865-6478-1614-9DAE104FBCCE";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo3";
+	rename -uid "6FC6EDDB-42C5-AD23-99F3-86A1F24A8924";
+createNode file -n "ImageProjectionRig:file2";
+	rename -uid "6EC09BD9-4AE1-26AB-817A-76AFCDE0819E";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/OB/2OB Front/ObTop1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture3";
+	rename -uid "359759EC-4695-200A-CFCC-95A68C75890C";
+createNode expression -n "ImageProjectionRig:expression2";
+	rename -uid "2F5CFFBB-428D-439A-3439-3FA0462E03C2";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig:YB_Mid_Mat";
+	rename -uid "2170FE0D-4A91-2BB3-8D72-33A30A22C877";
+createNode shadingEngine -n "ImageProjectionRig:lambert5SG";
+	rename -uid "A7FADCA8-4943-F531-1A8C-3D951AE30956";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo4";
+	rename -uid "22A9D206-47EE-51AA-EF9F-149F9FEA1B33";
+createNode file -n "ImageProjectionRig:file3";
+	rename -uid "789A4B85-45AE-92B2-4684-ACA63FE389EE";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/OB/3OB Mid/ObTop1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture4";
+	rename -uid "D5A6208A-4168-ED62-31B0-11971E425934";
+createNode expression -n "ImageProjectionRig:expression3";
+	rename -uid "3041B750-459C-89B9-C30B-7C8366815C4C";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig:YB_Back1_Mat";
+	rename -uid "04861634-4D2B-B438-FB8F-08B107A8049E";
+createNode shadingEngine -n "ImageProjectionRig:lambert6SG";
+	rename -uid "A83B4A86-435B-EEC1-F45C-A0B6BA53C13D";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo5";
+	rename -uid "9B4BCD2B-431F-54E3-0647-3FAFE912FC8B";
+createNode file -n "ImageProjectionRig:file4";
+	rename -uid "2474B57A-41E7-F112-6892-81937078802D";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/OB/4OB Back/ObTop1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture5";
+	rename -uid "60A3AA1D-43D9-36B8-8FD4-4BBEB1A9BBA5";
+createNode expression -n "ImageProjectionRig:expression4";
+	rename -uid "99299B98-4687-D43B-F62C-25A0B85884A8";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig:YB_SuperBack_Mat";
+	rename -uid "0B4CB9B5-43A6-CA9C-94AF-88A7DB285F17";
+createNode shadingEngine -n "ImageProjectionRig:lambert7SG";
+	rename -uid "2DD6F284-4E36-B3F5-4C97-4C8302493409";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo6";
+	rename -uid "66252E37-4E46-79E3-C5DF-E685B0248109";
+createNode file -n "ImageProjectionRig:file5";
+	rename -uid "97C16156-4146-EFCA-9858-839F9138BC1B";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/OB/5OB Bottom/ObTop1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture6";
+	rename -uid "381DE2E3-4057-637E-9315-7AA39C37D689";
+createNode expression -n "ImageProjectionRig:expression5";
+	rename -uid "347D8093-4D79-938D-508F-AA9E1CF66A81";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig:OB_SuperFront_Mat";
+	rename -uid "F5131A80-43A0-B8A6-E977-9C8FD35D8E24";
+createNode shadingEngine -n "ImageProjectionRig:lambert8SG";
+	rename -uid "CDD1B895-4508-51FB-701C-8891D178BB00";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo7";
+	rename -uid "E5DBF0C7-4D0E-8048-4A7C-DDADED930AF2";
+createNode lambert -n "ImageProjectionRig:OB_Front_Mat";
+	rename -uid "E5DC5824-4B3A-5C61-F7E4-BCB90A79E332";
+createNode shadingEngine -n "ImageProjectionRig:lambert9SG";
+	rename -uid "09E5CAC1-431D-6C4D-599A-91AA1B463AEE";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo8";
+	rename -uid "0EA41E29-408C-4FB5-370E-B29893A4086B";
+createNode lambert -n "ImageProjectionRig:OB_Mid_Mat";
+	rename -uid "3CEDB1FE-4AFC-6982-1A61-F0AB706098F1";
+createNode shadingEngine -n "ImageProjectionRig:lambert10SG";
+	rename -uid "26ADE0B9-4501-A48D-4ECB-9ABED53D88AD";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo9";
+	rename -uid "FBACDC6B-4EDF-58A6-78B5-878F6B107FCB";
+createNode lambert -n "ImageProjectionRig:OB_Back_Mat";
+	rename -uid "9259153C-48E0-4525-E86E-90832D6E5C98";
+createNode shadingEngine -n "ImageProjectionRig:lambert11SG";
+	rename -uid "6646EB61-4DF3-0773-6CA0-03BEA2A0BED1";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo10";
+	rename -uid "4F21FECA-4220-022B-C41A-C3ADB63E3A2F";
+createNode lambert -n "ImageProjectionRig:OB_SuperBack_Mat";
+	rename -uid "DAD21FAC-4A7D-8BDB-0774-C8BD06195706";
+createNode shadingEngine -n "ImageProjectionRig:lambert12SG";
+	rename -uid "6E03EFCC-4D2E-D556-7E53-C0B602681C41";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo11";
+	rename -uid "08E15C27-46DF-26E6-FA49-4E9507E60EA1";
+createNode file -n "ImageProjectionRig:file6";
+	rename -uid "AFBCBD56-4FC1-442A-7BC4-A7BB827BF5B7";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/1 - SuperFront/SuperFront1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture7";
+	rename -uid "CDEE2A4F-4B8C-6B5D-95F0-0195738F4CE8";
+createNode expression -n "ImageProjectionRig:expression6";
+	rename -uid "7D4288ED-4CC9-770A-07B2-4893001B3FF0";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig:file7";
+	rename -uid "023CE89E-4039-B9A1-F8D7-18ACEACD2647";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/2 - Front/Front10.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture8";
+	rename -uid "53808524-45FD-5D03-5656-FFB3FDDF68CA";
+createNode expression -n "ImageProjectionRig:expression7";
+	rename -uid "256BA501-4BF7-C614-5E5E-55BC01EFE7C0";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig:file8";
+	rename -uid "BCE1FCEE-4B9B-7917-E290-EE8FD1903289";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/3 - Mid/Mid10.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture9";
+	rename -uid "3A848695-42B7-04FD-40A1-3AAA7379AD07";
+createNode expression -n "ImageProjectionRig:expression8";
+	rename -uid "67D113F0-40E6-ECC7-E7E5-A4ADB9B44FB3";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig:file9";
+	rename -uid "F2B398B7-4D8F-2787-6D3E-5BAAFFC1746B";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/4 - Back/Back100.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture10";
+	rename -uid "88144894-4930-C5DC-0CC0-6EA5F382475F";
+createNode expression -n "ImageProjectionRig:expression9";
+	rename -uid "F82D6518-47FB-CAB1-8B3F-849DD4C43D8A";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig:file10";
+	rename -uid "259E9D1B-4AAB-C5A0-5E2C-04B6FE2558C8";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/5 - SuperBack/SuperBack1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture11";
+	rename -uid "A447A558-45C5-6B67-2200-70A42073FEAA";
+createNode expression -n "ImageProjectionRig:expression10";
+	rename -uid "A0F90AE6-42B6-CC39-B341-35B04082A0A7";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode makeNurbCircle -n "ImageProjectionRig:makeNurbCircle1";
+	rename -uid "887FC059-48D0-5B55-6721-FB8EE7D9F47F";
+	setAttr ".nr" -type "double3" 0 1 0 ;
+createNode transformGeometry -n "ImageProjectionRig:transformGeometry1";
+	rename -uid "D47BCAF7-4574-55A3-2409-D6B0190D2CE5";
+	setAttr ".txf" -type "matrix" 4.5692820270988621 0 0 0 0 4.5692820270988621 0 0
+		 0 0 4.5692820270988621 0 0 0 0 1;
+createNode transformGeometry -n "ImageProjectionRig:transformGeometry2";
+	rename -uid "62E8D99E-4DF5-DF9C-0B82-3A848DC730AA";
+	setAttr ".txf" -type "matrix" 1 0 0 0 0 2.2204460492503131e-016 1.0000000000000002 0
+		 0 -1.0000000000000002 2.2204460492503131e-016 0 0 5.5487640652250896 1.9372587115937387 1;
+createNode lambert -n "ImageProjectionRig:Bear_Superfront_Mat";
+	rename -uid "9740BDA7-4835-B40E-1589-42ACBCF8FC28";
+createNode shadingEngine -n "ImageProjectionRig:lambert13SG";
+	rename -uid "1C431C34-486E-3A4C-33E8-A7A17DD4C5AE";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo12";
+	rename -uid "FD685DA5-4DB2-FC96-17B2-ACA884A47461";
+createNode lambert -n "ImageProjectionRig:Bear_Front_Mat";
+	rename -uid "828E8328-420E-6B42-1DD9-4AB2B943B6FC";
+createNode shadingEngine -n "ImageProjectionRig:lambert14SG";
+	rename -uid "6D6E28C8-4B8C-6BAC-27C0-3ABF5A9642BC";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo13";
+	rename -uid "06B8B5B2-4869-ECE9-7DD0-D0A8B12ABCBD";
+createNode lambert -n "ImageProjectionRig:Bear_Mid_Mat";
+	rename -uid "3974F4ED-4FFD-91C7-8315-4AA98CDFD086";
+createNode shadingEngine -n "ImageProjectionRig:lambert15SG";
+	rename -uid "2AE92213-4F42-7DD3-26B1-21A73D5F8BC3";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo14";
+	rename -uid "E4FE542C-413E-025C-6ACE-A49E801037C2";
+createNode lambert -n "ImageProjectionRig:Bear_Back_Mat";
+	rename -uid "59ECA588-4102-F844-4005-EA83DBC8686F";
+createNode shadingEngine -n "ImageProjectionRig:lambert16SG";
+	rename -uid "6B801D5D-433C-5640-80BF-A8BB0D47A5CD";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo15";
+	rename -uid "521A6072-4EA4-394F-010B-D3A1E3EB9700";
+createNode lambert -n "ImageProjectionRig:Bear_SuperBack_Mat";
+	rename -uid "8AA10E84-4D1E-911E-6936-E6ABCA7A85A1";
+createNode shadingEngine -n "ImageProjectionRig:lambert17SG";
+	rename -uid "DDCE5649-4062-02B6-1C97-4A9F4EDF50C3";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo16";
+	rename -uid "CA9C84DE-496B-103D-9FDF-009DFC307315";
+createNode displayLayer -n "ImageProjectionRig:YB_lyr";
+	rename -uid "03B87B05-431F-755A-A1AE-888479902DC6";
+	setAttr ".do" 1;
+createNode displayLayer -n "ImageProjectionRig:OB_lyr";
+	rename -uid "A01C04CA-466D-211B-0CAA-75A0566A686E";
+	setAttr ".v" no;
+	setAttr ".do" 2;
+createNode displayLayer -n "ImageProjectionRig:Bear_lyr";
+	rename -uid "157DB743-4562-7DEE-BE6C-00982EE0A049";
+	setAttr ".v" no;
+	setAttr ".do" 3;
+createNode renderLayerManager -n "ImageProjectionRig1:renderLayerManager";
+	rename -uid "8550FA12-49C8-2B2D-80CE-A3A520298BB0";
+createNode renderLayer -n "ImageProjectionRig1:defaultRenderLayer";
+	rename -uid "669B2E95-4D7E-E7BF-5825-B7AD25038985";
+	setAttr ".g" yes;
+createNode lambert -n "ImageProjectionRig1:YB___SuperFront";
+	rename -uid "77095612-45DE-0D11-B433-96B9C9659A0E";
+createNode shadingEngine -n "ImageProjectionRig1:lambert2SG";
+	rename -uid "CD0AF3E5-4F65-60BF-F4D2-BA91DD4CA0F1";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo1";
+	rename -uid "3AA6FE6D-47B7-A24E-EEFF-9EAA46DA9569";
+createNode file -n "ImageProjectionRig1:file1";
+	rename -uid "E3716CA9-47AF-3A1A-3AD7-34B7A4754C47";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/YoungBoy/1 - SuperFront/SuperFront1.png";
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture1";
+	rename -uid "2DCD91AC-4948-41D3-0B86-00A9DFC3456A";
+createNode polyPlane -n "ImageProjectionRig1:polyPlane1";
+	rename -uid "C9DB2BC9-4233-4593-3F4C-318B191829FE";
+	setAttr ".w" 19.2;
+	setAttr ".h" 10.8;
+	setAttr ".sw" 1;
+	setAttr ".sh" 1;
+	setAttr ".cuv" 2;
+createNode lambert -n "ImageProjectionRig1:YB_SuperFront2_Mat";
+	rename -uid "7607BDE7-4021-6FF6-097A-E6B65317D5D8";
+createNode shadingEngine -n "ImageProjectionRig1:lambert3SG";
+	rename -uid "DC13AC86-4517-A014-AA40-5CA80E569ED3";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo2";
+	rename -uid "92597E9B-4788-BC3A-2638-6D8FAD88F312";
+createNode file -n "ImageProjectionRig1:YB_SuperFront";
+	rename -uid "AC2F9852-425F-0790-A91B-838344FAA393";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/YB/1YB Top/YbTop1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture2";
+	rename -uid "D179633F-4109-1867-9B76-CFAC62D4C6C5";
+createNode expression -n "ImageProjectionRig1:expression1";
+	rename -uid "D91EFF0C-4CF3-F2BA-5077-82B1BBC697CA";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode polyTweakUV -n "ImageProjectionRig1:polyTweakUV1";
+	rename -uid "2FE6159E-409D-FAE4-A0B4-AFBC6D25A9B9";
+	setAttr ".uopa" yes;
+	setAttr -s 3 ".uvtk";
+	setAttr ".uvtk[2]" -type "float2" 0 0.43665284 ;
+	setAttr ".uvtk[3]" -type "float2" 0 0.43665284 ;
+createNode nodeGraphEditorInfo -n "ImageProjectionRig1:hyperShadePrimaryNodeEditorSavedTabsInfo";
+	rename -uid "214F16D8-4326-1F04-A585-A4A5F0078EE5";
+	setAttr ".pee" yes;
+	setAttr ".def" no;
+	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
+	setAttr ".tgi[0].vl" -type "double2" -398.85103619981021 -326.19046322883167 ;
+	setAttr ".tgi[0].vh" -type "double2" 551.23198252568784 338.09522466054091 ;
+	setAttr -s 4 ".tgi[0].ni";
+	setAttr ".tgi[0].ni[0].x" -257.14285278320312;
+	setAttr ".tgi[0].ni[0].y" 150;
+	setAttr ".tgi[0].ni[0].nvs" 1923;
+	setAttr ".tgi[0].ni[1].x" -564.28570556640625;
+	setAttr ".tgi[0].ni[1].y" 127.14286041259766;
+	setAttr ".tgi[0].ni[1].nvs" 1923;
+	setAttr ".tgi[0].ni[2].x" 50;
+	setAttr ".tgi[0].ni[2].y" 150;
+	setAttr ".tgi[0].ni[2].nvs" 1923;
+	setAttr ".tgi[0].ni[3].x" 357.14285278320312;
+	setAttr ".tgi[0].ni[3].y" 127.14286041259766;
+	setAttr ".tgi[0].ni[3].nvs" 1923;
+createNode lambert -n "ImageProjectionRig1:YB_Front_Mat";
+	rename -uid "ACC11EC0-4E31-EB80-1FF2-718D75FACF28";
+createNode shadingEngine -n "ImageProjectionRig1:lambert4SG";
+	rename -uid "07F5F678-4B24-DE70-598B-39AF9AFF7BF2";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo3";
+	rename -uid "996042B5-48F2-325B-67F7-F0A58326B1C0";
+createNode file -n "ImageProjectionRig1:file2";
+	rename -uid "C4C335CA-4F5C-373D-A964-DCA736E56FB3";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/YB/2YB Front/YbFront1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture3";
+	rename -uid "AA4A65DF-465B-184B-EA45-69AF4BDA7C2C";
+createNode expression -n "ImageProjectionRig1:expression2";
+	rename -uid "DE63F095-4343-B17F-C527-869EB8E0B1F3";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig1:YB_Mid_Mat";
+	rename -uid "6F776D13-4A68-AC3A-995A-79B85124BB68";
+createNode shadingEngine -n "ImageProjectionRig1:lambert5SG";
+	rename -uid "D2BF2DE4-4837-89BD-0A5A-BCA4642091D4";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo4";
+	rename -uid "5D1F7FDB-4D63-88B9-F7FB-B2B4E5E6FCDD";
+createNode file -n "ImageProjectionRig1:file3";
+	rename -uid "10EA7D29-4957-4211-E8E3-8BBE86B18DA2";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/YB/3YB Mid/YbMid1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture4";
+	rename -uid "5F14B831-4CCA-0E47-AB82-8E9E231377BC";
+createNode expression -n "ImageProjectionRig1:expression3";
+	rename -uid "106B8507-442F-59D9-EB5D-D0A25C1C60FC";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig1:YB_Back1_Mat";
+	rename -uid "98481793-41E6-09D1-5037-2981054FA9D1";
+createNode shadingEngine -n "ImageProjectionRig1:lambert6SG";
+	rename -uid "764D0938-4A66-579B-2AB8-A6AA340776D5";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo5";
+	rename -uid "3B3F98C5-4016-4094-5871-DAACA176F11A";
+createNode file -n "ImageProjectionRig1:file4";
+	rename -uid "43FF252C-44EA-288B-9088-C590852E9416";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/YB/4YB Back/YbBack1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture5";
+	rename -uid "01101358-48CA-5726-8204-1EAAE433A7F5";
+createNode expression -n "ImageProjectionRig1:expression4";
+	rename -uid "DAC3BB79-46DC-13F5-1B26-EA9D8182CABC";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig1:YB_SuperBack_Mat";
+	rename -uid "DCE8A725-4B43-794E-96AB-D38AB3576E41";
+createNode shadingEngine -n "ImageProjectionRig1:lambert7SG";
+	rename -uid "61CA4980-475B-65B7-2233-42A974818E32";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo6";
+	rename -uid "C40B290B-4508-79E9-C9A9-EC9E51728B8A";
+createNode file -n "ImageProjectionRig1:file5";
+	rename -uid "FE89D318-4244-7196-66EB-FEB18FDC3DD7";
+	setAttr ".ftn" -type "string" "C:/Users/10787097/Documents/GIT/2670UVU//sourceimages/ToonBoom/SceneOneImages/YB/5YB Bottom/YbBottom1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture6";
+	rename -uid "1E814798-4A6F-A5F2-FA60-E8804086AEFA";
+createNode expression -n "ImageProjectionRig1:expression5";
+	rename -uid "6A875319-4A5E-E7F9-6820-D088FF94E0E1";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig1:OB_SuperFront_Mat";
+	rename -uid "F77FAAC3-4D92-3499-F4F0-D59538E3F30F";
+createNode shadingEngine -n "ImageProjectionRig1:lambert8SG";
+	rename -uid "001A514B-4B5D-8313-EF6C-B5ABD6428C52";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo7";
+	rename -uid "95400564-45FB-8745-4387-AC8933DAD86A";
+createNode lambert -n "ImageProjectionRig1:OB_Front_Mat";
+	rename -uid "F0F88E64-4EC7-7088-5166-18B90C07C0B5";
+createNode shadingEngine -n "ImageProjectionRig1:lambert9SG";
+	rename -uid "9901C717-483D-403B-032B-27A9D7F8F5C1";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo8";
+	rename -uid "783DDD33-464D-121C-7574-F8B817D72B9C";
+createNode lambert -n "ImageProjectionRig1:OB_Mid_Mat";
+	rename -uid "EFA919C4-40AE-C7BB-CFDD-FF80BC18051F";
+createNode shadingEngine -n "ImageProjectionRig1:lambert10SG";
+	rename -uid "85A1EB38-4D0B-B640-A6D5-37A9AC2CA0D2";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo9";
+	rename -uid "ADA1DC83-4C2C-FD34-3D0B-1F8F527DF877";
+createNode lambert -n "ImageProjectionRig1:OB_Back_Mat";
+	rename -uid "7177419A-4F86-5FB7-9AD1-BD9C88336D50";
+createNode shadingEngine -n "ImageProjectionRig1:lambert11SG";
+	rename -uid "76426422-4248-870C-2147-E7A7C2EC335E";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo10";
+	rename -uid "063AB30B-49CD-1960-BF97-1190CDC15817";
+createNode lambert -n "ImageProjectionRig1:OB_SuperBack_Mat";
+	rename -uid "EBAE92B4-4B68-E6A4-53BC-7381C3DBBD42";
+createNode shadingEngine -n "ImageProjectionRig1:lambert12SG";
+	rename -uid "69B92508-4AD1-752D-8766-09B08C1ED774";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo11";
+	rename -uid "CF645497-41D5-F9F4-6183-F49851158F48";
+createNode file -n "ImageProjectionRig1:file6";
+	rename -uid "BD7B652F-435A-7512-A20A-ACA3131D83C9";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/1 - SuperFront/SuperFront1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture7";
+	rename -uid "05234229-4BDC-1721-654C-B582393BFDCB";
+createNode expression -n "ImageProjectionRig1:expression6";
+	rename -uid "E78DEA08-4993-3202-25D6-EBB7D9D488D8";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig1:file7";
+	rename -uid "955ED039-41E6-DE6A-6FA7-259E64B26FFD";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/2 - Front/Front10.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture8";
+	rename -uid "7D1DC499-430A-3BA0-8E0C-CFA3E30686A2";
+createNode expression -n "ImageProjectionRig1:expression7";
+	rename -uid "6BE1D9F2-4675-EF96-F11D-C69AC41B0F4A";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig1:file8";
+	rename -uid "4C3E350C-4AE2-776A-9D2E-89936AD4E3E2";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/3 - Mid/Mid10.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture9";
+	rename -uid "7EA526A9-4065-3EA9-D04F-81949B3B53B4";
+createNode expression -n "ImageProjectionRig1:expression8";
+	rename -uid "CC3D87FD-4027-802F-C82A-698E9C9663D9";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig1:file9";
+	rename -uid "2C4BAF6C-487E-8FBE-91F1-6EA094D8F46F";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/4 - Back/Back100.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture10";
+	rename -uid "1E363E4E-4D74-E49E-E38D-23AB066B497B";
+createNode expression -n "ImageProjectionRig1:expression9";
+	rename -uid "2420CD75-4162-0AD4-4C63-489640BC2141";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig1:file10";
+	rename -uid "E2146763-4F57-7C9F-C1B2-48BBE35C63C6";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/5 - SuperBack/SuperBack1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig1:place2dTexture11";
+	rename -uid "3FBFA48F-4227-A328-46F8-FE89F147CEA0";
+createNode expression -n "ImageProjectionRig1:expression10";
+	rename -uid "3800C13F-4FE9-E13B-9DC2-CF837719C16A";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode makeNurbCircle -n "ImageProjectionRig1:makeNurbCircle1";
+	rename -uid "B9371981-4308-7D88-AC49-8E8FC5479161";
+	setAttr ".nr" -type "double3" 0 1 0 ;
+createNode transformGeometry -n "ImageProjectionRig1:transformGeometry1";
+	rename -uid "54F134FC-4A2B-2B79-A3E8-C69CFB95A3D2";
+	setAttr ".txf" -type "matrix" 4.5692820270988621 0 0 0 0 4.5692820270988621 0 0
+		 0 0 4.5692820270988621 0 0 0 0 1;
+createNode transformGeometry -n "ImageProjectionRig1:transformGeometry2";
+	rename -uid "E599DA4B-4217-109C-BB5D-5EBF41D7E6A5";
+	setAttr ".txf" -type "matrix" 1 0 0 0 0 2.2204460492503131e-016 1.0000000000000002 0
+		 0 -1.0000000000000002 2.2204460492503131e-016 0 0 5.5487640652250896 1.9372587115937387 1;
+createNode lambert -n "ImageProjectionRig1:Bear_Superfront_Mat";
+	rename -uid "5372C812-4048-9244-3663-15B3C7A23BD4";
+createNode shadingEngine -n "ImageProjectionRig1:lambert13SG";
+	rename -uid "B75EE9BA-435C-34FB-815C-578E0ABB0894";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo12";
+	rename -uid "01CE2E7D-49C5-F2E9-AD9A-5CB50CA54FBF";
+createNode lambert -n "ImageProjectionRig1:Bear_Front_Mat";
+	rename -uid "FA68F40C-4DF0-CCCC-4E6E-56A4EC59D704";
+createNode shadingEngine -n "ImageProjectionRig1:lambert14SG";
+	rename -uid "05BC38C8-4A7E-0E25-095B-989F89A427EE";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo13";
+	rename -uid "6EC06C29-49E0-5F01-4034-B5A81FDFFD55";
+createNode lambert -n "ImageProjectionRig1:Bear_Mid_Mat";
+	rename -uid "D3A03E0A-4148-EE2B-A721-DB891556BC7C";
+createNode shadingEngine -n "ImageProjectionRig1:lambert15SG";
+	rename -uid "75F1F61C-457C-271A-E1F7-AE902DD24925";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo14";
+	rename -uid "563E9642-4186-9AA6-1DC1-D4B025932C1A";
+createNode lambert -n "ImageProjectionRig1:Bear_Back_Mat";
+	rename -uid "6D00FB12-4160-AADA-C9E6-059B7BFB9ACC";
+createNode shadingEngine -n "ImageProjectionRig1:lambert16SG";
+	rename -uid "297C06EE-4163-7CB3-3F4D-BD970E042A98";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo15";
+	rename -uid "68B47603-4008-992F-EDB3-6FA1B1EE32BE";
+createNode lambert -n "ImageProjectionRig1:Bear_SuperBack_Mat";
+	rename -uid "F830EBD5-4835-93AC-A0B6-DE96FC3EC8AB";
+createNode shadingEngine -n "ImageProjectionRig1:lambert17SG";
+	rename -uid "80231781-4FC7-369F-A026-1EAA888B5CD4";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig1:materialInfo16";
+	rename -uid "76D0CCAA-4B9A-6EC2-3F5F-BA883339A9A6";
+createNode displayLayer -n "ImageProjectionRig1:YB_lyr";
+	rename -uid "BEDCEA59-456E-21C8-301D-86A2318C07BD";
+	setAttr ".do" 1;
+createNode displayLayer -n "ImageProjectionRig1:OB_lyr";
+	rename -uid "9F35DC99-4A64-F083-FC78-3DAC561E5D33";
+	setAttr ".v" no;
+	setAttr ".do" 2;
+createNode displayLayer -n "ImageProjectionRig1:Bear_lyr";
+	rename -uid "B00001AA-4C23-2B01-992C-A8B38B3284A3";
+	setAttr ".v" no;
+	setAttr ".do" 3;
+createNode nodeGraphEditorInfo -n "MayaNodeEditorSavedTabsInfo";
+	rename -uid "3A3C80FB-4E1F-5A6B-2F55-0A966B0AEA86";
+	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
+	setAttr ".tgi[0].vl" -type "double2" -785.71425449280639 -114.28570974440819 ;
+	setAttr ".tgi[0].vh" -type "double2" 755.95235091353356 116.66666203075005 ;
+	setAttr -s 175 ".tgi[0].ni";
+	setAttr ".tgi[0].ni[0].x" -721.4285888671875;
+	setAttr ".tgi[0].ni[0].y" 4087.142822265625;
+	setAttr ".tgi[0].ni[0].nvs" 18304;
+	setAttr ".tgi[0].ni[1].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[1].y" -3940;
+	setAttr ".tgi[0].ni[1].nvs" 18304;
+	setAttr ".tgi[0].ni[2].x" 200;
+	setAttr ".tgi[0].ni[2].y" 914.28570556640625;
+	setAttr ".tgi[0].ni[2].nvs" 18304;
+	setAttr ".tgi[0].ni[3].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[3].y" 914.28570556640625;
+	setAttr ".tgi[0].ni[3].nvs" 18304;
+	setAttr ".tgi[0].ni[4].x" 200;
+	setAttr ".tgi[0].ni[4].y" 4241.4287109375;
+	setAttr ".tgi[0].ni[4].nvs" 18304;
+	setAttr ".tgi[0].ni[5].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[5].y" 914.28570556640625;
+	setAttr ".tgi[0].ni[5].nvs" 18304;
+	setAttr ".tgi[0].ni[6].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[6].y" 4210;
+	setAttr ".tgi[0].ni[6].nvs" 18304;
+	setAttr ".tgi[0].ni[7].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[7].y" 4332.85693359375;
+	setAttr ".tgi[0].ni[7].nvs" 18304;
+	setAttr ".tgi[0].ni[8].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[8].y" 4087.142822265625;
+	setAttr ".tgi[0].ni[8].nvs" 18304;
+	setAttr ".tgi[0].ni[9].x" 200;
+	setAttr ".tgi[0].ni[9].y" 1188.5714111328125;
+	setAttr ".tgi[0].ni[9].nvs" 18304;
+	setAttr ".tgi[0].ni[10].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[10].y" 914.28570556640625;
+	setAttr ".tgi[0].ni[10].nvs" 18304;
+	setAttr ".tgi[0].ni[11].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[11].y" 4180;
+	setAttr ".tgi[0].ni[11].nvs" 18304;
+	setAttr ".tgi[0].ni[12].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[12].y" 4271.4287109375;
+	setAttr ".tgi[0].ni[12].nvs" 18304;
+	setAttr ".tgi[0].ni[13].x" 200;
+	setAttr ".tgi[0].ni[13].y" 1737.142822265625;
+	setAttr ".tgi[0].ni[13].nvs" 18304;
+	setAttr ".tgi[0].ni[14].x" -388.57144165039063;
+	setAttr ".tgi[0].ni[14].y" -30;
+	setAttr ".tgi[0].ni[14].nvs" 18304;
+	setAttr ".tgi[0].ni[15].x" -388.57144165039063;
+	setAttr ".tgi[0].ni[15].y" 100;
+	setAttr ".tgi[0].ni[15].nvs" 18304;
+	setAttr ".tgi[0].ni[16].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[16].y" -4242.85693359375;
+	setAttr ".tgi[0].ni[16].nvs" 18304;
+	setAttr ".tgi[0].ni[17].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[17].y" -2274.28564453125;
+	setAttr ".tgi[0].ni[17].nvs" 18304;
+	setAttr ".tgi[0].ni[18].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[18].y" -3940;
+	setAttr ".tgi[0].ni[18].nvs" 18304;
+	setAttr ".tgi[0].ni[19].x" 45.714286804199219;
+	setAttr ".tgi[0].ni[19].y" 48.571430206298828;
+	setAttr ".tgi[0].ni[19].nvs" 18304;
+	setAttr ".tgi[0].ni[20].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[20].y" 1532.857177734375;
+	setAttr ".tgi[0].ni[20].nvs" 18304;
+	setAttr ".tgi[0].ni[21].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[21].y" 914.28570556640625;
+	setAttr ".tgi[0].ni[21].nvs" 18304;
+	setAttr ".tgi[0].ni[22].x" 200;
+	setAttr ".tgi[0].ni[22].y" 914.28570556640625;
+	setAttr ".tgi[0].ni[22].nvs" 18304;
+	setAttr ".tgi[0].ni[23].x" 200;
+	setAttr ".tgi[0].ni[23].y" -368.57144165039063;
+	setAttr ".tgi[0].ni[23].nvs" 18304;
+	setAttr ".tgi[0].ni[24].x" 200;
+	setAttr ".tgi[0].ni[24].y" 68.571426391601563;
+	setAttr ".tgi[0].ni[24].nvs" 18304;
+	setAttr ".tgi[0].ni[25].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[25].y" -2122.857177734375;
+	setAttr ".tgi[0].ni[25].nvs" 18304;
+	setAttr ".tgi[0].ni[26].x" 200;
+	setAttr ".tgi[0].ni[26].y" 3415.71435546875;
+	setAttr ".tgi[0].ni[26].nvs" 18304;
+	setAttr ".tgi[0].ni[27].x" 200;
+	setAttr ".tgi[0].ni[27].y" 3751.428466796875;
+	setAttr ".tgi[0].ni[27].nvs" 18304;
+	setAttr ".tgi[0].ni[28].x" 200;
+	setAttr ".tgi[0].ni[28].y" 4118.5712890625;
+	setAttr ".tgi[0].ni[28].nvs" 18304;
+	setAttr ".tgi[0].ni[29].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[29].y" 914.28570556640625;
+	setAttr ".tgi[0].ni[29].nvs" 18304;
+	setAttr ".tgi[0].ni[30].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[30].y" 914.28570556640625;
+	setAttr ".tgi[0].ni[30].nvs" 18304;
+	setAttr ".tgi[0].ni[31].x" -721.4285888671875;
+	setAttr ".tgi[0].ni[31].y" 1348.5714111328125;
+	setAttr ".tgi[0].ni[31].nvs" 18304;
+	setAttr ".tgi[0].ni[32].x" 200;
+	setAttr ".tgi[0].ni[32].y" 1502.857177734375;
+	setAttr ".tgi[0].ni[32].nvs" 18304;
+	setAttr ".tgi[0].ni[33].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[33].y" 567.14288330078125;
+	setAttr ".tgi[0].ni[33].nvs" 18304;
+	setAttr ".tgi[0].ni[34].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[34].y" 762.85711669921875;
+	setAttr ".tgi[0].ni[34].nvs" 18304;
+	setAttr ".tgi[0].ni[35].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[35].y" -1971.4285888671875;
+	setAttr ".tgi[0].ni[35].nvs" 18304;
+	setAttr ".tgi[0].ni[36].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[36].y" -760;
+	setAttr ".tgi[0].ni[36].nvs" 18304;
+	setAttr ".tgi[0].ni[37].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[37].y" -2880;
+	setAttr ".tgi[0].ni[37].nvs" 18304;
+	setAttr ".tgi[0].ni[38].x" 200;
+	setAttr ".tgi[0].ni[38].y" 942.85711669921875;
+	setAttr ".tgi[0].ni[38].nvs" 18304;
+	setAttr ".tgi[0].ni[39].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[39].y" -1820;
+	setAttr ".tgi[0].ni[39].nvs" 18304;
+	setAttr ".tgi[0].ni[40].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[40].y" -1668.5714111328125;
+	setAttr ".tgi[0].ni[40].nvs" 18304;
+	setAttr ".tgi[0].ni[41].x" 200;
+	setAttr ".tgi[0].ni[41].y" 505.71429443359375;
+	setAttr ".tgi[0].ni[41].nvs" 18304;
+	setAttr ".tgi[0].ni[42].x" 200;
+	setAttr ".tgi[0].ni[42].y" 1065.7142333984375;
+	setAttr ".tgi[0].ni[42].nvs" 18304;
+	setAttr ".tgi[0].ni[43].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[43].y" 1594.2857666015625;
+	setAttr ".tgi[0].ni[43].nvs" 18304;
+	setAttr ".tgi[0].ni[44].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[44].y" -2122.857177734375;
+	setAttr ".tgi[0].ni[44].nvs" 18304;
+	setAttr ".tgi[0].ni[45].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[45].y" -1971.4285888671875;
+	setAttr ".tgi[0].ni[45].nvs" 18304;
+	setAttr ".tgi[0].ni[46].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[46].y" -1820;
+	setAttr ".tgi[0].ni[46].nvs" 18304;
+	setAttr ".tgi[0].ni[47].x" 200;
+	setAttr ".tgi[0].ni[47].y" 1380;
+	setAttr ".tgi[0].ni[47].nvs" 18304;
+	setAttr ".tgi[0].ni[48].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[48].y" 762.85711669921875;
+	setAttr ".tgi[0].ni[48].nvs" 18304;
+	setAttr ".tgi[0].ni[49].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[49].y" -1517.142822265625;
+	setAttr ".tgi[0].ni[49].nvs" 18304;
+	setAttr ".tgi[0].ni[50].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[50].y" 1380;
+	setAttr ".tgi[0].ni[50].nvs" 18304;
+	setAttr ".tgi[0].ni[51].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[51].y" 1348.5714111328125;
+	setAttr ".tgi[0].ni[51].nvs" 18304;
+	setAttr ".tgi[0].ni[52].x" 200;
+	setAttr ".tgi[0].ni[52].y" 628.5714111328125;
+	setAttr ".tgi[0].ni[52].nvs" 18304;
+	setAttr ".tgi[0].ni[53].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[53].y" 690;
+	setAttr ".tgi[0].ni[53].nvs" 18304;
+	setAttr ".tgi[0].ni[54].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[54].y" 505.71429443359375;
+	setAttr ".tgi[0].ni[54].nvs" 18304;
+	setAttr ".tgi[0].ni[55].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[55].y" 628.5714111328125;
+	setAttr ".tgi[0].ni[55].nvs" 18304;
+	setAttr ".tgi[0].ni[56].x" 200;
+	setAttr ".tgi[0].ni[56].y" 191.42857360839844;
+	setAttr ".tgi[0].ni[56].nvs" 18304;
+	setAttr ".tgi[0].ni[57].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[57].y" 1471.4285888671875;
+	setAttr ".tgi[0].ni[57].nvs" 18304;
+	setAttr ".tgi[0].ni[58].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[58].y" 68.571426391601563;
+	setAttr ".tgi[0].ni[58].nvs" 18304;
+	setAttr ".tgi[0].ni[59].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[59].y" 191.42857360839844;
+	setAttr ".tgi[0].ni[59].nvs" 18304;
+	setAttr ".tgi[0].ni[60].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[60].y" 130;
+	setAttr ".tgi[0].ni[60].nvs" 18304;
+	setAttr ".tgi[0].ni[61].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[61].y" 252.85714721679687;
+	setAttr ".tgi[0].ni[61].nvs" 18304;
+	setAttr ".tgi[0].ni[62].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[62].y" 3874.28564453125;
+	setAttr ".tgi[0].ni[62].nvs" 18304;
+	setAttr ".tgi[0].ni[63].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[63].y" 3202.857177734375;
+	setAttr ".tgi[0].ni[63].nvs" 18304;
+	setAttr ".tgi[0].ni[64].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[64].y" -1517.142822265625;
+	setAttr ".tgi[0].ni[64].nvs" 18304;
+	setAttr ".tgi[0].ni[65].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[65].y" 3264.28564453125;
+	setAttr ".tgi[0].ni[65].nvs" 18304;
+	setAttr ".tgi[0].ni[66].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[66].y" 1188.5714111328125;
+	setAttr ".tgi[0].ni[66].nvs" 18304;
+	setAttr ".tgi[0].ni[67].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[67].y" 2805.71435546875;
+	setAttr ".tgi[0].ni[67].nvs" 18304;
+	setAttr ".tgi[0].ni[68].x" 200;
+	setAttr ".tgi[0].ni[68].y" 2531.428466796875;
+	setAttr ".tgi[0].ni[68].nvs" 18304;
+	setAttr ".tgi[0].ni[69].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[69].y" -307.14285278320312;
+	setAttr ".tgi[0].ni[69].nvs" 18304;
+	setAttr ".tgi[0].ni[70].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[70].y" 1065.7142333984375;
+	setAttr ".tgi[0].ni[70].nvs" 18304;
+	setAttr ".tgi[0].ni[71].x" 200;
+	setAttr ".tgi[0].ni[71].y" 1188.5714111328125;
+	setAttr ".tgi[0].ni[71].nvs" 18304;
+	setAttr ".tgi[0].ni[72].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[72].y" 3812.857177734375;
+	setAttr ".tgi[0].ni[72].nvs" 18304;
+	setAttr ".tgi[0].ni[73].x" 200;
+	setAttr ".tgi[0].ni[73].y" 2867.142822265625;
+	setAttr ".tgi[0].ni[73].nvs" 18304;
+	setAttr ".tgi[0].ni[74].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[74].y" 1127.142822265625;
+	setAttr ".tgi[0].ni[74].nvs" 18304;
+	setAttr ".tgi[0].ni[75].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[75].y" 3812.857177734375;
+	setAttr ".tgi[0].ni[75].nvs" 18304;
+	setAttr ".tgi[0].ni[76].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[76].y" 2470;
+	setAttr ".tgi[0].ni[76].nvs" 18304;
+	setAttr ".tgi[0].ni[77].x" 200;
+	setAttr ".tgi[0].ni[77].y" 1065.7142333984375;
+	setAttr ".tgi[0].ni[77].nvs" 18304;
+	setAttr ".tgi[0].ni[78].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[78].y" 2592.857177734375;
+	setAttr ".tgi[0].ni[78].nvs" 18304;
+	setAttr ".tgi[0].ni[79].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[79].y" 1127.142822265625;
+	setAttr ".tgi[0].ni[79].nvs" 18304;
+	setAttr ".tgi[0].ni[80].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[80].y" 1250;
+	setAttr ".tgi[0].ni[80].nvs" 18304;
+	setAttr ".tgi[0].ni[81].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[81].y" 3141.428466796875;
+	setAttr ".tgi[0].ni[81].nvs" 18304;
+	setAttr ".tgi[0].ni[82].x" 200;
+	setAttr ".tgi[0].ni[82].y" 611.4285888671875;
+	setAttr ".tgi[0].ni[82].nvs" 18304;
+	setAttr ".tgi[0].ni[83].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[83].y" 550;
+	setAttr ".tgi[0].ni[83].nvs" 18304;
+	setAttr ".tgi[0].ni[84].x" 200;
+	setAttr ".tgi[0].ni[84].y" 62.857143402099609;
+	setAttr ".tgi[0].ni[84].nvs" 18304;
+	setAttr ".tgi[0].ni[85].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[85].y" 1.4285714626312256;
+	setAttr ".tgi[0].ni[85].nvs" 18304;
+	setAttr ".tgi[0].ni[86].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[86].y" -368.57144165039063;
+	setAttr ".tgi[0].ni[86].nvs" 18304;
+	setAttr ".tgi[0].ni[87].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[87].y" 3141.428466796875;
+	setAttr ".tgi[0].ni[87].nvs" 18304;
+	setAttr ".tgi[0].ni[88].x" 200;
+	setAttr ".tgi[0].ni[88].y" 337.14285278320312;
+	setAttr ".tgi[0].ni[88].nvs" 18304;
+	setAttr ".tgi[0].ni[89].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[89].y" 275.71429443359375;
+	setAttr ".tgi[0].ni[89].nvs" 18304;
+	setAttr ".tgi[0].ni[90].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[90].y" 3935.71435546875;
+	setAttr ".tgi[0].ni[90].nvs" 18304;
+	setAttr ".tgi[0].ni[91].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[91].y" 2470;
+	setAttr ".tgi[0].ni[91].nvs" 18304;
+	setAttr ".tgi[0].ni[92].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[92].y" 2867.142822265625;
+	setAttr ".tgi[0].ni[92].nvs" 18304;
+	setAttr ".tgi[0].ni[93].x" 200;
+	setAttr ".tgi[0].ni[93].y" -485.71429443359375;
+	setAttr ".tgi[0].ni[93].nvs" 18304;
+	setAttr ".tgi[0].ni[94].x" 200;
+	setAttr ".tgi[0].ni[94].y" 3874.28564453125;
+	setAttr ".tgi[0].ni[94].nvs" 18304;
+	setAttr ".tgi[0].ni[95].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[95].y" -547.14288330078125;
+	setAttr ".tgi[0].ni[95].nvs" 18304;
+	setAttr ".tgi[0].ni[96].x" 200;
+	setAttr ".tgi[0].ni[96].y" -211.42857360839844;
+	setAttr ".tgi[0].ni[96].nvs" 18304;
+	setAttr ".tgi[0].ni[97].x" -261.42855834960937;
+	setAttr ".tgi[0].ni[97].y" 100;
+	setAttr ".tgi[0].ni[97].nvs" 18304;
+	setAttr ".tgi[0].ni[98].x" 200;
+	setAttr ".tgi[0].ni[98].y" -911.4285888671875;
+	setAttr ".tgi[0].ni[98].nvs" 18304;
+	setAttr ".tgi[0].ni[99].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[99].y" 2805.71435546875;
+	setAttr ".tgi[0].ni[99].nvs" 18304;
+	setAttr ".tgi[0].ni[100].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[100].y" 1127.142822265625;
+	setAttr ".tgi[0].ni[100].nvs" 18304;
+	setAttr ".tgi[0].ni[101].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[101].y" 1410;
+	setAttr ".tgi[0].ni[101].nvs" 18304;
+	setAttr ".tgi[0].ni[102].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[102].y" 2531.428466796875;
+	setAttr ".tgi[0].ni[102].nvs" 18304;
+	setAttr ".tgi[0].ni[103].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[103].y" 942.85711669921875;
+	setAttr ".tgi[0].ni[103].nvs" 18304;
+	setAttr ".tgi[0].ni[104].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[104].y" 1004.2857055664062;
+	setAttr ".tgi[0].ni[104].nvs" 18304;
+	setAttr ".tgi[0].ni[105].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[105].y" -245.71427917480469;
+	setAttr ".tgi[0].ni[105].nvs" 18304;
+	setAttr ".tgi[0].ni[106].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[106].y" 2928.571533203125;
+	setAttr ".tgi[0].ni[106].nvs" 18304;
+	setAttr ".tgi[0].ni[107].x" 200;
+	setAttr ".tgi[0].ni[107].y" 3202.857177734375;
+	setAttr ".tgi[0].ni[107].nvs" 18304;
+	setAttr ".tgi[0].ni[108].x" 200;
+	setAttr ".tgi[0].ni[108].y" -245.71427917480469;
+	setAttr ".tgi[0].ni[108].nvs" 18304;
+	setAttr ".tgi[0].ni[109].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[109].y" -184.28572082519531;
+	setAttr ".tgi[0].ni[109].nvs" 18304;
+	setAttr ".tgi[0].ni[110].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[110].y" 762.85711669921875;
+	setAttr ".tgi[0].ni[110].nvs" 18304;
+	setAttr ".tgi[0].ni[111].x" 200;
+	setAttr ".tgi[0].ni[111].y" 762.85711669921875;
+	setAttr ".tgi[0].ni[111].nvs" 18304;
+	setAttr ".tgi[0].ni[112].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[112].y" -272.85714721679687;
+	setAttr ".tgi[0].ni[112].nvs" 18304;
+	setAttr ".tgi[0].ni[113].x" 200;
+	setAttr ".tgi[0].ni[113].y" -760;
+	setAttr ".tgi[0].ni[113].nvs" 18304;
+	setAttr ".tgi[0].ni[114].x" 200;
+	setAttr ".tgi[0].ni[114].y" -1062.857177734375;
+	setAttr ".tgi[0].ni[114].nvs" 18304;
+	setAttr ".tgi[0].ni[115].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[115].y" 2867.142822265625;
+	setAttr ".tgi[0].ni[115].nvs" 18304;
+	setAttr ".tgi[0].ni[116].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[116].y" 3141.428466796875;
+	setAttr ".tgi[0].ni[116].nvs" 18304;
+	setAttr ".tgi[0].ni[117].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[117].y" 2195.71435546875;
+	setAttr ".tgi[0].ni[117].nvs" 18304;
+	setAttr ".tgi[0].ni[118].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[118].y" 3141.428466796875;
+	setAttr ".tgi[0].ni[118].nvs" 18304;
+	setAttr ".tgi[0].ni[119].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[119].y" 2531.428466796875;
+	setAttr ".tgi[0].ni[119].nvs" 18304;
+	setAttr ".tgi[0].ni[120].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[120].y" 1524.2857666015625;
+	setAttr ".tgi[0].ni[120].nvs" 18304;
+	setAttr ".tgi[0].ni[121].x" 200;
+	setAttr ".tgi[0].ni[121].y" -760;
+	setAttr ".tgi[0].ni[121].nvs" 18304;
+	setAttr ".tgi[0].ni[122].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[122].y" -547.14288330078125;
+	setAttr ".tgi[0].ni[122].nvs" 18304;
+	setAttr ".tgi[0].ni[123].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[123].y" 2805.71435546875;
+	setAttr ".tgi[0].ni[123].nvs" 18304;
+	setAttr ".tgi[0].ni[124].x" 200;
+	setAttr ".tgi[0].ni[124].y" 762.85711669921875;
+	setAttr ".tgi[0].ni[124].nvs" 18304;
+	setAttr ".tgi[0].ni[125].x" 200;
+	setAttr ".tgi[0].ni[125].y" -911.4285888671875;
+	setAttr ".tgi[0].ni[125].nvs" 18304;
+	setAttr ".tgi[0].ni[126].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[126].y" -272.85714721679687;
+	setAttr ".tgi[0].ni[126].nvs" 18304;
+	setAttr ".tgi[0].ni[127].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[127].y" 3264.28564453125;
+	setAttr ".tgi[0].ni[127].nvs" 18304;
+	setAttr ".tgi[0].ni[128].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[128].y" 762.85711669921875;
+	setAttr ".tgi[0].ni[128].nvs" 18304;
+	setAttr ".tgi[0].ni[129].x" 200;
+	setAttr ".tgi[0].ni[129].y" 3202.857177734375;
+	setAttr ".tgi[0].ni[129].nvs" 18304;
+	setAttr ".tgi[0].ni[130].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[130].y" 2470;
+	setAttr ".tgi[0].ni[130].nvs" 18304;
+	setAttr ".tgi[0].ni[131].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[131].y" 2134.28564453125;
+	setAttr ".tgi[0].ni[131].nvs" 18304;
+	setAttr ".tgi[0].ni[132].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[132].y" 1462.857177734375;
+	setAttr ".tgi[0].ni[132].nvs" 18304;
+	setAttr ".tgi[0].ni[133].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[133].y" 1462.857177734375;
+	setAttr ".tgi[0].ni[133].nvs" 18304;
+	setAttr ".tgi[0].ni[134].x" 200;
+	setAttr ".tgi[0].ni[134].y" -485.71429443359375;
+	setAttr ".tgi[0].ni[134].nvs" 18304;
+	setAttr ".tgi[0].ni[135].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[135].y" 275.71429443359375;
+	setAttr ".tgi[0].ni[135].nvs" 18304;
+	setAttr ".tgi[0].ni[136].x" 200;
+	setAttr ".tgi[0].ni[136].y" 62.857143402099609;
+	setAttr ".tgi[0].ni[136].nvs" 18304;
+	setAttr ".tgi[0].ni[137].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[137].y" 1.4285714626312256;
+	setAttr ".tgi[0].ni[137].nvs" 18304;
+	setAttr ".tgi[0].ni[138].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[138].y" 2592.857177734375;
+	setAttr ".tgi[0].ni[138].nvs" 18304;
+	setAttr ".tgi[0].ni[139].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[139].y" 2257.142822265625;
+	setAttr ".tgi[0].ni[139].nvs" 18304;
+	setAttr ".tgi[0].ni[140].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[140].y" 2928.571533203125;
+	setAttr ".tgi[0].ni[140].nvs" 18304;
+	setAttr ".tgi[0].ni[141].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[141].y" 1585.7142333984375;
+	setAttr ".tgi[0].ni[141].nvs" 18304;
+	setAttr ".tgi[0].ni[142].x" 200;
+	setAttr ".tgi[0].ni[142].y" 337.14285278320312;
+	setAttr ".tgi[0].ni[142].nvs" 18304;
+	setAttr ".tgi[0].ni[143].x" 200;
+	setAttr ".tgi[0].ni[143].y" 611.4285888671875;
+	setAttr ".tgi[0].ni[143].nvs" 18304;
+	setAttr ".tgi[0].ni[144].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[144].y" 550;
+	setAttr ".tgi[0].ni[144].nvs" 18304;
+	setAttr ".tgi[0].ni[145].x" 200;
+	setAttr ".tgi[0].ni[145].y" 1524.2857666015625;
+	setAttr ".tgi[0].ni[145].nvs" 18304;
+	setAttr ".tgi[0].ni[146].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[146].y" 4148.5712890625;
+	setAttr ".tgi[0].ni[146].nvs" 18304;
+	setAttr ".tgi[0].ni[147].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[147].y" 3202.857177734375;
+	setAttr ".tgi[0].ni[147].nvs" 18304;
+	setAttr ".tgi[0].ni[148].x" 200;
+	setAttr ".tgi[0].ni[148].y" -211.42857360839844;
+	setAttr ".tgi[0].ni[148].nvs" 18304;
+	setAttr ".tgi[0].ni[149].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[149].y" 2134.28564453125;
+	setAttr ".tgi[0].ni[149].nvs" 18304;
+	setAttr ".tgi[0].ni[150].x" 200;
+	setAttr ".tgi[0].ni[150].y" 2867.142822265625;
+	setAttr ".tgi[0].ni[150].nvs" 18304;
+	setAttr ".tgi[0].ni[151].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[151].y" 2805.71435546875;
+	setAttr ".tgi[0].ni[151].nvs" 18304;
+	setAttr ".tgi[0].ni[152].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[152].y" 1798.5714111328125;
+	setAttr ".tgi[0].ni[152].nvs" 18304;
+	setAttr ".tgi[0].ni[153].x" 200;
+	setAttr ".tgi[0].ni[153].y" 3874.28564453125;
+	setAttr ".tgi[0].ni[153].nvs" 18304;
+	setAttr ".tgi[0].ni[154].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[154].y" 3812.857177734375;
+	setAttr ".tgi[0].ni[154].nvs" 18304;
+	setAttr ".tgi[0].ni[155].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[155].y" 3874.28564453125;
+	setAttr ".tgi[0].ni[155].nvs" 18304;
+	setAttr ".tgi[0].ni[156].x" 200;
+	setAttr ".tgi[0].ni[156].y" 3538.571533203125;
+	setAttr ".tgi[0].ni[156].nvs" 18304;
+	setAttr ".tgi[0].ni[157].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[157].y" 3538.571533203125;
+	setAttr ".tgi[0].ni[157].nvs" 18304;
+	setAttr ".tgi[0].ni[158].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[158].y" 3600;
+	setAttr ".tgi[0].ni[158].nvs" 18304;
+	setAttr ".tgi[0].ni[159].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[159].y" 3477.142822265625;
+	setAttr ".tgi[0].ni[159].nvs" 18304;
+	setAttr ".tgi[0].ni[160].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[160].y" 1860;
+	setAttr ".tgi[0].ni[160].nvs" 18304;
+	setAttr ".tgi[0].ni[161].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[161].y" 1798.5714111328125;
+	setAttr ".tgi[0].ni[161].nvs" 18304;
+	setAttr ".tgi[0].ni[162].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[162].y" 1921.4285888671875;
+	setAttr ".tgi[0].ni[162].nvs" 18304;
+	setAttr ".tgi[0].ni[163].x" 200;
+	setAttr ".tgi[0].ni[163].y" 2195.71435546875;
+	setAttr ".tgi[0].ni[163].nvs" 18304;
+	setAttr ".tgi[0].ni[164].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[164].y" 3812.857177734375;
+	setAttr ".tgi[0].ni[164].nvs" 18304;
+	setAttr ".tgi[0].ni[165].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[165].y" 3935.71435546875;
+	setAttr ".tgi[0].ni[165].nvs" 18304;
+	setAttr ".tgi[0].ni[166].x" 200;
+	setAttr ".tgi[0].ni[166].y" 1860;
+	setAttr ".tgi[0].ni[166].nvs" 18304;
+	setAttr ".tgi[0].ni[167].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[167].y" 2470;
+	setAttr ".tgi[0].ni[167].nvs" 18304;
+	setAttr ".tgi[0].ni[168].x" 200;
+	setAttr ".tgi[0].ni[168].y" 2531.428466796875;
+	setAttr ".tgi[0].ni[168].nvs" 18304;
+	setAttr ".tgi[0].ni[169].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[169].y" 3477.142822265625;
+	setAttr ".tgi[0].ni[169].nvs" 18304;
+	setAttr ".tgi[0].ni[170].x" 507.14285278320312;
+	setAttr ".tgi[0].ni[170].y" 1127.142822265625;
+	setAttr ".tgi[0].ni[170].nvs" 18304;
+	setAttr ".tgi[0].ni[171].x" -107.14286041259766;
+	setAttr ".tgi[0].ni[171].y" 1188.5714111328125;
+	setAttr ".tgi[0].ni[171].nvs" 18304;
+	setAttr ".tgi[0].ni[172].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[172].y" 1127.142822265625;
+	setAttr ".tgi[0].ni[172].nvs" 18304;
+	setAttr ".tgi[0].ni[173].x" -414.28570556640625;
+	setAttr ".tgi[0].ni[173].y" 1250;
+	setAttr ".tgi[0].ni[173].nvs" 18304;
+	setAttr ".tgi[0].ni[174].x" -695.71429443359375;
+	setAttr ".tgi[0].ni[174].y" 34.285713195800781;
+	setAttr ".tgi[0].ni[174].nvs" 18304;
 select -ne :time1;
-	setAttr ".o" 1;
-	setAttr ".unw" 1;
+	setAttr ".o" 101;
+	setAttr ".unw" 101;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -17739,25 +19381,37 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 68 ".st";
+	setAttr -s 116 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 5 ".s";
+	setAttr -s 43 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
+select -ne :defaultRenderUtilityList1;
+	setAttr -s 29 ".u";
 select -ne :defaultRenderingList1;
-	setAttr -s 27 ".r";
+	setAttr -s 37 ".r";
+select -ne :lightList1;
+	setAttr -s 3 ".l";
+select -ne :defaultTextureList1;
+	setAttr -s 29 ".tx";
+select -ne :lambert1;
 select -ne :initialShadingGroup;
-	setAttr -s 22 ".dsm";
+	setAttr -s 24 ".dsm";
 	setAttr ".ro" yes;
-	setAttr -s 21 ".gn";
+	setAttr -s 23 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
+select -ne :initialMaterialInfo;
+	setAttr -s 2 ".t";
 select -ne :defaultResolution;
 	setAttr ".pa" 1;
+select -ne :defaultLightSet;
+	setAttr -s 3 ".dsm";
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
+select -ne :defaultHideFaceDataSet;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
 connectAttr "groupParts1.og" "pPlaneShape1.i";
@@ -17765,6 +19419,19 @@ connectAttr "groupId1.id" "pPlaneShape1.iog.og[0].gid";
 connectAttr ":initialShadingGroup.mwc" "pPlaneShape1.iog.og[0].gco";
 connectAttr "polyTweakUV10.uvtk[0]" "pPlaneShape1.uvst[0].uvtw";
 connectAttr "groupId2.id" "pPlaneShape1.ciog.cog[0].cgid";
+connectAttr "ImageProjectionRig:YB_lyr.di" "|camera1|OB_Proj_Rig.do";
+connectAttr "ImageProjectionRig:transformGeometry1.og" "|camera1|OB_Proj_Rig|OB_Proj_Rig.cr"
+		;
+connectAttr "ImageProjectionRig:transformGeometry2.og" "ImageProjectionRig:YB_SuperFrontShape1.i"
+		;
+connectAttr "ImageProjectionRig:polyTweakUV1.uvtk[0]" "ImageProjectionRig:YB_SuperFrontShape1.uvst[0].uvtw"
+		;
+connectAttr "ImageProjectionRig1:YB_lyr.di" "YB_Proj_Rig.do";
+connectAttr "ImageProjectionRig1:transformGeometry1.og" "YB_Proj_RigShape.cr";
+connectAttr "ImageProjectionRig1:transformGeometry2.og" "ImageProjectionRig1:YB_SuperFrontShape1.i"
+		;
+connectAttr "ImageProjectionRig1:polyTweakUV1.uvtk[0]" "ImageProjectionRig1:YB_SuperFrontShape1.uvst[0].uvtw"
+		;
 connectAttr "groupId5.id" "pPlaneShape2.iog.og[0].gid";
 connectAttr ":initialShadingGroup.mwc" "pPlaneShape2.iog.og[0].gco";
 connectAttr "groupParts3.og" "pPlaneShape2.i";
@@ -17789,12 +19456,85 @@ connectAttr ":initialShadingGroup.mwc" "pPlane7Shape.iog.og[0].gco";
 connectAttr "groupId11.id" "pPlane7Shape.iog.og[1].gid";
 connectAttr "lambert2SG.mwc" "pPlane7Shape.iog.og[1].gco";
 connectAttr "polyExtrudeFace1.out" "pCubeShape1.i";
+connectAttr "rs_Foreground.ri" "ambientLightShape1.rlio[0]";
+connectAttr "rs_Background.ri" "ambientLightShape1.rlio[1]";
+connectAttr "rs_Foreground.ri" "directionalLightShape1.rlio[0]";
+connectAttr "rs_Background.ri" "directionalLightShape1.rlio[1]";
+connectAttr "rs_Foreground.ri" "directionalLightShape2.rlio[0]";
+connectAttr "rs_Background.ri" "directionalLightShape2.rlio[1]";
+connectAttr "cameraShape2.coi" "directionalLightShape2.col";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "lambert2SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "cubeFogSG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert2SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert3SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert4SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert5SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert6SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert7SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert8SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert9SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert10SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert11SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert12SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert13SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert14SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert15SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert16SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert17SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert2SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert3SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert4SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert5SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert6SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert7SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert8SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert9SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert10SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert11SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert12SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert13SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert14SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert15SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert16SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig1:lambert17SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "lambert2SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "cubeFogSG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert2SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert3SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert4SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert5SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert6SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert7SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert8SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert9SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert10SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert11SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert12SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert13SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert14SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert15SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert16SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert17SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert2SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert3SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert4SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert5SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert6SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert7SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert8SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert9SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert10SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert11SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert12SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert13SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert14SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert15SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert16SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig1:lambert17SG.message" ":defaultLightSet.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "polyTweak1.out" "polySoftEdge1.ip";
@@ -17895,9 +19635,1821 @@ connectAttr "groupParts6.og" "groupParts7.ig";
 connectAttr "groupId11.id" "groupParts7.gi";
 connectAttr "polyCube1.out" "polyExtrudeFace1.ip";
 connectAttr "pCubeShape1.wm" "polyExtrudeFace1.mp";
+connectAttr "cubeFog.oc" "cubeFogSG.vs";
+connectAttr "cubeFogSG.msg" "materialInfo2.sg";
+connectAttr "ambientLight1.iog" ":lightEditorRoot.dsm" -na;
+connectAttr "directionalLight1.iog" ":lightEditorRoot.dsm" -na;
+connectAttr "directionalLight2.iog" ":lightEditorRoot.dsm" -na;
+connectAttr "Foreground.msg" "renderSetup.frl";
+connectAttr "Background.msg" "renderSetup.lrl";
+connectAttr "rs_Foreground.msg" "Foreground.lrl";
+connectAttr "renderSetup.lit" "Foreground.pls";
+connectAttr "Foreground1.msg" "Foreground.cl";
+connectAttr "Foreground1.msg" "Foreground.ch";
+connectAttr "renderLayerManager.rlmi[1]" "rs_Foreground.rlid";
+connectAttr "collection1Selector.c" "Foreground1.sel";
+connectAttr "Foreground.lit" "Foreground1.pls";
+connectAttr "Foreground.nic" "Foreground1.pic";
+connectAttr "rs_Background.msg" "Background.lrl";
+connectAttr "Foreground.nxt" "Background.prv";
+connectAttr "renderSetup.lit" "Background.pls";
+connectAttr "Background1.msg" "Background.cl";
+connectAttr "Background1.msg" "Background.ch";
+connectAttr "renderLayerManager.rlmi[2]" "rs_Background.rlid";
+connectAttr "collection2Selector.c" "Background1.sel";
+connectAttr "Background.lit" "Background1.pls";
+connectAttr "Background.nic" "Background1.pic";
+connectAttr "ImageProjectionRig:renderLayerManager.rlmi[0]" "ImageProjectionRig:defaultRenderLayer.rlid"
+		;
+connectAttr "ImageProjectionRig:file1.oc" "ImageProjectionRig:YB___SuperFront.c"
+		;
+connectAttr "ImageProjectionRig:file1.ot" "ImageProjectionRig:YB___SuperFront.it"
+		;
+connectAttr "ImageProjectionRig:YB___SuperFront.oc" "ImageProjectionRig:lambert2SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert2SG.msg" "ImageProjectionRig:materialInfo1.sg"
+		;
+connectAttr "ImageProjectionRig:YB___SuperFront.msg" "ImageProjectionRig:materialInfo1.m"
+		;
+connectAttr "ImageProjectionRig:file1.msg" "ImageProjectionRig:materialInfo1.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file1.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file1.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file1.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file1.ws";
+connectAttr "ImageProjectionRig:place2dTexture1.c" "ImageProjectionRig:file1.c";
+connectAttr "ImageProjectionRig:place2dTexture1.tf" "ImageProjectionRig:file1.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.rf" "ImageProjectionRig:file1.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.mu" "ImageProjectionRig:file1.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.mv" "ImageProjectionRig:file1.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.s" "ImageProjectionRig:file1.s";
+connectAttr "ImageProjectionRig:place2dTexture1.wu" "ImageProjectionRig:file1.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.wv" "ImageProjectionRig:file1.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.re" "ImageProjectionRig:file1.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.of" "ImageProjectionRig:file1.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.r" "ImageProjectionRig:file1.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.n" "ImageProjectionRig:file1.n";
+connectAttr "ImageProjectionRig:place2dTexture1.vt1" "ImageProjectionRig:file1.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.vt2" "ImageProjectionRig:file1.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.vt3" "ImageProjectionRig:file1.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.vc1" "ImageProjectionRig:file1.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.o" "ImageProjectionRig:file1.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.ofs" "ImageProjectionRig:file1.fs"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront.oc" "ImageProjectionRig:YB_SuperFront2_Mat.c"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront.ot" "ImageProjectionRig:YB_SuperFront2_Mat.it"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront2_Mat.oc" "ImageProjectionRig:lambert3SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFrontShape1.iog" "ImageProjectionRig:lambert3SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert3SG.msg" "ImageProjectionRig:materialInfo2.sg"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront2_Mat.msg" "ImageProjectionRig:materialInfo2.m"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront.msg" "ImageProjectionRig:materialInfo2.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:YB_SuperFront.cme"
+		;
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:YB_SuperFront.cmcf"
+		;
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:YB_SuperFront.cmcp"
+		;
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:YB_SuperFront.ws";
+connectAttr "ImageProjectionRig:place2dTexture2.c" "ImageProjectionRig:YB_SuperFront.c"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.tf" "ImageProjectionRig:YB_SuperFront.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.rf" "ImageProjectionRig:YB_SuperFront.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.mu" "ImageProjectionRig:YB_SuperFront.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.mv" "ImageProjectionRig:YB_SuperFront.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.s" "ImageProjectionRig:YB_SuperFront.s"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.wu" "ImageProjectionRig:YB_SuperFront.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.wv" "ImageProjectionRig:YB_SuperFront.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.re" "ImageProjectionRig:YB_SuperFront.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.of" "ImageProjectionRig:YB_SuperFront.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.r" "ImageProjectionRig:YB_SuperFront.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.n" "ImageProjectionRig:YB_SuperFront.n"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.vt1" "ImageProjectionRig:YB_SuperFront.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.vt2" "ImageProjectionRig:YB_SuperFront.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.vt3" "ImageProjectionRig:YB_SuperFront.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.vc1" "ImageProjectionRig:YB_SuperFront.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.o" "ImageProjectionRig:YB_SuperFront.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.ofs" "ImageProjectionRig:YB_SuperFront.fs"
+		;
+connectAttr "ImageProjectionRig:expression1.out[0]" "ImageProjectionRig:YB_SuperFront.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression1.tim";
+connectAttr "ImageProjectionRig:polyPlane1.out" "ImageProjectionRig:polyTweakUV1.ip"
+		;
+connectAttr "ImageProjectionRig:file1.msg" "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.msg" "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
+		;
+connectAttr "ImageProjectionRig:YB___SuperFront.msg" "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
+		;
+connectAttr "ImageProjectionRig:lambert2SG.msg" "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
+		;
+connectAttr "ImageProjectionRig:file2.oc" "ImageProjectionRig:YB_Front_Mat.c";
+connectAttr "ImageProjectionRig:file2.ot" "ImageProjectionRig:YB_Front_Mat.it";
+connectAttr "ImageProjectionRig:YB_Front_Mat.oc" "ImageProjectionRig:lambert4SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_FrontShape2.iog" "ImageProjectionRig:lambert4SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert4SG.msg" "ImageProjectionRig:materialInfo3.sg"
+		;
+connectAttr "ImageProjectionRig:YB_Front_Mat.msg" "ImageProjectionRig:materialInfo3.m"
+		;
+connectAttr "ImageProjectionRig:file2.msg" "ImageProjectionRig:materialInfo3.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file2.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file2.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file2.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file2.ws";
+connectAttr "ImageProjectionRig:place2dTexture3.c" "ImageProjectionRig:file2.c";
+connectAttr "ImageProjectionRig:place2dTexture3.tf" "ImageProjectionRig:file2.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.rf" "ImageProjectionRig:file2.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.mu" "ImageProjectionRig:file2.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.mv" "ImageProjectionRig:file2.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.s" "ImageProjectionRig:file2.s";
+connectAttr "ImageProjectionRig:place2dTexture3.wu" "ImageProjectionRig:file2.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.wv" "ImageProjectionRig:file2.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.re" "ImageProjectionRig:file2.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.of" "ImageProjectionRig:file2.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.r" "ImageProjectionRig:file2.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.n" "ImageProjectionRig:file2.n";
+connectAttr "ImageProjectionRig:place2dTexture3.vt1" "ImageProjectionRig:file2.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.vt2" "ImageProjectionRig:file2.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.vt3" "ImageProjectionRig:file2.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.vc1" "ImageProjectionRig:file2.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.o" "ImageProjectionRig:file2.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.ofs" "ImageProjectionRig:file2.fs"
+		;
+connectAttr "ImageProjectionRig:expression2.out[0]" "ImageProjectionRig:file2.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression2.tim";
+connectAttr "ImageProjectionRig:file3.oc" "ImageProjectionRig:YB_Mid_Mat.c";
+connectAttr "ImageProjectionRig:file3.ot" "ImageProjectionRig:YB_Mid_Mat.it";
+connectAttr "ImageProjectionRig:YB_Mid_Mat.oc" "ImageProjectionRig:lambert5SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_MidShape1.iog" "ImageProjectionRig:lambert5SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert5SG.msg" "ImageProjectionRig:materialInfo4.sg"
+		;
+connectAttr "ImageProjectionRig:YB_Mid_Mat.msg" "ImageProjectionRig:materialInfo4.m"
+		;
+connectAttr "ImageProjectionRig:file3.msg" "ImageProjectionRig:materialInfo4.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file3.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file3.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file3.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file3.ws";
+connectAttr "ImageProjectionRig:place2dTexture4.c" "ImageProjectionRig:file3.c";
+connectAttr "ImageProjectionRig:place2dTexture4.tf" "ImageProjectionRig:file3.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.rf" "ImageProjectionRig:file3.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.mu" "ImageProjectionRig:file3.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.mv" "ImageProjectionRig:file3.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.s" "ImageProjectionRig:file3.s";
+connectAttr "ImageProjectionRig:place2dTexture4.wu" "ImageProjectionRig:file3.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.wv" "ImageProjectionRig:file3.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.re" "ImageProjectionRig:file3.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.of" "ImageProjectionRig:file3.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.r" "ImageProjectionRig:file3.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.n" "ImageProjectionRig:file3.n";
+connectAttr "ImageProjectionRig:place2dTexture4.vt1" "ImageProjectionRig:file3.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.vt2" "ImageProjectionRig:file3.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.vt3" "ImageProjectionRig:file3.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.vc1" "ImageProjectionRig:file3.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.o" "ImageProjectionRig:file3.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.ofs" "ImageProjectionRig:file3.fs"
+		;
+connectAttr "ImageProjectionRig:expression3.out[0]" "ImageProjectionRig:file3.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression3.tim";
+connectAttr "ImageProjectionRig:file4.oc" "ImageProjectionRig:YB_Back1_Mat.c";
+connectAttr "ImageProjectionRig:file4.ot" "ImageProjectionRig:YB_Back1_Mat.it";
+connectAttr "ImageProjectionRig:YB_Back1_Mat.oc" "ImageProjectionRig:lambert6SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_BackShape.iog" "ImageProjectionRig:lambert6SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert6SG.msg" "ImageProjectionRig:materialInfo5.sg"
+		;
+connectAttr "ImageProjectionRig:YB_Back1_Mat.msg" "ImageProjectionRig:materialInfo5.m"
+		;
+connectAttr "ImageProjectionRig:file4.msg" "ImageProjectionRig:materialInfo5.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file4.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file4.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file4.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file4.ws";
+connectAttr "ImageProjectionRig:place2dTexture5.c" "ImageProjectionRig:file4.c";
+connectAttr "ImageProjectionRig:place2dTexture5.tf" "ImageProjectionRig:file4.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.rf" "ImageProjectionRig:file4.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.mu" "ImageProjectionRig:file4.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.mv" "ImageProjectionRig:file4.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.s" "ImageProjectionRig:file4.s";
+connectAttr "ImageProjectionRig:place2dTexture5.wu" "ImageProjectionRig:file4.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.wv" "ImageProjectionRig:file4.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.re" "ImageProjectionRig:file4.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.of" "ImageProjectionRig:file4.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.r" "ImageProjectionRig:file4.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.n" "ImageProjectionRig:file4.n";
+connectAttr "ImageProjectionRig:place2dTexture5.vt1" "ImageProjectionRig:file4.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.vt2" "ImageProjectionRig:file4.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.vt3" "ImageProjectionRig:file4.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.vc1" "ImageProjectionRig:file4.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.o" "ImageProjectionRig:file4.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.ofs" "ImageProjectionRig:file4.fs"
+		;
+connectAttr "ImageProjectionRig:expression4.out[0]" "ImageProjectionRig:file4.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression4.tim";
+connectAttr "ImageProjectionRig:file5.oc" "ImageProjectionRig:YB_SuperBack_Mat.c"
+		;
+connectAttr "ImageProjectionRig:file5.ot" "ImageProjectionRig:YB_SuperBack_Mat.it"
+		;
+connectAttr "ImageProjectionRig:YB_SuperBack_Mat.oc" "ImageProjectionRig:lambert7SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_SuperBack1Shape.iog" "ImageProjectionRig:lambert7SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert7SG.msg" "ImageProjectionRig:materialInfo6.sg"
+		;
+connectAttr "ImageProjectionRig:YB_SuperBack_Mat.msg" "ImageProjectionRig:materialInfo6.m"
+		;
+connectAttr "ImageProjectionRig:file5.msg" "ImageProjectionRig:materialInfo6.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file5.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file5.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file5.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file5.ws";
+connectAttr "ImageProjectionRig:place2dTexture6.c" "ImageProjectionRig:file5.c";
+connectAttr "ImageProjectionRig:place2dTexture6.tf" "ImageProjectionRig:file5.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.rf" "ImageProjectionRig:file5.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.mu" "ImageProjectionRig:file5.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.mv" "ImageProjectionRig:file5.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.s" "ImageProjectionRig:file5.s";
+connectAttr "ImageProjectionRig:place2dTexture6.wu" "ImageProjectionRig:file5.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.wv" "ImageProjectionRig:file5.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.re" "ImageProjectionRig:file5.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.of" "ImageProjectionRig:file5.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.r" "ImageProjectionRig:file5.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.n" "ImageProjectionRig:file5.n";
+connectAttr "ImageProjectionRig:place2dTexture6.vt1" "ImageProjectionRig:file5.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.vt2" "ImageProjectionRig:file5.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.vt3" "ImageProjectionRig:file5.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.vc1" "ImageProjectionRig:file5.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.o" "ImageProjectionRig:file5.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.ofs" "ImageProjectionRig:file5.fs"
+		;
+connectAttr "ImageProjectionRig:expression5.out[0]" "ImageProjectionRig:file5.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression5.tim";
+connectAttr "ImageProjectionRig:file6.oc" "ImageProjectionRig:OB_SuperFront_Mat.c"
+		;
+connectAttr "ImageProjectionRig:file6.ot" "ImageProjectionRig:OB_SuperFront_Mat.it"
+		;
+connectAttr "ImageProjectionRig:OB_SuperFront_Mat.oc" "ImageProjectionRig:lambert8SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert8SG.msg" "ImageProjectionRig:materialInfo7.sg"
+		;
+connectAttr "ImageProjectionRig:OB_SuperFront_Mat.msg" "ImageProjectionRig:materialInfo7.m"
+		;
+connectAttr "ImageProjectionRig:file6.msg" "ImageProjectionRig:materialInfo7.t" 
+		-na;
+connectAttr "ImageProjectionRig:file7.oc" "ImageProjectionRig:OB_Front_Mat.c";
+connectAttr "ImageProjectionRig:file7.ot" "ImageProjectionRig:OB_Front_Mat.it";
+connectAttr "ImageProjectionRig:OB_Front_Mat.oc" "ImageProjectionRig:lambert9SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert9SG.msg" "ImageProjectionRig:materialInfo8.sg"
+		;
+connectAttr "ImageProjectionRig:OB_Front_Mat.msg" "ImageProjectionRig:materialInfo8.m"
+		;
+connectAttr "ImageProjectionRig:file7.msg" "ImageProjectionRig:materialInfo8.t" 
+		-na;
+connectAttr "ImageProjectionRig:file8.oc" "ImageProjectionRig:OB_Mid_Mat.c";
+connectAttr "ImageProjectionRig:file8.ot" "ImageProjectionRig:OB_Mid_Mat.it";
+connectAttr "ImageProjectionRig:OB_Mid_Mat.oc" "ImageProjectionRig:lambert10SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert10SG.msg" "ImageProjectionRig:materialInfo9.sg"
+		;
+connectAttr "ImageProjectionRig:OB_Mid_Mat.msg" "ImageProjectionRig:materialInfo9.m"
+		;
+connectAttr "ImageProjectionRig:file8.msg" "ImageProjectionRig:materialInfo9.t" 
+		-na;
+connectAttr "ImageProjectionRig:file9.oc" "ImageProjectionRig:OB_Back_Mat.c";
+connectAttr "ImageProjectionRig:file9.ot" "ImageProjectionRig:OB_Back_Mat.it";
+connectAttr "ImageProjectionRig:OB_Back_Mat.oc" "ImageProjectionRig:lambert11SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert11SG.msg" "ImageProjectionRig:materialInfo10.sg"
+		;
+connectAttr "ImageProjectionRig:OB_Back_Mat.msg" "ImageProjectionRig:materialInfo10.m"
+		;
+connectAttr "ImageProjectionRig:file9.msg" "ImageProjectionRig:materialInfo10.t"
+		 -na;
+connectAttr "ImageProjectionRig:file10.oc" "ImageProjectionRig:OB_SuperBack_Mat.c"
+		;
+connectAttr "ImageProjectionRig:file10.ot" "ImageProjectionRig:OB_SuperBack_Mat.it"
+		;
+connectAttr "ImageProjectionRig:OB_SuperBack_Mat.oc" "ImageProjectionRig:lambert12SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert12SG.msg" "ImageProjectionRig:materialInfo11.sg"
+		;
+connectAttr "ImageProjectionRig:OB_SuperBack_Mat.msg" "ImageProjectionRig:materialInfo11.m"
+		;
+connectAttr "ImageProjectionRig:file10.msg" "ImageProjectionRig:materialInfo11.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file6.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file6.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file6.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file6.ws";
+connectAttr "ImageProjectionRig:place2dTexture7.c" "ImageProjectionRig:file6.c";
+connectAttr "ImageProjectionRig:place2dTexture7.tf" "ImageProjectionRig:file6.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.rf" "ImageProjectionRig:file6.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.mu" "ImageProjectionRig:file6.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.mv" "ImageProjectionRig:file6.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.s" "ImageProjectionRig:file6.s";
+connectAttr "ImageProjectionRig:place2dTexture7.wu" "ImageProjectionRig:file6.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.wv" "ImageProjectionRig:file6.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.re" "ImageProjectionRig:file6.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.of" "ImageProjectionRig:file6.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.r" "ImageProjectionRig:file6.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.n" "ImageProjectionRig:file6.n";
+connectAttr "ImageProjectionRig:place2dTexture7.vt1" "ImageProjectionRig:file6.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.vt2" "ImageProjectionRig:file6.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.vt3" "ImageProjectionRig:file6.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.vc1" "ImageProjectionRig:file6.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.o" "ImageProjectionRig:file6.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.ofs" "ImageProjectionRig:file6.fs"
+		;
+connectAttr "ImageProjectionRig:expression6.out[0]" "ImageProjectionRig:file6.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression6.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file7.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file7.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file7.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file7.ws";
+connectAttr "ImageProjectionRig:place2dTexture8.c" "ImageProjectionRig:file7.c";
+connectAttr "ImageProjectionRig:place2dTexture8.tf" "ImageProjectionRig:file7.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.rf" "ImageProjectionRig:file7.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.mu" "ImageProjectionRig:file7.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.mv" "ImageProjectionRig:file7.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.s" "ImageProjectionRig:file7.s";
+connectAttr "ImageProjectionRig:place2dTexture8.wu" "ImageProjectionRig:file7.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.wv" "ImageProjectionRig:file7.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.re" "ImageProjectionRig:file7.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.of" "ImageProjectionRig:file7.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.r" "ImageProjectionRig:file7.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.n" "ImageProjectionRig:file7.n";
+connectAttr "ImageProjectionRig:place2dTexture8.vt1" "ImageProjectionRig:file7.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.vt2" "ImageProjectionRig:file7.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.vt3" "ImageProjectionRig:file7.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.vc1" "ImageProjectionRig:file7.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.o" "ImageProjectionRig:file7.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.ofs" "ImageProjectionRig:file7.fs"
+		;
+connectAttr "ImageProjectionRig:expression7.out[0]" "ImageProjectionRig:file7.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression7.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file8.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file8.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file8.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file8.ws";
+connectAttr "ImageProjectionRig:place2dTexture9.c" "ImageProjectionRig:file8.c";
+connectAttr "ImageProjectionRig:place2dTexture9.tf" "ImageProjectionRig:file8.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.rf" "ImageProjectionRig:file8.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.mu" "ImageProjectionRig:file8.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.mv" "ImageProjectionRig:file8.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.s" "ImageProjectionRig:file8.s";
+connectAttr "ImageProjectionRig:place2dTexture9.wu" "ImageProjectionRig:file8.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.wv" "ImageProjectionRig:file8.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.re" "ImageProjectionRig:file8.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.of" "ImageProjectionRig:file8.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.r" "ImageProjectionRig:file8.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.n" "ImageProjectionRig:file8.n";
+connectAttr "ImageProjectionRig:place2dTexture9.vt1" "ImageProjectionRig:file8.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.vt2" "ImageProjectionRig:file8.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.vt3" "ImageProjectionRig:file8.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.vc1" "ImageProjectionRig:file8.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.o" "ImageProjectionRig:file8.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.ofs" "ImageProjectionRig:file8.fs"
+		;
+connectAttr "ImageProjectionRig:expression8.out[0]" "ImageProjectionRig:file8.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression8.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file9.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file9.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file9.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file9.ws";
+connectAttr "ImageProjectionRig:place2dTexture10.c" "ImageProjectionRig:file9.c"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.tf" "ImageProjectionRig:file9.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.rf" "ImageProjectionRig:file9.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.mu" "ImageProjectionRig:file9.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.mv" "ImageProjectionRig:file9.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.s" "ImageProjectionRig:file9.s"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.wu" "ImageProjectionRig:file9.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.wv" "ImageProjectionRig:file9.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.re" "ImageProjectionRig:file9.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.of" "ImageProjectionRig:file9.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.r" "ImageProjectionRig:file9.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.n" "ImageProjectionRig:file9.n"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.vt1" "ImageProjectionRig:file9.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.vt2" "ImageProjectionRig:file9.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.vt3" "ImageProjectionRig:file9.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.vc1" "ImageProjectionRig:file9.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.o" "ImageProjectionRig:file9.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.ofs" "ImageProjectionRig:file9.fs"
+		;
+connectAttr "ImageProjectionRig:expression9.out[0]" "ImageProjectionRig:file9.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression9.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file10.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file10.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file10.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file10.ws";
+connectAttr "ImageProjectionRig:place2dTexture11.c" "ImageProjectionRig:file10.c"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.tf" "ImageProjectionRig:file10.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.rf" "ImageProjectionRig:file10.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.mu" "ImageProjectionRig:file10.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.mv" "ImageProjectionRig:file10.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.s" "ImageProjectionRig:file10.s"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.wu" "ImageProjectionRig:file10.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.wv" "ImageProjectionRig:file10.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.re" "ImageProjectionRig:file10.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.of" "ImageProjectionRig:file10.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.r" "ImageProjectionRig:file10.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.n" "ImageProjectionRig:file10.n"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.vt1" "ImageProjectionRig:file10.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.vt2" "ImageProjectionRig:file10.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.vt3" "ImageProjectionRig:file10.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.vc1" "ImageProjectionRig:file10.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.o" "ImageProjectionRig:file10.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.ofs" "ImageProjectionRig:file10.fs"
+		;
+connectAttr "ImageProjectionRig:expression10.out[0]" "ImageProjectionRig:file10.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression10.tim";
+connectAttr "ImageProjectionRig:makeNurbCircle1.oc" "ImageProjectionRig:transformGeometry1.ig"
+		;
+connectAttr "ImageProjectionRig:polyTweakUV1.out" "ImageProjectionRig:transformGeometry2.ig"
+		;
+connectAttr "ImageProjectionRig:Bear_Superfront_Mat.oc" "ImageProjectionRig:lambert13SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert13SG.msg" "ImageProjectionRig:materialInfo12.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_Superfront_Mat.msg" "ImageProjectionRig:materialInfo12.m"
+		;
+connectAttr "ImageProjectionRig:Bear_Front_Mat.oc" "ImageProjectionRig:lambert14SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert14SG.msg" "ImageProjectionRig:materialInfo13.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_Front_Mat.msg" "ImageProjectionRig:materialInfo13.m"
+		;
+connectAttr "ImageProjectionRig:Bear_Mid_Mat.oc" "ImageProjectionRig:lambert15SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert15SG.msg" "ImageProjectionRig:materialInfo14.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_Mid_Mat.msg" "ImageProjectionRig:materialInfo14.m"
+		;
+connectAttr "ImageProjectionRig:Bear_Back_Mat.oc" "ImageProjectionRig:lambert16SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert16SG.msg" "ImageProjectionRig:materialInfo15.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_Back_Mat.msg" "ImageProjectionRig:materialInfo15.m"
+		;
+connectAttr "ImageProjectionRig:Bear_SuperBack_Mat.oc" "ImageProjectionRig:lambert17SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert17SG.msg" "ImageProjectionRig:materialInfo16.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_SuperBack_Mat.msg" "ImageProjectionRig:materialInfo16.m"
+		;
+connectAttr "layerManager.dli[1]" "ImageProjectionRig:YB_lyr.id";
+connectAttr "layerManager.dli[2]" "ImageProjectionRig:OB_lyr.id";
+connectAttr "layerManager.dli[3]" "ImageProjectionRig:Bear_lyr.id";
+connectAttr "ImageProjectionRig1:renderLayerManager.rlmi[0]" "ImageProjectionRig1:defaultRenderLayer.rlid"
+		;
+connectAttr "ImageProjectionRig1:file1.oc" "ImageProjectionRig1:YB___SuperFront.c"
+		;
+connectAttr "ImageProjectionRig1:file1.ot" "ImageProjectionRig1:YB___SuperFront.it"
+		;
+connectAttr "ImageProjectionRig1:YB___SuperFront.oc" "ImageProjectionRig1:lambert2SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert2SG.msg" "ImageProjectionRig1:materialInfo1.sg"
+		;
+connectAttr "ImageProjectionRig1:YB___SuperFront.msg" "ImageProjectionRig1:materialInfo1.m"
+		;
+connectAttr "ImageProjectionRig1:file1.msg" "ImageProjectionRig1:materialInfo1.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file1.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file1.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file1.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file1.ws";
+connectAttr "ImageProjectionRig1:place2dTexture1.c" "ImageProjectionRig1:file1.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.tf" "ImageProjectionRig1:file1.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.rf" "ImageProjectionRig1:file1.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.mu" "ImageProjectionRig1:file1.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.mv" "ImageProjectionRig1:file1.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.s" "ImageProjectionRig1:file1.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.wu" "ImageProjectionRig1:file1.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.wv" "ImageProjectionRig1:file1.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.re" "ImageProjectionRig1:file1.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.of" "ImageProjectionRig1:file1.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.r" "ImageProjectionRig1:file1.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.n" "ImageProjectionRig1:file1.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.vt1" "ImageProjectionRig1:file1.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.vt2" "ImageProjectionRig1:file1.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.vt3" "ImageProjectionRig1:file1.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.vc1" "ImageProjectionRig1:file1.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.o" "ImageProjectionRig1:file1.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.ofs" "ImageProjectionRig1:file1.fs"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFront.oc" "ImageProjectionRig1:YB_SuperFront2_Mat.c"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFront.ot" "ImageProjectionRig1:YB_SuperFront2_Mat.it"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFront2_Mat.oc" "ImageProjectionRig1:lambert3SG.ss"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFrontShape1.iog" "ImageProjectionRig1:lambert3SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig1:lambert3SG.msg" "ImageProjectionRig1:materialInfo2.sg"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFront2_Mat.msg" "ImageProjectionRig1:materialInfo2.m"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFront.msg" "ImageProjectionRig1:materialInfo2.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:YB_SuperFront.cme"
+		;
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:YB_SuperFront.cmcf"
+		;
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:YB_SuperFront.cmcp"
+		;
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:YB_SuperFront.ws"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.c" "ImageProjectionRig1:YB_SuperFront.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.tf" "ImageProjectionRig1:YB_SuperFront.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.rf" "ImageProjectionRig1:YB_SuperFront.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.mu" "ImageProjectionRig1:YB_SuperFront.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.mv" "ImageProjectionRig1:YB_SuperFront.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.s" "ImageProjectionRig1:YB_SuperFront.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.wu" "ImageProjectionRig1:YB_SuperFront.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.wv" "ImageProjectionRig1:YB_SuperFront.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.re" "ImageProjectionRig1:YB_SuperFront.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.of" "ImageProjectionRig1:YB_SuperFront.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.r" "ImageProjectionRig1:YB_SuperFront.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.n" "ImageProjectionRig1:YB_SuperFront.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.vt1" "ImageProjectionRig1:YB_SuperFront.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.vt2" "ImageProjectionRig1:YB_SuperFront.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.vt3" "ImageProjectionRig1:YB_SuperFront.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.vc1" "ImageProjectionRig1:YB_SuperFront.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.o" "ImageProjectionRig1:YB_SuperFront.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.ofs" "ImageProjectionRig1:YB_SuperFront.fs"
+		;
+connectAttr "ImageProjectionRig1:expression1.out[0]" "ImageProjectionRig1:YB_SuperFront.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression1.tim";
+connectAttr "ImageProjectionRig1:polyPlane1.out" "ImageProjectionRig1:polyTweakUV1.ip"
+		;
+connectAttr "ImageProjectionRig1:file1.msg" "ImageProjectionRig1:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.msg" "ImageProjectionRig1:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
+		;
+connectAttr "ImageProjectionRig1:YB___SuperFront.msg" "ImageProjectionRig1:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert2SG.msg" "ImageProjectionRig1:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
+		;
+connectAttr "ImageProjectionRig1:file2.oc" "ImageProjectionRig1:YB_Front_Mat.c";
+connectAttr "ImageProjectionRig1:file2.ot" "ImageProjectionRig1:YB_Front_Mat.it"
+		;
+connectAttr "ImageProjectionRig1:YB_Front_Mat.oc" "ImageProjectionRig1:lambert4SG.ss"
+		;
+connectAttr "ImageProjectionRig1:YB_FrontShape2.iog" "ImageProjectionRig1:lambert4SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig1:lambert4SG.msg" "ImageProjectionRig1:materialInfo3.sg"
+		;
+connectAttr "ImageProjectionRig1:YB_Front_Mat.msg" "ImageProjectionRig1:materialInfo3.m"
+		;
+connectAttr "ImageProjectionRig1:file2.msg" "ImageProjectionRig1:materialInfo3.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file2.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file2.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file2.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file2.ws";
+connectAttr "ImageProjectionRig1:place2dTexture3.c" "ImageProjectionRig1:file2.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.tf" "ImageProjectionRig1:file2.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.rf" "ImageProjectionRig1:file2.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.mu" "ImageProjectionRig1:file2.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.mv" "ImageProjectionRig1:file2.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.s" "ImageProjectionRig1:file2.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.wu" "ImageProjectionRig1:file2.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.wv" "ImageProjectionRig1:file2.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.re" "ImageProjectionRig1:file2.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.of" "ImageProjectionRig1:file2.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.r" "ImageProjectionRig1:file2.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.n" "ImageProjectionRig1:file2.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.vt1" "ImageProjectionRig1:file2.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.vt2" "ImageProjectionRig1:file2.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.vt3" "ImageProjectionRig1:file2.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.vc1" "ImageProjectionRig1:file2.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.o" "ImageProjectionRig1:file2.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.ofs" "ImageProjectionRig1:file2.fs"
+		;
+connectAttr "ImageProjectionRig1:expression2.out[0]" "ImageProjectionRig1:file2.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression2.tim";
+connectAttr "ImageProjectionRig1:file3.oc" "ImageProjectionRig1:YB_Mid_Mat.c";
+connectAttr "ImageProjectionRig1:file3.ot" "ImageProjectionRig1:YB_Mid_Mat.it";
+connectAttr "ImageProjectionRig1:YB_Mid_Mat.oc" "ImageProjectionRig1:lambert5SG.ss"
+		;
+connectAttr "ImageProjectionRig1:YB_MidShape1.iog" "ImageProjectionRig1:lambert5SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig1:lambert5SG.msg" "ImageProjectionRig1:materialInfo4.sg"
+		;
+connectAttr "ImageProjectionRig1:YB_Mid_Mat.msg" "ImageProjectionRig1:materialInfo4.m"
+		;
+connectAttr "ImageProjectionRig1:file3.msg" "ImageProjectionRig1:materialInfo4.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file3.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file3.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file3.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file3.ws";
+connectAttr "ImageProjectionRig1:place2dTexture4.c" "ImageProjectionRig1:file3.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.tf" "ImageProjectionRig1:file3.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.rf" "ImageProjectionRig1:file3.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.mu" "ImageProjectionRig1:file3.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.mv" "ImageProjectionRig1:file3.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.s" "ImageProjectionRig1:file3.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.wu" "ImageProjectionRig1:file3.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.wv" "ImageProjectionRig1:file3.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.re" "ImageProjectionRig1:file3.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.of" "ImageProjectionRig1:file3.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.r" "ImageProjectionRig1:file3.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.n" "ImageProjectionRig1:file3.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.vt1" "ImageProjectionRig1:file3.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.vt2" "ImageProjectionRig1:file3.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.vt3" "ImageProjectionRig1:file3.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.vc1" "ImageProjectionRig1:file3.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.o" "ImageProjectionRig1:file3.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.ofs" "ImageProjectionRig1:file3.fs"
+		;
+connectAttr "ImageProjectionRig1:expression3.out[0]" "ImageProjectionRig1:file3.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression3.tim";
+connectAttr "ImageProjectionRig1:file4.oc" "ImageProjectionRig1:YB_Back1_Mat.c";
+connectAttr "ImageProjectionRig1:file4.ot" "ImageProjectionRig1:YB_Back1_Mat.it"
+		;
+connectAttr "ImageProjectionRig1:YB_Back1_Mat.oc" "ImageProjectionRig1:lambert6SG.ss"
+		;
+connectAttr "ImageProjectionRig1:YB_BackShape.iog" "ImageProjectionRig1:lambert6SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig1:lambert6SG.msg" "ImageProjectionRig1:materialInfo5.sg"
+		;
+connectAttr "ImageProjectionRig1:YB_Back1_Mat.msg" "ImageProjectionRig1:materialInfo5.m"
+		;
+connectAttr "ImageProjectionRig1:file4.msg" "ImageProjectionRig1:materialInfo5.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file4.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file4.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file4.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file4.ws";
+connectAttr "ImageProjectionRig1:place2dTexture5.c" "ImageProjectionRig1:file4.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.tf" "ImageProjectionRig1:file4.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.rf" "ImageProjectionRig1:file4.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.mu" "ImageProjectionRig1:file4.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.mv" "ImageProjectionRig1:file4.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.s" "ImageProjectionRig1:file4.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.wu" "ImageProjectionRig1:file4.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.wv" "ImageProjectionRig1:file4.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.re" "ImageProjectionRig1:file4.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.of" "ImageProjectionRig1:file4.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.r" "ImageProjectionRig1:file4.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.n" "ImageProjectionRig1:file4.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.vt1" "ImageProjectionRig1:file4.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.vt2" "ImageProjectionRig1:file4.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.vt3" "ImageProjectionRig1:file4.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.vc1" "ImageProjectionRig1:file4.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.o" "ImageProjectionRig1:file4.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.ofs" "ImageProjectionRig1:file4.fs"
+		;
+connectAttr "ImageProjectionRig1:expression4.out[0]" "ImageProjectionRig1:file4.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression4.tim";
+connectAttr "ImageProjectionRig1:file5.oc" "ImageProjectionRig1:YB_SuperBack_Mat.c"
+		;
+connectAttr "ImageProjectionRig1:file5.ot" "ImageProjectionRig1:YB_SuperBack_Mat.it"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperBack_Mat.oc" "ImageProjectionRig1:lambert7SG.ss"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperBack1Shape.iog" "ImageProjectionRig1:lambert7SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig1:lambert7SG.msg" "ImageProjectionRig1:materialInfo6.sg"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperBack_Mat.msg" "ImageProjectionRig1:materialInfo6.m"
+		;
+connectAttr "ImageProjectionRig1:file5.msg" "ImageProjectionRig1:materialInfo6.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file5.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file5.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file5.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file5.ws";
+connectAttr "ImageProjectionRig1:place2dTexture6.c" "ImageProjectionRig1:file5.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.tf" "ImageProjectionRig1:file5.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.rf" "ImageProjectionRig1:file5.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.mu" "ImageProjectionRig1:file5.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.mv" "ImageProjectionRig1:file5.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.s" "ImageProjectionRig1:file5.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.wu" "ImageProjectionRig1:file5.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.wv" "ImageProjectionRig1:file5.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.re" "ImageProjectionRig1:file5.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.of" "ImageProjectionRig1:file5.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.r" "ImageProjectionRig1:file5.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.n" "ImageProjectionRig1:file5.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.vt1" "ImageProjectionRig1:file5.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.vt2" "ImageProjectionRig1:file5.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.vt3" "ImageProjectionRig1:file5.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.vc1" "ImageProjectionRig1:file5.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.o" "ImageProjectionRig1:file5.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.ofs" "ImageProjectionRig1:file5.fs"
+		;
+connectAttr "ImageProjectionRig1:expression5.out[0]" "ImageProjectionRig1:file5.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression5.tim";
+connectAttr "ImageProjectionRig1:file6.oc" "ImageProjectionRig1:OB_SuperFront_Mat.c"
+		;
+connectAttr "ImageProjectionRig1:file6.ot" "ImageProjectionRig1:OB_SuperFront_Mat.it"
+		;
+connectAttr "ImageProjectionRig1:OB_SuperFront_Mat.oc" "ImageProjectionRig1:lambert8SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert8SG.msg" "ImageProjectionRig1:materialInfo7.sg"
+		;
+connectAttr "ImageProjectionRig1:OB_SuperFront_Mat.msg" "ImageProjectionRig1:materialInfo7.m"
+		;
+connectAttr "ImageProjectionRig1:file6.msg" "ImageProjectionRig1:materialInfo7.t"
+		 -na;
+connectAttr "ImageProjectionRig1:file7.oc" "ImageProjectionRig1:OB_Front_Mat.c";
+connectAttr "ImageProjectionRig1:file7.ot" "ImageProjectionRig1:OB_Front_Mat.it"
+		;
+connectAttr "ImageProjectionRig1:OB_Front_Mat.oc" "ImageProjectionRig1:lambert9SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert9SG.msg" "ImageProjectionRig1:materialInfo8.sg"
+		;
+connectAttr "ImageProjectionRig1:OB_Front_Mat.msg" "ImageProjectionRig1:materialInfo8.m"
+		;
+connectAttr "ImageProjectionRig1:file7.msg" "ImageProjectionRig1:materialInfo8.t"
+		 -na;
+connectAttr "ImageProjectionRig1:file8.oc" "ImageProjectionRig1:OB_Mid_Mat.c";
+connectAttr "ImageProjectionRig1:file8.ot" "ImageProjectionRig1:OB_Mid_Mat.it";
+connectAttr "ImageProjectionRig1:OB_Mid_Mat.oc" "ImageProjectionRig1:lambert10SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert10SG.msg" "ImageProjectionRig1:materialInfo9.sg"
+		;
+connectAttr "ImageProjectionRig1:OB_Mid_Mat.msg" "ImageProjectionRig1:materialInfo9.m"
+		;
+connectAttr "ImageProjectionRig1:file8.msg" "ImageProjectionRig1:materialInfo9.t"
+		 -na;
+connectAttr "ImageProjectionRig1:file9.oc" "ImageProjectionRig1:OB_Back_Mat.c";
+connectAttr "ImageProjectionRig1:file9.ot" "ImageProjectionRig1:OB_Back_Mat.it";
+connectAttr "ImageProjectionRig1:OB_Back_Mat.oc" "ImageProjectionRig1:lambert11SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert11SG.msg" "ImageProjectionRig1:materialInfo10.sg"
+		;
+connectAttr "ImageProjectionRig1:OB_Back_Mat.msg" "ImageProjectionRig1:materialInfo10.m"
+		;
+connectAttr "ImageProjectionRig1:file9.msg" "ImageProjectionRig1:materialInfo10.t"
+		 -na;
+connectAttr "ImageProjectionRig1:file10.oc" "ImageProjectionRig1:OB_SuperBack_Mat.c"
+		;
+connectAttr "ImageProjectionRig1:file10.ot" "ImageProjectionRig1:OB_SuperBack_Mat.it"
+		;
+connectAttr "ImageProjectionRig1:OB_SuperBack_Mat.oc" "ImageProjectionRig1:lambert12SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert12SG.msg" "ImageProjectionRig1:materialInfo11.sg"
+		;
+connectAttr "ImageProjectionRig1:OB_SuperBack_Mat.msg" "ImageProjectionRig1:materialInfo11.m"
+		;
+connectAttr "ImageProjectionRig1:file10.msg" "ImageProjectionRig1:materialInfo11.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file6.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file6.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file6.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file6.ws";
+connectAttr "ImageProjectionRig1:place2dTexture7.c" "ImageProjectionRig1:file6.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.tf" "ImageProjectionRig1:file6.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.rf" "ImageProjectionRig1:file6.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.mu" "ImageProjectionRig1:file6.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.mv" "ImageProjectionRig1:file6.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.s" "ImageProjectionRig1:file6.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.wu" "ImageProjectionRig1:file6.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.wv" "ImageProjectionRig1:file6.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.re" "ImageProjectionRig1:file6.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.of" "ImageProjectionRig1:file6.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.r" "ImageProjectionRig1:file6.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.n" "ImageProjectionRig1:file6.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.vt1" "ImageProjectionRig1:file6.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.vt2" "ImageProjectionRig1:file6.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.vt3" "ImageProjectionRig1:file6.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.vc1" "ImageProjectionRig1:file6.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.o" "ImageProjectionRig1:file6.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.ofs" "ImageProjectionRig1:file6.fs"
+		;
+connectAttr "ImageProjectionRig1:expression6.out[0]" "ImageProjectionRig1:file6.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression6.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file7.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file7.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file7.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file7.ws";
+connectAttr "ImageProjectionRig1:place2dTexture8.c" "ImageProjectionRig1:file7.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.tf" "ImageProjectionRig1:file7.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.rf" "ImageProjectionRig1:file7.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.mu" "ImageProjectionRig1:file7.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.mv" "ImageProjectionRig1:file7.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.s" "ImageProjectionRig1:file7.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.wu" "ImageProjectionRig1:file7.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.wv" "ImageProjectionRig1:file7.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.re" "ImageProjectionRig1:file7.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.of" "ImageProjectionRig1:file7.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.r" "ImageProjectionRig1:file7.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.n" "ImageProjectionRig1:file7.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.vt1" "ImageProjectionRig1:file7.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.vt2" "ImageProjectionRig1:file7.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.vt3" "ImageProjectionRig1:file7.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.vc1" "ImageProjectionRig1:file7.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.o" "ImageProjectionRig1:file7.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.ofs" "ImageProjectionRig1:file7.fs"
+		;
+connectAttr "ImageProjectionRig1:expression7.out[0]" "ImageProjectionRig1:file7.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression7.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file8.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file8.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file8.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file8.ws";
+connectAttr "ImageProjectionRig1:place2dTexture9.c" "ImageProjectionRig1:file8.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.tf" "ImageProjectionRig1:file8.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.rf" "ImageProjectionRig1:file8.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.mu" "ImageProjectionRig1:file8.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.mv" "ImageProjectionRig1:file8.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.s" "ImageProjectionRig1:file8.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.wu" "ImageProjectionRig1:file8.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.wv" "ImageProjectionRig1:file8.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.re" "ImageProjectionRig1:file8.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.of" "ImageProjectionRig1:file8.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.r" "ImageProjectionRig1:file8.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.n" "ImageProjectionRig1:file8.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.vt1" "ImageProjectionRig1:file8.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.vt2" "ImageProjectionRig1:file8.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.vt3" "ImageProjectionRig1:file8.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.vc1" "ImageProjectionRig1:file8.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.o" "ImageProjectionRig1:file8.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.ofs" "ImageProjectionRig1:file8.fs"
+		;
+connectAttr "ImageProjectionRig1:expression8.out[0]" "ImageProjectionRig1:file8.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression8.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file9.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file9.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file9.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file9.ws";
+connectAttr "ImageProjectionRig1:place2dTexture10.c" "ImageProjectionRig1:file9.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.tf" "ImageProjectionRig1:file9.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.rf" "ImageProjectionRig1:file9.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.mu" "ImageProjectionRig1:file9.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.mv" "ImageProjectionRig1:file9.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.s" "ImageProjectionRig1:file9.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.wu" "ImageProjectionRig1:file9.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.wv" "ImageProjectionRig1:file9.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.re" "ImageProjectionRig1:file9.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.of" "ImageProjectionRig1:file9.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.r" "ImageProjectionRig1:file9.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.n" "ImageProjectionRig1:file9.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.vt1" "ImageProjectionRig1:file9.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.vt2" "ImageProjectionRig1:file9.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.vt3" "ImageProjectionRig1:file9.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.vc1" "ImageProjectionRig1:file9.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.o" "ImageProjectionRig1:file9.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.ofs" "ImageProjectionRig1:file9.fs"
+		;
+connectAttr "ImageProjectionRig1:expression9.out[0]" "ImageProjectionRig1:file9.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression9.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig1:file10.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig1:file10.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig1:file10.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig1:file10.ws";
+connectAttr "ImageProjectionRig1:place2dTexture11.c" "ImageProjectionRig1:file10.c"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.tf" "ImageProjectionRig1:file10.tf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.rf" "ImageProjectionRig1:file10.rf"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.mu" "ImageProjectionRig1:file10.mu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.mv" "ImageProjectionRig1:file10.mv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.s" "ImageProjectionRig1:file10.s"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.wu" "ImageProjectionRig1:file10.wu"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.wv" "ImageProjectionRig1:file10.wv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.re" "ImageProjectionRig1:file10.re"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.of" "ImageProjectionRig1:file10.of"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.r" "ImageProjectionRig1:file10.ro"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.n" "ImageProjectionRig1:file10.n"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.vt1" "ImageProjectionRig1:file10.vt1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.vt2" "ImageProjectionRig1:file10.vt2"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.vt3" "ImageProjectionRig1:file10.vt3"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.vc1" "ImageProjectionRig1:file10.vc1"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.o" "ImageProjectionRig1:file10.uv"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.ofs" "ImageProjectionRig1:file10.fs"
+		;
+connectAttr "ImageProjectionRig1:expression10.out[0]" "ImageProjectionRig1:file10.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig1:expression10.tim";
+connectAttr "ImageProjectionRig1:makeNurbCircle1.oc" "ImageProjectionRig1:transformGeometry1.ig"
+		;
+connectAttr "ImageProjectionRig1:polyTweakUV1.out" "ImageProjectionRig1:transformGeometry2.ig"
+		;
+connectAttr "ImageProjectionRig1:Bear_Superfront_Mat.oc" "ImageProjectionRig1:lambert13SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert13SG.msg" "ImageProjectionRig1:materialInfo12.sg"
+		;
+connectAttr "ImageProjectionRig1:Bear_Superfront_Mat.msg" "ImageProjectionRig1:materialInfo12.m"
+		;
+connectAttr "ImageProjectionRig1:Bear_Front_Mat.oc" "ImageProjectionRig1:lambert14SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert14SG.msg" "ImageProjectionRig1:materialInfo13.sg"
+		;
+connectAttr "ImageProjectionRig1:Bear_Front_Mat.msg" "ImageProjectionRig1:materialInfo13.m"
+		;
+connectAttr "ImageProjectionRig1:Bear_Mid_Mat.oc" "ImageProjectionRig1:lambert15SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert15SG.msg" "ImageProjectionRig1:materialInfo14.sg"
+		;
+connectAttr "ImageProjectionRig1:Bear_Mid_Mat.msg" "ImageProjectionRig1:materialInfo14.m"
+		;
+connectAttr "ImageProjectionRig1:Bear_Back_Mat.oc" "ImageProjectionRig1:lambert16SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert16SG.msg" "ImageProjectionRig1:materialInfo15.sg"
+		;
+connectAttr "ImageProjectionRig1:Bear_Back_Mat.msg" "ImageProjectionRig1:materialInfo15.m"
+		;
+connectAttr "ImageProjectionRig1:Bear_SuperBack_Mat.oc" "ImageProjectionRig1:lambert17SG.ss"
+		;
+connectAttr "ImageProjectionRig1:lambert17SG.msg" "ImageProjectionRig1:materialInfo16.sg"
+		;
+connectAttr "ImageProjectionRig1:Bear_SuperBack_Mat.msg" "ImageProjectionRig1:materialInfo16.m"
+		;
+connectAttr "layerManager.dli[4]" "ImageProjectionRig1:YB_lyr.id";
+connectAttr "layerManager.dli[5]" "ImageProjectionRig1:OB_lyr.id";
+connectAttr "layerManager.dli[6]" "ImageProjectionRig1:Bear_lyr.id";
+connectAttr "ImageProjectionRig1:polyPlane1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
+		;
+connectAttr "ImageProjectionRig1:defaultRenderLayer.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
+		;
+connectAttr "ImageProjectionRig1:YB___SuperFront.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert2SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFront2_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[4].dn"
+		;
+connectAttr "ImageProjectionRig1:file1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[5].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[6].dn"
+		;
+connectAttr "ImageProjectionRig1:expression1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[7].dn"
+		;
+connectAttr "ImageProjectionRig1:polyTweakUV1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[8].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_Front_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[9].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[10].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert3SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[11].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFront.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[12].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperBack1Shape.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[13].dn"
+		;
+connectAttr "front1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[14].dn";
+connectAttr "front1Shape.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[15].dn";
+connectAttr "ImageProjectionRig:group1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[16].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_Front2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[17].dn"
+		;
+connectAttr "ImageProjectionRig:YB_SuperBack1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[18].dn"
+		;
+connectAttr "|camera1|OB_Proj_Rig.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[19].dn"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[20].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[21].dn"
+		;
+connectAttr "ImageProjectionRig:YB___SuperFront.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[22].dn"
+		;
+connectAttr "ImageProjectionRig:YB_SuperBack1Shape.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[23].dn"
+		;
+connectAttr "ImageProjectionRig:YB_MidShape1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[24].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_Back.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[25].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_BackShape.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[26].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_MidShape1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[27].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFrontShape1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[28].dn"
+		;
+connectAttr "ImageProjectionRig:lambert2SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[29].dn"
+		;
+connectAttr "ImageProjectionRig:file1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[30].dn"
+		;
+connectAttr "ImageProjectionRig:polyPlane1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[31].dn"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront2_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[32].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[33].dn"
+		;
+connectAttr "|camera1|OB_Proj_Rig|OB_Proj_Rig.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[34].dn"
+		;
+connectAttr "ImageProjectionRig1:group1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[35].dn"
+		;
+connectAttr "YB_Proj_Rig.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[36].dn";
+connectAttr "ImageProjectionRig:YB_Mid1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[37].dn"
+		;
+connectAttr "ImageProjectionRig:YB_BackShape.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[38].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_Mid1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[39].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFront1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[40].dn"
+		;
+connectAttr "ImageProjectionRig:YB_FrontShape2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[41].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_FrontShape2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[42].dn"
+		;
+connectAttr "ImageProjectionRig:expression1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[43].dn"
+		;
+connectAttr "ImageProjectionRig:YB_Front2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[44].dn"
+		;
+connectAttr "ImageProjectionRig:YB_Back.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[45].dn"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[46].dn"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFrontShape1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[47].dn"
+		;
+connectAttr "YB_Proj_RigShape.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[48].dn"
+		;
+connectAttr "ImageProjectionRig:defaultRenderLayer.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[49].dn"
+		;
+connectAttr "ImageProjectionRig:lambert3SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[50].dn"
+		;
+connectAttr "ImageProjectionRig:polyTweakUV1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[51].dn"
+		;
+connectAttr "ImageProjectionRig:YB_Front_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[52].dn"
+		;
+connectAttr "ImageProjectionRig:expression2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[53].dn"
+		;
+connectAttr "ImageProjectionRig:lambert4SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[54].dn"
+		;
+connectAttr "ImageProjectionRig:file2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[55].dn"
+		;
+connectAttr "ImageProjectionRig:YB_Mid_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[56].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[57].dn"
+		;
+connectAttr "ImageProjectionRig:lambert5SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[58].dn"
+		;
+connectAttr "ImageProjectionRig:file3.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[59].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[60].dn"
+		;
+connectAttr "ImageProjectionRig:expression3.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[61].dn"
+		;
+connectAttr "ImageProjectionRig:file6.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[62].dn"
+		;
+connectAttr "ImageProjectionRig:file10.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[63].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperBack1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[64].dn"
+		;
+connectAttr "ImageProjectionRig:expression10.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[65].dn"
+		;
+connectAttr "ImageProjectionRig:file8.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[66].dn"
+		;
+connectAttr "ImageProjectionRig:lambert11SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[67].dn"
+		;
+connectAttr "ImageProjectionRig:OB_Front_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[68].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[69].dn"
+		;
+connectAttr "ImageProjectionRig:file4.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[70].dn"
+		;
+connectAttr "ImageProjectionRig:OB_Mid_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[71].dn"
+		;
+connectAttr "ImageProjectionRig:lambert8SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[72].dn"
+		;
+connectAttr "ImageProjectionRig:OB_Back_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[73].dn"
+		;
+connectAttr "ImageProjectionRig:expression4.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[74].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[75].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[76].dn"
+		;
+connectAttr "ImageProjectionRig:YB_Back1_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[77].dn"
+		;
+connectAttr "ImageProjectionRig:expression7.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[78].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[79].dn"
+		;
+connectAttr "ImageProjectionRig:expression8.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[80].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[81].dn"
+		;
+connectAttr "ImageProjectionRig:Bear_Superfront_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[82].dn"
+		;
+connectAttr "ImageProjectionRig:lambert13SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[83].dn"
+		;
+connectAttr "ImageProjectionRig:Bear_Front_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[84].dn"
+		;
+connectAttr "ImageProjectionRig:lambert14SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[85].dn"
+		;
+connectAttr "ImageProjectionRig:lambert7SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[86].dn"
+		;
+connectAttr "ImageProjectionRig:lambert12SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[87].dn"
+		;
+connectAttr "ImageProjectionRig:Bear_Mid_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[88].dn"
+		;
+connectAttr "ImageProjectionRig:lambert15SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[89].dn"
+		;
+connectAttr "ImageProjectionRig:expression6.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[90].dn"
+		;
+connectAttr "ImageProjectionRig:lambert9SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[91].dn"
+		;
+connectAttr "ImageProjectionRig:file9.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[92].dn"
+		;
+connectAttr "ImageProjectionRig:Bear_Back_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[93].dn"
+		;
+connectAttr "ImageProjectionRig:OB_SuperFront_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[94].dn"
+		;
+connectAttr "ImageProjectionRig:lambert16SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[95].dn"
+		;
+connectAttr "ImageProjectionRig:Bear_SuperBack_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[96].dn"
+		;
+connectAttr "ImageProjectionRig:YB_lyr.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[97].dn"
+		;
+connectAttr "ImageProjectionRig:OB_lyr.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[98].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[99].dn"
+		;
+connectAttr "ImageProjectionRig:lambert10SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[100].dn"
+		;
+connectAttr "ImageProjectionRig:transformGeometry2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[101].dn"
+		;
+connectAttr "ImageProjectionRig:file7.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[102].dn"
+		;
+connectAttr "ImageProjectionRig:lambert6SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[103].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[104].dn"
+		;
+connectAttr "ImageProjectionRig:file5.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[105].dn"
+		;
+connectAttr "ImageProjectionRig:expression9.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[106].dn"
+		;
+connectAttr "ImageProjectionRig:OB_SuperBack_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[107].dn"
+		;
+connectAttr "ImageProjectionRig:YB_SuperBack_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[108].dn"
+		;
+connectAttr "ImageProjectionRig:expression5.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[109].dn"
+		;
+connectAttr "ImageProjectionRig:makeNurbCircle1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[110].dn"
+		;
+connectAttr "ImageProjectionRig:transformGeometry1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[111].dn"
+		;
+connectAttr "ImageProjectionRig:lambert17SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[112].dn"
+		;
+connectAttr "ImageProjectionRig:Bear_lyr.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[113].dn"
+		;
+connectAttr "ImageProjectionRig1:Bear_lyr.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[114].dn"
+		;
+connectAttr "ImageProjectionRig1:file8.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[115].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert11SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[116].dn"
+		;
+connectAttr "ImageProjectionRig1:file7.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[117].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture10.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[118].dn"
+		;
+connectAttr "ImageProjectionRig1:file6.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[119].dn"
+		;
+connectAttr "ImageProjectionRig1:file10.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[120].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_lyr.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[121].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert14SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[122].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture9.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[123].dn"
+		;
+connectAttr "ImageProjectionRig1:transformGeometry1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[124].dn"
+		;
+connectAttr "ImageProjectionRig1:OB_lyr.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[125].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert15SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[126].dn"
+		;
+connectAttr "ImageProjectionRig1:expression9.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[127].dn"
+		;
+connectAttr "ImageProjectionRig1:makeNurbCircle1.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[128].dn"
+		;
+connectAttr "ImageProjectionRig1:OB_Back_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[129].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture7.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[130].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture8.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[131].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture11.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[132].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert12SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[133].dn"
+		;
+connectAttr "ImageProjectionRig1:Bear_Front_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[134].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert13SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[135].dn"
+		;
+connectAttr "ImageProjectionRig1:Bear_Back_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[136].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert16SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[137].dn"
+		;
+connectAttr "ImageProjectionRig1:expression6.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[138].dn"
+		;
+connectAttr "ImageProjectionRig1:expression7.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[139].dn"
+		;
+connectAttr "ImageProjectionRig1:expression8.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[140].dn"
+		;
+connectAttr "ImageProjectionRig1:expression10.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[141].dn"
+		;
+connectAttr "ImageProjectionRig1:Bear_Superfront_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[142].dn"
+		;
+connectAttr "ImageProjectionRig1:Bear_SuperBack_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[143].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert17SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[144].dn"
+		;
+connectAttr "ImageProjectionRig1:OB_SuperBack_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[145].dn"
+		;
+connectAttr "ImageProjectionRig1:transformGeometry2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[146].dn"
+		;
+connectAttr "ImageProjectionRig1:file9.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[147].dn"
+		;
+connectAttr "ImageProjectionRig1:Bear_Mid_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[148].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert9SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[149].dn"
+		;
+connectAttr "ImageProjectionRig1:OB_Mid_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[150].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert10SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[151].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert7SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[152].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_Mid_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[153].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert5SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[154].dn"
+		;
+connectAttr "ImageProjectionRig1:file3.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[155].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_Back1_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[156].dn"
+		;
+connectAttr "ImageProjectionRig1:file4.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[157].dn"
+		;
+connectAttr "ImageProjectionRig1:expression4.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[158].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert6SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[159].dn"
+		;
+connectAttr "ImageProjectionRig1:file5.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[160].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture6.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[161].dn"
+		;
+connectAttr "ImageProjectionRig1:expression5.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[162].dn"
+		;
+connectAttr "ImageProjectionRig1:OB_Front_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[163].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture4.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[164].dn"
+		;
+connectAttr "ImageProjectionRig1:expression3.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[165].dn"
+		;
+connectAttr "ImageProjectionRig1:YB_SuperBack_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[166].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert8SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[167].dn"
+		;
+connectAttr "ImageProjectionRig1:OB_SuperFront_Mat.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[168].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture5.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[169].dn"
+		;
+connectAttr "ImageProjectionRig1:lambert4SG.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[170].dn"
+		;
+connectAttr "ImageProjectionRig1:file2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[171].dn"
+		;
+connectAttr "ImageProjectionRig1:place2dTexture3.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[172].dn"
+		;
+connectAttr "ImageProjectionRig1:expression2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[173].dn"
+		;
+connectAttr "cameraShape2.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[174].dn";
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
+connectAttr "cubeFogSG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert2SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert3SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert4SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert5SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert6SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert7SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert8SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert9SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert10SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert11SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert12SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert13SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert14SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert15SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert16SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert17SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert2SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert3SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert4SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert5SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert6SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert7SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert8SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert9SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert10SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert11SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert12SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert13SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert14SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert15SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert16SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig1:lambert17SG.pa" ":renderPartition.st" -na;
 connectAttr "water.msg" ":defaultShaderList1.s" -na;
+connectAttr "cubeFog.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:YB___SuperFront.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront2_Mat.msg" ":defaultShaderList1.s" 
+		-na;
+connectAttr "ImageProjectionRig:YB_Front_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:YB_Mid_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:YB_Back1_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:YB_SuperBack_Mat.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig:OB_SuperFront_Mat.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig:OB_Front_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:OB_Mid_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:OB_Back_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:OB_SuperBack_Mat.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig:Bear_Superfront_Mat.msg" ":defaultShaderList1.s"
+		 -na;
+connectAttr "ImageProjectionRig:Bear_Front_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:Bear_Mid_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:Bear_Back_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:Bear_SuperBack_Mat.msg" ":defaultShaderList1.s" 
+		-na;
+connectAttr "ImageProjectionRig1:YB___SuperFront.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig1:YB_SuperFront2_Mat.msg" ":defaultShaderList1.s"
+		 -na;
+connectAttr "ImageProjectionRig1:YB_Front_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig1:YB_Mid_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig1:YB_Back1_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig1:YB_SuperBack_Mat.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig1:OB_SuperFront_Mat.msg" ":defaultShaderList1.s" 
+		-na;
+connectAttr "ImageProjectionRig1:OB_Front_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig1:OB_Mid_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig1:OB_Back_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig1:OB_SuperBack_Mat.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig1:Bear_Superfront_Mat.msg" ":defaultShaderList1.s"
+		 -na;
+connectAttr "ImageProjectionRig1:Bear_Front_Mat.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig1:Bear_Mid_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig1:Bear_Back_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig1:Bear_SuperBack_Mat.msg" ":defaultShaderList1.s"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture1.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture2.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture3.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture4.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture5.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture6.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture7.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture8.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture9.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture10.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture11.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture1.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture2.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture3.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture4.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture5.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture6.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture7.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture8.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture9.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture10.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig1:place2dTexture11.msg" ":defaultRenderUtilityList1.u"
+		 -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
+connectAttr "rs_Foreground.msg" ":defaultRenderingList1.r" -na;
+connectAttr "rs_Background.msg" ":defaultRenderingList1.r" -na;
+connectAttr "ImageProjectionRig:defaultRenderLayer.msg" ":defaultRenderingList1.r"
+		 -na;
+connectAttr "ImageProjectionRig1:defaultRenderLayer.msg" ":defaultRenderingList1.r"
+		 -na;
+connectAttr "ambientLightShape1.ltd" ":lightList1.l" -na;
+connectAttr "directionalLightShape1.ltd" ":lightList1.l" -na;
+connectAttr "directionalLightShape2.ltd" ":lightList1.l" -na;
+connectAttr "ImageProjectionRig:file1.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:YB_SuperFront.msg" ":defaultTextureList1.tx" -na
+		;
+connectAttr "ImageProjectionRig:file2.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file3.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file4.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file5.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file6.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file7.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file8.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file9.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file10.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:file1.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:YB_SuperFront.msg" ":defaultTextureList1.tx" -na
+		;
+connectAttr "ImageProjectionRig1:file2.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:file3.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:file4.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:file5.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:file6.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:file7.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:file8.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:file9.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig1:file10.msg" ":defaultTextureList1.tx" -na;
 connectAttr "pPlaneShape1.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape1.ciog.cog[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape4.iog.og[0]" ":initialShadingGroup.dsm" -na;
@@ -17915,4 +21467,7 @@ connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId6.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId7.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId10.msg" ":initialShadingGroup.gn" -na;
+connectAttr "ambientLight1.iog" ":defaultLightSet.dsm" -na;
+connectAttr "directionalLight1.iog" ":defaultLightSet.dsm" -na;
+connectAttr "directionalLight2.iog" ":defaultLightSet.dsm" -na;
 // End of Collin_Anderson_Scene.ma
