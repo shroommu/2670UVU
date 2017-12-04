@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: AnnaRunSet.ma
-//Last modified: Fri, Dec 01, 2017 05:20:48 PM
+//Last modified: Mon, Dec 04, 2017 08:56:28 AM
 //Codeset: 1252
 file -rdi 1 -ns "Bamboo_DE" -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE1" -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -139,6 +139,29 @@ file -rdi 1 -ns "AddisonM_Rock2" -rfn "AddisonM_Rock2RN" -op "v=0;" -typ "mayaAs
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -rdi 1 -ns "AnotherRock_JonathanFranklin1" -rfn "AnotherRock_JonathanFranklinRN1"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -rdi 1 -ns "PalmTree_SC" -rfn "PalmTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC1" -rfn "PalmTree_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC2" -rfn "PalmTree_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "ShortPalm_SC" -rfn "ShortPalm_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -rdi 1 -ns "ShortPalm_SC1" -rfn "ShortPalm_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -rdi 1 -ns "ShortPalm_SC2" -rfn "ShortPalm_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -rdi 1 -ns "SmallBush_SC" -rfn "SmallBush_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC1" -rfn "SmallBush_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC2" -rfn "SmallBush_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC3" -rfn "SmallBush_SC2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC4" -rfn "SmallBush_SC3RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC5" -rfn "SmallBush_SC4RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC6" -rfn "SmallBush_SC5RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC7" -rfn "SmallBush_SC6RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC8" -rfn "SmallBush_SC7RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC9" -rfn "SmallBush_SC8RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC10" -rfn "SmallBush_SC9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC11" -rfn "SmallBush_SC10RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC12" -rfn "SmallBush_SC11RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC13" -rfn "SmallBush_SC12RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
 file -r -ns "Bamboo_DE" -dr 1 -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE1" -dr 1 -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE2" -dr 1 -rfn "Bamboo_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -276,6 +299,29 @@ file -r -ns "AddisonM_Rock2" -dr 1 -rfn "AddisonM_Rock2RN" -op "v=0;" -typ "maya
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -r -ns "AnotherRock_JonathanFranklin1" -dr 1 -rfn "AnotherRock_JonathanFranklinRN1"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
+file -r -ns "PalmTree_SC" -dr 1 -rfn "PalmTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC1" -dr 1 -rfn "PalmTree_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC2" -dr 1 -rfn "PalmTree_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "ShortPalm_SC" -dr 1 -rfn "ShortPalm_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -r -ns "ShortPalm_SC1" -dr 1 -rfn "ShortPalm_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -r -ns "ShortPalm_SC2" -dr 1 -rfn "ShortPalm_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -r -ns "SmallBush_SC" -dr 1 -rfn "SmallBush_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC1" -dr 1 -rfn "SmallBush_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC2" -dr 1 -rfn "SmallBush_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC3" -dr 1 -rfn "SmallBush_SC2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC4" -dr 1 -rfn "SmallBush_SC3RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC5" -dr 1 -rfn "SmallBush_SC4RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC6" -dr 1 -rfn "SmallBush_SC5RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC7" -dr 1 -rfn "SmallBush_SC6RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC8" -dr 1 -rfn "SmallBush_SC7RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC9" -dr 1 -rfn "SmallBush_SC8RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC10" -dr 1 -rfn "SmallBush_SC9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC11" -dr 1 -rfn "SmallBush_SC10RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC12" -dr 1 -rfn "SmallBush_SC11RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC13" -dr 1 -rfn "SmallBush_SC12RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
 requires maya "2017ff05";
 requires -nodeType "houdiniAsset" "houdiniEngine" "3.0 (API: 60)";
 requires "stereoCamera" "10.0";
@@ -289,21 +335,13 @@ fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
-	setAttr ".t" -type "double3" 93.719826937444509 42.90747691554126 43.243424542112038 ;
-	setAttr -av ".tx";
-	setAttr -av ".ty";
-	setAttr -av ".tz";
-	setAttr ".r" -type "double3" 327.26164202934405 5851.3999999991902 1.2722218725854067e-013 ;
-	setAttr -av ".rx";
-	setAttr -av ".ry";
-	setAttr -av ".rz";
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 1.7849976010464665e-016 7.0344876724068756e-018 -1.2679258421052118e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E27FED8-4A03-85C0-4E37-7C837D701059";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 75.142733485000718;
+	setAttr ".coi" 63.673779713631092;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -550,42 +588,6 @@ createNode houdiniAsset -n "Palm_Tree1";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Palm_Tree1";
 	rename -uid "8F3CA7A8-4413-E2A9-8337-3190C766437D";
-createNode transform -n "merge3_0" -p "|Palm_Tree1|line_object1";
-	rename -uid "2B9731CD-4BCF-6829-FFA8-2FAB2E564715";
-createNode mesh -n "merge3_0Shape" -p "|Palm_Tree1|line_object1|merge3_0";
-	rename -uid "E246E239-479E-2E5D-0804-ED852959ECF8";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "merge3_1" -p "|Palm_Tree1|line_object1";
-	rename -uid "A9135C06-4085-685C-0131-3F8C3D95A5BA";
-createNode mesh -n "merge3_1Shape" -p "|Palm_Tree1|line_object1|merge3_1";
-	rename -uid "9C00286B-43CA-93B2-8874-D3896C1EE0B1";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Tree_Anna1";
 	rename -uid "AFD60BAD-4519-B710-2F38-D2BBD453BA0D";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -899,24 +901,6 @@ createNode houdiniAsset -n "Small_Bush1";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush1";
 	rename -uid "F4639C10-4F1F-D29C-E66B-F19C226B1EBB";
-createNode transform -n "color1_0" -p "|Small_Bush1|line_object1";
-	rename -uid "9CF8FB87-4675-AB17-7A0A-279C5C48882D";
-	setAttr ".t" -type "double3" -13.349525701490958 0 37.718251049534942 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush1|line_object1|color1_0";
-	rename -uid "15404DDD-42F8-C854-C923-6487A799F7DB";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush2";
 	rename -uid "D24F48BA-4FBC-2787-3505-DCAFBA72047F";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -1005,25 +989,6 @@ createNode houdiniAsset -n "Small_Bush2";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush2";
 	rename -uid "79411520-41BF-95DC-EB5D-E3A673AFE4F9";
-createNode transform -n "color1_0" -p "|Small_Bush2|line_object1";
-	rename -uid "47755C38-40B2-3AB1-77F6-B99B5DE1FB37";
-	setAttr ".t" -type "double3" -14.419432706410642 0 25.032405731152149 ;
-	setAttr ".r" -type "double3" 0 72.091009737961073 0 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush2|line_object1|color1_0";
-	rename -uid "43031185-40A4-A593-4585-7296459C68F3";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush3";
 	rename -uid "62704C2C-47F3-F0BC-121A-9780F734B6BD";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -1112,26 +1077,6 @@ createNode houdiniAsset -n "Small_Bush3";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush3";
 	rename -uid "96D66E64-4A77-147F-8BE9-B0BAB5F2DFD1";
-createNode transform -n "color1_0" -p "|Small_Bush3|line_object1";
-	rename -uid "859B3D1F-471F-61A4-2E31-26B963C3FAF6";
-	setAttr ".t" -type "double3" -9.741154773343311 0 29.295742764097739 ;
-	setAttr ".r" -type "double3" 0 -88.808267695890336 0 ;
-	setAttr ".s" -type "double3" 1.3109864233517026 1.3109864233517026 1.3109864233517026 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush3|line_object1|color1_0";
-	rename -uid "11222199-4AA2-AF47-A3B4-B2A7B5140F18";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush4";
 	rename -uid "9685DC9E-48DB-FB5E-CEBF-8497AEC91F25";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -1220,25 +1165,6 @@ createNode houdiniAsset -n "Small_Bush4";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush4";
 	rename -uid "24D4F58A-49D3-1323-C055-E9AE3F8B40B8";
-createNode transform -n "color1_0" -p "|Small_Bush4|line_object1";
-	rename -uid "698A3805-46B5-EA0F-CC73-CAB731DDB218";
-	setAttr ".t" -type "double3" 46.980996654191948 0 76.18621307929412 ;
-	setAttr ".s" -type "double3" 1.4904004251314287 1.4904004251314287 1.4904004251314287 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush4|line_object1|color1_0";
-	rename -uid "7C28E57E-43E2-9332-F361-FE9042419685";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush5";
 	rename -uid "3F0994A3-4067-F51A-F17C-FCBF8EC2ED85";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -1327,269 +1253,6 @@ createNode houdiniAsset -n "Small_Bush5";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush5";
 	rename -uid "FF418F8C-4ED1-D0BB-1357-BD8ED0F3E9B6";
-createNode transform -n "color1_0" -p "|Small_Bush5|line_object1";
-	rename -uid "9B695556-42DA-F77B-2692-988C9A555AB4";
-	setAttr ".t" -type "double3" 50.653364158726198 0 27.404676302494853 ;
-	setAttr ".r" -type "double3" 0 106.0071313412631 0 ;
-	setAttr ".s" -type "double3" 2.1064802537853029 2.1064802537853029 2.1064802537853029 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush5|line_object1|color1_0";
-	rename -uid "7E6F9A7C-4F6C-0C8B-6C19-59892E5AF0E0";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "shaun_bush_fern1";
-	rename -uid "5C782CE1-4594-2752-2811-13ACA30FAD50";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		9;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
-		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
-		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
-		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
-		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
-		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
-		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
-		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
-		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
-	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
-		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
-		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
-		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
-		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
-		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
-		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
-		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
-		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
-		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
-		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
-		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
-	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
-		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
-		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
-	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
-		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
-		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
-		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
-		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
-		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
-		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
-	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
-		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
-		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
-		-p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
-		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
-		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
-		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
-		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
-		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
-		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
-		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
-		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
-		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
-		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
-		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
-		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
-		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
-		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
-		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
-		3;
-	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
-		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
-		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
-		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
-		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
-		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
-		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
-		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
-		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
-	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
-	setAttr ".houdiniAssetParm_categories" -type "string" "";
-	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
-	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
-	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
-	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
-	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
-	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
-	setAttr ".houdiniAssetParm_vm_pointscale" 1;
-	setAttr ".houdiniAssetParm_vm_coving" 1;
-	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
-	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
-	setAttr ".houdiniAssetParm_use_dcolor" yes;
-	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-	setAttr ".houdiniAssetParm_renderable" yes;
-	setAttr ".houdiniAssetParm_Branches" 10;
-	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
-	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
-	setAttr ".houdiniAssetParm_Size" 0.5;
-	setAttr ".houdiniAssetParm_Leaf" 7.5;
-createNode transform -n "shaun_bush_fern1" -p "|shaun_bush_fern1";
-	rename -uid "5E4B58C2-440D-A8C8-8ECC-AAABEC323EA8";
-createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern1|shaun_bush_fern1";
-	rename -uid "1DF0C76E-48EC-53B8-60A3-139D9285ED6C";
-	setAttr ".t" -type "double3" -10.780522520972111 0 34.659484368143566 ;
-	setAttr ".r" -type "double3" 0 51.201256440185979 0 ;
-	setAttr ".s" -type "double3" 1.9947279212087274 1.9947279212087274 1.9947279212087274 ;
-createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0";
-	rename -uid "0A1D3245-4C81-F623-F6B4-CA989E036C12";
-	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
-	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
-	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
-	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
-	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
-	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush6";
 	rename -uid "A78476F8-493C-0247-1640-C89E28D4E18D";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -1678,25 +1341,6 @@ createNode houdiniAsset -n "Small_Bush6";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush6";
 	rename -uid "912DF227-43B0-114E-C67D-DB9C239D3CE9";
-createNode transform -n "color1_0" -p "|Small_Bush6|line_object1";
-	rename -uid "6A81F0DD-464E-C06B-6683-B9AFCD780901";
-	setAttr ".t" -type "double3" 38.752062313193996 0 38.935107348155022 ;
-	setAttr ".r" -type "double3" 0 -81.310891229877896 0 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush6|line_object1|color1_0";
-	rename -uid "A029DAC7-42D9-9AA2-33DD-EDAA18ACF70D";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush7";
 	rename -uid "2556462A-44FF-2881-6EF4-69AD8334B2ED";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -1785,26 +1429,6 @@ createNode houdiniAsset -n "Small_Bush7";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush7";
 	rename -uid "C94BD1F5-4D37-5ECD-657D-AABBC20E10B2";
-createNode transform -n "color1_0" -p "|Small_Bush7|line_object1";
-	rename -uid "F0D969B9-480E-6282-C356-4D83C3350F81";
-	setAttr ".t" -type "double3" -12.315742437600186 -0.62793406256506046 67.378553614636118 ;
-	setAttr ".r" -type "double3" 0 59.157322764748351 0 ;
-	setAttr ".s" -type "double3" 1.2028545404082005 1.2028545404082005 1.2028545404082005 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush7|line_object1|color1_0";
-	rename -uid "76326782-4DCE-AB4B-44D4-37B33772A64E";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Palm_Tree2";
 	rename -uid "8A728D53-42B4-DC3E-24CF-E0BBA36444BF";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -1896,42 +1520,6 @@ createNode houdiniAsset -n "Palm_Tree2";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Palm_Tree2";
 	rename -uid "F89BC10E-4C8F-C435-ABE2-4EBDE373B92B";
-createNode transform -n "merge3_0" -p "|Palm_Tree2|line_object1";
-	rename -uid "09050AE8-43E1-0630-9C5C-0BA15DEE919B";
-createNode mesh -n "merge3_0Shape" -p "|Palm_Tree2|line_object1|merge3_0";
-	rename -uid "B25E672E-4FF9-3E39-2789-B2B30D3866AD";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "merge3_1" -p "|Palm_Tree2|line_object1";
-	rename -uid "3AA92461-4DEB-B742-F10F-0A960412E3FE";
-createNode mesh -n "merge3_1Shape" -p "|Palm_Tree2|line_object1|merge3_1";
-	rename -uid "CB7E4C77-4333-2BE0-8D9A-FE8B6B49C064";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Short_Palm1";
 	rename -uid "D8F02996-46BC-7345-C04D-43BDFF6FB224";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -2020,24 +1608,6 @@ createNode houdiniAsset -n "Short_Palm1";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "grid1" -p "Short_Palm1";
 	rename -uid "BD7D0CC2-4396-C24C-BDAB-55B9DFC0BEEB";
-createNode transform -n "merge3_0" -p "|Short_Palm1|grid1";
-	rename -uid "67BA6456-49AC-8DB9-91C0-A38F5988CDCA";
-	setAttr ".t" -type "double3" -25.20396248711133 0 58.682582721935532 ;
-	setAttr ".s" -type "double3" 0.28271459132196891 0.28271459132196891 0.28271459132196891 ;
-createNode mesh -n "merge3_0Shape" -p "|Short_Palm1|grid1|merge3_0";
-	rename -uid "F19FE53E-4929-5451-D9C6-14B3FC207E91";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush8";
 	rename -uid "1A9725EA-4DCB-6115-5FA4-7FBEB29FD388";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -2126,26 +1696,6 @@ createNode houdiniAsset -n "Small_Bush8";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush8";
 	rename -uid "8993397A-4FAC-2D4C-3DA1-959EA3848B3D";
-createNode transform -n "color1_0" -p "|Small_Bush8|line_object1";
-	rename -uid "7795F12F-4E14-0510-C488-DCA80AEC62D3";
-	setAttr ".t" -type "double3" 39.049567068118243 0 29.180131519227899 ;
-	setAttr ".r" -type "double3" 0 71.411677219682701 0 ;
-	setAttr ".s" -type "double3" 1.3176743214766435 1.3176743214766435 1.3176743214766435 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush8|line_object1|color1_0";
-	rename -uid "8E97BDE8-4067-9240-628B-A086C912EE3A";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "Ground";
 	rename -uid "99345922-4857-BFC7-849E-FDA96FC6A822";
 	setAttr ".t" -type "double3" 0 0 50.935358093604052 ;
@@ -2268,25 +1818,6 @@ createNode houdiniAsset -n "Small_Bush9";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush9";
 	rename -uid "B42DF054-41B3-46A8-4BE2-6E92FF3DADC9";
-createNode transform -n "color1_0" -p "|Small_Bush9|line_object1";
-	rename -uid "C66EE5BD-4F97-E06F-9B4A-A7936F6A6447";
-	setAttr ".t" -type "double3" 43.165046197181837 0 16.111135630218243 ;
-	setAttr ".s" -type "double3" 1.5939489400286848 1.5939489400286848 1.5939489400286848 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush9|line_object1|color1_0";
-	rename -uid "29E98D99-47EB-CC65-EB00-3E9C3847CFC8";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush10";
 	rename -uid "64EA8EB8-4AF3-263F-4D9E-548CDBA55BB0";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -2375,511 +1906,6 @@ createNode houdiniAsset -n "Small_Bush10";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush10";
 	rename -uid "E5E15D0F-4D17-0DC6-8601-799126DB636B";
-createNode transform -n "color1_0" -p "|Small_Bush10|line_object1";
-	rename -uid "3B3BC52D-4083-258F-B781-E9938166BA18";
-	setAttr ".t" -type "double3" 39.231100321266986 0 18.6028301034988 ;
-	setAttr ".r" -type "double3" 0 -95.654766264067916 0 ;
-	setAttr ".s" -type "double3" 1.4731457657855342 1.4731457657855342 1.4731457657855342 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush10|line_object1|color1_0";
-	rename -uid "8A87E243-4FFA-3E69-1BD2-3DB1A896B16D";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "shaun_bush_fern2";
-	rename -uid "B0E5886E-4D05-0AB4-0005-BB9E67A86D98";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		9;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
-		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
-		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
-		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
-		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
-		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
-		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
-		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
-		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
-	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
-		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
-		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
-		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
-		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
-		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
-		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
-		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
-		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
-		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
-		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
-		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
-	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
-		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
-		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
-	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
-		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
-		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
-		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
-		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
-		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
-		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
-	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
-		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
-		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
-		-p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
-		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
-		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
-		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
-		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
-		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
-		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
-		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
-		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
-		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
-		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
-		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
-		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
-		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
-		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
-		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
-		3;
-	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
-		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
-		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
-		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
-		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
-		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
-		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
-		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
-		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
-	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
-	setAttr ".houdiniAssetParm_categories" -type "string" "";
-	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
-	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
-	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
-	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
-	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
-	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
-	setAttr ".houdiniAssetParm_vm_pointscale" 1;
-	setAttr ".houdiniAssetParm_vm_coving" 1;
-	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
-	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
-	setAttr ".houdiniAssetParm_use_dcolor" yes;
-	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-	setAttr ".houdiniAssetParm_renderable" yes;
-	setAttr ".houdiniAssetParm_Branches" 10;
-	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
-	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
-	setAttr ".houdiniAssetParm_Size" 0.5;
-	setAttr ".houdiniAssetParm_Leaf" 7.5;
-createNode transform -n "shaun_bush_fern2" -p "|shaun_bush_fern2";
-	rename -uid "CA80CA8F-41DF-DCDC-BA01-329B0533F6AD";
-createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern2|shaun_bush_fern2";
-	rename -uid "9A73599E-4209-91A7-4C99-CE8A6891223B";
-	setAttr ".t" -type "double3" -9.6714491287223829 0 20.381196228584834 ;
-	setAttr ".s" -type "double3" 2.1752096174732021 2.1752096174732021 2.1752096174732021 ;
-createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0";
-	rename -uid "CCE8A5A3-4230-9DE0-B9F5-F7B2D6AE0AF7";
-	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
-	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
-	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
-	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
-	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
-	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "shaun_bush_fern3";
-	rename -uid "AA1F6DBE-4725-65C2-A07B-E7AC70243ED6";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		9;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
-		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
-		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
-		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
-		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
-		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
-		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
-		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
-		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
-	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
-		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
-		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
-		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
-		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
-		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
-		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
-		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
-		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
-		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
-		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
-		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
-	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
-		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
-		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
-	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
-		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
-		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
-		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
-		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
-		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
-		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
-	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
-		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
-		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
-		-p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
-		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
-		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
-		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
-		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
-		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
-		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
-		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
-		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
-		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
-		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
-		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
-		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
-		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
-		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
-		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
-		3;
-	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
-		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
-		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
-		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
-		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
-		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
-		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
-		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
-		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
-	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
-	setAttr ".houdiniAssetParm_categories" -type "string" "";
-	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
-	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
-	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
-	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
-	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
-	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
-	setAttr ".houdiniAssetParm_vm_pointscale" 1;
-	setAttr ".houdiniAssetParm_vm_coving" 1;
-	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
-	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
-	setAttr ".houdiniAssetParm_use_dcolor" yes;
-	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-	setAttr ".houdiniAssetParm_renderable" yes;
-	setAttr ".houdiniAssetParm_Branches" 10;
-	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
-	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
-	setAttr ".houdiniAssetParm_Size" 0.5;
-	setAttr ".houdiniAssetParm_Leaf" 7.5;
-createNode transform -n "shaun_bush_fern3" -p "|shaun_bush_fern3";
-	rename -uid "37644118-4E3F-DAFD-8080-AE9574D95971";
-createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern3|shaun_bush_fern3";
-	rename -uid "4AA9435E-49FE-9673-A26F-048E71E52ADC";
-	setAttr ".t" -type "double3" 35.606300737219073 0 32.735056826410279 ;
-	setAttr ".r" -type "double3" 0 -100.73467277214586 0 ;
-	setAttr ".s" -type "double3" 2.1184883610963081 2.1184883610963081 2.1184883610963081 ;
-createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0";
-	rename -uid "6A486B03-405E-1DD2-AD83-28AC2737E71F";
-	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
-	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
-	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
-	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
-	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
-	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "Bamboo";
 	rename -uid "7F903D66-4733-BFF4-C5B0-5CAEC7062924";
 createNode houdiniAsset -n "Palm_Tree3";
@@ -2973,42 +1999,6 @@ createNode houdiniAsset -n "Palm_Tree3";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Palm_Tree3";
 	rename -uid "CB260631-4B13-E79B-5798-26B4AF4916AA";
-createNode transform -n "merge3_0" -p "|Palm_Tree3|line_object1";
-	rename -uid "1314AE8E-402E-2068-B772-38A52DA41363";
-createNode mesh -n "merge3_0Shape" -p "|Palm_Tree3|line_object1|merge3_0";
-	rename -uid "790E5F96-43E2-6165-D200-EC8608DB529D";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "merge3_1" -p "|Palm_Tree3|line_object1";
-	rename -uid "158DDBBD-4A71-1F46-1054-E6B32F75C1DA";
-createNode mesh -n "merge3_1Shape" -p "|Palm_Tree3|line_object1|merge3_1";
-	rename -uid "C48712A6-4404-9027-5790-34AB40EC3FB5";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "Mushroom_Bunch";
 	rename -uid "49CEEC9C-4D20-027B-2FD5-2695E0D24022";
 	setAttr ".t" -type "double3" -18.47508591810027 0 23.365105604845951 ;
@@ -3101,24 +2091,6 @@ createNode houdiniAsset -n "Small_Bush11";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush11";
 	rename -uid "8D268770-42BB-1F57-2136-30BF02DA15A6";
-createNode transform -n "color1_0" -p "|Small_Bush11|line_object1";
-	rename -uid "779B37F1-42D7-6B08-C715-A79922C83AAC";
-	setAttr ".t" -type "double3" 45.998925480410328 0 67.95482947663362 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush11|line_object1|color1_0";
-	rename -uid "A37553DB-4B75-413C-565C-6FAB26C84C3E";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Tree_Anna2";
 	rename -uid "496F0081-40CF-5D8F-1DBB-4595112E210B";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -3431,24 +2403,6 @@ createNode houdiniAsset -n "Short_Palm2";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "grid1" -p "Short_Palm2";
 	rename -uid "65430B32-4237-C35F-409B-01A7F7A48C37";
-createNode transform -n "merge3_0" -p "|Short_Palm2|grid1";
-	rename -uid "657D85A2-4AAA-DCC5-F65A-B88526AEFF5C";
-	setAttr ".t" -type "double3" -11.763929159710385 -3.5937799872124661 0 ;
-	setAttr ".s" -type "double3" 0.18796407121948838 0.18796407121948838 0.18796407121948838 ;
-createNode mesh -n "merge3_0Shape" -p "|Short_Palm2|grid1|merge3_0";
-	rename -uid "47CD3377-42F8-8D9E-7FB0-E69F86883D26";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Short_Palm3";
 	rename -uid "B32CD96F-4DAA-2E33-89E7-A9981018451D";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -3537,267 +2491,6 @@ createNode houdiniAsset -n "Short_Palm3";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "grid1" -p "Short_Palm3";
 	rename -uid "5F7DEFE7-4DC6-213B-ADA6-2FA0A0C43B41";
-createNode transform -n "merge3_0" -p "|Short_Palm3|grid1";
-	rename -uid "A884AFDB-46F3-BEB1-3CA6-27A6965B2E16";
-	setAttr ".t" -type "double3" 49.154782657962386 -1.7361813639874102 57.65731121185204 ;
-	setAttr ".s" -type "double3" 0.20366006048317306 0.20366006048317306 0.20366006048317306 ;
-createNode mesh -n "merge3_0Shape" -p "|Short_Palm3|grid1|merge3_0";
-	rename -uid "65E19A76-4D17-8621-01B1-9DA33E49B9AA";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "shaun_bush_fern4";
-	rename -uid "C31490E5-4076-6370-B3EA-239C3F2663AB";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		9;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
-		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
-		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
-		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
-		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
-		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
-		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
-		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
-		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
-	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
-		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
-		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
-		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
-		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
-		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
-		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
-		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
-		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
-		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
-		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
-		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
-	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
-		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
-		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
-	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
-		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
-		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
-		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
-		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
-		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
-		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
-	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
-		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
-		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
-		-p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
-		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
-		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
-		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
-		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
-		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
-		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
-		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
-		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
-		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
-		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
-		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
-		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
-		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
-		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
-		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
-		3;
-	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
-		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
-		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
-		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
-		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
-		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
-		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
-		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
-		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
-	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
-	setAttr ".houdiniAssetParm_categories" -type "string" "";
-	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
-	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
-	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
-	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
-	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
-	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
-	setAttr ".houdiniAssetParm_vm_pointscale" 1;
-	setAttr ".houdiniAssetParm_vm_coving" 1;
-	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
-	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
-	setAttr ".houdiniAssetParm_use_dcolor" yes;
-	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-	setAttr ".houdiniAssetParm_renderable" yes;
-	setAttr ".houdiniAssetParm_Branches" 10;
-	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
-	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
-	setAttr ".houdiniAssetParm_Size" 0.5;
-	setAttr ".houdiniAssetParm_Leaf" 7.5;
-createNode transform -n "shaun_bush_fern4" -p "|shaun_bush_fern4";
-	rename -uid "43F884B3-4A44-B448-EBE7-BAA2224714F7";
-createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern4|shaun_bush_fern4";
-	rename -uid "3431DF79-400F-803B-A3D0-C9A22EC66FE1";
-	setAttr ".t" -type "double3" 42.679902331460688 0 53.462297306380016 ;
-	setAttr ".r" -type "double3" 0 63.540847916170364 0 ;
-	setAttr ".s" -type "double3" 2.1041948087960467 2.1041948087960467 2.1041948087960467 ;
-createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0";
-	rename -uid "E3FCD51F-4C5A-D06E-D3E4-E79E74E9003E";
-	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
-	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
-	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
-	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
-	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
-	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush12";
 	rename -uid "929F638A-4EC8-4420-B5E7-ED906073EE61";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -3886,25 +2579,6 @@ createNode houdiniAsset -n "Small_Bush12";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush12";
 	rename -uid "517A6F6E-4407-4A46-3C86-BA81A863F77F";
-createNode transform -n "color1_0" -p "|Small_Bush12|line_object1";
-	rename -uid "AE6613DA-4506-2425-C0CD-4EB2A0A7CECA";
-	setAttr ".t" -type "double3" 44.338465538029524 0 45.242026305116383 ;
-	setAttr ".s" -type "double3" 0.66955608253369425 0.66955608253369425 0.66955608253369425 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush12|line_object1|color1_0";
-	rename -uid "C6CD107E-4850-E612-C1D9-F5B0CB49A49E";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush13";
 	rename -uid "FBECC337-40E9-0D08-95E9-BF9FC421141C";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -3993,26 +2667,6 @@ createNode houdiniAsset -n "Small_Bush13";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush13";
 	rename -uid "FE24DE1F-417A-FEB8-0F59-5B86D78A6441";
-createNode transform -n "color1_0" -p "|Small_Bush13|line_object1";
-	rename -uid "FF507D97-4B4F-E3EE-C8C5-D089AD9A4078";
-	setAttr ".t" -type "double3" -7.0431845664187263 0 86.245822563493832 ;
-	setAttr ".r" -type "double3" 0 -61.538916506485016 0 ;
-	setAttr ".s" -type "double3" 1.4505001300490985 1.4505001300490985 1.4505001300490985 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush13|line_object1|color1_0";
-	rename -uid "7F406031-4EF4-5A46-2E85-C4B8DF38FB60";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Small_Bush14";
 	rename -uid "FB63FBCD-4FD3-178F-FD7A-40A8EC714D12";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -4101,25 +2755,6 @@ createNode houdiniAsset -n "Small_Bush14";
 	setAttr ".houdiniAssetParm_caching" yes;
 createNode transform -n "line_object1" -p "Small_Bush14";
 	rename -uid "9666E64D-48C3-EB86-7572-D09424D7F5E4";
-createNode transform -n "color1_0" -p "|Small_Bush14|line_object1";
-	rename -uid "5CCA9A82-484F-F347-3F89-64AE98035D1C";
-	setAttr ".t" -type "double3" -6.934993946817464 0 83.63090063813253 ;
-	setAttr ".s" -type "double3" 0.71762023028460509 0.71762023028460509 0.71762023028460509 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush14|line_object1|color1_0";
-	rename -uid "28BB7FD4-4BCC-71BC-ECD6-CA80FFC699FA";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "group1";
 	rename -uid "3B1F20A0-46DB-4D90-BC6B-60AE08D16146";
 	setAttr ".t" -type "double3" 5.7637895813917108 0 32.087363803417396 ;
@@ -4584,17 +3219,240 @@ createNode mesh -n "ImageProjectionRig:Bear_SuperBack1Shape" -p "ImageProjection
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode houdiniAsset -n "Tree_Anna3";
+	rename -uid "79879049-444E-8111-7FF8-379977864871";
+	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
+		4;
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
+		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
+		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
+		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
+		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
+		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
+		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
+	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
+		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
+		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
+		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
+		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
+	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
+		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
+		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
+		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
+	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
+		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
+		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
+		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
+		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
+	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
+		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
+		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
+		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
+		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
+		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
+		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_shop_materialpath__node" -ln "houdiniAssetParm_shop_materialpath__node" 
+		-nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
+		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
+		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
+		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
+		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
+		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
+		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
+		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
+		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
+		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
+	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
+		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
+		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
+		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
+		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
+		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
+		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
+		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
+		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
+		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
+		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
+		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
+	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
+		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
+		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
+	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
+		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
+		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
+		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
+		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
+		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
+		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
+	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
+		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -s false -dcb 1 -sn "houdiniAssetParm_shop_geometrypath__node" -ln "houdiniAssetParm_shop_geometrypath__node" 
+		-nn "Procedural Shader" -dv -1 -at "long" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
+		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
+		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
+		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
+		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
+		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
+		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
+		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
+		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
+		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
+		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
+		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
+		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
+		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
+	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
+		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
+	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
+		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
+		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
+		3;
+	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
+		-p "houdiniAssetParm_dcolor";
+	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
+		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
+		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
+		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
+		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
+		-p "houdiniAssetParm_stdswitcher4_2__folder";
+	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
+		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Tree_Anna.hdanc";
+	setAttr ".assetName" -type "string" "Object/Tree.Anna";
+	setAttr ".houdiniAssetParm_s__tuple0" 1;
+	setAttr ".houdiniAssetParm_s__tuple1" 1;
+	setAttr ".houdiniAssetParm_s__tuple2" 1;
+	setAttr ".houdiniAssetParm_scale" 1;
+	setAttr ".houdiniAssetParm_display" 1;
+	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
+	setAttr ".houdiniAssetParm_categories" -type "string" "";
+	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
+	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
+	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
+	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
+	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
+	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
+	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
+	setAttr ".houdiniAssetParm_vm_pointscale" 1;
+	setAttr ".houdiniAssetParm_vm_coving" 1;
+	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
+	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
+	setAttr ".houdiniAssetParm_use_dcolor" yes;
+	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
+	setAttr ".houdiniAssetParm_picking" yes;
+	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
+	setAttr ".houdiniAssetParm_caching" yes;
+	setAttr ".houdiniAssetParm_renderable" yes;
+createNode transform -n "Tree_Anna3" -p "|Tree_Anna3";
+	rename -uid "86F2AD91-446F-8F3D-54CA-048B8E62B0F4";
+createNode transform -n "merge1_0" -p "|Tree_Anna3|Tree_Anna3";
+	rename -uid "D7963781-42EC-B741-FEE2-6BAA6E711F0B";
+	setAttr ".t" -type "double3" -27.230766697340531 0 67.908442734501236 ;
+	setAttr ".s" -type "double3" 10.953813666055904 10.953813666055904 10.953813666055904 ;
+createNode mesh -n "merge1_0Shape" -p "|Tree_Anna3|Tree_Anna3|merge1_0";
+	rename -uid "61CA95C4-42A5-4DFF-3761-2FA3917B07E0";
+	setAttr -k off ".v";
+	setAttr -s 2 ".iog[0].og";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 2 ".uvst";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".uvst[1].uvsn" -type "string" "uv";
+	setAttr ".cuvs" -type "string" "uv";
+	setAttr ".dcol" yes;
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".ccls" -type "string" "Cd";
+	setAttr ".clst[0].clsn" -type "string" "Cd";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "E816E24F-4F63-89DA-C8F2-8889B0E9609E";
-	setAttr -s 573 ".lnk";
-	setAttr -s 573 ".slnk";
+	rename -uid "3F6CE5D4-4D32-CCE7-D2EE-708F851C410C";
+	setAttr -s 622 ".lnk";
+	setAttr -s 622 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "B063236E-4A8D-E8AC-CCEA-43A7DA4B0366";
+	rename -uid "9D3CAB9F-4A4F-E485-6646-0584249C0D34";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "48C253BD-4A21-1801-6A03-73B51D83A7CF";
+	rename -uid "6F0A2221-4A04-FAB8-7E4C-A19EFFF483D2";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "EC5D5B82-4B0C-A05F-7AE7-74850B18137D";
+	rename -uid "CA248A11-4906-5085-37A4-C4AE7DBAEDAC";
 	setAttr ".cdl" 5;
 	setAttr -s 10 ".dli[1:9]"  6 1 8 3 5 2 7 4 
 		9;
@@ -4602,7 +3460,7 @@ createNode displayLayerManager -n "layerManager";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "7EEFA473-4D48-8C73-89BC-47BEC5AA502D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "8268EE10-4822-2A23-A85D-BB9D15368993";
+	rename -uid "017E8ABC-43AC-867B-8442-A2BD2CB6967B";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "A049D010-441C-07BA-D3C9-199A61794303";
 	setAttr ".g" yes;
@@ -4629,7 +3487,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n"
 		+ "\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n"
 		+ "            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n"
-		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1117\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
+		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1111\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n"
 		+ "            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
 		+ "            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n"
@@ -4655,8 +3513,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1117\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1117\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1111\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1111\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 200 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -6430,13 +5288,13 @@ createNode reference -n "Bamboo_DERN";
 		
 		2 "|Bamboo|Bamboo_DE:Bamboo" "scale" " -type \"double3\" 1.5642496547548981 1.5642496547548981 1.5642496547548981"
 		
-		3 "Bamboo_DE:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE:groupId1.groupId" "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DERN" "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups" 
 		"Bamboo_DERN.placeHolderList[1]" "";
 	setAttr ".ptag" -type "string" "";
@@ -6523,13 +5381,13 @@ createNode reference -n "Bamboo_DE3RN";
 		
 		2 "|Bamboo|Bamboo_DE4:Bamboo" "scale" " -type \"double3\" 1.6640402872179401 1.6640402872179401 1.6640402872179401"
 		
-		3 "Bamboo_DE4:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE4:groupId1.groupId" "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE4:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE3RN" "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups" 
 		"Bamboo_DE3RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -6595,13 +5453,13 @@ createNode reference -n "Bamboo_DE2RN1";
 		
 		2 "|Bamboo|Bamboo_DE7:Bamboo" "scale" " -type \"double3\" 1.422925772231393 1.422925772231393 1.422925772231393"
 		
+		3 "Bamboo_DE7:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE7:groupId1.groupId" "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE7:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE2RN1" "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups" 
 		"Bamboo_DE2RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -6617,21 +5475,21 @@ createNode reference -n "Bamboo_DE4RN";
 		
 		2 "|Bamboo|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 1.4446392039734799 1.4446392039734799 1.4446392039734799"
 		
-		3 "Bamboo_DE8:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE8:groupId1.groupId" "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE8:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE4RN" "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups" 
 		"Bamboo_DE4RN.placeHolderList[1]" "";
 lockNode -l 1 ;
 createNode objectSet -n "leaf";
 	rename -uid "BB4E174A-48D9-18B8-5E1F-10AF16A7F8C2";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
-	setAttr -s 2 ".gn";
+	setAttr -s 3 ".dsm";
+	setAttr -s 3 ".gn";
 createNode groupId -n "groupId1";
 	rename -uid "D0495E31-4742-4D13-D3FC-669825A578D2";
 	setAttr ".ihi" 0;
@@ -6675,13 +5533,13 @@ createNode reference -n "Bamboo_DE7RN";
 		
 		2 "|Bamboo|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 2.4526006665181801 2.4526006665181801 2.4526006665181801"
 		
-		3 "Bamboo_DE10:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE10:groupId1.groupId" "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE10:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE7RN" "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups" 
 		"Bamboo_DE7RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -6745,13 +5603,13 @@ createNode reference -n "Bamboo_DE4RN1";
 		
 		2 "|Bamboo|Bamboo_DE13:Bamboo" "scale" " -type \"double3\" 2.2729156069898839 2.2729156069898839 2.2729156069898839"
 		
-		3 "Bamboo_DE13:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE13:groupId1.groupId" "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE13:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE4RN1" "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups" 
 		"Bamboo_DE4RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -6813,13 +5671,13 @@ createNode reference -n "Bamboo_DERN4";
 		
 		2 "|Bamboo|Bamboo_DE16:Bamboo" "scale" " -type \"double3\" 1.8426172591524983 1.8426172591524983 1.8426172591524983"
 		
-		3 "Bamboo_DE16:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE16:groupId1.groupId" "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE16:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DERN4" "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups" 
 		"Bamboo_DERN4.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -6878,13 +5736,13 @@ createNode reference -n "Fern_DERN1";
 		
 		2 "|Fern_DE1:Bush" "scale" " -type \"double3\" 2.3865179098697182 2.3865179098697182 2.3865179098697182"
 		
-		3 "Fern_DE1:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Fern_DE1:groupId2.groupId" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
 		"-na"
+		3 "Fern_DE1:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Fern_DERN1" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups" "Fern_DERN1.placeHolderList[1]" 
 		"";
 lockNode -l 1 ;
@@ -6902,13 +5760,13 @@ createNode reference -n "Bamboo_DE16RN";
 		
 		2 "|Bamboo|Bamboo_DE18:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
 		
+		3 "Bamboo_DE18:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE18:groupId1.groupId" "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE18:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE16RN" "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups" 
 		"Bamboo_DE16RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -6924,13 +5782,13 @@ createNode reference -n "Bamboo_DE11RN";
 		
 		2 "|Bamboo|Bamboo_DE19:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
 		
+		3 "Bamboo_DE19:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE19:groupId1.groupId" "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE19:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE11RN" "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups" 
 		"Bamboo_DE11RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -6996,13 +5854,13 @@ createNode reference -n "Bamboo_DE4RN2";
 		
 		2 "|Bamboo|Bamboo_DE22:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
 		
-		3 "Bamboo_DE22:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE22:groupId1.groupId" "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE22:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE4RN2" "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups" 
 		"Bamboo_DE4RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7044,13 +5902,13 @@ createNode reference -n "Bamboo_DE8RN1";
 		
 		2 "|Bamboo|Bamboo_DE24:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
 		
+		3 "Bamboo_DE24:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE24:groupId1.groupId" "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE24:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE8RN1" "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups" 
 		"Bamboo_DE8RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7066,13 +5924,13 @@ createNode reference -n "Bamboo_DE7RN1";
 		
 		2 "|Bamboo|Bamboo_DE25:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
 		
-		3 "Bamboo_DE25:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE25:groupId1.groupId" "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE25:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE7RN1" "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups" 
 		"Bamboo_DE7RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7090,13 +5948,13 @@ createNode reference -n "Bamboo_DE6RN1";
 		
 		2 "|Bamboo|Bamboo_DE26:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
 		
-		3 "Bamboo_DE26:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE26:groupId1.groupId" "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE26:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE6RN1" "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups" 
 		"Bamboo_DE6RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7136,13 +5994,13 @@ createNode reference -n "Bamboo_DE2RN3";
 		
 		2 "|Bamboo|Bamboo_DE28:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
 		
+		3 "Bamboo_DE28:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE28:groupId1.groupId" "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE28:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE2RN3" "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups" 
 		"Bamboo_DE2RN3.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7254,13 +6112,13 @@ createNode reference -n "Bamboo_DE27RN";
 		
 		2 "|Bamboo|Bamboo_DE33:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
 		
-		3 "Bamboo_DE33:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE33:groupId1.groupId" "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE33:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE27RN" "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups" 
 		"Bamboo_DE27RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7278,13 +6136,13 @@ createNode reference -n "Bamboo_DE26RN";
 		
 		2 "|Bamboo|Bamboo_DE34:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
 		
-		3 "Bamboo_DE34:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE34:groupId1.groupId" "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE34:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE26RN" "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups" 
 		"Bamboo_DE26RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7302,13 +6160,13 @@ createNode reference -n "Bamboo_DE22RN";
 		
 		2 "|Bamboo|Bamboo_DE35:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
 		
+		3 "Bamboo_DE35:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE35:groupId1.groupId" "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE35:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE22RN" "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups" 
 		"Bamboo_DE22RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7326,13 +6184,13 @@ createNode reference -n "Bamboo_DE21RN";
 		
 		2 "|Bamboo|Bamboo_DE36:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
 		
+		3 "Bamboo_DE36:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE36:groupId1.groupId" "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE36:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE21RN" "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups" 
 		"Bamboo_DE21RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7350,13 +6208,13 @@ createNode reference -n "Bamboo_DE20RN";
 		
 		2 "|Bamboo|Bamboo_DE37:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
 		
-		3 "Bamboo_DE37:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE37:groupId1.groupId" "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE37:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE20RN" "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups" 
 		"Bamboo_DE20RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7374,13 +6232,13 @@ createNode reference -n "Bamboo_DE24RN";
 		
 		2 "|Bamboo|Bamboo_DE38:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
 		
-		3 "Bamboo_DE38:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE38:groupId1.groupId" "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE38:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE24RN" "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups" 
 		"Bamboo_DE24RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7442,13 +6300,13 @@ createNode reference -n "Fern_DERN2";
 		2 "|Fern_DE2:Bush" "translate" " -type \"double3\" -8.5718877023777544 0 77.647109598774293"
 		
 		2 "|Fern_DE2:Bush" "rotate" " -type \"double3\" 0 -28.338105269377891 0"
+		3 "Fern_DE2:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Fern_DE2:groupId2.groupId" "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
 		"-na"
-		3 "Fern_DE2:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Fern_DERN2" "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups" "Fern_DERN2.placeHolderList[1]" 
 		"";
 lockNode -l 1 ;
@@ -7510,13 +6368,13 @@ createNode reference -n "Bamboo_DE37RN";
 		
 		2 "|Bamboo|Bamboo_DE42:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
-		3 "Bamboo_DE42:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE42:groupId1.groupId" "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE42:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE37RN" "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups" 
 		"Bamboo_DE37RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7556,13 +6414,13 @@ createNode reference -n "Bamboo_DE40RN";
 		
 		2 "|Bamboo|Bamboo_DE44:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
+		3 "Bamboo_DE44:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE44:groupId1.groupId" "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE44:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE40RN" "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups" 
 		"Bamboo_DE40RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7624,13 +6482,13 @@ createNode reference -n "Bamboo_DE34RN";
 		
 		2 "|Bamboo|Bamboo_DE47:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
 		
+		3 "Bamboo_DE47:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE47:groupId1.groupId" "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE47:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE34RN" "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups" 
 		"Bamboo_DE34RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7670,13 +6528,13 @@ createNode reference -n "Bamboo_DE32RN";
 		
 		2 "|Bamboo|Bamboo_DE49:Bamboo" "scale" " -type \"double3\" 2.2661972546041298 2.2661972546041298 2.2661972546041298"
 		
-		3 "Bamboo_DE49:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE49:groupId1.groupId" "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE49:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE32RN" "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups" 
 		"Bamboo_DE32RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7718,13 +6576,13 @@ createNode reference -n "Bamboo_DE27RN1";
 		
 		2 "|Bamboo|Bamboo_DE51:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
+		3 "Bamboo_DE51:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE51:groupId1.groupId" "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE51:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE27RN1" "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups" 
 		"Bamboo_DE27RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7742,13 +6600,13 @@ createNode reference -n "Bamboo_DE26RN1";
 		
 		2 "|Bamboo|Bamboo_DE52:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
+		3 "Bamboo_DE52:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE52:groupId1.groupId" "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE52:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE26RN1" "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups" 
 		"Bamboo_DE26RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7808,13 +6666,13 @@ createNode reference -n "Bamboo_DE29RN1";
 		
 		2 "|Bamboo|Bamboo_DE55:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
-		3 "Bamboo_DE55:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE55:groupId1.groupId" "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE55:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE29RN1" "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups" 
 		"Bamboo_DE29RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7854,13 +6712,13 @@ createNode reference -n "Bamboo_DE24RN1";
 		
 		2 "|Bamboo|Bamboo_DE57:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
+		3 "Bamboo_DE57:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE57:groupId1.groupId" "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE57:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE24RN1" "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups" 
 		"Bamboo_DE24RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7926,13 +6784,13 @@ createNode reference -n "Bamboo_DE21RN1";
 		
 		2 "|Bamboo|Bamboo_DE60:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
-		3 "Bamboo_DE60:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE60:groupId1.groupId" "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE60:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE21RN1" "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups" 
 		"Bamboo_DE21RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -7998,13 +6856,13 @@ createNode reference -n "Bamboo_DE16RN1";
 		
 		2 "|Bamboo|Bamboo_DE63:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
-		3 "Bamboo_DE63:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE63:groupId1.groupId" "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE63:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE16RN1" "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups" 
 		"Bamboo_DE16RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8022,13 +6880,13 @@ createNode reference -n "Bamboo_DE19RN1";
 		
 		2 "|Bamboo|Bamboo_DE64:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
+		3 "Bamboo_DE64:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE64:groupId1.groupId" "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE64:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE19RN1" "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups" 
 		"Bamboo_DE19RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8046,13 +6904,13 @@ createNode reference -n "Bamboo_DE18RN";
 		
 		2 "|Bamboo|Bamboo_DE65:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
+		3 "Bamboo_DE65:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE65:groupId1.groupId" "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE65:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE18RN" "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups" 
 		"Bamboo_DE18RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8118,13 +6976,13 @@ createNode reference -n "Bamboo_DE13RN1";
 		
 		2 "|Bamboo|Bamboo_DE68:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
 		
+		3 "Bamboo_DE68:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE68:groupId1.groupId" "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE68:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE13RN1" "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups" 
 		"Bamboo_DE13RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8142,13 +7000,13 @@ createNode reference -n "Bamboo_DE12RN1";
 		
 		2 "|Bamboo|Bamboo_DE69:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
-		3 "Bamboo_DE69:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE69:groupId1.groupId" "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE69:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE12RN1" "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups" 
 		"Bamboo_DE12RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8186,13 +7044,13 @@ createNode reference -n "Bamboo_DE5RN2";
 		
 		2 "|Bamboo|Bamboo_DE71:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
 		
+		3 "Bamboo_DE71:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE71:groupId1.groupId" "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE71:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE5RN2" "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups" 
 		"Bamboo_DE5RN2.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8300,13 +7158,13 @@ createNode reference -n "Bamboo_DE2RN4";
 		
 		2 "|Bamboo|Bamboo_DE76:Bamboo" "scale" " -type \"double3\" 2.1019925907140014 2.1019925907140014 2.1019925907140014"
 		
-		3 "Bamboo_DE76:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE76:groupId1.groupId" "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE76:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE2RN4" "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups" 
 		"Bamboo_DE2RN4.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8368,13 +7226,13 @@ createNode reference -n "Bamboo_DE67RN";
 		
 		2 "|Bamboo|Bamboo_DE79:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
 		
+		3 "Bamboo_DE79:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE79:groupId1.groupId" "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE79:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE67RN" "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups" 
 		"Bamboo_DE67RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8414,13 +7272,13 @@ createNode reference -n "Bamboo_DE57RN";
 		
 		2 "|Bamboo|Bamboo_DE81:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
 		
+		3 "Bamboo_DE81:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE81:groupId1.groupId" "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE81:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE57RN" "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups" 
 		"Bamboo_DE57RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8462,13 +7320,13 @@ createNode reference -n "Bamboo_DE59RN";
 		
 		2 "|Bamboo|Bamboo_DE83:Bamboo" "scale" " -type \"double3\" 1.9004445217669812 1.9004445217669812 1.9004445217669812"
 		
-		3 "Bamboo_DE83:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE83:groupId1.groupId" "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE83:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE59RN" "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups" 
 		"Bamboo_DE59RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8486,13 +7344,13 @@ createNode reference -n "Bamboo_DE50RN";
 		
 		2 "|Bamboo|Bamboo_DE84:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
 		
-		3 "Bamboo_DE84:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE84:groupId1.groupId" "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE84:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE50RN" "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups" 
 		"Bamboo_DE50RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8558,13 +7416,13 @@ createNode reference -n "Bamboo_DE67RN1";
 		
 		2 "|Bamboo|Bamboo_DE87:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
+		3 "Bamboo_DE87:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE87:groupId1.groupId" "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE87:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE67RN1" "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups" 
 		"Bamboo_DE67RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8580,13 +7438,13 @@ createNode reference -n "Bamboo_DE57RN1";
 		
 		2 "|Bamboo|Bamboo_DE88:Bamboo" "scale" " -type \"double3\" 1.1841015069077698 1.1841015069077698 1.1841015069077698"
 		
+		3 "Bamboo_DE88:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE88:groupId1.groupId" "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE88:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE57RN1" "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups" 
 		"Bamboo_DE57RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8604,13 +7462,13 @@ createNode reference -n "Bamboo_DE61RN1";
 		
 		2 "|Bamboo|Bamboo_DE89:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
-		3 "Bamboo_DE89:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE89:groupId1.groupId" "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE89:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE61RN1" "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups" 
 		"Bamboo_DE61RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8628,13 +7486,13 @@ createNode reference -n "Bamboo_DE59RN1";
 		
 		2 "|Bamboo|Bamboo_DE90:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
+		3 "Bamboo_DE90:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE90:groupId1.groupId" "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE90:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE59RN1" "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups" 
 		"Bamboo_DE59RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8652,13 +7510,13 @@ createNode reference -n "Bamboo_DE50RN1";
 		
 		2 "|Bamboo|Bamboo_DE91:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
-		3 "Bamboo_DE91:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE91:groupId1.groupId" "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE91:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE50RN1" "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups" 
 		"Bamboo_DE50RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8676,13 +7534,13 @@ createNode reference -n "Bamboo_DE53RN1";
 		
 		2 "|Bamboo|Bamboo_DE92:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
+		3 "Bamboo_DE92:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE92:groupId1.groupId" "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE92:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE53RN1" "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups" 
 		"Bamboo_DE53RN1.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8722,13 +7580,13 @@ createNode reference -n "Bamboo_DE84RN";
 		
 		2 "|Bamboo|Bamboo_DE94:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
+		3 "Bamboo_DE94:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE94:groupId1.groupId" "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE94:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE84RN" "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups" 
 		"Bamboo_DE84RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8746,13 +7604,13 @@ createNode reference -n "Bamboo_DE83RN";
 		
 		2 "|Bamboo|Bamboo_DE95:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
+		3 "Bamboo_DE95:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE95:groupId1.groupId" "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE95:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE83RN" "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups" 
 		"Bamboo_DE83RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8770,13 +7628,13 @@ createNode reference -n "Bamboo_DE82RN";
 		
 		2 "|Bamboo|Bamboo_DE96:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
-		3 "Bamboo_DE96:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE96:groupId1.groupId" "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE96:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE82RN" "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups" 
 		"Bamboo_DE82RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8814,13 +7672,13 @@ createNode reference -n "Bamboo_DE85RN";
 		
 		2 "|Bamboo|Bamboo_DE98:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
+		3 "Bamboo_DE98:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE98:groupId1.groupId" "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Bamboo_DE98:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE85RN" "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups" 
 		"Bamboo_DE85RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -8838,13 +7696,13 @@ createNode reference -n "Bamboo_DE81RN";
 		
 		2 "|Bamboo|Bamboo_DE99:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
 		
-		3 "Bamboo_DE99:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Bamboo_DE99:groupId1.groupId" "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups.objectGroups[0]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE99:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 3 "Bamboo_DE81RN" "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups" 
 		"Bamboo_DE81RN.placeHolderList[1]" "";
 lockNode -l 1 ;
@@ -9790,7 +8648,6 @@ createNode rampShader -n "threeToneBrightnessShader5";
 createNode shadingEngine -n "rampShader6SG";
 	rename -uid "ACB329C4-477F-F051-BA2F-A7B50BBAF0B9";
 	setAttr ".ihi" 0;
-	setAttr -s 14 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo6";
 	rename -uid "5B1DF590-4673-A31B-A021-9F8FECED5753";
@@ -9836,9 +8693,271 @@ createNode shadingEngine -n "rampShader7SG";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo7";
 	rename -uid "510494D2-493A-D5B8-0884-568920BECD3F";
+createNode reference -n "PalmTree_SCRN";
+	rename -uid "ACFA951B-4A95-7747-09D1-DFA65FAA306B";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN"
+		"PalmTree_SCRN" 0
+		"PalmTree_SCRN" 3
+		2 "|PalmTree_SC:SC_PalmTree" "translate" " -type \"double3\" 39.454584552659341 0 15.131260536962078"
+		
+		2 "|PalmTree_SC:SC_PalmTree" "rotate" " -type \"double3\" 0 85.268419570174046 0"
+		
+		2 "|PalmTree_SC:SC_PalmTree" "scale" " -type \"double3\" 1.6485735848863801 1.6485735848863801 1.6485735848863801";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN1";
+	rename -uid "E2FF2DDB-4EEA-CDDA-201E-BDA9A2E48429";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN1"
+		"PalmTree_SCRN1" 0
+		"PalmTree_SCRN1" 6
+		2 "|PalmTree_SC1:SC_PalmTree" "translate" " -type \"double3\" -26.333657686390104 0 74.93028560777536"
+		
+		2 "|PalmTree_SC1:SC_PalmTree" "rotate" " -type \"double3\" 0 141.72467203730548 0"
+		
+		2 "|PalmTree_SC1:SC_PalmTree" "scale" " -type \"double3\" 1.8732575637015858 1.8732575637015858 1.8732575637015858"
+		
+		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems" "scale" " -type \"double3\" 1 1 1"
+		
+		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk" "scale" " -type \"double3\" 1 1 1"
+		
+		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Leaves" "scale" " -type \"double3\" 1 1 1";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SC1RN";
+	rename -uid "F9610C02-468C-F285-5C5D-59B62E44626F";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SC1RN"
+		"PalmTree_SC1RN" 0
+		"PalmTree_SC1RN" 6
+		2 "|PalmTree_SC2:SC_PalmTree" "translate" " -type \"double3\" -18.503234880983371 0 24.695569532429509"
+		
+		2 "|PalmTree_SC2:SC_PalmTree" "rotate" " -type \"double3\" 0 -52.436204817579529 0"
+		
+		2 "|PalmTree_SC2:SC_PalmTree" "scale" " -type \"double3\" 2.0988304054185258 2.0988304054185258 2.0988304054185258"
+		
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems" "rotate" " -type \"double3\" 0 0 0"
+		
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk" "rotate" " -type \"double3\" 0 0 0"
+		
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves" "rotate" " -type \"double3\" 0 0 0";
+lockNode -l 1 ;
+createNode reference -n "ShortPalm_SCRN";
+	rename -uid "E6CC5C31-4D1A-1DE0-FD24-8F889A7D4A40";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"ShortPalm_SCRN"
+		"ShortPalm_SCRN" 0
+		"ShortPalm_SCRN" 2
+		2 "|ShortPalm_SC:ShortPalm:Mesh" "translate" " -type \"double3\" -11.834284072674347 -4.2666200504142644 -1.460966238617913"
+		
+		2 "|ShortPalm_SC:ShortPalm:Mesh" "scale" " -type \"double3\" 0.19758663616652036 0.19758663616652036 0.19758663616652036";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "ShortPalm_SCRN1";
+	rename -uid "2A7BC175-499D-70A6-C12A-C08F4F5C19B9";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"ShortPalm_SCRN1"
+		"ShortPalm_SCRN1" 0
+		"ShortPalm_SCRN1" 2
+		2 "|ShortPalm_SC1:ShortPalm:Mesh" "translate" " -type \"double3\" 49.340963093044877 -3.9211827924920302 57.2814608261885"
+		
+		2 "|ShortPalm_SC1:ShortPalm:Mesh" "scale" " -type \"double3\" 0.21061718151286937 0.21061718151286937 0.21061718151286937";
+lockNode -l 1 ;
+createNode reference -n "ShortPalm_SC1RN";
+	rename -uid "F6B4A558-4508-3AD0-2953-CA84CA2871F2";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"ShortPalm_SC1RN"
+		"ShortPalm_SC1RN" 0
+		"ShortPalm_SC1RN" 2
+		2 "|ShortPalm_SC2:ShortPalm:Mesh" "translate" " -type \"double3\" -26.405717503476133 -2.3008221039270005 58.087575620531091"
+		
+		2 "|ShortPalm_SC2:ShortPalm:Mesh" "scale" " -type \"double3\" 0.33542689734742176 0.33542689734742176 0.33542689734742176";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SCRN";
+	rename -uid "D1C0F68B-4441-6FF5-4116-C299E3065FB9";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SCRN"
+		"SmallBush_SCRN" 0
+		"SmallBush_SCRN" 6
+		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Leaves" "translate" " -type \"double3\" -10.083248519932942 0.60545863548882561 28.961590868124446"
+		
+		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Leaves" "rotate" " -type \"double3\" 0 -83.320901007418115 0"
+		
+		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Leaves" "scale" " -type \"double3\" 1.4250616354897263 1.4250616354897263 1.4250616354897263"
+		
+		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Stem" "translate" " -type \"double3\" -10.421640490707656 0 29.3807554682203"
+		
+		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Stem" "rotate" " -type \"double3\" 0 71.830097226145156 0"
+		
+		2 "|SmallBush_SC:SmallBush|SmallBush_SC:Stem" "scale" " -type \"double3\" 1.3002457463963175 1.3002457463963175 1.3002457463963175";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SCRN1";
+	rename -uid "FADC4845-42A4-E95E-843B-0BA31AEE1576";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SCRN1"
+		"SmallBush_SCRN1" 0
+		"SmallBush_SCRN1" 3
+		2 "|SmallBush_SC1:SmallBush" "translate" " -type \"double3\" -4.5059175530386657 0 8.343605171099794"
+		
+		2 "|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves" "translate" " -type \"double3\" -9.0118351060773279 0 16.687210342199613"
+		
+		2 "|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem" "translate" " -type \"double3\" -9.0118351060773279 0 16.687210342199613";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC1RN";
+	rename -uid "B2B2DF4F-4D00-3F77-D3C8-F8B3ABD08D27";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC1RN"
+		"SmallBush_SC1RN" 0
+		"SmallBush_SC1RN" 1
+		2 "|SmallBush_SC2:SmallBush" "translate" " -type \"double3\" -13.225441093533709 0 37.712860983616018";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC2RN";
+	rename -uid "145F2436-4786-C712-95F3-598F07191375";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC2RN"
+		"SmallBush_SC2RN" 0
+		"SmallBush_SC2RN" 6
+		2 "|SmallBush_SC3:SmallBush" "translate" " -type \"double3\" -3.9929857545653507 0 21.572059625427034"
+		
+		2 "|SmallBush_SC3:SmallBush" "scale" " -type \"double3\" 1.0554683261432867 1.0554683261432867 1.0554683261432867"
+		
+		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves" "translate" " -type \"double3\" -7.985971509130696 0 43.235702411313056"
+		
+		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves" "scale" " -type \"double3\" 1.1140133874917111 1.1140133874917111 1.1140133874917111"
+		
+		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem" "translate" " -type \"double3\" -7.985971509130696 0 43.235702411313056"
+		
+		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem" "scale" " -type \"double3\" 1.1140133874917111 1.1140133874917111 1.1140133874917111";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC3RN";
+	rename -uid "5064C15A-40D4-5703-C5AA-6AB424F57A11";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC3RN"
+		"SmallBush_SC3RN" 0
+		"SmallBush_SC3RN" 6
+		2 "|SmallBush_SC4:SmallBush" "translate" " -type \"double3\" -2.2543035964546636 -0.16432023301964083 24.308929091293059"
+		
+		2 "|SmallBush_SC4:SmallBush" "scale" " -type \"double3\" 1.2357579940724863 1.2357579940724863 1.2357579940724863"
+		
+		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "translate" " -type \"double3\" -4.508607192909329 -0.26594241559889475 50.24123903605318"
+		
+		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "scale" " -type \"double3\" 1.5270978199140559 1.5270978199140559 1.5270978199140559"
+		
+		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem" "translate" " -type \"double3\" -4.508607192909329 -0.26594241559889475 50.24123903605318"
+		
+		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem" "scale" " -type \"double3\" 1.5270978199140559 1.5270978199140559 1.5270978199140559";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC4RN";
+	rename -uid "DEF998F4-4832-2E37-4225-88AD5DD964B8";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC4RN"
+		"SmallBush_SC4RN" 0
+		"SmallBush_SC4RN" 2
+		2 "|SmallBush_SC5:SmallBush" "translate" " -type \"double3\" -6.6149170366968271 0 83.786730628824827"
+		
+		2 "|SmallBush_SC5:SmallBush" "scale" " -type \"double3\" 0.73058612864981887 0.73058612864981887 0.73058612864981887";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC5RN";
+	rename -uid "08C71ABE-409E-3004-4FD0-FEBF1FBF2E9A";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC5RN"
+		"SmallBush_SC5RN" 0
+		"SmallBush_SC5RN" 4
+		2 "|SmallBush_SC6:SmallBush" "translate" " -type \"double3\" 38.646038825114282 0 38.792470828189693"
+		
+		2 "|SmallBush_SC6:SmallBush" "rotate" " -type \"double3\" 0 -81.655440888445014 0"
+		
+		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves" "translate" " -type \"double3\" 0 0 0"
+		
+		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem" "translate" " -type \"double3\" 0 0 0";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC6RN";
+	rename -uid "29F45FB5-47D8-0932-25FF-D89A4A742127";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC6RN"
+		"SmallBush_SC6RN" 0
+		"SmallBush_SC6RN" 2
+		2 "|SmallBush_SC7:SmallBush" "translate" " -type \"double3\" 44.355767858817366 0 45.391631968549937"
+		
+		2 "|SmallBush_SC7:SmallBush" "scale" " -type \"double3\" 0.68464018388508263 0.68464018388508263 0.68464018388508263";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC7RN";
+	rename -uid "F5A886C8-445A-04CA-22B7-DF883093AE40";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC7RN"
+		"SmallBush_SC7RN" 0
+		"SmallBush_SC7RN" 2
+		2 "|SmallBush_SC8:SmallBush" "translate" " -type \"double3\" 47.056309449680683 0 76.713928892423709"
+		
+		2 "|SmallBush_SC8:SmallBush" "scale" " -type \"double3\" 1.4842200767099625 1.4842200767099625 1.4842200767099625";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC8RN";
+	rename -uid "C8B9EC5B-4848-A313-3700-9B9C927DCB1C";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC8RN"
+		"SmallBush_SC8RN" 0
+		"SmallBush_SC8RN" 2
+		2 "|SmallBush_SC9:SmallBush" "translate" " -type \"double3\" 46.143610317263587 0 68.016171935212256"
+		
+		2 "|SmallBush_SC9:SmallBush" "rotate" " -type \"double3\" 0 -38.009206281946682 0";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC9RN";
+	rename -uid "5A221B09-4494-DF08-7FF1-7F9B60E1BCBE";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC9RN"
+		"SmallBush_SC9RN" 0
+		"SmallBush_SC9RN" 3
+		2 "|SmallBush_SC10:SmallBush" "translate" " -type \"double3\" 39.379784881196429 0 29.423763605536116"
+		
+		2 "|SmallBush_SC10:SmallBush" "rotate" " -type \"double3\" 0 65.786202235632047 0"
+		
+		2 "|SmallBush_SC10:SmallBush" "scale" " -type \"double3\" 1.2850698766601327 1.2850698766601327 1.2850698766601327";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC10RN";
+	rename -uid "218BB37C-424A-01F0-7668-2EBB60A967B0";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC10RN"
+		"SmallBush_SC10RN" 0
+		"SmallBush_SC10RN" 3
+		2 "|SmallBush_SC11:SmallBush" "translate" " -type \"double3\" 51.080593839300931 0 27.033157517706712"
+		
+		2 "|SmallBush_SC11:SmallBush" "rotate" " -type \"double3\" 0 96.603318979482765 0"
+		
+		2 "|SmallBush_SC11:SmallBush" "scale" " -type \"double3\" 2.0241222792136933 2.0241222792136933 2.0241222792136933";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC11RN";
+	rename -uid "8B91538A-43BE-FB84-2CE1-63B925261C0C";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC11RN"
+		"SmallBush_SC11RN" 0
+		"SmallBush_SC11RN" 3
+		2 "|SmallBush_SC12:SmallBush" "translate" " -type \"double3\" 39.185868452671585 0 18.276428809906893"
+		
+		2 "|SmallBush_SC12:SmallBush" "rotate" " -type \"double3\" 0 -94.236450312545699 0"
+		
+		2 "|SmallBush_SC12:SmallBush" "scale" " -type \"double3\" 1.4855652740616334 1.4855652740616334 1.4855652740616334";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC12RN";
+	rename -uid "DFA28B73-48C1-9412-F016-E583D7441CA4";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC12RN"
+		"SmallBush_SC12RN" 0
+		"SmallBush_SC12RN" 2
+		2 "|SmallBush_SC13:SmallBush" "translate" " -type \"double3\" 43.276702441304757 0 16.103137341949235"
+		
+		2 "|SmallBush_SC13:SmallBush" "scale" " -type \"double3\" 1.5723279940120645 1.5723279940120645 1.5723279940120645";
+lockNode -l 1 ;
+createNode groupId -n "groupId3";
+	rename -uid "C9F11ACF-4B36-FC6C-13D2-2C9ADFB53F5C";
+	setAttr ".ihi" 0;
+createNode groupParts -n "groupParts3";
+	rename -uid "36F3F250-4DCA-5C12-6AC0-95A6D86EB0C6";
+	setAttr ".ihi" 0;
+	setAttr ".ic" -type "componentList" 32 "vtx[648:707]" "vtx[1248:1307]" "vtx[1848:1907]" "vtx[2448:2507]" "vtx[3078:3137]" "vtx[3678:3737]" "vtx[4278:4337]" "vtx[4878:4937]" "vtx[5508:5567]" "vtx[6108:6167]" "vtx[6708:6767]" "vtx[7308:7367]" "vtx[7938:7997]" "vtx[8538:8597]" "vtx[9138:9197]" "vtx[9738:9797]" "vtx[10368:10427]" "vtx[10968:11027]" "vtx[11568:11627]" "vtx[12168:12227]" "vtx[12798:12857]" "vtx[13398:13457]" "vtx[13998:14057]" "vtx[14598:14657]" "vtx[15228:15287]" "vtx[15828:15887]" "vtx[16428:16487]" "vtx[17028:17087]" "vtx[17658:17717]" "vtx[18258:18317]" "vtx[18858:18917]" "vtx[19458:19517]";
 select -ne :time1;
-	setAttr ".o" 19;
-	setAttr ".unw" 19;
+	setAttr ".o" 28;
+	setAttr ".unw" 28;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -9846,26 +8965,27 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 573 ".st";
+	setAttr -s 622 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 55 ".s";
+	setAttr -s 101 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
-	setAttr -s 17 ".u";
+	setAttr -s 71 ".u";
 select -ne :defaultRenderingList1;
-	setAttr -s 232 ".r";
+	setAttr -s 252 ".r";
 select -ne :defaultTextureList1;
-	setAttr -s 17 ".tx";
+	setAttr -s 71 ".tx";
 select -ne :lambert1;
 select -ne :initialShadingGroup;
-	setAttr -s 34 ".dsm";
+	setAttr -s 28 ".dsm";
 	setAttr ".ro" yes;
+	setAttr -s 7 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :initialMaterialInfo;
-	setAttr -s 2 ".t";
+	setAttr -s 16 ".t";
 select -ne :defaultResolution;
 	setAttr ".w" 1920;
 	setAttr ".h" 1080;
@@ -10007,14 +9127,6 @@ connectAttr "Palm_Tree1.outputObjects[0].outputObjectRotate" "|Palm_Tree1|line_o
 		;
 connectAttr "Palm_Tree1.outputObjects[0].outputObjectScale" "|Palm_Tree1|line_object1.s"
 		;
-connectAttr "Palm_Tree1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Palm_Tree1|line_object1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Palm_Tree1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree1|line_object1|merge3_0|merge3_0Shape.rest"
-		;
-connectAttr "Palm_Tree1.outputObjects[0].outputGeos[0].outputParts[1].outputPartMeshData" "|Palm_Tree1|line_object1|merge3_1|merge3_1Shape.i"
-		;
-connectAttr "Palm_Tree1.outputObjects[0].outputGeos[0].outputParts[1].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree1|line_object1|merge3_1|merge3_1Shape.rest"
-		;
 connectAttr ":time1.o" "|Tree_Anna1.inTime";
 connectAttr "|Tree_Anna1.outputObjects[0].outputObjectTranslate" "|Tree_Anna1|Tree_Anna1.t"
 		;
@@ -10034,16 +9146,12 @@ connectAttr "Small_Bush1.outputObjects[0].outputObjectRotate" "|Small_Bush1|line
 		;
 connectAttr "Small_Bush1.outputObjects[0].outputObjectScale" "|Small_Bush1|line_object1.s"
 		;
-connectAttr "Small_Bush1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush1|line_object1|color1_0|color1_0Shape.i"
-		;
 connectAttr ":time1.o" "Small_Bush2.inTime";
 connectAttr "Small_Bush2.outputObjects[0].outputObjectTranslate" "|Small_Bush2|line_object1.t"
 		;
 connectAttr "Small_Bush2.outputObjects[0].outputObjectRotate" "|Small_Bush2|line_object1.r"
 		;
 connectAttr "Small_Bush2.outputObjects[0].outputObjectScale" "|Small_Bush2|line_object1.s"
-		;
-connectAttr "Small_Bush2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush2|line_object1|color1_0|color1_0Shape.i"
 		;
 connectAttr ":time1.o" "Small_Bush3.inTime";
 connectAttr "Small_Bush3.outputObjects[0].outputObjectTranslate" "|Small_Bush3|line_object1.t"
@@ -10052,16 +9160,12 @@ connectAttr "Small_Bush3.outputObjects[0].outputObjectRotate" "|Small_Bush3|line
 		;
 connectAttr "Small_Bush3.outputObjects[0].outputObjectScale" "|Small_Bush3|line_object1.s"
 		;
-connectAttr "Small_Bush3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush3|line_object1|color1_0|color1_0Shape.i"
-		;
 connectAttr ":time1.o" "Small_Bush4.inTime";
 connectAttr "Small_Bush4.outputObjects[0].outputObjectTranslate" "|Small_Bush4|line_object1.t"
 		;
 connectAttr "Small_Bush4.outputObjects[0].outputObjectRotate" "|Small_Bush4|line_object1.r"
 		;
 connectAttr "Small_Bush4.outputObjects[0].outputObjectScale" "|Small_Bush4|line_object1.s"
-		;
-connectAttr "Small_Bush4.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush4|line_object1|color1_0|color1_0Shape.i"
 		;
 connectAttr ":time1.o" "Small_Bush5.inTime";
 connectAttr "Small_Bush5.outputObjects[0].outputObjectTranslate" "|Small_Bush5|line_object1.t"
@@ -10070,37 +9174,12 @@ connectAttr "Small_Bush5.outputObjects[0].outputObjectRotate" "|Small_Bush5|line
 		;
 connectAttr "Small_Bush5.outputObjects[0].outputObjectScale" "|Small_Bush5|line_object1.s"
 		;
-connectAttr "Small_Bush5.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush5|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "|shaun_bush_fern1.inTime";
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern1|shaun_bush_fern1.t"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputObjectRotate" "|shaun_bush_fern1|shaun_bush_fern1.r"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputObjectScale" "|shaun_bush_fern1|shaun_bush_fern1.s"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.i"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.branchbend"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.leafsize"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.branchangle"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.branchsize"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.rotation"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.leafjitter"
-		;
 connectAttr ":time1.o" "Small_Bush6.inTime";
 connectAttr "Small_Bush6.outputObjects[0].outputObjectTranslate" "|Small_Bush6|line_object1.t"
 		;
 connectAttr "Small_Bush6.outputObjects[0].outputObjectRotate" "|Small_Bush6|line_object1.r"
 		;
 connectAttr "Small_Bush6.outputObjects[0].outputObjectScale" "|Small_Bush6|line_object1.s"
-		;
-connectAttr "Small_Bush6.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush6|line_object1|color1_0|color1_0Shape.i"
 		;
 connectAttr ":time1.o" "Small_Bush7.inTime";
 connectAttr "Small_Bush7.outputObjects[0].outputObjectTranslate" "|Small_Bush7|line_object1.t"
@@ -10109,22 +9188,12 @@ connectAttr "Small_Bush7.outputObjects[0].outputObjectRotate" "|Small_Bush7|line
 		;
 connectAttr "Small_Bush7.outputObjects[0].outputObjectScale" "|Small_Bush7|line_object1.s"
 		;
-connectAttr "Small_Bush7.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush7|line_object1|color1_0|color1_0Shape.i"
-		;
 connectAttr ":time1.o" "Palm_Tree2.inTime";
 connectAttr "Palm_Tree2.outputObjects[0].outputObjectTranslate" "|Palm_Tree2|line_object1.t"
 		;
 connectAttr "Palm_Tree2.outputObjects[0].outputObjectRotate" "|Palm_Tree2|line_object1.r"
 		;
 connectAttr "Palm_Tree2.outputObjects[0].outputObjectScale" "|Palm_Tree2|line_object1.s"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Palm_Tree2|line_object1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree2|line_object1|merge3_0|merge3_0Shape.rest"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[1].outputPartMeshData" "|Palm_Tree2|line_object1|merge3_1|merge3_1Shape.i"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[1].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree2|line_object1|merge3_1|merge3_1Shape.rest"
 		;
 connectAttr ":time1.o" "Short_Palm1.inTime";
 connectAttr "Short_Palm1.outputObjects[0].outputObjectTranslate" "|Short_Palm1|grid1.t"
@@ -10133,18 +9202,12 @@ connectAttr "Short_Palm1.outputObjects[0].outputObjectRotate" "|Short_Palm1|grid
 		;
 connectAttr "Short_Palm1.outputObjects[0].outputObjectScale" "|Short_Palm1|grid1.s"
 		;
-connectAttr "Short_Palm1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Short_Palm1|grid1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Short_Palm1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Short_Palm1|grid1|merge3_0|merge3_0Shape.rest"
-		;
 connectAttr ":time1.o" "Small_Bush8.inTime";
 connectAttr "Small_Bush8.outputObjects[0].outputObjectTranslate" "|Small_Bush8|line_object1.t"
 		;
 connectAttr "Small_Bush8.outputObjects[0].outputObjectRotate" "|Small_Bush8|line_object1.r"
 		;
 connectAttr "Small_Bush8.outputObjects[0].outputObjectScale" "|Small_Bush8|line_object1.s"
-		;
-connectAttr "Small_Bush8.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush8|line_object1|color1_0|color1_0Shape.i"
 		;
 connectAttr "polyPlane1.out" "GroundShape.i";
 connectAttr ":time1.o" "Small_Bush9.inTime";
@@ -10154,58 +9217,12 @@ connectAttr "Small_Bush9.outputObjects[0].outputObjectRotate" "|Small_Bush9|line
 		;
 connectAttr "Small_Bush9.outputObjects[0].outputObjectScale" "|Small_Bush9|line_object1.s"
 		;
-connectAttr "Small_Bush9.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush9|line_object1|color1_0|color1_0Shape.i"
-		;
 connectAttr ":time1.o" "Small_Bush10.inTime";
 connectAttr "Small_Bush10.outputObjects[0].outputObjectTranslate" "|Small_Bush10|line_object1.t"
 		;
 connectAttr "Small_Bush10.outputObjects[0].outputObjectRotate" "|Small_Bush10|line_object1.r"
 		;
 connectAttr "Small_Bush10.outputObjects[0].outputObjectScale" "|Small_Bush10|line_object1.s"
-		;
-connectAttr "Small_Bush10.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush10|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "|shaun_bush_fern2.inTime";
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern2|shaun_bush_fern2.t"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputObjectRotate" "|shaun_bush_fern2|shaun_bush_fern2.r"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputObjectScale" "|shaun_bush_fern2|shaun_bush_fern2.s"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.i"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.branchbend"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.leafsize"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.branchangle"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.branchsize"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.rotation"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.leafjitter"
-		;
-connectAttr ":time1.o" "|shaun_bush_fern3.inTime";
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern3|shaun_bush_fern3.t"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputObjectRotate" "|shaun_bush_fern3|shaun_bush_fern3.r"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputObjectScale" "|shaun_bush_fern3|shaun_bush_fern3.s"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.i"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.branchbend"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.leafsize"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.branchangle"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.branchsize"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.rotation"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.leafjitter"
 		;
 connectAttr ":time1.o" "Palm_Tree3.inTime";
 connectAttr "Palm_Tree3.outputObjects[0].outputObjectTranslate" "|Palm_Tree3|line_object1.t"
@@ -10214,22 +9231,12 @@ connectAttr "Palm_Tree3.outputObjects[0].outputObjectRotate" "|Palm_Tree3|line_o
 		;
 connectAttr "Palm_Tree3.outputObjects[0].outputObjectScale" "|Palm_Tree3|line_object1.s"
 		;
-connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.rest"
-		;
-connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[1].outputPartMeshData" "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.i"
-		;
-connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[1].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.rest"
-		;
 connectAttr ":time1.o" "Small_Bush11.inTime";
 connectAttr "Small_Bush11.outputObjects[0].outputObjectTranslate" "|Small_Bush11|line_object1.t"
 		;
 connectAttr "Small_Bush11.outputObjects[0].outputObjectRotate" "|Small_Bush11|line_object1.r"
 		;
 connectAttr "Small_Bush11.outputObjects[0].outputObjectScale" "|Small_Bush11|line_object1.s"
-		;
-connectAttr "Small_Bush11.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush11|line_object1|color1_0|color1_0Shape.i"
 		;
 connectAttr ":time1.o" "|Tree_Anna2.inTime";
 connectAttr "|Tree_Anna2.outputObjects[0].outputObjectTranslate" "|Tree_Anna2|Tree_Anna2.t"
@@ -10250,41 +9257,12 @@ connectAttr "Short_Palm2.outputObjects[0].outputObjectRotate" "|Short_Palm2|grid
 		;
 connectAttr "Short_Palm2.outputObjects[0].outputObjectScale" "|Short_Palm2|grid1.s"
 		;
-connectAttr "Short_Palm2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Short_Palm2|grid1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Short_Palm2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Short_Palm2|grid1|merge3_0|merge3_0Shape.rest"
-		;
 connectAttr ":time1.o" "Short_Palm3.inTime";
 connectAttr "Short_Palm3.outputObjects[0].outputObjectTranslate" "|Short_Palm3|grid1.t"
 		;
 connectAttr "Short_Palm3.outputObjects[0].outputObjectRotate" "|Short_Palm3|grid1.r"
 		;
 connectAttr "Short_Palm3.outputObjects[0].outputObjectScale" "|Short_Palm3|grid1.s"
-		;
-connectAttr "Short_Palm3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Short_Palm3|grid1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Short_Palm3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Short_Palm3|grid1|merge3_0|merge3_0Shape.rest"
-		;
-connectAttr ":time1.o" "|shaun_bush_fern4.inTime";
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern4|shaun_bush_fern4.t"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputObjectRotate" "|shaun_bush_fern4|shaun_bush_fern4.r"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputObjectScale" "|shaun_bush_fern4|shaun_bush_fern4.s"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.i"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.branchbend"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.leafsize"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.branchangle"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.branchsize"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.rotation"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.leafjitter"
 		;
 connectAttr ":time1.o" "Small_Bush12.inTime";
 connectAttr "Small_Bush12.outputObjects[0].outputObjectTranslate" "|Small_Bush12|line_object1.t"
@@ -10293,8 +9271,6 @@ connectAttr "Small_Bush12.outputObjects[0].outputObjectRotate" "|Small_Bush12|li
 		;
 connectAttr "Small_Bush12.outputObjects[0].outputObjectScale" "|Small_Bush12|line_object1.s"
 		;
-connectAttr "Small_Bush12.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush12|line_object1|color1_0|color1_0Shape.i"
-		;
 connectAttr ":time1.o" "Small_Bush13.inTime";
 connectAttr "Small_Bush13.outputObjects[0].outputObjectTranslate" "|Small_Bush13|line_object1.t"
 		;
@@ -10302,16 +9278,12 @@ connectAttr "Small_Bush13.outputObjects[0].outputObjectRotate" "|Small_Bush13|li
 		;
 connectAttr "Small_Bush13.outputObjects[0].outputObjectScale" "|Small_Bush13|line_object1.s"
 		;
-connectAttr "Small_Bush13.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush13|line_object1|color1_0|color1_0Shape.i"
-		;
 connectAttr ":time1.o" "Small_Bush14.inTime";
 connectAttr "Small_Bush14.outputObjects[0].outputObjectTranslate" "|Small_Bush14|line_object1.t"
 		;
 connectAttr "Small_Bush14.outputObjects[0].outputObjectRotate" "|Small_Bush14|line_object1.r"
 		;
 connectAttr "Small_Bush14.outputObjects[0].outputObjectScale" "|Small_Bush14|line_object1.s"
-		;
-connectAttr "Small_Bush14.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush14|line_object1|color1_0|color1_0Shape.i"
 		;
 connectAttr "ImageProjectionRig:YB_lyr.di" "ImageProjectionRig:YB_Projection_Rig.do"
 		;
@@ -10325,6 +9297,18 @@ connectAttr "ImageProjectionRig:OB_lyr.di" "ImageProjectionRig:OB_Projection_Rig
 		;
 connectAttr "ImageProjectionRig:Bear_lyr.di" "ImageProjectionRig:Bear_Projection_Rig.do"
 		;
+connectAttr ":time1.o" "|Tree_Anna3.inTime";
+connectAttr "|Tree_Anna3.outputObjects[0].outputObjectTranslate" "|Tree_Anna3|Tree_Anna3.t"
+		;
+connectAttr "|Tree_Anna3.outputObjects[0].outputObjectRotate" "|Tree_Anna3|Tree_Anna3.r"
+		;
+connectAttr "|Tree_Anna3.outputObjects[0].outputObjectScale" "|Tree_Anna3|Tree_Anna3.s"
+		;
+connectAttr "groupId3.id" "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.iog.og[0].gid"
+		;
+connectAttr "leaf.mwc" "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.iog.og[0].gco"
+		;
+connectAttr "groupParts3.og" "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.i";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "ImageProjectionRig:lambert2SG.message" ":defaultLightSet.message";
@@ -10389,9 +9373,12 @@ connectAttr "layerManager.dli[1]" "pasted__LB_geo_TOUCH_GENTLY.id";
 connectAttr "layerManager.dli[3]" "pasted__LB_geo_TOUCH_GENTLY1.id";
 connectAttr "groupId1.msg" "leaf.gn" -na;
 connectAttr "groupId2.msg" "leaf.gn" -na;
+connectAttr "groupId3.msg" "leaf.gn" -na;
 connectAttr "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog.og[0]" "leaf.dsm"
 		 -na;
 connectAttr "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog.og[0]" "leaf.dsm"
+		 -na;
+connectAttr "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.iog.og[0]" "leaf.dsm"
 		 -na;
 connectAttr "|Tree_Anna1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "groupParts1.ig"
 		;
@@ -11078,34 +10065,6 @@ connectAttr "rampShader5SG.msg" "materialInfo5.sg";
 connectAttr "threeToneBrightnessShader4.msg" "materialInfo5.m";
 connectAttr "threeToneBrightnessShader4.msg" "materialInfo5.t" -na;
 connectAttr "threeToneBrightnessShader5.oc" "rampShader6SG.ss";
-connectAttr "|Small_Bush14|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush13|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush12|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush11|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush10|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush9|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush8|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush7|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush6|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush5|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush4|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush3|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush2|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
-connectAttr "|Small_Bush1|line_object1|color1_0|color1_0Shape.iog" "rampShader6SG.dsm"
-		 -na;
 connectAttr "rampShader6SG.msg" "materialInfo6.sg";
 connectAttr "threeToneBrightnessShader5.msg" "materialInfo6.m";
 connectAttr "threeToneBrightnessShader5.msg" "materialInfo6.t" -na;
@@ -11113,6 +10072,9 @@ connectAttr "threeToneBrightnessShader6.oc" "rampShader7SG.ss";
 connectAttr "rampShader7SG.msg" "materialInfo7.sg";
 connectAttr "threeToneBrightnessShader6.msg" "materialInfo7.m";
 connectAttr "threeToneBrightnessShader6.msg" "materialInfo7.t" -na;
+connectAttr "|Tree_Anna3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "groupParts3.ig"
+		;
+connectAttr "groupId3.id" "groupParts3.gi";
 connectAttr "ImageProjectionRig:lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "ImageProjectionRig:lambert3SG.pa" ":renderPartition.st" -na;
 connectAttr "ImageProjectionRig:lambert4SG.pa" ":renderPartition.st" -na;
@@ -11221,35 +10183,11 @@ connectAttr "ImageProjectionRig:file10.msg" ":defaultTextureList1.tx" -na;
 connectAttr "pCubeShape5.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape6.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape7.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "|Palm_Tree1|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree1|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
 connectAttr "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
-connectAttr "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree2|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree2|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Short_Palm1|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
 connectAttr "GroundShape.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
 connectAttr "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
-connectAttr "|Short_Palm2|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Short_Palm3|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
+connectAttr "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 // End of AnnaRunSet.ma
