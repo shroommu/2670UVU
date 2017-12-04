@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: 21_BearBites_Alexa.ma
-//Last modified: Mon, Dec 04, 2017 11:32:40 AM
+//Last modified: Mon, Dec 04, 2017 12:40:38 PM
 //Codeset: 1252
 file -rdi 1 -ns "Sam_Final_Scene" -rfn "Sam_Final_SceneRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/Alexa/Documents/Github/2670UVU//scenes/film/sets/Sam_Final_Scene.ma";
@@ -535,9 +535,9 @@ createNode nurbsCurve -n "ImageProjectionRig:YB_Projection_RigShape" -p "ImagePr
 	rename -uid "1C1A8564-4330-8995-B8E0-2CBC3D695FDA";
 	setAttr -k off ".v";
 	setAttr ".tw" yes;
-createNode transform -n "ImageProjectionRig:YB_Front2" -p "ImageProjectionRig:YB_Projection_Rig";
+createNode transform -n "ImageProjectionRig:YB_FrontArm" -p "ImageProjectionRig:YB_Projection_Rig";
 	rename -uid "7990A121-450C-D84E-FAF3-49A879071D52";
-createNode mesh -n "ImageProjectionRig:YB_FrontShape2" -p "ImageProjectionRig:YB_Front2";
+createNode mesh -n "ImageProjectionRig:YB_FrontArmShape" -p "ImageProjectionRig:YB_FrontArm";
 	rename -uid "A245AA15-4D2E-A9BB-5A14-DDAB31E00D94";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -562,9 +562,9 @@ createNode mesh -n "ImageProjectionRig:YB_FrontShape2" -p "ImageProjectionRig:YB
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "ImageProjectionRig:YB_Back" -p "ImageProjectionRig:YB_Projection_Rig";
+createNode transform -n "ImageProjectionRig:YB_Backarm" -p "ImageProjectionRig:YB_Projection_Rig";
 	rename -uid "5FF7036F-4B54-6BB3-9035-E79F3F00039C";
-createNode mesh -n "ImageProjectionRig:YB_BackShape" -p "ImageProjectionRig:YB_Back";
+createNode mesh -n "ImageProjectionRig:YB_BackarmShape" -p "ImageProjectionRig:YB_Backarm";
 	rename -uid "E66BAAB4-48EF-8F6F-DAC8-F4A07CBF3EDA";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -837,7 +837,8 @@ createNode materialInfo -n "ImageProjectionRig:materialInfo2";
 	rename -uid "0F13AF17-4B62-2DBF-0560-D1BB220A90B9";
 createNode file -n "ImageProjectionRig:YB_SuperFront";
 	rename -uid "7A86FDFE-4105-3359-123D-CDB499CEF940";
-	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_FrontArm/1.tif";
+	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_HeadNoFace/21_bearBites.001.tif";
+	setAttr ".ufe" yes;
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "ImageProjectionRig:place2dTexture2";
 	rename -uid "6D67EE83-4F45-84E9-165F-B8866DF7C5AD";
@@ -877,7 +878,8 @@ createNode materialInfo -n "ImageProjectionRig:materialInfo3";
 	rename -uid "B8C703BA-41BD-98D6-8C28-3EB11C44C3C1";
 createNode file -n "ImageProjectionRig:file2";
 	rename -uid "674A04A9-4201-9ACF-9683-388A55C22BFE";
-	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_Body/1.tif";
+	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_FrontArm/21_bearBites.001.tif";
+	setAttr ".ufe" yes;
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "ImageProjectionRig:place2dTexture3";
 	rename -uid "08332297-492C-292E-D9E1-81A80BA3FA5B";
@@ -891,7 +893,8 @@ createNode materialInfo -n "ImageProjectionRig:materialInfo4";
 	rename -uid "37AD194F-4FAD-D65E-E1B6-939D7BDFA8A5";
 createNode file -n "ImageProjectionRig:file3";
 	rename -uid "C9C2CCD1-4A35-6790-F14B-0D9894760E50";
-	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_HeadNoFace/1.tif";
+	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_BackLeg/21_bearBites.001.tif";
+	setAttr ".ufe" yes;
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "ImageProjectionRig:place2dTexture4";
 	rename -uid "346168B3-436C-6769-DA01-35AF71157FC7";
@@ -905,7 +908,8 @@ createNode materialInfo -n "ImageProjectionRig:materialInfo5";
 	rename -uid "D9108130-40E1-C493-B779-299ECF695D65";
 createNode file -n "ImageProjectionRig:file4";
 	rename -uid "76BADA95-4D8B-6057-1281-46B219C354E1";
-	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_backArm/1.tif";
+	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_backArm/21_bearBites.001.tif";
+	setAttr ".ufe" yes;
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "ImageProjectionRig:place2dTexture5";
 	rename -uid "A823AEF5-46A5-2A6C-FFAA-EA8AAD4E440A";
@@ -919,7 +923,7 @@ createNode materialInfo -n "ImageProjectionRig:materialInfo6";
 	rename -uid "9B13EB61-4DA1-BAEF-9722-90B5464132B9";
 createNode file -n "ImageProjectionRig:file5";
 	rename -uid "BF38F709-4711-ABB7-2931-8B9D6AEC167C";
-	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_FrontLeg/21_bearBites.001.tif";
+	setAttr ".ftn" -type "string" "C:/Users/Alexa/Documents/Github/2670UVU//sourceimages/ToonBoom/21_BearBites_2D/21_BearBites_Body/21_bearBites.001.tif";
 	setAttr ".ufe" yes;
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "ImageProjectionRig:place2dTexture6";
@@ -1103,7 +1107,7 @@ createNode script -n "ImageProjectionRig:uiConfigurationScriptNode";
 	setAttr ".st" 3;
 createNode script -n "ImageProjectionRig:sceneConfigurationScriptNode";
 	rename -uid "7776B1A7-42C7-5FF4-EE6E-4AA350DBB780";
-	setAttr ".b" -type "string" "playbackOptions -min 1 -max 119 -ast 1 -aet 200 ";
+	setAttr ".b" -type "string" "playbackOptions -min 1 -max 43 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
 createNode makeNurbCircle -n "ImageProjectionRig:makeNurbCircle1";
 	rename -uid "8D70F33E-469D-8B26-ECF7-0BBA86F61788";
@@ -1270,6 +1274,22 @@ createNode expression -n "expression1";
 	setAttr ".ixp" -type "string" ".O[0]=frame";
 createNode expression -n "expression2";
 	rename -uid "BD2F3D1A-469D-4B2C-B13E-7EA258A8396B";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode expression -n "expression3";
+	rename -uid "5F9EF356-4B90-CE17-C05F-3E82D1654AF7";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode expression -n "expression4";
+	rename -uid "E85822E9-448A-275F-EF07-D0BB1F2AC1E7";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode expression -n "expression5";
+	rename -uid "BE0ED0FE-4406-1152-F147-239F1CE83154";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode expression -n "expression6";
+	rename -uid "4E9064C9-43DC-E3C5-0559-BE9245CFBC51";
 	setAttr -k on ".nds";
 	setAttr ".ixp" -type "string" ".O[0]=frame";
 select -ne :time1;
@@ -1502,6 +1522,7 @@ connectAttr "ImageProjectionRig:place2dTexture2.o" "ImageProjectionRig:YB_SuperF
 		;
 connectAttr "ImageProjectionRig:place2dTexture2.ofs" "ImageProjectionRig:YB_SuperFront.fs"
 		;
+connectAttr "expression4.out[0]" "ImageProjectionRig:YB_SuperFront.fe";
 connectAttr "ImageProjectionRig:polyPlane1.out" "ImageProjectionRig:polyTweakUV1.ip"
 		;
 connectAttr "ImageProjectionRig:file1.msg" "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
@@ -1516,7 +1537,7 @@ connectAttr "ImageProjectionRig:file2.oc" "ImageProjectionRig:YB_Front_Mat.c";
 connectAttr "ImageProjectionRig:file2.ot" "ImageProjectionRig:YB_Front_Mat.it";
 connectAttr "ImageProjectionRig:YB_Front_Mat.oc" "ImageProjectionRig:lambert4SG.ss"
 		;
-connectAttr "ImageProjectionRig:YB_FrontShape2.iog" "ImageProjectionRig:lambert4SG.dsm"
+connectAttr "ImageProjectionRig:YB_FrontArmShape.iog" "ImageProjectionRig:lambert4SG.dsm"
 		 -na;
 connectAttr "ImageProjectionRig:lambert4SG.msg" "ImageProjectionRig:materialInfo3.sg"
 		;
@@ -1561,6 +1582,7 @@ connectAttr "ImageProjectionRig:place2dTexture3.o" "ImageProjectionRig:file2.uv"
 		;
 connectAttr "ImageProjectionRig:place2dTexture3.ofs" "ImageProjectionRig:file2.fs"
 		;
+connectAttr "expression5.out[0]" "ImageProjectionRig:file2.fe";
 connectAttr "ImageProjectionRig:file3.oc" "ImageProjectionRig:YB_Mid_Mat.c";
 connectAttr "ImageProjectionRig:file3.ot" "ImageProjectionRig:YB_Mid_Mat.it";
 connectAttr "ImageProjectionRig:YB_Mid_Mat.oc" "ImageProjectionRig:lambert5SG.ss"
@@ -1610,11 +1632,12 @@ connectAttr "ImageProjectionRig:place2dTexture4.o" "ImageProjectionRig:file3.uv"
 		;
 connectAttr "ImageProjectionRig:place2dTexture4.ofs" "ImageProjectionRig:file3.fs"
 		;
+connectAttr "expression3.out[0]" "ImageProjectionRig:file3.fe";
 connectAttr "ImageProjectionRig:file4.oc" "ImageProjectionRig:YB_Back1_Mat.c";
 connectAttr "ImageProjectionRig:file4.ot" "ImageProjectionRig:YB_Back1_Mat.it";
 connectAttr "ImageProjectionRig:YB_Back1_Mat.oc" "ImageProjectionRig:lambert6SG.ss"
 		;
-connectAttr "ImageProjectionRig:YB_BackShape.iog" "ImageProjectionRig:lambert6SG.dsm"
+connectAttr "ImageProjectionRig:YB_BackarmShape.iog" "ImageProjectionRig:lambert6SG.dsm"
 		 -na;
 connectAttr "ImageProjectionRig:lambert6SG.msg" "ImageProjectionRig:materialInfo5.sg"
 		;
@@ -1659,6 +1682,7 @@ connectAttr "ImageProjectionRig:place2dTexture5.o" "ImageProjectionRig:file4.uv"
 		;
 connectAttr "ImageProjectionRig:place2dTexture5.ofs" "ImageProjectionRig:file4.fs"
 		;
+connectAttr "expression6.out[0]" "ImageProjectionRig:file4.fe";
 connectAttr "ImageProjectionRig:file5.oc" "ImageProjectionRig:YB_SuperBack_Mat.c"
 		;
 connectAttr "ImageProjectionRig:file5.ot" "ImageProjectionRig:YB_SuperBack_Mat.it"
@@ -2060,6 +2084,10 @@ connectAttr "place2dTexture1.ofs" "asdf.fs";
 connectAttr "expression1.out[0]" "asdf.fe";
 connectAttr ":time1.o" "expression1.tim";
 connectAttr ":time1.o" "expression2.tim";
+connectAttr ":time1.o" "expression3.tim";
+connectAttr ":time1.o" "expression4.tim";
+connectAttr ":time1.o" "expression5.tim";
+connectAttr ":time1.o" "expression6.tim";
 connectAttr "ImageProjectionRig:lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "ImageProjectionRig:lambert3SG.pa" ":renderPartition.st" -na;
 connectAttr "ImageProjectionRig:lambert4SG.pa" ":renderPartition.st" -na;
