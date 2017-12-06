@@ -10,8 +10,7 @@ public class MoveCharacter : MonoBehaviour {
 	float speed;
 	float gravity;
 
-	private bool jumping= false;
-	private bool canVertMove = false;
+	private bool jumping = false;
 	private bool canJump = true;
 	//private bool canMove = false;
 
@@ -55,6 +54,7 @@ public class MoveCharacter : MonoBehaviour {
 
 		//Action subscriptions
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
+		TreadWater.SendSwimSpeed = SendSpeedHandler;
 		MoveInput.JumpAction = Jump;
 		MoveInput.KeyAction += Move;
 		MoveInput.VertKeyAction += VertMove;
@@ -71,25 +71,9 @@ public class MoveCharacter : MonoBehaviour {
     private void SendSpeedHandler(float _speed, float _gravity){
 		speed = _speed;
 		gravity = _gravity;
+		print(speed);
+		print(gravity);
     }
-
-	void EnableJump (){
-		canJump = true;
-	}
-
-	void DisableJump (){
-		canJump = false;
-	}
-
-	//jumps
-	void Jump () {
-		//increments jump count var, performs jump
-		if (jumpNum < Data.Instance.jumpLimit && canJump){	
-			jumping = true;
-			++jumpNum;
-			tempMove.y = Data.Instance.jumpHeight;
-		}
-	}
 
 	//checks for ground, enables/disables jumping based on jumpNum, locks z position
 	IEnumerator MoveCheck() {
@@ -113,7 +97,7 @@ public class MoveCharacter : MonoBehaviour {
 			}
 
 			//makes player fall less quickly
-			if (cc.isGrounded == false && !jumping && !canVertMove){
+			if (cc.isGrounded == false && !jumping && !Data.Instance.canVertMove && !Data.Instance.treading){
 				tempMove.y = -.3f;
 			}
 
@@ -123,9 +107,15 @@ public class MoveCharacter : MonoBehaviour {
 
 	//moves character horizontally
 	void Move (float _movement) {
-		tempMove.y -= gravity*Time.deltaTime;
+		if(Data.Instance.useGravity){
+			tempMove.y -= gravity*Time.deltaTime;
+		}
+		else{
+			tempMove.y = 0;
+		}
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
+		//print(tempMove.y);
 
 		//starts sprint (left shift)
 		if(Input.GetKeyDown(KeyCode.LeftShift)){
@@ -149,7 +139,6 @@ public class MoveCharacter : MonoBehaviour {
 		}
 	}
 
-	//changes speed to sprinting, counts down sprintCounter, then deactivates sprinting
 	IEnumerator Sprint() {
 		while(sprintCounter > 0 && sprinting){
 			print("sprint is running");
@@ -169,6 +158,37 @@ public class MoveCharacter : MonoBehaviour {
 		sprintRunning = false;
 		print("sprint is not running");
 	}
+
+	//jumps
+	void Jump () {
+		//increments jump count var, performs jump
+		if (jumpNum < Data.Instance.jumpLimit && canJump){	
+			jumping = true;
+			++jumpNum;
+			tempMove.y = Data.Instance.jumpHeight;
+		}
+	}
+
+	void EnableJump (){
+		canJump = true;
+	}
+
+	void DisableJump (){
+		canJump = false;
+	}
+
+		void VertMove (float _vertmove){
+		if (Data.Instance.canVertMove){
+			tempMove.y = _vertmove*speed*Time.deltaTime;
+		}
+
+		if (jumpNum != 0 && Data.Instance.canVertMove){
+			jumpNum = 0;
+		}
+	}
+
+	//changes speed to sprinting, counts down sprintCounter, then deactivates sprinting
+
 
 	//restores sprinting ability
 	IEnumerator RestoreSprint(){
@@ -193,36 +213,6 @@ public class MoveCharacter : MonoBehaviour {
 	IEnumerator ClearDisplaySprint(){
 		yield return new WaitForSeconds(1);
 		sprintText.text = null;
-	}
-
-	//moves character vertically
-	void VertMove (float _vertmove){
-		if (canVertMove == true){
-			tempMove.y = _vertmove*speed*Time.deltaTime;
-		}
-
-		if (jumpNum != 0 && canVertMove == true){
-			jumpNum = 0;
-		}
-	}
-
-	//enables VertMove
-	void OnTriggerEnter(Collider other){
-		if (other.tag == "Climb" || other.tag == "Water"){
-			canVertMove = true;
-		}
-
-		if (other.tag == "Waterfall" && Data.Instance.canWaterfall){
-			print("Waterfall climb");
-			canVertMove = true;
-		}
-	}
-
-	//disables VertMove
-	void OnTriggerExit(Collider other){
-		if (other.tag == "Climb" || other.tag == "Water" || other.tag == "Waterfall"){
-			canVertMove = false;
-		}
 	}
 
 	//unsubscribes from MoveInput

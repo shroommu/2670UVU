@@ -25,7 +25,12 @@ public class Data {
 	public float climbGravity = 0;
 
 	public float swimSpeed = 4;
-	public float swimGravity = 0.1f;
+	public float swimGravity = 0;
+
+	public bool treading = false;
+	public bool swimming = false;
+	public bool canVertMove = false;
+	public bool useGravity = true;
 
 	public string message = null;
 
@@ -34,6 +39,7 @@ public class Data {
 	public bool canWaterfall = false;
 
 	public int risingWaterCount = 1;
+	public float riverSpeed = 0.02f;
 
 	public int jumpLimit = 1;
 
@@ -55,7 +61,8 @@ public class Data {
         CLIMB,
         SWIM,
         SWIMWATERFALL,
-		DISABLEJUMP
+		DISABLEJUMP,
+		TREAD
     }
 
     public enum PickupType{

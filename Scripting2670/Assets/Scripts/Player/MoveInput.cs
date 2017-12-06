@@ -12,6 +12,7 @@ public class MoveInput : MonoBehaviour {
 	public static Action InteractAction;
 	public static Action HoldInteractAction;
 	public static Action ReleaseInteractAction;
+	public static Action SwimAction;
 
 	public static Action ClickAction;
 
@@ -69,6 +70,11 @@ public class MoveInput : MonoBehaviour {
 
 			if (Input.GetMouseButton(0)){
 				ClickAction();
+			}
+
+			if (Data.Instance.treading && Input.GetKeyDown(KeyCode.DownArrow)){
+				VertKeyAction(Input.GetAxis("Vertical"));
+				SwimAction();
 			}
 
 			yield return null;

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PushPull : MonoBehaviour {
 
 	private GameObject player;
-	public static bool canFlip;
+	public static bool canFlip = true;
 
 	void Start () {
 		SetPlayerPosActions.Play += OnPlay;

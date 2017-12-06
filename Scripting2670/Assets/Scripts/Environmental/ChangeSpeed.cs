@@ -9,28 +9,14 @@ public class ChangeSpeed : MonoBehaviour {
 	public static Action DisableJump;
 	public static Action EnableJump;
 
-	//public static Action HoldBreath;
-	//public static Action TakeBreath;
-
-	//private GameObject thisCollider;
-
 	public Data.GameSpeed speedType;
 
-	//private bool inWater = false;
 	private int waterCount;
 
-	//allows OnTriggerExit method to run if value is 1.
-	//public int allowExit = 1;
 
-	//private bool canWaterfall = false;
-
-	void Start(){
-		//Pickup.WaterfallPU = WaterfallPU;
-	}
 	
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player"){
-			//thisCollider = gameObject;
 			Data.Instance.handlingSpeed = true;
 
 			switch (speedType){
@@ -46,15 +32,16 @@ public class ChangeSpeed : MonoBehaviour {
 					break;
 
 				case Data.GameSpeed.CLIMB:
+					Data.Instance.canVertMove = true;
 					SendSpeed(Data.Instance.climbSpeed, Data.Instance.climbGravity);
 					print("ClimbSpeed");
 					break;
 
-				case Data.GameSpeed.SWIM:
+				/*case Data.GameSpeed.SWIM:
 					SendSpeed(Data.Instance.swimSpeed, Data.Instance.swimGravity);
 					print("Swimming");
 					DisableJump();
-					break;
+					break;*/
 				
 				case Data.GameSpeed.SWIMWATERFALL:
 					if(Data.Instance.canWaterfall){
@@ -73,12 +60,9 @@ public class ChangeSpeed : MonoBehaviour {
 	void OnTriggerExit(){
 		SendSpeed(Data.Instance.speed, Data.Instance.gravity);
 		print("RegularSpeed");
+		Data.Instance.canVertMove = false;
 		Data.Instance.handlingSpeed = false;
+		Data.Instance.useGravity = true;
 		EnableJump();
-		//thisCollider = null;
 	}
-
-	/*void WaterfallPU(){
-		canWaterfall = true;
-	}*/
 }
