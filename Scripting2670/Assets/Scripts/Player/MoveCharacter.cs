@@ -80,7 +80,7 @@ public class MoveCharacter : MonoBehaviour {
 		while(Data.Instance.canPlay){
 			
 			//checks for ground and resets jump count to allow another jump
-			if (cc.isGrounded && jumpNum > 0){
+			if ((cc.isGrounded && jumpNum > 0) || (Data.Instance.treading && jumpNum > 0) ){
 				jumpNum = 0;
 			}
 
@@ -92,7 +92,7 @@ public class MoveCharacter : MonoBehaviour {
 			}
 
 			//resets jumping bool
-			if (cc.isGrounded){
+			if (cc.isGrounded || Data.Instance.treading){
 				jumping = false;
 			}
 
@@ -163,6 +163,8 @@ public class MoveCharacter : MonoBehaviour {
 	void Jump () {
 		//increments jump count var, performs jump
 		if (jumpNum < Data.Instance.jumpLimit && canJump){	
+			Data.Instance.useGravity = true;
+			gravity = Data.Instance.gravity;
 			jumping = true;
 			++jumpNum;
 			tempMove.y = Data.Instance.jumpHeight;

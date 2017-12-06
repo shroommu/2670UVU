@@ -39,7 +39,7 @@ public class Data {
 	public bool canWaterfall = false;
 
 	public int risingWaterCount = 1;
-	public float riverSpeed = 0.02f;
+	public float riverSpeed = 0.01f;
 
 	public int jumpLimit = 1;
 

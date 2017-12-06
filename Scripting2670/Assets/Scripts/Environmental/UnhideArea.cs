@@ -5,11 +5,9 @@ using UnityEngine;
 public class UnhideArea : MonoBehaviour {
 
 	public GameObject coverObj;
-	MeshRenderer render;
 
 	void Start () {
 		SetPlayerPosActions.Play += OnPlay;
-		render = coverObj.GetComponent<MeshRenderer>();
 	}
 
 	void OnPlay () {
@@ -19,16 +17,14 @@ public class UnhideArea : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if(other.tag == "Player"){
 			print("Hidden Area Found");
-			//coverObj.SetActive(false);
-			render.enabled = false;
+			coverObj.SetActive(false);
 		}
 	}
 
 	void OnTriggerExit(Collider other){
 		if(other.tag == "Player"){
 			print("Left Hidden Area");
-			//coverObj.SetActive(true);
-			render.enabled = true;
+			coverObj.SetActive(true);
 		}
 	}
 }
