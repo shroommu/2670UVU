@@ -1264,6 +1264,1047 @@ ModelImporter:
     102512: window_grp
     102514: window_grp1
     102516: window_grp2
+    102518: centerArchPlane
+    102520: centerWaterChute_grp
+    102522: centerWindowPlane
+    102524: column1 10
+    102526: column1 11
+    102528: column1 12
+    102530: column1 13
+    102532: column1 14
+    102534: column1 15
+    102536: column1 16
+    102538: column1 17
+    102540: column1 18
+    102542: column1 19
+    102544: column1 4
+    102546: column1 5
+    102548: column1 6
+    102550: column1 7
+    102552: column1 8
+    102554: column1 9
+    102556: column_grp 1
+    102558: column_grp 2
+    102560: column_grp 3
+    102562: column_grp 4
+    102564: column_grp2 1
+    102566: column_grp2 2
+    102568: column_grp2 3
+    102570: column_grp2 4
+    102572: column_grp4 1
+    102574: column_grp4 2
+    102576: column_grp4 3
+    102578: column_grp4 4
+    102580: column_grp5 1
+    102582: column_grp5 2
+    102584: column_grp5 3
+    102586: column_grp5 4
+    102588: columnBottom 10
+    102590: columnBottom 11
+    102592: columnBottom 12
+    102594: columnBottom 13
+    102596: columnBottom 14
+    102598: columnBottom 15
+    102600: columnBottom 16
+    102602: columnBottom 17
+    102604: columnBottom 18
+    102606: columnBottom 19
+    102608: columnBottom 4
+    102610: columnBottom 5
+    102612: columnBottom 6
+    102614: columnBottom 7
+    102616: columnBottom 8
+    102618: columnBottom 9
+    102620: columns_firstFloor_grp 1
+    102622: columns_firstFloor_grp 2
+    102624: columns_firstFloor_grp 3
+    102626: columns_firstFloor_grp 4
+    102628: columnTop 10
+    102630: columnTop 11
+    102632: columnTop 12
+    102634: columnTop 13
+    102636: columnTop 14
+    102638: columnTop 15
+    102640: columnTop 16
+    102642: columnTop 17
+    102644: columnTop 18
+    102646: columnTop 19
+    102648: columnTop 4
+    102650: columnTop 5
+    102652: columnTop 6
+    102654: columnTop 7
+    102656: columnTop 8
+    102658: columnTop 9
+    102660: leftArchPlane
+    102662: leftDoorway_grp
+    102664: leftDwayDownPlane
+    102666: leftDwayUpPlane
+    102668: leftWall_firstFloor_grp
+    102670: leftWall_secFloor_grp
+    102672: leftWaterChute_grp
+    102674: leftWindowPlane
+    102676: planes_grp
+    102678: rightArchPlane
+    102680: rightDoorway_grp
+    102682: rightDwayDownPlane
+    102684: rightDwayUpPlane
+    102686: rightWall_firstFloor_grp
+    102688: rightWall_secFloor_grp
+    102690: rightWaterChute_grp
+    102692: rightWindowPlane
+    102694: stoneWall_grp10 3
+    102696: stoneWall_grp10 4
+    102698: stoneWall_grp10 5
+    102700: stoneWall_grp10 6
+    102702: stoneWall_grp11
+    102704: stoneWall_grp12
+    102706: stoneWall_grp13
+    102708: stoneWall_grp14
+    102710: stoneWall_grp6 3
+    102712: stoneWall_grp6 4
+    102714: stoneWall_grp6 5
+    102716: stoneWall_grp6 6
+    102718: stoneWall_grp7 3
+    102720: stoneWall_grp7 4
+    102722: stoneWall_grp7 5
+    102724: stoneWall_grp7 6
+    102726: stoneWall_grp8 3
+    102728: stoneWall_grp8 4
+    102730: stoneWall_grp8 5
+    102732: stoneWall_grp8 6
+    102734: stoneWall_grp9 3
+    102736: stoneWall_grp9 4
+    102738: stoneWall_grp9 5
+    102740: stoneWall_grp9 6
+    102742: temple_grp
+    102744: templeBlockWhole125 10
+    102746: templeBlockWhole125 11
+    102748: templeBlockWhole125 12
+    102750: templeBlockWhole125 13
+    102752: templeBlockWhole125 6
+    102754: templeBlockWhole125 7
+    102756: templeBlockWhole125 8
+    102758: templeBlockWhole125 9
+    102760: templeBlockWhole129 10
+    102762: templeBlockWhole129 11
+    102764: templeBlockWhole129 12
+    102766: templeBlockWhole129 13
+    102768: templeBlockWhole129 8
+    102770: templeBlockWhole129 9
+    102772: templeBlockWhole130 10
+    102774: templeBlockWhole130 11
+    102776: templeBlockWhole130 12
+    102778: templeBlockWhole130 13
+    102780: templeBlockWhole130 8
+    102782: templeBlockWhole130 9
+    102784: templeBlockWhole211 1
+    102786: templeBlockWhole211 2
+    102788: templeBlockWhole211 3
+    102790: templeBlockWhole211 4
+    102792: templeBlockWhole212 1
+    102794: templeBlockWhole212 2
+    102796: templeBlockWhole212 3
+    102798: templeBlockWhole212 4
+    102800: templeBlockWhole229 10
+    102802: templeBlockWhole229 11
+    102804: templeBlockWhole229 12
+    102806: templeBlockWhole229 13
+    102808: templeBlockWhole229 14
+    102810: templeBlockWhole229 3
+    102812: templeBlockWhole229 4
+    102814: templeBlockWhole229 5
+    102816: templeBlockWhole229 6
+    102818: templeBlockWhole229 7
+    102820: templeBlockWhole229 8
+    102822: templeBlockWhole229 9
+    102824: templeBlockWhole230 10
+    102826: templeBlockWhole230 11
+    102828: templeBlockWhole230 12
+    102830: templeBlockWhole230 13
+    102832: templeBlockWhole230 14
+    102834: templeBlockWhole230 3
+    102836: templeBlockWhole230 4
+    102838: templeBlockWhole230 5
+    102840: templeBlockWhole230 6
+    102842: templeBlockWhole230 7
+    102844: templeBlockWhole230 8
+    102846: templeBlockWhole230 9
+    102848: templeBlockWhole231 10
+    102850: templeBlockWhole231 11
+    102852: templeBlockWhole231 12
+    102854: templeBlockWhole231 13
+    102856: templeBlockWhole231 14
+    102858: templeBlockWhole231 3
+    102860: templeBlockWhole231 4
+    102862: templeBlockWhole231 5
+    102864: templeBlockWhole231 6
+    102866: templeBlockWhole231 7
+    102868: templeBlockWhole231 8
+    102870: templeBlockWhole231 9
+    102872: templeBlockWhole232 1
+    102874: templeBlockWhole232 2
+    102876: templeBlockWhole233 1
+    102878: templeBlockWhole233 2
+    102880: templeBlockWhole234 1
+    102882: templeBlockWhole234 2
+    102884: templeBlockWhole239
+    102886: templeBlockWhole240
+    102888: templeBlockWhole241
+    102890: templeBlockWhole241 1
+    102892: templeBlockWhole241 2
+    102894: templeBlockWhole241 3
+    102896: templeBlockWhole241 4
+    102898: templeBlockWhole242
+    102900: templeBlockWhole243
+    102902: templeBlockWhole244
+    102904: templeBlockWhole244 1
+    102906: templeBlockWhole244 2
+    102908: templeBlockWhole246
+    102910: templeBlockWhole246 1
+    102912: templeBlockWhole246 2
+    102914: templeBlockWhole247
+    102916: templeBlockWhole247 1
+    102918: templeBlockWhole247 2
+    102920: templeBlockWhole249
+    102922: templeBlockWhole250
+    102924: templeBlockWhole251
+    102926: templeBlockWhole252
+    102928: templeBlockWhole253
+    102930: templeBlockWhole254
+    102932: templeBlockWhole255
+    102934: templeBlockWhole255 1
+    102936: templeBlockWhole255 2
+    102938: templeBlockWhole256
+    102940: templeBlockWhole256 1
+    102942: templeBlockWhole256 2
+    102944: templeBlockWhole257
+    102946: templeBlockWhole257 1
+    102948: templeBlockWhole257 2
+    102950: templeBlockWhole258
+    102952: templeBlockWhole258 1
+    102954: templeBlockWhole258 2
+    102956: templeBlockWhole259
+    102958: templeBlockWhole259 1
+    102960: templeBlockWhole259 2
+    102962: templeBlockWhole259 3
+    102964: templeBlockWhole259 4
+    102966: templeBlockWhole260
+    102968: templeBlockWhole260 1
+    102970: templeBlockWhole260 10
+    102972: templeBlockWhole260 11
+    102974: templeBlockWhole260 12
+    102976: templeBlockWhole260 13
+    102978: templeBlockWhole260 14
+    102980: templeBlockWhole260 2
+    102982: templeBlockWhole260 3
+    102984: templeBlockWhole260 4
+    102986: templeBlockWhole260 5
+    102988: templeBlockWhole260 6
+    102990: templeBlockWhole260 7
+    102992: templeBlockWhole260 8
+    102994: templeBlockWhole260 9
+    102996: templeBlockWhole261
+    102998: templeBlockWhole261 1
+    103000: templeBlockWhole261 10
+    103002: templeBlockWhole261 11
+    103004: templeBlockWhole261 12
+    103006: templeBlockWhole261 13
+    103008: templeBlockWhole261 14
+    103010: templeBlockWhole261 2
+    103012: templeBlockWhole261 3
+    103014: templeBlockWhole261 4
+    103016: templeBlockWhole261 5
+    103018: templeBlockWhole261 6
+    103020: templeBlockWhole261 7
+    103022: templeBlockWhole261 8
+    103024: templeBlockWhole261 9
+    103026: templeBlockWhole262
+    103028: templeBlockWhole262 1
+    103030: templeBlockWhole262 10
+    103032: templeBlockWhole262 11
+    103034: templeBlockWhole262 12
+    103036: templeBlockWhole262 13
+    103038: templeBlockWhole262 14
+    103040: templeBlockWhole262 2
+    103042: templeBlockWhole262 3
+    103044: templeBlockWhole262 4
+    103046: templeBlockWhole262 5
+    103048: templeBlockWhole262 6
+    103050: templeBlockWhole262 7
+    103052: templeBlockWhole262 8
+    103054: templeBlockWhole262 9
+    103056: templeBlockWhole263
+    103058: templeBlockWhole263 1
+    103060: templeBlockWhole263 10
+    103062: templeBlockWhole263 11
+    103064: templeBlockWhole263 12
+    103066: templeBlockWhole263 13
+    103068: templeBlockWhole263 14
+    103070: templeBlockWhole263 2
+    103072: templeBlockWhole263 3
+    103074: templeBlockWhole263 4
+    103076: templeBlockWhole263 5
+    103078: templeBlockWhole263 6
+    103080: templeBlockWhole263 7
+    103082: templeBlockWhole263 8
+    103084: templeBlockWhole263 9
+    103086: templeBlockWhole264
+    103088: templeBlockWhole264 1
+    103090: templeBlockWhole264 10
+    103092: templeBlockWhole264 11
+    103094: templeBlockWhole264 12
+    103096: templeBlockWhole264 13
+    103098: templeBlockWhole264 14
+    103100: templeBlockWhole264 2
+    103102: templeBlockWhole264 3
+    103104: templeBlockWhole264 4
+    103106: templeBlockWhole264 5
+    103108: templeBlockWhole264 6
+    103110: templeBlockWhole264 7
+    103112: templeBlockWhole264 8
+    103114: templeBlockWhole264 9
+    103116: templeBlockWhole265
+    103118: templeBlockWhole265 1
+    103120: templeBlockWhole265 10
+    103122: templeBlockWhole265 11
+    103124: templeBlockWhole265 12
+    103126: templeBlockWhole265 13
+    103128: templeBlockWhole265 14
+    103130: templeBlockWhole265 2
+    103132: templeBlockWhole265 3
+    103134: templeBlockWhole265 4
+    103136: templeBlockWhole265 5
+    103138: templeBlockWhole265 6
+    103140: templeBlockWhole265 7
+    103142: templeBlockWhole265 8
+    103144: templeBlockWhole265 9
+    103146: templeBlockWhole266
+    103148: templeBlockWhole266 1
+    103150: templeBlockWhole266 10
+    103152: templeBlockWhole266 11
+    103154: templeBlockWhole266 12
+    103156: templeBlockWhole266 13
+    103158: templeBlockWhole266 14
+    103160: templeBlockWhole266 2
+    103162: templeBlockWhole266 3
+    103164: templeBlockWhole266 4
+    103166: templeBlockWhole266 5
+    103168: templeBlockWhole266 6
+    103170: templeBlockWhole266 7
+    103172: templeBlockWhole266 8
+    103174: templeBlockWhole266 9
+    103176: templeBlockWhole267
+    103178: templeBlockWhole267 1
+    103180: templeBlockWhole267 2
+    103182: templeBlockWhole267 3
+    103184: templeBlockWhole267 4
+    103186: templeBlockWhole268
+    103188: templeBlockWhole268 1
+    103190: templeBlockWhole268 2
+    103192: templeBlockWhole268 3
+    103194: templeBlockWhole268 4
+    103196: templeBlockWhole269
+    103198: templeBlockWhole269 1
+    103200: templeBlockWhole269 2
+    103202: templeBlockWhole269 3
+    103204: templeBlockWhole269 4
+    103206: templeBlockWhole270
+    103208: templeBlockWhole270 1
+    103210: templeBlockWhole270 2
+    103212: templeBlockWhole270 3
+    103214: templeBlockWhole270 4
+    103216: templeBlockWhole271
+    103218: templeBlockWhole271 1
+    103220: templeBlockWhole271 2
+    103222: templeBlockWhole271 3
+    103224: templeBlockWhole271 4
+    103226: templeBlockWhole272
+    103228: templeBlockWhole273
+    103230: templeBlockWhole274
+    103232: templeBlockWhole275
+    103234: templeBlockWhole276
+    103236: templeBlockWhole277
+    103238: templeBlockWhole278
+    103240: templeBlockWhole279
+    103242: templeBlockWhole280
+    103244: templeBlockWhole281
+    103246: templeBlockWhole282
+    103248: templeBlockWhole283
+    103250: templeBlockWhole284
+    103252: templeBlockWhole285
+    103254: templeBlockWhole286
+    103256: templeBlockWhole287
+    103258: templeBlockWhole288
+    103260: templeBlockWhole289
+    103262: templeBlockWhole290
+    103264: templeBlockWhole291
+    103266: templeBlockWhole292
+    103268: templeBlockWhole293
+    103270: templeBlockWhole294
+    103272: templeBlockWhole295
+    103274: templeBlockWhole296
+    103276: templeBlockWhole297
+    103278: templeBlockWhole298
+    103280: templeBlockWhole299
+    103282: templeBlockWhole300
+    103284: templeBlockWhole301
+    103286: templeBlockWhole302
+    103288: templeBlockWhole303
+    103290: templeBlockWhole304
+    103292: templeBlockWhole305
+    103294: templeBlockWhole306
+    103296: templeBlockWhole307
+    103298: templeBlockWhole308
+    103300: templeBlockWhole310
+    103302: templeBlockWhole311
+    103304: templeBlockWhole312
+    103306: templeBlockWhole313
+    103308: templeBlockWhole314
+    103310: templeBlockWhole315
+    103312: templeBlockWhole316
+    103314: templeBlockWhole317
+    103316: templeBlockWhole318
+    103318: templeBlockWhole319
+    103320: templeBlockWhole320
+    103322: templeBlockWhole321
+    103324: templeBlockWhole322
+    103326: templeBlockWhole323
+    103328: templeBlockWhole324
+    103330: templeBlockWhole325
+    103332: templeBlockWhole326
+    103334: templeBlockWhole327
+    103336: templeBlockWhole328
+    103338: templeBlockWhole329
+    103340: templeBlockWhole330
+    103342: templeBlockWhole331
+    103344: templeBlockWhole332
+    103346: templeBlockWhole333
+    103348: templeBlockWhole334
+    103350: templeBlockWhole336
+    103352: templeBlockWhole337
+    103354: templeBlockWhole338
+    103356: templeBlockWhole339
+    103358: templeBlockWhole340
+    103360: templeBlockWhole341
+    103362: templeBlockWhole342
+    103364: templeBlockWhole343
+    103366: templeBlockWhole344
+    103368: templeBlockWhole345
+    103370: templeBlockWhole346
+    103372: templeBlockWhole347
+    103374: templeBlockWhole348
+    103376: templeBlockWhole349
+    103378: templeBlockWhole350
+    103380: templeBlockWhole351
+    103382: templeBlockWhole352
+    103384: templeBlockWhole353
+    103386: templeBlockWhole354
+    103388: templeBlockWhole355
+    103390: templeBlockWhole356
+    103392: templeBlockWhole357
+    103394: templeBlockWhole358
+    103396: templeBlockWhole359
+    103398: templeBlockWhole360
+    103400: templeBlockWhole361
+    103402: templeBlockWhole362
+    103404: templeBlockWhole363
+    103406: templeBlockWhole364
+    103408: templeBlockWhole365
+    103410: templeBlockWhole366
+    103412: templeBlockWhole367
+    103414: templeBlockWhole368
+    103416: templeBlockWhole369
+    103418: templeBlockWhole370
+    103420: templeBlockWhole371
+    103422: templeBlockWhole372
+    103424: templeBlockWhole373
+    103426: templeBlockWhole374
+    103428: templeBlockWhole375
+    103430: templeBlockWhole376
+    103432: templeBlockWhole377
+    103434: templeBlockWhole378
+    103436: templeBlockWhole379
+    103438: templeBlockWhole381
+    103440: templeBlockWhole382
+    103442: templeBlockWhole383
+    103444: templeBlockWhole384
+    103446: templeBlockWhole385
+    103448: templeBlockWhole386
+    103450: templeBlockWhole43 18
+    103452: templeBlockWhole43 19
+    103454: templeBlockWhole43 20
+    103456: templeBlockWhole43 21
+    103458: templeBlockWhole43 22
+    103460: templeBlockWhole43 23
+    103462: templeBlockWhole44 24
+    103464: templeBlockWhole44 25
+    103466: templeBlockWhole45 18
+    103468: templeBlockWhole45 19
+    103470: templeBlockWhole45 20
+    103472: templeBlockWhole45 21
+    103474: templeBlockWhole45 22
+    103476: templeBlockWhole45 23
+    103478: templeBlockWhole45 24
+    103480: templeBlockWhole45 25
+    103482: templeBlockWhole47 26
+    103484: templeBlockWhole47 27
+    103486: templeBlockWhole47 28
+    103488: templeBlockWhole47 29
+    103490: templeBlockWhole47 30
+    103492: templeBlockWhole47 31
+    103494: templeBlockWhole47 32
+    103496: templeBlockWhole47 33
+    103498: templeBlockWhole48 20
+    103500: templeBlockWhole48 21
+    103502: templeBlockWhole48 22
+    103504: templeBlockWhole48 23
+    103506: templeBlockWhole48 24
+    103508: templeBlockWhole48 25
+    103510: templeBlockWhole48 26
+    103512: templeBlockWhole48 27
+    103514: templeBlockWhole48 28
+    103516: templeBlockWhole49 22
+    103518: templeBlockWhole49 23
+    103520: templeBlockWhole49 24
+    103522: templeBlockWhole49 25
+    103524: templeBlockWhole49 26
+    103526: templeBlockWhole49 27
+    103528: templeBlockWhole49 28
+    103530: templeBlockWhole50 22
+    103532: templeBlockWhole50 23
+    103534: templeBlockWhole50 24
+    103536: templeBlockWhole50 25
+    103538: templeBlockWhole50 26
+    103540: templeBlockWhole50 27
+    103542: templeBlockWhole50 28
+    103544: templeBlockWhole51 28
+    103546: templeBlockWhole51 29
+    103548: templeBlockWhole51 30
+    103550: templeBlockWhole51 31
+    103552: templeBlockWhole51 32
+    103554: templeBlockWhole51 33
+    103556: templeBlockWhole51 34
+    103558: templeBlockWhole51 35
+    103560: templeBlockWhole51 36
+    103562: templeBlockWhole51 37
+    103564: templeBlockWhole51 38
+    103566: templeBlockWhole51 39
+    103568: templeBlockWhole51 40
+    103570: templeBlockWhole51 41
+    103572: templeBlockWhole52 25
+    103574: templeBlockWhole52 26
+    103576: templeBlockWhole52 27
+    103578: templeBlockWhole52 28
+    103580: templeBlockWhole52 29
+    103582: templeBlockWhole52 30
+    103584: templeBlockWhole52 31
+    103586: templeBlockWhole52 32
+    103588: templeBlockWhole52 33
+    103590: templeBlockWhole52 34
+    103592: templeBlockWhole52 35
+    103594: templeBlockWhole52 36
+    103596: templeBlockWhole52 37
+    103598: templeBlockWhole52 38
+    103600: templeBlockWhole52 39
+    103602: templeBlockWhole52 40
+    103604: templeBlockWhole52 41
+    103606: templeBlockWhole52 42
+    103608: templeBlockWhole52 43
+    103610: templeBlockWhole53 26
+    103612: templeBlockWhole53 27
+    103614: templeBlockWhole53 28
+    103616: templeBlockWhole53 29
+    103618: templeBlockWhole53 30
+    103620: templeBlockWhole53 31
+    103622: templeBlockWhole53 32
+    103624: templeBlockWhole53 33
+    103626: templeBlockWhole53 34
+    103628: templeBlockWhole53 35
+    103630: templeBlockWhole53 36
+    103632: templeBlockWhole53 37
+    103634: templeBlockWhole53 38
+    103636: templeBlockWhole53 39
+    103638: templeBlockWhole53 40
+    103640: templeBlockWhole53 41
+    103642: templeBlockWhole53 42
+    103644: templeBlockWhole53 43
+    103646: templeBlockWhole53 44
+    103648: templeBlockWhole54 18
+    103650: templeBlockWhole54 19
+    103652: templeBlockWhole54 20
+    103654: templeBlockWhole54 21
+    103656: templeBlockWhole54 22
+    103658: templeBlockWhole54 23
+    103660: templeBlockWhole54 24
+    103662: templeBlockWhole54 25
+    103664: templeBlockWhole56 16
+    103666: templeBlockWhole56 17
+    103668: templeBlockWhole56 18
+    103670: templeBlockWhole56 19
+    103672: templeBlockWhole56 20
+    103674: templeBlockWhole56 21
+    103676: templeBlockWhole56 22
+    103678: templeBlockWhole56 23
+    103680: templeBlockWhole57 22
+    103682: templeBlockWhole57 23
+    103684: templeBlockWhole57 24
+    103686: templeBlockWhole57 25
+    103688: templeBlockWhole57 26
+    103690: templeBlockWhole57 27
+    103692: templeBlockWhole57 28
+    103694: templeBlockWhole57 29
+    103696: templeBlockWhole57 30
+    103698: templeBlockWhole57 31
+    103700: templeBlockWhole57 32
+    103702: templeBlockWhole57 33
+    103704: templeBlockWhole57 34
+    103706: templeBlockWhole57 35
+    103708: templeBlockWhole57 36
+    103710: templeBlockWhole57 37
+    103712: templeBlockWhole57 38
+    103714: templeBlockWhole57 39
+    103716: templeBlockWhole57 40
+    103718: templeBlockWhole57 41
+    103720: templeBlockWhole57 42
+    103722: templeBlockWhole57 43
+    103724: templeBlockWhole57 44
+    103726: templeBlockWhole58 22
+    103728: templeBlockWhole58 23
+    103730: templeBlockWhole58 24
+    103732: templeBlockWhole58 25
+    103734: templeBlockWhole58 26
+    103736: templeBlockWhole58 27
+    103738: templeBlockWhole58 28
+    103740: templeBlockWhole58 29
+    103742: templeBlockWhole59 19
+    103744: templeBlockWhole59 20
+    103746: templeBlockWhole59 21
+    103748: templeBlockWhole59 22
+    103750: templeBlockWhole59 23
+    103752: templeBlockWhole59 24
+    103754: templeBlockWhole59 25
+    103756: templeBlockWhole59 26
+    103758: templeBlockWhole59 27
+    103760: templeBlockWhole59 28
+    103762: templeBlockWhole59 29
+    103764: templeBlockWhole60 12
+    103766: templeBlockWhole60 13
+    103768: templeBlockWhole60 14
+    103770: templeBlockWhole60 15
+    103772: templeBlockWhole60 16
+    103774: templeBlockWhole60 17
+    103776: templeBlockWhole60 18
+    103778: templeBlockWhole60 19
+    103780: templeBlockWhole61 16
+    103782: templeBlockWhole61 17
+    103784: templeBlockWhole61 18
+    103786: templeBlockWhole61 19
+    103788: templeBlockWhole61 20
+    103790: templeBlockWhole61 21
+    103792: templeBlockWhole61 22
+    103794: templeBlockWhole61 23
+    103796: templeBlockWhole61 24
+    103798: templeBlockWhole61 25
+    103800: templeBlockWhole61 26
+    103802: templeBlockWhole61 27
+    103804: templeBlockWhole61 28
+    103806: templeBlockWhole61 29
+    103808: templeBlockWhole62 16
+    103810: templeBlockWhole62 17
+    103812: templeBlockWhole62 18
+    103814: templeBlockWhole62 19
+    103816: templeBlockWhole62 20
+    103818: templeBlockWhole62 21
+    103820: templeBlockWhole62 22
+    103822: templeBlockWhole62 23
+    103824: templeBlockWhole62 24
+    103826: templeBlockWhole62 25
+    103828: templeBlockWhole62 26
+    103830: templeBlockWhole62 27
+    103832: templeBlockWhole62 28
+    103834: templeBlockWhole62 29
+    103836: templeBlockWhole62 30
+    103838: templeBlockWhole63 18
+    103840: templeBlockWhole63 19
+    103842: templeBlockWhole63 20
+    103844: templeBlockWhole63 21
+    103846: templeBlockWhole63 22
+    103848: templeBlockWhole63 23
+    103850: templeBlockWhole63 24
+    103852: templeBlockWhole63 25
+    103854: templeBlockWhole63 26
+    103856: templeBlockWhole63 27
+    103858: templeBlockWhole63 28
+    103860: templeBlockWhole63 29
+    103862: templeBlockWhole63 30
+    103864: templeBlockWhole63 31
+    103866: templeBlockWhole63 32
+    103868: templeBlockWhole63 33
+    103870: templeBlockWhole63 34
+    103872: templeBlockWhole63 35
+    103874: templeBlockWhole63 36
+    103876: templeBlockWhole63 37
+    103878: templeBlockWhole63 38
+    103880: templeBlockWhole63 39
+    103882: templeBlockWhole63 40
+    103884: templeBlockWhole64 18
+    103886: templeBlockWhole64 19
+    103888: templeBlockWhole64 20
+    103890: templeBlockWhole64 21
+    103892: templeBlockWhole64 22
+    103894: templeBlockWhole64 23
+    103896: templeBlockWhole64 24
+    103898: templeBlockWhole64 25
+    103900: templeBlockWhole64 26
+    103902: templeBlockWhole64 27
+    103904: templeBlockWhole64 28
+    103906: templeBlockWhole64 29
+    103908: templeBlockWhole64 30
+    103910: templeBlockWhole64 31
+    103912: templeBlockWhole64 32
+    103914: templeBlockWhole64 33
+    103916: templeBlockWhole64 34
+    103918: templeBlockWhole64 35
+    103920: templeBlockWhole64 36
+    103922: templeBlockWhole64 37
+    103924: templeBlockWhole64 38
+    103926: templeBlockWhole64 39
+    103928: templeBlockWhole65 17
+    103930: templeBlockWhole65 18
+    103932: templeBlockWhole65 19
+    103934: templeBlockWhole65 20
+    103936: templeBlockWhole65 21
+    103938: templeBlockWhole65 22
+    103940: templeBlockWhole66 19
+    103942: templeBlockWhole66 20
+    103944: templeBlockWhole66 21
+    103946: templeBlockWhole66 22
+    103948: templeBlockWhole66 23
+    103950: templeBlockWhole66 24
+    103952: templeBlockWhole66 25
+    103954: templeBlockWhole66 26
+    103956: templeBlockWhole66 27
+    103958: templeBlockWhole66 28
+    103960: templeBlockWhole66 29
+    103962: templeBlockWhole67 17
+    103964: templeBlockWhole67 18
+    103966: templeBlockWhole67 19
+    103968: templeBlockWhole67 20
+    103970: templeBlockWhole67 21
+    103972: templeBlockWhole67 22
+    103974: templeBlockWhole68 20
+    103976: templeBlockWhole68 21
+    103978: templeBlockWhole68 22
+    103980: templeBlockWhole68 23
+    103982: templeBlockWhole68 24
+    103984: templeBlockWhole68 25
+    103986: templeBlockWhole68 26
+    103988: templeBlockWhole68 27
+    103990: templeBlockWhole68 28
+    103992: templeBlockWhole68 29
+    103994: templeBlockWhole68 30
+    103996: templeBlockWhole69 18
+    103998: templeBlockWhole69 19
+    104000: templeBlockWhole69 20
+    104002: templeBlockWhole69 21
+    104004: templeBlockWhole69 22
+    104006: templeBlockWhole69 23
+    104008: templeBlockWhole69 24
+    104010: templeBlockWhole70 19
+    104012: templeBlockWhole70 20
+    104014: templeBlockWhole70 21
+    104016: templeBlockWhole70 22
+    104018: templeBlockWhole70 23
+    104020: templeBlockWhole70 24
+    104022: templeBlockWhole70 25
+    104024: templeBlockWhole70 26
+    104026: templeBlockWhole70 27
+    104028: templeBlockWhole70 28
+    104030: templeBlockWhole70 29
+    104032: templeBlockWhole70 30
+    104034: templeBlockWhole72 16
+    104036: templeBlockWhole72 17
+    104038: templeBlockWhole72 18
+    104040: templeBlockWhole72 19
+    104042: templeBlockWhole72 20
+    104044: templeBlockWhole72 21
+    104046: templeBlockWhole72 22
+    104048: templeBlockWhole72 23
+    104050: templeBlockWhole74 18
+    104052: templeBlockWhole74 19
+    104054: templeBlockWhole74 20
+    104056: templeBlockWhole74 21
+    104058: templeBlockWhole74 22
+    104060: templeBlockWhole74 23
+    104062: templeBlockWhole74 24
+    104064: templeBlockWhole75 22
+    104066: templeBlockWhole75 23
+    104068: templeBlockWhole75 24
+    104070: templeBlockWhole75 25
+    104072: templeBlockWhole75 26
+    104074: templeBlockWhole75 27
+    104076: templeBlockWhole75 28
+    104078: templeBlockWhole75 29
+    104080: templeBlockWhole75 30
+    104082: templeBlockWhole75 31
+    104084: templeBlockWhole75 32
+    104086: templeBlockWhole75 33
+    104088: templeBlockWhole75 34
+    104090: templeBlockWhole75 35
+    104092: templeBlockWhole75 36
+    104094: templeBlockWhole75 37
+    104096: templeBlockWhole75 38
+    104098: templeBlockWhole75 39
+    104100: templeBlockWhole75 40
+    104102: templeBlockWhole75 41
+    104104: templeBlockWhole75 42
+    104106: templeBlockWhole75 43
+    104108: templeBlockWhole75 44
+    104110: templeBlockWhole75 45
+    104112: templeBlockWhole76 23
+    104114: templeBlockWhole76 24
+    104116: templeBlockWhole76 25
+    104118: templeBlockWhole76 26
+    104120: templeBlockWhole76 27
+    104122: templeBlockWhole76 28
+    104124: templeBlockWhole76 29
+    104126: templeBlockWhole76 30
+    104128: templeBlockWhole76 31
+    104130: templeBlockWhole76 32
+    104132: templeBlockWhole76 33
+    104134: templeBlockWhole76 34
+    104136: templeBlockWhole76 35
+    104138: templeBlockWhole76 36
+    104140: templeBlockWhole76 37
+    104142: templeBlockWhole76 38
+    104144: templeBlockWhole76 39
+    104146: templeBlockWhole76 40
+    104148: templeBlockWhole76 41
+    104150: templeBlockWhole76 42
+    104152: templeBlockWhole76 43
+    104154: templeBlockWhole76 44
+    104156: templeBlockWhole76 45
+    104158: templeBlockWhole77 16
+    104160: templeBlockWhole77 17
+    104162: templeBlockWhole77 18
+    104164: templeBlockWhole77 19
+    104166: templeBlockWhole77 20
+    104168: templeBlockWhole77 21
+    104170: templeBlockWhole77 22
+    104172: templeBlockWhole77 23
+    104174: templeBlockWhole78 26
+    104176: templeBlockWhole78 27
+    104178: templeBlockWhole78 28
+    104180: templeBlockWhole78 29
+    104182: templeBlockWhole78 30
+    104184: templeBlockWhole78 31
+    104186: templeBlockWhole78 32
+    104188: templeBlockWhole78 33
+    104190: templeBlockWhole78 34
+    104192: templeBlockWhole78 35
+    104194: templeBlockWhole78 36
+    104196: templeBlockWhole78 37
+    104198: templeBlockWhole78 38
+    104200: templeBlockWhole78 39
+    104202: templeBlockWhole78 40
+    104204: templeBlockWhole78 41
+    104206: templeBlockWhole78 42
+    104208: templeBlockWhole78 43
+    104210: templeBlockWhole78 44
+    104212: templeBlockWhole78 45
+    104214: templeBlockWhole79 26
+    104216: templeBlockWhole79 27
+    104218: templeBlockWhole79 28
+    104220: templeBlockWhole79 29
+    104222: templeBlockWhole79 30
+    104224: templeBlockWhole79 31
+    104226: templeBlockWhole79 32
+    104228: templeBlockWhole79 33
+    104230: templeBlockWhole79 34
+    104232: templeBlockWhole79 35
+    104234: templeBlockWhole79 36
+    104236: templeBlockWhole79 37
+    104238: templeBlockWhole79 38
+    104240: templeBlockWhole79 39
+    104242: templeBlockWhole79 40
+    104244: templeBlockWhole79 41
+    104246: templeBlockWhole79 42
+    104248: templeBlockWhole79 43
+    104250: templeBlockWhole80 27
+    104252: templeBlockWhole80 28
+    104254: templeBlockWhole80 29
+    104256: templeBlockWhole80 30
+    104258: templeBlockWhole80 31
+    104260: templeBlockWhole80 32
+    104262: templeBlockWhole80 33
+    104264: templeBlockWhole80 34
+    104266: templeBlockWhole80 35
+    104268: templeBlockWhole80 36
+    104270: templeBlockWhole80 37
+    104272: templeBlockWhole80 38
+    104274: templeBlockWhole80 39
+    104276: templeBlockWhole80 40
+    104278: templeBlockWhole80 41
+    104280: templeBlockWhole80 42
+    104282: templeBlockWhole80 43
+    104284: templeBlockWhole80 44
+    104286: templeBlockWhole80 45
+    104288: templeBlockWhole81 23
+    104290: templeBlockWhole81 24
+    104292: templeBlockWhole81 25
+    104294: templeBlockWhole81 26
+    104296: templeBlockWhole81 27
+    104298: templeBlockWhole81 28
+    104300: templeBlockWhole81 29
+    104302: templeBlockWhole81 30
+    104304: templeBlockWhole81 31
+    104306: templeBlockWhole81 32
+    104308: templeBlockWhole81 33
+    104310: templeBlockWhole81 34
+    104312: templeBlockWhole81 35
+    104314: templeBlockWhole81 36
+    104316: templeBlockWhole81 37
+    104318: templeBlockWhole81 38
+    104320: templeBlockWhole81 39
+    104322: templeBlockWhole81 40
+    104324: templeBlockWhole82 26
+    104326: templeBlockWhole82 27
+    104328: templeBlockWhole82 28
+    104330: templeBlockWhole82 29
+    104332: templeBlockWhole82 30
+    104334: templeBlockWhole82 31
+    104336: templeBlockWhole82 32
+    104338: templeBlockWhole82 33
+    104340: templeBlockWhole82 34
+    104342: templeBlockWhole82 35
+    104344: templeBlockWhole82 36
+    104346: templeBlockWhole82 37
+    104348: templeBlockWhole82 38
+    104350: templeBlockWhole83 27
+    104352: templeBlockWhole83 28
+    104354: templeBlockWhole83 29
+    104356: templeBlockWhole83 30
+    104358: templeBlockWhole83 31
+    104360: templeBlockWhole83 32
+    104362: templeBlockWhole83 33
+    104364: templeBlockWhole83 34
+    104366: templeBlockWhole83 35
+    104368: templeBlockWhole83 36
+    104370: templeBlockWhole83 37
+    104372: templeBlockWhole83 38
+    104374: templeBlockWhole83 39
+    104376: templeBlockWhole83 40
+    104378: templeBlockWhole83 41
+    104380: templeBlockWhole83 42
+    104382: templeBlockWhole83 43
+    104384: templeBlockWhole83 44
+    104386: templeBlockWhole83 45
+    104388: templeBlockWhole84 25
+    104390: templeBlockWhole84 26
+    104392: templeBlockWhole84 27
+    104394: templeBlockWhole84 28
+    104396: templeBlockWhole84 29
+    104398: templeBlockWhole84 30
+    104400: templeBlockWhole84 31
+    104402: templeBlockWhole84 32
+    104404: templeBlockWhole84 33
+    104406: templeBlockWhole84 34
+    104408: templeBlockWhole84 35
+    104410: templeBlockWhole84 36
+    104412: templeBlockWhole84 37
+    104414: templeBlockWhole84 38
+    104416: templeBlockWhole84 39
+    104418: templeBlockWhole84 40
+    104420: templeBlockWhole85 24
+    104422: templeBlockWhole85 25
+    104424: templeBlockWhole85 26
+    104426: templeBlockWhole85 27
+    104428: templeBlockWhole85 28
+    104430: templeBlockWhole85 29
+    104432: templeBlockWhole85 30
+    104434: templeBlockWhole85 31
+    104436: templeBlockWhole85 32
+    104438: templeBlockWhole85 33
+    104440: templeBlockWhole85 34
+    104442: templeBlockWhole85 35
+    104444: templeBlockWhole86 18
+    104446: templeBlockWhole86 19
+    104448: templeBlockWhole86 20
+    104450: templeBlockWhole86 21
+    104452: templeBlockWhole86 22
+    104454: templeBlockWhole86 23
+    104456: templeBlockWhole89 10
+    104458: templeBlockWhole89 11
+    104460: templeBlockWhole89 12
+    104462: templeBlockWhole89 13
+    104464: templeBlockWhole89 6
+    104466: templeBlockWhole89 7
+    104468: templeBlockWhole89 8
+    104470: templeBlockWhole89 9
+    104472: templeBlockWhole90 10
+    104474: templeBlockWhole90 11
+    104476: templeBlockWhole90 12
+    104478: templeBlockWhole90 13
+    104480: templeBlockWhole90 14
+    104482: templeBlockWhole90 15
+    104484: templeBlockWhole90 8
+    104486: templeBlockWhole90 9
+    104488: templeBlockWhole91 10
+    104490: templeBlockWhole91 11
+    104492: templeBlockWhole91 12
+    104494: templeBlockWhole91 13
+    104496: templeBlockWhole91 14
+    104498: templeBlockWhole91 8
+    104500: templeBlockWhole91 9
+    104502: templeBlockWhole92 10
+    104504: templeBlockWhole92 11
+    104506: templeBlockWhole92 12
+    104508: templeBlockWhole92 13
+    104510: templeBlockWhole92 6
+    104512: templeBlockWhole92 7
+    104514: templeBlockWhole92 8
+    104516: templeBlockWhole92 9
+    104518: templeBlockWhole93 10
+    104520: templeBlockWhole93 11
+    104522: templeBlockWhole93 12
+    104524: templeBlockWhole93 13
+    104526: templeBlockWhole93 6
+    104528: templeBlockWhole93 7
+    104530: templeBlockWhole93 8
+    104532: templeBlockWhole93 9
+    104534: templeRoof_grp
+    104536: waterChuteArch_grp
+    104538: waterChuteArch_grp1
+    104540: waterChuteArch_grp2
+    104542: window
+    104544: window 1
+    104546: window 10
+    104548: window 11
+    104550: window 12
+    104552: window 13
+    104554: window 14
+    104556: window 2
+    104558: window 3
+    104560: window 4
+    104562: window 5
+    104564: window 6
+    104566: window 7
+    104568: window 8
+    104570: window 9
+    104572: window_grp 1
+    104574: window_grp 2
+    104576: window_grp 3
+    104578: window_grp 4
+    104580: window_grp3
+    104582: window_grp3 1
+    104584: window_grp3 2
+    104586: window_grp3 3
+    104588: window_grp3 4
+    104590: window_grp4
+    104592: window_grp4 1
+    104594: window_grp4 2
+    104596: window_grp4 3
+    104598: window_grp4 4
     400000: column1
     400002: column1 1
     400004: column1 2
@@ -2523,6 +3564,1047 @@ ModelImporter:
     402512: window_grp
     402514: window_grp1
     402516: window_grp2
+    402518: centerArchPlane
+    402520: centerWaterChute_grp
+    402522: centerWindowPlane
+    402524: column1 10
+    402526: column1 11
+    402528: column1 12
+    402530: column1 13
+    402532: column1 14
+    402534: column1 15
+    402536: column1 16
+    402538: column1 17
+    402540: column1 18
+    402542: column1 19
+    402544: column1 4
+    402546: column1 5
+    402548: column1 6
+    402550: column1 7
+    402552: column1 8
+    402554: column1 9
+    402556: column_grp 1
+    402558: column_grp 2
+    402560: column_grp 3
+    402562: column_grp 4
+    402564: column_grp2 1
+    402566: column_grp2 2
+    402568: column_grp2 3
+    402570: column_grp2 4
+    402572: column_grp4 1
+    402574: column_grp4 2
+    402576: column_grp4 3
+    402578: column_grp4 4
+    402580: column_grp5 1
+    402582: column_grp5 2
+    402584: column_grp5 3
+    402586: column_grp5 4
+    402588: columnBottom 10
+    402590: columnBottom 11
+    402592: columnBottom 12
+    402594: columnBottom 13
+    402596: columnBottom 14
+    402598: columnBottom 15
+    402600: columnBottom 16
+    402602: columnBottom 17
+    402604: columnBottom 18
+    402606: columnBottom 19
+    402608: columnBottom 4
+    402610: columnBottom 5
+    402612: columnBottom 6
+    402614: columnBottom 7
+    402616: columnBottom 8
+    402618: columnBottom 9
+    402620: columns_firstFloor_grp 1
+    402622: columns_firstFloor_grp 2
+    402624: columns_firstFloor_grp 3
+    402626: columns_firstFloor_grp 4
+    402628: columnTop 10
+    402630: columnTop 11
+    402632: columnTop 12
+    402634: columnTop 13
+    402636: columnTop 14
+    402638: columnTop 15
+    402640: columnTop 16
+    402642: columnTop 17
+    402644: columnTop 18
+    402646: columnTop 19
+    402648: columnTop 4
+    402650: columnTop 5
+    402652: columnTop 6
+    402654: columnTop 7
+    402656: columnTop 8
+    402658: columnTop 9
+    402660: leftArchPlane
+    402662: leftDoorway_grp
+    402664: leftDwayDownPlane
+    402666: leftDwayUpPlane
+    402668: leftWall_firstFloor_grp
+    402670: leftWall_secFloor_grp
+    402672: leftWaterChute_grp
+    402674: leftWindowPlane
+    402676: planes_grp
+    402678: rightArchPlane
+    402680: rightDoorway_grp
+    402682: rightDwayDownPlane
+    402684: rightDwayUpPlane
+    402686: rightWall_firstFloor_grp
+    402688: rightWall_secFloor_grp
+    402690: rightWaterChute_grp
+    402692: rightWindowPlane
+    402694: stoneWall_grp10 3
+    402696: stoneWall_grp10 4
+    402698: stoneWall_grp10 5
+    402700: stoneWall_grp10 6
+    402702: stoneWall_grp11
+    402704: stoneWall_grp12
+    402706: stoneWall_grp13
+    402708: stoneWall_grp14
+    402710: stoneWall_grp6 3
+    402712: stoneWall_grp6 4
+    402714: stoneWall_grp6 5
+    402716: stoneWall_grp6 6
+    402718: stoneWall_grp7 3
+    402720: stoneWall_grp7 4
+    402722: stoneWall_grp7 5
+    402724: stoneWall_grp7 6
+    402726: stoneWall_grp8 3
+    402728: stoneWall_grp8 4
+    402730: stoneWall_grp8 5
+    402732: stoneWall_grp8 6
+    402734: stoneWall_grp9 3
+    402736: stoneWall_grp9 4
+    402738: stoneWall_grp9 5
+    402740: stoneWall_grp9 6
+    402742: temple_grp
+    402744: templeBlockWhole125 10
+    402746: templeBlockWhole125 11
+    402748: templeBlockWhole125 12
+    402750: templeBlockWhole125 13
+    402752: templeBlockWhole125 6
+    402754: templeBlockWhole125 7
+    402756: templeBlockWhole125 8
+    402758: templeBlockWhole125 9
+    402760: templeBlockWhole129 10
+    402762: templeBlockWhole129 11
+    402764: templeBlockWhole129 12
+    402766: templeBlockWhole129 13
+    402768: templeBlockWhole129 8
+    402770: templeBlockWhole129 9
+    402772: templeBlockWhole130 10
+    402774: templeBlockWhole130 11
+    402776: templeBlockWhole130 12
+    402778: templeBlockWhole130 13
+    402780: templeBlockWhole130 8
+    402782: templeBlockWhole130 9
+    402784: templeBlockWhole211 1
+    402786: templeBlockWhole211 2
+    402788: templeBlockWhole211 3
+    402790: templeBlockWhole211 4
+    402792: templeBlockWhole212 1
+    402794: templeBlockWhole212 2
+    402796: templeBlockWhole212 3
+    402798: templeBlockWhole212 4
+    402800: templeBlockWhole229 10
+    402802: templeBlockWhole229 11
+    402804: templeBlockWhole229 12
+    402806: templeBlockWhole229 13
+    402808: templeBlockWhole229 14
+    402810: templeBlockWhole229 3
+    402812: templeBlockWhole229 4
+    402814: templeBlockWhole229 5
+    402816: templeBlockWhole229 6
+    402818: templeBlockWhole229 7
+    402820: templeBlockWhole229 8
+    402822: templeBlockWhole229 9
+    402824: templeBlockWhole230 10
+    402826: templeBlockWhole230 11
+    402828: templeBlockWhole230 12
+    402830: templeBlockWhole230 13
+    402832: templeBlockWhole230 14
+    402834: templeBlockWhole230 3
+    402836: templeBlockWhole230 4
+    402838: templeBlockWhole230 5
+    402840: templeBlockWhole230 6
+    402842: templeBlockWhole230 7
+    402844: templeBlockWhole230 8
+    402846: templeBlockWhole230 9
+    402848: templeBlockWhole231 10
+    402850: templeBlockWhole231 11
+    402852: templeBlockWhole231 12
+    402854: templeBlockWhole231 13
+    402856: templeBlockWhole231 14
+    402858: templeBlockWhole231 3
+    402860: templeBlockWhole231 4
+    402862: templeBlockWhole231 5
+    402864: templeBlockWhole231 6
+    402866: templeBlockWhole231 7
+    402868: templeBlockWhole231 8
+    402870: templeBlockWhole231 9
+    402872: templeBlockWhole232 1
+    402874: templeBlockWhole232 2
+    402876: templeBlockWhole233 1
+    402878: templeBlockWhole233 2
+    402880: templeBlockWhole234 1
+    402882: templeBlockWhole234 2
+    402884: templeBlockWhole239
+    402886: templeBlockWhole240
+    402888: templeBlockWhole241
+    402890: templeBlockWhole241 1
+    402892: templeBlockWhole241 2
+    402894: templeBlockWhole241 3
+    402896: templeBlockWhole241 4
+    402898: templeBlockWhole242
+    402900: templeBlockWhole243
+    402902: templeBlockWhole244
+    402904: templeBlockWhole244 1
+    402906: templeBlockWhole244 2
+    402908: templeBlockWhole246
+    402910: templeBlockWhole246 1
+    402912: templeBlockWhole246 2
+    402914: templeBlockWhole247
+    402916: templeBlockWhole247 1
+    402918: templeBlockWhole247 2
+    402920: templeBlockWhole249
+    402922: templeBlockWhole250
+    402924: templeBlockWhole251
+    402926: templeBlockWhole252
+    402928: templeBlockWhole253
+    402930: templeBlockWhole254
+    402932: templeBlockWhole255
+    402934: templeBlockWhole255 1
+    402936: templeBlockWhole255 2
+    402938: templeBlockWhole256
+    402940: templeBlockWhole256 1
+    402942: templeBlockWhole256 2
+    402944: templeBlockWhole257
+    402946: templeBlockWhole257 1
+    402948: templeBlockWhole257 2
+    402950: templeBlockWhole258
+    402952: templeBlockWhole258 1
+    402954: templeBlockWhole258 2
+    402956: templeBlockWhole259
+    402958: templeBlockWhole259 1
+    402960: templeBlockWhole259 2
+    402962: templeBlockWhole259 3
+    402964: templeBlockWhole259 4
+    402966: templeBlockWhole260
+    402968: templeBlockWhole260 1
+    402970: templeBlockWhole260 10
+    402972: templeBlockWhole260 11
+    402974: templeBlockWhole260 12
+    402976: templeBlockWhole260 13
+    402978: templeBlockWhole260 14
+    402980: templeBlockWhole260 2
+    402982: templeBlockWhole260 3
+    402984: templeBlockWhole260 4
+    402986: templeBlockWhole260 5
+    402988: templeBlockWhole260 6
+    402990: templeBlockWhole260 7
+    402992: templeBlockWhole260 8
+    402994: templeBlockWhole260 9
+    402996: templeBlockWhole261
+    402998: templeBlockWhole261 1
+    403000: templeBlockWhole261 10
+    403002: templeBlockWhole261 11
+    403004: templeBlockWhole261 12
+    403006: templeBlockWhole261 13
+    403008: templeBlockWhole261 14
+    403010: templeBlockWhole261 2
+    403012: templeBlockWhole261 3
+    403014: templeBlockWhole261 4
+    403016: templeBlockWhole261 5
+    403018: templeBlockWhole261 6
+    403020: templeBlockWhole261 7
+    403022: templeBlockWhole261 8
+    403024: templeBlockWhole261 9
+    403026: templeBlockWhole262
+    403028: templeBlockWhole262 1
+    403030: templeBlockWhole262 10
+    403032: templeBlockWhole262 11
+    403034: templeBlockWhole262 12
+    403036: templeBlockWhole262 13
+    403038: templeBlockWhole262 14
+    403040: templeBlockWhole262 2
+    403042: templeBlockWhole262 3
+    403044: templeBlockWhole262 4
+    403046: templeBlockWhole262 5
+    403048: templeBlockWhole262 6
+    403050: templeBlockWhole262 7
+    403052: templeBlockWhole262 8
+    403054: templeBlockWhole262 9
+    403056: templeBlockWhole263
+    403058: templeBlockWhole263 1
+    403060: templeBlockWhole263 10
+    403062: templeBlockWhole263 11
+    403064: templeBlockWhole263 12
+    403066: templeBlockWhole263 13
+    403068: templeBlockWhole263 14
+    403070: templeBlockWhole263 2
+    403072: templeBlockWhole263 3
+    403074: templeBlockWhole263 4
+    403076: templeBlockWhole263 5
+    403078: templeBlockWhole263 6
+    403080: templeBlockWhole263 7
+    403082: templeBlockWhole263 8
+    403084: templeBlockWhole263 9
+    403086: templeBlockWhole264
+    403088: templeBlockWhole264 1
+    403090: templeBlockWhole264 10
+    403092: templeBlockWhole264 11
+    403094: templeBlockWhole264 12
+    403096: templeBlockWhole264 13
+    403098: templeBlockWhole264 14
+    403100: templeBlockWhole264 2
+    403102: templeBlockWhole264 3
+    403104: templeBlockWhole264 4
+    403106: templeBlockWhole264 5
+    403108: templeBlockWhole264 6
+    403110: templeBlockWhole264 7
+    403112: templeBlockWhole264 8
+    403114: templeBlockWhole264 9
+    403116: templeBlockWhole265
+    403118: templeBlockWhole265 1
+    403120: templeBlockWhole265 10
+    403122: templeBlockWhole265 11
+    403124: templeBlockWhole265 12
+    403126: templeBlockWhole265 13
+    403128: templeBlockWhole265 14
+    403130: templeBlockWhole265 2
+    403132: templeBlockWhole265 3
+    403134: templeBlockWhole265 4
+    403136: templeBlockWhole265 5
+    403138: templeBlockWhole265 6
+    403140: templeBlockWhole265 7
+    403142: templeBlockWhole265 8
+    403144: templeBlockWhole265 9
+    403146: templeBlockWhole266
+    403148: templeBlockWhole266 1
+    403150: templeBlockWhole266 10
+    403152: templeBlockWhole266 11
+    403154: templeBlockWhole266 12
+    403156: templeBlockWhole266 13
+    403158: templeBlockWhole266 14
+    403160: templeBlockWhole266 2
+    403162: templeBlockWhole266 3
+    403164: templeBlockWhole266 4
+    403166: templeBlockWhole266 5
+    403168: templeBlockWhole266 6
+    403170: templeBlockWhole266 7
+    403172: templeBlockWhole266 8
+    403174: templeBlockWhole266 9
+    403176: templeBlockWhole267
+    403178: templeBlockWhole267 1
+    403180: templeBlockWhole267 2
+    403182: templeBlockWhole267 3
+    403184: templeBlockWhole267 4
+    403186: templeBlockWhole268
+    403188: templeBlockWhole268 1
+    403190: templeBlockWhole268 2
+    403192: templeBlockWhole268 3
+    403194: templeBlockWhole268 4
+    403196: templeBlockWhole269
+    403198: templeBlockWhole269 1
+    403200: templeBlockWhole269 2
+    403202: templeBlockWhole269 3
+    403204: templeBlockWhole269 4
+    403206: templeBlockWhole270
+    403208: templeBlockWhole270 1
+    403210: templeBlockWhole270 2
+    403212: templeBlockWhole270 3
+    403214: templeBlockWhole270 4
+    403216: templeBlockWhole271
+    403218: templeBlockWhole271 1
+    403220: templeBlockWhole271 2
+    403222: templeBlockWhole271 3
+    403224: templeBlockWhole271 4
+    403226: templeBlockWhole272
+    403228: templeBlockWhole273
+    403230: templeBlockWhole274
+    403232: templeBlockWhole275
+    403234: templeBlockWhole276
+    403236: templeBlockWhole277
+    403238: templeBlockWhole278
+    403240: templeBlockWhole279
+    403242: templeBlockWhole280
+    403244: templeBlockWhole281
+    403246: templeBlockWhole282
+    403248: templeBlockWhole283
+    403250: templeBlockWhole284
+    403252: templeBlockWhole285
+    403254: templeBlockWhole286
+    403256: templeBlockWhole287
+    403258: templeBlockWhole288
+    403260: templeBlockWhole289
+    403262: templeBlockWhole290
+    403264: templeBlockWhole291
+    403266: templeBlockWhole292
+    403268: templeBlockWhole293
+    403270: templeBlockWhole294
+    403272: templeBlockWhole295
+    403274: templeBlockWhole296
+    403276: templeBlockWhole297
+    403278: templeBlockWhole298
+    403280: templeBlockWhole299
+    403282: templeBlockWhole300
+    403284: templeBlockWhole301
+    403286: templeBlockWhole302
+    403288: templeBlockWhole303
+    403290: templeBlockWhole304
+    403292: templeBlockWhole305
+    403294: templeBlockWhole306
+    403296: templeBlockWhole307
+    403298: templeBlockWhole308
+    403300: templeBlockWhole310
+    403302: templeBlockWhole311
+    403304: templeBlockWhole312
+    403306: templeBlockWhole313
+    403308: templeBlockWhole314
+    403310: templeBlockWhole315
+    403312: templeBlockWhole316
+    403314: templeBlockWhole317
+    403316: templeBlockWhole318
+    403318: templeBlockWhole319
+    403320: templeBlockWhole320
+    403322: templeBlockWhole321
+    403324: templeBlockWhole322
+    403326: templeBlockWhole323
+    403328: templeBlockWhole324
+    403330: templeBlockWhole325
+    403332: templeBlockWhole326
+    403334: templeBlockWhole327
+    403336: templeBlockWhole328
+    403338: templeBlockWhole329
+    403340: templeBlockWhole330
+    403342: templeBlockWhole331
+    403344: templeBlockWhole332
+    403346: templeBlockWhole333
+    403348: templeBlockWhole334
+    403350: templeBlockWhole336
+    403352: templeBlockWhole337
+    403354: templeBlockWhole338
+    403356: templeBlockWhole339
+    403358: templeBlockWhole340
+    403360: templeBlockWhole341
+    403362: templeBlockWhole342
+    403364: templeBlockWhole343
+    403366: templeBlockWhole344
+    403368: templeBlockWhole345
+    403370: templeBlockWhole346
+    403372: templeBlockWhole347
+    403374: templeBlockWhole348
+    403376: templeBlockWhole349
+    403378: templeBlockWhole350
+    403380: templeBlockWhole351
+    403382: templeBlockWhole352
+    403384: templeBlockWhole353
+    403386: templeBlockWhole354
+    403388: templeBlockWhole355
+    403390: templeBlockWhole356
+    403392: templeBlockWhole357
+    403394: templeBlockWhole358
+    403396: templeBlockWhole359
+    403398: templeBlockWhole360
+    403400: templeBlockWhole361
+    403402: templeBlockWhole362
+    403404: templeBlockWhole363
+    403406: templeBlockWhole364
+    403408: templeBlockWhole365
+    403410: templeBlockWhole366
+    403412: templeBlockWhole367
+    403414: templeBlockWhole368
+    403416: templeBlockWhole369
+    403418: templeBlockWhole370
+    403420: templeBlockWhole371
+    403422: templeBlockWhole372
+    403424: templeBlockWhole373
+    403426: templeBlockWhole374
+    403428: templeBlockWhole375
+    403430: templeBlockWhole376
+    403432: templeBlockWhole377
+    403434: templeBlockWhole378
+    403436: templeBlockWhole379
+    403438: templeBlockWhole381
+    403440: templeBlockWhole382
+    403442: templeBlockWhole383
+    403444: templeBlockWhole384
+    403446: templeBlockWhole385
+    403448: templeBlockWhole386
+    403450: templeBlockWhole43 18
+    403452: templeBlockWhole43 19
+    403454: templeBlockWhole43 20
+    403456: templeBlockWhole43 21
+    403458: templeBlockWhole43 22
+    403460: templeBlockWhole43 23
+    403462: templeBlockWhole44 24
+    403464: templeBlockWhole44 25
+    403466: templeBlockWhole45 18
+    403468: templeBlockWhole45 19
+    403470: templeBlockWhole45 20
+    403472: templeBlockWhole45 21
+    403474: templeBlockWhole45 22
+    403476: templeBlockWhole45 23
+    403478: templeBlockWhole45 24
+    403480: templeBlockWhole45 25
+    403482: templeBlockWhole47 26
+    403484: templeBlockWhole47 27
+    403486: templeBlockWhole47 28
+    403488: templeBlockWhole47 29
+    403490: templeBlockWhole47 30
+    403492: templeBlockWhole47 31
+    403494: templeBlockWhole47 32
+    403496: templeBlockWhole47 33
+    403498: templeBlockWhole48 20
+    403500: templeBlockWhole48 21
+    403502: templeBlockWhole48 22
+    403504: templeBlockWhole48 23
+    403506: templeBlockWhole48 24
+    403508: templeBlockWhole48 25
+    403510: templeBlockWhole48 26
+    403512: templeBlockWhole48 27
+    403514: templeBlockWhole48 28
+    403516: templeBlockWhole49 22
+    403518: templeBlockWhole49 23
+    403520: templeBlockWhole49 24
+    403522: templeBlockWhole49 25
+    403524: templeBlockWhole49 26
+    403526: templeBlockWhole49 27
+    403528: templeBlockWhole49 28
+    403530: templeBlockWhole50 22
+    403532: templeBlockWhole50 23
+    403534: templeBlockWhole50 24
+    403536: templeBlockWhole50 25
+    403538: templeBlockWhole50 26
+    403540: templeBlockWhole50 27
+    403542: templeBlockWhole50 28
+    403544: templeBlockWhole51 28
+    403546: templeBlockWhole51 29
+    403548: templeBlockWhole51 30
+    403550: templeBlockWhole51 31
+    403552: templeBlockWhole51 32
+    403554: templeBlockWhole51 33
+    403556: templeBlockWhole51 34
+    403558: templeBlockWhole51 35
+    403560: templeBlockWhole51 36
+    403562: templeBlockWhole51 37
+    403564: templeBlockWhole51 38
+    403566: templeBlockWhole51 39
+    403568: templeBlockWhole51 40
+    403570: templeBlockWhole51 41
+    403572: templeBlockWhole52 25
+    403574: templeBlockWhole52 26
+    403576: templeBlockWhole52 27
+    403578: templeBlockWhole52 28
+    403580: templeBlockWhole52 29
+    403582: templeBlockWhole52 30
+    403584: templeBlockWhole52 31
+    403586: templeBlockWhole52 32
+    403588: templeBlockWhole52 33
+    403590: templeBlockWhole52 34
+    403592: templeBlockWhole52 35
+    403594: templeBlockWhole52 36
+    403596: templeBlockWhole52 37
+    403598: templeBlockWhole52 38
+    403600: templeBlockWhole52 39
+    403602: templeBlockWhole52 40
+    403604: templeBlockWhole52 41
+    403606: templeBlockWhole52 42
+    403608: templeBlockWhole52 43
+    403610: templeBlockWhole53 26
+    403612: templeBlockWhole53 27
+    403614: templeBlockWhole53 28
+    403616: templeBlockWhole53 29
+    403618: templeBlockWhole53 30
+    403620: templeBlockWhole53 31
+    403622: templeBlockWhole53 32
+    403624: templeBlockWhole53 33
+    403626: templeBlockWhole53 34
+    403628: templeBlockWhole53 35
+    403630: templeBlockWhole53 36
+    403632: templeBlockWhole53 37
+    403634: templeBlockWhole53 38
+    403636: templeBlockWhole53 39
+    403638: templeBlockWhole53 40
+    403640: templeBlockWhole53 41
+    403642: templeBlockWhole53 42
+    403644: templeBlockWhole53 43
+    403646: templeBlockWhole53 44
+    403648: templeBlockWhole54 18
+    403650: templeBlockWhole54 19
+    403652: templeBlockWhole54 20
+    403654: templeBlockWhole54 21
+    403656: templeBlockWhole54 22
+    403658: templeBlockWhole54 23
+    403660: templeBlockWhole54 24
+    403662: templeBlockWhole54 25
+    403664: templeBlockWhole56 16
+    403666: templeBlockWhole56 17
+    403668: templeBlockWhole56 18
+    403670: templeBlockWhole56 19
+    403672: templeBlockWhole56 20
+    403674: templeBlockWhole56 21
+    403676: templeBlockWhole56 22
+    403678: templeBlockWhole56 23
+    403680: templeBlockWhole57 22
+    403682: templeBlockWhole57 23
+    403684: templeBlockWhole57 24
+    403686: templeBlockWhole57 25
+    403688: templeBlockWhole57 26
+    403690: templeBlockWhole57 27
+    403692: templeBlockWhole57 28
+    403694: templeBlockWhole57 29
+    403696: templeBlockWhole57 30
+    403698: templeBlockWhole57 31
+    403700: templeBlockWhole57 32
+    403702: templeBlockWhole57 33
+    403704: templeBlockWhole57 34
+    403706: templeBlockWhole57 35
+    403708: templeBlockWhole57 36
+    403710: templeBlockWhole57 37
+    403712: templeBlockWhole57 38
+    403714: templeBlockWhole57 39
+    403716: templeBlockWhole57 40
+    403718: templeBlockWhole57 41
+    403720: templeBlockWhole57 42
+    403722: templeBlockWhole57 43
+    403724: templeBlockWhole57 44
+    403726: templeBlockWhole58 22
+    403728: templeBlockWhole58 23
+    403730: templeBlockWhole58 24
+    403732: templeBlockWhole58 25
+    403734: templeBlockWhole58 26
+    403736: templeBlockWhole58 27
+    403738: templeBlockWhole58 28
+    403740: templeBlockWhole58 29
+    403742: templeBlockWhole59 19
+    403744: templeBlockWhole59 20
+    403746: templeBlockWhole59 21
+    403748: templeBlockWhole59 22
+    403750: templeBlockWhole59 23
+    403752: templeBlockWhole59 24
+    403754: templeBlockWhole59 25
+    403756: templeBlockWhole59 26
+    403758: templeBlockWhole59 27
+    403760: templeBlockWhole59 28
+    403762: templeBlockWhole59 29
+    403764: templeBlockWhole60 12
+    403766: templeBlockWhole60 13
+    403768: templeBlockWhole60 14
+    403770: templeBlockWhole60 15
+    403772: templeBlockWhole60 16
+    403774: templeBlockWhole60 17
+    403776: templeBlockWhole60 18
+    403778: templeBlockWhole60 19
+    403780: templeBlockWhole61 16
+    403782: templeBlockWhole61 17
+    403784: templeBlockWhole61 18
+    403786: templeBlockWhole61 19
+    403788: templeBlockWhole61 20
+    403790: templeBlockWhole61 21
+    403792: templeBlockWhole61 22
+    403794: templeBlockWhole61 23
+    403796: templeBlockWhole61 24
+    403798: templeBlockWhole61 25
+    403800: templeBlockWhole61 26
+    403802: templeBlockWhole61 27
+    403804: templeBlockWhole61 28
+    403806: templeBlockWhole61 29
+    403808: templeBlockWhole62 16
+    403810: templeBlockWhole62 17
+    403812: templeBlockWhole62 18
+    403814: templeBlockWhole62 19
+    403816: templeBlockWhole62 20
+    403818: templeBlockWhole62 21
+    403820: templeBlockWhole62 22
+    403822: templeBlockWhole62 23
+    403824: templeBlockWhole62 24
+    403826: templeBlockWhole62 25
+    403828: templeBlockWhole62 26
+    403830: templeBlockWhole62 27
+    403832: templeBlockWhole62 28
+    403834: templeBlockWhole62 29
+    403836: templeBlockWhole62 30
+    403838: templeBlockWhole63 18
+    403840: templeBlockWhole63 19
+    403842: templeBlockWhole63 20
+    403844: templeBlockWhole63 21
+    403846: templeBlockWhole63 22
+    403848: templeBlockWhole63 23
+    403850: templeBlockWhole63 24
+    403852: templeBlockWhole63 25
+    403854: templeBlockWhole63 26
+    403856: templeBlockWhole63 27
+    403858: templeBlockWhole63 28
+    403860: templeBlockWhole63 29
+    403862: templeBlockWhole63 30
+    403864: templeBlockWhole63 31
+    403866: templeBlockWhole63 32
+    403868: templeBlockWhole63 33
+    403870: templeBlockWhole63 34
+    403872: templeBlockWhole63 35
+    403874: templeBlockWhole63 36
+    403876: templeBlockWhole63 37
+    403878: templeBlockWhole63 38
+    403880: templeBlockWhole63 39
+    403882: templeBlockWhole63 40
+    403884: templeBlockWhole64 18
+    403886: templeBlockWhole64 19
+    403888: templeBlockWhole64 20
+    403890: templeBlockWhole64 21
+    403892: templeBlockWhole64 22
+    403894: templeBlockWhole64 23
+    403896: templeBlockWhole64 24
+    403898: templeBlockWhole64 25
+    403900: templeBlockWhole64 26
+    403902: templeBlockWhole64 27
+    403904: templeBlockWhole64 28
+    403906: templeBlockWhole64 29
+    403908: templeBlockWhole64 30
+    403910: templeBlockWhole64 31
+    403912: templeBlockWhole64 32
+    403914: templeBlockWhole64 33
+    403916: templeBlockWhole64 34
+    403918: templeBlockWhole64 35
+    403920: templeBlockWhole64 36
+    403922: templeBlockWhole64 37
+    403924: templeBlockWhole64 38
+    403926: templeBlockWhole64 39
+    403928: templeBlockWhole65 17
+    403930: templeBlockWhole65 18
+    403932: templeBlockWhole65 19
+    403934: templeBlockWhole65 20
+    403936: templeBlockWhole65 21
+    403938: templeBlockWhole65 22
+    403940: templeBlockWhole66 19
+    403942: templeBlockWhole66 20
+    403944: templeBlockWhole66 21
+    403946: templeBlockWhole66 22
+    403948: templeBlockWhole66 23
+    403950: templeBlockWhole66 24
+    403952: templeBlockWhole66 25
+    403954: templeBlockWhole66 26
+    403956: templeBlockWhole66 27
+    403958: templeBlockWhole66 28
+    403960: templeBlockWhole66 29
+    403962: templeBlockWhole67 17
+    403964: templeBlockWhole67 18
+    403966: templeBlockWhole67 19
+    403968: templeBlockWhole67 20
+    403970: templeBlockWhole67 21
+    403972: templeBlockWhole67 22
+    403974: templeBlockWhole68 20
+    403976: templeBlockWhole68 21
+    403978: templeBlockWhole68 22
+    403980: templeBlockWhole68 23
+    403982: templeBlockWhole68 24
+    403984: templeBlockWhole68 25
+    403986: templeBlockWhole68 26
+    403988: templeBlockWhole68 27
+    403990: templeBlockWhole68 28
+    403992: templeBlockWhole68 29
+    403994: templeBlockWhole68 30
+    403996: templeBlockWhole69 18
+    403998: templeBlockWhole69 19
+    404000: templeBlockWhole69 20
+    404002: templeBlockWhole69 21
+    404004: templeBlockWhole69 22
+    404006: templeBlockWhole69 23
+    404008: templeBlockWhole69 24
+    404010: templeBlockWhole70 19
+    404012: templeBlockWhole70 20
+    404014: templeBlockWhole70 21
+    404016: templeBlockWhole70 22
+    404018: templeBlockWhole70 23
+    404020: templeBlockWhole70 24
+    404022: templeBlockWhole70 25
+    404024: templeBlockWhole70 26
+    404026: templeBlockWhole70 27
+    404028: templeBlockWhole70 28
+    404030: templeBlockWhole70 29
+    404032: templeBlockWhole70 30
+    404034: templeBlockWhole72 16
+    404036: templeBlockWhole72 17
+    404038: templeBlockWhole72 18
+    404040: templeBlockWhole72 19
+    404042: templeBlockWhole72 20
+    404044: templeBlockWhole72 21
+    404046: templeBlockWhole72 22
+    404048: templeBlockWhole72 23
+    404050: templeBlockWhole74 18
+    404052: templeBlockWhole74 19
+    404054: templeBlockWhole74 20
+    404056: templeBlockWhole74 21
+    404058: templeBlockWhole74 22
+    404060: templeBlockWhole74 23
+    404062: templeBlockWhole74 24
+    404064: templeBlockWhole75 22
+    404066: templeBlockWhole75 23
+    404068: templeBlockWhole75 24
+    404070: templeBlockWhole75 25
+    404072: templeBlockWhole75 26
+    404074: templeBlockWhole75 27
+    404076: templeBlockWhole75 28
+    404078: templeBlockWhole75 29
+    404080: templeBlockWhole75 30
+    404082: templeBlockWhole75 31
+    404084: templeBlockWhole75 32
+    404086: templeBlockWhole75 33
+    404088: templeBlockWhole75 34
+    404090: templeBlockWhole75 35
+    404092: templeBlockWhole75 36
+    404094: templeBlockWhole75 37
+    404096: templeBlockWhole75 38
+    404098: templeBlockWhole75 39
+    404100: templeBlockWhole75 40
+    404102: templeBlockWhole75 41
+    404104: templeBlockWhole75 42
+    404106: templeBlockWhole75 43
+    404108: templeBlockWhole75 44
+    404110: templeBlockWhole75 45
+    404112: templeBlockWhole76 23
+    404114: templeBlockWhole76 24
+    404116: templeBlockWhole76 25
+    404118: templeBlockWhole76 26
+    404120: templeBlockWhole76 27
+    404122: templeBlockWhole76 28
+    404124: templeBlockWhole76 29
+    404126: templeBlockWhole76 30
+    404128: templeBlockWhole76 31
+    404130: templeBlockWhole76 32
+    404132: templeBlockWhole76 33
+    404134: templeBlockWhole76 34
+    404136: templeBlockWhole76 35
+    404138: templeBlockWhole76 36
+    404140: templeBlockWhole76 37
+    404142: templeBlockWhole76 38
+    404144: templeBlockWhole76 39
+    404146: templeBlockWhole76 40
+    404148: templeBlockWhole76 41
+    404150: templeBlockWhole76 42
+    404152: templeBlockWhole76 43
+    404154: templeBlockWhole76 44
+    404156: templeBlockWhole76 45
+    404158: templeBlockWhole77 16
+    404160: templeBlockWhole77 17
+    404162: templeBlockWhole77 18
+    404164: templeBlockWhole77 19
+    404166: templeBlockWhole77 20
+    404168: templeBlockWhole77 21
+    404170: templeBlockWhole77 22
+    404172: templeBlockWhole77 23
+    404174: templeBlockWhole78 26
+    404176: templeBlockWhole78 27
+    404178: templeBlockWhole78 28
+    404180: templeBlockWhole78 29
+    404182: templeBlockWhole78 30
+    404184: templeBlockWhole78 31
+    404186: templeBlockWhole78 32
+    404188: templeBlockWhole78 33
+    404190: templeBlockWhole78 34
+    404192: templeBlockWhole78 35
+    404194: templeBlockWhole78 36
+    404196: templeBlockWhole78 37
+    404198: templeBlockWhole78 38
+    404200: templeBlockWhole78 39
+    404202: templeBlockWhole78 40
+    404204: templeBlockWhole78 41
+    404206: templeBlockWhole78 42
+    404208: templeBlockWhole78 43
+    404210: templeBlockWhole78 44
+    404212: templeBlockWhole78 45
+    404214: templeBlockWhole79 26
+    404216: templeBlockWhole79 27
+    404218: templeBlockWhole79 28
+    404220: templeBlockWhole79 29
+    404222: templeBlockWhole79 30
+    404224: templeBlockWhole79 31
+    404226: templeBlockWhole79 32
+    404228: templeBlockWhole79 33
+    404230: templeBlockWhole79 34
+    404232: templeBlockWhole79 35
+    404234: templeBlockWhole79 36
+    404236: templeBlockWhole79 37
+    404238: templeBlockWhole79 38
+    404240: templeBlockWhole79 39
+    404242: templeBlockWhole79 40
+    404244: templeBlockWhole79 41
+    404246: templeBlockWhole79 42
+    404248: templeBlockWhole79 43
+    404250: templeBlockWhole80 27
+    404252: templeBlockWhole80 28
+    404254: templeBlockWhole80 29
+    404256: templeBlockWhole80 30
+    404258: templeBlockWhole80 31
+    404260: templeBlockWhole80 32
+    404262: templeBlockWhole80 33
+    404264: templeBlockWhole80 34
+    404266: templeBlockWhole80 35
+    404268: templeBlockWhole80 36
+    404270: templeBlockWhole80 37
+    404272: templeBlockWhole80 38
+    404274: templeBlockWhole80 39
+    404276: templeBlockWhole80 40
+    404278: templeBlockWhole80 41
+    404280: templeBlockWhole80 42
+    404282: templeBlockWhole80 43
+    404284: templeBlockWhole80 44
+    404286: templeBlockWhole80 45
+    404288: templeBlockWhole81 23
+    404290: templeBlockWhole81 24
+    404292: templeBlockWhole81 25
+    404294: templeBlockWhole81 26
+    404296: templeBlockWhole81 27
+    404298: templeBlockWhole81 28
+    404300: templeBlockWhole81 29
+    404302: templeBlockWhole81 30
+    404304: templeBlockWhole81 31
+    404306: templeBlockWhole81 32
+    404308: templeBlockWhole81 33
+    404310: templeBlockWhole81 34
+    404312: templeBlockWhole81 35
+    404314: templeBlockWhole81 36
+    404316: templeBlockWhole81 37
+    404318: templeBlockWhole81 38
+    404320: templeBlockWhole81 39
+    404322: templeBlockWhole81 40
+    404324: templeBlockWhole82 26
+    404326: templeBlockWhole82 27
+    404328: templeBlockWhole82 28
+    404330: templeBlockWhole82 29
+    404332: templeBlockWhole82 30
+    404334: templeBlockWhole82 31
+    404336: templeBlockWhole82 32
+    404338: templeBlockWhole82 33
+    404340: templeBlockWhole82 34
+    404342: templeBlockWhole82 35
+    404344: templeBlockWhole82 36
+    404346: templeBlockWhole82 37
+    404348: templeBlockWhole82 38
+    404350: templeBlockWhole83 27
+    404352: templeBlockWhole83 28
+    404354: templeBlockWhole83 29
+    404356: templeBlockWhole83 30
+    404358: templeBlockWhole83 31
+    404360: templeBlockWhole83 32
+    404362: templeBlockWhole83 33
+    404364: templeBlockWhole83 34
+    404366: templeBlockWhole83 35
+    404368: templeBlockWhole83 36
+    404370: templeBlockWhole83 37
+    404372: templeBlockWhole83 38
+    404374: templeBlockWhole83 39
+    404376: templeBlockWhole83 40
+    404378: templeBlockWhole83 41
+    404380: templeBlockWhole83 42
+    404382: templeBlockWhole83 43
+    404384: templeBlockWhole83 44
+    404386: templeBlockWhole83 45
+    404388: templeBlockWhole84 25
+    404390: templeBlockWhole84 26
+    404392: templeBlockWhole84 27
+    404394: templeBlockWhole84 28
+    404396: templeBlockWhole84 29
+    404398: templeBlockWhole84 30
+    404400: templeBlockWhole84 31
+    404402: templeBlockWhole84 32
+    404404: templeBlockWhole84 33
+    404406: templeBlockWhole84 34
+    404408: templeBlockWhole84 35
+    404410: templeBlockWhole84 36
+    404412: templeBlockWhole84 37
+    404414: templeBlockWhole84 38
+    404416: templeBlockWhole84 39
+    404418: templeBlockWhole84 40
+    404420: templeBlockWhole85 24
+    404422: templeBlockWhole85 25
+    404424: templeBlockWhole85 26
+    404426: templeBlockWhole85 27
+    404428: templeBlockWhole85 28
+    404430: templeBlockWhole85 29
+    404432: templeBlockWhole85 30
+    404434: templeBlockWhole85 31
+    404436: templeBlockWhole85 32
+    404438: templeBlockWhole85 33
+    404440: templeBlockWhole85 34
+    404442: templeBlockWhole85 35
+    404444: templeBlockWhole86 18
+    404446: templeBlockWhole86 19
+    404448: templeBlockWhole86 20
+    404450: templeBlockWhole86 21
+    404452: templeBlockWhole86 22
+    404454: templeBlockWhole86 23
+    404456: templeBlockWhole89 10
+    404458: templeBlockWhole89 11
+    404460: templeBlockWhole89 12
+    404462: templeBlockWhole89 13
+    404464: templeBlockWhole89 6
+    404466: templeBlockWhole89 7
+    404468: templeBlockWhole89 8
+    404470: templeBlockWhole89 9
+    404472: templeBlockWhole90 10
+    404474: templeBlockWhole90 11
+    404476: templeBlockWhole90 12
+    404478: templeBlockWhole90 13
+    404480: templeBlockWhole90 14
+    404482: templeBlockWhole90 15
+    404484: templeBlockWhole90 8
+    404486: templeBlockWhole90 9
+    404488: templeBlockWhole91 10
+    404490: templeBlockWhole91 11
+    404492: templeBlockWhole91 12
+    404494: templeBlockWhole91 13
+    404496: templeBlockWhole91 14
+    404498: templeBlockWhole91 8
+    404500: templeBlockWhole91 9
+    404502: templeBlockWhole92 10
+    404504: templeBlockWhole92 11
+    404506: templeBlockWhole92 12
+    404508: templeBlockWhole92 13
+    404510: templeBlockWhole92 6
+    404512: templeBlockWhole92 7
+    404514: templeBlockWhole92 8
+    404516: templeBlockWhole92 9
+    404518: templeBlockWhole93 10
+    404520: templeBlockWhole93 11
+    404522: templeBlockWhole93 12
+    404524: templeBlockWhole93 13
+    404526: templeBlockWhole93 6
+    404528: templeBlockWhole93 7
+    404530: templeBlockWhole93 8
+    404532: templeBlockWhole93 9
+    404534: templeRoof_grp
+    404536: waterChuteArch_grp
+    404538: waterChuteArch_grp1
+    404540: waterChuteArch_grp2
+    404542: window
+    404544: window 1
+    404546: window 10
+    404548: window 11
+    404550: window 12
+    404552: window 13
+    404554: window 14
+    404556: window 2
+    404558: window 3
+    404560: window 4
+    404562: window 5
+    404564: window 6
+    404566: window 7
+    404568: window 8
+    404570: window 9
+    404572: window_grp 1
+    404574: window_grp 2
+    404576: window_grp 3
+    404578: window_grp 4
+    404580: window_grp3
+    404582: window_grp3 1
+    404584: window_grp3 2
+    404586: window_grp3 3
+    404588: window_grp3 4
+    404590: window_grp4
+    404592: window_grp4 1
+    404594: window_grp4 2
+    404596: window_grp4 3
+    404598: window_grp4 4
     2300000: column1
     2300002: column1 1
     2300004: column1 2
@@ -3741,6 +5823,959 @@ ModelImporter:
     2302430: templeCliff1
     2302432: templeCliff:polySurface1
     2302434: templeExterior:polySurface1
+    2302436: centerArchPlane
+    2302438: centerWindowPlane
+    2302440: column1 10
+    2302442: column1 11
+    2302444: column1 12
+    2302446: column1 13
+    2302448: column1 14
+    2302450: column1 15
+    2302452: column1 16
+    2302454: column1 17
+    2302456: column1 18
+    2302458: column1 19
+    2302460: column1 4
+    2302462: column1 5
+    2302464: column1 6
+    2302466: column1 7
+    2302468: column1 8
+    2302470: column1 9
+    2302472: columnBottom 10
+    2302474: columnBottom 11
+    2302476: columnBottom 12
+    2302478: columnBottom 13
+    2302480: columnBottom 14
+    2302482: columnBottom 15
+    2302484: columnBottom 16
+    2302486: columnBottom 17
+    2302488: columnBottom 18
+    2302490: columnBottom 19
+    2302492: columnBottom 4
+    2302494: columnBottom 5
+    2302496: columnBottom 6
+    2302498: columnBottom 7
+    2302500: columnBottom 8
+    2302502: columnBottom 9
+    2302504: columnTop 10
+    2302506: columnTop 11
+    2302508: columnTop 12
+    2302510: columnTop 13
+    2302512: columnTop 14
+    2302514: columnTop 15
+    2302516: columnTop 16
+    2302518: columnTop 17
+    2302520: columnTop 18
+    2302522: columnTop 19
+    2302524: columnTop 4
+    2302526: columnTop 5
+    2302528: columnTop 6
+    2302530: columnTop 7
+    2302532: columnTop 8
+    2302534: columnTop 9
+    2302536: leftArchPlane
+    2302538: leftDwayDownPlane
+    2302540: leftDwayUpPlane
+    2302542: leftWindowPlane
+    2302544: rightArchPlane
+    2302546: rightDwayDownPlane
+    2302548: rightDwayUpPlane
+    2302550: rightWindowPlane
+    2302552: templeBlockWhole125 10
+    2302554: templeBlockWhole125 11
+    2302556: templeBlockWhole125 12
+    2302558: templeBlockWhole125 13
+    2302560: templeBlockWhole125 6
+    2302562: templeBlockWhole125 7
+    2302564: templeBlockWhole125 8
+    2302566: templeBlockWhole125 9
+    2302568: templeBlockWhole129 10
+    2302570: templeBlockWhole129 11
+    2302572: templeBlockWhole129 12
+    2302574: templeBlockWhole129 13
+    2302576: templeBlockWhole129 8
+    2302578: templeBlockWhole129 9
+    2302580: templeBlockWhole130 10
+    2302582: templeBlockWhole130 11
+    2302584: templeBlockWhole130 12
+    2302586: templeBlockWhole130 13
+    2302588: templeBlockWhole130 8
+    2302590: templeBlockWhole130 9
+    2302592: templeBlockWhole211 1
+    2302594: templeBlockWhole211 2
+    2302596: templeBlockWhole211 3
+    2302598: templeBlockWhole211 4
+    2302600: templeBlockWhole212 1
+    2302602: templeBlockWhole212 2
+    2302604: templeBlockWhole212 3
+    2302606: templeBlockWhole212 4
+    2302608: templeBlockWhole229 10
+    2302610: templeBlockWhole229 11
+    2302612: templeBlockWhole229 12
+    2302614: templeBlockWhole229 13
+    2302616: templeBlockWhole229 14
+    2302618: templeBlockWhole229 3
+    2302620: templeBlockWhole229 4
+    2302622: templeBlockWhole229 5
+    2302624: templeBlockWhole229 6
+    2302626: templeBlockWhole229 7
+    2302628: templeBlockWhole229 8
+    2302630: templeBlockWhole229 9
+    2302632: templeBlockWhole230 10
+    2302634: templeBlockWhole230 11
+    2302636: templeBlockWhole230 12
+    2302638: templeBlockWhole230 13
+    2302640: templeBlockWhole230 14
+    2302642: templeBlockWhole230 3
+    2302644: templeBlockWhole230 4
+    2302646: templeBlockWhole230 5
+    2302648: templeBlockWhole230 6
+    2302650: templeBlockWhole230 7
+    2302652: templeBlockWhole230 8
+    2302654: templeBlockWhole230 9
+    2302656: templeBlockWhole231 10
+    2302658: templeBlockWhole231 11
+    2302660: templeBlockWhole231 12
+    2302662: templeBlockWhole231 13
+    2302664: templeBlockWhole231 14
+    2302666: templeBlockWhole231 3
+    2302668: templeBlockWhole231 4
+    2302670: templeBlockWhole231 5
+    2302672: templeBlockWhole231 6
+    2302674: templeBlockWhole231 7
+    2302676: templeBlockWhole231 8
+    2302678: templeBlockWhole231 9
+    2302680: templeBlockWhole232 1
+    2302682: templeBlockWhole232 2
+    2302684: templeBlockWhole233 1
+    2302686: templeBlockWhole233 2
+    2302688: templeBlockWhole234 1
+    2302690: templeBlockWhole234 2
+    2302692: templeBlockWhole239
+    2302694: templeBlockWhole240
+    2302696: templeBlockWhole241
+    2302698: templeBlockWhole241 1
+    2302700: templeBlockWhole241 2
+    2302702: templeBlockWhole241 3
+    2302704: templeBlockWhole241 4
+    2302706: templeBlockWhole242
+    2302708: templeBlockWhole243
+    2302710: templeBlockWhole244
+    2302712: templeBlockWhole244 1
+    2302714: templeBlockWhole244 2
+    2302716: templeBlockWhole246
+    2302718: templeBlockWhole246 1
+    2302720: templeBlockWhole246 2
+    2302722: templeBlockWhole247
+    2302724: templeBlockWhole247 1
+    2302726: templeBlockWhole247 2
+    2302728: templeBlockWhole249
+    2302730: templeBlockWhole250
+    2302732: templeBlockWhole251
+    2302734: templeBlockWhole252
+    2302736: templeBlockWhole253
+    2302738: templeBlockWhole254
+    2302740: templeBlockWhole255
+    2302742: templeBlockWhole255 1
+    2302744: templeBlockWhole255 2
+    2302746: templeBlockWhole256
+    2302748: templeBlockWhole256 1
+    2302750: templeBlockWhole256 2
+    2302752: templeBlockWhole257
+    2302754: templeBlockWhole257 1
+    2302756: templeBlockWhole257 2
+    2302758: templeBlockWhole258
+    2302760: templeBlockWhole258 1
+    2302762: templeBlockWhole258 2
+    2302764: templeBlockWhole259
+    2302766: templeBlockWhole259 1
+    2302768: templeBlockWhole259 2
+    2302770: templeBlockWhole259 3
+    2302772: templeBlockWhole259 4
+    2302774: templeBlockWhole260
+    2302776: templeBlockWhole260 1
+    2302778: templeBlockWhole260 10
+    2302780: templeBlockWhole260 11
+    2302782: templeBlockWhole260 12
+    2302784: templeBlockWhole260 13
+    2302786: templeBlockWhole260 14
+    2302788: templeBlockWhole260 2
+    2302790: templeBlockWhole260 3
+    2302792: templeBlockWhole260 4
+    2302794: templeBlockWhole260 5
+    2302796: templeBlockWhole260 6
+    2302798: templeBlockWhole260 7
+    2302800: templeBlockWhole260 8
+    2302802: templeBlockWhole260 9
+    2302804: templeBlockWhole261
+    2302806: templeBlockWhole261 1
+    2302808: templeBlockWhole261 10
+    2302810: templeBlockWhole261 11
+    2302812: templeBlockWhole261 12
+    2302814: templeBlockWhole261 13
+    2302816: templeBlockWhole261 14
+    2302818: templeBlockWhole261 2
+    2302820: templeBlockWhole261 3
+    2302822: templeBlockWhole261 4
+    2302824: templeBlockWhole261 5
+    2302826: templeBlockWhole261 6
+    2302828: templeBlockWhole261 7
+    2302830: templeBlockWhole261 8
+    2302832: templeBlockWhole261 9
+    2302834: templeBlockWhole262
+    2302836: templeBlockWhole262 1
+    2302838: templeBlockWhole262 10
+    2302840: templeBlockWhole262 11
+    2302842: templeBlockWhole262 12
+    2302844: templeBlockWhole262 13
+    2302846: templeBlockWhole262 14
+    2302848: templeBlockWhole262 2
+    2302850: templeBlockWhole262 3
+    2302852: templeBlockWhole262 4
+    2302854: templeBlockWhole262 5
+    2302856: templeBlockWhole262 6
+    2302858: templeBlockWhole262 7
+    2302860: templeBlockWhole262 8
+    2302862: templeBlockWhole262 9
+    2302864: templeBlockWhole263
+    2302866: templeBlockWhole263 1
+    2302868: templeBlockWhole263 10
+    2302870: templeBlockWhole263 11
+    2302872: templeBlockWhole263 12
+    2302874: templeBlockWhole263 13
+    2302876: templeBlockWhole263 14
+    2302878: templeBlockWhole263 2
+    2302880: templeBlockWhole263 3
+    2302882: templeBlockWhole263 4
+    2302884: templeBlockWhole263 5
+    2302886: templeBlockWhole263 6
+    2302888: templeBlockWhole263 7
+    2302890: templeBlockWhole263 8
+    2302892: templeBlockWhole263 9
+    2302894: templeBlockWhole264
+    2302896: templeBlockWhole264 1
+    2302898: templeBlockWhole264 10
+    2302900: templeBlockWhole264 11
+    2302902: templeBlockWhole264 12
+    2302904: templeBlockWhole264 13
+    2302906: templeBlockWhole264 14
+    2302908: templeBlockWhole264 2
+    2302910: templeBlockWhole264 3
+    2302912: templeBlockWhole264 4
+    2302914: templeBlockWhole264 5
+    2302916: templeBlockWhole264 6
+    2302918: templeBlockWhole264 7
+    2302920: templeBlockWhole264 8
+    2302922: templeBlockWhole264 9
+    2302924: templeBlockWhole265
+    2302926: templeBlockWhole265 1
+    2302928: templeBlockWhole265 10
+    2302930: templeBlockWhole265 11
+    2302932: templeBlockWhole265 12
+    2302934: templeBlockWhole265 13
+    2302936: templeBlockWhole265 14
+    2302938: templeBlockWhole265 2
+    2302940: templeBlockWhole265 3
+    2302942: templeBlockWhole265 4
+    2302944: templeBlockWhole265 5
+    2302946: templeBlockWhole265 6
+    2302948: templeBlockWhole265 7
+    2302950: templeBlockWhole265 8
+    2302952: templeBlockWhole265 9
+    2302954: templeBlockWhole266
+    2302956: templeBlockWhole266 1
+    2302958: templeBlockWhole266 10
+    2302960: templeBlockWhole266 11
+    2302962: templeBlockWhole266 12
+    2302964: templeBlockWhole266 13
+    2302966: templeBlockWhole266 14
+    2302968: templeBlockWhole266 2
+    2302970: templeBlockWhole266 3
+    2302972: templeBlockWhole266 4
+    2302974: templeBlockWhole266 5
+    2302976: templeBlockWhole266 6
+    2302978: templeBlockWhole266 7
+    2302980: templeBlockWhole266 8
+    2302982: templeBlockWhole266 9
+    2302984: templeBlockWhole267
+    2302986: templeBlockWhole267 1
+    2302988: templeBlockWhole267 2
+    2302990: templeBlockWhole267 3
+    2302992: templeBlockWhole267 4
+    2302994: templeBlockWhole268
+    2302996: templeBlockWhole268 1
+    2302998: templeBlockWhole268 2
+    2303000: templeBlockWhole268 3
+    2303002: templeBlockWhole268 4
+    2303004: templeBlockWhole269
+    2303006: templeBlockWhole269 1
+    2303008: templeBlockWhole269 2
+    2303010: templeBlockWhole269 3
+    2303012: templeBlockWhole269 4
+    2303014: templeBlockWhole270
+    2303016: templeBlockWhole270 1
+    2303018: templeBlockWhole270 2
+    2303020: templeBlockWhole270 3
+    2303022: templeBlockWhole270 4
+    2303024: templeBlockWhole271
+    2303026: templeBlockWhole271 1
+    2303028: templeBlockWhole271 2
+    2303030: templeBlockWhole271 3
+    2303032: templeBlockWhole271 4
+    2303034: templeBlockWhole272
+    2303036: templeBlockWhole273
+    2303038: templeBlockWhole274
+    2303040: templeBlockWhole275
+    2303042: templeBlockWhole276
+    2303044: templeBlockWhole277
+    2303046: templeBlockWhole278
+    2303048: templeBlockWhole279
+    2303050: templeBlockWhole280
+    2303052: templeBlockWhole281
+    2303054: templeBlockWhole282
+    2303056: templeBlockWhole283
+    2303058: templeBlockWhole284
+    2303060: templeBlockWhole285
+    2303062: templeBlockWhole286
+    2303064: templeBlockWhole287
+    2303066: templeBlockWhole288
+    2303068: templeBlockWhole289
+    2303070: templeBlockWhole290
+    2303072: templeBlockWhole291
+    2303074: templeBlockWhole292
+    2303076: templeBlockWhole293
+    2303078: templeBlockWhole294
+    2303080: templeBlockWhole295
+    2303082: templeBlockWhole296
+    2303084: templeBlockWhole297
+    2303086: templeBlockWhole298
+    2303088: templeBlockWhole299
+    2303090: templeBlockWhole300
+    2303092: templeBlockWhole301
+    2303094: templeBlockWhole302
+    2303096: templeBlockWhole303
+    2303098: templeBlockWhole304
+    2303100: templeBlockWhole305
+    2303102: templeBlockWhole306
+    2303104: templeBlockWhole307
+    2303106: templeBlockWhole308
+    2303108: templeBlockWhole310
+    2303110: templeBlockWhole311
+    2303112: templeBlockWhole312
+    2303114: templeBlockWhole313
+    2303116: templeBlockWhole314
+    2303118: templeBlockWhole315
+    2303120: templeBlockWhole316
+    2303122: templeBlockWhole317
+    2303124: templeBlockWhole318
+    2303126: templeBlockWhole319
+    2303128: templeBlockWhole320
+    2303130: templeBlockWhole321
+    2303132: templeBlockWhole322
+    2303134: templeBlockWhole323
+    2303136: templeBlockWhole324
+    2303138: templeBlockWhole325
+    2303140: templeBlockWhole326
+    2303142: templeBlockWhole327
+    2303144: templeBlockWhole328
+    2303146: templeBlockWhole329
+    2303148: templeBlockWhole330
+    2303150: templeBlockWhole331
+    2303152: templeBlockWhole332
+    2303154: templeBlockWhole333
+    2303156: templeBlockWhole334
+    2303158: templeBlockWhole336
+    2303160: templeBlockWhole337
+    2303162: templeBlockWhole338
+    2303164: templeBlockWhole339
+    2303166: templeBlockWhole340
+    2303168: templeBlockWhole341
+    2303170: templeBlockWhole342
+    2303172: templeBlockWhole343
+    2303174: templeBlockWhole344
+    2303176: templeBlockWhole345
+    2303178: templeBlockWhole346
+    2303180: templeBlockWhole347
+    2303182: templeBlockWhole348
+    2303184: templeBlockWhole349
+    2303186: templeBlockWhole350
+    2303188: templeBlockWhole351
+    2303190: templeBlockWhole352
+    2303192: templeBlockWhole353
+    2303194: templeBlockWhole354
+    2303196: templeBlockWhole355
+    2303198: templeBlockWhole356
+    2303200: templeBlockWhole357
+    2303202: templeBlockWhole358
+    2303204: templeBlockWhole359
+    2303206: templeBlockWhole360
+    2303208: templeBlockWhole361
+    2303210: templeBlockWhole362
+    2303212: templeBlockWhole363
+    2303214: templeBlockWhole364
+    2303216: templeBlockWhole365
+    2303218: templeBlockWhole366
+    2303220: templeBlockWhole367
+    2303222: templeBlockWhole368
+    2303224: templeBlockWhole369
+    2303226: templeBlockWhole370
+    2303228: templeBlockWhole371
+    2303230: templeBlockWhole372
+    2303232: templeBlockWhole373
+    2303234: templeBlockWhole374
+    2303236: templeBlockWhole375
+    2303238: templeBlockWhole376
+    2303240: templeBlockWhole377
+    2303242: templeBlockWhole378
+    2303244: templeBlockWhole379
+    2303246: templeBlockWhole381
+    2303248: templeBlockWhole382
+    2303250: templeBlockWhole383
+    2303252: templeBlockWhole384
+    2303254: templeBlockWhole385
+    2303256: templeBlockWhole386
+    2303258: templeBlockWhole43 18
+    2303260: templeBlockWhole43 19
+    2303262: templeBlockWhole43 20
+    2303264: templeBlockWhole43 21
+    2303266: templeBlockWhole43 22
+    2303268: templeBlockWhole43 23
+    2303270: templeBlockWhole44 24
+    2303272: templeBlockWhole44 25
+    2303274: templeBlockWhole45 18
+    2303276: templeBlockWhole45 19
+    2303278: templeBlockWhole45 20
+    2303280: templeBlockWhole45 21
+    2303282: templeBlockWhole45 22
+    2303284: templeBlockWhole45 23
+    2303286: templeBlockWhole45 24
+    2303288: templeBlockWhole45 25
+    2303290: templeBlockWhole47 26
+    2303292: templeBlockWhole47 27
+    2303294: templeBlockWhole47 28
+    2303296: templeBlockWhole47 29
+    2303298: templeBlockWhole47 30
+    2303300: templeBlockWhole47 31
+    2303302: templeBlockWhole47 32
+    2303304: templeBlockWhole47 33
+    2303306: templeBlockWhole48 20
+    2303308: templeBlockWhole48 21
+    2303310: templeBlockWhole48 22
+    2303312: templeBlockWhole48 23
+    2303314: templeBlockWhole48 24
+    2303316: templeBlockWhole48 25
+    2303318: templeBlockWhole48 26
+    2303320: templeBlockWhole48 27
+    2303322: templeBlockWhole48 28
+    2303324: templeBlockWhole49 22
+    2303326: templeBlockWhole49 23
+    2303328: templeBlockWhole49 24
+    2303330: templeBlockWhole49 25
+    2303332: templeBlockWhole49 26
+    2303334: templeBlockWhole49 27
+    2303336: templeBlockWhole49 28
+    2303338: templeBlockWhole50 22
+    2303340: templeBlockWhole50 23
+    2303342: templeBlockWhole50 24
+    2303344: templeBlockWhole50 25
+    2303346: templeBlockWhole50 26
+    2303348: templeBlockWhole50 27
+    2303350: templeBlockWhole50 28
+    2303352: templeBlockWhole51 28
+    2303354: templeBlockWhole51 29
+    2303356: templeBlockWhole51 30
+    2303358: templeBlockWhole51 31
+    2303360: templeBlockWhole51 32
+    2303362: templeBlockWhole51 33
+    2303364: templeBlockWhole51 34
+    2303366: templeBlockWhole51 35
+    2303368: templeBlockWhole51 36
+    2303370: templeBlockWhole51 37
+    2303372: templeBlockWhole51 38
+    2303374: templeBlockWhole51 39
+    2303376: templeBlockWhole51 40
+    2303378: templeBlockWhole51 41
+    2303380: templeBlockWhole52 25
+    2303382: templeBlockWhole52 26
+    2303384: templeBlockWhole52 27
+    2303386: templeBlockWhole52 28
+    2303388: templeBlockWhole52 29
+    2303390: templeBlockWhole52 30
+    2303392: templeBlockWhole52 31
+    2303394: templeBlockWhole52 32
+    2303396: templeBlockWhole52 33
+    2303398: templeBlockWhole52 34
+    2303400: templeBlockWhole52 35
+    2303402: templeBlockWhole52 36
+    2303404: templeBlockWhole52 37
+    2303406: templeBlockWhole52 38
+    2303408: templeBlockWhole52 39
+    2303410: templeBlockWhole52 40
+    2303412: templeBlockWhole52 41
+    2303414: templeBlockWhole52 42
+    2303416: templeBlockWhole52 43
+    2303418: templeBlockWhole53 26
+    2303420: templeBlockWhole53 27
+    2303422: templeBlockWhole53 28
+    2303424: templeBlockWhole53 29
+    2303426: templeBlockWhole53 30
+    2303428: templeBlockWhole53 31
+    2303430: templeBlockWhole53 32
+    2303432: templeBlockWhole53 33
+    2303434: templeBlockWhole53 34
+    2303436: templeBlockWhole53 35
+    2303438: templeBlockWhole53 36
+    2303440: templeBlockWhole53 37
+    2303442: templeBlockWhole53 38
+    2303444: templeBlockWhole53 39
+    2303446: templeBlockWhole53 40
+    2303448: templeBlockWhole53 41
+    2303450: templeBlockWhole53 42
+    2303452: templeBlockWhole53 43
+    2303454: templeBlockWhole53 44
+    2303456: templeBlockWhole54 18
+    2303458: templeBlockWhole54 19
+    2303460: templeBlockWhole54 20
+    2303462: templeBlockWhole54 21
+    2303464: templeBlockWhole54 22
+    2303466: templeBlockWhole54 23
+    2303468: templeBlockWhole54 24
+    2303470: templeBlockWhole54 25
+    2303472: templeBlockWhole56 16
+    2303474: templeBlockWhole56 17
+    2303476: templeBlockWhole56 18
+    2303478: templeBlockWhole56 19
+    2303480: templeBlockWhole56 20
+    2303482: templeBlockWhole56 21
+    2303484: templeBlockWhole56 22
+    2303486: templeBlockWhole56 23
+    2303488: templeBlockWhole57 22
+    2303490: templeBlockWhole57 23
+    2303492: templeBlockWhole57 24
+    2303494: templeBlockWhole57 25
+    2303496: templeBlockWhole57 26
+    2303498: templeBlockWhole57 27
+    2303500: templeBlockWhole57 28
+    2303502: templeBlockWhole57 29
+    2303504: templeBlockWhole57 30
+    2303506: templeBlockWhole57 31
+    2303508: templeBlockWhole57 32
+    2303510: templeBlockWhole57 33
+    2303512: templeBlockWhole57 34
+    2303514: templeBlockWhole57 35
+    2303516: templeBlockWhole57 36
+    2303518: templeBlockWhole57 37
+    2303520: templeBlockWhole57 38
+    2303522: templeBlockWhole57 39
+    2303524: templeBlockWhole57 40
+    2303526: templeBlockWhole57 41
+    2303528: templeBlockWhole57 42
+    2303530: templeBlockWhole57 43
+    2303532: templeBlockWhole57 44
+    2303534: templeBlockWhole58 22
+    2303536: templeBlockWhole58 23
+    2303538: templeBlockWhole58 24
+    2303540: templeBlockWhole58 25
+    2303542: templeBlockWhole58 26
+    2303544: templeBlockWhole58 27
+    2303546: templeBlockWhole58 28
+    2303548: templeBlockWhole58 29
+    2303550: templeBlockWhole59 19
+    2303552: templeBlockWhole59 20
+    2303554: templeBlockWhole59 21
+    2303556: templeBlockWhole59 22
+    2303558: templeBlockWhole59 23
+    2303560: templeBlockWhole59 24
+    2303562: templeBlockWhole59 25
+    2303564: templeBlockWhole59 26
+    2303566: templeBlockWhole59 27
+    2303568: templeBlockWhole59 28
+    2303570: templeBlockWhole59 29
+    2303572: templeBlockWhole60 12
+    2303574: templeBlockWhole60 13
+    2303576: templeBlockWhole60 14
+    2303578: templeBlockWhole60 15
+    2303580: templeBlockWhole60 16
+    2303582: templeBlockWhole60 17
+    2303584: templeBlockWhole60 18
+    2303586: templeBlockWhole60 19
+    2303588: templeBlockWhole61 16
+    2303590: templeBlockWhole61 17
+    2303592: templeBlockWhole61 18
+    2303594: templeBlockWhole61 19
+    2303596: templeBlockWhole61 20
+    2303598: templeBlockWhole61 21
+    2303600: templeBlockWhole61 22
+    2303602: templeBlockWhole61 23
+    2303604: templeBlockWhole61 24
+    2303606: templeBlockWhole61 25
+    2303608: templeBlockWhole61 26
+    2303610: templeBlockWhole61 27
+    2303612: templeBlockWhole61 28
+    2303614: templeBlockWhole61 29
+    2303616: templeBlockWhole62 16
+    2303618: templeBlockWhole62 17
+    2303620: templeBlockWhole62 18
+    2303622: templeBlockWhole62 19
+    2303624: templeBlockWhole62 20
+    2303626: templeBlockWhole62 21
+    2303628: templeBlockWhole62 22
+    2303630: templeBlockWhole62 23
+    2303632: templeBlockWhole62 24
+    2303634: templeBlockWhole62 25
+    2303636: templeBlockWhole62 26
+    2303638: templeBlockWhole62 27
+    2303640: templeBlockWhole62 28
+    2303642: templeBlockWhole62 29
+    2303644: templeBlockWhole62 30
+    2303646: templeBlockWhole63 18
+    2303648: templeBlockWhole63 19
+    2303650: templeBlockWhole63 20
+    2303652: templeBlockWhole63 21
+    2303654: templeBlockWhole63 22
+    2303656: templeBlockWhole63 23
+    2303658: templeBlockWhole63 24
+    2303660: templeBlockWhole63 25
+    2303662: templeBlockWhole63 26
+    2303664: templeBlockWhole63 27
+    2303666: templeBlockWhole63 28
+    2303668: templeBlockWhole63 29
+    2303670: templeBlockWhole63 30
+    2303672: templeBlockWhole63 31
+    2303674: templeBlockWhole63 32
+    2303676: templeBlockWhole63 33
+    2303678: templeBlockWhole63 34
+    2303680: templeBlockWhole63 35
+    2303682: templeBlockWhole63 36
+    2303684: templeBlockWhole63 37
+    2303686: templeBlockWhole63 38
+    2303688: templeBlockWhole63 39
+    2303690: templeBlockWhole63 40
+    2303692: templeBlockWhole64 18
+    2303694: templeBlockWhole64 19
+    2303696: templeBlockWhole64 20
+    2303698: templeBlockWhole64 21
+    2303700: templeBlockWhole64 22
+    2303702: templeBlockWhole64 23
+    2303704: templeBlockWhole64 24
+    2303706: templeBlockWhole64 25
+    2303708: templeBlockWhole64 26
+    2303710: templeBlockWhole64 27
+    2303712: templeBlockWhole64 28
+    2303714: templeBlockWhole64 29
+    2303716: templeBlockWhole64 30
+    2303718: templeBlockWhole64 31
+    2303720: templeBlockWhole64 32
+    2303722: templeBlockWhole64 33
+    2303724: templeBlockWhole64 34
+    2303726: templeBlockWhole64 35
+    2303728: templeBlockWhole64 36
+    2303730: templeBlockWhole64 37
+    2303732: templeBlockWhole64 38
+    2303734: templeBlockWhole64 39
+    2303736: templeBlockWhole65 17
+    2303738: templeBlockWhole65 18
+    2303740: templeBlockWhole65 19
+    2303742: templeBlockWhole65 20
+    2303744: templeBlockWhole65 21
+    2303746: templeBlockWhole65 22
+    2303748: templeBlockWhole66 19
+    2303750: templeBlockWhole66 20
+    2303752: templeBlockWhole66 21
+    2303754: templeBlockWhole66 22
+    2303756: templeBlockWhole66 23
+    2303758: templeBlockWhole66 24
+    2303760: templeBlockWhole66 25
+    2303762: templeBlockWhole66 26
+    2303764: templeBlockWhole66 27
+    2303766: templeBlockWhole66 28
+    2303768: templeBlockWhole66 29
+    2303770: templeBlockWhole67 17
+    2303772: templeBlockWhole67 18
+    2303774: templeBlockWhole67 19
+    2303776: templeBlockWhole67 20
+    2303778: templeBlockWhole67 21
+    2303780: templeBlockWhole67 22
+    2303782: templeBlockWhole68 20
+    2303784: templeBlockWhole68 21
+    2303786: templeBlockWhole68 22
+    2303788: templeBlockWhole68 23
+    2303790: templeBlockWhole68 24
+    2303792: templeBlockWhole68 25
+    2303794: templeBlockWhole68 26
+    2303796: templeBlockWhole68 27
+    2303798: templeBlockWhole68 28
+    2303800: templeBlockWhole68 29
+    2303802: templeBlockWhole68 30
+    2303804: templeBlockWhole69 18
+    2303806: templeBlockWhole69 19
+    2303808: templeBlockWhole69 20
+    2303810: templeBlockWhole69 21
+    2303812: templeBlockWhole69 22
+    2303814: templeBlockWhole69 23
+    2303816: templeBlockWhole69 24
+    2303818: templeBlockWhole70 19
+    2303820: templeBlockWhole70 20
+    2303822: templeBlockWhole70 21
+    2303824: templeBlockWhole70 22
+    2303826: templeBlockWhole70 23
+    2303828: templeBlockWhole70 24
+    2303830: templeBlockWhole70 25
+    2303832: templeBlockWhole70 26
+    2303834: templeBlockWhole70 27
+    2303836: templeBlockWhole70 28
+    2303838: templeBlockWhole70 29
+    2303840: templeBlockWhole70 30
+    2303842: templeBlockWhole72 16
+    2303844: templeBlockWhole72 17
+    2303846: templeBlockWhole72 18
+    2303848: templeBlockWhole72 19
+    2303850: templeBlockWhole72 20
+    2303852: templeBlockWhole72 21
+    2303854: templeBlockWhole72 22
+    2303856: templeBlockWhole72 23
+    2303858: templeBlockWhole74 18
+    2303860: templeBlockWhole74 19
+    2303862: templeBlockWhole74 20
+    2303864: templeBlockWhole74 21
+    2303866: templeBlockWhole74 22
+    2303868: templeBlockWhole74 23
+    2303870: templeBlockWhole74 24
+    2303872: templeBlockWhole75 22
+    2303874: templeBlockWhole75 23
+    2303876: templeBlockWhole75 24
+    2303878: templeBlockWhole75 25
+    2303880: templeBlockWhole75 26
+    2303882: templeBlockWhole75 27
+    2303884: templeBlockWhole75 28
+    2303886: templeBlockWhole75 29
+    2303888: templeBlockWhole75 30
+    2303890: templeBlockWhole75 31
+    2303892: templeBlockWhole75 32
+    2303894: templeBlockWhole75 33
+    2303896: templeBlockWhole75 34
+    2303898: templeBlockWhole75 35
+    2303900: templeBlockWhole75 36
+    2303902: templeBlockWhole75 37
+    2303904: templeBlockWhole75 38
+    2303906: templeBlockWhole75 39
+    2303908: templeBlockWhole75 40
+    2303910: templeBlockWhole75 41
+    2303912: templeBlockWhole75 42
+    2303914: templeBlockWhole75 43
+    2303916: templeBlockWhole75 44
+    2303918: templeBlockWhole75 45
+    2303920: templeBlockWhole76 23
+    2303922: templeBlockWhole76 24
+    2303924: templeBlockWhole76 25
+    2303926: templeBlockWhole76 26
+    2303928: templeBlockWhole76 27
+    2303930: templeBlockWhole76 28
+    2303932: templeBlockWhole76 29
+    2303934: templeBlockWhole76 30
+    2303936: templeBlockWhole76 31
+    2303938: templeBlockWhole76 32
+    2303940: templeBlockWhole76 33
+    2303942: templeBlockWhole76 34
+    2303944: templeBlockWhole76 35
+    2303946: templeBlockWhole76 36
+    2303948: templeBlockWhole76 37
+    2303950: templeBlockWhole76 38
+    2303952: templeBlockWhole76 39
+    2303954: templeBlockWhole76 40
+    2303956: templeBlockWhole76 41
+    2303958: templeBlockWhole76 42
+    2303960: templeBlockWhole76 43
+    2303962: templeBlockWhole76 44
+    2303964: templeBlockWhole76 45
+    2303966: templeBlockWhole77 16
+    2303968: templeBlockWhole77 17
+    2303970: templeBlockWhole77 18
+    2303972: templeBlockWhole77 19
+    2303974: templeBlockWhole77 20
+    2303976: templeBlockWhole77 21
+    2303978: templeBlockWhole77 22
+    2303980: templeBlockWhole77 23
+    2303982: templeBlockWhole78 26
+    2303984: templeBlockWhole78 27
+    2303986: templeBlockWhole78 28
+    2303988: templeBlockWhole78 29
+    2303990: templeBlockWhole78 30
+    2303992: templeBlockWhole78 31
+    2303994: templeBlockWhole78 32
+    2303996: templeBlockWhole78 33
+    2303998: templeBlockWhole78 34
+    2304000: templeBlockWhole78 35
+    2304002: templeBlockWhole78 36
+    2304004: templeBlockWhole78 37
+    2304006: templeBlockWhole78 38
+    2304008: templeBlockWhole78 39
+    2304010: templeBlockWhole78 40
+    2304012: templeBlockWhole78 41
+    2304014: templeBlockWhole78 42
+    2304016: templeBlockWhole78 43
+    2304018: templeBlockWhole78 44
+    2304020: templeBlockWhole78 45
+    2304022: templeBlockWhole79 26
+    2304024: templeBlockWhole79 27
+    2304026: templeBlockWhole79 28
+    2304028: templeBlockWhole79 29
+    2304030: templeBlockWhole79 30
+    2304032: templeBlockWhole79 31
+    2304034: templeBlockWhole79 32
+    2304036: templeBlockWhole79 33
+    2304038: templeBlockWhole79 34
+    2304040: templeBlockWhole79 35
+    2304042: templeBlockWhole79 36
+    2304044: templeBlockWhole79 37
+    2304046: templeBlockWhole79 38
+    2304048: templeBlockWhole79 39
+    2304050: templeBlockWhole79 40
+    2304052: templeBlockWhole79 41
+    2304054: templeBlockWhole79 42
+    2304056: templeBlockWhole79 43
+    2304058: templeBlockWhole80 27
+    2304060: templeBlockWhole80 28
+    2304062: templeBlockWhole80 29
+    2304064: templeBlockWhole80 30
+    2304066: templeBlockWhole80 31
+    2304068: templeBlockWhole80 32
+    2304070: templeBlockWhole80 33
+    2304072: templeBlockWhole80 34
+    2304074: templeBlockWhole80 35
+    2304076: templeBlockWhole80 36
+    2304078: templeBlockWhole80 37
+    2304080: templeBlockWhole80 38
+    2304082: templeBlockWhole80 39
+    2304084: templeBlockWhole80 40
+    2304086: templeBlockWhole80 41
+    2304088: templeBlockWhole80 42
+    2304090: templeBlockWhole80 43
+    2304092: templeBlockWhole80 44
+    2304094: templeBlockWhole80 45
+    2304096: templeBlockWhole81 23
+    2304098: templeBlockWhole81 24
+    2304100: templeBlockWhole81 25
+    2304102: templeBlockWhole81 26
+    2304104: templeBlockWhole81 27
+    2304106: templeBlockWhole81 28
+    2304108: templeBlockWhole81 29
+    2304110: templeBlockWhole81 30
+    2304112: templeBlockWhole81 31
+    2304114: templeBlockWhole81 32
+    2304116: templeBlockWhole81 33
+    2304118: templeBlockWhole81 34
+    2304120: templeBlockWhole81 35
+    2304122: templeBlockWhole81 36
+    2304124: templeBlockWhole81 37
+    2304126: templeBlockWhole81 38
+    2304128: templeBlockWhole81 39
+    2304130: templeBlockWhole81 40
+    2304132: templeBlockWhole82 26
+    2304134: templeBlockWhole82 27
+    2304136: templeBlockWhole82 28
+    2304138: templeBlockWhole82 29
+    2304140: templeBlockWhole82 30
+    2304142: templeBlockWhole82 31
+    2304144: templeBlockWhole82 32
+    2304146: templeBlockWhole82 33
+    2304148: templeBlockWhole82 34
+    2304150: templeBlockWhole82 35
+    2304152: templeBlockWhole82 36
+    2304154: templeBlockWhole82 37
+    2304156: templeBlockWhole82 38
+    2304158: templeBlockWhole83 27
+    2304160: templeBlockWhole83 28
+    2304162: templeBlockWhole83 29
+    2304164: templeBlockWhole83 30
+    2304166: templeBlockWhole83 31
+    2304168: templeBlockWhole83 32
+    2304170: templeBlockWhole83 33
+    2304172: templeBlockWhole83 34
+    2304174: templeBlockWhole83 35
+    2304176: templeBlockWhole83 36
+    2304178: templeBlockWhole83 37
+    2304180: templeBlockWhole83 38
+    2304182: templeBlockWhole83 39
+    2304184: templeBlockWhole83 40
+    2304186: templeBlockWhole83 41
+    2304188: templeBlockWhole83 42
+    2304190: templeBlockWhole83 43
+    2304192: templeBlockWhole83 44
+    2304194: templeBlockWhole83 45
+    2304196: templeBlockWhole84 25
+    2304198: templeBlockWhole84 26
+    2304200: templeBlockWhole84 27
+    2304202: templeBlockWhole84 28
+    2304204: templeBlockWhole84 29
+    2304206: templeBlockWhole84 30
+    2304208: templeBlockWhole84 31
+    2304210: templeBlockWhole84 32
+    2304212: templeBlockWhole84 33
+    2304214: templeBlockWhole84 34
+    2304216: templeBlockWhole84 35
+    2304218: templeBlockWhole84 36
+    2304220: templeBlockWhole84 37
+    2304222: templeBlockWhole84 38
+    2304224: templeBlockWhole84 39
+    2304226: templeBlockWhole84 40
+    2304228: templeBlockWhole85 24
+    2304230: templeBlockWhole85 25
+    2304232: templeBlockWhole85 26
+    2304234: templeBlockWhole85 27
+    2304236: templeBlockWhole85 28
+    2304238: templeBlockWhole85 29
+    2304240: templeBlockWhole85 30
+    2304242: templeBlockWhole85 31
+    2304244: templeBlockWhole85 32
+    2304246: templeBlockWhole85 33
+    2304248: templeBlockWhole85 34
+    2304250: templeBlockWhole85 35
+    2304252: templeBlockWhole86 18
+    2304254: templeBlockWhole86 19
+    2304256: templeBlockWhole86 20
+    2304258: templeBlockWhole86 21
+    2304260: templeBlockWhole86 22
+    2304262: templeBlockWhole86 23
+    2304264: templeBlockWhole89 10
+    2304266: templeBlockWhole89 11
+    2304268: templeBlockWhole89 12
+    2304270: templeBlockWhole89 13
+    2304272: templeBlockWhole89 6
+    2304274: templeBlockWhole89 7
+    2304276: templeBlockWhole89 8
+    2304278: templeBlockWhole89 9
+    2304280: templeBlockWhole90 10
+    2304282: templeBlockWhole90 11
+    2304284: templeBlockWhole90 12
+    2304286: templeBlockWhole90 13
+    2304288: templeBlockWhole90 14
+    2304290: templeBlockWhole90 15
+    2304292: templeBlockWhole90 8
+    2304294: templeBlockWhole90 9
+    2304296: templeBlockWhole91 10
+    2304298: templeBlockWhole91 11
+    2304300: templeBlockWhole91 12
+    2304302: templeBlockWhole91 13
+    2304304: templeBlockWhole91 14
+    2304306: templeBlockWhole91 8
+    2304308: templeBlockWhole91 9
+    2304310: templeBlockWhole92 10
+    2304312: templeBlockWhole92 11
+    2304314: templeBlockWhole92 12
+    2304316: templeBlockWhole92 13
+    2304318: templeBlockWhole92 6
+    2304320: templeBlockWhole92 7
+    2304322: templeBlockWhole92 8
+    2304324: templeBlockWhole92 9
+    2304326: templeBlockWhole93 10
+    2304328: templeBlockWhole93 11
+    2304330: templeBlockWhole93 12
+    2304332: templeBlockWhole93 13
+    2304334: templeBlockWhole93 6
+    2304336: templeBlockWhole93 7
+    2304338: templeBlockWhole93 8
+    2304340: templeBlockWhole93 9
     3300000: column1
     3300002: column1 1
     3300004: column1 2
@@ -4959,6 +7994,959 @@ ModelImporter:
     3302430: templeCliff1
     3302432: templeCliff:polySurface1
     3302434: templeExterior:polySurface1
+    3302436: centerArchPlane
+    3302438: centerWindowPlane
+    3302440: column1 10
+    3302442: column1 11
+    3302444: column1 12
+    3302446: column1 13
+    3302448: column1 14
+    3302450: column1 15
+    3302452: column1 16
+    3302454: column1 17
+    3302456: column1 18
+    3302458: column1 19
+    3302460: column1 4
+    3302462: column1 5
+    3302464: column1 6
+    3302466: column1 7
+    3302468: column1 8
+    3302470: column1 9
+    3302472: columnBottom 10
+    3302474: columnBottom 11
+    3302476: columnBottom 12
+    3302478: columnBottom 13
+    3302480: columnBottom 14
+    3302482: columnBottom 15
+    3302484: columnBottom 16
+    3302486: columnBottom 17
+    3302488: columnBottom 18
+    3302490: columnBottom 19
+    3302492: columnBottom 4
+    3302494: columnBottom 5
+    3302496: columnBottom 6
+    3302498: columnBottom 7
+    3302500: columnBottom 8
+    3302502: columnBottom 9
+    3302504: columnTop 10
+    3302506: columnTop 11
+    3302508: columnTop 12
+    3302510: columnTop 13
+    3302512: columnTop 14
+    3302514: columnTop 15
+    3302516: columnTop 16
+    3302518: columnTop 17
+    3302520: columnTop 18
+    3302522: columnTop 19
+    3302524: columnTop 4
+    3302526: columnTop 5
+    3302528: columnTop 6
+    3302530: columnTop 7
+    3302532: columnTop 8
+    3302534: columnTop 9
+    3302536: leftArchPlane
+    3302538: leftDwayDownPlane
+    3302540: leftDwayUpPlane
+    3302542: leftWindowPlane
+    3302544: rightArchPlane
+    3302546: rightDwayDownPlane
+    3302548: rightDwayUpPlane
+    3302550: rightWindowPlane
+    3302552: templeBlockWhole125 10
+    3302554: templeBlockWhole125 11
+    3302556: templeBlockWhole125 12
+    3302558: templeBlockWhole125 13
+    3302560: templeBlockWhole125 6
+    3302562: templeBlockWhole125 7
+    3302564: templeBlockWhole125 8
+    3302566: templeBlockWhole125 9
+    3302568: templeBlockWhole129 10
+    3302570: templeBlockWhole129 11
+    3302572: templeBlockWhole129 12
+    3302574: templeBlockWhole129 13
+    3302576: templeBlockWhole129 8
+    3302578: templeBlockWhole129 9
+    3302580: templeBlockWhole130 10
+    3302582: templeBlockWhole130 11
+    3302584: templeBlockWhole130 12
+    3302586: templeBlockWhole130 13
+    3302588: templeBlockWhole130 8
+    3302590: templeBlockWhole130 9
+    3302592: templeBlockWhole211 1
+    3302594: templeBlockWhole211 2
+    3302596: templeBlockWhole211 3
+    3302598: templeBlockWhole211 4
+    3302600: templeBlockWhole212 1
+    3302602: templeBlockWhole212 2
+    3302604: templeBlockWhole212 3
+    3302606: templeBlockWhole212 4
+    3302608: templeBlockWhole229 10
+    3302610: templeBlockWhole229 11
+    3302612: templeBlockWhole229 12
+    3302614: templeBlockWhole229 13
+    3302616: templeBlockWhole229 14
+    3302618: templeBlockWhole229 3
+    3302620: templeBlockWhole229 4
+    3302622: templeBlockWhole229 5
+    3302624: templeBlockWhole229 6
+    3302626: templeBlockWhole229 7
+    3302628: templeBlockWhole229 8
+    3302630: templeBlockWhole229 9
+    3302632: templeBlockWhole230 10
+    3302634: templeBlockWhole230 11
+    3302636: templeBlockWhole230 12
+    3302638: templeBlockWhole230 13
+    3302640: templeBlockWhole230 14
+    3302642: templeBlockWhole230 3
+    3302644: templeBlockWhole230 4
+    3302646: templeBlockWhole230 5
+    3302648: templeBlockWhole230 6
+    3302650: templeBlockWhole230 7
+    3302652: templeBlockWhole230 8
+    3302654: templeBlockWhole230 9
+    3302656: templeBlockWhole231 10
+    3302658: templeBlockWhole231 11
+    3302660: templeBlockWhole231 12
+    3302662: templeBlockWhole231 13
+    3302664: templeBlockWhole231 14
+    3302666: templeBlockWhole231 3
+    3302668: templeBlockWhole231 4
+    3302670: templeBlockWhole231 5
+    3302672: templeBlockWhole231 6
+    3302674: templeBlockWhole231 7
+    3302676: templeBlockWhole231 8
+    3302678: templeBlockWhole231 9
+    3302680: templeBlockWhole232 1
+    3302682: templeBlockWhole232 2
+    3302684: templeBlockWhole233 1
+    3302686: templeBlockWhole233 2
+    3302688: templeBlockWhole234 1
+    3302690: templeBlockWhole234 2
+    3302692: templeBlockWhole239
+    3302694: templeBlockWhole240
+    3302696: templeBlockWhole241
+    3302698: templeBlockWhole241 1
+    3302700: templeBlockWhole241 2
+    3302702: templeBlockWhole241 3
+    3302704: templeBlockWhole241 4
+    3302706: templeBlockWhole242
+    3302708: templeBlockWhole243
+    3302710: templeBlockWhole244
+    3302712: templeBlockWhole244 1
+    3302714: templeBlockWhole244 2
+    3302716: templeBlockWhole246
+    3302718: templeBlockWhole246 1
+    3302720: templeBlockWhole246 2
+    3302722: templeBlockWhole247
+    3302724: templeBlockWhole247 1
+    3302726: templeBlockWhole247 2
+    3302728: templeBlockWhole249
+    3302730: templeBlockWhole250
+    3302732: templeBlockWhole251
+    3302734: templeBlockWhole252
+    3302736: templeBlockWhole253
+    3302738: templeBlockWhole254
+    3302740: templeBlockWhole255
+    3302742: templeBlockWhole255 1
+    3302744: templeBlockWhole255 2
+    3302746: templeBlockWhole256
+    3302748: templeBlockWhole256 1
+    3302750: templeBlockWhole256 2
+    3302752: templeBlockWhole257
+    3302754: templeBlockWhole257 1
+    3302756: templeBlockWhole257 2
+    3302758: templeBlockWhole258
+    3302760: templeBlockWhole258 1
+    3302762: templeBlockWhole258 2
+    3302764: templeBlockWhole259
+    3302766: templeBlockWhole259 1
+    3302768: templeBlockWhole259 2
+    3302770: templeBlockWhole259 3
+    3302772: templeBlockWhole259 4
+    3302774: templeBlockWhole260
+    3302776: templeBlockWhole260 1
+    3302778: templeBlockWhole260 10
+    3302780: templeBlockWhole260 11
+    3302782: templeBlockWhole260 12
+    3302784: templeBlockWhole260 13
+    3302786: templeBlockWhole260 14
+    3302788: templeBlockWhole260 2
+    3302790: templeBlockWhole260 3
+    3302792: templeBlockWhole260 4
+    3302794: templeBlockWhole260 5
+    3302796: templeBlockWhole260 6
+    3302798: templeBlockWhole260 7
+    3302800: templeBlockWhole260 8
+    3302802: templeBlockWhole260 9
+    3302804: templeBlockWhole261
+    3302806: templeBlockWhole261 1
+    3302808: templeBlockWhole261 10
+    3302810: templeBlockWhole261 11
+    3302812: templeBlockWhole261 12
+    3302814: templeBlockWhole261 13
+    3302816: templeBlockWhole261 14
+    3302818: templeBlockWhole261 2
+    3302820: templeBlockWhole261 3
+    3302822: templeBlockWhole261 4
+    3302824: templeBlockWhole261 5
+    3302826: templeBlockWhole261 6
+    3302828: templeBlockWhole261 7
+    3302830: templeBlockWhole261 8
+    3302832: templeBlockWhole261 9
+    3302834: templeBlockWhole262
+    3302836: templeBlockWhole262 1
+    3302838: templeBlockWhole262 10
+    3302840: templeBlockWhole262 11
+    3302842: templeBlockWhole262 12
+    3302844: templeBlockWhole262 13
+    3302846: templeBlockWhole262 14
+    3302848: templeBlockWhole262 2
+    3302850: templeBlockWhole262 3
+    3302852: templeBlockWhole262 4
+    3302854: templeBlockWhole262 5
+    3302856: templeBlockWhole262 6
+    3302858: templeBlockWhole262 7
+    3302860: templeBlockWhole262 8
+    3302862: templeBlockWhole262 9
+    3302864: templeBlockWhole263
+    3302866: templeBlockWhole263 1
+    3302868: templeBlockWhole263 10
+    3302870: templeBlockWhole263 11
+    3302872: templeBlockWhole263 12
+    3302874: templeBlockWhole263 13
+    3302876: templeBlockWhole263 14
+    3302878: templeBlockWhole263 2
+    3302880: templeBlockWhole263 3
+    3302882: templeBlockWhole263 4
+    3302884: templeBlockWhole263 5
+    3302886: templeBlockWhole263 6
+    3302888: templeBlockWhole263 7
+    3302890: templeBlockWhole263 8
+    3302892: templeBlockWhole263 9
+    3302894: templeBlockWhole264
+    3302896: templeBlockWhole264 1
+    3302898: templeBlockWhole264 10
+    3302900: templeBlockWhole264 11
+    3302902: templeBlockWhole264 12
+    3302904: templeBlockWhole264 13
+    3302906: templeBlockWhole264 14
+    3302908: templeBlockWhole264 2
+    3302910: templeBlockWhole264 3
+    3302912: templeBlockWhole264 4
+    3302914: templeBlockWhole264 5
+    3302916: templeBlockWhole264 6
+    3302918: templeBlockWhole264 7
+    3302920: templeBlockWhole264 8
+    3302922: templeBlockWhole264 9
+    3302924: templeBlockWhole265
+    3302926: templeBlockWhole265 1
+    3302928: templeBlockWhole265 10
+    3302930: templeBlockWhole265 11
+    3302932: templeBlockWhole265 12
+    3302934: templeBlockWhole265 13
+    3302936: templeBlockWhole265 14
+    3302938: templeBlockWhole265 2
+    3302940: templeBlockWhole265 3
+    3302942: templeBlockWhole265 4
+    3302944: templeBlockWhole265 5
+    3302946: templeBlockWhole265 6
+    3302948: templeBlockWhole265 7
+    3302950: templeBlockWhole265 8
+    3302952: templeBlockWhole265 9
+    3302954: templeBlockWhole266
+    3302956: templeBlockWhole266 1
+    3302958: templeBlockWhole266 10
+    3302960: templeBlockWhole266 11
+    3302962: templeBlockWhole266 12
+    3302964: templeBlockWhole266 13
+    3302966: templeBlockWhole266 14
+    3302968: templeBlockWhole266 2
+    3302970: templeBlockWhole266 3
+    3302972: templeBlockWhole266 4
+    3302974: templeBlockWhole266 5
+    3302976: templeBlockWhole266 6
+    3302978: templeBlockWhole266 7
+    3302980: templeBlockWhole266 8
+    3302982: templeBlockWhole266 9
+    3302984: templeBlockWhole267
+    3302986: templeBlockWhole267 1
+    3302988: templeBlockWhole267 2
+    3302990: templeBlockWhole267 3
+    3302992: templeBlockWhole267 4
+    3302994: templeBlockWhole268
+    3302996: templeBlockWhole268 1
+    3302998: templeBlockWhole268 2
+    3303000: templeBlockWhole268 3
+    3303002: templeBlockWhole268 4
+    3303004: templeBlockWhole269
+    3303006: templeBlockWhole269 1
+    3303008: templeBlockWhole269 2
+    3303010: templeBlockWhole269 3
+    3303012: templeBlockWhole269 4
+    3303014: templeBlockWhole270
+    3303016: templeBlockWhole270 1
+    3303018: templeBlockWhole270 2
+    3303020: templeBlockWhole270 3
+    3303022: templeBlockWhole270 4
+    3303024: templeBlockWhole271
+    3303026: templeBlockWhole271 1
+    3303028: templeBlockWhole271 2
+    3303030: templeBlockWhole271 3
+    3303032: templeBlockWhole271 4
+    3303034: templeBlockWhole272
+    3303036: templeBlockWhole273
+    3303038: templeBlockWhole274
+    3303040: templeBlockWhole275
+    3303042: templeBlockWhole276
+    3303044: templeBlockWhole277
+    3303046: templeBlockWhole278
+    3303048: templeBlockWhole279
+    3303050: templeBlockWhole280
+    3303052: templeBlockWhole281
+    3303054: templeBlockWhole282
+    3303056: templeBlockWhole283
+    3303058: templeBlockWhole284
+    3303060: templeBlockWhole285
+    3303062: templeBlockWhole286
+    3303064: templeBlockWhole287
+    3303066: templeBlockWhole288
+    3303068: templeBlockWhole289
+    3303070: templeBlockWhole290
+    3303072: templeBlockWhole291
+    3303074: templeBlockWhole292
+    3303076: templeBlockWhole293
+    3303078: templeBlockWhole294
+    3303080: templeBlockWhole295
+    3303082: templeBlockWhole296
+    3303084: templeBlockWhole297
+    3303086: templeBlockWhole298
+    3303088: templeBlockWhole299
+    3303090: templeBlockWhole300
+    3303092: templeBlockWhole301
+    3303094: templeBlockWhole302
+    3303096: templeBlockWhole303
+    3303098: templeBlockWhole304
+    3303100: templeBlockWhole305
+    3303102: templeBlockWhole306
+    3303104: templeBlockWhole307
+    3303106: templeBlockWhole308
+    3303108: templeBlockWhole310
+    3303110: templeBlockWhole311
+    3303112: templeBlockWhole312
+    3303114: templeBlockWhole313
+    3303116: templeBlockWhole314
+    3303118: templeBlockWhole315
+    3303120: templeBlockWhole316
+    3303122: templeBlockWhole317
+    3303124: templeBlockWhole318
+    3303126: templeBlockWhole319
+    3303128: templeBlockWhole320
+    3303130: templeBlockWhole321
+    3303132: templeBlockWhole322
+    3303134: templeBlockWhole323
+    3303136: templeBlockWhole324
+    3303138: templeBlockWhole325
+    3303140: templeBlockWhole326
+    3303142: templeBlockWhole327
+    3303144: templeBlockWhole328
+    3303146: templeBlockWhole329
+    3303148: templeBlockWhole330
+    3303150: templeBlockWhole331
+    3303152: templeBlockWhole332
+    3303154: templeBlockWhole333
+    3303156: templeBlockWhole334
+    3303158: templeBlockWhole336
+    3303160: templeBlockWhole337
+    3303162: templeBlockWhole338
+    3303164: templeBlockWhole339
+    3303166: templeBlockWhole340
+    3303168: templeBlockWhole341
+    3303170: templeBlockWhole342
+    3303172: templeBlockWhole343
+    3303174: templeBlockWhole344
+    3303176: templeBlockWhole345
+    3303178: templeBlockWhole346
+    3303180: templeBlockWhole347
+    3303182: templeBlockWhole348
+    3303184: templeBlockWhole349
+    3303186: templeBlockWhole350
+    3303188: templeBlockWhole351
+    3303190: templeBlockWhole352
+    3303192: templeBlockWhole353
+    3303194: templeBlockWhole354
+    3303196: templeBlockWhole355
+    3303198: templeBlockWhole356
+    3303200: templeBlockWhole357
+    3303202: templeBlockWhole358
+    3303204: templeBlockWhole359
+    3303206: templeBlockWhole360
+    3303208: templeBlockWhole361
+    3303210: templeBlockWhole362
+    3303212: templeBlockWhole363
+    3303214: templeBlockWhole364
+    3303216: templeBlockWhole365
+    3303218: templeBlockWhole366
+    3303220: templeBlockWhole367
+    3303222: templeBlockWhole368
+    3303224: templeBlockWhole369
+    3303226: templeBlockWhole370
+    3303228: templeBlockWhole371
+    3303230: templeBlockWhole372
+    3303232: templeBlockWhole373
+    3303234: templeBlockWhole374
+    3303236: templeBlockWhole375
+    3303238: templeBlockWhole376
+    3303240: templeBlockWhole377
+    3303242: templeBlockWhole378
+    3303244: templeBlockWhole379
+    3303246: templeBlockWhole381
+    3303248: templeBlockWhole382
+    3303250: templeBlockWhole383
+    3303252: templeBlockWhole384
+    3303254: templeBlockWhole385
+    3303256: templeBlockWhole386
+    3303258: templeBlockWhole43 18
+    3303260: templeBlockWhole43 19
+    3303262: templeBlockWhole43 20
+    3303264: templeBlockWhole43 21
+    3303266: templeBlockWhole43 22
+    3303268: templeBlockWhole43 23
+    3303270: templeBlockWhole44 24
+    3303272: templeBlockWhole44 25
+    3303274: templeBlockWhole45 18
+    3303276: templeBlockWhole45 19
+    3303278: templeBlockWhole45 20
+    3303280: templeBlockWhole45 21
+    3303282: templeBlockWhole45 22
+    3303284: templeBlockWhole45 23
+    3303286: templeBlockWhole45 24
+    3303288: templeBlockWhole45 25
+    3303290: templeBlockWhole47 26
+    3303292: templeBlockWhole47 27
+    3303294: templeBlockWhole47 28
+    3303296: templeBlockWhole47 29
+    3303298: templeBlockWhole47 30
+    3303300: templeBlockWhole47 31
+    3303302: templeBlockWhole47 32
+    3303304: templeBlockWhole47 33
+    3303306: templeBlockWhole48 20
+    3303308: templeBlockWhole48 21
+    3303310: templeBlockWhole48 22
+    3303312: templeBlockWhole48 23
+    3303314: templeBlockWhole48 24
+    3303316: templeBlockWhole48 25
+    3303318: templeBlockWhole48 26
+    3303320: templeBlockWhole48 27
+    3303322: templeBlockWhole48 28
+    3303324: templeBlockWhole49 22
+    3303326: templeBlockWhole49 23
+    3303328: templeBlockWhole49 24
+    3303330: templeBlockWhole49 25
+    3303332: templeBlockWhole49 26
+    3303334: templeBlockWhole49 27
+    3303336: templeBlockWhole49 28
+    3303338: templeBlockWhole50 22
+    3303340: templeBlockWhole50 23
+    3303342: templeBlockWhole50 24
+    3303344: templeBlockWhole50 25
+    3303346: templeBlockWhole50 26
+    3303348: templeBlockWhole50 27
+    3303350: templeBlockWhole50 28
+    3303352: templeBlockWhole51 28
+    3303354: templeBlockWhole51 29
+    3303356: templeBlockWhole51 30
+    3303358: templeBlockWhole51 31
+    3303360: templeBlockWhole51 32
+    3303362: templeBlockWhole51 33
+    3303364: templeBlockWhole51 34
+    3303366: templeBlockWhole51 35
+    3303368: templeBlockWhole51 36
+    3303370: templeBlockWhole51 37
+    3303372: templeBlockWhole51 38
+    3303374: templeBlockWhole51 39
+    3303376: templeBlockWhole51 40
+    3303378: templeBlockWhole51 41
+    3303380: templeBlockWhole52 25
+    3303382: templeBlockWhole52 26
+    3303384: templeBlockWhole52 27
+    3303386: templeBlockWhole52 28
+    3303388: templeBlockWhole52 29
+    3303390: templeBlockWhole52 30
+    3303392: templeBlockWhole52 31
+    3303394: templeBlockWhole52 32
+    3303396: templeBlockWhole52 33
+    3303398: templeBlockWhole52 34
+    3303400: templeBlockWhole52 35
+    3303402: templeBlockWhole52 36
+    3303404: templeBlockWhole52 37
+    3303406: templeBlockWhole52 38
+    3303408: templeBlockWhole52 39
+    3303410: templeBlockWhole52 40
+    3303412: templeBlockWhole52 41
+    3303414: templeBlockWhole52 42
+    3303416: templeBlockWhole52 43
+    3303418: templeBlockWhole53 26
+    3303420: templeBlockWhole53 27
+    3303422: templeBlockWhole53 28
+    3303424: templeBlockWhole53 29
+    3303426: templeBlockWhole53 30
+    3303428: templeBlockWhole53 31
+    3303430: templeBlockWhole53 32
+    3303432: templeBlockWhole53 33
+    3303434: templeBlockWhole53 34
+    3303436: templeBlockWhole53 35
+    3303438: templeBlockWhole53 36
+    3303440: templeBlockWhole53 37
+    3303442: templeBlockWhole53 38
+    3303444: templeBlockWhole53 39
+    3303446: templeBlockWhole53 40
+    3303448: templeBlockWhole53 41
+    3303450: templeBlockWhole53 42
+    3303452: templeBlockWhole53 43
+    3303454: templeBlockWhole53 44
+    3303456: templeBlockWhole54 18
+    3303458: templeBlockWhole54 19
+    3303460: templeBlockWhole54 20
+    3303462: templeBlockWhole54 21
+    3303464: templeBlockWhole54 22
+    3303466: templeBlockWhole54 23
+    3303468: templeBlockWhole54 24
+    3303470: templeBlockWhole54 25
+    3303472: templeBlockWhole56 16
+    3303474: templeBlockWhole56 17
+    3303476: templeBlockWhole56 18
+    3303478: templeBlockWhole56 19
+    3303480: templeBlockWhole56 20
+    3303482: templeBlockWhole56 21
+    3303484: templeBlockWhole56 22
+    3303486: templeBlockWhole56 23
+    3303488: templeBlockWhole57 22
+    3303490: templeBlockWhole57 23
+    3303492: templeBlockWhole57 24
+    3303494: templeBlockWhole57 25
+    3303496: templeBlockWhole57 26
+    3303498: templeBlockWhole57 27
+    3303500: templeBlockWhole57 28
+    3303502: templeBlockWhole57 29
+    3303504: templeBlockWhole57 30
+    3303506: templeBlockWhole57 31
+    3303508: templeBlockWhole57 32
+    3303510: templeBlockWhole57 33
+    3303512: templeBlockWhole57 34
+    3303514: templeBlockWhole57 35
+    3303516: templeBlockWhole57 36
+    3303518: templeBlockWhole57 37
+    3303520: templeBlockWhole57 38
+    3303522: templeBlockWhole57 39
+    3303524: templeBlockWhole57 40
+    3303526: templeBlockWhole57 41
+    3303528: templeBlockWhole57 42
+    3303530: templeBlockWhole57 43
+    3303532: templeBlockWhole57 44
+    3303534: templeBlockWhole58 22
+    3303536: templeBlockWhole58 23
+    3303538: templeBlockWhole58 24
+    3303540: templeBlockWhole58 25
+    3303542: templeBlockWhole58 26
+    3303544: templeBlockWhole58 27
+    3303546: templeBlockWhole58 28
+    3303548: templeBlockWhole58 29
+    3303550: templeBlockWhole59 19
+    3303552: templeBlockWhole59 20
+    3303554: templeBlockWhole59 21
+    3303556: templeBlockWhole59 22
+    3303558: templeBlockWhole59 23
+    3303560: templeBlockWhole59 24
+    3303562: templeBlockWhole59 25
+    3303564: templeBlockWhole59 26
+    3303566: templeBlockWhole59 27
+    3303568: templeBlockWhole59 28
+    3303570: templeBlockWhole59 29
+    3303572: templeBlockWhole60 12
+    3303574: templeBlockWhole60 13
+    3303576: templeBlockWhole60 14
+    3303578: templeBlockWhole60 15
+    3303580: templeBlockWhole60 16
+    3303582: templeBlockWhole60 17
+    3303584: templeBlockWhole60 18
+    3303586: templeBlockWhole60 19
+    3303588: templeBlockWhole61 16
+    3303590: templeBlockWhole61 17
+    3303592: templeBlockWhole61 18
+    3303594: templeBlockWhole61 19
+    3303596: templeBlockWhole61 20
+    3303598: templeBlockWhole61 21
+    3303600: templeBlockWhole61 22
+    3303602: templeBlockWhole61 23
+    3303604: templeBlockWhole61 24
+    3303606: templeBlockWhole61 25
+    3303608: templeBlockWhole61 26
+    3303610: templeBlockWhole61 27
+    3303612: templeBlockWhole61 28
+    3303614: templeBlockWhole61 29
+    3303616: templeBlockWhole62 16
+    3303618: templeBlockWhole62 17
+    3303620: templeBlockWhole62 18
+    3303622: templeBlockWhole62 19
+    3303624: templeBlockWhole62 20
+    3303626: templeBlockWhole62 21
+    3303628: templeBlockWhole62 22
+    3303630: templeBlockWhole62 23
+    3303632: templeBlockWhole62 24
+    3303634: templeBlockWhole62 25
+    3303636: templeBlockWhole62 26
+    3303638: templeBlockWhole62 27
+    3303640: templeBlockWhole62 28
+    3303642: templeBlockWhole62 29
+    3303644: templeBlockWhole62 30
+    3303646: templeBlockWhole63 18
+    3303648: templeBlockWhole63 19
+    3303650: templeBlockWhole63 20
+    3303652: templeBlockWhole63 21
+    3303654: templeBlockWhole63 22
+    3303656: templeBlockWhole63 23
+    3303658: templeBlockWhole63 24
+    3303660: templeBlockWhole63 25
+    3303662: templeBlockWhole63 26
+    3303664: templeBlockWhole63 27
+    3303666: templeBlockWhole63 28
+    3303668: templeBlockWhole63 29
+    3303670: templeBlockWhole63 30
+    3303672: templeBlockWhole63 31
+    3303674: templeBlockWhole63 32
+    3303676: templeBlockWhole63 33
+    3303678: templeBlockWhole63 34
+    3303680: templeBlockWhole63 35
+    3303682: templeBlockWhole63 36
+    3303684: templeBlockWhole63 37
+    3303686: templeBlockWhole63 38
+    3303688: templeBlockWhole63 39
+    3303690: templeBlockWhole63 40
+    3303692: templeBlockWhole64 18
+    3303694: templeBlockWhole64 19
+    3303696: templeBlockWhole64 20
+    3303698: templeBlockWhole64 21
+    3303700: templeBlockWhole64 22
+    3303702: templeBlockWhole64 23
+    3303704: templeBlockWhole64 24
+    3303706: templeBlockWhole64 25
+    3303708: templeBlockWhole64 26
+    3303710: templeBlockWhole64 27
+    3303712: templeBlockWhole64 28
+    3303714: templeBlockWhole64 29
+    3303716: templeBlockWhole64 30
+    3303718: templeBlockWhole64 31
+    3303720: templeBlockWhole64 32
+    3303722: templeBlockWhole64 33
+    3303724: templeBlockWhole64 34
+    3303726: templeBlockWhole64 35
+    3303728: templeBlockWhole64 36
+    3303730: templeBlockWhole64 37
+    3303732: templeBlockWhole64 38
+    3303734: templeBlockWhole64 39
+    3303736: templeBlockWhole65 17
+    3303738: templeBlockWhole65 18
+    3303740: templeBlockWhole65 19
+    3303742: templeBlockWhole65 20
+    3303744: templeBlockWhole65 21
+    3303746: templeBlockWhole65 22
+    3303748: templeBlockWhole66 19
+    3303750: templeBlockWhole66 20
+    3303752: templeBlockWhole66 21
+    3303754: templeBlockWhole66 22
+    3303756: templeBlockWhole66 23
+    3303758: templeBlockWhole66 24
+    3303760: templeBlockWhole66 25
+    3303762: templeBlockWhole66 26
+    3303764: templeBlockWhole66 27
+    3303766: templeBlockWhole66 28
+    3303768: templeBlockWhole66 29
+    3303770: templeBlockWhole67 17
+    3303772: templeBlockWhole67 18
+    3303774: templeBlockWhole67 19
+    3303776: templeBlockWhole67 20
+    3303778: templeBlockWhole67 21
+    3303780: templeBlockWhole67 22
+    3303782: templeBlockWhole68 20
+    3303784: templeBlockWhole68 21
+    3303786: templeBlockWhole68 22
+    3303788: templeBlockWhole68 23
+    3303790: templeBlockWhole68 24
+    3303792: templeBlockWhole68 25
+    3303794: templeBlockWhole68 26
+    3303796: templeBlockWhole68 27
+    3303798: templeBlockWhole68 28
+    3303800: templeBlockWhole68 29
+    3303802: templeBlockWhole68 30
+    3303804: templeBlockWhole69 18
+    3303806: templeBlockWhole69 19
+    3303808: templeBlockWhole69 20
+    3303810: templeBlockWhole69 21
+    3303812: templeBlockWhole69 22
+    3303814: templeBlockWhole69 23
+    3303816: templeBlockWhole69 24
+    3303818: templeBlockWhole70 19
+    3303820: templeBlockWhole70 20
+    3303822: templeBlockWhole70 21
+    3303824: templeBlockWhole70 22
+    3303826: templeBlockWhole70 23
+    3303828: templeBlockWhole70 24
+    3303830: templeBlockWhole70 25
+    3303832: templeBlockWhole70 26
+    3303834: templeBlockWhole70 27
+    3303836: templeBlockWhole70 28
+    3303838: templeBlockWhole70 29
+    3303840: templeBlockWhole70 30
+    3303842: templeBlockWhole72 16
+    3303844: templeBlockWhole72 17
+    3303846: templeBlockWhole72 18
+    3303848: templeBlockWhole72 19
+    3303850: templeBlockWhole72 20
+    3303852: templeBlockWhole72 21
+    3303854: templeBlockWhole72 22
+    3303856: templeBlockWhole72 23
+    3303858: templeBlockWhole74 18
+    3303860: templeBlockWhole74 19
+    3303862: templeBlockWhole74 20
+    3303864: templeBlockWhole74 21
+    3303866: templeBlockWhole74 22
+    3303868: templeBlockWhole74 23
+    3303870: templeBlockWhole74 24
+    3303872: templeBlockWhole75 22
+    3303874: templeBlockWhole75 23
+    3303876: templeBlockWhole75 24
+    3303878: templeBlockWhole75 25
+    3303880: templeBlockWhole75 26
+    3303882: templeBlockWhole75 27
+    3303884: templeBlockWhole75 28
+    3303886: templeBlockWhole75 29
+    3303888: templeBlockWhole75 30
+    3303890: templeBlockWhole75 31
+    3303892: templeBlockWhole75 32
+    3303894: templeBlockWhole75 33
+    3303896: templeBlockWhole75 34
+    3303898: templeBlockWhole75 35
+    3303900: templeBlockWhole75 36
+    3303902: templeBlockWhole75 37
+    3303904: templeBlockWhole75 38
+    3303906: templeBlockWhole75 39
+    3303908: templeBlockWhole75 40
+    3303910: templeBlockWhole75 41
+    3303912: templeBlockWhole75 42
+    3303914: templeBlockWhole75 43
+    3303916: templeBlockWhole75 44
+    3303918: templeBlockWhole75 45
+    3303920: templeBlockWhole76 23
+    3303922: templeBlockWhole76 24
+    3303924: templeBlockWhole76 25
+    3303926: templeBlockWhole76 26
+    3303928: templeBlockWhole76 27
+    3303930: templeBlockWhole76 28
+    3303932: templeBlockWhole76 29
+    3303934: templeBlockWhole76 30
+    3303936: templeBlockWhole76 31
+    3303938: templeBlockWhole76 32
+    3303940: templeBlockWhole76 33
+    3303942: templeBlockWhole76 34
+    3303944: templeBlockWhole76 35
+    3303946: templeBlockWhole76 36
+    3303948: templeBlockWhole76 37
+    3303950: templeBlockWhole76 38
+    3303952: templeBlockWhole76 39
+    3303954: templeBlockWhole76 40
+    3303956: templeBlockWhole76 41
+    3303958: templeBlockWhole76 42
+    3303960: templeBlockWhole76 43
+    3303962: templeBlockWhole76 44
+    3303964: templeBlockWhole76 45
+    3303966: templeBlockWhole77 16
+    3303968: templeBlockWhole77 17
+    3303970: templeBlockWhole77 18
+    3303972: templeBlockWhole77 19
+    3303974: templeBlockWhole77 20
+    3303976: templeBlockWhole77 21
+    3303978: templeBlockWhole77 22
+    3303980: templeBlockWhole77 23
+    3303982: templeBlockWhole78 26
+    3303984: templeBlockWhole78 27
+    3303986: templeBlockWhole78 28
+    3303988: templeBlockWhole78 29
+    3303990: templeBlockWhole78 30
+    3303992: templeBlockWhole78 31
+    3303994: templeBlockWhole78 32
+    3303996: templeBlockWhole78 33
+    3303998: templeBlockWhole78 34
+    3304000: templeBlockWhole78 35
+    3304002: templeBlockWhole78 36
+    3304004: templeBlockWhole78 37
+    3304006: templeBlockWhole78 38
+    3304008: templeBlockWhole78 39
+    3304010: templeBlockWhole78 40
+    3304012: templeBlockWhole78 41
+    3304014: templeBlockWhole78 42
+    3304016: templeBlockWhole78 43
+    3304018: templeBlockWhole78 44
+    3304020: templeBlockWhole78 45
+    3304022: templeBlockWhole79 26
+    3304024: templeBlockWhole79 27
+    3304026: templeBlockWhole79 28
+    3304028: templeBlockWhole79 29
+    3304030: templeBlockWhole79 30
+    3304032: templeBlockWhole79 31
+    3304034: templeBlockWhole79 32
+    3304036: templeBlockWhole79 33
+    3304038: templeBlockWhole79 34
+    3304040: templeBlockWhole79 35
+    3304042: templeBlockWhole79 36
+    3304044: templeBlockWhole79 37
+    3304046: templeBlockWhole79 38
+    3304048: templeBlockWhole79 39
+    3304050: templeBlockWhole79 40
+    3304052: templeBlockWhole79 41
+    3304054: templeBlockWhole79 42
+    3304056: templeBlockWhole79 43
+    3304058: templeBlockWhole80 27
+    3304060: templeBlockWhole80 28
+    3304062: templeBlockWhole80 29
+    3304064: templeBlockWhole80 30
+    3304066: templeBlockWhole80 31
+    3304068: templeBlockWhole80 32
+    3304070: templeBlockWhole80 33
+    3304072: templeBlockWhole80 34
+    3304074: templeBlockWhole80 35
+    3304076: templeBlockWhole80 36
+    3304078: templeBlockWhole80 37
+    3304080: templeBlockWhole80 38
+    3304082: templeBlockWhole80 39
+    3304084: templeBlockWhole80 40
+    3304086: templeBlockWhole80 41
+    3304088: templeBlockWhole80 42
+    3304090: templeBlockWhole80 43
+    3304092: templeBlockWhole80 44
+    3304094: templeBlockWhole80 45
+    3304096: templeBlockWhole81 23
+    3304098: templeBlockWhole81 24
+    3304100: templeBlockWhole81 25
+    3304102: templeBlockWhole81 26
+    3304104: templeBlockWhole81 27
+    3304106: templeBlockWhole81 28
+    3304108: templeBlockWhole81 29
+    3304110: templeBlockWhole81 30
+    3304112: templeBlockWhole81 31
+    3304114: templeBlockWhole81 32
+    3304116: templeBlockWhole81 33
+    3304118: templeBlockWhole81 34
+    3304120: templeBlockWhole81 35
+    3304122: templeBlockWhole81 36
+    3304124: templeBlockWhole81 37
+    3304126: templeBlockWhole81 38
+    3304128: templeBlockWhole81 39
+    3304130: templeBlockWhole81 40
+    3304132: templeBlockWhole82 26
+    3304134: templeBlockWhole82 27
+    3304136: templeBlockWhole82 28
+    3304138: templeBlockWhole82 29
+    3304140: templeBlockWhole82 30
+    3304142: templeBlockWhole82 31
+    3304144: templeBlockWhole82 32
+    3304146: templeBlockWhole82 33
+    3304148: templeBlockWhole82 34
+    3304150: templeBlockWhole82 35
+    3304152: templeBlockWhole82 36
+    3304154: templeBlockWhole82 37
+    3304156: templeBlockWhole82 38
+    3304158: templeBlockWhole83 27
+    3304160: templeBlockWhole83 28
+    3304162: templeBlockWhole83 29
+    3304164: templeBlockWhole83 30
+    3304166: templeBlockWhole83 31
+    3304168: templeBlockWhole83 32
+    3304170: templeBlockWhole83 33
+    3304172: templeBlockWhole83 34
+    3304174: templeBlockWhole83 35
+    3304176: templeBlockWhole83 36
+    3304178: templeBlockWhole83 37
+    3304180: templeBlockWhole83 38
+    3304182: templeBlockWhole83 39
+    3304184: templeBlockWhole83 40
+    3304186: templeBlockWhole83 41
+    3304188: templeBlockWhole83 42
+    3304190: templeBlockWhole83 43
+    3304192: templeBlockWhole83 44
+    3304194: templeBlockWhole83 45
+    3304196: templeBlockWhole84 25
+    3304198: templeBlockWhole84 26
+    3304200: templeBlockWhole84 27
+    3304202: templeBlockWhole84 28
+    3304204: templeBlockWhole84 29
+    3304206: templeBlockWhole84 30
+    3304208: templeBlockWhole84 31
+    3304210: templeBlockWhole84 32
+    3304212: templeBlockWhole84 33
+    3304214: templeBlockWhole84 34
+    3304216: templeBlockWhole84 35
+    3304218: templeBlockWhole84 36
+    3304220: templeBlockWhole84 37
+    3304222: templeBlockWhole84 38
+    3304224: templeBlockWhole84 39
+    3304226: templeBlockWhole84 40
+    3304228: templeBlockWhole85 24
+    3304230: templeBlockWhole85 25
+    3304232: templeBlockWhole85 26
+    3304234: templeBlockWhole85 27
+    3304236: templeBlockWhole85 28
+    3304238: templeBlockWhole85 29
+    3304240: templeBlockWhole85 30
+    3304242: templeBlockWhole85 31
+    3304244: templeBlockWhole85 32
+    3304246: templeBlockWhole85 33
+    3304248: templeBlockWhole85 34
+    3304250: templeBlockWhole85 35
+    3304252: templeBlockWhole86 18
+    3304254: templeBlockWhole86 19
+    3304256: templeBlockWhole86 20
+    3304258: templeBlockWhole86 21
+    3304260: templeBlockWhole86 22
+    3304262: templeBlockWhole86 23
+    3304264: templeBlockWhole89 10
+    3304266: templeBlockWhole89 11
+    3304268: templeBlockWhole89 12
+    3304270: templeBlockWhole89 13
+    3304272: templeBlockWhole89 6
+    3304274: templeBlockWhole89 7
+    3304276: templeBlockWhole89 8
+    3304278: templeBlockWhole89 9
+    3304280: templeBlockWhole90 10
+    3304282: templeBlockWhole90 11
+    3304284: templeBlockWhole90 12
+    3304286: templeBlockWhole90 13
+    3304288: templeBlockWhole90 14
+    3304290: templeBlockWhole90 15
+    3304292: templeBlockWhole90 8
+    3304294: templeBlockWhole90 9
+    3304296: templeBlockWhole91 10
+    3304298: templeBlockWhole91 11
+    3304300: templeBlockWhole91 12
+    3304302: templeBlockWhole91 13
+    3304304: templeBlockWhole91 14
+    3304306: templeBlockWhole91 8
+    3304308: templeBlockWhole91 9
+    3304310: templeBlockWhole92 10
+    3304312: templeBlockWhole92 11
+    3304314: templeBlockWhole92 12
+    3304316: templeBlockWhole92 13
+    3304318: templeBlockWhole92 6
+    3304320: templeBlockWhole92 7
+    3304322: templeBlockWhole92 8
+    3304324: templeBlockWhole92 9
+    3304326: templeBlockWhole93 10
+    3304328: templeBlockWhole93 11
+    3304330: templeBlockWhole93 12
+    3304332: templeBlockWhole93 13
+    3304334: templeBlockWhole93 6
+    3304336: templeBlockWhole93 7
+    3304338: templeBlockWhole93 8
+    3304340: templeBlockWhole93 9
     4300000: templeCliff:polySurface1
     4300002: templeCliff1
     4300004: templeExterior:polySurface1
@@ -6177,6 +10165,959 @@ ModelImporter:
     4302430: templeBlockWhole91
     4302432: templeBlockWhole129
     4302434: templeBlockWhole130
+    4302436: templeBlockWhole239
+    4302438: templeBlockWhole240
+    4302440: templeBlockWhole242
+    4302442: templeBlockWhole243
+    4302444: templeBlockWhole267
+    4302446: templeBlockWhole268
+    4302448: templeBlockWhole269
+    4302450: templeBlockWhole270
+    4302452: templeBlockWhole271
+    4302454: templeBlockWhole262
+    4302456: templeBlockWhole260
+    4302458: templeBlockWhole265
+    4302460: templeBlockWhole261
+    4302462: templeBlockWhole263
+    4302464: templeBlockWhole264
+    4302466: templeBlockWhole266
+    4302468: templeBlockWhole262
+    4302470: templeBlockWhole260
+    4302472: templeBlockWhole265
+    4302474: templeBlockWhole261
+    4302476: templeBlockWhole263
+    4302478: templeBlockWhole264
+    4302480: templeBlockWhole266
+    4302482: templeBlockWhole262
+    4302484: templeBlockWhole260
+    4302486: templeBlockWhole265
+    4302488: templeBlockWhole261
+    4302490: templeBlockWhole263
+    4302492: templeBlockWhole264
+    4302494: templeBlockWhole266
+    4302496: templeBlockWhole259
+    4302498: templeBlockWhole241
+    4302500: templeBlockWhole273
+    4302502: templeBlockWhole274
+    4302504: templeBlockWhole276
+    4302506: templeBlockWhole277
+    4302508: templeBlockWhole278
+    4302510: templeBlockWhole279
+    4302512: templeBlockWhole280
+    4302514: templeBlockWhole281
+    4302516: templeBlockWhole282
+    4302518: templeBlockWhole283
+    4302520: templeBlockWhole284
+    4302522: templeBlockWhole285
+    4302524: templeBlockWhole286
+    4302526: templeBlockWhole298
+    4302528: templeBlockWhole299
+    4302530: templeBlockWhole304
+    4302532: templeBlockWhole305
+    4302534: templeBlockWhole306
+    4302536: templeBlockWhole307
+    4302538: templeBlockWhole308
+    4302540: templeBlockWhole311
+    4302542: templeBlockWhole312
+    4302544: templeBlockWhole317
+    4302546: templeBlockWhole318
+    4302548: templeBlockWhole319
+    4302550: templeBlockWhole320
+    4302552: templeBlockWhole321
+    4302554: templeBlockWhole322
+    4302556: templeBlockWhole324
+    4302558: templeBlockWhole325
+    4302560: templeBlockWhole330
+    4302562: templeBlockWhole331
+    4302564: templeBlockWhole332
+    4302566: templeBlockWhole333
+    4302568: templeBlockWhole334
+    4302570: templeBlockWhole337
+    4302572: templeBlockWhole338
+    4302574: templeBlockWhole339
+    4302576: templeBlockWhole340
+    4302578: templeBlockWhole341
+    4302580: templeBlockWhole342
+    4302582: templeBlockWhole343
+    4302584: templeBlockWhole344
+    4302586: templeBlockWhole345
+    4302588: templeBlockWhole350
+    4302590: templeBlockWhole351
+    4302592: templeBlockWhole353
+    4302594: templeBlockWhole354
+    4302596: templeBlockWhole355
+    4302598: templeBlockWhole356
+    4302600: templeBlockWhole357
+    4302602: templeBlockWhole358
+    4302604: templeBlockWhole359
+    4302606: templeBlockWhole364
+    4302608: templeBlockWhole365
+    4302610: templeBlockWhole367
+    4302612: templeBlockWhole368
+    4302614: templeBlockWhole369
+    4302616: templeBlockWhole370
+    4302618: templeBlockWhole371
+    4302620: templeBlockWhole372
+    4302622: templeBlockWhole373
+    4302624: templeBlockWhole378
+    4302626: templeBlockWhole379
+    4302628: templeBlockWhole381
+    4302630: templeBlockWhole382
+    4302632: templeBlockWhole300
+    4302634: templeBlockWhole301
+    4302636: templeBlockWhole302
+    4302638: templeBlockWhole303
+    4302640: templeBlockWhole313
+    4302642: templeBlockWhole314
+    4302644: templeBlockWhole315
+    4302646: templeBlockWhole316
+    4302648: templeBlockWhole326
+    4302650: templeBlockWhole327
+    4302652: templeBlockWhole328
+    4302654: templeBlockWhole329
+    4302656: templeBlockWhole346
+    4302658: templeBlockWhole347
+    4302660: templeBlockWhole348
+    4302662: templeBlockWhole349
+    4302664: templeBlockWhole360
+    4302666: templeBlockWhole361
+    4302668: templeBlockWhole362
+    4302670: templeBlockWhole363
+    4302672: templeBlockWhole374
+    4302674: templeBlockWhole375
+    4302676: templeBlockWhole376
+    4302678: templeBlockWhole377
+    4302680: templeBlockWhole272
+    4302682: templeBlockWhole287
+    4302684: templeBlockWhole288
+    4302686: templeBlockWhole289
+    4302688: templeBlockWhole290
+    4302690: templeBlockWhole291
+    4302692: templeBlockWhole292
+    4302694: templeBlockWhole293
+    4302696: templeBlockWhole294
+    4302698: templeBlockWhole295
+    4302700: templeBlockWhole296
+    4302702: templeBlockWhole297
+    4302704: templeBlockWhole310
+    4302706: templeBlockWhole323
+    4302708: templeBlockWhole336
+    4302710: templeBlockWhole352
+    4302712: templeBlockWhole366
+    4302714: templeBlockWhole48
+    4302716: templeBlockWhole251
+    4302718: templeBlockWhole252
+    4302720: templeBlockWhole253
+    4302722: templeBlockWhole254
+    4302724: templeBlockWhole256
+    4302726: templeBlockWhole257
+    4302728: templeBlockWhole246
+    4302730: templeBlockWhole249
+    4302732: templeBlockWhole250
+    4302734: templeBlockWhole247
+    4302736: templeBlockWhole244
+    4302738: templeBlockWhole258
+    4302740: templeBlockWhole255
+    4302742: templeBlockWhole275
+    4302744: templeBlockWhole233
+    4302746: templeBlockWhole232
+    4302748: templeBlockWhole234
+    4302750: templeBlockWhole256
+    4302752: templeBlockWhole257
+    4302754: templeBlockWhole81
+    4302756: templeBlockWhole246
+    4302758: templeBlockWhole247
+    4302760: templeBlockWhole244
+    4302762: templeBlockWhole258
+    4302764: templeBlockWhole255
+    4302766: templeBlockWhole233
+    4302768: templeBlockWhole232
+    4302770: templeBlockWhole234
+    4302772: templeBlockWhole256
+    4302774: templeBlockWhole257
+    4302776: templeBlockWhole81
+    4302778: templeBlockWhole246
+    4302780: templeBlockWhole247
+    4302782: templeBlockWhole244
+    4302784: templeBlockWhole258
+    4302786: templeBlockWhole255
+    4302788: templeBlockWhole54
+    4302790: templeBlockWhole45
+    4302792: templeBlockWhole85
+    4302794: templeBlockWhole84
+    4302796: templeBlockWhole56
+    4302798: templeBlockWhole78
+    4302800: templeBlockWhole77
+    4302802: templeBlockWhole75
+    4302804: templeBlockWhole72
+    4302806: templeBlockWhole70
+    4302808: templeBlockWhole60
+    4302810: templeBlockWhole89
+    4302812: templeBlockWhole90
+    4302814: templeBlockWhole92
+    4302816: templeBlockWhole93
+    4302818: templeBlockWhole125
+    4302820: templeBlockWhole267
+    4302822: templeBlockWhole268
+    4302824: templeBlockWhole269
+    4302826: templeBlockWhole270
+    4302828: templeBlockWhole53
+    4302830: templeBlockWhole84
+    4302832: templeBlockWhole83
+    4302834: templeBlockWhole81
+    4302836: templeBlockWhole80
+    4302838: templeBlockWhole78
+    4302840: templeBlockWhole75
+    4302842: templeBlockWhole70
+    4302844: templeBlockWhole63
+    4302846: templeBlockWhole62
+    4302848: templeBlockWhole59
+    4302850: templeBlockWhole48
+    4302852: templeBlockWhole85
+    4302854: templeBlockWhole84
+    4302856: templeBlockWhole81
+    4302858: templeBlockWhole80
+    4302860: templeBlockWhole79
+    4302862: templeBlockWhole78
+    4302864: templeBlockWhole62
+    4302866: templeBlockWhole53
+    4302868: templeBlockWhole83
+    4302870: templeBlockWhole51
+    4302872: templeBlockWhole48
+    4302874: templeBlockWhole85
+    4302876: templeBlockWhole57
+    4302878: templeBlockWhole81
+    4302880: templeBlockWhole80
+    4302882: templeBlockWhole79
+    4302884: templeBlockWhole78
+    4302886: templeBlockWhole76
+    4302888: templeBlockWhole68
+    4302890: templeBlockWhole66
+    4302892: templeBlockWhole61
+    4302894: templeBlockWhole53
+    4302896: templeBlockWhole83
+    4302898: templeBlockWhole271
+    4302900: templeBlockWhole51
+    4302902: templeBlockWhole52
+    4302904: templeBlockWhole54
+    4302906: templeBlockWhole53
+    4302908: templeBlockWhole50
+    4302910: templeBlockWhole49
+    4302912: templeBlockWhole45
+    4302914: templeBlockWhole84
+    4302916: templeBlockWhole83
+    4302918: templeBlockWhole56
+    4302920: templeBlockWhole57
+    4302922: templeBlockWhole82
+    4302924: templeBlockWhole81
+    4302926: templeBlockWhole80
+    4302928: templeBlockWhole79
+    4302930: templeBlockWhole78
+    4302932: templeBlockWhole77
+    4302934: templeBlockWhole76
+    4302936: templeBlockWhole75
+    4302938: templeBlockWhole74
+    4302940: templeBlockWhole72
+    4302942: templeBlockWhole70
+    4302944: templeBlockWhole69
+    4302946: templeBlockWhole68
+    4302948: templeBlockWhole66
+    4302950: templeBlockWhole64
+    4302952: templeBlockWhole63
+    4302954: templeBlockWhole62
+    4302956: templeBlockWhole61
+    4302958: templeBlockWhole60
+    4302960: templeBlockWhole59
+    4302962: templeBlockWhole89
+    4302964: templeBlockWhole90
+    4302966: templeBlockWhole91
+    4302968: templeBlockWhole92
+    4302970: templeBlockWhole93
+    4302972: templeBlockWhole125
+    4302974: templeBlockWhole231
+    4302976: templeBlockWhole262
+    4302978: templeBlockWhole230
+    4302980: templeBlockWhole260
+    4302982: templeBlockWhole76
+    4302984: templeBlockWhole64
+    4302986: templeBlockWhole52
+    4302988: templeBlockWhole63
+    4302990: templeBlockWhole75
+    4302992: templeBlockWhole229
+    4302994: templeBlockWhole265
+    4302996: templeBlockWhole57
+    4302998: templeBlockWhole261
+    4303000: templeBlockWhole263
+    4303002: templeBlockWhole264
+    4303004: templeBlockWhole266
+    4303006: templeBlockWhole231
+    4303008: templeBlockWhole262
+    4303010: templeBlockWhole230
+    4303012: templeBlockWhole260
+    4303014: templeBlockWhole76
+    4303016: templeBlockWhole64
+    4303018: templeBlockWhole52
+    4303020: templeBlockWhole63
+    4303022: templeBlockWhole75
+    4303024: templeBlockWhole229
+    4303026: templeBlockWhole265
+    4303028: templeBlockWhole57
+    4303030: templeBlockWhole261
+    4303032: templeBlockWhole263
+    4303034: templeBlockWhole264
+    4303036: templeBlockWhole266
+    4303038: templeBlockWhole231
+    4303040: templeBlockWhole262
+    4303042: templeBlockWhole230
+    4303044: templeBlockWhole260
+    4303046: templeBlockWhole76
+    4303048: templeBlockWhole64
+    4303050: templeBlockWhole52
+    4303052: templeBlockWhole63
+    4303054: templeBlockWhole75
+    4303056: templeBlockWhole229
+    4303058: templeBlockWhole265
+    4303060: templeBlockWhole57
+    4303062: templeBlockWhole261
+    4303064: templeBlockWhole263
+    4303066: templeBlockWhole264
+    4303068: templeBlockWhole266
+    4303070: templeBlockWhole259
+    4303072: templeBlockWhole211
+    4303074: templeBlockWhole241
+    4303076: templeBlockWhole212
+    4303078: columnTop
+    4303080: columnBottom
+    4303082: column1
+    4303084: columnTop
+    4303086: columnBottom
+    4303088: column1
+    4303090: columnTop
+    4303092: columnBottom
+    4303094: column1
+    4303096: columnTop
+    4303098: columnBottom
+    4303100: column1
+    4303102: templeBlockWhole51
+    4303104: templeBlockWhole52
+    4303106: templeBlockWhole54
+    4303108: templeBlockWhole53
+    4303110: templeBlockWhole50
+    4303112: templeBlockWhole49
+    4303114: templeBlockWhole45
+    4303116: templeBlockWhole43
+    4303118: templeBlockWhole86
+    4303120: templeBlockWhole85
+    4303122: templeBlockWhole84
+    4303124: templeBlockWhole83
+    4303126: templeBlockWhole56
+    4303128: templeBlockWhole57
+    4303130: templeBlockWhole82
+    4303132: templeBlockWhole80
+    4303134: templeBlockWhole79
+    4303136: templeBlockWhole78
+    4303138: templeBlockWhole77
+    4303140: templeBlockWhole76
+    4303142: templeBlockWhole75
+    4303144: templeBlockWhole74
+    4303146: templeBlockWhole72
+    4303148: templeBlockWhole70
+    4303150: templeBlockWhole69
+    4303152: templeBlockWhole68
+    4303154: templeBlockWhole66
+    4303156: templeBlockWhole64
+    4303158: templeBlockWhole63
+    4303160: templeBlockWhole62
+    4303162: templeBlockWhole61
+    4303164: templeBlockWhole60
+    4303166: templeBlockWhole59
+    4303168: templeBlockWhole89
+    4303170: templeBlockWhole90
+    4303172: templeBlockWhole91
+    4303174: templeBlockWhole92
+    4303176: templeBlockWhole93
+    4303178: templeBlockWhole125
+    4303180: templeBlockWhole129
+    4303182: templeBlockWhole130
+    4303184: templeBlockWhole267
+    4303186: templeBlockWhole268
+    4303188: templeBlockWhole269
+    4303190: templeBlockWhole270
+    4303192: templeBlockWhole53
+    4303194: templeBlockWhole47
+    4303196: templeBlockWhole84
+    4303198: templeBlockWhole83
+    4303200: templeBlockWhole58
+    4303202: templeBlockWhole81
+    4303204: templeBlockWhole80
+    4303206: templeBlockWhole79
+    4303208: templeBlockWhole78
+    4303210: templeBlockWhole75
+    4303212: templeBlockWhole70
+    4303214: templeBlockWhole63
+    4303216: templeBlockWhole62
+    4303218: templeBlockWhole59
+    4303220: templeBlockWhole48
+    4303222: templeBlockWhole85
+    4303224: templeBlockWhole84
+    4303226: templeBlockWhole81
+    4303228: templeBlockWhole80
+    4303230: templeBlockWhole79
+    4303232: templeBlockWhole78
+    4303234: templeBlockWhole67
+    4303236: templeBlockWhole65
+    4303238: templeBlockWhole62
+    4303240: templeBlockWhole61
+    4303242: templeBlockWhole53
+    4303244: templeBlockWhole83
+    4303246: templeBlockWhole82
+    4303248: templeBlockWhole51
+    4303250: templeBlockWhole51
+    4303252: templeBlockWhole48
+    4303254: templeBlockWhole85
+    4303256: templeBlockWhole57
+    4303258: templeBlockWhole81
+    4303260: templeBlockWhole80
+    4303262: templeBlockWhole79
+    4303264: templeBlockWhole78
+    4303266: templeBlockWhole76
+    4303268: templeBlockWhole68
+    4303270: templeBlockWhole67
+    4303272: templeBlockWhole66
+    4303274: templeBlockWhole65
+    4303276: templeBlockWhole64
+    4303278: templeBlockWhole61
+    4303280: templeBlockWhole53
+    4303282: templeBlockWhole83
+    4303284: templeBlockWhole82
+    4303286: templeBlockWhole271
+    4303288: templeBlockWhole51
+    4303290: templeBlockWhole52
+    4303292: templeBlockWhole54
+    4303294: templeBlockWhole53
+    4303296: templeBlockWhole50
+    4303298: templeBlockWhole49
+    4303300: templeBlockWhole47
+    4303302: templeBlockWhole45
+    4303304: templeBlockWhole43
+    4303306: templeBlockWhole86
+    4303308: templeBlockWhole84
+    4303310: templeBlockWhole83
+    4303312: templeBlockWhole58
+    4303314: templeBlockWhole56
+    4303316: templeBlockWhole57
+    4303318: templeBlockWhole82
+    4303320: templeBlockWhole81
+    4303322: templeBlockWhole80
+    4303324: templeBlockWhole79
+    4303326: templeBlockWhole78
+    4303328: templeBlockWhole77
+    4303330: templeBlockWhole76
+    4303332: templeBlockWhole75
+    4303334: templeBlockWhole74
+    4303336: templeBlockWhole72
+    4303338: templeBlockWhole70
+    4303340: templeBlockWhole69
+    4303342: templeBlockWhole68
+    4303344: templeBlockWhole66
+    4303346: templeBlockWhole64
+    4303348: templeBlockWhole63
+    4303350: templeBlockWhole62
+    4303352: templeBlockWhole61
+    4303354: templeBlockWhole60
+    4303356: templeBlockWhole59
+    4303358: templeBlockWhole89
+    4303360: templeBlockWhole90
+    4303362: templeBlockWhole91
+    4303364: templeBlockWhole92
+    4303366: templeBlockWhole93
+    4303368: templeBlockWhole125
+    4303370: templeBlockWhole129
+    4303372: templeBlockWhole130
+    4303374: templeBlockWhole231
+    4303376: templeBlockWhole262
+    4303378: templeBlockWhole230
+    4303380: templeBlockWhole260
+    4303382: templeBlockWhole76
+    4303384: templeBlockWhole64
+    4303386: templeBlockWhole52
+    4303388: templeBlockWhole63
+    4303390: templeBlockWhole75
+    4303392: templeBlockWhole229
+    4303394: templeBlockWhole265
+    4303396: templeBlockWhole57
+    4303398: templeBlockWhole261
+    4303400: templeBlockWhole263
+    4303402: templeBlockWhole264
+    4303404: templeBlockWhole266
+    4303406: templeBlockWhole231
+    4303408: templeBlockWhole262
+    4303410: templeBlockWhole230
+    4303412: templeBlockWhole260
+    4303414: templeBlockWhole76
+    4303416: templeBlockWhole64
+    4303418: templeBlockWhole52
+    4303420: templeBlockWhole63
+    4303422: templeBlockWhole75
+    4303424: templeBlockWhole229
+    4303426: templeBlockWhole265
+    4303428: templeBlockWhole57
+    4303430: templeBlockWhole261
+    4303432: templeBlockWhole263
+    4303434: templeBlockWhole264
+    4303436: templeBlockWhole266
+    4303438: templeBlockWhole231
+    4303440: templeBlockWhole262
+    4303442: templeBlockWhole230
+    4303444: templeBlockWhole260
+    4303446: templeBlockWhole76
+    4303448: templeBlockWhole64
+    4303450: templeBlockWhole52
+    4303452: templeBlockWhole63
+    4303454: templeBlockWhole75
+    4303456: templeBlockWhole229
+    4303458: templeBlockWhole265
+    4303460: templeBlockWhole57
+    4303462: templeBlockWhole261
+    4303464: templeBlockWhole263
+    4303466: templeBlockWhole264
+    4303468: templeBlockWhole266
+    4303470: templeBlockWhole259
+    4303472: templeBlockWhole211
+    4303474: templeBlockWhole241
+    4303476: templeBlockWhole212
+    4303478: columnTop
+    4303480: columnBottom
+    4303482: column1
+    4303484: columnTop
+    4303486: columnBottom
+    4303488: column1
+    4303490: columnTop
+    4303492: columnBottom
+    4303494: column1
+    4303496: columnTop
+    4303498: columnBottom
+    4303500: column1
+    4303502: templeBlockWhole51
+    4303504: templeBlockWhole52
+    4303506: templeBlockWhole54
+    4303508: templeBlockWhole53
+    4303510: templeBlockWhole50
+    4303512: templeBlockWhole49
+    4303514: templeBlockWhole47
+    4303516: templeBlockWhole45
+    4303518: templeBlockWhole43
+    4303520: templeBlockWhole86
+    4303522: templeBlockWhole85
+    4303524: templeBlockWhole84
+    4303526: templeBlockWhole83
+    4303528: templeBlockWhole58
+    4303530: templeBlockWhole56
+    4303532: templeBlockWhole57
+    4303534: templeBlockWhole82
+    4303536: templeBlockWhole80
+    4303538: templeBlockWhole79
+    4303540: templeBlockWhole78
+    4303542: templeBlockWhole77
+    4303544: templeBlockWhole76
+    4303546: templeBlockWhole75
+    4303548: templeBlockWhole74
+    4303550: templeBlockWhole72
+    4303552: templeBlockWhole70
+    4303554: templeBlockWhole69
+    4303556: templeBlockWhole68
+    4303558: templeBlockWhole66
+    4303560: templeBlockWhole64
+    4303562: templeBlockWhole63
+    4303564: templeBlockWhole62
+    4303566: templeBlockWhole61
+    4303568: templeBlockWhole60
+    4303570: templeBlockWhole59
+    4303572: templeBlockWhole89
+    4303574: templeBlockWhole90
+    4303576: templeBlockWhole91
+    4303578: templeBlockWhole92
+    4303580: templeBlockWhole93
+    4303582: templeBlockWhole125
+    4303584: templeBlockWhole129
+    4303586: templeBlockWhole130
+    4303588: templeBlockWhole267
+    4303590: templeBlockWhole268
+    4303592: templeBlockWhole269
+    4303594: templeBlockWhole270
+    4303596: templeBlockWhole53
+    4303598: templeBlockWhole47
+    4303600: templeBlockWhole84
+    4303602: templeBlockWhole83
+    4303604: templeBlockWhole58
+    4303606: templeBlockWhole81
+    4303608: templeBlockWhole80
+    4303610: templeBlockWhole79
+    4303612: templeBlockWhole78
+    4303614: templeBlockWhole75
+    4303616: templeBlockWhole70
+    4303618: templeBlockWhole63
+    4303620: templeBlockWhole62
+    4303622: templeBlockWhole59
+    4303624: templeBlockWhole48
+    4303626: templeBlockWhole85
+    4303628: templeBlockWhole84
+    4303630: templeBlockWhole81
+    4303632: templeBlockWhole80
+    4303634: templeBlockWhole79
+    4303636: templeBlockWhole78
+    4303638: templeBlockWhole67
+    4303640: templeBlockWhole65
+    4303642: templeBlockWhole62
+    4303644: templeBlockWhole61
+    4303646: templeBlockWhole53
+    4303648: templeBlockWhole83
+    4303650: templeBlockWhole82
+    4303652: templeBlockWhole51
+    4303654: templeBlockWhole51
+    4303656: templeBlockWhole48
+    4303658: templeBlockWhole44
+    4303660: templeBlockWhole85
+    4303662: templeBlockWhole57
+    4303664: templeBlockWhole81
+    4303666: templeBlockWhole80
+    4303668: templeBlockWhole79
+    4303670: templeBlockWhole78
+    4303672: templeBlockWhole76
+    4303674: templeBlockWhole68
+    4303676: templeBlockWhole67
+    4303678: templeBlockWhole66
+    4303680: templeBlockWhole65
+    4303682: templeBlockWhole64
+    4303684: templeBlockWhole61
+    4303686: templeBlockWhole53
+    4303688: templeBlockWhole83
+    4303690: templeBlockWhole82
+    4303692: templeBlockWhole271
+    4303694: templeBlockWhole51
+    4303696: templeBlockWhole52
+    4303698: templeBlockWhole54
+    4303700: templeBlockWhole53
+    4303702: templeBlockWhole50
+    4303704: templeBlockWhole49
+    4303706: templeBlockWhole47
+    4303708: templeBlockWhole45
+    4303710: templeBlockWhole43
+    4303712: templeBlockWhole86
+    4303714: templeBlockWhole84
+    4303716: templeBlockWhole83
+    4303718: templeBlockWhole58
+    4303720: templeBlockWhole56
+    4303722: templeBlockWhole57
+    4303724: templeBlockWhole82
+    4303726: templeBlockWhole81
+    4303728: templeBlockWhole80
+    4303730: templeBlockWhole79
+    4303732: templeBlockWhole78
+    4303734: templeBlockWhole77
+    4303736: templeBlockWhole76
+    4303738: templeBlockWhole75
+    4303740: templeBlockWhole74
+    4303742: templeBlockWhole72
+    4303744: templeBlockWhole70
+    4303746: templeBlockWhole69
+    4303748: templeBlockWhole68
+    4303750: templeBlockWhole66
+    4303752: templeBlockWhole64
+    4303754: templeBlockWhole63
+    4303756: templeBlockWhole62
+    4303758: templeBlockWhole61
+    4303760: templeBlockWhole60
+    4303762: templeBlockWhole59
+    4303764: templeBlockWhole89
+    4303766: templeBlockWhole90
+    4303768: templeBlockWhole91
+    4303770: templeBlockWhole92
+    4303772: templeBlockWhole93
+    4303774: templeBlockWhole125
+    4303776: templeBlockWhole129
+    4303778: templeBlockWhole130
+    4303780: templeBlockWhole231
+    4303782: templeBlockWhole262
+    4303784: templeBlockWhole230
+    4303786: templeBlockWhole260
+    4303788: templeBlockWhole76
+    4303790: templeBlockWhole64
+    4303792: templeBlockWhole52
+    4303794: templeBlockWhole63
+    4303796: templeBlockWhole75
+    4303798: templeBlockWhole229
+    4303800: templeBlockWhole265
+    4303802: templeBlockWhole57
+    4303804: templeBlockWhole261
+    4303806: templeBlockWhole263
+    4303808: templeBlockWhole264
+    4303810: templeBlockWhole266
+    4303812: templeBlockWhole231
+    4303814: templeBlockWhole262
+    4303816: templeBlockWhole230
+    4303818: templeBlockWhole260
+    4303820: templeBlockWhole76
+    4303822: templeBlockWhole64
+    4303824: templeBlockWhole52
+    4303826: templeBlockWhole63
+    4303828: templeBlockWhole75
+    4303830: templeBlockWhole229
+    4303832: templeBlockWhole265
+    4303834: templeBlockWhole57
+    4303836: templeBlockWhole261
+    4303838: templeBlockWhole263
+    4303840: templeBlockWhole264
+    4303842: templeBlockWhole266
+    4303844: templeBlockWhole231
+    4303846: templeBlockWhole262
+    4303848: templeBlockWhole230
+    4303850: templeBlockWhole260
+    4303852: templeBlockWhole76
+    4303854: templeBlockWhole64
+    4303856: templeBlockWhole52
+    4303858: templeBlockWhole63
+    4303860: templeBlockWhole75
+    4303862: templeBlockWhole229
+    4303864: templeBlockWhole265
+    4303866: templeBlockWhole57
+    4303868: templeBlockWhole261
+    4303870: templeBlockWhole263
+    4303872: templeBlockWhole264
+    4303874: templeBlockWhole266
+    4303876: templeBlockWhole259
+    4303878: templeBlockWhole211
+    4303880: templeBlockWhole241
+    4303882: templeBlockWhole212
+    4303884: columnTop
+    4303886: columnBottom
+    4303888: column1
+    4303890: columnTop
+    4303892: columnBottom
+    4303894: column1
+    4303896: columnTop
+    4303898: columnBottom
+    4303900: column1
+    4303902: columnTop
+    4303904: columnBottom
+    4303906: column1
+    4303908: templeBlockWhole386
+    4303910: templeBlockWhole51
+    4303912: templeBlockWhole52
+    4303914: templeBlockWhole54
+    4303916: templeBlockWhole53
+    4303918: templeBlockWhole50
+    4303920: templeBlockWhole49
+    4303922: templeBlockWhole47
+    4303924: templeBlockWhole45
+    4303926: templeBlockWhole43
+    4303928: templeBlockWhole86
+    4303930: templeBlockWhole85
+    4303932: templeBlockWhole84
+    4303934: templeBlockWhole83
+    4303936: templeBlockWhole58
+    4303938: templeBlockWhole56
+    4303940: templeBlockWhole57
+    4303942: templeBlockWhole82
+    4303944: templeBlockWhole80
+    4303946: templeBlockWhole79
+    4303948: templeBlockWhole78
+    4303950: templeBlockWhole77
+    4303952: templeBlockWhole76
+    4303954: templeBlockWhole75
+    4303956: templeBlockWhole74
+    4303958: templeBlockWhole72
+    4303960: templeBlockWhole70
+    4303962: templeBlockWhole69
+    4303964: templeBlockWhole68
+    4303966: templeBlockWhole66
+    4303968: templeBlockWhole64
+    4303970: templeBlockWhole63
+    4303972: templeBlockWhole62
+    4303974: templeBlockWhole61
+    4303976: templeBlockWhole60
+    4303978: templeBlockWhole59
+    4303980: templeBlockWhole89
+    4303982: templeBlockWhole90
+    4303984: templeBlockWhole91
+    4303986: templeBlockWhole92
+    4303988: templeBlockWhole93
+    4303990: templeBlockWhole125
+    4303992: templeBlockWhole129
+    4303994: templeBlockWhole130
+    4303996: templeBlockWhole267
+    4303998: templeBlockWhole268
+    4304000: templeBlockWhole269
+    4304002: templeBlockWhole270
+    4304004: templeBlockWhole53
+    4304006: templeBlockWhole47
+    4304008: templeBlockWhole84
+    4304010: templeBlockWhole83
+    4304012: templeBlockWhole58
+    4304014: templeBlockWhole81
+    4304016: templeBlockWhole80
+    4304018: templeBlockWhole79
+    4304020: templeBlockWhole78
+    4304022: templeBlockWhole75
+    4304024: templeBlockWhole70
+    4304026: templeBlockWhole63
+    4304028: templeBlockWhole62
+    4304030: templeBlockWhole59
+    4304032: templeBlockWhole48
+    4304034: templeBlockWhole85
+    4304036: templeBlockWhole84
+    4304038: templeBlockWhole81
+    4304040: templeBlockWhole80
+    4304042: templeBlockWhole79
+    4304044: templeBlockWhole78
+    4304046: templeBlockWhole67
+    4304048: templeBlockWhole65
+    4304050: templeBlockWhole62
+    4304052: templeBlockWhole61
+    4304054: templeBlockWhole53
+    4304056: templeBlockWhole83
+    4304058: templeBlockWhole82
+    4304060: templeBlockWhole51
+    4304062: templeBlockWhole51
+    4304064: templeBlockWhole48
+    4304066: templeBlockWhole44
+    4304068: templeBlockWhole85
+    4304070: templeBlockWhole57
+    4304072: templeBlockWhole81
+    4304074: templeBlockWhole80
+    4304076: templeBlockWhole79
+    4304078: templeBlockWhole78
+    4304080: templeBlockWhole76
+    4304082: templeBlockWhole68
+    4304084: templeBlockWhole67
+    4304086: templeBlockWhole66
+    4304088: templeBlockWhole65
+    4304090: templeBlockWhole64
+    4304092: templeBlockWhole61
+    4304094: templeBlockWhole53
+    4304096: templeBlockWhole83
+    4304098: templeBlockWhole82
+    4304100: templeBlockWhole271
+    4304102: templeBlockWhole51
+    4304104: templeBlockWhole52
+    4304106: templeBlockWhole54
+    4304108: templeBlockWhole53
+    4304110: templeBlockWhole50
+    4304112: templeBlockWhole49
+    4304114: templeBlockWhole47
+    4304116: templeBlockWhole45
+    4304118: templeBlockWhole43
+    4304120: templeBlockWhole86
+    4304122: templeBlockWhole84
+    4304124: templeBlockWhole83
+    4304126: templeBlockWhole58
+    4304128: templeBlockWhole56
+    4304130: templeBlockWhole57
+    4304132: templeBlockWhole82
+    4304134: templeBlockWhole81
+    4304136: templeBlockWhole80
+    4304138: templeBlockWhole79
+    4304140: templeBlockWhole78
+    4304142: templeBlockWhole77
+    4304144: templeBlockWhole76
+    4304146: templeBlockWhole75
+    4304148: templeBlockWhole74
+    4304150: templeBlockWhole72
+    4304152: templeBlockWhole70
+    4304154: templeBlockWhole69
+    4304156: templeBlockWhole68
+    4304158: templeBlockWhole66
+    4304160: templeBlockWhole64
+    4304162: templeBlockWhole63
+    4304164: templeBlockWhole62
+    4304166: templeBlockWhole61
+    4304168: templeBlockWhole60
+    4304170: templeBlockWhole59
+    4304172: templeBlockWhole89
+    4304174: templeBlockWhole90
+    4304176: templeBlockWhole91
+    4304178: templeBlockWhole92
+    4304180: templeBlockWhole93
+    4304182: templeBlockWhole125
+    4304184: templeBlockWhole129
+    4304186: templeBlockWhole130
+    4304188: templeBlockWhole231
+    4304190: templeBlockWhole262
+    4304192: templeBlockWhole230
+    4304194: templeBlockWhole260
+    4304196: templeBlockWhole76
+    4304198: templeBlockWhole64
+    4304200: templeBlockWhole52
+    4304202: templeBlockWhole63
+    4304204: templeBlockWhole75
+    4304206: templeBlockWhole229
+    4304208: templeBlockWhole265
+    4304210: templeBlockWhole57
+    4304212: templeBlockWhole261
+    4304214: templeBlockWhole263
+    4304216: templeBlockWhole264
+    4304218: templeBlockWhole266
+    4304220: templeBlockWhole231
+    4304222: templeBlockWhole262
+    4304224: templeBlockWhole230
+    4304226: templeBlockWhole260
+    4304228: templeBlockWhole76
+    4304230: templeBlockWhole64
+    4304232: templeBlockWhole52
+    4304234: templeBlockWhole63
+    4304236: templeBlockWhole75
+    4304238: templeBlockWhole229
+    4304240: templeBlockWhole265
+    4304242: templeBlockWhole57
+    4304244: templeBlockWhole261
+    4304246: templeBlockWhole263
+    4304248: templeBlockWhole264
+    4304250: templeBlockWhole266
+    4304252: templeBlockWhole231
+    4304254: templeBlockWhole262
+    4304256: templeBlockWhole230
+    4304258: templeBlockWhole260
+    4304260: templeBlockWhole76
+    4304262: templeBlockWhole64
+    4304264: templeBlockWhole52
+    4304266: templeBlockWhole63
+    4304268: templeBlockWhole75
+    4304270: templeBlockWhole229
+    4304272: templeBlockWhole265
+    4304274: templeBlockWhole57
+    4304276: templeBlockWhole261
+    4304278: templeBlockWhole263
+    4304280: templeBlockWhole264
+    4304282: templeBlockWhole266
+    4304284: templeBlockWhole259
+    4304286: templeBlockWhole211
+    4304288: templeBlockWhole241
+    4304290: templeBlockWhole212
+    4304292: columnTop
+    4304294: columnBottom
+    4304296: column1
+    4304298: columnTop
+    4304300: columnBottom
+    4304302: column1
+    4304304: columnTop
+    4304306: columnBottom
+    4304308: column1
+    4304310: columnTop
+    4304312: columnBottom
+    4304314: column1
+    4304316: templeBlockWhole384
+    4304318: templeBlockWhole383
+    4304320: templeBlockWhole385
+    4304322: centerArchPlane
+    4304324: leftArchPlane
+    4304326: rightArchPlane
+    4304328: rightWindowPlane
+    4304330: centerWindowPlane
+    4304332: leftWindowPlane
+    4304334: rightDwayUpPlane
+    4304336: rightDwayDownPlane
+    4304338: leftDwayUpPlane
+    4304340: leftDwayDownPlane
     9500000: //RootNode
   materials:
     importMaterials: 1

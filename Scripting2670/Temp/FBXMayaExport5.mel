@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "C:/Users/Alexa/DOCUME~1/Github/2670UVU/SCRIPT~1/Assets/Meshes/Terrain/TEMPLE~3.MA"`)
+{		
+	file -o "C:/Users/Alexa/DOCUME~1/Github/2670UVU/SCRIPT~1/Assets/Meshes/Terrain/TEMPLE~3.MA";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "C:/Users/Alexa/DOCUME~1/Github/2670UVU/SCRIPT~1/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "C:/Users/Alexa/DOCUME~1/Github/2670UVU/SCRIPT~1/Temp/CommandPipe";
+
+$donepipeKill = `fopen "C:/Users/Alexa/DOCUME~1/Github/2670UVU/SCRIPT~1/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;

@@ -21,6 +21,7 @@ ModelImporter:
     100026: smallMud
     100028: swampTerrain
     100030: swampWater
+    100032: swampTerrain 1
     400000: HidePlane01
     400002: HidePlane02
     400004: polySurface3
@@ -37,6 +38,7 @@ ModelImporter:
     400026: smallMud
     400028: swampTerrain
     400030: swampWater
+    400032: swampTerrain 1
     2300000: HidePlane01
     2300002: HidePlane02
     2300004: polySurface4
@@ -47,6 +49,7 @@ ModelImporter:
     2300014: smallMud
     2300016: swampTerrain
     2300018: swampWater
+    2300020: swampTerrain 1
     3300000: HidePlane01
     3300002: HidePlane02
     3300004: polySurface4
@@ -57,6 +60,7 @@ ModelImporter:
     3300014: smallMud
     3300016: swampTerrain
     3300018: swampWater
+    3300020: swampTerrain 1
     4300000: HidePlane01
     4300002: HidePlane02
     4300004: polySurface4
