@@ -1,1 +1,0 @@
-Assets/Meshes/Terrain/templeCliff.ma

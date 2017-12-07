@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 531
     width: 1536
     height: 200
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 913, y: 563}
   m_MaxSize: {x: 22008, y: 14042}
   vertical: 1
-  controlID: 21
+  controlID: 136
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 264
     width: 712
     height: 267
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 2647
+  controlID: 113
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_MinSize: {x: 913, y: 442}
   m_MaxSize: {x: 22008, y: 10021}
   vertical: 0
-  controlID: 2560
+  controlID: 137
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,10 +363,10 @@ MonoBehaviour:
     width: 236
     height: 510
   m_TreeViewState:
-    scrollPos: {x: 0, y: 10928}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 1a19f0ffb63cf4ff54f3fcff84d7fdffbc4fffff22ecffff30ecffff6cecffff1afcffff00000000324400003e4500000a46000038470000044900002e4b0000404c0000384e00002a4f0000a65600005e570000625a0000005d0000
+    scrollPos: {x: 0, y: 1619}
+    m_SelectedIDs: 3240fdff
+    m_LastClickedID: -180174
+    m_ExpandedIDs: 20e0fcfff4d2fdff0000000020ae000050b3000066b4000028be0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -460,19 +460,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Meshes/Terrain
+    - Assets/Animations/Player (Little Boy)
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Meshes/Terrain
+  - Assets/Animations/Player (Little Boy)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Alexa\Documents\Github\2670UVU\Scripting2670
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5c400000
-    m_LastClickedID: 16476
-    m_ExpandedIDs: 0000000092260000f42800002c2a0000502b0000e63c0000043e0000f83e00005c4000005e4000006a400000224100003041000000ca9a3bffffff7f
+    m_SelectedIDs: 92810000
+    m_LastClickedID: 33170
+    m_ExpandedIDs: 000000006a7f0000bc810000f282000016840000caa60000a4a7000094a80000d0a90000d2a90000dea9000096aa0000a4aa000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,7 +500,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000092260000f42800002c2a0000502b0000e63c0000043e0000f83e00005c4000006a4000002241000030410000
+    m_ExpandedIDs: 000000006a7f0000bc810000f282000016840000caa60000a4a7000094a80000d0a90000d2a90000dea9000096aa0000a4aa0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,7 +552,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 180}
+    m_ScrollPosition: {x: 0, y: 900}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &18
@@ -658,14 +658,14 @@ MonoBehaviour:
     width: 710
     height: 243
   m_SceneLighting: 1
-  lastFramingTime: 62623.421442627034
+  lastFramingTime: 1969.9264866133333
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 93.50129, y: -6.041664, z: 13.111877}
+    m_Target: {x: 271.33484, y: -36.405983, z: 15.894806}
     speed: 2
-    m_Value: {x: 93.50129, y: -6.041664, z: 13.111877}
+    m_Value: {x: 271.33484, y: -36.405983, z: 15.894806}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -688,13 +688,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.07219921, y: 0.036205586, z: -0.0027001933, w: 0.9967778}
+    m_Target: {x: -0.17923366, y: -0.03421791, z: 0.006381865, w: -0.9832626}
     speed: 2
-    m_Value: {x: 0.072195716, y: 0.036203835, z: -0.0027000627, w: 0.99672955}
+    m_Value: {x: -0.17922096, y: -0.034215488, z: 0.0063814134, w: -0.983193}
   m_Size:
-    m_Target: 351.68018
+    m_Target: 367.11145
     speed: 2
-    m_Value: 351.68018
+    m_Value: 367.11145
   m_Ortho:
     m_Target: 0
     speed: 2
