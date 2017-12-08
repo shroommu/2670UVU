@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 370fbc2be0e622242b82696944bcf7ba
-timeCreated: 1512672960
+timeCreated: 1512707947
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -38,6 +38,7 @@ ModelImporter:
     100060: transform1
     100062: transform2
     100064: transform3
+    100066: hanumanStatue
     400000: Hanuman_Statue:Headdress
     400002: Hanuman_Statue:imagePlane1
     400004: Hanuman_Statue:pCube5
@@ -71,6 +72,7 @@ ModelImporter:
     400060: transform1
     400062: transform2
     400064: transform3
+    400066: hanumanStatue
     2300000: pCube1
     2300002: pCube2
     2300004: pCube3
@@ -94,6 +96,7 @@ ModelImporter:
     2300040: polySurface8
     2300042: polySurface9
     2300044: pSphere1
+    2300046: hanumanStatue
     3300000: pCube1
     3300002: pCube2
     3300004: pCube3
@@ -117,6 +120,7 @@ ModelImporter:
     3300040: polySurface8
     3300042: polySurface9
     3300044: pSphere1
+    3300046: hanumanStatue
     4300000: pCube1
     4300002: pCube2
     4300004: pSphere1
@@ -140,6 +144,8 @@ ModelImporter:
     4300040: polySurface19
     4300042: polySurface17
     4300044: polySurface18
+    4300046: hanumanStatue
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1

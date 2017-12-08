@@ -514,6 +514,59 @@ ModelImporter:
     101012: polySurface99
     101014: //RootNode
     101016: transform1
+    101018: templeTreeLeaves100
+    101020: templeTreeLeaves101
+    101022: templeTreeLeaves102
+    101024: templeTreeLeaves103
+    101026: templeTreeLeaves104
+    101028: templeTreeLeaves30
+    101030: templeTreeLeaves53
+    101032: templeTreeLeaves54
+    101034: templeTreeLeaves55
+    101036: templeTreeLeaves56
+    101038: templeTreeLeaves57
+    101040: templeTreeLeaves58
+    101042: templeTreeLeaves59
+    101044: templeTreeLeaves60
+    101046: templeTreeLeaves61
+    101048: templeTreeLeaves62
+    101050: templeTreeLeaves63
+    101052: templeTreeLeaves64
+    101054: templeTreeLeaves65
+    101056: templeTreeLeaves66
+    101058: templeTreeLeaves67
+    101060: templeTreeLeaves68
+    101062: templeTreeLeaves69
+    101064: templeTreeLeaves70
+    101066: templeTreeLeaves71
+    101068: templeTreeLeaves72
+    101070: templeTreeLeaves73
+    101072: templeTreeLeaves74
+    101074: templeTreeLeaves75
+    101076: templeTreeLeaves76
+    101078: templeTreeLeaves77
+    101080: templeTreeLeaves78
+    101082: templeTreeLeaves79
+    101084: templeTreeLeaves80
+    101086: templeTreeLeaves81
+    101088: templeTreeLeaves82
+    101090: templeTreeLeaves83
+    101092: templeTreeLeaves84
+    101094: templeTreeLeaves85
+    101096: templeTreeLeaves86
+    101098: templeTreeLeaves87
+    101100: templeTreeLeaves88
+    101102: templeTreeLeaves89
+    101104: templeTreeLeaves90
+    101106: templeTreeLeaves91
+    101108: templeTreeLeaves92
+    101110: templeTreeLeaves93
+    101112: templeTreeLeaves94
+    101114: templeTreeLeaves95
+    101116: templeTreeLeaves96
+    101118: templeTreeLeaves97
+    101120: templeTreeLeaves98
+    101122: templeTreeLeaves99
     400000: branches
     400002: leaves
     400004: polySurface1
@@ -1023,6 +1076,59 @@ ModelImporter:
     401012: polySurface99
     401014: //RootNode
     401016: transform1
+    401018: templeTreeLeaves100
+    401020: templeTreeLeaves101
+    401022: templeTreeLeaves102
+    401024: templeTreeLeaves103
+    401026: templeTreeLeaves104
+    401028: templeTreeLeaves30
+    401030: templeTreeLeaves53
+    401032: templeTreeLeaves54
+    401034: templeTreeLeaves55
+    401036: templeTreeLeaves56
+    401038: templeTreeLeaves57
+    401040: templeTreeLeaves58
+    401042: templeTreeLeaves59
+    401044: templeTreeLeaves60
+    401046: templeTreeLeaves61
+    401048: templeTreeLeaves62
+    401050: templeTreeLeaves63
+    401052: templeTreeLeaves64
+    401054: templeTreeLeaves65
+    401056: templeTreeLeaves66
+    401058: templeTreeLeaves67
+    401060: templeTreeLeaves68
+    401062: templeTreeLeaves69
+    401064: templeTreeLeaves70
+    401066: templeTreeLeaves71
+    401068: templeTreeLeaves72
+    401070: templeTreeLeaves73
+    401072: templeTreeLeaves74
+    401074: templeTreeLeaves75
+    401076: templeTreeLeaves76
+    401078: templeTreeLeaves77
+    401080: templeTreeLeaves78
+    401082: templeTreeLeaves79
+    401084: templeTreeLeaves80
+    401086: templeTreeLeaves81
+    401088: templeTreeLeaves82
+    401090: templeTreeLeaves83
+    401092: templeTreeLeaves84
+    401094: templeTreeLeaves85
+    401096: templeTreeLeaves86
+    401098: templeTreeLeaves87
+    401100: templeTreeLeaves88
+    401102: templeTreeLeaves89
+    401104: templeTreeLeaves90
+    401106: templeTreeLeaves91
+    401108: templeTreeLeaves92
+    401110: templeTreeLeaves93
+    401112: templeTreeLeaves94
+    401114: templeTreeLeaves95
+    401116: templeTreeLeaves96
+    401118: templeTreeLeaves97
+    401120: templeTreeLeaves98
+    401122: templeTreeLeaves99
     2300000: polySurface1
     2300002: polySurface10
     2300004: polySurface100
@@ -1528,6 +1634,59 @@ ModelImporter:
     2301004: polySurface97
     2301006: polySurface98
     2301008: polySurface99
+    2301010: templeTreeLeaves100
+    2301012: templeTreeLeaves101
+    2301014: templeTreeLeaves102
+    2301016: templeTreeLeaves103
+    2301018: templeTreeLeaves104
+    2301020: templeTreeLeaves30
+    2301022: templeTreeLeaves53
+    2301024: templeTreeLeaves54
+    2301026: templeTreeLeaves55
+    2301028: templeTreeLeaves56
+    2301030: templeTreeLeaves57
+    2301032: templeTreeLeaves58
+    2301034: templeTreeLeaves59
+    2301036: templeTreeLeaves60
+    2301038: templeTreeLeaves61
+    2301040: templeTreeLeaves62
+    2301042: templeTreeLeaves63
+    2301044: templeTreeLeaves64
+    2301046: templeTreeLeaves65
+    2301048: templeTreeLeaves66
+    2301050: templeTreeLeaves67
+    2301052: templeTreeLeaves68
+    2301054: templeTreeLeaves69
+    2301056: templeTreeLeaves70
+    2301058: templeTreeLeaves71
+    2301060: templeTreeLeaves72
+    2301062: templeTreeLeaves73
+    2301064: templeTreeLeaves74
+    2301066: templeTreeLeaves75
+    2301068: templeTreeLeaves76
+    2301070: templeTreeLeaves77
+    2301072: templeTreeLeaves78
+    2301074: templeTreeLeaves79
+    2301076: templeTreeLeaves80
+    2301078: templeTreeLeaves81
+    2301080: templeTreeLeaves82
+    2301082: templeTreeLeaves83
+    2301084: templeTreeLeaves84
+    2301086: templeTreeLeaves85
+    2301088: templeTreeLeaves86
+    2301090: templeTreeLeaves87
+    2301092: templeTreeLeaves88
+    2301094: templeTreeLeaves89
+    2301096: templeTreeLeaves90
+    2301098: templeTreeLeaves91
+    2301100: templeTreeLeaves92
+    2301102: templeTreeLeaves93
+    2301104: templeTreeLeaves94
+    2301106: templeTreeLeaves95
+    2301108: templeTreeLeaves96
+    2301110: templeTreeLeaves97
+    2301112: templeTreeLeaves98
+    2301114: templeTreeLeaves99
     3300000: polySurface1
     3300002: polySurface10
     3300004: polySurface100
@@ -2033,6 +2192,59 @@ ModelImporter:
     3301004: polySurface97
     3301006: polySurface98
     3301008: polySurface99
+    3301010: templeTreeLeaves100
+    3301012: templeTreeLeaves101
+    3301014: templeTreeLeaves102
+    3301016: templeTreeLeaves103
+    3301018: templeTreeLeaves104
+    3301020: templeTreeLeaves30
+    3301022: templeTreeLeaves53
+    3301024: templeTreeLeaves54
+    3301026: templeTreeLeaves55
+    3301028: templeTreeLeaves56
+    3301030: templeTreeLeaves57
+    3301032: templeTreeLeaves58
+    3301034: templeTreeLeaves59
+    3301036: templeTreeLeaves60
+    3301038: templeTreeLeaves61
+    3301040: templeTreeLeaves62
+    3301042: templeTreeLeaves63
+    3301044: templeTreeLeaves64
+    3301046: templeTreeLeaves65
+    3301048: templeTreeLeaves66
+    3301050: templeTreeLeaves67
+    3301052: templeTreeLeaves68
+    3301054: templeTreeLeaves69
+    3301056: templeTreeLeaves70
+    3301058: templeTreeLeaves71
+    3301060: templeTreeLeaves72
+    3301062: templeTreeLeaves73
+    3301064: templeTreeLeaves74
+    3301066: templeTreeLeaves75
+    3301068: templeTreeLeaves76
+    3301070: templeTreeLeaves77
+    3301072: templeTreeLeaves78
+    3301074: templeTreeLeaves79
+    3301076: templeTreeLeaves80
+    3301078: templeTreeLeaves81
+    3301080: templeTreeLeaves82
+    3301082: templeTreeLeaves83
+    3301084: templeTreeLeaves84
+    3301086: templeTreeLeaves85
+    3301088: templeTreeLeaves86
+    3301090: templeTreeLeaves87
+    3301092: templeTreeLeaves88
+    3301094: templeTreeLeaves89
+    3301096: templeTreeLeaves90
+    3301098: templeTreeLeaves91
+    3301100: templeTreeLeaves92
+    3301102: templeTreeLeaves93
+    3301104: templeTreeLeaves94
+    3301106: templeTreeLeaves95
+    3301108: templeTreeLeaves96
+    3301110: templeTreeLeaves97
+    3301112: templeTreeLeaves98
+    3301114: templeTreeLeaves99
     4300000: polySurface102
     4300002: polySurface101
     4300004: polySurface100
@@ -2538,6 +2750,59 @@ ModelImporter:
     4301004: polySurface504
     4301006: polySurface505
     4301008: polySurface506
+    4301010: templeTreeLeaves30
+    4301012: templeTreeLeaves53
+    4301014: templeTreeLeaves54
+    4301016: templeTreeLeaves55
+    4301018: templeTreeLeaves56
+    4301020: templeTreeLeaves57
+    4301022: templeTreeLeaves58
+    4301024: templeTreeLeaves59
+    4301026: templeTreeLeaves60
+    4301028: templeTreeLeaves61
+    4301030: templeTreeLeaves62
+    4301032: templeTreeLeaves63
+    4301034: templeTreeLeaves64
+    4301036: templeTreeLeaves65
+    4301038: templeTreeLeaves66
+    4301040: templeTreeLeaves67
+    4301042: templeTreeLeaves68
+    4301044: templeTreeLeaves69
+    4301046: templeTreeLeaves70
+    4301048: templeTreeLeaves71
+    4301050: templeTreeLeaves72
+    4301052: templeTreeLeaves73
+    4301054: templeTreeLeaves74
+    4301056: templeTreeLeaves75
+    4301058: templeTreeLeaves76
+    4301060: templeTreeLeaves77
+    4301062: templeTreeLeaves78
+    4301064: templeTreeLeaves79
+    4301066: templeTreeLeaves80
+    4301068: templeTreeLeaves81
+    4301070: templeTreeLeaves82
+    4301072: templeTreeLeaves83
+    4301074: templeTreeLeaves84
+    4301076: templeTreeLeaves85
+    4301078: templeTreeLeaves86
+    4301080: templeTreeLeaves87
+    4301082: templeTreeLeaves88
+    4301084: templeTreeLeaves89
+    4301086: templeTreeLeaves90
+    4301088: templeTreeLeaves91
+    4301090: templeTreeLeaves92
+    4301092: templeTreeLeaves93
+    4301094: templeTreeLeaves94
+    4301096: templeTreeLeaves95
+    4301098: templeTreeLeaves96
+    4301100: templeTreeLeaves97
+    4301102: templeTreeLeaves98
+    4301104: templeTreeLeaves99
+    4301106: templeTreeLeaves100
+    4301108: templeTreeLeaves101
+    4301110: templeTreeLeaves102
+    4301112: templeTreeLeaves103
+    4301114: templeTreeLeaves104
     9500000: //RootNode
   materials:
     importMaterials: 1
