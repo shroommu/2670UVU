@@ -9,4 +9,6 @@
  <element id="10" elementName="head" elementFolder="head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="11" elementName="frontLeg" elementFolder="frontLeg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="12" elementName="backLeg" elementFolder="backLeg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="13" elementName="FaceRough" elementFolder="FaceRough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="14" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>

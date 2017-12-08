@@ -8,3 +8,4 @@ Solid    Black                      0x08e0c64d530002b1   0   0   0 255
 Solid    BoysRed                    0x08e110a9591748f7 153  41  11 255
 Solid    BoysBlue                   0x08e110a959174f63  66 100 184 255
 Solid    BoysSkin                   0x08e110a959175798 171 130  91 255
+Solid    BoysWhite                  0x08e252b80c011454 193 193 193 255
