@@ -326,6 +326,42 @@ ModelImporter:
     100636: transform99
     100638: treeTrunk
     100640: treeTrunk1
+    100642: polySurface196
+    100644: polySurface197
+    100646: polySurface198
+    100648: polySurface199
+    100650: polySurface200
+    100652: polySurface201
+    100654: polySurface202
+    100656: polySurface203
+    100658: polySurface204
+    100660: polySurface205
+    100662: polySurface206
+    100664: polySurface207
+    100666: polySurface208
+    100668: polySurface209
+    100670: polySurface210
+    100672: polySurface211
+    100674: polySurface212
+    100676: polySurface213
+    100678: polySurface214
+    100680: polySurface215
+    100682: polySurface216
+    100684: polySurface217
+    100686: polySurface218
+    100688: polySurface219
+    100690: transform148
+    100692: transform149
+    100694: transform150
+    100696: transform151
+    100698: transform152
+    100700: transform153
+    100702: transform154
+    100704: transform155
+    100706: transform156
+    100708: transform157
+    100710: transform158
+    100712: transform159
     400000: pSphere1
     400002: pSphere10
     400004: pSphere11
@@ -647,6 +683,42 @@ ModelImporter:
     400636: transform99
     400638: treeTrunk
     400640: treeTrunk1
+    400642: polySurface196
+    400644: polySurface197
+    400646: polySurface198
+    400648: polySurface199
+    400650: polySurface200
+    400652: polySurface201
+    400654: polySurface202
+    400656: polySurface203
+    400658: polySurface204
+    400660: polySurface205
+    400662: polySurface206
+    400664: polySurface207
+    400666: polySurface208
+    400668: polySurface209
+    400670: polySurface210
+    400672: polySurface211
+    400674: polySurface212
+    400676: polySurface213
+    400678: polySurface214
+    400680: polySurface215
+    400682: polySurface216
+    400684: polySurface217
+    400686: polySurface218
+    400688: polySurface219
+    400690: transform148
+    400692: transform149
+    400694: transform150
+    400696: transform151
+    400698: transform152
+    400700: transform153
+    400702: transform154
+    400704: transform155
+    400706: transform156
+    400708: transform157
+    400710: transform158
+    400712: transform159
     2300000: pSphere1
     2300002: pSphere10
     2300004: pSphere11
@@ -672,6 +744,30 @@ ModelImporter:
     2300044: tallTreeLeaves_5
     2300046: tallTreeLeaves_9
     2300048: treeTrunk1
+    2300050: polySurface196
+    2300052: polySurface197
+    2300054: polySurface198
+    2300056: polySurface199
+    2300058: polySurface200
+    2300060: polySurface201
+    2300062: polySurface202
+    2300064: polySurface203
+    2300066: polySurface204
+    2300068: polySurface205
+    2300070: polySurface206
+    2300072: polySurface207
+    2300074: polySurface208
+    2300076: polySurface209
+    2300078: polySurface210
+    2300080: polySurface211
+    2300082: polySurface212
+    2300084: polySurface213
+    2300086: polySurface214
+    2300088: polySurface215
+    2300090: polySurface216
+    2300092: polySurface217
+    2300094: polySurface218
+    2300096: polySurface219
     3300000: pSphere1
     3300002: pSphere10
     3300004: pSphere11
@@ -697,6 +793,30 @@ ModelImporter:
     3300044: tallTreeLeaves_5
     3300046: tallTreeLeaves_9
     3300048: treeTrunk1
+    3300050: polySurface196
+    3300052: polySurface197
+    3300054: polySurface198
+    3300056: polySurface199
+    3300058: polySurface200
+    3300060: polySurface201
+    3300062: polySurface202
+    3300064: polySurface203
+    3300066: polySurface204
+    3300068: polySurface205
+    3300070: polySurface206
+    3300072: polySurface207
+    3300074: polySurface208
+    3300076: polySurface209
+    3300078: polySurface210
+    3300080: polySurface211
+    3300082: polySurface212
+    3300084: polySurface213
+    3300086: polySurface214
+    3300088: polySurface215
+    3300090: polySurface216
+    3300092: polySurface217
+    3300094: polySurface218
+    3300096: polySurface219
     4300000: tree_generator
     4300002: pSphere1
     4300004: pSphere2
@@ -722,11 +842,35 @@ ModelImporter:
     4300044: tallTreeLeaves_18
     4300046: tallTreeLeaves_19
     4300048: tallTreeLeaves_20
+    4300050: polySurface196
+    4300052: polySurface197
+    4300054: polySurface198
+    4300056: polySurface199
+    4300058: polySurface200
+    4300060: polySurface201
+    4300062: polySurface202
+    4300064: polySurface203
+    4300066: polySurface204
+    4300068: polySurface205
+    4300070: polySurface206
+    4300072: polySurface207
+    4300074: polySurface208
+    4300076: polySurface209
+    4300078: polySurface210
+    4300080: polySurface211
+    4300082: polySurface212
+    4300084: polySurface213
+    4300086: polySurface214
+    4300088: polySurface215
+    4300090: polySurface216
+    4300092: polySurface217
+    4300094: polySurface218
+    4300096: polySurface219
     9500000: //RootNode
   materials:
-    importMaterials: 1
-    materialName: 0
-    materialSearch: 1
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 2
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

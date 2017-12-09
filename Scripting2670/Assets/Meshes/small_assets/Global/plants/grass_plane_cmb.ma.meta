@@ -30,9 +30,9 @@ ModelImporter:
     4300004: grass_plane_002:grassPlane
     9500000: //RootNode
   materials:
-    importMaterials: 1
-    materialName: 0
-    materialSearch: 1
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 2
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

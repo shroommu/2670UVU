@@ -34,6 +34,8 @@ ModelImporter:
     100052: SwampTerrain:swampTerrain
     100054: SwampTerrain:swampWater
     100056: swampUndergroundBG
+    100058: jungleCliff
+    100060: mergedTerrain
     400000: bgMattePainting
     400002: group1
     400004: jungle_cliff:bottomHidePlane
@@ -63,6 +65,8 @@ ModelImporter:
     400052: SwampTerrain:swampTerrain
     400054: SwampTerrain:swampWater
     400056: swampUndergroundBG
+    400058: jungleCliff
+    400060: mergedTerrain
     2300000: bgMattePainting
     2300002: jungle_cliff:bottomHidePlane
     2300004: jungle_cliff:JungleCave
@@ -86,6 +90,7 @@ ModelImporter:
     2300040: SwampTerrain:smallMud
     2300042: SwampTerrain:swampWater
     2300044: swampUndergroundBG
+    2300046: mergedTerrain
     3300000: bgMattePainting
     3300002: jungle_cliff:bottomHidePlane
     3300004: jungle_cliff:JungleCave
@@ -109,6 +114,7 @@ ModelImporter:
     3300040: SwampTerrain:smallMud
     3300042: SwampTerrain:swampWater
     3300044: swampUndergroundBG
+    3300046: mergedTerrain
     4300000: SwampTerrain:HidePlane01
     4300002: SwampTerrain:HidePlane02
     4300004: SwampTerrain:swampWater
@@ -132,6 +138,7 @@ ModelImporter:
     4300040: swampUndergroundBG
     4300042: jungleUndergroundBG
     4300044: bgMattePainting
+    4300046: mergedTerrain
     9500000: //RootNode
   materials:
     importMaterials: 1
