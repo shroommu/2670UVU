@@ -29,24 +29,7 @@ public class Interact : MonoBehaviour {
 		if(SetIntObj.intObj != null && SetIntObj.intObj == gameObject){
 			switch(interactType){
 				case Data.InteractType.LEVER:
-					switch(leverType){
-						case Data.LeverType.ONETIME:
-							switch(leverPulled){
-								case false:
-									print("Pulling lever");
-									break;
-
-								case true:
-									Data.Instance.message = "The lever is stuck.";
-									SendMessage6();
-									break;
-							}
-							break;
-
-						case Data.LeverType.MULTI:
-							print("Pulling lever");
-							break;
-					}
+					print("doing work");
 					break;
 
 				case Data.InteractType.PICKUP:

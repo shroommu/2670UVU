@@ -11,6 +11,7 @@ public class EndGame : MonoBehaviour {
 		if(other.tag == "Player"){
 			print("ending");
 			End();
+			Data.Instance.canPlay = false;
 		}
 	}
 }

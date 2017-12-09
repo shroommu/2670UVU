@@ -2805,7 +2805,7 @@ ModelImporter:
     4301114: templeTreeLeaves104
     9500000: //RootNode
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 1
     materialSearch: 2
   animations:

@@ -26,6 +26,7 @@ public class MoveInput : MonoBehaviour {
 
 	void OnPlay(){
 		if(!isRunning){
+			Data.Instance.canPlay = true;
 			print("getting input");
 			StartCoroutine(RunInput());
 		}

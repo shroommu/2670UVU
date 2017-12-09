@@ -18,7 +18,7 @@ public class PushPull : MonoBehaviour {
 	}
 
 	void Push(){
-		if(SetIntObj.intObj != null){
+		if(SetIntObj.intObj != null && SetIntObj.intObj == gameObject){
 			print("running this code");
 			SetIntObj.intObj.transform.parent = player.transform;
 			print("grabbing");
@@ -27,7 +27,7 @@ public class PushPull : MonoBehaviour {
 	}
 
 	void Release(){
-		if(SetIntObj.intObj != null){
+		if(SetIntObj.intObj != null && SetIntObj.intObj == gameObject){
 			SetIntObj.intObj.transform.parent = null;
 			canFlip = true;
 		}

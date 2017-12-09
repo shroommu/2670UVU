@@ -39,7 +39,7 @@ public class SetPlayerPosition : MonoBehaviour {
 		while(resetting){
 			isRunning = true;
 			//print("Resetting");
-			FreezeControls();
+			Data.Instance.canPlay = false;
 
 			if(!hasCheckpoint){
 				transform.position = startPoint.position;
@@ -53,7 +53,7 @@ public class SetPlayerPosition : MonoBehaviour {
 
 			yield return new WaitForSeconds(1);
 			//RespawnItems();
-			UnfreezeControls();
+			Data.Instance.canPlay = true;
 			isRunning = false;
 			resetting = false;
 		}

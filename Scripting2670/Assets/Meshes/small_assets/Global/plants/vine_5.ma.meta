@@ -1008,7 +1008,7 @@ ModelImporter:
     4300392: polySurface196
     9500000: //RootNode
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 2
     materialSearch: 2
   animations:

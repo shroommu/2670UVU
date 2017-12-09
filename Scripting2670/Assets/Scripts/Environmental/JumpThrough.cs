@@ -13,17 +13,14 @@ public class JumpThrough : MonoBehaviour {
 		coll = platform.GetComponent<Collider>();
 	}
 
-	void OnTriggerEnter(Collider other){
-		if (other.tag == "Player"){
-			print("i'm working");
-			coll.enabled = false;
-		}
+	void OnTriggerEnter(){
+		print("i'm working");
+		coll.enabled = false;
+		
 	}
 
-	void OnTriggerExit(Collider other){
-		if (other.tag == "Player"){
+	void OnTriggerExit(){
 			coll.enabled = true;
-		}
 	}
 
 	void JumpDown (){
