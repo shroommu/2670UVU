@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461" creator="harmony">
+<project source="Harmony Essentials (HarmonyEssentials.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461" creator="harmony">
  <elements>
   <element id="1" elementName="OB" elementFolder="OB" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
@@ -293,8 +293,30 @@
    </drawings>
   </element>
   <element id="4" elementName="YB" elementFolder="YB" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="5" elementName="OB_Front" elementFolder="OB_Front" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="6" elementName="OB_Mid" elementFolder="OB_Mid" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="5" elementName="OB_FrontArm" elementFolder="OB_FrontArm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
+    <dwg name="5" scaleFactor="1"/>
+    <dwg name="6" scaleFactor="1"/>
+    <dwg name="7" scaleFactor="1"/>
+    <dwg name="8" scaleFactor="1"/>
+    <dwg name="9" scaleFactor="1"/>
+    <dwg name="10" scaleFactor="1"/>
+    <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
+    <dwg name="13" scaleFactor="1"/>
+    <dwg name="14" scaleFactor="1"/>
+    <dwg name="15" scaleFactor="1"/>
+    <dwg name="16" scaleFactor="1"/>
+    <dwg name="17" scaleFactor="1"/>
+    <dwg name="18" scaleFactor="1"/>
+    <dwg name="19" scaleFactor="1"/>
+   </drawings>
+  </element>
+  <element id="6" elementName="OB_Head" elementFolder="OB_Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
@@ -375,6 +397,7 @@
     <dwg name="77" scaleFactor="1"/>
     <dwg name="78" scaleFactor="1"/>
     <dwg name="79" scaleFactor="1"/>
+    <dwg name="80" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="7" elementName="OB_Back" elementFolder="OB_Back" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
@@ -395,7 +418,7 @@
  <scenes>
   <scene name="Top" id="08d74b05f3b00c98" nbframes="196">
    <columns>
-    <column type="0" name="OB" display="false" displayOrder="0" width="100" anonymous="true" id="1">
+    <column type="0" name="OB" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-38" val="1" id="1"/>
      <elementSeq exposures="39-40" val="2" id="1"/>
      <elementSeq exposures="41-42" val="3" id="1"/>
@@ -477,7 +500,7 @@
      <elementSeq exposures="193-194" val="80" id="1"/>
      <elementSeq exposures="195-196" val="81" id="1"/>
     </column>
-    <column type="0" name="ATV-08D74B05F3B01290" display="false" displayOrder="0" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D74B05F3B01290" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -680,8 +703,29 @@
      <elementSeq exposures="1-197" val="1" id="3"/>
     </column>
     <column type="0" name="ATV-08D74B05F3B0149B" displayOrder="0" width="100" anonymous="true" id="4"/>
-    <column type="0" name="ATV-08E24F438010A8D9" displayOrder="0" width="100" anonymous="true" id="5"/>
-    <column type="0" name="ATV-08E24F438010A9C7" displayOrder="0" width="100" anonymous="true" id="6">
+    <column type="0" name="OB_FrontArm" displayOrder="0" width="100" anonymous="true" id="5">
+     <elementSeq exposures="1-38" val="1" id="5"/>
+     <elementSeq exposures="39-40" val="2" id="5"/>
+     <elementSeq exposures="41-42" val="3" id="5"/>
+     <elementSeq exposures="43-44" val="4" id="5"/>
+     <elementSeq exposures="45-46" val="5" id="5"/>
+     <elementSeq exposures="47-48" val="6" id="5"/>
+     <elementSeq exposures="49-50" val="7" id="5"/>
+     <elementSeq exposures="51-52" val="8" id="5"/>
+     <elementSeq exposures="53-54" val="9" id="5"/>
+     <elementSeq exposures="55-56" val="10" id="5"/>
+     <elementSeq exposures="57-58" val="11" id="5"/>
+     <elementSeq exposures="59-60" val="12" id="5"/>
+     <elementSeq exposures="61-62" val="13" id="5"/>
+     <elementSeq exposures="63-64" val="14" id="5"/>
+     <elementSeq exposures="65-66" val="15" id="5"/>
+     <elementSeq exposures="67-68" val="16" id="5"/>
+     <elementSeq exposures="69-70" val="17" id="5"/>
+     <elementSeq exposures="71-72" val="18" id="5"/>
+     <elementSeq exposures="73" val="19" id="5"/>
+    </column>
+    <column type="0" name="OB_Head" displayOrder="0" width="100" anonymous="true" id="6">
+     <elementSeq exposures="1-38" val="80" id="6"/>
      <elementSeq exposures="39-40" val="1" id="6"/>
      <elementSeq exposures="41-42" val="2" id="6"/>
      <elementSeq exposures="43-44" val="3" id="6"/>
@@ -760,7 +804,7 @@
      <elementSeq exposures="189-190" val="76" id="6"/>
      <elementSeq exposures="191-192" val="77" id="6"/>
      <elementSeq exposures="193-194" val="78" id="6"/>
-     <elementSeq exposures="195" val="79" id="6"/>
+     <elementSeq exposures="195-196" val="79" id="6"/>
     </column>
     <column type="0" name="ATV-08E24F438010AB12" displayOrder="0" width="100" anonymous="true" id="7"/>
     <column type="0" name="ATV-08E24F438010AC5D" displayOrder="0" width="100" anonymous="true" id="8"/>
@@ -826,7 +870,6 @@
      </module>
      <module type="READ" name="OB" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -931,7 +974,6 @@
      </module>
      <module type="READ" name="29_LBStandsUp" pos="0,0,0" publishUnderTab="29_LBStandsUp">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1346,7 +1388,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="OB_Mid" pos="0,0,0" publishUnderTab="OB_Mid">
+     <module type="READ" name="OB_Head" pos="0,0,0" publishUnderTab="OB_Mid">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1406,7 +1448,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-08E24F438010A9C7">
+        <element col="OB_Head">
          <layer/>
         </element>
         <customName>
@@ -1450,7 +1492,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="OB_Front" pos="0,0,0" publishUnderTab="OB_Front">
+     <module type="READ" name="OB_FrontArm" pos="0,0,0" publishUnderTab="OB_Front">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1510,7 +1552,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-08E24F438010A8D9">
+        <element col="OB_FrontArm">
          <layer/>
         </element>
         <customName>
@@ -1667,12 +1709,12 @@
      <link out="WhiteBG" in="Composite" inport="0"/>
      <link out="OB_Back" in="Composite" inport="4"/>
      <link out="YB" in="Composite" inport="3"/>
-     <link out="OB_Mid" in="Composite" inport="5"/>
-     <link out="OB_Front" in="Composite" inport="6"/>
-     <link out="OlderBoyFinished" in="Composite" inport="7"/>
-     <link out="OlderBoyFinished" in="OB_Front"/>
-     <link out="OlderBoyFinished" in="OB_Mid"/>
+     <link out="OB_Head" in="Composite" inport="5"/>
+     <link out="OB_FrontArm" in="Composite" inport="6"/>
+     <link out="OlderBoyFinished" in="OB_FrontArm"/>
+     <link out="OlderBoyFinished" in="OB_Head"/>
      <link out="OlderBoyFinished" in="OB_Back"/>
+     <link out="OlderBoyFinished" in="Composite" inport="7"/>
     </linkedlist>
    </rootgroup>
   </scene>
