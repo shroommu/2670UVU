@@ -36,6 +36,17 @@ ModelImporter:
     100056: swampUndergroundBG
     100058: jungleCliff
     100060: mergedTerrain
+    100062: jungle
+    100064: jungleCliff1
+    100066: jungleCliffBG
+    100068: jungleCliffFloatPiece
+    100070: jungleFloatPiece
+    100072: polySurface10
+    100074: polySurface11
+    100076: swampTerrain
+    100078: waterfallCliff
+    100080: swampFloatPiece
+    100082: swampTerrain 1
     400000: bgMattePainting
     400002: group1
     400004: jungle_cliff:bottomHidePlane
@@ -67,6 +78,17 @@ ModelImporter:
     400056: swampUndergroundBG
     400058: jungleCliff
     400060: mergedTerrain
+    400062: jungle
+    400064: jungleCliff1
+    400066: jungleCliffBG
+    400068: jungleCliffFloatPiece
+    400070: jungleFloatPiece
+    400072: polySurface10
+    400074: polySurface11
+    400076: swampTerrain
+    400078: waterfallCliff
+    400080: swampFloatPiece
+    400082: swampTerrain 1
     2300000: bgMattePainting
     2300002: jungle_cliff:bottomHidePlane
     2300004: jungle_cliff:JungleCave
@@ -91,6 +113,16 @@ ModelImporter:
     2300042: SwampTerrain:swampWater
     2300044: swampUndergroundBG
     2300046: mergedTerrain
+    2300048: jungleCliff
+    2300050: jungleCliffBG
+    2300052: jungleCliffFloatPiece
+    2300054: jungleFloatPiece
+    2300056: jungleTerrain
+    2300058: polySurface10
+    2300060: polySurface11
+    2300062: waterfallCliff
+    2300064: swampFloatPiece
+    2300066: swampTerrain 1
     3300000: bgMattePainting
     3300002: jungle_cliff:bottomHidePlane
     3300004: jungle_cliff:JungleCave
@@ -115,6 +147,16 @@ ModelImporter:
     3300042: SwampTerrain:swampWater
     3300044: swampUndergroundBG
     3300046: mergedTerrain
+    3300048: jungleCliff
+    3300050: jungleCliffBG
+    3300052: jungleCliffFloatPiece
+    3300054: jungleFloatPiece
+    3300056: jungleTerrain
+    3300058: polySurface10
+    3300060: polySurface11
+    3300062: waterfallCliff
+    3300064: swampFloatPiece
+    3300066: swampTerrain 1
     4300000: SwampTerrain:HidePlane01
     4300002: SwampTerrain:HidePlane02
     4300004: SwampTerrain:swampWater
@@ -139,6 +181,16 @@ ModelImporter:
     4300042: jungleUndergroundBG
     4300044: bgMattePainting
     4300046: mergedTerrain
+    4300048: jungleCliffBG
+    4300050: jungleCliffFloatPiece
+    4300052: jungleCliff
+    4300054: jungleFloatPiece
+    4300056: jungleTerrain
+    4300058: waterfallCliff
+    4300060: polySurface10
+    4300062: polySurface11
+    4300064: swampFloatPiece
+    4300066: swampTerrain
     9500000: //RootNode
   materials:
     importMaterials: 1
