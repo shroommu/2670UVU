@@ -3064,6 +3064,22 @@ ModelImporter:
     106112: templeBlockWhole2096
     106114: templeBlockWhole2097
     106116: templeBlockWhole2098
+    106118: hangingBanner1
+    106120: hangingBanner10
+    106122: hangingBanner11
+    106124: hangingBanner12
+    106126: hangingBanner2
+    106128: hangingBanner3
+    106130: hangingBanner4
+    106132: hangingBanner5
+    106134: hangingBanner6
+    106136: hangingBanner7
+    106138: hangingBanner8
+    106140: hangingBanner9
+    106142: longBanner
+    106144: longBanner1
+    106146: longBanner2
+    106148: longBanner3
     400000: backWall_grp
     400002: backWallGroup1
     400004: backWallGroup10
@@ -6123,6 +6139,22 @@ ModelImporter:
     406112: templeBlockWhole2096
     406114: templeBlockWhole2097
     406116: templeBlockWhole2098
+    406118: hangingBanner1
+    406120: hangingBanner10
+    406122: hangingBanner11
+    406124: hangingBanner12
+    406126: hangingBanner2
+    406128: hangingBanner3
+    406130: hangingBanner4
+    406132: hangingBanner5
+    406134: hangingBanner6
+    406136: hangingBanner7
+    406138: hangingBanner8
+    406140: hangingBanner9
+    406142: longBanner
+    406144: longBanner1
+    406146: longBanner2
+    406148: longBanner3
     2300000: brokenColumn1:column1
     2300002: brokenColumn1:columnBottom
     2300004: cliff
@@ -8782,6 +8814,22 @@ ModelImporter:
     2305312: templeBlockWhole2096
     2305314: templeBlockWhole2097
     2305316: templeBlockWhole2098
+    2305318: hangingBanner1
+    2305320: hangingBanner10
+    2305322: hangingBanner11
+    2305324: hangingBanner12
+    2305326: hangingBanner2
+    2305328: hangingBanner3
+    2305330: hangingBanner4
+    2305332: hangingBanner5
+    2305334: hangingBanner6
+    2305336: hangingBanner7
+    2305338: hangingBanner8
+    2305340: hangingBanner9
+    2305342: longBanner
+    2305344: longBanner1
+    2305346: longBanner2
+    2305348: longBanner3
     3300000: brokenColumn1:column1
     3300002: brokenColumn1:columnBottom
     3300004: cliff
@@ -11441,6 +11489,22 @@ ModelImporter:
     3305312: templeBlockWhole2096
     3305314: templeBlockWhole2097
     3305316: templeBlockWhole2098
+    3305318: hangingBanner1
+    3305320: hangingBanner10
+    3305322: hangingBanner11
+    3305324: hangingBanner12
+    3305326: hangingBanner2
+    3305328: hangingBanner3
+    3305330: hangingBanner4
+    3305332: hangingBanner5
+    3305334: hangingBanner6
+    3305336: hangingBanner7
+    3305338: hangingBanner8
+    3305340: hangingBanner9
+    3305342: longBanner
+    3305344: longBanner1
+    3305346: longBanner2
+    3305348: longBanner3
     4300000: templeInterior:polySurface1
     4300002: polySurface281
     4300004: polySurface773
@@ -14100,6 +14164,22 @@ ModelImporter:
     4305312: templeBlockWhole2096
     4305314: templeBlockWhole2097
     4305316: templeBlockWhole2098
+    4305318: longBanner
+    4305320: longBanner1
+    4305322: longBanner2
+    4305324: longBanner3
+    4305326: hangingBanner1
+    4305328: hangingBanner2
+    4305330: hangingBanner3
+    4305332: hangingBanner4
+    4305334: hangingBanner5
+    4305336: hangingBanner6
+    4305338: hangingBanner7
+    4305340: hangingBanner8
+    4305342: hangingBanner9
+    4305344: hangingBanner10
+    4305346: hangingBanner11
+    4305348: hangingBanner12
     9500000: //RootNode
   materials:
     importMaterials: 1
