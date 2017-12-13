@@ -1687,6 +1687,7 @@ ModelImporter:
     2301110: templeTreeLeaves97
     2301112: templeTreeLeaves98
     2301114: templeTreeLeaves99
+    2301116: //RootNode
     3300000: polySurface1
     3300002: polySurface10
     3300004: polySurface100
@@ -2245,6 +2246,7 @@ ModelImporter:
     3301110: templeTreeLeaves97
     3301112: templeTreeLeaves98
     3301114: templeTreeLeaves99
+    3301116: //RootNode
     4300000: polySurface102
     4300002: polySurface101
     4300004: polySurface100

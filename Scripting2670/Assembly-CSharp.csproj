@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\Enemy\GatorBehavior.cs" />
      <Compile Include="Assets\Scripts\Environmental\AirPocket.cs" />
      <Compile Include="Assets\Scripts\Environmental\BreathMeter.cs" />
+     <Compile Include="Assets\Scripts\Environmental\CameraCull.cs" />
      <Compile Include="Assets\Scripts\Environmental\ChangeSpeed.cs" />
      <Compile Include="Assets\Scripts\Environmental\CloseDoor.cs" />
      <Compile Include="Assets\Scripts\Environmental\JumpThrough.cs" />

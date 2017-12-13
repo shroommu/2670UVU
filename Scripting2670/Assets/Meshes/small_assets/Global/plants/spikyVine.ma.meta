@@ -285,6 +285,7 @@ ModelImporter:
     2300178: polySurface89
     2300180: polySurface9
     2300182: polySurface90
+    2300184: //RootNode
     3300000: thorns
     3300002: vine
     3300004: polySurface1
@@ -377,6 +378,7 @@ ModelImporter:
     3300178: polySurface89
     3300180: polySurface9
     3300182: polySurface90
+    3300184: //RootNode
     4300000: thorns
     4300002: vine
     4300004: polySurface1
@@ -469,6 +471,7 @@ ModelImporter:
     4300178: polySurface88
     4300180: polySurface89
     4300182: polySurface90
+    4300184: spikyVine
     9500000: //RootNode
   materials:
     importMaterials: 1

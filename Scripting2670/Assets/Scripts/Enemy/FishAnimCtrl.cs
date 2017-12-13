@@ -12,7 +12,7 @@ public class FishAnimCtrl : MonoBehaviour {
 		anim = GetComponent<Animator>();
 
 		canTest = true;
-		StartCoroutine(Test());
+		//StartCoroutine(Test());
 	}
 
 	IEnumerator Test(){
@@ -31,7 +31,6 @@ public class FishAnimCtrl : MonoBehaviour {
 	}
 
 	void Swim(){
-		print(anim);
 		anim.SetBool("swimOrIdle", true);
 	}
 

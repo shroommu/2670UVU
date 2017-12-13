@@ -252,6 +252,7 @@ ModelImporter:
     2300156: polySurface98
     2300158: polySurface99
     2300160: vine
+    2300162: //RootNode
     3300000: polySurface100
     3300002: polySurface133
     3300004: polySurface134
@@ -333,6 +334,7 @@ ModelImporter:
     3300156: polySurface98
     3300158: polySurface99
     3300160: vine
+    3300162: //RootNode
     4300000: vine
     4300002: polySurface61
     4300004: polySurface62
@@ -414,6 +416,7 @@ ModelImporter:
     4300156: polySurface194
     4300158: polySurface195
     4300160: polySurface196
+    4300162: vine20
     9500000: //RootNode
   materials:
     importMaterials: 1

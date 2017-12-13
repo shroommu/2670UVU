@@ -770,6 +770,7 @@ ModelImporter:
     2300092: polySurface217
     2300094: polySurface218
     2300096: polySurface219
+    2300098: //RootNode
     3300000: pSphere1
     3300002: pSphere10
     3300004: pSphere11
@@ -819,6 +820,7 @@ ModelImporter:
     3300092: polySurface217
     3300094: polySurface218
     3300096: polySurface219
+    3300098: //RootNode
     4300000: tree_generator
     4300002: pSphere1
     4300004: pSphere2
@@ -868,6 +870,7 @@ ModelImporter:
     4300092: polySurface217
     4300094: polySurface218
     4300096: polySurface219
+    4300098: tallTree
     9500000: //RootNode
   materials:
     importMaterials: 1
