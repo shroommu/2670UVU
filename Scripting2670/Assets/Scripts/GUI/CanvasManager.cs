@@ -27,6 +27,7 @@ public class CanvasManager : MonoBehaviour {
 	void Start () {
 
 		EndGame.End += ActivateEndPanel;
+		PlayerHealth.PlayerKilled += ActivateEndPanel;
 		SetPlayerPosActions.Play += ActivateHUD;
 		MainMenuButton.MainMenu += ActivateStart;
 		BackButton.Back += ActivateStart;
@@ -121,19 +122,18 @@ public class CanvasManager : MonoBehaviour {
 	}
 
 	void PlayContinueButton(){
+		Data.Instance.playerHealth = 1;
 		if(Data.Instance.hasCheckpoint == false){
 			continueGameButton.interactable = false;
 			continueCheckpointButton.interactable = false;
 			newGameButton.interactable = true;
 			print("starting from beginning");
-			//startPos = true;
 		}
 		else{
 			continueGameButton.interactable = true;
 			continueCheckpointButton.interactable = true;
 			newGameButton.interactable = false;
 			print("can start from checkpoint");
-			//startPos = false;
 		}
 	}
 }

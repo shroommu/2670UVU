@@ -2281,6 +2281,11 @@ ModelImporter:
     104546: templeCliff:window_grp4 3
     104548: templeCliff:window_grp4 4
     104550: //RootNode
+    104552: templeFront1
+    104554: templeFront1_MeshPart0
+    104556: templeFront1_MeshPart1
+    104558: templeLeftWall
+    104560: templeRightWall
     400000: templeCliff:centerArchPlane
     400002: templeCliff:centerWaterChute_grp
     400004: templeCliff:centerWindowPlane
@@ -4557,6 +4562,11 @@ ModelImporter:
     404546: templeCliff:window_grp4 3
     404548: templeCliff:window_grp4 4
     404550: //RootNode
+    404552: templeFront1
+    404554: templeFront1_MeshPart0
+    404556: templeFront1_MeshPart1
+    404558: templeLeftWall
+    404560: templeRightWall
     2300000: templeCliff:centerArchPlane
     2300002: templeCliff:centerWindowPlane
     2300004: templeCliff:column1
@@ -6709,6 +6719,10 @@ ModelImporter:
     2304298: templeCliff:templeBlockWhole98 1
     2304300: templeCliff:templeBlockWhole99
     2304302: templeCliff:templeBlockWhole99 1
+    2304304: templeFront1_MeshPart0
+    2304306: templeFront1_MeshPart1
+    2304308: templeLeftWall
+    2304310: templeRightWall
     3300000: templeCliff:centerArchPlane
     3300002: templeCliff:centerWindowPlane
     3300004: templeCliff:column1
@@ -8861,6 +8875,10 @@ ModelImporter:
     3304298: templeCliff:templeBlockWhole98 1
     3304300: templeCliff:templeBlockWhole99
     3304302: templeCliff:templeBlockWhole99 1
+    3304304: templeFront1_MeshPart0
+    3304306: templeFront1_MeshPart1
+    3304308: templeLeftWall
+    3304310: templeRightWall
     4300000: templeCliff:templeBlockWhole181
     4300002: templeCliff:templeBlockWhole51
     4300004: templeCliff:templeBlockWhole52
@@ -11013,6 +11031,10 @@ ModelImporter:
     4304298: templeCliff:rightDwayDownPlane
     4304300: templeCliff:leftDwayUpPlane
     4304302: templeCliff:leftDwayDownPlane
+    4304304: templeRightWall
+    4304306: templeLeftWall
+    4304308: templeFront1_MeshPart0
+    4304310: templeFront1_MeshPart1
     9500000: //RootNode
   materials:
     importMaterials: 1

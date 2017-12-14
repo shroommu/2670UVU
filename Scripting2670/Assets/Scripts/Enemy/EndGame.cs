@@ -8,10 +8,9 @@ public class EndGame : MonoBehaviour {
 	public static Action End;
 
 	void OnTriggerEnter(Collider other){
-		if(other.tag == "Player"){
-			print("ending");
-			End();
-			Data.Instance.canPlay = false;
-		}
+		print("ending");
+		print(other);
+		End();
+		Data.Instance.canPlay = false;
 	}
 }

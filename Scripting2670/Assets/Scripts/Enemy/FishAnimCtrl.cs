@@ -5,41 +5,32 @@ using UnityEngine;
 public class FishAnimCtrl : MonoBehaviour {
 
 	private Animator anim;
-	private bool canTest;
+	//private bool canTest;
 
 
 	void Start(){
 		anim = GetComponent<Animator>();
-
-		canTest = true;
-		//StartCoroutine(Test());
+		Idle();
 	}
 
-	IEnumerator Test(){
-		while(canTest){
-			Idle();
-			new WaitForSeconds(2);
-			Swim();
-			new WaitForSeconds(2);
-			Attack();
-			yield return new WaitForSeconds(2);
-		}
-	}
-
-	void Idle(){
+	public void Idle(){
 		anim.SetBool("swimOrIdle", false);
+		print("idling");
 	}
 
-	void Swim(){
+	public void Swim(){
 		anim.SetBool("swimOrIdle", true);
+		print("swimming");
 	}
 
-	void Attack(){
+	public void Attack(){
 		anim.SetTrigger("attack");
+		print("attacking");
 	}
 
-	void Death(){
+	public void Death(){
 		anim.SetTrigger("death");
+		print("dying");
 	}
 
 }

@@ -6,11 +6,9 @@ public class CameraCull : MonoBehaviour {
 
 	void OnBecameInvisible(){
 		enabled = false;
-		print("i'm invisible");
 	}
 
 	void OnBecameVisible(){
 		enabled = true;
-		print("i'm visible");
 	}
 }

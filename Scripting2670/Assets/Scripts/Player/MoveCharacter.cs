@@ -25,6 +25,8 @@ public class MoveCharacter : MonoBehaviour {
 	private TextMesh sprintText;
 	private int sprintCounter;
 	private int sprintCounterDef = 3;
+
+	private bool moveCheckRunning = false;
 	
 
     void Start () {
@@ -63,8 +65,9 @@ public class MoveCharacter : MonoBehaviour {
 		//SetPlayerPosActions.Play -= OnPlay;
 
 		//start movement
-		//canMove = true;
-		StartCoroutine(MoveCheck());
+		if(!moveCheckRunning){
+			StartCoroutine(MoveCheck());
+		}
 	}
 
 	//changes speed based on values sent by SendSpeed script
@@ -77,6 +80,7 @@ public class MoveCharacter : MonoBehaviour {
 
 	//checks for ground, enables/disables jumping based on jumpNum, locks z position
 	IEnumerator MoveCheck() {
+		moveCheckRunning = true;
 		while(Data.Instance.canPlay){
 			
 			//checks for ground and resets jump count to allow another jump
@@ -103,6 +107,7 @@ public class MoveCharacter : MonoBehaviour {
 
 			yield return null;
 		}
+		moveCheckRunning = false;
 	}
 
 	//moves character horizontally
@@ -115,7 +120,7 @@ public class MoveCharacter : MonoBehaviour {
 		}
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
-		//print(tempMove.y);
+
 
 		//starts sprint (left shift)
 		if(Input.GetKeyDown(KeyCode.LeftShift)){
@@ -139,6 +144,7 @@ public class MoveCharacter : MonoBehaviour {
 		}
 	}
 
+	//changes speed to sprinting, counts down sprintCounter, then deactivates sprinting
 	IEnumerator Sprint() {
 		while(sprintCounter > 0 && sprinting){
 			print("sprint is running");
@@ -188,9 +194,6 @@ public class MoveCharacter : MonoBehaviour {
 			jumpNum = 0;
 		}
 	}
-
-	//changes speed to sprinting, counts down sprintCounter, then deactivates sprinting
-
 
 	//restores sprinting ability
 	IEnumerator RestoreSprint(){

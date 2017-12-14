@@ -3080,6 +3080,10 @@ ModelImporter:
     106144: longBanner1
     106146: longBanner2
     106148: longBanner3
+    106150: hangingBanner13
+    106152: longBanner4
+    106154: room1HideWall_grp1
+    106156: templeBlock22
     400000: backWall_grp
     400002: backWallGroup1
     400004: backWallGroup10
@@ -6155,6 +6159,10 @@ ModelImporter:
     406144: longBanner1
     406146: longBanner2
     406148: longBanner3
+    406150: hangingBanner13
+    406152: longBanner4
+    406154: room1HideWall_grp1
+    406156: templeBlock22
     2300000: brokenColumn1:column1
     2300002: brokenColumn1:columnBottom
     2300004: cliff
@@ -8830,6 +8838,10 @@ ModelImporter:
     2305344: longBanner1
     2305346: longBanner2
     2305348: longBanner3
+    2305350: hangingBanner13
+    2305352: longBanner4
+    2305354: room1HideWall_grp1
+    2305356: templeBlock22
     3300000: brokenColumn1:column1
     3300002: brokenColumn1:columnBottom
     3300004: cliff
@@ -11505,6 +11517,10 @@ ModelImporter:
     3305344: longBanner1
     3305346: longBanner2
     3305348: longBanner3
+    3305350: hangingBanner13
+    3305352: longBanner4
+    3305354: room1HideWall_grp1
+    3305356: templeBlock22
     4300000: templeInterior:polySurface1
     4300002: polySurface281
     4300004: polySurface773
@@ -14180,6 +14196,10 @@ ModelImporter:
     4305344: hangingBanner10
     4305346: hangingBanner11
     4305348: hangingBanner12
+    4305350: hangingBanner13
+    4305352: longBanner4
+    4305354: room1HideWall_grp1
+    4305356: templeBlock22
     9500000: //RootNode
   materials:
     importMaterials: 1

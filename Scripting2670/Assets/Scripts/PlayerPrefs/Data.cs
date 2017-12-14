@@ -47,6 +47,8 @@ public class Data {
 	public int fruitNumber = 0;
 	public int stoneNumber = 0;
 
+	public float playerHealth = 1;
+
 	public Transform checkPoint = null;
 	public bool hasCheckpoint = false;
 

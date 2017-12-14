@@ -40,6 +40,7 @@ ModelImporter:
     2300016: palmLeaf7
     2300018: palmLeaf8
     2300020: palmLeaf9
+    2300022: //RootNode
     3300000: palmLeaf
     3300002: palmLeaf1
     3300004: palmLeaf10
@@ -51,6 +52,7 @@ ModelImporter:
     3300016: palmLeaf7
     3300018: palmLeaf8
     3300020: palmLeaf9
+    3300022: //RootNode
     4300000: palmLeaf
     4300002: palmLeaf1
     4300004: palmLeaf2
@@ -62,6 +64,8 @@ ModelImporter:
     4300016: palmLeaf8
     4300018: palmLeaf9
     4300020: palmLeaf10
+    4300022: palmLeaf11
+    4300024: longStemFern
     9500000: //RootNode
   materials:
     importMaterials: 1

@@ -135,6 +135,7 @@ ModelImporter:
     4300042: palmLeaf8
     4300044: palmLeaf9
     4300046: palmLeaf10
+    4300048: palmTree
     9500000: //RootNode
   materials:
     importMaterials: 1

@@ -736,6 +736,8 @@ ModelImporter:
     101456: polySurface984
     101458: polySurface991
     101460: tree_Center
+    101462: treeCenter
+    101464: treeLeaves
     400000: leaves
     400002: //RootNode
     400004: polySurface1008
@@ -1467,6 +1469,8 @@ ModelImporter:
     401456: polySurface984
     401458: polySurface991
     401460: tree_Center
+    401462: treeCenter
+    401464: treeLeaves
     2300000: polySurface1008
     2300002: polySurface1009
     2300004: polySurface1012
@@ -2197,6 +2201,8 @@ ModelImporter:
     2301454: polySurface991
     2301456: tree_Center
     2301458: //RootNode
+    2301460: treeCenter
+    2301462: treeLeaves
     3300000: polySurface1008
     3300002: polySurface1009
     3300004: polySurface1012
@@ -2927,6 +2933,8 @@ ModelImporter:
     3301454: polySurface991
     3301456: tree_Center
     3301458: //RootNode
+    3301460: treeCenter
+    3301462: treeLeaves
     4300000: tree_Center
     4300002: polySurface2110
     4300004: polySurface2109
@@ -3657,6 +3665,8 @@ ModelImporter:
     4301454: polySurface1696
     4301456: polySurface1699
     4301458: mastTree
+    4301460: treeCenter
+    4301462: treeLeaves
     9500000: //RootNode
   materials:
     importMaterials: 1

@@ -16,8 +16,6 @@ public class MoveInput : MonoBehaviour {
 
 	public static Action ClickAction;
 
-	//private bool canPlay = true;
-	public float runTime = 0.01f;
 	private bool isRunning = false;
 
 	void Start(){

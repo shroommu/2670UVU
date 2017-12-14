@@ -51,12 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FishDeathAnim.cs" />
      <Compile Include="Assets\OBJExport\OBJExporter.cs" />
      <Compile Include="Assets\Scripts\Enemy\ActivateEnemiesTrigger.cs" />
      <Compile Include="Assets\Scripts\Enemy\ActivateEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemy\BearAnimCtrl.cs" />
      <Compile Include="Assets\Scripts\Enemy\BearBehavior.cs" />
      <Compile Include="Assets\Scripts\Enemy\BossClearedBehavior.cs" />
+     <Compile Include="Assets\Scripts\Enemy\DamagePlayer.cs" />
      <Compile Include="Assets\Scripts\Enemy\EndGame.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyFlip.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
@@ -64,6 +66,8 @@
      <Compile Include="Assets\Scripts\Enemy\EnemyMove2.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrol.cs" />
      <Compile Include="Assets\Scripts\Enemy\FishAnimCtrl.cs" />
+     <Compile Include="Assets\Scripts\Enemy\FishAttackAnim.cs" />
+     <Compile Include="Assets\Scripts\Enemy\FishSwimAnim.cs" />
      <Compile Include="Assets\Scripts\Enemy\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Enemy\GatorBehavior.cs" />
      <Compile Include="Assets\Scripts\Environmental\AirPocket.cs" />
@@ -108,6 +112,7 @@
      <Compile Include="Assets\Scripts\Player\MoveCharacter.cs" />
      <Compile Include="Assets\Scripts\Player\MoveInput.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAnimCtrl.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\Reset.cs" />
      <Compile Include="Assets\Scripts\Player\RunFromEnemy.cs" />
      <Compile Include="Assets\Scripts\Player\SendToEnemy.cs" />
