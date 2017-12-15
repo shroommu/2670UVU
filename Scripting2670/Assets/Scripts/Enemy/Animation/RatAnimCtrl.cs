@@ -1,26 +1,26 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FishAnimCtrl : MonoBehaviour {
+public class RatAnimCtrl : MonoBehaviour {
 
+	// Use this for initialization
 	private Animator anim;
-	//private bool canTest;
 
 
 	void Start(){
 		anim = GetComponent<Animator>();
-		Idle();
-	}
+    }
 
-	public void Idle(){
-		anim.SetBool("swimOrIdle", false);
+    public void Idle(){
+		anim.SetBool("walkOrIdle", false);
 		print("idling");
 	}
 
-	public void Swim(){
-		anim.SetBool("swimOrIdle", true);
-		print("swimming");
+	public void Walk(){
+		anim.SetBool("walkOrIdle", true);
+		print("walking");
 	}
 
 	public void Attack(){
@@ -32,5 +32,4 @@ public class FishAnimCtrl : MonoBehaviour {
 		anim.SetTrigger("death");
 		print("dying");
 	}
-
 }

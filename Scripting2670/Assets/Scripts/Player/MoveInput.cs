@@ -49,10 +49,10 @@ public class MoveInput : MonoBehaviour {
 				InteractAction();
 			}
 
-			if (Input.GetKey(KeyCode.E)){
+			/*if (Input.GetKey(KeyCode.E)){
 				print("holding E");
 				HoldInteractAction();
-			}
+			}*/
 
 			if (Input.GetKeyUp(KeyCode.E)){
 				print("releasing E");

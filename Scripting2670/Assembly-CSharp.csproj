@@ -51,10 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FishDeathAnim.cs" />
      <Compile Include="Assets\OBJExport\OBJExporter.cs" />
      <Compile Include="Assets\Scripts\Enemy\ActivateEnemiesTrigger.cs" />
      <Compile Include="Assets\Scripts\Enemy\ActivateEnemy.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\FishAnimCtrl.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\FishAttackAnim.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\FishDeathAnim.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\FishSwimAnim.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\GatorAnimCtrl.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\GatorBite.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\RatAnimCtrl.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\RatAttackAnim.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\RatDeathAnim.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Animation\RatWalkAnim.cs" />
      <Compile Include="Assets\Scripts\Enemy\BearAnimCtrl.cs" />
      <Compile Include="Assets\Scripts\Enemy\BearBehavior.cs" />
      <Compile Include="Assets\Scripts\Enemy\BossClearedBehavior.cs" />
@@ -65,9 +74,6 @@
      <Compile Include="Assets\Scripts\Enemy\EnemyKnockBack.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMove2.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrol.cs" />
-     <Compile Include="Assets\Scripts\Enemy\FishAnimCtrl.cs" />
-     <Compile Include="Assets\Scripts\Enemy\FishAttackAnim.cs" />
-     <Compile Include="Assets\Scripts\Enemy\FishSwimAnim.cs" />
      <Compile Include="Assets\Scripts\Enemy\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Enemy\GatorBehavior.cs" />
      <Compile Include="Assets\Scripts\Environmental\AirPocket.cs" />
@@ -99,7 +105,7 @@
      <Compile Include="Assets\Scripts\Item\AttachToPlayer.cs" />
      <Compile Include="Assets\Scripts\Item\DoubleJumpPowerup.cs" />
      <Compile Include="Assets\Scripts\Item\Dropoff.cs" />
-     <Compile Include="Assets\Scripts\Item\Interact.cs" />
+     <Compile Include="Assets\Scripts\Item\InteractSpear.cs" />
      <Compile Include="Assets\Scripts\Item\ObjectPhysics.cs" />
      <Compile Include="Assets\Scripts\Item\Pickup.cs" />
      <Compile Include="Assets\Scripts\Item\PushPull.cs" />

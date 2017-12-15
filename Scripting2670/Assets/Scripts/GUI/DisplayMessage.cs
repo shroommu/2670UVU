@@ -22,7 +22,7 @@ public class DisplayMessage : MonoBehaviour {
 		//GatorBehavior.SendMessage3 = DisplayText;
 		SetCheckpoint.SendMessage4 = DisplayText;
 		Pickup.SendMessage5 = DisplayText;
-		Interact.SendMessage6 = DisplayText;
+		//Interact.SendMessage6 = DisplayText;
 	}
 
 	void DisplayText(){

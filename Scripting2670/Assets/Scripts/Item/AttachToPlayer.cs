@@ -12,7 +12,7 @@ public class AttachToPlayer : MonoBehaviour {
 
 	void Start()
 	{
-		Interact.AttachWeapon = AttachPointHandler;
+		InteractSpear.AttachWeapon = AttachPointHandler;
 	}
 
 	void AttachPointHandler () {
