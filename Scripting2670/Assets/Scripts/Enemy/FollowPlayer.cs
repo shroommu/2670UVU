@@ -7,10 +7,8 @@ using UnityEngine.AI;
 public class FollowPlayer : MonoBehaviour {
 
 	private NavMeshAgent agent;
-
 	private Transform player;
 	private bool following;
-
 	public GameObject leftPatrolTrig;
 
 	void Awake () {
@@ -21,23 +19,18 @@ public class FollowPlayer : MonoBehaviour {
 
 		agent.updateRotation = false;
 		agent.destination = leftPatrolTrig.transform.position;
-
 	}
 
-	void OnTriggerEnter(Collider other){
-		if(other.tag == "Player" && !following){
-			following = true;
-			StartCoroutine("Follow");
-		}
+	void OnTriggerEnter(){
+		following = true;
+		StartCoroutine(Follow());
 	}
 
-	void OnTriggerExit(Collider other){
-		if(other.tag == "Player"){
-			print("not following");
-			following = false;
-			StopCoroutine("Follow");
-			agent.destination = leftPatrolTrig.transform.position;
-		}
+	void OnTriggerExit(){
+		print("not following");
+		following = false;
+		StopCoroutine(Follow());
+		agent.destination = leftPatrolTrig.transform.position;
 	}
 
     private void SendTransformHandler(Transform _transform){
@@ -59,6 +52,5 @@ public class FollowPlayer : MonoBehaviour {
 			agent.destination = player.position;
 			yield return new WaitForFixedUpdate();
 		}
-
 	}
 }

@@ -51,10 +51,10 @@ public class Dropoff : MonoBehaviour {
 			print("i'm working");
 		}
 
-		else{
+		/*else{
 			Data.Instance.message = "Not enough";
 			SendMessage1();
-		}
+		}*/
 
 		
 

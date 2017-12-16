@@ -23,9 +23,7 @@ public class CloseDoor : MonoBehaviour {
 	}
 
 	void Lever(){
-		print("using lever");
 		if(SetIntObj.intObj != null && SetIntObj.intObj == transform){
-			print("inside if statement");
 			switch(triggerType){
 				case Data.TriggerType.CLOSE:
 					door.transform.position = doorClosePos.position;

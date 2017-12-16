@@ -5,61 +5,82 @@ using UnityEngine;
 public class PlayerAnimCtrl : MonoBehaviour {
 
 	private Animator anim;
-	private bool canTest;
 
 
 	void Start(){
 		anim = GetComponent<Animator>();
 
-		canTest = true;
-		StartCoroutine(Test());
+		//StartCoroutine(Test());
 	}
 
 	IEnumerator Test(){
-		while(canTest){
+		while(true){
 			Idle();
-			new WaitForSeconds(2);
+			yield return new WaitForSeconds(2);
+			Walk();
+			yield return new WaitForSeconds(2);
+			Run();
+			yield return new WaitForSeconds(2);
+			Climb();
+			yield return new WaitForSeconds(2);
+			Jump();
+			yield return new WaitForSeconds(.5f);
+			DoubleJump();
+			yield return new WaitForSeconds(2);
+			TreadWater();
+			yield return new WaitForSeconds(2);
 			Swim();
-			new WaitForSeconds(2);
+			yield return new WaitForSeconds(2);
 			Attack();
+			yield return new WaitForSeconds(2);
+			TakeDamage();
+			yield return new WaitForSeconds(2);
+			Death();
 			yield return new WaitForSeconds(2);
 		}
 	}
 
 	void Idle(){
-		anim.SetBool("swimOrTread", false);
+		anim.SetBool("idling", true);
 	}
 
 	void Walk(){
+		anim.SetBool("walking", true);
 	}
 
 	void Run(){
-
+		anim.SetBool("running", true);
 	}
 
 	void Climb(){
-
+		anim.SetBool("climbing", true);
 	}
 
 	void Jump(){
-
+		anim.SetTrigger("jump");
 	}
 
 	void DoubleJump(){
-		
+		anim.SetTrigger("doubleJump");
+	}
+
+	void TreadWater(){
+		anim.SetBool("treadingWater", true);
 	}
 
 	void Swim(){
-		print(anim);
-		anim.SetBool("swimOrTread", true);
+		anim.SetBool("swimming", true);
 	}
 
 	void Attack(){
 		anim.SetTrigger("attack");
 	}
 
+	void TakeDamage(){
+		anim.SetTrigger("takeDamage");
+	}
+
 	void Death(){
 		anim.SetTrigger("death");
 	}
-
 }

@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyKnockBack.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMove2.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyMoveSimple.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyPatrol.cs" />
      <Compile Include="Assets\Scripts\Enemy\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Enemy\GatorBehavior.cs" />

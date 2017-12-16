@@ -26,18 +26,16 @@ public class StickAttack : MonoBehaviour {
 
 	void StartAttack (){
 		if(Data.Instance.weaponsEnabled){
-			print("Clicked");
 			strikeTime += strikeSpeed * Time.deltaTime;
 			strikePosV = strikePos.transform.localPosition;
 			originPosV = originPos.transform.localPosition;
-			StartCoroutine("SpearStrike");
+			StartCoroutine(SpearStrike());
 		}
 	}
 
 	IEnumerator SpearStrike(){
 		while(strikeTime < 1){
 			strikeTime += strikeSpeed * Time.deltaTime;
-			print(strikeTime);
 			gameObject.transform.localPosition = Vector3.Lerp(gameObject.transform.localPosition, strikePosV, strikeTime);
 			yield return null;
 		}
@@ -51,9 +49,8 @@ public class StickAttack : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter(Collider other){
-		if(other.tag == "Enemy"){
-			enemy = other.gameObject;
-			SetEnemy(enemy);
-		}
+		enemy = other.gameObject;
+		SetEnemy(enemy);
+		print(enemy);
 	}
 }

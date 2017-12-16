@@ -6,7 +6,7 @@ using System;
 public class EnemyHealth : MonoBehaviour {
 
 	public float enemyHealth = 1;
-	public int enemyHits;
+	public int enemyHits = 1;
 	private float enemyHealthSub = 1;
 	public GameObject enemyHealthBar;
 	private Vector3 enemyHealthBarScale;

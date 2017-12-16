@@ -30,8 +30,8 @@ public class PlayerHealth : MonoBehaviour {
 
 	void UpdateHealthBar(){
 		print("I've been attacked!");
-		//playerHealthBarScale = new Vector3(Data.Instance.playerHealth, .6f, 1);
-		//playerHealthBar.transform.localScale = playerHealthBarScale;
+		playerHealthBarScale = new Vector3(Data.Instance.playerHealth, 1, 1);
+		playerHealthBar.transform.localScale = playerHealthBarScale;
 		print(Data.Instance.playerHealth);
 
 		if(Data.Instance.playerHealth <= 0){

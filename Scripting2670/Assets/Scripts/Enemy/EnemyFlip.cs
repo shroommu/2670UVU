@@ -19,17 +19,17 @@ public class EnemyFlip : MonoBehaviour {
         enemyHealth = GetComponent<EnemyHealth>();
         agent = GetComponent<NavMeshAgent>();
 
-        StartCoroutine("FlipEnemy");
+        StartCoroutine(FlipEnemy());
     }
 
     IEnumerator FlipEnemy(){
         while(enemyHealth.isActive){
             if(transform.position.x > agent.destination.x){
-                rotValue.y = 0;
+                rotValue.y = 180;
                 facingRight = true;
 			}
             if(transform.position.x <= agent.destination.x){
-                rotValue.y = 180;
+                rotValue.y = 0;
                 facingRight = false;
             }
   

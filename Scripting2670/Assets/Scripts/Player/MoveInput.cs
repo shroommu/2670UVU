@@ -67,7 +67,8 @@ public class MoveInput : MonoBehaviour {
 				JumpDownAction();
 			}
 
-			if (Input.GetMouseButton(0)){
+			if (Input.GetMouseButtonDown(0)){
+				print("clicking");
 				ClickAction();
 			}
 
