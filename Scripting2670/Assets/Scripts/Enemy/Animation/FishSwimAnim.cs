@@ -8,7 +8,6 @@ public class FishSwimAnim : MonoBehaviour {
 
 	void Start () {
 		fishAnimCtrl = transform.parent.GetComponentInChildren<FishAnimCtrl>();
-		print(fishAnimCtrl.gameObject);
 	}
 	
 	void OnTriggerEnter () {

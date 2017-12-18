@@ -9,6 +9,11 @@ public class SendToEnemy : MonoBehaviour {
 
 	void Start () {
 		SendTransform(transform);
+		ActivateEnemiesTrigger.Activate += Activate;
+	}
+
+	void Activate(){
+		SendTransform(transform);
 	}
 
 }

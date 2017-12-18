@@ -7,7 +7,7 @@ public class SetIntObj : MonoBehaviour {
 	public static Transform intObj;
 	//public TextMesh intText;
 
-	void OnTriggerEnter(Collider other){
+	void OnTriggerEnter(){
 		if (transform.parent != null){
 			intObj = transform.parent;
 		}

@@ -13,12 +13,12 @@ public class PushPull : MonoBehaviour {
 	}
 
 	void OnPlay(){
-		MoveInput.HoldInteractAction += Push;
+		MoveInput.InteractAction += Push;
 		MoveInput.ReleaseInteractAction += Release;
 	}
 
 	void Push(){
-		if(SetIntObj.intObj != null && SetIntObj.intObj == gameObject){
+		if(SetIntObj.intObj != null && SetIntObj.intObj == transform){
 			print("running this code");
 			SetIntObj.intObj.transform.parent = player.transform;
 			print("grabbing");
@@ -27,7 +27,7 @@ public class PushPull : MonoBehaviour {
 	}
 
 	void Release(){
-		if(SetIntObj.intObj != null && SetIntObj.intObj == gameObject){
+		if(SetIntObj.intObj != null && SetIntObj.intObj == transform){
 			SetIntObj.intObj.transform.parent = null;
 			canFlip = true;
 		}

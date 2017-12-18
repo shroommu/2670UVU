@@ -18,9 +18,10 @@ public class PlayerHealth : MonoBehaviour {
 		playerHealthBarScale = playerHealthBar.transform.localScale;
 	}
 
-    void TakeDamage(float damageAmount){
+    void TakeDamage(float damageAmount, string enemyName){
         Data.Instance.playerHealth -= damageAmount;
         UpdateHealthBar();
+		print(enemyName);
     }
 
     void Heal(){
@@ -29,7 +30,7 @@ public class PlayerHealth : MonoBehaviour {
     }
 
 	void UpdateHealthBar(){
-		print("I've been attacked!");
+		print("player has been attacked!");
 		playerHealthBarScale = new Vector3(Data.Instance.playerHealth, 1, 1);
 		playerHealthBar.transform.localScale = playerHealthBarScale;
 		print(Data.Instance.playerHealth);

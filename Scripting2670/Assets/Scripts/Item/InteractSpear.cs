@@ -8,6 +8,8 @@ public class InteractSpear : MonoBehaviour {
 	public static Action SendMessage6;
 	public static Action AttachWeapon;
 
+	public GameObject intTrig;
+
 	void Start () {
 		SetPlayerPosActions.Play += OnPlay;
 	}
@@ -21,9 +23,10 @@ public class InteractSpear : MonoBehaviour {
 			print("doing stuff with weapon");
 			Data.Instance.message = "Got Spear";
 			Data.Instance.weaponsEnabled = true;
+			intTrig.SetActive(false);
 			//SendMessage6();
 			AttachWeapon();
-			transform.GetComponentInChildren<Collider>().enabled = false;	
+			//transform.GetComponentInChildren<Collider>().enabled = false;	
 		}
 	}
 }

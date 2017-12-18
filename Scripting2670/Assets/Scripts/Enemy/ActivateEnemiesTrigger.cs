@@ -9,5 +9,7 @@ public class ActivateEnemiesTrigger : MonoBehaviour {
 
 	void OnTriggerEnter(){
 		Activate();
+		print("activating enemies");
+		gameObject.SetActive(false);
 	}
 }

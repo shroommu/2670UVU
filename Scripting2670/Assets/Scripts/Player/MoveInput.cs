@@ -46,13 +46,9 @@ public class MoveInput : MonoBehaviour {
 			}
 
 			if (Input.GetKeyDown(KeyCode.E)){
+				print("pressing E");
 				InteractAction();
 			}
-
-			/*if (Input.GetKey(KeyCode.E)){
-				print("holding E");
-				HoldInteractAction();
-			}*/
 
 			if (Input.GetKeyUp(KeyCode.E)){
 				print("releasing E");

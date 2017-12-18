@@ -14,13 +14,13 @@ public class EnemyKnockBack : MonoBehaviour {
 
 	private EnemyFlip enemyFlip;
 
-	public float knockBackSpeed;
+	public float knockBackSpeed = 1;
 	private float knockBackTime;
 	private Vector3 knockBackDistance;
     public float knockBackDirectionDef = 1;
     private float knockBackDirection;
 
-	void Awake () {
+	void OnEnable () {
 		StickAttack.SetEnemy += SetEnemy;
 
 		enemyFlip = GetComponent<EnemyFlip>();
@@ -29,7 +29,7 @@ public class EnemyKnockBack : MonoBehaviour {
     void SetEnemy(GameObject enemy){
         if(enemy == gameObject){
             thisEnemy = enemy;
-            StartCoroutine("Knockback");
+            StartCoroutine(Knockback());
         }
     }
 
@@ -48,7 +48,11 @@ public class EnemyKnockBack : MonoBehaviour {
         print("Distance" + knockBackDistance);
         
         while(knockBackTime < 1){
+            
             knockBackTime += knockBackSpeed * Time.deltaTime;
+            print(knockBackDistance);
+            print(knockBackTime);
+            print(knockBackSpeed);
 			thisEnemy.transform.position = Vector3.Lerp(thisEnemy.transform.position, knockBackDistance, knockBackTime);
             print("Position" + thisEnemy.transform.position);
 

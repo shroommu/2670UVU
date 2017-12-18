@@ -5,11 +5,11 @@ using System;
 
 public class DamagePlayer : MonoBehaviour {
 
-	public static Action<float> TakeDamage;
+	public static Action<float, string> TakeDamage;
 
 	public float damageAmount;
 
 	void OnTriggerEnter(){
-		TakeDamage(damageAmount);
+		TakeDamage(damageAmount, gameObject.name);
 	}
 }

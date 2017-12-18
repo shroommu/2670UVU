@@ -24,13 +24,13 @@ public class EnemyHealth : MonoBehaviour {
 	void SetEnemy(GameObject enemy){
 		if(enemy == gameObject){
 			thisEnemy = enemy;
-			print("I've been attacked!");
+			print("enemy has been attacked!");
 			enemyHealth -= enemyHealthSub;
 			enemyHealthBarScale = new Vector3(enemyHealth, .6f, 1);
 			enemyHealthBar.transform.localScale = enemyHealthBarScale;
 			print(enemyHealth);
 
-			if(enemyHealth == 0){
+			if(enemyHealth <= 0){
 				KillEnemy();
 			}
 		}

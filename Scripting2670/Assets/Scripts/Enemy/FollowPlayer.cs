@@ -19,9 +19,22 @@ public class FollowPlayer : MonoBehaviour {
 
 		agent.updateRotation = false;
 		agent.destination = leftPatrolTrig.transform.position;
+		print(agent.name);
+	}
+
+	void OnEnable(){
+		agent = transform.parent.GetComponent<NavMeshAgent>();
+
+		SendToEnemy.SendTransform += SendTransformHandler;
+		EnemyKnockBack.AttackKnockback += AttackKnockback;
+
+		agent.updateRotation = false;
+		agent.destination = leftPatrolTrig.transform.position;
+		print(agent);
 	}
 
 	void OnTriggerEnter(){
+		print("following player");
 		following = true;
 		StartCoroutine(Follow());
 	}
@@ -39,7 +52,7 @@ public class FollowPlayer : MonoBehaviour {
 
 	void AttackKnockback(bool knockedBack){
 		if (!knockedBack){
-			StartCoroutine("Follow");
+			StartCoroutine(Follow());
 		}
 
 		else{
