@@ -16,8 +16,12 @@ public class StickAttack : MonoBehaviour {
 	public GameObject originPos;
 	private Vector3 originPosV;
 
+	private Collider coll;
+
 	void Start () {
 		SetPlayerPosActions.Play += OnPlay;
+		coll = GetComponent<Collider>();
+		coll.enabled = false;
 	}
 
 	void OnPlay(){
@@ -34,6 +38,7 @@ public class StickAttack : MonoBehaviour {
 	}
 
 	IEnumerator SpearStrike(){
+		coll.enabled = true;
 		while(strikeTime < 1){
 			strikeTime += strikeSpeed * Time.deltaTime;
 			gameObject.transform.localPosition = Vector3.Lerp(gameObject.transform.localPosition, strikePosV, strikeTime);
@@ -46,6 +51,7 @@ public class StickAttack : MonoBehaviour {
 			yield return null;
 		}
 		strikeTime = .5f;
+		coll.enabled = false;
 	}
 	
 	void OnTriggerEnter(Collider other){

@@ -15,6 +15,8 @@ public class PlayerHealth : MonoBehaviour {
 	void Start(){
         DamagePlayer.TakeDamage = TakeDamage;
         SetPlayerPosActions.Play += Heal;
+		HealPlayer.Heal = Heal;
+
 		playerHealthBarScale = playerHealthBar.transform.localScale;
 	}
 

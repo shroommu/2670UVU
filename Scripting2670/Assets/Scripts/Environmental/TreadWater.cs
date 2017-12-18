@@ -17,7 +17,7 @@ public class TreadWater : MonoBehaviour {
 		Data.Instance.canVertMove = false;
 		Data.Instance.useGravity = false;
 		SendSwimSpeed(Data.Instance.swimSpeed, Data.Instance.climbGravity);
-		print("I'm treading water");
+		//print("I'm treading water");
 	}
 
 	void OnTriggerExit(){
@@ -27,7 +27,7 @@ public class TreadWater : MonoBehaviour {
 			Data.Instance.canVertMove = false;
 			Data.Instance.useGravity = true;
 			SendSwimSpeed(Data.Instance.speed, Data.Instance.gravity);
-			print("I'm leaving the water");
+			//print("I'm leaving the water");
 		}
 	}
 
@@ -35,6 +35,6 @@ public class TreadWater : MonoBehaviour {
 		Data.Instance.canVertMove = true;
 		Data.Instance.useGravity = true;
 		Data.Instance.swimming = true;
-		print("swimming");
+		//print("swimming");
 	}
 }

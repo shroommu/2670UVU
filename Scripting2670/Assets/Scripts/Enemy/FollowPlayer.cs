@@ -62,6 +62,8 @@ public class FollowPlayer : MonoBehaviour {
 
 	IEnumerator Follow () {
 		while (following){
+			print(agent);
+			print(player);
 			agent.destination = player.position;
 			yield return new WaitForFixedUpdate();
 		}

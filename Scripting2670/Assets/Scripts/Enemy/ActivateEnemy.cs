@@ -7,9 +7,6 @@ public class ActivateEnemy : MonoBehaviour {
 
 	void Start () {
 		ActivateEnemiesTrigger.Activate += ActivateThis;
-		/*foreach(Transform child in transform){
-			child.gameObject.SetActive(false);
-		}*/
 	}
 	
 	void ActivateThis(){

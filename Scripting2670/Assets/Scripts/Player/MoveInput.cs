@@ -6,11 +6,9 @@ public class MoveInput : MonoBehaviour {
 
 	public static Action<float> KeyAction;
 	public static Action<float> VertKeyAction;
-	public static Action SprintAction;
 	public static Action JumpAction;
 	public static Action JumpDownAction;
 	public static Action InteractAction;
-	public static Action HoldInteractAction;
 	public static Action ReleaseInteractAction;
 	public static Action SwimAction;
 
@@ -54,25 +52,20 @@ public class MoveInput : MonoBehaviour {
 				print("releasing E");
 				ReleaseInteractAction();
 			}
-			
-			if (Input.GetKeyDown(KeyCode.DownArrow)){
-				JumpDownAction();
-			}
 
 			if (Input.GetKeyDown(KeyCode.S)){
 				JumpDownAction();
+			}
+
+			if (Data.Instance.treading && Input.GetKeyDown(KeyCode.S)){
+				VertKeyAction(Input.GetAxis("Vertical"));
+				SwimAction();
 			}
 
 			if (Input.GetMouseButtonDown(0)){
 				print("clicking");
 				ClickAction();
 			}
-
-			if (Data.Instance.treading && Input.GetKeyDown(KeyCode.DownArrow)){
-				VertKeyAction(Input.GetAxis("Vertical"));
-				SwimAction();
-			}
-
 			yield return null;
 		}
 		isRunning = false;
