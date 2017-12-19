@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+
 public class MoveInput : MonoBehaviour {
 
 	public static Action<float> KeyAction;
@@ -29,7 +30,7 @@ public class MoveInput : MonoBehaviour {
 	}
 
 	IEnumerator RunInput () {
-		while(Data.Instance.canPlay){
+		while(true){
 			isRunning = true;
 			if (Input.GetKeyDown(KeyCode.Space)){
 				JumpAction();
@@ -37,6 +38,7 @@ public class MoveInput : MonoBehaviour {
 
 			if (KeyAction != null){
 				KeyAction(Input.GetAxis("Horizontal"));
+
 			}
 
 			if (VertKeyAction != null){

@@ -5,13 +5,14 @@ using System;
 
 public class SetPlayerPosActions : MonoBehaviour {
 
-	public static Action<bool> SetPlayerPos; //<SetPlayerPos> true = playerstartpos; false = last checkpoint;
+	public static Action<bool> SetPlayerPos; //<SetPlayerPos> true = last checkpoint; false =  playerstartpos;
 	public static Action RestartedLevel;
 	public static Action Play;
 
 	public void ContinueFromCheckPoint(){
 		Data.Instance.canPlay = true;
 		SetPlayerPos(true);
+		Play();
 	}
 
 	public void SetPlayerPosFromBeginning(){

@@ -7,6 +7,7 @@ public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
+
 	float speed;
 	float gravity;
 
@@ -53,19 +54,19 @@ public class MoveCharacter : MonoBehaviour {
 
 	//enables inputs once play button pressed
 	void OnPlay () {
-
+		print("subscribing");
 		//Action subscriptions
 		ChangeSpeed.SendSpeed = SendSpeedHandler;
 		TreadWater.SendSwimSpeed = SendSpeedHandler;
 		MoveInput.JumpAction = Jump;
-		MoveInput.KeyAction += Move;
-		MoveInput.VertKeyAction += VertMove;
+		MoveInput.KeyAction = Move;
+		MoveInput.VertKeyAction = VertMove;
 		ChangeSpeed.DisableJump = DisableJump;
 		ChangeSpeed.EnableJump = EnableJump;
-		//SetPlayerPosActions.Play -= OnPlay;
-
+		print("got this far");
 		//start movement
 		if(!moveCheckRunning){
+			print("starting movecheck");
 			StartCoroutine(MoveCheck());
 		}
 	}
@@ -80,8 +81,12 @@ public class MoveCharacter : MonoBehaviour {
 
 	//checks for ground, enables/disables jumping based on jumpNum, locks z position
 	IEnumerator MoveCheck() {
+		print("movecheck running");
 		moveCheckRunning = true;
+		print("entering while loop");
 		while(Data.Instance.canPlay){
+
+			print("i'm running");
 			
 			//checks for ground and resets jump count to allow another jump
 			if ((cc.isGrounded && jumpNum > 0) || (Data.Instance.treading && jumpNum > 0) ){
@@ -89,7 +94,7 @@ public class MoveCharacter : MonoBehaviour {
 			}
 
 			//locks player z position
-			if (cc.transform.position.z != -1){
+			if (transform.position.z != -1){
 				Vector3 temp = cc.transform.position;
 				temp.z = -1;
 				transform.position = temp; 
@@ -112,15 +117,18 @@ public class MoveCharacter : MonoBehaviour {
 
 	//moves character horizontally
 	void Move (float _movement) {
+		//print(_movement);
+
 		if(Data.Instance.useGravity){
 			tempMove.y -= gravity*Time.deltaTime;
 		}
 		else{
 			tempMove.y = 0;
 		}
-		tempMove.x = _movement*speed*Time.deltaTime;
-		cc.Move(tempMove);
 
+		tempMove.x = _movement*speed*Time.deltaTime;
+
+		cc.Move(tempMove);
 
 		//starts sprint (left shift)
 		if(Input.GetKeyDown(KeyCode.LeftShift)){
@@ -231,8 +239,8 @@ public class MoveCharacter : MonoBehaviour {
 	//resubscribes to MoveInput
 	void UnfreezeControls(){
 		MoveInput.JumpAction = Jump;
-		MoveInput.KeyAction += Move;
-		MoveInput.VertKeyAction += VertMove;
+		MoveInput.KeyAction = Move;
+		MoveInput.VertKeyAction = VertMove;
 	}
 
 }

@@ -25,7 +25,7 @@ public class SetPlayerPosition : MonoBehaviour {
 		//print(Data.Instance.hasCheckpoint);
 	}
 
-	void StartSetPlayerPos(bool hasCheckpoint){
+	public void StartSetPlayerPos(bool hasCheckpoint){
 		if(!isRunning){
 			resetting = true;
 			StartCoroutine(SetPlayerPos(hasCheckpoint));
@@ -36,9 +36,10 @@ public class SetPlayerPosition : MonoBehaviour {
 	//respawns player
 	IEnumerator SetPlayerPos (bool hasCheckpoint) {
 		//print(hasCheckpoint);
+		isRunning = true;
 		while(resetting){
-			isRunning = true;
-			//print("Resetting");
+			
+			print("Resetting");
 			Data.Instance.canPlay = false;
 
 			if(!hasCheckpoint){
@@ -51,11 +52,12 @@ public class SetPlayerPosition : MonoBehaviour {
 				print("returning to checkpoint");
 			}
 
-			yield return new WaitForSeconds(1);
-			//RespawnItems();
 			Data.Instance.canPlay = true;
-			isRunning = false;
+			
 			resetting = false;
+
+			yield return null;
 		}
+		isRunning = false;
 	}
 }

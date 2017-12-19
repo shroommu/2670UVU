@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 0
     width: 250
     height: 485
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_MinSize: {x: 817, y: 392}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
-  controlID: 34
+  controlID: 48
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -114,8 +114,8 @@ MonoBehaviour:
     y: 485
     width: 1259
     height: 246
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 540, y: 392}
   m_MaxSize: {x: 18010, y: 14042}
   vertical: 1
-  controlID: 35
+  controlID: 49
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_MinSize: {x: 540, y: 271}
   m_MaxSize: {x: 18010, y: 10021}
   vertical: 0
-  controlID: 36
+  controlID: 131
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,14 +389,14 @@ MonoBehaviour:
     width: 695
     height: 464
   m_SceneLighting: 1
-  lastFramingTime: 4834.432735630732
+  lastFramingTime: 7931.152931709498
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 278.9733, y: 19.481394, z: -11.399048}
+    m_Target: {x: 264.5, y: 16.82, z: -0.1029675}
     speed: 2
-    m_Value: {x: 278.9733, y: 19.481394, z: -11.399048}
+    m_Value: {x: 264.5, y: 16.82, z: -0.1029675}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -419,13 +419,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.14824472, y: -0.015726246, z: 0.0023607095, w: -0.98883635}
+    m_Target: {x: -0.090168215, y: 0.023006596, z: -0.0020254625, w: -0.9957007}
     speed: 2
-    m_Value: {x: -0.14824274, y: -0.015726035, z: 0.002360678, w: -0.9888232}
+    m_Value: {x: -0.09016445, y: 0.023005636, z: -0.002025378, w: -0.9956592}
   m_Size:
-    m_Target: 82.05673
+    m_Target: 22.714275
     speed: 2
-    m_Value: 82.05673
+    m_Value: 22.714275
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -538,23 +538,23 @@ MonoBehaviour:
     height: 464
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 404f0000
-    m_LastClickedID: 20288
-    m_ExpandedIDs: f099fcff16cfffff18cfffff1acfffffb2d2ffff1afcffff00000000fa4b0000765700004c590000ce590000
+    m_SelectedIDs: 9c5c0000
+    m_LastClickedID: 23708
+    m_ExpandedIDs: 76f1faff8a7bfcffb2dcfcfffa5ffdffc4cdffffcacdffffaafaffffacfaffffc4faffffc8faffffdafaffffdefaffffe4faffffe6faffff36fbffff40fbffff1afcffff000000006a4f0000f65200007c5b00002660000054620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: healthBar
-      m_OriginalName: healthBar
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 19450
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Inspector
+    m_Text: Debug
     m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
@@ -589,8 +589,8 @@ MonoBehaviour:
     y: 92
     width: 275
     height: 710
-  m_ScrollPosition: {x: 0, y: 0}
-  m_InspectorMode: 0
+  m_ScrollPosition: {x: 0, y: 231.95508}
+  m_InspectorMode: 1
   m_PreviewResizer:
     m_CachedPref: 202
     m_ControlHash: -371814159
@@ -634,19 +634,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Environmental
+    - Assets/Scripts/Player
   m_ViewMode: 1
   m_StartGridSize: 32
   m_LastFolders:
-  - Assets/Scripts/Environmental
+  - Assets/Scripts/Player
   m_LastFoldersGridSize: 32
   m_LastProjectPath: C:\Users\Alexa\Documents\Github\2670UVU\Scripting2670
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 325}
-    m_SelectedIDs: e8270000
-    m_LastClickedID: 10216
-    m_ExpandedIDs: 00000000b42600002e280000e22800005e290000ac290000c8290000922a0000f82a0000002b0000bc41000004430000384400004844000054440000e84400000645000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 298}
+    m_SelectedIDs: f2280000
+    m_LastClickedID: 10482
+    m_ExpandedIDs: 00000000b62600003e280000f22800006e290000bc290000d8290000a22a0000082b0000102b0000cc41000014430000484400005844000064440000f84400001645000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -674,7 +674,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b42600002e280000e22800005e290000ac290000c8290000922a0000f82a0000002b0000bc41000004430000384400004844000054440000e844000006450000
+    m_ExpandedIDs: 00000000b62600003e280000f22800006e290000bc290000d8290000a22a0000082b0000102b0000cc41000014430000484400005844000064440000f844000016450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
