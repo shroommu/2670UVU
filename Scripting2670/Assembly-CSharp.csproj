@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\Enemy\BossClearedBehavior.cs" />
      <Compile Include="Assets\Scripts\Enemy\DamagePlayer.cs" />
      <Compile Include="Assets\Scripts\Enemy\EndGame.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyFishLerp.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyFlip.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyKnockBack.cs" />

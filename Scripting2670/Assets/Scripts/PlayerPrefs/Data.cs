@@ -45,7 +45,7 @@ public class Data {
 
 	public int berryNumber = 0;
 	public int fruitNumber = 0;
-	public int stoneNumber = 0;
+	public int fishNumber = 0;
 
 	public float playerHealth = 1;
 
@@ -70,7 +70,7 @@ public class Data {
     public enum PickupType{
 		BERRY,
 		FRUIT,
-        STONE,
+        FISH,
         BREATHPU,
         WATERFALLPU
 	}
@@ -134,7 +134,7 @@ public class Data {
 
 		Instance.berryNumber = 0;
 		Instance.fruitNumber = 0;
-		Instance.stoneNumber = 0;
+		Instance.fishNumber = 0;
 
 		Instance.checkPoint = null;
 		Instance.hasCheckpoint = false;

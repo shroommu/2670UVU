@@ -6,7 +6,6 @@ using System;
 public class Dropoff : MonoBehaviour {
 
 	public Data.BossType bossType;
-	//private Data.PickupType pickupType;
 
 	public static Action<int, int> SubtractFromScore; //<pickupNum, dropoffNum>
 	public static Action SendMessage1;
@@ -14,30 +13,21 @@ public class Dropoff : MonoBehaviour {
 
 	public int berryDropoffNum;
 	public int fruitDropoffNum;
-	public int stoneDropoffNum;
+	public int fishDropoffNum;
 
 	public bool requiresBerry;
 	public bool requiresFruit;
-	public bool requiresStone;
+	public bool requiresFish;
 
 	private int bossNum;
 	private int pickupNum;
-
-	/*public enum BossType{
-        BEAR,
-        ALLIGATOR
-    }*/
-
-	/*void Start(){
-		switch(bossType){
-			case Data.Instance.
-		}
-	}*/
+	private bool canPass = false;
 
 	void OnTriggerEnter (){
 		if(requiresBerry && Data.Instance.berryNumber >= berryDropoffNum){
 			pickupNum = 0;
 			SubtractFromScore(pickupNum, berryDropoffNum);
+			canPass = true;
 		}
 
 		if(requiresFruit && Data.Instance.fruitNumber >= fruitDropoffNum){
@@ -45,30 +35,25 @@ public class Dropoff : MonoBehaviour {
 			SubtractFromScore(pickupNum, fruitDropoffNum);
 		}
 
-		if(requiresStone && Data.Instance.stoneNumber >= stoneDropoffNum){
+		if(requiresFish && Data.Instance.fishNumber >= fishDropoffNum){
 			pickupNum = 2;
-			SubtractFromScore(pickupNum, stoneDropoffNum);
-			print("i'm working");
+			SubtractFromScore(pickupNum, fishDropoffNum);
+			canPass = true;
+		}		
+
+		if(canPass){
+			switch (this.bossType){
+				case Data.BossType.BEAR:
+					bossNum = 0;
+					break;
+
+				case Data.BossType.ALLIGATOR:
+					bossNum = 1;
+					break;
+			}
+			print(bossNum);
+			LetPlayerPass(bossNum);
+			print("dropping off");
 		}
-
-		/*else{
-			Data.Instance.message = "Not enough";
-			SendMessage1();
-		}*/
-
-		
-
-		switch (bossType){
-			case Data.BossType.BEAR:
-				bossNum = 0;
-				break;
-
-			case Data.BossType.ALLIGATOR:
-				bossNum = 1;
-				break;
-		}
-
-		LetPlayerPass(bossNum);
-		print("dropping off");
 	}
 }

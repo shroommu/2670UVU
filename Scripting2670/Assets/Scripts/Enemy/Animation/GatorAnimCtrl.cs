@@ -21,4 +21,10 @@ public class GatorAnimCtrl : MonoBehaviour {
 		anim.SetTrigger("swimAway");
 		print("swimming away");
 	}
+
+	public void StopGatorSwim(){
+		GatorBehavior gatorBehavior;
+		gatorBehavior = transform.parent.GetComponent<GatorBehavior>();
+		gatorBehavior.StopGatorSwim();
+	}
 }

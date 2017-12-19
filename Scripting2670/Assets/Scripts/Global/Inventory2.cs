@@ -10,23 +10,12 @@ public class Inventory2 : MonoBehaviour {
 
 	public Text berryText;
 	public Text fruitText;
-	public Text stoneText;
-	//private string message;
+	public Text fishText;
 
 	void Start () {
 		Pickup.AddToScore = AddScore;
-		SetPlayerPosActions.Play += OnPlay;
 		Dropoff.SubtractFromScore += SubScore;
-
-		/*berryText.gameObject.SetActive(false);
-		fruitText.gameObject.SetActive(false);
-		stoneText.gameObject.SetActive(false);*/
-	}
-
-	void OnPlay(){
-		/*berryText.gameObject.SetActive(true);
-		fruitText.gameObject.SetActive(true);
-		stoneText.gameObject.SetActive(true);*/
+		EnemyHealth.AddFish = AddScore;
 	}
 
 	void AddScore(int pickupType){
@@ -44,9 +33,9 @@ public class Inventory2 : MonoBehaviour {
 				break;
 
 			case 2:
-				++Data.Instance.stoneNumber;
-				Data.Instance.message =  "Got stone";
-				stoneText.text = "Stones Found: " + Data.Instance.stoneNumber;
+				++Data.Instance.fishNumber;
+				Data.Instance.message =  "Got fish";
+				fishText.text = "Fish Found: " + Data.Instance.fishNumber;
 				break;
 		}
 		SendMessage0();
@@ -65,41 +54,10 @@ public class Inventory2 : MonoBehaviour {
 				break;
 
 			case 2:
-				Data.Instance.stoneNumber -= dropoffNum;
-				Data.Instance.message =  "Got stone";
-				stoneText.text = "Stones Found: " + Data.Instance.stoneNumber;
+				Data.Instance.fishNumber -= dropoffNum;
+				fishText.text = "Fish Found: " + Data.Instance.fishNumber;
 				break;
 		}
 		SendMessage0();
 	}
-
-
-	/*void BerryScore(){
-		++Data.Instance.berryNumber;
-		UpdateScore();
-		Data.Instance.message =  "Got berry";
-		SendMessage0();
-	}
-
-	void FruitScore(){
-		++Data.Instance.fruitNumber;
-		UpdateScore();
-		Data.Instance.message = "Got fruit";
-		SendMessage0();
-	}
-
-	void StoneScore(){
-		++Data.Instance.stoneNumber;
-		UpdateScore();
-		Data.Instance.message = "Got stone";
-		
-	}
-
-	void SubtractFromScore(){
-		
-		Data.Instance.berryNumber -= Dropoff.berryDropoffNum;
-		
-		UpdateScore();
-	}*/
-
 }

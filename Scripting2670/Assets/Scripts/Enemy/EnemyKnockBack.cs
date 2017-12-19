@@ -1,10 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 using System;
-
-[RequireComponent(typeof(NavMeshAgent))]
 
 public class EnemyKnockBack : MonoBehaviour {
 
@@ -50,9 +47,6 @@ public class EnemyKnockBack : MonoBehaviour {
         while(knockBackTime < 1){
             
             knockBackTime += knockBackSpeed * Time.deltaTime;
-            print(knockBackDistance);
-            print(knockBackTime);
-            print(knockBackSpeed);
 			thisEnemy.transform.position = Vector3.Lerp(thisEnemy.transform.position, knockBackDistance, knockBackTime);
             print("Position" + thisEnemy.transform.position);
 

@@ -6,8 +6,6 @@ using System;
 public class Pickup : MonoBehaviour {
 
 	public static Action<int> AddToScore; //<scoreType>
-	//public static Action AddToFruitScore;
-	//public static Action AddToStoneScore;
 
 	public static Action BreathPU;
 	public static Action WaterfallPU;
@@ -31,7 +29,7 @@ public class Pickup : MonoBehaviour {
 				AddToScore(scoreType);
 				break;
 
-			case Data.PickupType.STONE:
+			case Data.PickupType.FISH:
 				scoreType = 2;
 				AddToScore(scoreType);
 				break;

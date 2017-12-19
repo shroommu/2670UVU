@@ -11,88 +11,84 @@ public class BossClearedBehavior : MonoBehaviour {
 	public GameObject bossDeposit;
 	public GameObject bossText;
 
-	public GameObject bossMove;
+	public bool isSwimming = false;
+	public float speed;
+	public int direction;
 
-	/*public GameObject bearBoss;
-	public GameObject bearBossDeposit;
-	public GameObject bearBossText;
+	public GameObject playerWall;
+	public GameObject biteTrigger;
 
-	public GameObject gatorBoss;
-	public GameObject gatorBossDeposit;
-	public GameObject gatorBossText;*/
-
-	/*public enum BossType{
-        BEAR,
-        ALLIGATOR
-    }*/
-
-
+	public GameObject log;
 
 	void Start () {
-		Dropoff.LetPlayerPass = BossBehavior;
+		Dropoff.LetPlayerPass += BossBehavior;
 	}
 	
 	void BossBehavior(int bossNum){
+		print(bossNum);
+		print("checking boss type");
 		switch(bossType){
 			case Data.BossType.BEAR:
 				thisBossNum = 0;
+				print("bear");
 				break;
 			
 			case Data.BossType.ALLIGATOR:
 				thisBossNum = 1;
+				print("gator");
 				break;
 		}
+
 		if(thisBossNum == bossNum){
-			print("i'm working");
+			//print("i'm working");
 			switch(bossType){
 				case Data.BossType.BEAR:
 					boss.SetActive(false);
 					bossDeposit.SetActive(false);
-					bossText.SetActive(false);
+					//bossText.SetActive(false);
 					break;
 
 				case Data.BossType.ALLIGATOR:
-					boss.transform.position = bossMove.transform.position;
+
+					GatorAnimCtrl gatorAnimCtrl;
+					gatorAnimCtrl = GetComponentInChildren<GatorAnimCtrl>();
+
+					gatorAnimCtrl.SwimAway();
+
+					/*foreach(Transform child in transform){
+						print(child);
+						Collider coll;
+						coll = GetComponent<Collider>();
+
+						print(coll);
+						
+						if (coll != null){
+							print("disabling collider");
+							coll.enabled = false;
+						}
+					}*/
+
+					biteTrigger.SetActive(false);
+					playerWall.SetActive(false);
+
+					isSwimming = true;
+					StartCoroutine(GatorSwim());
 					bossDeposit.SetActive(false);
-					bossText.SetActive(false);
+					log.SetActive(true);
 					break;
 			}
 		}
 	}
-		
 
-		/*boss.SetActive(false);
-		bossDeposit.SetActive(false);
-		bossText.SetActive(false);*/
+	IEnumerator GatorSwim(){
+		while(isSwimming){
+			boss.transform.position += new Vector3(speed * direction, 0, 0);
+			yield return null;
+		}
+	}
 
-		/*bearBoss.SetActive(false);
-		bearBossDeposit.SetActive(false);
-		bearBossText.SetActive(false);
-
-		print("Doing Bear Stuff");*/
-	
-
-	/*void BearBehavior(){
+	public void StopGatorSwim(){
+		isSwimming = false;
 		boss.SetActive(false);
-		bossDeposit.SetActive(false);
-		bossText.SetActive(false);
-
-		bearBoss.SetActive(false);
-		bearBossDeposit.SetActive(false);
-		bearBossText.SetActive(false);
-
-		print("Doing Bear Stuff");
-	}*/
-
-	/*void GatorBehavior(){
-		boss.SetActive(false);
-		bossDeposit.SetActive(false);
-		bossText.SetActive(false);
-
-		gatorBoss.SetActive(false);
-		gatorBossDeposit.SetActive(false);
-		gatorBossText.SetActive(false);
-
-		print("Doing Gator stuff");
-	}*/
+	}
 }
