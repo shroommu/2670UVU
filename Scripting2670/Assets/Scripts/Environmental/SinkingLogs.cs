@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
-
 public class SinkingLogs : MonoBehaviour {
 
 	private bool sinking = false;
@@ -11,14 +9,12 @@ public class SinkingLogs : MonoBehaviour {
 	public GameObject respawnPoint;
 
 	void Start (){
-		rb = GetComponent<Rigidbody>();
+		rb = transform.parent.GetComponent<Rigidbody>();
 	}
 
-	void OnTriggerEnter (Collider other){
-		if (other.tag == "Player"){
-			sinking = true;
-			StartCoroutine("SinkLog");
-		}
+	void OnTriggerEnter (){
+		sinking = true;
+		StartCoroutine(SinkLog());
 	}
 
 	IEnumerator SinkLog(){
@@ -33,6 +29,6 @@ public class SinkingLogs : MonoBehaviour {
 	}
 
 	void Respawn(){
-		transform.position = respawnPoint.transform.position;
+		transform.parent.position = respawnPoint.transform.position;
 	}
 }

@@ -81,12 +81,8 @@ public class MoveCharacter : MonoBehaviour {
 
 	//checks for ground, enables/disables jumping based on jumpNum, locks z position
 	IEnumerator MoveCheck() {
-		print("movecheck running");
 		moveCheckRunning = true;
-		print("entering while loop");
 		while(Data.Instance.canPlay){
-
-			print("i'm running");
 			
 			//checks for ground and resets jump count to allow another jump
 			if ((cc.isGrounded && jumpNum > 0) || (Data.Instance.treading && jumpNum > 0) ){

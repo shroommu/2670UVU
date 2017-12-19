@@ -10,6 +10,7 @@ public class EndGame : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		print("ending");
 		print(other);
+		print(gameObject);
 		End();
 		Data.Instance.canPlay = false;
 	}
