@@ -5,7 +5,7 @@ using UnityEngine;
 /*
  * 
  * */
-public abstract class ABS_Elements : ScriptableObject
+public abstract class ABS_Elemental : ScriptableObject
 {
 	public enum elementType
 	{
