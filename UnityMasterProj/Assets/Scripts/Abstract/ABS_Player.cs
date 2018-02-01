@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
- * 
- * */
+ * Abstract player scriptable object
+ * REMINDER: DO NOT INSTANTIATE
+ * contains default player data
+ */
 public abstract class ABS_Player : ScriptableObject 
 {
 	// 
@@ -20,7 +22,18 @@ public abstract class ABS_Player : ScriptableObject
 	public float walkSpeed = 5.0f;
 	public float runSpeed = 10.0f;
 
-	public abstract float Jump (float _verticalVelocity);
-	public abstract float ApplyGravity (float _verticalVelocity);
+	//abstract function that allows the player to jump
+	//parameter: player vertical velocity
+	//returns: new player velocity based off jump
+	public abstract float Jump(float _verticalVelocity);
+	
+	//abstract function that returns the player vertical velocity to default
+	//parameter: player vertical velocity
+	//returns: default vertical velocity
+	public abstract float ApplyGravity(float _verticalVelocity);
+	
+	//abstract function that changes players speed to run or walk
+	//parameter player speed
+	//returns new speed
 	public abstract float Run(float _speed);
 }
