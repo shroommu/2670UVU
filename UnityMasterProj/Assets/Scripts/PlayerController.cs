@@ -8,13 +8,18 @@ public class PlayerController : MonoBehaviour
 {
 	private CharacterController cc;
 	public SO_Player player;
+	public List<ABS_Abilities> abilities;
+
 	private float verticalVelocity = 0.0f;
 	private float speed = 0;
 	private Vector3 move = Vector3.zero;
 
+	private Animator weaponAnims;
+
 	void Start() 
 	{
 		cc = GetComponent<CharacterController>();
+		weaponAnims = GetComponent<Animator>();
 	}
 
 	void Update() 
@@ -40,6 +45,11 @@ public class PlayerController : MonoBehaviour
 			//this makes the character controller move based off the local rotation and not global
 			move = transform.TransformDirection(move);
 			cc.Move(move * Time.deltaTime);
+		}
+
+		if(Input.GetButtonDown("Ability01"))
+		{
+			abilities[0].UseAbility("Weapon_Swing", weaponAnims);
 		}
 	}
 }
