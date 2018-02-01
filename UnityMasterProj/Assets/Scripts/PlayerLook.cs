@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This class controlls where the camera looks based off of mouse movement
 public class PlayerLook : MonoBehaviour {
 
 	public Transform playerBody;
@@ -11,6 +12,7 @@ public class PlayerLook : MonoBehaviour {
 
 	void Awake()
 	{
+		//locks the cursor to the center of the screne and turns it invisible
 		Cursor.lockState = CursorLockMode.Locked;
 	}
 
@@ -22,6 +24,7 @@ public class PlayerLook : MonoBehaviour {
 
 			xAxisClamp -= yRotation;
 
+			//there has to be two rotations in order to prevent the character's body from tilting
 			Vector3 cameraRotation = transform.rotation.eulerAngles;
 			Vector3 playerRotation = playerBody.rotation.eulerAngles;
 
@@ -29,6 +32,7 @@ public class PlayerLook : MonoBehaviour {
 			cameraRotation.z = 0;
 			playerRotation.y += xRotation;
 
+			//prevents the weird flipping caused by the mouse too far up or down
 			if (xAxisClamp > 90) {
 				xAxisClamp = 90;
 				playerRotation.x = 90;

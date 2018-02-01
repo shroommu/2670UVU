@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// This class controlls player movement based off the information contained in the Player scriptable object
 public class PlayerController : MonoBehaviour 
 {
 	private CharacterController cc;
@@ -27,7 +28,7 @@ public class PlayerController : MonoBehaviour
 		{
 			verticalVelocity = player.ApplyGravity (verticalVelocity);
 		}
-			
+	
 		speed = player.Run (speed);
 
 		move = Vector3.zero;
@@ -35,6 +36,7 @@ public class PlayerController : MonoBehaviour
 		move.z = Input.GetAxis ("Vertical") * speed;
 		move.y = verticalVelocity;
 
+		//this makes the character controller move based off the local rotation and not global
 		move = transform.TransformDirection (move);
 		cc.Move (move * Time.deltaTime);
 		}
