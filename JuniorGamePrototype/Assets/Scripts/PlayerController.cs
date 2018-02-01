@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
 	
 		speed = player.Run (speed);
 
-		rotation = transform.rotation.eulerAngles;
+		//rotation = transform.rotation.eulerAngles;
 
 		rotation.y = Input.GetAxis ("Mouse X");
 		camRotation.x = Input.GetAxis ("Mouse Y");
@@ -48,7 +48,10 @@ public class PlayerController : MonoBehaviour
 		move.z = Input.GetAxis ("Vertical") * speed;
 		move.y = verticalVelocity;
 
-		cc.Move (move * Time.deltaTime);
-		transform.rotation = Quaternion.Euler (rotation);
+		cc.transform.position += transform.forward * speed * Time.deltaTime;
+		//transform.rotation = Quaternion.Euler (rotation);
+
+		cc.transform.Rotate (0, rotation.y, 0);
+		Camera.main.transform.localRotation = Quaternion.Euler(rotation.z, 0, 0);
 	}
 }
