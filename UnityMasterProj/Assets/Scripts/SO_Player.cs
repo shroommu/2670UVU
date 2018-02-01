@@ -36,9 +36,9 @@ public class SO_Player : ABS_Player
 		parameter: player speed
 		returns: new speed based on if player is running
 	*/
-	public override float Run (float _speed)
+	public override float Run(float _speed)
 	{
-		if (Input.GetButton ("Sprint")) 
+		if (Input.GetButton("Sprint")) 
 		{
 			_speed = runSpeed;
 		}

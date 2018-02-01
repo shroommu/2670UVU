@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //This class controlls where the camera looks based off of mouse movement
-public class PlayerLook : MonoBehaviour {
+public class PlayerLook : MonoBehaviour 
+{
 
 	public Transform playerBody;
 	public float mouseSensitivity;
@@ -18,9 +19,10 @@ public class PlayerLook : MonoBehaviour {
 
 	void Update()
 	{
-		if (Time.timeScale == 1) {
-			float xRotation = Input.GetAxis ("Mouse X") * mouseSensitivity;
-			float yRotation = Input.GetAxis ("Mouse Y") * mouseSensitivity;
+		if (Time.timeScale == 1) 
+		{
+			float xRotation = Input.GetAxis("Mouse X") * mouseSensitivity;
+			float yRotation = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
 			xAxisClamp -= yRotation;
 
@@ -32,17 +34,20 @@ public class PlayerLook : MonoBehaviour {
 			cameraRotation.z = 0;
 			playerRotation.y += xRotation;
 
-			//prevents the weird flipping caused by the mouse too far up or down
-			if (xAxisClamp > 90) {
+			//prevents the weird jerking caused by the mouse being too far up or down
+			if(xAxisClamp > 90) 
+			{
 				xAxisClamp = 90;
-				playerRotation.x = 90;
-			} else if (xAxisClamp < -90) {
+				cameraRotation.x = 90;
+			} 
+			else if(xAxisClamp < -90) 
+			{
 				xAxisClamp = -90;
-				playerRotation.x = 270;
+				cameraRotation.x = 270;
 			}
 
-			transform.rotation = Quaternion.Euler (cameraRotation);
-			playerBody.rotation = Quaternion.Euler (playerRotation);  
+			transform.rotation = Quaternion.Euler(cameraRotation);
+			playerBody.rotation = Quaternion.Euler(playerRotation);  
 		}
 	}
 }
