@@ -2,11 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/*
- * 
- * */
 public abstract class ABS_Abilities : ScriptableObject 
 {
-	public int cooldownTimer;
-
+	public float coolDownTime = 5.0f;
 }
