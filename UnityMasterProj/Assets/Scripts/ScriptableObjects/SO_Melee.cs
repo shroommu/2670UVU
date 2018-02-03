@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Melee Attack", menuName = "Scriptable Objects/Abilities/Melee Attack")]
+[CreateAssetMenu(fileName = "New Recovery", menuName = "Scriptable Objects/Abilities/Melee Attack")]
 public class SO_Melee : ABS_Abilities
 {
 	public float damage;
-	public float knockback;
+	public GameObject weaponAsset;
+
+	public override void UseAbility(string _triggerName, Animator _anim)
+	{
+		_anim.SetTrigger(_triggerName);
+	}
 }
