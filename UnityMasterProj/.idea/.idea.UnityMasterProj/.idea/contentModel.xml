@@ -46,6 +46,8 @@
           <e p="MeteorCrash.cs" t="Include" />
           <e p="MeteorSpawn.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="Refresh.cs" t="Include" />
+          <e p="RefreshEditor.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="SO_EnemySmall.cs" t="Include" />
             <e p="SO_Melee.cs" t="Include" />
