@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +10,7 @@ public class EnemySpawner : MonoBehaviour {
 
 	public int defaultEnemyPoolSize = 20;														//default number of enemies that the game will use, used when instancating the first pools of enemies
 	public Enemy smallEnemySO, medEnemySO, bigEnemySO;											//stores the enemie Scriptable objects, used to instanciate more enemies
-	private string smallName, medName, bigName; 												//used to make the switch statement in pull enemy work
+	//private string smallName, medName, bigName; 												//used to make the switch statement in pull enemy work
 	[HideInInspector] public List<GameObject> smallEnemies, medEnemies, bigEnemies;				//list of enemy GOs that are pooled offscreen
 	[HideInInspector] public int lastSmlEn, lastMedEn, lastBigEn;								//stores the index of the last enemy accessed in each list, for ease of access
 	[HideInInspector] public int roundEnemy = 0;												//stores the index of the last enemy spawned from the round data
@@ -86,7 +86,7 @@ public class EnemySpawner : MonoBehaviour {
 		}
 		if (currentRound.enemies [roundEnemy].EnemyType == medEnemySO.EnemyType) {
 			currentRound.EnemySpawn (FindInactive (medEnemies, medEnemySO, lastBigEn), loc);
-		} else {currentRound.EnemySpawn (FindInactive (smallEnemies, smallEnemySO, lastSmlEn), loc);}
+		}
 	}
 
 	private void ChangeRound(){
