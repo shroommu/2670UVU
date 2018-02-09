@@ -511,13 +511,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84eabb705b1712a4cae3d7623d9b802b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meteor: {fileID: 0}
+  meteor: {fileID: 1396774582}
   target: {fileID: 0}
-  minX: 0
-  maxX: 0
-  minY: 0
-  maxY: 0
-  spawnHeight: 0
+  minX: 20
+  maxX: -20
+  minY: 20
+  maxY: -20
+  spawnHeight: 20
+  spawnTime: 5
 --- !u!4 &416173151
 Transform:
   m_ObjectHideFlags: 0
@@ -1819,7 +1820,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  animals: []
+  animals:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   body: {fileID: 0}
   speed: 0
 --- !u!23 &1396774584

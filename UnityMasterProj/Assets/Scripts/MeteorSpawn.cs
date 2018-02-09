@@ -7,21 +7,25 @@ public class MeteorSpawn : MonoBehaviour {
 
 	public GameObject meteor;
 	public Transform target;
-	public float minX;
-	public float maxX;
-	public float minY;
-	public float maxY;
-	public float spawnHeight;
+	public float minX = 20f;
+	public float maxX = -20f;
+	public float minY = 20f; 
+	public float maxY = -20f;
+	public float spawnHeight = 20f;
+	public float spawnTime = 5.0f;
 
 	void Awake(){
 		target = new GameObject().transform;
 		target.name = "Meteor_Target";
 	}
+	void Start(){
+		InvokeRepeating ("SpawnMeteor", spawnTime, spawnTime);
+	}
 
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.M)) {
-			SpawnMeteor ();
-		}
+//		if (Input.GetKeyDown (KeyCode.M)) {
+//			SpawnMeteor ();
+//		}
 	}
 
 	void SpawnMeteor(){
@@ -35,4 +39,5 @@ public class MeteorSpawn : MonoBehaviour {
 		_newMeteor.transform.position = _spawnPoint;
 		_newMeteor.SetActive (true);
 	}
+		
 }
