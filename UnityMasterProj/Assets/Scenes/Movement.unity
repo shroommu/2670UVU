@@ -1077,12 +1077,10 @@ GameObject:
   - component: {fileID: 895105448}
   - component: {fileID: 895105447}
   - component: {fileID: 895105446}
-  - component: {fileID: 895105452}
-  - component: {fileID: 895105453}
   - component: {fileID: 895105454}
-  - component: {fileID: 895105455}
   - component: {fileID: 895105456}
   - component: {fileID: 895105457}
+  - component: {fileID: 895105452}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1196,21 +1194,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 895105445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 864601800a34c5e4f86fb79a361cc3f9, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a4ff0ad6fb02488e93edc08d250197c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerDamage: 0
---- !u!114 &895105453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 895105445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd9d32dff27363b40826dce884a72a6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  currentHealth: 0
+  currentElement: {fileID: 0}
+  isMoveable: 1
 --- !u!114 &895105454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1224,19 +1213,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   playerSpawnLocation: []
---- !u!114 &895105455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 895105445}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a14d626eec48e7f47b139588c44ef255, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: 100
-  uiHandler: {fileID: 0}
 --- !u!95 &895105456
 Animator:
   serializedVersion: 3

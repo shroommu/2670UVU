@@ -22,10 +22,10 @@ GameObject:
   - component: {fileID: 33729404192973722}
   - component: {fileID: 135728104666811248}
   - component: {fileID: 23256400634045822}
-  - component: {fileID: 114800184502068014}
   - component: {fileID: 135414737529112982}
   - component: {fileID: 114756891581892718}
   - component: {fileID: 195462927130314508}
+  - component: {fileID: 114905058362509816}
   m_Layer: 0
   m_Name: Enemy Small (D)
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPosition: {fileID: 0}
---- !u!114 &114800184502068014
+--- !u!114 &114905058362509816
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -105,10 +105,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1481105093546554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf3b39144890da044bc6db78de410016, type: 3}
+  m_Script: {fileID: 11500000, guid: 62316e4356dd340e3b530710ef9736c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 0.1
+  baseDamage: 5
+  baseKnockBack: 2
 --- !u!135 &135414737529112982
 SphereCollider:
   m_ObjectHideFlags: 1
