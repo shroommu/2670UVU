@@ -19,7 +19,7 @@ public class MeteorCrash : MonoBehaviour {
 		SpawnAnimal ();
 	}
 	void SpawnAnimal(){
-		int type = Random.Range (0, animals.Count);
+		int type = Random.Range (0, animals.Count - 1);
 		GameObject _animal = Instantiate (animals[type]);
 		_animal.transform.position = transform.position;
 		_animal.SetActive (true);
