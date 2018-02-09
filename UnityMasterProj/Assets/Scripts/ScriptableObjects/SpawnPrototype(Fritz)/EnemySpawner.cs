@@ -34,7 +34,7 @@ public class EnemySpawner : MonoBehaviour {
 			ExpandPool (bigEnemies, bigEnemySO, false, poolLocation.position);					//big enemies
 		}
 		roundNumber = 0;
-		currentRound = Rounds [0];																//sets the current round to the first round
+		currentRound = Rounds [roundNumber];																//sets the current round to the first round
 		StartCoroutine (RoundManager());														//starts the round manager
 	}
 
