@@ -94,24 +94,22 @@ public class EnemySpawner : MonoBehaviour {
 		roundNumber++;																			//adds 1 to the round index
 		currentRound = Rounds[roundNumber];														//sets the current round to the next using the index
 		StartCoroutine(RoundManager());															//starts the next round
-		print("Starting Next Round");
 	}
 
 	IEnumerator RoundManager(){																	
 		yield return new WaitForSeconds (currentRound.roundDelay);								//Waits for the round start delay
 		for(int i = roundEnemy; i < currentRound.enemies.Length; i += currentRound.enemiesPerSpawn ){					//spawns the enemies in order
-			Vector3 SP = currentRound.FindClosest (playerPos, enemySpawnPoints).position;				//finds the closest spawnpoint to the player
-			for (int x = roundEnemy; x < currentRound.enemiesPerSpawn; x++) {								//spawns enemies in bulk if needed
-				PullEnemy(SP);																	//Calls pull enemy to activate, passes the spawn Point location 
-				print(x);
-				roundEnemy++; 
+			Vector3 SP = currentRound.FindClosest (playerPos, enemySpawnPoints).position;               //finds the closest spawnpoint to the player
+            for (int x = 0; x < currentRound.enemiesPerSpawn; x++) {								//spawns enemies in bulk if needed
+				PullEnemy(SP);                                                                  //Calls pull enemy to activate, passes the spawn Point location 
+                roundEnemy++; 
 				yield return null;																//waits for a frame before spawning more enemies (looping back around)
 			}
 			yield return new WaitForSeconds (currentRound.enemySpawnDelay);						//waits before spwaning the next wave of enemies
-			print(currentRound.enemySpawnDelay);
 			//if(playerActive= false) { print("breaking");break; }														//if player has died break out of the loop
 		}
-		if(playerActive) { ChangeRound (); }													//if the player is still active, alive, then it starts the next round
+        ChangeRound();
+		//if(playerActive) { ChangeRound (); }													//if the player is still active, alive, then it starts the next round
 	}
 
 }

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce5aa42281cab401b84ef779d0e83629, type: 3}
   m_Name: Round2
   m_EditorClassIdentifier: 
-  roundDelay: 20
+  roundDelay: 5
   enemySpawnDelay: 1
   enemiesPerSpawn: 1
   enemies:
