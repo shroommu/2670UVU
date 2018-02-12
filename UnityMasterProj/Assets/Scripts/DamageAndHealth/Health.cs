@@ -12,7 +12,7 @@ public class Health : MonoBehaviour {
 	[HideInInspector] public Vector3 appliedForce;
 
 	[HideInInspector] public Rigidbody RB;
-	public CharacterController CC;
+	[HideInInspector] public CharacterController CC;
 	public bool usesCC;
 
 	void Start(){
@@ -66,7 +66,8 @@ public class Health : MonoBehaviour {
 	}
 
 	public void AddForce(Vector3 _force, Rigidbody _RB){
-		_RB.AddForce (_force, ForceMode.Impulse);
+		RB.AddForce (calculateForce (_force, 1f / Time.deltaTime, 1f), ForceMode.VelocityChange);
+		print ("Im hit");
 	}
 
 	public Vector3 AddForce(Vector3 _force, CharacterController _CC){

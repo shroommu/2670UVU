@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114989144779165688}
   - component: {fileID: 195640207862201408}
   - component: {fileID: 114788561414056866}
+  - component: {fileID: 114948018166282740}
   m_Layer: 0
   m_Name: Enemy Large (KB)
   m_TagString: Untagged
@@ -98,6 +99,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseDamage: 10
   baseKnockBack: 30
+--- !u!114 &114948018166282740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1561466638991918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4ff0ad6fb02488e93edc08d250197c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  currentElement: {fileID: 0}
+  isMoveable: 0
+  appliedForce: {x: 0, y: 0, z: 0}
+  RB: {fileID: 0}
+  CC: {fileID: 0}
+  usesCC: 0
 --- !u!114 &114989144779165688
 MonoBehaviour:
   m_ObjectHideFlags: 1
