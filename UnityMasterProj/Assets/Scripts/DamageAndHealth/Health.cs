@@ -9,6 +9,8 @@ public class Health : MonoBehaviour {
 	public Element currentElement;
 
 	public bool isMoveable;
+	public bool useRB;
+	[HideInInspector] public Vector3 appliedForce;
 
 	public void TakeDamage(int _dam, int _kBForce, Element damElement ) {					//takes the damage, knockback force, element, and force direction
 		if (damElement != null) {															//if the damager has an element assigned to it
@@ -25,7 +27,8 @@ public class Health : MonoBehaviour {
 		} else { currentHealth += _dam; }													//if there are no elements just apply damage normally
 		print("New Health: " + currentHealth);
 		if(isMoveable){
-			//use the knocback force and the currenthealth to knockback the player
+			//ApplyForce
 		}
+	
 	}
 }
