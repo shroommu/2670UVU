@@ -8,18 +8,16 @@ public class Health : MonoBehaviour {
 
 	public Element currentElement;
 
+	private Rigidbody RB;
+	private CharacterController CC;
 	public bool isMoveable = false;
-	[HideInInspector] public Vector3 appliedForce;
-
-	[HideInInspector] public Rigidbody RB;
-	[HideInInspector] public CharacterController CC;
 	public bool usesCC;
 
 	void Start(){
 		Setup ();
 	}
 
-	void Setup(){
+	void Setup(){																			//Determines if there is a character controller or a rigidbody attached
 		RB = this.gameObject.GetComponent<Rigidbody>();
 		CC = this.gameObject.GetComponent<CharacterController>();
 		if (CC != null) {
@@ -33,7 +31,7 @@ public class Health : MonoBehaviour {
 		}
 	}
 
-	public void TakeDamage(int _dam, int _kBForce, Element damElement, Vector3 _dir ) {					//takes the damage, knockback force, element, and force direction
+	public void TakeDamage(int _dam, int _kBForce, Element damElement, Vector3 _dir ) {		//takes the damage, knockback force, element, and force direction
 		if (damElement != null) {															//if the damager has an element assigned to it
 			for (int i = 0; i < currentElement.weaknesses.Length; i++) {					//check to see if it is strong against the current element
 				if (currentElement.weaknesses [i].elementName == damElement.elementName) {	
@@ -49,37 +47,37 @@ public class Health : MonoBehaviour {
 
 		print (currentHealth);
 
-		_dir = calculateForce (_dir, currentHealth * .01f , _kBForce *.05f);
+		//_dir = calculateForce (_dir, currentHealth * .01f , _kBForce *.05f);				//calculates the force to be applied to the object
+		_dir = calculateForce(_dir, currentHealth, .01f) + calculateForce(_dir, _kBForce, .1f);		//trying different ways of calculating the force
 
-		if(isMoveable){
-			if (usesCC) {
-				StartCoroutine (ApplyForceCC (_dir));
-			} else { AddForce( _dir, RB); }
+		if(isMoveable){																		//determines if the object can be moved
+			if (usesCC) {																	//if it has a character controller
+				StartCoroutine (ApplyForceCC (_dir));										//use the character controller mehtod of adding force
+			} else { AddForce( _dir, RB); }													//else, ie if it has a RB, add force using the RB method
 		}
 	}
 
-	Vector3 calculateForce(Vector3 _forceVec, float num, float num2){
+	Vector3 calculateForce(Vector3 _forceVec, float num, float num2){						//simple way to multiply vector3s by floats or ints (i do it a few times)
 		_forceVec.x *= num2 * num;
 		_forceVec.y *= num2 * num;
 		_forceVec.z *= num2 * num;
 		return _forceVec;
 	}
 
-	public void AddForce(Vector3 _force, Rigidbody _RB){
-		RB.AddForce (calculateForce (_force, 1f / Time.deltaTime, 1f), ForceMode.VelocityChange);
-		print ("Im hit");
+	public void AddForce(Vector3 _force, Rigidbody _RB){									//RB overload method of adding force
+		RB.AddForce (calculateForce (_force, 30f , 1f), ForceMode.VelocityChange);			//uses the force vector and a multiplyer to add force to the object
 	}
 
-	public Vector3 AddForce(Vector3 _force, CharacterController _CC){
-		_CC.Move (_force);
-		return _force -= calculateForce (_force, Time.deltaTime, 3f);
+	public Vector3 AddForce(Vector3 _force, CharacterController _CC){						//CC overload method of adding force
+		_CC.Move (_force);																	//uses move method to move the character
+		return _force -= calculateForce (_force, Time.deltaTime, 3f);						//applys a negitive acceleration to the force (slows it down)
 	}
 
-	IEnumerator ApplyForceCC(Vector3 _impactForce){
-		Vector3 _force = _impactForce;
-		for (float f = 0f; f < 5f; f += Time.deltaTime) {
-			_force = AddForce(_force ,CC);
-			yield return null;
+	IEnumerator ApplyForceCC(Vector3 _impactForce){											//Coroutine used by CC
+		Vector3 _force = _impactForce;														//stores the initial force on a temp varaible
+		while(Vector3.Distance(_force, Vector3.zero) > .1f){																//enclosing loop, while there is still force to be applied
+			_force = AddForce(_force ,CC);													//Method call to apply forces to the CC
+			yield return null;																//wait a frame before going around again
 		}
 	}
 
