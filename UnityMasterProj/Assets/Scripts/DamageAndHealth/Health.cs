@@ -25,13 +25,11 @@ public class Health : MonoBehaviour {
 		if (CC != null) {
 			isMoveable = true;
 			usesCC = true;
-			print ("I have a character Controller");
 		}
 		if (RB != null) {
 			CC = null;
 			isMoveable = true;
 			usesCC = false;
-			print ("I have a RB");
 		}
 	}
 
@@ -49,10 +47,12 @@ public class Health : MonoBehaviour {
 			}
 		} else { currentHealth += _dam; }													//if there are no elements just apply damage normally
 
-		_dir = calculateForce (_dir, currentHealth, _kBForce);
+		print (currentHealth);
+
+		_dir = calculateForce (_dir, currentHealth * .01f , _kBForce *.05f);
+
 		if(isMoveable){
 			if (usesCC) {
-				_dir = (calculateForce (_dir, Time.deltaTime, 1f));
 				StartCoroutine (ApplyForceCC (_dir));
 			} else { AddForce( _dir, RB); }
 		}
@@ -70,16 +70,15 @@ public class Health : MonoBehaviour {
 	}
 
 	public Vector3 AddForce(Vector3 _force, CharacterController _CC){
-		_CC.Move(calculateForce(_force, 1f, Time.deltaTime));
-		return calculateForce(_force, Time.deltaTime, .7f);
+		_CC.Move (_force);
+		return _force -= calculateForce (_force, Time.deltaTime, 3f);
 	}
 
-	IEnumerator ApplyForceCC(Vector3 _dir){
-		Vector3 _force = AddForce (_dir, CC);
-		for(float i = 0f; i < 5f ; i += Time.deltaTime) {
+	IEnumerator ApplyForceCC(Vector3 _impactForce){
+		Vector3 _force = _impactForce;
+		for (float f = 0f; f < 5f; f += Time.deltaTime) {
+			_force = AddForce(_force ,CC);
 			yield return null;
-			print (Time.time);
-			_force = AddForce (_force, CC);
 		}
 	}
 
