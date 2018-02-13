@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: Round1
   m_EditorClassIdentifier: 
   roundDelay: 5
-  enemySpawnDelay: 1
-  enemiesPerSpawn: 2
+  enemySpawnDelay: 2
+  enemiesPerSpawn: 3
   enemies:
   - {fileID: 11400000, guid: 1a3addd2344c3164daeab2e056c8d31d, type: 2}
   - {fileID: 11400000, guid: 1a3addd2344c3164daeab2e056c8d31d, type: 2}

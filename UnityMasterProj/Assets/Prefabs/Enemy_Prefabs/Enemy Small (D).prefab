@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114756891581892718}
   - component: {fileID: 195462927130314508}
   - component: {fileID: 114905058362509816}
+  - component: {fileID: 114043006752300938}
   m_Layer: 0
   m_Name: Enemy Small (D)
   m_TagString: Untagged
@@ -85,6 +86,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1481105093546554}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114043006752300938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481105093546554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4ff0ad6fb02488e93edc08d250197c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  currentElement: {fileID: 0}
 --- !u!114 &114756891581892718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -97,6 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPosition: {fileID: 0}
+  forceApplied: 0
 --- !u!114 &114905058362509816
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -108,8 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62316e4356dd340e3b530710ef9736c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseDamage: 5
-  baseKnockBack: 2
+  baseDamage: 10
+  baseKnockBack: 1
 --- !u!135 &135414737529112982
 SphereCollider:
   m_ObjectHideFlags: 1

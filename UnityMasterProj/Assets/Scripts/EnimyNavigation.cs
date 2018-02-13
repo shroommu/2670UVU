@@ -10,6 +10,7 @@ public class EnimyNavigation : MonoBehaviour
 	Transform Player;
 	NavMeshAgent nav;
 	public Transform startPosition; // Enimy Start Position
+    [HideInInspector] public bool forceApplied = false;
 
 	// public float Distance = Vector3.Distance(targetThis.position, this.position);
 
@@ -47,9 +48,14 @@ public class EnimyNavigation : MonoBehaviour
 			}
 		}
 		*/
-		void Update()
-		{
+	void Update(){
+        if (!forceApplied){
 			nav.SetDestination(Player.position);
-		}
-	
+        }
+	}
+
+    public void ApplyForce(Vector3 _force, bool _applyingForce) {
+        nav.Move(_force);
+        forceApplied = _applyingForce;
+    }
 }
