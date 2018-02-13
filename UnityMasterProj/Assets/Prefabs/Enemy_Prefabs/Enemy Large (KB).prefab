@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62316e4356dd340e3b530710ef9736c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseDamage: 10
+  baseDamage: 15
   baseKnockBack: 15
 --- !u!114 &114948018166282740
 MonoBehaviour:
@@ -112,8 +112,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 0
   currentElement: {fileID: 0}
-  isMoveable: 0
-  usesCC: 0
 --- !u!114 &114989144779165688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,6 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPosition: {fileID: 0}
+  forceApplied: 0
 --- !u!135 &135639846733911084
 SphereCollider:
   m_ObjectHideFlags: 1

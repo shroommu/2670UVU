@@ -10,8 +10,10 @@ public class Health : MonoBehaviour {
 
 	private Rigidbody RB;
 	private CharacterController CC;
-	public bool isMoveable = false;
-	public bool usesCC;
+    private EnimyNavigation eNav;
+	private bool isMoveable = false;
+	private bool usesCC;
+    private bool usesNav;
 
 	void Start(){
 		Setup ();
@@ -20,10 +22,16 @@ public class Health : MonoBehaviour {
 	void Setup(){																			//Determines if there is a character controller or a rigidbody attached
 		RB = this.gameObject.GetComponent<Rigidbody>();
 		CC = this.gameObject.GetComponent<CharacterController>();
+        eNav = this.gameObject.GetComponent<EnimyNavigation>();
 		if (CC != null) {
 			isMoveable = true;
 			usesCC = true;
 		}
+        if (eNav != null) {
+            isMoveable = true;
+            usesNav = true;
+            usesCC = false;
+        }
 		if (RB != null) {
 			CC = null;
 			isMoveable = true;
@@ -32,6 +40,7 @@ public class Health : MonoBehaviour {
 	}
 
 	public void TakeDamage(int _dam, int _kBForce, Element damElement, Vector3 _dir ) {		//takes the damage, knockback force, element, and force direction
+
 		if (damElement != null) {															//if the damager has an element assigned to it
 			for (int i = 0; i < currentElement.weaknesses.Length; i++) {					//check to see if it is strong against the current element
 				if (currentElement.weaknesses [i].elementName == damElement.elementName) {	
@@ -45,15 +54,19 @@ public class Health : MonoBehaviour {
 			}
 		} else { currentHealth += _dam; }													//if there are no elements just apply damage normally
 
-		print (currentHealth);
+        print(currentHealth);
 
-		//_dir = calculateForce (_dir, currentHealth * .01f , _kBForce *.05f);				//calculates the force to be applied to the object
-		_dir = calculateForce(_dir, currentHealth, .01f) + calculateForce(_dir, _kBForce, .1f);		//trying different ways of calculating the force
+		//_dir = calculateForce (_dir, currentHealth * .01f , _kBForce *.05f);			    //calculates the force to be applied to the object
+		_dir = calculateForce(_dir, currentHealth, .01f) + calculateForce(_dir, _kBForce, .05f);		//trying different ways of calculating the force
 
-		if(isMoveable){																		//determines if the object can be moved
-			if (usesCC) {																	//if it has a character controller
-				StartCoroutine (ApplyForceCC (_dir));										//use the character controller mehtod of adding force
-			} else { AddForce( _dir, RB); }													//else, ie if it has a RB, add force using the RB method
+		if(isMoveable){																        //determines if the object can be moved
+            if (usesNav){
+                StartCoroutine(ApplyForceNav(_dir));
+            }else {
+			    if (usesCC) {																//if it has a character controller
+				    StartCoroutine (ApplyForceCC (_dir));									//use the character controller mehtod of adding force
+			    } else { AddForce( _dir, RB); }												//else, ie if it has a RB, add force using the RB method
+            }
 		}
 	}
 
@@ -75,10 +88,20 @@ public class Health : MonoBehaviour {
 
 	IEnumerator ApplyForceCC(Vector3 _impactForce){											//Coroutine used by CC
 		Vector3 _force = _impactForce;														//stores the initial force on a temp varaible
-		while(Vector3.Distance(_force, Vector3.zero) > .1f){																//enclosing loop, while there is still force to be applied
+		while(Vector3.Distance(_force, Vector3.zero) > .1f){								//enclosing loop, while there is still force to be applied
 			_force = AddForce(_force ,CC);													//Method call to apply forces to the CC
 			yield return null;																//wait a frame before going around again
 		}
 	}
+
+    IEnumerator ApplyForceNav(Vector3 _impactForce){                                        //Coroutine used by CC
+        Vector3 _force = _impactForce;                                                      //stores the initial force on a temp varaible
+        while (Vector3.Distance(_force, Vector3.zero) > .1f){                               //enclosing loop, while there is still force to be applied
+            eNav.ApplyForce(_force, true);                                                  //Method call to apply forces to the NavMesh
+            _force -= calculateForce(_force, Time.deltaTime, 3f);
+            yield return null;                                                              //wait a frame before going around again
+        }
+        eNav.ApplyForce(_force, false);
+    }
 
 }
