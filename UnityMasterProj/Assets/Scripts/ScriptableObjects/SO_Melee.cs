@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,4 +13,14 @@ public class SO_Melee : ABS_Abilities
 	{
 		_anim.SetTrigger(_triggerName);
 	}
+
+    public override void UseAbility()
+    {
+        throw new NotImplementedException();
+    }
+
+    public override List<Vector3> UseAbility(string triggerName, Animator _anim, Transform _rayOrigin, Transform playerTransform)
+    {
+        throw new NotImplementedException();
+    }
 }

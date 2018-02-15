@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 {
 	private CharacterController cc;
 	public SO_Player player;
-	public List<ABS_Abilities> abilities;
+	public ABS_Abilities primaryAbility, secondaryAbility, recoveryAbility;
 
 	private float verticalVelocity = 0.0f;
 	private float speed = 0;
@@ -16,17 +16,25 @@ public class PlayerController : MonoBehaviour
 
 	private Animator weaponAnims;
 
+    public Transform CameraPos;
+
+    private bool canMove;
+
 	void Start() 
 	{
 		cc = GetComponent<CharacterController>();
 		weaponAnims = GetComponent<Animator>();
+        canMove = true;
 	}
 
 	void Update() 
 	{
-		MoveInput ();
+        if (canMove)
+        {
+            MoveInput();
 
-		AbilityInput ();
+            AbilityInput ();
+        }
 	}
 
 	void MoveInput(){
@@ -57,7 +65,22 @@ public class PlayerController : MonoBehaviour
 	void AbilityInput(){
 		if(Input.GetButtonDown("Ability01"))
 		{
-			abilities[0].UseAbility("Weapon_Swing", weaponAnims);
+            StartCoroutine(AbilityMove(primaryAbility.UseAbility("default", weaponAnims, CameraPos, this.transform)));
 		}
 	}
+
+    IEnumerator AbilityMove(List<Vector3> _posList) {
+        if (_posList != null)
+        {
+            canMove = false;
+            yield return null;
+            cc.Move(_posList[0] - this.transform.position);
+            for (int i = 0; i < _posList.Count - 1; i++)
+            {
+                yield return null;
+                cc.Move(_posList[i + 1] - _posList[i]);
+            }
+            canMove = true;
+        }
+    }
 }
