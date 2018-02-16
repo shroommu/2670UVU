@@ -6,15 +6,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Abilities", menuName = "Scriptable Objects/Abilities/ThrustAbility")]
 public class SO_ThrustAbility : ABS_Abilities {
 
-    //public float abilityRange, bufferDist, travelSpeed;
-    //public AudioClip sound;
-
     public override List<Vector3> UseAbility(string triggerName, Animator _anim, float _chargeTime, Transform _rayOrigin, Transform playerTransform)
     {
 		float _charge = 0f;
 
 		if(_chargeTime != 0f){
-			_charge = _chargeTime / maxChargeTime;
+			_charge = _chargeTime / maxChargeTime;																		//set it to the percent of the full charge
+			if (_charge >= 1f) { _charge = 1; }																			//to avoid issues
 		}
 
 		float abilityRange = Mathf.Lerp (minRange, maxRange, _charge);

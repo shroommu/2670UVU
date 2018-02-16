@@ -6,8 +6,9 @@ public abstract class ABS_Abilities : ScriptableObject
 {
 	public float coolDownTime = 5.0f;
 	public AudioClip sound;
-	public GameObject[] elementVFX;
-	public GameObject damageGO;
+	public GameObject fireVFX, waterVFX, lightningVFX, earthVFX, windVFX;
+	public GameObject damageGOPrefab;
+	[HideInInspector]public GameObject damageGO;
 
 	public bool canCharge;
 	public float maxChargeTime;
@@ -23,10 +24,13 @@ public abstract class ABS_Abilities : ScriptableObject
 	public bool movingAbility;
 	public float moveSpeed;
 
-	/*public virtual float LerpPercent(float _chargeTime){
-		return _chargeTime /= 
-
-	}*/
+	public virtual void SetupAbility(){
+		if (doesDamage) {
+			damageGO = CreateGO (damageGOPrefab);
+			damageGO.SetActive (false);
+		}
+		//in override
+	}
 
 	public virtual void UseAbility(){
 		//in override
@@ -36,11 +40,11 @@ public abstract class ABS_Abilities : ScriptableObject
 		//used by abilities that just 
 	}
 
-	public virtual List<Vector3> UseAbility(string _triggerName, Animator _anim, float charge, Transform _rayOrigin, Transform _playerTransform){
+	public virtual List<Vector3> UseAbility(string _triggerName, Animator _anim, float charge,Transform _rayOrigin, Transform _playerTransform){
 		//used by abilities that move the player, returns a list of positions for the player to move through.
 	}
 
-	public virtual void UseAbility(string _triggerName, Animator _anim, float charge, Transform _playerTransform){
+	public virtual void UseAbility(string _triggerName, Animator _anim, float charge, GameObject _weapon, Transform _playerTransform){
 		//used by 
 	}
 
@@ -50,5 +54,9 @@ public abstract class ABS_Abilities : ScriptableObject
 			weapon.baseDamage = damage;
 			weapon.baseKnockBack = Knockback;
 		}
+	}
+
+	public virtual GameObject CreateGO(GameObject _prefab, Vector3 _pos){				//creates an instance of an object and 
+		return GameObject.Instantiate (_prefab, _pos, Quaternion.identity);
 	}
 }
