@@ -10,16 +10,23 @@ public abstract class ABS_Abilities : ScriptableObject
 	public GameObject damageGO;
 
 	public bool canCharge;
-	public float chargeTime;
+	public float maxChargeTime;
 	public float minRange, maxRange;
+	public float buffer;
 	public float duration;
 
+	public bool doesDamage;
+	public float minDamage, maxDamage;
+	public float minKB, maxKB;
 	public float minCost, maxCost;
 
 	public bool movingAbility;
 	public float moveSpeed;
 
+	/*public virtual float LerpPercent(float _chargeTime){
+		return _chargeTime /= 
 
+	}*/
 
 	public virtual void UseAbility(){
 		//in override
@@ -29,11 +36,19 @@ public abstract class ABS_Abilities : ScriptableObject
 		//used by abilities that just 
 	}
 
-	public virtual List<Vector3> UseAbility(string _triggerName, Animator _anim, Transform _rayOrigin, Transform _playerTransform){
+	public virtual List<Vector3> UseAbility(string _triggerName, Animator _anim, float charge, Transform _rayOrigin, Transform _playerTransform){
 		//used by abilities that move the player, returns a list of positions for the player to move through.
 	}
 
-	public virtual void UseAbility(string _triggerName, Animator _anim, Transform _playerTransform){
+	public virtual void UseAbility(string _triggerName, Animator _anim, float charge, Transform _playerTransform){
 		//used by 
+	}
+
+	public void SetDamage(float damage, float Knockback){
+		Damager weapon = damageGO.GetComponent<Damager> ();
+		if (weapon != null) {
+			weapon.baseDamage = damage;
+			weapon.baseKnockBack = Knockback;
+		}
 	}
 }
