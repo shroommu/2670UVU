@@ -3,21 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Recovery", menuName = "Scriptable Objects/Abilities/ThrustAbility")]
+[CreateAssetMenu(fileName = "Abilities", menuName = "Scriptable Objects/Abilities/ThrustAbility")]
 public class SO_ThrustAbility : ABS_Abilities {
 
     public float abilityRange, bufferDist, travelSpeed;
     //public AudioClip sound;
-
-    public override void UseAbility()
-    {
-        throw new NotImplementedException();
-    }
-
-    public override void UseAbility(string _triggerName, Animator _anim)
-    {
-        throw new NotImplementedException();
-    }
 
     public override List<Vector3> UseAbility(string triggerName, Animator _anim, Transform _rayOrigin, Transform playerTransform)
     {

@@ -65,8 +65,30 @@ public class PlayerController : MonoBehaviour
 	void AbilityInput(){
 		if(Input.GetButtonDown("Ability01"))
 		{
-            StartCoroutine(AbilityMove(primaryAbility.UseAbility("default", weaponAnims, CameraPos, this.transform)));
+            //StartCoroutine(AbilityMove(primaryAbility.UseAbility("default", weaponAnims, CameraPos, this.transform)));
+			TriggerAbility(primaryAbility);
 		}
+	}
+
+	void TriggerAbility (ABS_Abilities _ability) {
+		if (_ability.canCharge) {
+			//start charging coroutine
+		}else{
+			MoveAbility (_ability);
+		}
+	}
+
+	void MoveAbility(ABS_Abilities _ability){
+		if (_ability.movingAbility){
+			//start moving coroutine
+		}else{
+			//
+		}
+	}
+
+	IEnumerator Charging(){
+		//charge the thing
+		yield return null;
 	}
 
     IEnumerator AbilityMove(List<Vector3> _posList) {
