@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
 
 	private float verticalVelocity = 0.0f;
 	private float speed = 0;
-	private Vector3 move = Vector3.zero;
+	[HideInInspector]public Vector3 move = Vector3.zero;
 
 	private Animator weaponAnims;
 
@@ -24,6 +24,12 @@ public class PlayerController : MonoBehaviour
 
 	void Update() 
 	{
+		MoveInput ();
+
+		AbilityInput ();
+	}
+
+	void MoveInput(){
 		if(Time.timeScale ==  1)
 		{
 			if(cc.isGrounded) 
@@ -34,7 +40,7 @@ public class PlayerController : MonoBehaviour
 			{
 				verticalVelocity = player.ApplyGravity(verticalVelocity);
 			}
-	
+
 			speed = player.Run(speed);
 
 			move = Vector3.zero;
@@ -46,7 +52,9 @@ public class PlayerController : MonoBehaviour
 			move = transform.TransformDirection(move);
 			cc.Move(move * Time.deltaTime);
 		}
+	}
 
+	void AbilityInput(){
 		if(Input.GetButtonDown("Ability01"))
 		{
 			abilities[0].UseAbility("Weapon_Swing", weaponAnims);
