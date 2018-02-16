@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DelayedDeactivate : MonoBehaviour {
 
-	void Deactivate(float _delay){
+	public void Deactivate(float _delay){
 		StartCoroutine (DeactivateAfterDelay (this.gameObject, _delay));
 	}
 

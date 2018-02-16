@@ -37,6 +37,9 @@ public class PlayerController : MonoBehaviour
         }
 	}
 
+	///
+	/// MOVE INPUT
+	///
 	void MoveInput(){
 		if(Time.timeScale ==  1)
 		{
@@ -61,7 +64,10 @@ public class PlayerController : MonoBehaviour
 			cc.Move(move * Time.deltaTime);
 		}
 	}
-
+		
+	/// 
+	/// ABILITIES
+	/// 
 	void AbilityInput(){
 		if(Input.GetButtonDown("Ability01"))								//checks to see if the button was pressed
 		{																	//****button strings must match****\\
@@ -81,7 +87,7 @@ public class PlayerController : MonoBehaviour
 		float charge = 0f;														//creates a float to track how long the buttons has been held
 		while (charge < _ability.maxChargeTime) {								//while the current charge is less than the max charge time of the ability
 			if (Input.GetKeyUp (_key)) { break; }								//break out of the loop if the player releases the button, break out of the while loop
-			Charging += Time.deltaTime;											//Add to the charge time
+			charge += Time.deltaTime;											//Add to the charge time
 			yield return null;													//wait for a frame
 		}
 		MoveAbility(_ability, charge);											//Activate MoveEnemy
