@@ -8,8 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c62c4a7b08ad2c4aa65ce08f9eb9a0a, type: 3}
-  m_Name: PPPPGrap
+  m_Script: {fileID: 11500000, guid: e2f4bb5840e54437e9695f2399ae5988, type: 3}
+  m_Name: AstridJump
   m_EditorClassIdentifier: 
   coolDownTime: 5
   sound: {fileID: 0}
@@ -22,17 +22,17 @@ MonoBehaviour:
   damageGO: {fileID: 0}
   canCharge: 0
   maxChargeTime: 0
-  minRange: 20
-  maxRange: 20
-  buffer: 0.5
-  duration: 0
-  doesDamage: 0
-  minDamage: 0
-  maxDamage: 0
-  minKB: 0
-  maxKB: 0
-  minCost: 0
-  maxCost: 0
-  movingAbility: 1
+  minRange: 1
+  maxRange: 2
+  buffer: 0
+  duration: 3
+  doesDamage: 1
+  minDamage: 20
+  maxDamage: 20
+  minKB: 50
+  maxKB: 50
+  minCost: 10
+  maxCost: 10
+  movingAbility: 0
   moveSpeed: 20
-  impactForce: 0
+  hasImpact: 1

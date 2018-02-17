@@ -23,6 +23,8 @@ public abstract class ABS_Abilities : ScriptableObject
 
 	public bool movingAbility;
 	public float moveSpeed;
+	public bool hasImpact;
+	//public enum inpactForce {Start, End, None};
 
 	public virtual void SetupAbility(){
 		if (doesDamage) {
@@ -45,6 +47,11 @@ public abstract class ABS_Abilities : ScriptableObject
 		return null;
 	}
 
+	public virtual Vector3 UseAbility(string _triggerName, Animator _anim, float charge,Transform _rayOrigin){
+		//used by impact abilities, used to add a force to the player character controller.
+		return Vector3.zero;
+	}
+
 	public virtual void UseAbility(string _triggerName, Animator _anim, float charge, GameObject _weapon, Transform _playerTransform){
 		//used by 
 	}
@@ -59,6 +66,19 @@ public abstract class ABS_Abilities : ScriptableObject
 
 	public virtual GameObject CreateGO(GameObject _prefab, Vector3 _pos){				//creates an instance of an object and 
 		return GameObject.Instantiate (_prefab, _pos, Quaternion.identity);
+	}
+
+	public virtual void SetImpactLoc(Vector3 _dest) {
+		damageGO.transform.position = _dest;
+		damageGO.SetActive (true);
+		DelayDeactivate (damageGO, duration);
+	}
+
+	public void DelayDeactivate(GameObject _GO,float delay){
+		DelayedDeactivate DD = _GO.GetComponent<DelayedDeactivate>();												//if the object can be deactivated with a delay(has correct script attacted)
+		if (DD != null) {																								
+			DD.Deactivate (delay);																					//pass the gameobject and the damage duration in seconds
+		}
 	}
 
 	public Vector3 DivV3(Vector3 _num, Vector3 _dem){

@@ -31,11 +31,7 @@ public class SO_AOE : ABS_Abilities {
 
 		//move the correct elemental VFX to the point
 
-		DelayedDeactivate DD = _weapon.GetComponent<DelayedDeactivate>();												//if the object can be deactivated with a delay(has correct script attacted)
-		if (DD != null) {																								
-			DD.Deactivate (duration);																					//pass the gameobject and the damage duration in seconds
-		}
-
+		DelayDeactivate (_weapon, duration);
 
 	}
 

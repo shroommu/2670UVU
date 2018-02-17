@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
 			speed = player.Run(speed);
 
-			move = Vector3.zero;
+			//move = Vector3.zero;
 			move.x = Input.GetAxis("Horizontal") * speed;
 			move.z = Input.GetAxis("Vertical") * speed;
 			move.y = verticalVelocity;
@@ -97,9 +97,27 @@ public class PlayerController : MonoBehaviour
 		if (_ability.movingAbility){
 			StartCoroutine (AbilityMove (_ability.UseAbility ("default", weaponAnims, _charge, CameraPos, this.transform)));
 		}else{
-			_ability.UseAbility (); //** not tested**
-			//use ability
+			if (_ability.hasImpact) { 					//adds force to the character
+				move = _ability.UseAbility ("default", weaponAnims, _charge, CameraPos);
+				StartCoroutine (Impact (_ability));
+			}else{
+				_ability.UseAbility (); //** not tested**
+				//use ability
+			}
 		}
+	}
+
+	IEnumerator Impact(ABS_Abilities _ability){
+		//canMove = false;
+		while (cc.isGrounded != true) {
+			cc.Move (move);
+			yield return null;
+		}
+		/*if(_ability.impactForce.End){
+			_ability.SetImpactLoc (cc.transform.position);
+			//play smash animation
+		}*/
+		canMove = true;
 	}
 	
     IEnumerator AbilityMove(List<Vector3> _posList) {						//takes a list of positions
