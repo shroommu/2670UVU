@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
 		cc = GetComponent<CharacterController>();
 		weaponAnims = GetComponent<Animator>();
         canMove = true;
+		primaryAbility.SetupAbility ();
 	}
 
 	void Update() 
@@ -86,7 +87,7 @@ public class PlayerController : MonoBehaviour
 	IEnumerator Charging(ABS_Abilities _ability, string _key){					//Takes the ability and the string of the button used to activate it
 		float charge = 0f;														//creates a float to track how long the buttons has been held
 		while (charge < _ability.maxChargeTime) {								//while the current charge is less than the max charge time of the ability
-			if (Input.GetKeyUp (_key)) { break; }								//break out of the loop if the player releases the button, break out of the while loop
+			if (Input.GetButtonUp (_key)) { break; }							//break out of the loop if the player releases the button, break out of the while loop
 			charge += Time.deltaTime;											//Add to the charge time
 			yield return null;													//wait for a frame
 		}
@@ -101,7 +102,7 @@ public class PlayerController : MonoBehaviour
 				move = _ability.UseAbility ("default", weaponAnims, _charge, CameraPos);
 				StartCoroutine (Impact (_ability));
 			}else{
-				_ability.UseAbility (); //** not tested**
+				_ability.UseAbility ("defult", weaponAnims, _charge, _ability.damageGO, this.transform); //** not tested**
 				//use ability
 			}
 		}
@@ -110,6 +111,7 @@ public class PlayerController : MonoBehaviour
 	IEnumerator Impact(ABS_Abilities _ability){
 		//canMove = false;
 		while (cc.isGrounded != true) {
+			print("I believe I can fly!");
 			cc.Move (move);
 			yield return null;
 		}

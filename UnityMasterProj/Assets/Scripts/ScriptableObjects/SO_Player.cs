@@ -13,10 +13,10 @@ public class SO_Player : ABS_Player
 	*/
 	public override float Jump(float _verticalVelocity)
 	{
-		_verticalVelocity = -gravity * Time.deltaTime;
+		_verticalVelocity =- gravity * Time.deltaTime;
 		if(Input.GetButtonDown("Jump"))
 		{
-			_verticalVelocity = jumpForce;
+			_verticalVelocity =+ jumpForce;
 		}
 		return _verticalVelocity;
 	}

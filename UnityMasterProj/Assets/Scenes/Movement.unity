@@ -1196,7 +1196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 11400000, guid: 2cb408013d2ce854fb0bf4d4ef29833b, type: 2}
-  primaryAbility: {fileID: 11400000, guid: 59e931144d1254b5fbaa75d5c4973fb2, type: 2}
+  primaryAbility: {fileID: 11400000, guid: 2c68dbe44074c48e69c5a7bb1920c6a4, type: 2}
   secondaryAbility: {fileID: 0}
   recoveryAbility: {fileID: 0}
   move: {x: 0, y: 0, z: 0}
@@ -1471,7 +1471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &961443524
 Transform:
   m_ObjectHideFlags: 0
