@@ -12,6 +12,8 @@ public class GameStateManager : MonoBehaviour {
 	public static UnityAction IngameStateAction;
 	public static UnityAction PostgameStateAction;
 
+	public bool canMove;
+
 	void Start()
 	{
 		PregameStateAction();
