@@ -139,6 +139,34 @@ ModelImporter:
     100262: pCube42
     100264: pCube43
     100266: pCube44
+    100268: pCube45
+    100270: pCube46
+    100272: pCube47
+    100274: pCube48
+    100276: pCube49
+    100278: pCube50
+    100280: pCube51
+    100282: pCube52
+    100284: pCylinder48
+    100286: pCylinder49
+    100288: pCylinder50
+    100290: pCylinder51
+    100292: pCylinder52
+    100294: pCylinder53
+    100296: pCylinder54
+    100298: pCylinder55
+    100300: pCylinder56
+    100302: pCylinder57
+    100304: pCylinder58
+    100306: pCylinder59
+    100308: pTorus1
+    100310: pTorus2
+    100312: pTorus3
+    100314: pTorus4
+    100316: pTorus5
+    100318: pTorus6
+    100320: pTorus7
+    100322: pTorus8
     400000: //RootNode
     400002: pCube1
     400004: pCube10
@@ -273,6 +301,34 @@ ModelImporter:
     400262: pCube42
     400264: pCube43
     400266: pCube44
+    400268: pCube45
+    400270: pCube46
+    400272: pCube47
+    400274: pCube48
+    400276: pCube49
+    400278: pCube50
+    400280: pCube51
+    400282: pCube52
+    400284: pCylinder48
+    400286: pCylinder49
+    400288: pCylinder50
+    400290: pCylinder51
+    400292: pCylinder52
+    400294: pCylinder53
+    400296: pCylinder54
+    400298: pCylinder55
+    400300: pCylinder56
+    400302: pCylinder57
+    400304: pCylinder58
+    400306: pCylinder59
+    400308: pTorus1
+    400310: pTorus2
+    400312: pTorus3
+    400314: pTorus4
+    400316: pTorus5
+    400318: pTorus6
+    400320: pTorus7
+    400322: pTorus8
     2300000: pCube1
     2300002: pCube11
     2300004: pCube12
@@ -380,6 +436,30 @@ ModelImporter:
     2300208: pCube42
     2300210: pCube43
     2300212: pCube44
+    2300214: pCube45
+    2300216: pCube46
+    2300218: pCube47
+    2300220: pCube48
+    2300222: pCube49
+    2300224: pCube50
+    2300226: pCube51
+    2300228: pCube52
+    2300230: pCylinder52
+    2300232: pCylinder53
+    2300234: pCylinder54
+    2300236: pCylinder55
+    2300238: pCylinder56
+    2300240: pCylinder57
+    2300242: pCylinder58
+    2300244: pCylinder59
+    2300246: pTorus1
+    2300248: pTorus2
+    2300250: pTorus3
+    2300252: pTorus4
+    2300254: pTorus5
+    2300256: pTorus6
+    2300258: pTorus7
+    2300260: pTorus8
     3300000: pCube1
     3300002: pCube11
     3300004: pCube12
@@ -487,6 +567,30 @@ ModelImporter:
     3300208: pCube42
     3300210: pCube43
     3300212: pCube44
+    3300214: pCube45
+    3300216: pCube46
+    3300218: pCube47
+    3300220: pCube48
+    3300222: pCube49
+    3300224: pCube50
+    3300226: pCube51
+    3300228: pCube52
+    3300230: pCylinder52
+    3300232: pCylinder53
+    3300234: pCylinder54
+    3300236: pCylinder55
+    3300238: pCylinder56
+    3300240: pCylinder57
+    3300242: pCylinder58
+    3300244: pCylinder59
+    3300246: pTorus1
+    3300248: pTorus2
+    3300250: pTorus3
+    3300252: pTorus4
+    3300254: pTorus5
+    3300256: pTorus6
+    3300258: pTorus7
+    3300260: pTorus8
     4300000: pCylinder1
     4300002: pCylinder2
     4300004: pCylinder3
@@ -594,6 +698,30 @@ ModelImporter:
     4300208: pCube42
     4300210: pCube43
     4300212: pCube44
+    4300214: pCube45
+    4300216: pCube46
+    4300218: pCube47
+    4300220: pCube48
+    4300222: pCube49
+    4300224: pCube50
+    4300226: pCube51
+    4300228: pCube52
+    4300230: pCylinder52
+    4300232: pCylinder53
+    4300234: pCylinder54
+    4300236: pCylinder55
+    4300238: pCylinder56
+    4300240: pCylinder57
+    4300242: pCylinder58
+    4300244: pCylinder59
+    4300246: pTorus1
+    4300248: pTorus2
+    4300250: pTorus3
+    4300252: pTorus4
+    4300254: pTorus5
+    4300256: pTorus6
+    4300258: pTorus7
+    4300260: pTorus8
   materials:
     importMaterials: 1
     materialName: 0
