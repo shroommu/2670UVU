@@ -17,7 +17,7 @@ MonoBehaviour:
   jumpForce: 10
   jumpCount: 0
   jumpLimit: 1
-  walkSpeed: 5
+  walkSpeed: 8
   runSpeed: 10
   currentElement: 0
   animals: []
