@@ -8,23 +8,56 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour 
 {
 
-	public static bool GameIsPaused = false;
+	public static bool gameIsPaused = false;
 
 	public GameObject pauseMenuUI;
 
-	// Checks for an escape key press, and pauses/unpauses.
-	void Update () 
+	void Awake()
 	{
-		if (Input.GetKeyDown(KeyCode.Escape))
+		//Action Subscriptions
+		GameStateManager.IngameStateAction += StartGame;
+		GameStateManager.PregameStateAction += EndGame;
+		GameStateManager.PostgameStateAction += EndGame;
+	}
+
+	//runs when GameStateManager changes to InGame state
+	void StartGame()
+	{
+		StartCoroutine(PauseCheck());
+	}
+
+	//runs when GameStateManager changes to PreGame or PostGame state
+	void EndGame()
+	{
+		//PostGame State stuff goes here
+		if(gameIsPaused)
 		{
-			if (GameIsPaused)
+			Resume();
+		}
+
+		Cursor.lockState = CursorLockMode.None;
+	}
+
+	// Checks for an escape key press, and pauses/unpauses.
+	IEnumerator PauseCheck () 
+	{
+		while(GameStateManager.canMove)
+		{
+			if (Input.GetKeyDown(KeyCode.Escape))
 			{
-				Resume();
-			} 
-			else
-			{
-				Pause();
+				if (gameIsPaused)
+				{
+					Resume();
+					print("resuming");
+				} 
+				else
+				{
+					print("pausing");
+					Pause();
+				}
 			}
+
+			yield return null;
 		}
 	}
 
@@ -34,7 +67,8 @@ public class PauseMenu : MonoBehaviour
 		Cursor.lockState = CursorLockMode.Locked;
 		pauseMenuUI.SetActive(false);
 		Time.timeScale = 1f;
-		GameIsPaused = false;
+		gameIsPaused = false;
+		print("game is resumed");
 	}
 
 	// Activates pause menu UI and freezes time.
@@ -43,12 +77,7 @@ public class PauseMenu : MonoBehaviour
 		Cursor.lockState = CursorLockMode.None;
 		pauseMenuUI.SetActive(true);
 		Time.timeScale = 0f;
-		GameIsPaused = true;
-	}
-
-	// Closes the game.
-	public void Quit()
-	{
-		Application.Quit();
+		gameIsPaused = true;
+		print("game is paused");
 	}
 }

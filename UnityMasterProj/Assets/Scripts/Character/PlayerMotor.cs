@@ -21,13 +21,33 @@ public class PlayerMotor : MonoBehaviour
 
     private Rigidbody rb;
     private CapsuleCollider col;
-   
+
+
+    void Awake()
+	{
+		//Action Subscriptions
+		GameStateManager.IngameStateAction += StartGame;
+		GameStateManager.PregameStateAction += EndGame;
+		GameStateManager.PostgameStateAction += EndGame;
+	}
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         col = GetComponent<CapsuleCollider>();
     }
+
+    //runs when GameStateManager changes to InGame state
+	void StartGame()
+	{
+        StartCoroutine(Movement());
+	}
+
+    //runs when GameStateManager changes to PreGame or PostGame state
+	void EndGame()
+	{
+		//PostGame State stuff goes here
+	}
 
     //Gets a movement vector
     public void Move(Vector3 _velocity)
@@ -44,15 +64,19 @@ public class PlayerMotor : MonoBehaviour
 
 
     //Run Every Physics Iteration
-    private void FixedUpdate()
+    IEnumerator Movement()
     {
-        PerformMovement();
-        PerformRotation();
-
-        if(rb.velocity.y<0)
+        while(GameStateManager.canMove)
         {
-            rb.velocity += Vector3.up * Physics.gravity.y * (fallMultiplier -1) *Time.deltaTime;
+            PerformMovement();
+            PerformRotation();
+
+            if(rb.velocity.y<0)
+            {
+                rb.velocity += Vector3.up * Physics.gravity.y * (fallMultiplier -1) *Time.deltaTime;
+            }
         }
+        yield return new WaitForFixedUpdate();
     }
 
     //Perform movement based on velocity variable

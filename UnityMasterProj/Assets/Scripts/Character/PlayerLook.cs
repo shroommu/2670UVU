@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//This class controlls where the camera looks based off of mouse movement
+//This class controls where the camera looks based off of mouse movement
 public class PlayerLook : MonoBehaviour 
 {
 
@@ -13,41 +13,64 @@ public class PlayerLook : MonoBehaviour
 
 	void Awake()
 	{
-		//locks the cursor to the center of the screne and turns it invisible
-		Cursor.lockState = CursorLockMode.Locked;
+		//Action Subscriptions
+		GameStateManager.IngameStateAction += StartGame;
+		GameStateManager.PregameStateAction += EndGame;
+		GameStateManager.PostgameStateAction += EndGame;
 	}
 
-	void Update()
+	//runs when GameStateManager changes to InGame state
+	void StartGame()
 	{
-		if (Time.timeScale == 1) 
-		{
-			float xRotation = Input.GetAxis("Mouse X") * mouseSensitivity;
-			float yRotation = Input.GetAxis("Mouse Y") * mouseSensitivity;
+		//locks the cursor to the center of the screen and turns it invisible
+		Cursor.lockState = CursorLockMode.Locked;
+		print("locking cursor");
+		StartCoroutine(Look());
+	}
 
-			xAxisClamp -= yRotation;
+	//runs when GameStateManager changes to PreGame or PostGame state
+	void EndGame()
+	{
+		Cursor.lockState = CursorLockMode.None;
+		print("unlocking cursor");
+		//PostGame State stuff goes here
+	}
 
-			//there has to be two rotations in order to prevent the character's body from tilting
-			Vector3 cameraRotation = transform.rotation.eulerAngles;
-			Vector3 playerRotation = playerBody.rotation.eulerAngles;
-
-			cameraRotation.x -= yRotation;
-			cameraRotation.z = 0;
-			playerRotation.y += xRotation;
-
-			//prevents the weird jerking caused by the mouse being too far up or down
-			if(xAxisClamp > 90) 
+	IEnumerator Look()
+	{
+		while(GameStateManager.canMove){
+			if (Time.timeScale == 1) 
 			{
-				xAxisClamp = 90;
-				cameraRotation.x = 90;
-			} 
-			else if(xAxisClamp < -90) 
-			{
-				xAxisClamp = -90;
-				cameraRotation.x = 270;
+				float xRotation = Input.GetAxis("Mouse X") * mouseSensitivity;
+				float yRotation = Input.GetAxis("Mouse Y") * mouseSensitivity;
+
+				xAxisClamp -= yRotation;
+
+				//there has to be two rotations in order to prevent the character's body from tilting
+				Vector3 cameraRotation = transform.rotation.eulerAngles;
+				Vector3 playerRotation = playerBody.rotation.eulerAngles;
+
+				cameraRotation.x -= yRotation;
+				cameraRotation.z = 0;
+				playerRotation.y += xRotation;
+
+				//prevents the weird jerking caused by the mouse being too far up or down
+				if(xAxisClamp > 90) 
+				{
+					xAxisClamp = 90;
+					cameraRotation.x = 90;
+				} 
+				else if(xAxisClamp < -90) 
+				{
+					xAxisClamp = -90;
+					cameraRotation.x = 270;
+				}
+
+				transform.rotation = Quaternion.Euler(cameraRotation);
+				playerBody.rotation = Quaternion.Euler(playerRotation);  
 			}
 
-			transform.rotation = Quaternion.Euler(cameraRotation);
-			playerBody.rotation = Quaternion.Euler(playerRotation);  
+			yield return null;
 		}
 	}
 }

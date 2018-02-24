@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// This class controlls player movement based off the information contained in the Player scriptable object
+// This class controls player movement based off the information contained in the Player scriptable object
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour 
 {
@@ -32,29 +32,33 @@ public class PlayerController : MonoBehaviour
 	{
 		cc = GetComponent<CharacterController>();
 		weaponAnims = GetComponent<Animator>();
-        //canMove = true;
+
 		primaryAbility.SetupAbility ();
 	}
 
-	//this allows the player to move when a new game is started
+	//starts input check to allow player movement
+	//runs when GameStateManager changes to InGame state
 	void StartGame()
 	{
-		canMove = true;
+		StartCoroutine(InputCheck());
 	}
 
-	//this prevents the player from moving when the game ends or hasn't been started
+	//runs when GameStateManager changes to PreGame or PostGame state
 	void EndGame()
 	{
-		canMove = false;
+		//PostGame State stuff goes here
+		return;	
 	}
 
-	void Update() 
+	IEnumerator InputCheck() 
 	{
-        if (canMove)
+		while(GameStateManager.canMove)
         {
             MoveInput();
 
             AbilityInput ();
+
+			yield return null;
         }
 	}
 
