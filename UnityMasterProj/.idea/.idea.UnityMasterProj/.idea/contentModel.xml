@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\jonat\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_UnityMasterProj.1131248895.00" t="ExcludeRecursive" />
-    <e p="C:\Users\jonat\Git Repos\2670UVU\UnityMasterProj" t="IncludeRecursive">
+    <e p="C:\Users\10795516\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_UnityMasterProj.-1578912171.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10795516\Git Repos\2670UVU\UnityMasterProj" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -25,38 +25,61 @@
           <e p="AnimalBehavior.cs" t="Include" />
           <e p="AnimalMove.cs" t="Include" />
           <e p="Character" t="Include">
-            <e p="KnockBack.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
-            <e p="PlayerDeath.cs" t="Include" />
-            <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerLook.cs" t="Include" />
             <e p="PlayerMotor.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />
             <e p="SpawnCharacter.cs" t="Include" />
-            <e p="UIHandler.cs" t="Include" />
+          </e>
+          <e p="DamageAndHealth" t="Include">
+            <e p="Damager.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
           </e>
           <e p="Elemental.cs" t="Include" />
           <e p="ElementManager.cs" t="Include" />
           <e p="ElementPickup.cs" t="Include" />
-          <e p="Enemy" t="Include">
-            <e p="DamagePlayer.cs" t="Include" />
-            <e p="EnemySpawn.cs" t="Include" />
-            <e p="EnimyNavigation.cs" t="Include" />
-          </e>
+          <e p="EnimyNavigation.cs" t="Include" />
+          <e p="GameStateManager.cs" t="Include" />
+          <e p="InputHandler.cs" t="Include" />
           <e p="MeteorCrash.cs" t="Include" />
           <e p="MeteorSpawn.cs" t="Include" />
+          <e p="MisFunctions" t="Include">
+            <e p="DelayedDeactivate.cs" t="Include" />
+          </e>
           <e p="Player.cs" t="Include" />
           <e p="Refresh.cs" t="Include" />
           <e p="RefreshEditor.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
+            <e p="Element.cs" t="Include" />
+            <e p="Kyle'sScriptableAbilities" t="Include">
+              <e p="PeachJump_Use_Script.cs" t="Include" />
+              <e p="SO_Recovery_PeachJump.cs" t="Include" />
+              <e p="WanderAI.cs" t="Include" />
+            </e>
             <e p="SO_EnemySmall.cs" t="Include" />
             <e p="SO_Melee.cs" t="Include" />
             <e p="SO_Player.cs" t="Include" />
             <e p="SO_Recovery.cs" t="Include" />
+            <e p="SO_ThrustAbility" t="Include">
+              <e p="SO_AOE.cs" t="Include" />
+              <e p="SO_JumpAbility.cs" t="Include" />
+              <e p="SO_ThrustAbility.cs" t="Include" />
+            </e>
+            <e p="SpawnPrototype(Fritz)" t="Include">
+              <e p="Enemy.cs" t="Include" />
+              <e p="EnemySpawner.cs" t="Include" />
+              <e p="Round.cs" t="Include" />
+            </e>
           </e>
           <e p="UI" t="Include">
+            <e p="ABS_UI.cs" t="Include" />
+            <e p="CanvasManager.cs" t="Include" />
             <e p="CursorFollow.cs" t="Include" />
+            <e p="DisplayMenu.cs" t="Include" />
+            <e p="MenuMethods.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
+            <e p="SO_UIMenu.cs" t="Include" />
+            <e p="UIHandler.cs" t="Include" />
           </e>
         </e>
         <e p="Shaders" t="Include">
