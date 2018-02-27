@@ -8,19 +8,20 @@ public class SpawnCharacter : MonoBehaviour {
 	public GameObject[] playerSpawnLocation;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		player.transform.position = playerSpawnLocation[Random.Range(0, playerSpawnLocation.Length)].transform.position;
 	}
-	
-	// Update is called once per frame
-	void Update () 
+
+	void OnTriggerEnter(Collider other)
 	{
-		if (Input.GetKeyDown ("q")) {
-			spawnPlayer ();
+		if(other.gameObject.tag == "Player")
+		{
+			SpawnPlayer();
 		}
 	}
 
-	public void spawnPlayer ()
+	public void SpawnPlayer ()
 	{
 		player.transform.position = playerSpawnLocation[Random.Range(0, playerSpawnLocation.Length)].transform.position;
 		player.transform.rotation = playerSpawnLocation [Random.Range (0, playerSpawnLocation.Length)].transform.rotation;
