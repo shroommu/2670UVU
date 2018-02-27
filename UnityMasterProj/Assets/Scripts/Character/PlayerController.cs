@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
 	{
 		cc = GetComponent<CharacterController>();
 		weaponAnims = GetComponent<Animator>();
-        //canMove = true;
+        canMove = true;
 		primaryAbility.SetupAbility ();
 	}
 
