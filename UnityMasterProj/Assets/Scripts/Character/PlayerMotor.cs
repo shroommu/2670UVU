@@ -22,19 +22,15 @@ public class PlayerMotor : MonoBehaviour
     private Rigidbody rb;
     private CapsuleCollider col;
 
+    public GameObject gameStateManager;
+	private Animator gameStateMachine;
 
-    void Awake()
-	{
-		//Action Subscriptions
-		GameStateManager.IngameStateAction += StartGame;
-		GameStateManager.PregameStateAction += EndGame;
-		GameStateManager.PostgameStateAction += EndGame;
-	}
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         col = GetComponent<CapsuleCollider>();
+        gameStateMachine = gameStateManager.GetComponent<Animator>();
     }
 
     //runs when GameStateManager changes to InGame state
@@ -66,7 +62,7 @@ public class PlayerMotor : MonoBehaviour
     //Run Every Physics Iteration
     IEnumerator Movement()
     {
-        while(GameStateManager.canMove)
+        while(gameStateMachine.GetBool("canMove"))
         {
             PerformMovement();
             PerformRotation();

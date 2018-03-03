@@ -11,34 +11,24 @@ public class PlayerLook : MonoBehaviour
 
 	float xAxisClamp = 0.0f;
 
-	void Awake()
+	public GameObject gameStateManager;
+	private Animator gameStateMachine;
+
+	void Start()
 	{
-		//Action Subscriptions
-		GameStateManager.IngameStateAction += StartGame;
-		GameStateManager.PregameStateAction += EndGame;
-		GameStateManager.PostgameStateAction += EndGame;
+		gameStateMachine = gameStateManager.GetComponent<Animator>();
 	}
 
 	//runs when GameStateManager changes to InGame state
 	void StartGame()
 	{
-		//locks the cursor to the center of the screen and turns it invisible
-		Cursor.lockState = CursorLockMode.Locked;
-		print("locking cursor");
 		StartCoroutine(Look());
 	}
 
-	//runs when GameStateManager changes to PreGame or PostGame state
-	void EndGame()
-	{
-		Cursor.lockState = CursorLockMode.None;
-		print("unlocking cursor");
-		//PostGame State stuff goes here
-	}
 
 	IEnumerator Look()
 	{
-		while(GameStateManager.canMove){
+		while(gameStateMachine.GetBool("canMove")){
 			if (Time.timeScale == 1) 
 			{
 				float xRotation = Input.GetAxis("Mouse X") * mouseSensitivity;

@@ -8,76 +8,67 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour 
 {
 
-	public static bool gameIsPaused = false;
-
 	public GameObject pauseMenuUI;
 
-	void Awake()
+   	public GameObject gameStateManager;
+	private Animator gameStateMachine;
+
+	private bool gameRunning;
+	private bool pauseCheckRunning;
+
+	void Start()
 	{
-		//Action Subscriptions
-		GameStateManager.IngameStateAction += StartGame;
-		GameStateManager.PregameStateAction += EndGame;
-		GameStateManager.PostgameStateAction += EndGame;
+		gameStateMachine = gameStateManager.GetComponent<Animator>();
 	}
 
-	//runs when GameStateManager changes to InGame state
-	void StartGame()
+	//runs when GameStateManager changes to InGame state.
+	public void StartGame()
 	{
-		StartCoroutine(PauseCheck());
-	}
-
-	//runs when GameStateManager changes to PreGame or PostGame state
-	void EndGame()
-	{
-		//PostGame State stuff goes here
-		if(gameIsPaused)
+		gameRunning = true;
+		if(!pauseCheckRunning)
 		{
-			Resume();
+			StartCoroutine(PauseCheck());
 		}
-
-		Cursor.lockState = CursorLockMode.None;
 	}
 
-	// Checks for an escape key press, and pauses/unpauses.
+	public void EndGame()
+	{
+		gameRunning = false;
+	}
+
+	// Checks for an escape key press
 	IEnumerator PauseCheck () 
 	{
-		while(GameStateManager.canMove)
+		pauseCheckRunning = true;
+
+		while(gameRunning)
 		{
 			if (Input.GetKeyDown(KeyCode.Escape))
 			{
-				if (gameIsPaused)
-				{
-					Resume();
-					print("resuming");
-				} 
-				else
-				{
-					print("pausing");
-					Pause();
-				}
+				//checks isPaused bool in gameStateMachine, then sets to its opposite.
+				gameStateMachine.SetBool("isPaused", !gameStateMachine.GetBool("isPaused"));
 			}
 
 			yield return null;
 		}
+
+		pauseCheckRunning = false;
 	}
 
 	// Deactivates pause menu UI and resumes time.
 	public void Resume()
 	{
-		Cursor.lockState = CursorLockMode.Locked;
 		pauseMenuUI.SetActive(false);
 		Time.timeScale = 1f;
-		gameIsPaused = false;
-		print("game is resumed");
+
+		//sets isPaused to false when Resume button on Pause Menu is clicked
+		gameStateMachine.SetBool("isPaused", false);
 	}
 
 	// Activates pause menu UI and freezes time.
-	void Pause()
+	public void Pause()
 	{
-		Cursor.lockState = CursorLockMode.None;
 		pauseMenuUI.SetActive(true);
 		Time.timeScale = 0f;
-		gameIsPaused = true;
-		print("game is paused");
 	}
 }

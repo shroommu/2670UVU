@@ -16,35 +16,29 @@ public class PlayerController : MonoBehaviour
 
 	private Animator weaponAnims;
 
+	public GameObject gameStateManager;
+	private Animator gameStateMachine;
+
     public Transform CameraPos;
-
-    private bool canMove = false;
-
-	void Awake()
-	{
-		//Action Subscriptions
-		GameStateManager.IngameStateAction += StartGame;
-		GameStateManager.PregameStateAction += EndGame;
-		GameStateManager.PostgameStateAction += EndGame;
-	}
 
 	void Start() 
 	{
 		cc = GetComponent<CharacterController>();
 		weaponAnims = GetComponent<Animator>();
+		gameStateMachine = gameStateManager.GetComponent<Animator>();
 
 		primaryAbility.SetupAbility ();
 	}
 
 	//starts input check to allow player movement
 	//runs when GameStateManager changes to InGame state
-	void StartGame()
+	public void StartGame()
 	{
 		StartCoroutine(InputCheck());
 	}
 
 	//runs when GameStateManager changes to PreGame or PostGame state
-	void EndGame()
+	public void EndGame()
 	{
 		//PostGame State stuff goes here
 		return;	
@@ -52,7 +46,7 @@ public class PlayerController : MonoBehaviour
 
 	IEnumerator InputCheck() 
 	{
-		while(GameStateManager.canMove)
+		while(gameStateMachine.GetBool("canMove"))
         {
             MoveInput();
 
@@ -157,7 +151,6 @@ public class PlayerController : MonoBehaviour
 
 	IEnumerator Impact(ABS_Abilities _ability)
 	{
-		//canMove = false;
 		while (cc.isGrounded != true)
 		{
 			print("I believe I can fly!");
@@ -168,14 +161,13 @@ public class PlayerController : MonoBehaviour
 			_ability.SetImpactLoc (cc.transform.position);
 			//play smash animation
 		}*/
-		canMove = true;
 	}
 	
     IEnumerator AbilityMove(List<Vector3> _posList)
 	{						//takes a list of positions
         if (_posList != null)												//double checks to make sure theres a place to move
         {
-            canMove = false;												//disables movement
+            gameStateMachine.SetBool("canMove", false);												//disables movement
             yield return null;												//waits for a frame
             cc.Move(_posList[0] - this.transform.position);
 																			//moves the character to the starting position
@@ -184,7 +176,8 @@ public class PlayerController : MonoBehaviour
                 yield return null;											//waits for a frame
                 cc.Move(_posList[i + 1] - _posList[i]);						//moves the player to next position
             }
-            canMove = true;													//allows the player to move again
+            gameStateMachine.SetBool("canMove", true);	
+			StartCoroutine(InputCheck());												//allows the player to move again
         }
     }
 }
