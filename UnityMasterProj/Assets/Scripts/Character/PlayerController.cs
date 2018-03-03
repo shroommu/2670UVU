@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// This class controls player movement based off the information contained in the Player scriptable object
+// This class controlls player movement based off the information contained in the Player scriptable object
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour 
 {
@@ -16,43 +16,45 @@ public class PlayerController : MonoBehaviour
 
 	private Animator weaponAnims;
 
-	public GameObject gameStateManager;
-	private Animator gameStateMachine;
-
     public Transform CameraPos;
+
+    private bool canMove = false;
+
+	void Awake()
+	{
+		//Action Subscriptions
+		GameStateManager.IngameStateAction += StartGame;
+		GameStateManager.PregameStateAction += EndGame;
+		GameStateManager.PostgameStateAction += EndGame;
+	}
 
 	void Start() 
 	{
 		cc = GetComponent<CharacterController>();
 		weaponAnims = GetComponent<Animator>();
-		gameStateMachine = gameStateManager.GetComponent<Animator>();
-
+        canMove = true;
 		primaryAbility.SetupAbility ();
 	}
 
-	//starts input check to allow player movement
-	//runs when GameStateManager changes to InGame state
-	public void StartGame()
+	//this allows the player to move when a new game is started
+	void StartGame()
 	{
-		StartCoroutine(InputCheck());
+		canMove = true;
 	}
 
-	//runs when GameStateManager changes to PreGame or PostGame state
-	public void EndGame()
+	//this prevents the player from moving when the game ends or hasn't been started
+	void EndGame()
 	{
-		//PostGame State stuff goes here
-		return;	
+		canMove = false;
 	}
 
-	IEnumerator InputCheck() 
+	void Update() 
 	{
-		while(gameStateMachine.GetBool("canMove"))
+        if (canMove)
         {
             MoveInput();
 
             AbilityInput ();
-
-			yield return null;
         }
 	}
 
@@ -151,6 +153,7 @@ public class PlayerController : MonoBehaviour
 
 	IEnumerator Impact(ABS_Abilities _ability)
 	{
+		//canMove = false;
 		while (cc.isGrounded != true)
 		{
 			print("I believe I can fly!");
@@ -161,13 +164,14 @@ public class PlayerController : MonoBehaviour
 			_ability.SetImpactLoc (cc.transform.position);
 			//play smash animation
 		}*/
+		canMove = true;
 	}
 	
     IEnumerator AbilityMove(List<Vector3> _posList)
 	{						//takes a list of positions
         if (_posList != null)												//double checks to make sure theres a place to move
         {
-            gameStateMachine.SetBool("canMove", false);												//disables movement
+            canMove = false;												//disables movement
             yield return null;												//waits for a frame
             cc.Move(_posList[0] - this.transform.position);
 																			//moves the character to the starting position
@@ -176,8 +180,7 @@ public class PlayerController : MonoBehaviour
                 yield return null;											//waits for a frame
                 cc.Move(_posList[i + 1] - _posList[i]);						//moves the player to next position
             }
-            gameStateMachine.SetBool("canMove", true);	
-			StartCoroutine(InputCheck());												//allows the player to move again
+            canMove = true;													//allows the player to move again
         }
     }
 }
