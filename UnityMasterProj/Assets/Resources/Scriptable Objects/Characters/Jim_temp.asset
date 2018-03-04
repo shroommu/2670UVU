@@ -8,12 +8,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bf8484577caca7409bf84db7c595f55, type: 3}
-  m_Name: TestPlayer
+  m_Script: {fileID: 11500000, guid: fbbd8d883539e40f3a2da5a8c790d292, type: 3}
+  m_Name: Jim_temp
   m_EditorClassIdentifier: 
-  name: Dummy
-  currentElement: 5
-  animals:
-  - {fileID: 0}
-  - {fileID: 0}
+  lookSensitivity: 3
+  name: 
+  gravity: 14
+  jumpForce: 10
+  jumpCount: 0
+  jumpLimit: 1
+  walkSpeed: 5
+  runSpeed: 10
+  currentElement: 0
+  animals: []
   currentAnimal: {fileID: 0}

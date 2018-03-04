@@ -1,31 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
+//removed all UI references. Element UI is now handled by DisplayElement class -AMK
+
 public class ElementManager : MonoBehaviour {
 	public SO_Player player;
-	private Animal animal;
-	public Text elementTxt;
-	public Image symbol0;
-	public Image symbol1;
 
-	void Start(){
+	void Start()
+	{
 		player.animals.Clear ();
 		player.currentElement = Elemental.elementType.Neutral;
-		elementTxt = GameObject.Find("Element_Display_Text").GetComponent<Text>();
-		symbol0 = GameObject.Find("ElementImage0").GetComponent<Image>();
-		symbol1 = GameObject.Find("ElementImage1").GetComponent<Image>();
 		player.currentAnimal = null;
 	}
 
-	void Update(){
-		if (Input.GetKeyDown (KeyCode.Q)) {
-			if (player.animals.Count == 2) {
+	void Update()
+	{
+		if (Input.GetKeyDown (KeyCode.Q))
+		{
+			if (player.animals.Count == 2)
+			{
 				SwapElements ();
 			}
 		}
 	}
-	void SwapElements(){
+
+	void SwapElements()
+	{
 		GameObject _temp = player.animals [1];
 		player.animals [1] = player.animals [0];
 
@@ -34,9 +35,6 @@ public class ElementManager : MonoBehaviour {
 
 		player.animals [1].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Pose1;
 		player.animals [0].GetComponent<AnimalMove>().animalMoveState = AnimalMove.moveState.Pose0;
-		elementTxt.text = "" + player.animals[0].GetComponent<AnimalBehavior>().animal.type;
 		player.currentElement = player.animals[0].GetComponent<AnimalBehavior>().animal.type;
-		symbol0.sprite = player.animals[0].GetComponent<AnimalBehavior>().animal.symbol;
-		symbol1.sprite = player.animals[1].GetComponent<AnimalBehavior>().animal.symbol;
 	}
 }
