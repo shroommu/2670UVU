@@ -4,16 +4,18 @@ using UnityEngine;
 
 //removed all UI references. Element UI is now handled by DisplayElement class -AMK
 
-//script is to be put on the player. 
+//script is to be put on animals
 public class ElementPickup : MonoBehaviour {
 
-	public SO_Player player;
+	public GameObject player;
+	private ElementManager playerElement;
 	private Animal animal;
 	private Renderer rend;
 	private bool mouseOver;
 
-	void Start()
+	public void Start()
 	{
+		playerElement = player.GetComponent<ElementManager>();
 		animal = GetComponent<AnimalBehavior> ().animal;
 		rend = GetComponent<Renderer> ();
 	}
@@ -24,13 +26,14 @@ public class ElementPickup : MonoBehaviour {
 		{
 			PickUpElement ();
 		}
-
 	}
+
 	void OnMouseOver()
 	{
 		mouseOver = true;
 		rend.material.SetFloat ("_Outline", 1);
 	}
+	
 	void OnMouseExit()
 	{
 		mouseOver = false;
@@ -39,36 +42,39 @@ public class ElementPickup : MonoBehaviour {
 		
 	void PickUpElement()
 	{
-		switch (player.animals.Count)
+		switch (playerElement.animals.Count)
 		{
-			case 1:
-				player.animals.Add (gameObject);
-				player.animals [1] = gameObject;
-				player.animals [1].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Pose1;
-				print ("pickingup another element");
-				player.animals [1].GetComponent<Rigidbody> ().useGravity = false;
-				player.animals [1].GetComponent<BoxCollider> ().isTrigger = true;
-
-				break;
-
 			case 0:
-				player.animals.Add (gameObject);
-				player.animals [0] = gameObject;
-				player.animals [0].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Pose0;
-				player.currentAnimal = gameObject;
-				player.currentElement = animal.type;
-				print ("picking up first element");
-				player.animals [0].GetComponent<Rigidbody> ().useGravity = false;
-				player.animals [0].GetComponent<BoxCollider> ().isTrigger = true;
+				print("picking up first element");
+				playerElement.animals.Add (gameObject);
+				playerElement.animals [0] = gameObject;
+				playerElement.animals [0].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Pose0;
+
+				playerElement.currentAnimal = gameObject;
+				playerElement.currentElement = animal.type;
+
+				playerElement.animals [0].GetComponent<Rigidbody> ().useGravity = false;
+				playerElement.animals [0].GetComponent<BoxCollider> ().isTrigger = true;
 
 				break;
+
+			case 1:
+				print("picking up second element");
+				playerElement.animals.Add (gameObject);
+				playerElement.animals [1] = gameObject;
+				playerElement.animals [1].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Pose1;
+				playerElement.animals [1].GetComponent<Rigidbody> ().useGravity = false;
+				playerElement.animals [1].GetComponent<BoxCollider> ().isTrigger = true;
+
+				break;			
 				
 			case 2:
+				print("dropping secondary element");
 				DropElement ();
-				player.animals [1] = gameObject;
-				player.animals [1].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Pose1;
-				player.animals [1].GetComponent<Rigidbody> ().useGravity = false;
-				player.animals [1].GetComponent<BoxCollider> ().isTrigger = true;
+				playerElement.animals [1] = gameObject;
+				playerElement.animals [1].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Pose1;
+				playerElement.animals [1].GetComponent<Rigidbody> ().useGravity = false;
+				playerElement.animals [1].GetComponent<BoxCollider> ().isTrigger = true;
 
 				break;
 		}
@@ -76,20 +82,21 @@ public class ElementPickup : MonoBehaviour {
 
 	void DropElement()
 	{
-		player.animals [0].GetComponent<Rigidbody> ().useGravity = true;
-		player.animals [0].GetComponent<BoxCollider> ().isTrigger = false;
-		player.animals [0].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Sitting;
+		playerElement.animals [0].GetComponent<Rigidbody> ().useGravity = true;
+		playerElement.animals [0].GetComponent<BoxCollider> ().isTrigger = false;
+		playerElement.animals [0].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Sitting;
 
-		if (player.animals.Count == 2)
+		if (playerElement.animals.Count == 2)
 		{
-			player.currentAnimal = player.animals [1];
-			player.animals [0] = player.animals [1];
-			player.animals [0].GetComponent<AnimalMove>().animalMoveState = AnimalMove.moveState.Pose0;
-		} 
+			playerElement.currentAnimal = playerElement.animals [1];
+			playerElement.animals [0] = playerElement.animals [1];
+			playerElement.animals [0].GetComponent<AnimalMove>().animalMoveState = AnimalMove.moveState.Pose0;
+		}
+
 		else
 		{
-			player.currentAnimal = null;
-			player.animals [0] = null;
+			playerElement.currentAnimal = null;
+			playerElement.animals [0] = null;
 		}
 	}
 }

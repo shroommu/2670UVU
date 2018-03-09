@@ -5,20 +5,26 @@ using UnityEngine;
 //removed all UI references. Element UI is now handled by DisplayElement class -AMK
 
 public class ElementManager : MonoBehaviour {
-	public SO_Player player;
+	private SO_Player player;
 
-	void Start()
+	public Elemental.elementType currentElement = Elemental.elementType.Neutral;
+	public List<GameObject> animals;
+	public GameObject currentAnimal;
+
+	//called with StartGameState GameEvent
+	public void StartGame()
 	{
-		player.animals.Clear ();
-		player.currentElement = Elemental.elementType.Neutral;
-		player.currentAnimal = null;
+		player = GetComponent<PlayerController>().player;
+		animals.Clear ();
+		currentElement = Elemental.elementType.Neutral;
+		currentAnimal = null;
 	}
 
 	void Update()
 	{
 		if (Input.GetKeyDown (KeyCode.Q))
 		{
-			if (player.animals.Count == 2)
+			if (animals.Count == 2)
 			{
 				SwapElements ();
 			}
@@ -27,14 +33,14 @@ public class ElementManager : MonoBehaviour {
 
 	void SwapElements()
 	{
-		GameObject _temp = player.animals [1];
-		player.animals [1] = player.animals [0];
+		GameObject _temp = animals [1];
+		animals [1] = animals [0];
 
-		player.animals [0] = _temp;
-		player.currentAnimal = _temp;
+		animals [0] = _temp;
+		currentAnimal = _temp;
 
-		player.animals [1].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Pose1;
-		player.animals [0].GetComponent<AnimalMove>().animalMoveState = AnimalMove.moveState.Pose0;
-		player.currentElement = player.animals[0].GetComponent<AnimalBehavior>().animal.type;
+		animals [1].GetComponent<AnimalMove> ().animalMoveState = AnimalMove.moveState.Pose1;
+		animals [0].GetComponent<AnimalMove>().animalMoveState = AnimalMove.moveState.Pose0;
+		currentElement = animals[0].GetComponent<AnimalBehavior>().animal.type;
 	}
 }

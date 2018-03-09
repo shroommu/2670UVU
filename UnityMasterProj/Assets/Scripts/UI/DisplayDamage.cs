@@ -3,29 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DisplayHealth : MonoBehaviour {
+public class DisplayDamage : MonoBehaviour {
 
-	public GameObject health100meter;
-	public GameObject health200meter;
-	public GameObject health300meter;
+	public GameObject damage100meter;
+	public GameObject damage200meter;
+	public GameObject damage300meter;
 
-	private Image health100img;
-	private Image health200img;
-	private Image health300img;
+	private Image damage100img;
+	private Image damage200img;
+	private Image damage300img;
+
+	public Text damagePercent;
 	private int damage;
 	public GameObject player;
 	private Animator playerAnim;
 
-	void Start()
+	public void StartGame()
 	{
-		health100img = health100meter.GetComponent<Image>();
-		health200img = health200meter.GetComponent<Image>();
-		health300img = health300meter.GetComponent<Image>();
+		damage100img = damage100meter.GetComponent<Image>();
+		damage200img = damage200meter.GetComponent<Image>();
+		damage300img = damage300meter.GetComponent<Image>();
 
 		playerAnim = player.GetComponent<Animator>();
 	}
 
-	public void Display()
+	//updates damage meter display
+	public void DisplayMeter()
 	{
 		damage = playerAnim.GetInteger("damage");
 
@@ -46,7 +49,7 @@ public class DisplayHealth : MonoBehaviour {
 
 				print("increasing fill of green meter");
 				print(damage / 100);
-				health100img.fillAmount = (float_damage / 100);
+				damage100img.fillAmount = (float_damage / 100);
 
 				break;
 
@@ -54,8 +57,8 @@ public class DisplayHealth : MonoBehaviour {
 			case 1:
 
 				print("increasing fill of yellow meter");
-				health100img.fillAmount = (float_damage / 100);
-				health200img.fillAmount = ((float_damage / 100) - 1);
+				damage100img.fillAmount = (float_damage / 100);
+				damage200img.fillAmount = ((float_damage / 100) - 1);
 
 				break;
 
@@ -63,9 +66,9 @@ public class DisplayHealth : MonoBehaviour {
 			case 2:
 
 				print("increasing fill of red meter");
-				health100img.fillAmount = (float_damage / 100);
-				health200img.fillAmount = ((float_damage / 100) - 1);
-				health300img.fillAmount = ((float_damage / 100) - 2);
+				damage100img.fillAmount = (float_damage / 100);
+				damage200img.fillAmount = ((float_damage / 100) - 1);
+				damage300img.fillAmount = ((float_damage / 100) - 2);
 
 				break;
 
@@ -73,9 +76,17 @@ public class DisplayHealth : MonoBehaviour {
 			case 3:
 
 				print("maximum damage");
-				health300img.fillAmount = (float_damage / 100);
+				damage300img.fillAmount = (float_damage / 100);
 
 				break;
 		}
+	}
+
+	//updates damage percentage display
+	public void DisplayPercent()
+	{
+        damage = playerAnim.GetInteger("damage");
+
+		damagePercent.text = damage + "%";
 	}
 }
