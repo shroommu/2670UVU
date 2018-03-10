@@ -7,6 +7,11 @@ public class Animal : ScriptableObject{
 	public new string name;
 	public Sprite symbol;
 	public Elemental.elementType type;
+	public Elemental.elementType elementStrengthOne;
+	public Elemental.elementType elementStrengthTwo;
+	public Elemental.elementType elementWeakness;
 
-
+	public int elementStrengthPathOne;
+	public int elementStrengthPathTwo;
+	public int elementWeaknessPath;
 }

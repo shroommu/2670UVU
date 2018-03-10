@@ -14,3 +14,9 @@ MonoBehaviour:
   name: Strelka
   symbol: {fileID: 21300000, guid: 8ee85cb6e4a03a94b9105b66a8d01efc, type: 3}
   type: 2
+  elementStrengthOne: 1
+  elementStrengthTwo: 5
+  elementWeakness: 4
+  elementStrengthPathOne: 6
+  elementStrengthPathTwo: 4
+  elementWeaknessPath: 5

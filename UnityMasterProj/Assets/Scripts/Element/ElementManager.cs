@@ -7,7 +7,7 @@ using UnityEngine;
 public class ElementManager : MonoBehaviour {
 	private SO_Player player;
 
-	public Elemental.elementType currentElement = Elemental.elementType.Neutral;
+	public Elemental.elementType currentElement = Elemental.elementType.NEUTRAL;
 	public List<GameObject> animals;
 	public GameObject currentAnimal;
 
@@ -16,7 +16,7 @@ public class ElementManager : MonoBehaviour {
 	{
 		player = GetComponent<PlayerController>().player;
 		animals.Clear ();
-		currentElement = Elemental.elementType.Neutral;
+		currentElement = Elemental.elementType.NEUTRAL;
 		currentAnimal = null;
 	}
 

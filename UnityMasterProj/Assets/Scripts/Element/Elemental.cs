@@ -3,5 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Elemental  {
-	public  enum elementType {Neutral,Fire,Water,Wind,Lightning,Earth};
+	public enum elementType {
+		NEUTRAL,
+		FIRE,
+		WATER,
+		WIND,
+		LIGHTNING,
+		EARTH
+		}
 }

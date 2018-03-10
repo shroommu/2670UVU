@@ -14,3 +14,9 @@ MonoBehaviour:
   name: Pasha
   symbol: {fileID: 21300000, guid: 40de4fbda2adb994eb495e3a64945e58, type: 3}
   type: 3
+  elementStrengthOne: 4
+  elementStrengthTwo: 2
+  elementWeakness: 5
+  elementStrengthPathOne: 1
+  elementStrengthPathTwo: 3
+  elementWeaknessPath: 0
