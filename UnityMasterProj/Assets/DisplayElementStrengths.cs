@@ -5,13 +5,17 @@ using UnityEngine.UI;
 
 public class DisplayElementStrengths : MonoBehaviour {
 
+	[Tooltip("List should match order of elementPathImgs in hierarchy")]
 	public List<Image> elementPathImgs;
+
+	[Tooltip("Element 0 must be left blank")]
 	public List<Image> elementGemImgs;
 
 	public Image activeElementGlow;
 
 	public Material strongMat;
 	public Material weakMat;
+	public Material inactiveMat;
 
 	public GameObject player;
 	private ElementManager elementManager;
@@ -28,20 +32,20 @@ public class DisplayElementStrengths : MonoBehaviour {
 		Image _elementWeaknessImg;
 		Image _activeElementGemImg;
 
-		Animal _animal;
+		SO_Elemental _elemental;
 
 		//saves player's current element to a temp variable
-		_animal = elementManager.currentAnimal.GetComponent<AnimalBehavior>().animal;
+		_elemental = elementManager.currentElemental.GetComponent<ElementalController>().so_Elemental;
 
 		//checks player's current animal SO for strength and weakness data
-		_elementStrengthOneImg = elementPathImgs[_animal.elementStrengthPathOne];
-		_elementStrengthTwoImg = elementPathImgs[_animal.elementStrengthPathTwo];
-		_elementWeaknessImg = elementPathImgs[_animal.elementWeaknessPath];
+		_elementStrengthOneImg = elementPathImgs[_elemental.elementStrengthPathOne];
+		_elementStrengthTwoImg = elementPathImgs[_elemental.elementStrengthPathTwo];
+		_elementWeaknessImg = elementPathImgs[_elemental.elementWeaknessPath];
 
-		//resets all element paths to white
+		//resets all element paths to inactivePathMat
 		foreach (Image i in elementPathImgs)
 		{
-			i.color = new Color(255, 255, 255, 100);
+			i.color = inactiveMat.color;
 		}
 
 		//moves the appropriate elementPathImgs to the front of their component for proper display
@@ -55,9 +59,7 @@ public class DisplayElementStrengths : MonoBehaviour {
 		_elementWeaknessImg.color = weakMat.color;
 		
 		//makes active element glow
-		_activeElementGemImg = elementGemImgs[(int)_animal.type];
-		print(_animal.type);
-		print((int)_animal.type);
+		_activeElementGemImg = elementGemImgs[(int)_elemental.type];
 		activeElementGlow.transform.position = _activeElementGemImg.transform.position;
 	}
 }

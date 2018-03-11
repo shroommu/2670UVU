@@ -20,21 +20,21 @@ public class DisplayElement : MonoBehaviour {
 	public void Display()
 	{
 		//checks to make sure that the player has picked up  element
-		switch(elementManager.animals.Count)
+		switch(elementManager.elementals.Count)
 		{
 			case 0:
 				
 				break;
 				
 			case 1:
-				//checks ElementManager for the primary or secondary element as determined by elementNum, then changes sprite to the corresponding animal's symbol.
-				primaryElementImg.sprite = elementManager.animals[0].GetComponent<AnimalBehavior>().animal.symbol;
+				//checks ElementManager for the primary or secondary element as determined by elementNum, then changes sprite to the corresponding elemental's symbol.
+				primaryElementImg.sprite = elementManager.elementals[0].GetComponent<ElementalController>().so_Elemental.symbol;
 				break;
 
 			case 2:
 				
-				primaryElementImg.sprite = elementManager.animals[0].GetComponent<AnimalBehavior>().animal.symbol;
-				secondaryElementImg.sprite = elementManager.animals[1].GetComponent<AnimalBehavior>().animal.symbol;
+				primaryElementImg.sprite = elementManager.elementals[0].GetComponent<ElementalController>().so_Elemental.symbol;
+				secondaryElementImg.sprite = elementManager.elementals[1].GetComponent<ElementalController>().so_Elemental.symbol;
 				break;				
 		}
 	}
