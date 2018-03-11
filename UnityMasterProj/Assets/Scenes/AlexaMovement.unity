@@ -1114,7 +1114,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 81086090}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.5, y: -19, z: -87.1}
+  m_LocalPosition: {x: 41.5, y: 1, z: -87.1}
   m_LocalScale: {x: 5.022882, y: 0.42063364, z: 5.0228796}
   m_Children: []
   m_Father: {fileID: 961443524}
@@ -2332,7 +2332,7 @@ GameObject:
   - component: {fileID: 236023533}
   - component: {fileID: 236023534}
   m_Layer: 0
-  m_Name: Earth_Animal
+  m_Name: EarthElemental
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3680,7 +3680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meteor: {fileID: 1396774582}
-  target: {fileID: 0}
+  target: {fileID: 1097222019}
   minX: 20
   maxX: -20
   minY: 20
@@ -3924,8 +3924,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 460071619}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.75, y: 1.25, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.75, z: -1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 895105451}
   m_RootOrder: 2
@@ -6285,7 +6285,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 653987974}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.5, y: -19, z: -0.4}
+  m_LocalPosition: {x: 33.5, y: 1, z: -0.4}
   m_LocalScale: {x: 5.022882, y: 0.42063364, z: 5.0228796}
   m_Children: []
   m_Father: {fileID: 961443524}
@@ -7408,7 +7408,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 812246882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -53.29, y: -19, z: -38.4}
+  m_LocalPosition: {x: -53.29, y: 1, z: -38.4}
   m_LocalScale: {x: 5.022882, y: 0.42063364, z: 5.0228796}
   m_Children: []
   m_Father: {fileID: 961443524}
@@ -8516,7 +8516,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 895105445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.32, y: 76.9, z: 13.74}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1211578544}
@@ -8538,7 +8538,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 0
   elementManager: {fileID: 0}
-  currentElement: 0
 --- !u!114 &895105453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8755,7 +8754,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 898885170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.75, y: 1.25, z: -1}
+  m_LocalPosition: {x: 0, y: 1.25, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 895105451}
@@ -9158,7 +9157,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 961443523}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.156189, y: 20.8, z: -1.9803505}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 653987979}
@@ -9356,7 +9355,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 981450470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.4561892, y: -19, z: 68.1}
+  m_LocalPosition: {x: -2.4561892, y: 1, z: 68.1}
   m_LocalScale: {x: 5.022882, y: 0.42063364, z: 5.0228796}
   m_Children: []
   m_Father: {fileID: 961443524}
@@ -9498,6 +9497,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 998257034}
+--- !u!1 &1016715789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1016715790}
+  m_Layer: 0
+  m_Name: PlayerSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1016715790
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1016715789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1052192161
 GameObject:
   m_ObjectHideFlags: 0
@@ -10043,6 +10070,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOpen: 0
+--- !u!1 &1097222018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1097222019}
+  m_Layer: 0
+  m_Name: MeteorTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097222019
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097222018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1104266880
 GameObject:
   m_ObjectHideFlags: 0
@@ -11521,7 +11576,7 @@ GameObject:
   - component: {fileID: 1225281345}
   - component: {fileID: 1225281346}
   m_Layer: 0
-  m_Name: Fire_Animal
+  m_Name: FireElemental
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13051,7 +13106,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13083,15 +13138,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 16.188963
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalScale.y
-      value: 16.188967
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalScale.z
-      value: 16.188967
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
@@ -13199,14 +13254,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad7a055bf2fbb44a8f2f6d12521cce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  animals:
-  - {fileID: 1556595257}
-  - {fileID: 1225281343}
+  target: {fileID: 1097222019}
+  elementals:
   - {fileID: 236023531}
-  - {fileID: 1970059072}
+  - {fileID: 1225281343}
   - {fileID: 2112689913}
-  body: {fileID: 0}
+  - {fileID: 1556595257}
+  - {fileID: 1970059072}
   speed: 50
 --- !u!23 &1396774584
 MeshRenderer:
@@ -13303,7 +13357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1407903736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13317,8 +13371,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 895105445}
   playerSpawnLocation:
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
 --- !u!65 &1407903737
 BoxCollider:
@@ -14602,7 +14654,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1536730676}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.956188, y: -19, z: -75}
+  m_LocalPosition: {x: -24.956188, y: 1, z: -75}
   m_LocalScale: {x: 5.022882, y: 0.42063364, z: 5.0228796}
   m_Children: []
   m_Father: {fileID: 961443524}
@@ -14779,7 +14831,7 @@ GameObject:
   - component: {fileID: 1556595259}
   - component: {fileID: 1556595260}
   m_Layer: 0
-  m_Name: Water_Animal
+  m_Name: WaterElemental
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19276,7 +19328,7 @@ GameObject:
   - component: {fileID: 1970059074}
   - component: {fileID: 1970059075}
   m_Layer: 0
-  m_Name: Wind_Animal
+  m_Name: WindElemental
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20585,7 +20637,7 @@ GameObject:
   - component: {fileID: 2112689915}
   - component: {fileID: 2112689916}
   m_Layer: 0
-  m_Name: Lightning_Animal
+  m_Name: LightningElemental
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
